@@ -30,19 +30,64 @@ const state = {
 // ==========================================================================
 // WELCOME MODAL & STUDENT LOGIN
 // ==========================================================================
+const ACCESS_PASSWORD = 'PRACTICEWRITING';
+
+function togglePasswordVisibility() {
+  const pwdInput = document.getElementById('student-password');
+  const icon = document.getElementById('toggle-pwd-icon');
+  if (!pwdInput) return;
+  if (pwdInput.type === 'password') {
+    pwdInput.type = 'text';
+    if (icon) {
+      icon.classList.remove('fa-eye');
+      icon.classList.add('fa-eye-slash');
+    }
+  } else {
+    pwdInput.type = 'password';
+    if (icon) {
+      icon.classList.remove('fa-eye-slash');
+      icon.classList.add('fa-eye');
+    }
+  }
+}
+
 function enterRoom() {
   const studentInput = document.getElementById('student-name');
   const studentClassInput = document.getElementById('student-class');
+  const studentPasswordInput = document.getElementById('student-password');
   const loginError = document.getElementById('login-error');
   const startBtn = document.getElementById('start-btn');
   
   const nameVal = (studentInput?.value || '').trim();
   const classVal = (studentClassInput?.value || '').trim();
+  const passwordVal = (studentPasswordInput?.value || '').trim();
   
   if (!nameVal || !classVal) {
     if (loginError) {
       loginError.textContent = 'Vui lòng nhập đầy đủ Họ tên và Lớp!';
       loginError.style.display = 'block';
+    }
+    return;
+  }
+
+  if (!passwordVal) {
+    if (loginError) {
+      loginError.textContent = 'Vui lòng nhập Mật khẩu lớp học!';
+      loginError.style.display = 'block';
+    }
+    if (studentPasswordInput) studentPasswordInput.focus();
+    return;
+  }
+
+  // So sánh mật khẩu (chấp nhận không phân biệt hoa thường để tránh lỗi CapsLock)
+  if (passwordVal.toUpperCase() !== ACCESS_PASSWORD.toUpperCase()) {
+    if (loginError) {
+      loginError.textContent = 'Mật khẩu không chính xác! Vui lòng thử lại.';
+      loginError.style.display = 'block';
+    }
+    if (studentPasswordInput) {
+      studentPasswordInput.focus();
+      studentPasswordInput.select();
     }
     return;
   }
@@ -110,8 +155,10 @@ document.addEventListener('DOMContentLoaded', () => {
   // Luôn làm trống hoàn toàn các ô nhập liệu, không để thông tin mặc định
   const nameInp = document.getElementById('student-name');
   const classInp = document.getElementById('student-class');
+  const pwdInp = document.getElementById('student-password');
   if (nameInp) nameInp.value = '';
   if (classInp) classInp.value = '';
+  if (pwdInp) pwdInp.value = '';
   const loginErr = document.getElementById('login-error');
   if (loginErr) loginErr.style.display = 'none';
 
