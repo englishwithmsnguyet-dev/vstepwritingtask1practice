@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PHÒNG LUYỆN VIẾT THƯ - VSTEP WRITING TASK 01</title>
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="styles.css?v=6.9">
+  <link rel="stylesheet" href="styles.css?v=7.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
@@ -24,13 +24,13 @@
       
       <div class="input-group-custom">
         <label for="student-class">MÃ LỚP HỌC:</label>
-        <input autocomplete="off" id="student-class" type="text" placeholder="Ví dụ: CB206" onkeydown="if(event.key==='Enter') enterRoom()" />
+        <input autocomplete="off" id="student-class" type="text" onkeydown="if(event.key==='Enter') enterRoom()" />
       </div>
 
       <div class="input-group-custom">
         <label for="student-password">MẬT KHẨU TRUY CẬP:</label>
         <div style="position: relative; width: 100%;">
-          <input autocomplete="off" id="student-password" type="password" placeholder="Nhập mật khẩu lớp học..." onkeydown="if(event.key==='Enter') enterRoom()" style="padding-right: 2.8rem !important;" />
+          <input autocomplete="off" id="student-password" type="password" onkeydown="if(event.key==='Enter') enterRoom()" style="padding-right: 2.8rem !important;" />
           <button type="button" onclick="togglePasswordVisibility()" style="position: absolute; right: 12px; top: 50%; transform: translateY(-50%); background: none; border: none; cursor: pointer; padding: 4px; display: flex; align-items: center; justify-content: center;" title="Hiện/Ẩn mật khẩu">
             <svg id="toggle-pwd-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#64748b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
@@ -696,11 +696,11 @@
         </p>
         <div>
           <label style="font-size: 0.8rem; font-weight: 700; color: var(--text-muted); display: block; margin-bottom: 0.35rem;">HỌ VÀ TÊN</label>
-          <input type="text" id="modalStudentNameInput" class="search-input" style="padding-left: 1rem;" placeholder="Ví dụ: Nguyễn Văn A">
+          <input type="text" id="modalStudentNameInput" class="search-input" style="padding-left: 1rem;">
         </div>
         <div>
           <label style="font-size: 0.8rem; font-weight: 700; color: var(--text-muted); display: block; margin-bottom: 0.35rem;">LỚP HỌC</label>
-          <input type="text" id="modalStudentClassInput" class="search-input" style="padding-left: 1rem;" placeholder="Ví dụ: CB206">
+          <input type="text" id="modalStudentClassInput" class="search-input" style="padding-left: 1rem;">
         </div>
         <button class="btn btn-primary" style="margin-top: 0.5rem; justify-content: center;" onclick="saveStudentProfile()">
           <i class="fa-solid fa-check"></i> XÁC NHẬN & BẮT ĐẦU HỌC
@@ -813,7 +813,7 @@
   <div id="toast-container"></div>
 
   <!-- Scripts -->
-  <script src="letters_db.js?v=6.9"></script>
-  <script src="app.js?v=6.9"></script>
+  <script src="letters_db.js?v=7.0"></script>
+  <script src="app.js?v=7.0"></script>
 </body>
 </html>

@@ -30,7 +30,7 @@ const state = {
 // ==========================================================================
 // WELCOME MODAL & STUDENT LOGIN
 // ==========================================================================
-const ACCESS_PASSWORD = 'PRACTICEWRITING';
+const ACCESS_PASSWORD = 'STUDYHARD';
 const ALLOWED_CLASSES = ['CB206', 'CB210'];
 
 function togglePasswordVisibility() {
