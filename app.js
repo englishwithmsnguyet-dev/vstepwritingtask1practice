@@ -115,17 +115,30 @@ function enterRoom() {
   localStorage.setItem('letter_student_profile', JSON.stringify(state.studentProfile));
   updateStudentDisplay();
 
-  // Gửi thông báo đăng nhập tới Google Forms
+  // Gửi thông báo đăng nhập tới Google Forms (https://forms.gle/evqBECvYyC5GruHa9)
   try {
     const now = new Date();
     const timeString = now.toLocaleTimeString('vi-VN') + ' ' + now.toLocaleDateString('vi-VN');
-    const finalData = `${nameVal} - Lớp ${classVal} - Đã vào phòng Luyện Viết Thư lúc ${timeString}`;
+    const finalData = `[LOGIN ĐĂNG NHẬP] ${nameVal} - Lớp ${classVal} - Vào học lúc ${timeString}`;
     const formInput = document.getElementById('gform_hidden_input');
     const formEl = document.getElementById('gform_hidden_form');
     if (formInput && formEl) {
-      formInput.value = `[LOGIN ĐĂNG NHẬP] ${finalData}`;
+      formInput.value = finalData;
       formEl.submit();
     }
+    // Gửi song song qua fetch no-cors để đảm bảo không bị chặn trên thiết bị di động / Safari
+    try {
+      const gFormData = new URLSearchParams();
+      gFormData.append('entry.1205151935', finalData);
+      gFormData.append('fvv', '1');
+      gFormData.append('pageHistory', '0');
+      fetch('https://docs.google.com/forms/d/e/1FAIpQLSeoioq4K8MM-mVJjLJsDGnQHU_8S-OZk1MxfbKgmdKl4kl_nw/formResponse', {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: gFormData.toString()
+      }).catch(() => {});
+    } catch (fe) {}
   } catch (e) {}
 
   // Đóng modal chào mừng mượt mà
@@ -6021,6 +6034,19 @@ function sendResultToTeacherReport(topic, userText, evalResult) {
       formEl.submit();
       console.log('Report submitted successfully to Miss Nguyet teacher portal');
     }
+    // Gửi song song qua fetch no-cors
+    try {
+      const gFormData = new URLSearchParams();
+      gFormData.append('entry.1205151935', reportData);
+      gFormData.append('fvv', '1');
+      gFormData.append('pageHistory', '0');
+      fetch('https://docs.google.com/forms/d/e/1FAIpQLSeoioq4K8MM-mVJjLJsDGnQHU_8S-OZk1MxfbKgmdKl4kl_nw/formResponse', {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: gFormData.toString()
+      }).catch(() => {});
+    } catch (fe) {}
   } catch (err) {
     console.error('Error reporting to teacher form:', err);
   }
