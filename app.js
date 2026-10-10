@@ -31,6 +31,7 @@ const state = {
 // WELCOME MODAL & STUDENT LOGIN
 // ==========================================================================
 const ACCESS_PASSWORD = 'PRACTICEWRITING';
+const ALLOWED_CLASSES = ['CB206', 'CB210'];
 
 function togglePasswordVisibility() {
   const pwdInput = document.getElementById('student-password');
@@ -59,14 +60,25 @@ function enterRoom() {
   const startBtn = document.getElementById('start-btn');
   
   const nameVal = (studentInput?.value || '').trim();
-  const classVal = (studentClassInput?.value || '').trim();
+  const rawClassVal = (studentClassInput?.value || '').trim();
+  const classVal = rawClassVal.toUpperCase().replace(/\s+/g, '');
   const passwordVal = (studentPasswordInput?.value || '').trim();
   
-  if (!nameVal || !classVal) {
+  if (!nameVal) {
     if (loginError) {
-      loginError.textContent = 'Vui lòng nhập đầy đủ Họ tên và Lớp!';
+      loginError.textContent = 'Vui lòng nhập đầy đủ Họ và tên!';
       loginError.style.display = 'block';
     }
+    if (studentInput) studentInput.focus();
+    return;
+  }
+
+  if (!classVal || !ALLOWED_CLASSES.includes(classVal)) {
+    if (loginError) {
+      loginError.textContent = 'Hệ thống hiện chỉ nhận học viên lớp CB206 hoặc CB210!';
+      loginError.style.display = 'block';
+    }
+    if (studentClassInput) studentClassInput.focus();
     return;
   }
 
@@ -233,7 +245,10 @@ function openStudentModal() {
   const classInput = document.getElementById('modalStudentClassInput');
   if (modal) {
     if (nameInput) nameInput.value = state.studentProfile.name || '';
-    if (classInput) classInput.value = state.studentProfile.class || '';
+    if (classInput) {
+      const curCls = (state.studentProfile.class || 'CB206').toUpperCase();
+      classInput.value = ALLOWED_CLASSES.includes(curCls) ? curCls : 'CB206';
+    }
     modal.classList.add('active');
   }
 }
@@ -247,10 +262,16 @@ function saveStudentProfile() {
   const nameInput = document.getElementById('modalStudentNameInput');
   const classInput = document.getElementById('modalStudentClassInput');
   const name = nameInput ? nameInput.value.trim() : '';
-  const cls = classInput ? classInput.value.trim() : '';
+  const rawCls = classInput ? classInput.value.trim() : '';
+  const cls = rawCls.toUpperCase().replace(/\s+/g, '');
   
   if (!name) {
     showToast('Vui lòng nhập Họ và Tên', 'warning');
+    return;
+  }
+
+  if (!cls || !ALLOWED_CLASSES.includes(cls)) {
+    showToast('Hệ thống hiện chỉ nhận lớp CB206 hoặc CB210!', 'warning');
     return;
   }
 
@@ -258,7 +279,7 @@ function saveStudentProfile() {
   localStorage.setItem('letter_student_profile', JSON.stringify(state.studentProfile));
   updateStudentDisplay();
   closeStudentModal();
-  showToast(`Xin chào học viên ${name}!`, 'success');
+  showToast(`Xin chào học viên ${name} (${cls})!`, 'success');
 }
 
 // ==========================================================================
