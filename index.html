@@ -13,26 +13,42 @@
   <!-- MÀN HÌNH CHÀO MỪNG / ĐĂNG NHẬP (WELCOME MODAL) -->
   <div class="modal-overlay active" id="welcome-modal">
     <div class="modal-card login-card-custom">
-      <div style="font-size: 1.05rem; font-weight: 700; color: #8b5cf6; margin-bottom: 0.25rem;">Welcome to Miss Nguyet's class!</div>
-      <div style="font-size: 1.25rem; font-weight: 800; color: #4338ca; margin-bottom: 1.25rem; letter-spacing: 0.5px;">VSTEP WRITING TASK 01</div>
-      <h2 class="login-title-custom" style="margin-top: 0; margin-bottom: 1.75rem;">NHẬP THÔNG TIN<br/>ĐỂ BẮT ĐẦU HỌC 🚀</h2>
+      <!-- Miss Nguyet Avatar Brand Ring -->
+      <div class="login-teacher-avatar-wrap">
+        <div class="login-teacher-halo">
+          <img src="miss_nguyet.jpg" alt="Miss Nguyet" class="login-teacher-avatar">
+        </div>
+        <span class="login-teacher-badge"><i class="fa-solid fa-certificate"></i> Lead Instructor</span>
+      </div>
+
+      <div class="login-brand-tag">
+        <i class="fa-solid fa-graduation-cap"></i> Welcome to Miss Nguyet's Class!
+      </div>
+      <div class="login-course-title">PHÒNG LUYỆN VIẾT THƯ – VSTEP WRITING TASK 01</div>
+      <h2 class="login-title-custom">NHẬP THÔNG TIN<br/>ĐỂ BẮT ĐẦU HỌC 🚀</h2>
       
       <div class="input-group-custom">
-        <label for="student-name">HỌ VÀ TÊN HỌC VIÊN:</label>
-        <input autocomplete="off" id="student-name" type="text" onkeydown="if(event.key==='Enter') enterRoom()" />
+        <label for="student-name">
+          <i class="fa-solid fa-user-pen" style="color: #6366f1;"></i> HỌ VÀ TÊN HỌC VIÊN:
+        </label>
+        <input autocomplete="off" id="student-name" type="text" placeholder="Nhập họ và tên học viên..." onkeydown="if(event.key==='Enter') enterRoom()" />
       </div>
       
       <div class="input-group-custom">
-        <label for="student-class">MÃ LỚP HỌC:</label>
-        <input autocomplete="off" id="student-class" type="text" onkeydown="if(event.key==='Enter') enterRoom()" />
+        <label for="student-class">
+          <i class="fa-solid fa-chalkboard-user" style="color: #06b6d4;"></i> MÃ LỚP HỌC:
+        </label>
+        <input autocomplete="off" id="student-class" type="text" placeholder="Nhập mã lớp học..." onkeydown="if(event.key==='Enter') enterRoom()" />
       </div>
 
       <div class="input-group-custom">
-        <label for="student-password">MẬT KHẨU TRUY CẬP:</label>
+        <label for="student-password">
+          <i class="fa-solid fa-key" style="color: #f59e0b;"></i> MẬT KHẨU TRUY CẬP:
+        </label>
         <div style="position: relative; width: 100%;">
-          <input autocomplete="off" id="student-password" type="password" onkeydown="if(event.key==='Enter') enterRoom()" style="padding-right: 2.8rem !important;" />
-          <button type="button" onclick="togglePasswordVisibility()" style="position: absolute; right: 12px; top: 50%; transform: translateY(-50%); background: none; border: none; cursor: pointer; padding: 4px; display: flex; align-items: center; justify-content: center;" title="Hiện/Ẩn mật khẩu">
-            <svg id="toggle-pwd-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#64748b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <input autocomplete="off" id="student-password" type="password" placeholder="Nhập mật khẩu..." onkeydown="if(event.key==='Enter') enterRoom()" style="padding-right: 2.8rem !important;" />
+          <button type="button" onclick="togglePasswordVisibility()" class="btn-toggle-pwd" title="Hiện/Ẩn mật khẩu">
+            <svg id="toggle-pwd-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
               <circle cx="12" cy="12" r="3"></circle>
             </svg>
@@ -40,11 +56,19 @@
         </div>
       </div>
       
-      <p id="login-error">Vui lòng nhập đầy đủ thông tin!</p>
+      <p id="login-error" class="login-error-msg" style="display: none;"></p>
       
       <button class="btn-login-custom" id="start-btn" onclick="enterRoom()">
         <span>BẮT ĐẦU HỌC</span>
+        <i class="fa-solid fa-arrow-right"></i>
       </button>
+
+      <div class="login-footer-signature">
+        <a href="https://www.facebook.com/nguyetpham28" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; display: inline-flex; align-items: center; gap: 0.4rem;">
+          <i class="fa-brands fa-facebook" style="color: #1877f2;"></i>
+          <span>ENGLISH WITH MISS NGUYET</span>
+        </a>
+      </div>
     </div>
   </div>
 
