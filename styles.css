@@ -133,16 +133,96 @@ input, textarea, button, select {
 
 /* Sidebar Styling */
 .sidebar {
-  width: 280px;
+  width: 295px;
   background-color: var(--bg-secondary);
   border-right: 1px solid var(--panel-border);
   display: flex;
   flex-direction: column;
-  padding: 1.5rem 1.25rem;
+  padding: 1.5rem 1.15rem;
   flex-shrink: 0;
   height: 100%;
   overflow-y: auto;
   transition: background-color var(--transition-normal), border-color var(--transition-normal);
+}
+
+.sidebar-header {
+  padding-bottom: 1.25rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--panel-border);
+}
+
+.sidebar-brand-box {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  text-decoration: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.sidebar-avatar-wrap {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.brand-avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 20%;
+  border: 2px solid var(--accent-primary, #6366f1);
+  box-shadow: 0 0 14px rgba(99, 102, 241, 0.45);
+  display: block;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sidebar-brand-box:hover .brand-avatar {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(99, 102, 241, 0.65);
+}
+
+.sidebar-avatar-wrap .online-indicator {
+  position: absolute;
+  bottom: 1px;
+  right: 1px;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: #10b981;
+  border: 2px solid var(--bg-secondary, #111827);
+  box-shadow: 0 0 6px #10b981;
+}
+
+.brand-info {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  min-width: 0;
+  flex: 1;
+}
+
+.brand-title {
+  font-family: var(--font-display, inherit);
+  font-size: 0.92rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  color: var(--text-primary);
+  white-space: nowrap;
+  line-height: 1.25;
+}
+
+.brand-sub {
+  font-family: var(--font-display, inherit);
+  font-size: 0.67rem;
+  font-weight: 700;
+  color: var(--accent-primary, #6366f1);
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  line-height: 1.25;
+  margin-top: 2px;
 }
 
 .brand {
@@ -377,7 +457,32 @@ input, textarea, button, select {
   gap: 0.75rem;
   flex-shrink: 1;
   min-width: 0;
-  max-width: 280px;
+  max-width: 380px;
+}
+
+/* Specific styling for Top Header on Workspace Screen */
+.top-header.view-workspace .header-left {
+  max-width: none;
+  flex: 1;
+  min-width: 0;
+}
+
+.top-header.view-workspace .header-left .page-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+}
+
+.top-header.view-workspace #global-search-container {
+  display: none !important;
+}
+
+.top-header.view-workspace .header-middle-brand {
+  margin-left: auto;
+  margin-right: 0;
+  font-size: 1.05rem;
+  flex-shrink: 0;
 }
 
 .mobile-menu-btn {

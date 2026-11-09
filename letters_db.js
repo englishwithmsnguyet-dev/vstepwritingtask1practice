@@ -1,3 +1,4 @@
+// VSTEP Writing Task 1 (Letters) — Clean B1 Database (57 Topics)
 const LETTERS_DATA = [
   {
     "id": 1,
@@ -151,15 +152,15 @@ const LETTERS_DATA = [
                   "reason_vi": "vì bạn sẽ có nhiều khả năng có một kỳ nghỉ thoải mái và an toàn."
                 },
                 {
-                  "action_en": "book your room in advance on reputable booking apps",
+                  "action_en": "book your room in advance on well-known booking apps",
                   "action_vi": "đặt phòng trước trên các ứng dụng uy tín",
                   "reason_en": "because it helps you get a better price and avoid being fully booked during peak season.",
                   "reason_vi": "vì nó giúp bạn có giá tốt hơn và tránh bị hết phòng vào mùa cao điểm."
                 },
                 {
-                  "action_en": "opt for a boutique hostel or Airbnb near West Lake",
+                  "action_en": "opt for a nice hostel or Airbnb near West Lake",
                   "action_vi": "chọn một hostel xinh xắn hoặc căn hộ gần Hồ Tây",
-                  "reason_en": "because the surrounding area is peaceful, scenic, and budget-friendly.",
+                  "reason_en": "because the surrounding area is peaceful, beautiful, and budget-friendly.",
                   "reason_vi": "vì khu vực xung quanh yên tĩnh, cảnh đẹp và rất tiết kiệm chi phí."
                 },
                 {
@@ -179,7 +180,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "try street food such as 'Pho' and 'bun cha'",
                   "action_vi": "thử các món ăn đường phố như 'Phở' và 'bún chả'",
-                  "reason_en": "because they are famous traditional dishes with special authentic flavours.",
+                  "reason_en": "because they are famous traditional dishes with special traditional flavours.",
                   "reason_vi": "vì đây là những món ăn truyền thống nổi tiếng với hương vị đặc biệt khó quên."
                 },
                 {
@@ -229,7 +230,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "explore the Temple of Literature",
                   "action_vi": "khám phá Văn Miếu Quốc Tử Giám",
-                  "reason_en": "because you can learn about Vietnamese history, Confucian culture, and education.",
+                  "reason_en": "because you can learn about Vietnamese history, historical culture, and education.",
                   "reason_vi": "vì bạn có thể tìm hiểu về lịch sử, Nho học và truyền thống hiếu học của Việt Nam."
                 },
                 {
@@ -247,13 +248,13 @@ const LETTERS_DATA = [
                 {
                   "action_en": "tour Ba Dinh Square and Ho Chi Minh Mausoleum",
                   "action_vi": "tham quan Quảng trường Ba Đình và Lăng Chủ tịch Hồ Chí Minh",
-                  "reason_en": "because it is the most sacred political landmark with deep national significance.",
+                  "reason_en": "because it is the most ancient political landmark with deep national significance.",
                   "reason_vi": "vì đây là địa danh lịch sử thiêng liêng có ý nghĩa vô cùng to lớn đối với người dân Việt Nam."
                 },
                 {
                   "action_en": "watch a traditional water puppet show at Thang Long Theatre",
                   "action_vi": "xem biểu diễn múa rối nước tại Nhà hát Thăng Long",
-                  "reason_en": "because it is a fascinating folk performance depicting Vietnamese rural life.",
+                  "reason_en": "because it is a interesting folk performance showing Vietnamese rural life.",
                   "reason_vi": "vì đây là loại hình nghệ thuật dân gian độc đáo tái hiện sinh động đời sống nông thôn Việt Nam."
                 }
               ]
@@ -289,7 +290,7 @@ const LETTERS_DATA = [
                   "reason_vi": "vì bạn có thể sẽ phải đi bộ rất nhiều để khám phá từng con phố và thắng cảnh."
                 },
                 {
-                  "action_en": "wear a wide-brimmed sun hat, sunglasses, and apply sunscreen",
+                  "action_en": "wear a sun sun hat, sunglasses, and apply sunscreen",
                   "action_vi": "đội mũ rộng vành, đeo kính râm và thoa kem chống nắng",
                   "reason_en": "because the midday sunshine can be intense and damage your skin.",
                   "reason_vi": "vì ánh nắng gay gắt vào buổi trưa có thể gây hại cho làn da của bạn."
@@ -297,7 +298,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "pack modest clothes covering your shoulders and knees",
                   "action_vi": "chuẩn bị trang phục lịch sự che kín vai và đầu gối",
-                  "reason_en": "because you need them to show respect when visiting sacred temples and pagodas.",
+                  "reason_en": "because you need them to show respect when visiting ancient temples and pagodas.",
                   "reason_vi": "vì bạn cần mặc lịch sự để thể hiện sự tôn kính khi vào thăm các đền, chùa trang nghiêm."
                 }
               ]
@@ -355,7 +356,7 @@ const LETTERS_DATA = [
               "category": "2. Món ăn (What dishes to try)"
             },
             {
-              "en": "special authentic flavours",
+              "en": "special traditional flavours",
               "vi": "hương vị đặc trưng chuẩn bản địa khó quên",
               "category": "2. Món ăn (What dishes to try)"
             },
@@ -677,8 +678,8 @@ const LETTERS_DATA = [
                 }
               ],
               "alternatives": [
-                "Next, I strongly recommend visiting Hoan Kiem Lake and exploring the Old Quarter so that you can enjoy the vibrant atmosphere of Hanoi.",
-                "Furthermore, if I were in your shoes, I would wander around Hoan Kiem Lake and the Old Quarter to soak in the bustling city life."
+                "Next, I strongly recommend visiting Hoan Kiem Lake and exploring the Old Quarter so that you can enjoy the lively atmosphere of Hanoi.",
+                "Furthermore, if I were in your shoes, I would wander around Hoan Kiem Lake and the Old Quarter to soak in the busy city life."
               ],
               "criteria_tip": "Mẫu câu điều kiện loại 2 `If I were you, I would...` là cấu trúc đắt giá thường được giám khảo đánh giá rất cao về khả năng biến hóa ngữ pháp trong Task 1."
             },
@@ -794,22 +795,22 @@ const LETTERS_DATA = [
               "id": 1,
               "part": "Diễn đạt nâng cao B2 - Nơi ở & Ẩm thực",
               "vi": "Xét về chỗ ở, việc đặt trước một khách sạn tại Phố Cổ sẽ tối ưu hóa lịch trình của bạn, trong khi việc thưởng thức các món ăn đường phố truyền thống như phở và cà phê trứng sẽ mang lại trải nghiệm ẩm thực bản địa đích thực.",
-              "en": "Regarding accommodation, booking a hotel near the Old Quarter in advance will optimize your sightseeing itinerary, while savoring authentic street delicacies like pho and egg coffee offers an immersive glimpse into local culinary heritage.",
+              "en": "Regarding accommodation, booking a hotel near the Old Quarter in advance will optimize your sightseeing travel plan, while savoring traditional street delicacies like pho and egg coffee offers an immersive glimpse into local food heritage.",
               "vocab_hints": [
                 {
                   "en": "Regarding accommodation",
                   "vi": "Xét về chỗ ở"
                 },
                 {
-                  "en": "optimize your sightseeing itinerary",
+                  "en": "optimize your sightseeing travel plan",
                   "vi": "tối ưu hóa lịch trình tham quan"
                 },
                 {
-                  "en": "savoring authentic street delicacies",
+                  "en": "savoring traditional street delicacies",
                   "vi": "thưởng thức các món ngon đường phố chính gốc"
                 },
                 {
-                  "en": "local culinary heritage",
+                  "en": "local food heritage",
                   "vi": "di sản ẩm thực địa phương"
                 }
               ],
@@ -824,21 +825,21 @@ const LETTERS_DATA = [
                 },
                 {
                   "id": "cp2",
-                  "name": "Danh động từ & tối ưu lịch trình (Gerund phrase & Itinerary)",
+                  "name": "Danh động từ & tối ưu lịch trình (Gerund phrase & travel plan)",
                   "pattern": {},
                   "desc": "Việc đặt trước khách sạn tối ưu hóa lịch trình tham quan",
-                  "missingFeedback": "Cần diễn đạt mệnh đề danh động từ 'booking a hotel... will optimize your sightseeing itinerary'."
+                  "missingFeedback": "Cần diễn đạt mệnh đề danh động từ 'booking a hotel... will optimize your sightseeing travel plan'."
                 },
                 {
                   "id": "cp3",
                   "name": "Thưởng thức ẩm thực bản địa (Savoring local delicacies)",
                   "pattern": {},
                   "desc": "Thưởng thức món ăn đường phố và trải nghiệm di sản ẩm thực bản địa",
-                  "missingFeedback": "Cần thể hiện trải nghiệm ẩm thực bản địa với các từ vựng cao cấp như 'delicacies', 'culinary heritage'."
+                  "missingFeedback": "Cần thể hiện trải nghiệm ẩm thực bản địa với các từ vựng cao cấp như 'delicacies', 'food heritage'."
                 }
               ],
               "alternatives": [
-                "As far as accommodation is concerned, reserving a room near the Old Quarter beforehand will streamline your sightseeing schedule, whilst tasting iconic street specialties such as pho and egg coffee provides an authentic cultural experience."
+                "As far as accommodation is concerned, reserving a room near the Old Quarter beforehand will streamline your sightseeing schedule, whilst tasting iconic street specialties such as pho and egg coffee provides an traditional cultural experience."
               ],
               "criteria_tip": "Sử dụng cấu trúc câu phức với danh động từ làm chủ ngữ (`booking a hotel...`) và liên từ đối chiếu (`while/whilst`) là vũ khí chủ đạo để đạt band điểm B2+."
             }
@@ -869,10 +870,10 @@ const LETTERS_DATA = [
             ]
           },
           "sample_b2": {
-            "letter_en": "Dear Helen,\n\nThanks for writing to me. How have you been lately? After reading your letter, I have a few suggestions that you may want to consider for your upcoming trip to Hanoi in June.\n\nTo begin with, you could consider staying in a boutique hotel in the Old Quarter. This area is situated right in the heart of the city, which makes it extremely convenient for sightseeing. Secondly, it would be a good idea to try out our renowned local cuisine, particularly Pho, Bun Cha, and Banh Mi. These traditional dishes are not only mouth-watering but also deeply represent our culinary culture. Next, if I were you, I would spend time visiting significant historical landmarks such as Hoan Kiem Lake, the Temple of Literature, and the Ho Chi Minh Mausoleum. They offer fascinating insights into Vietnam's rich heritage. Finally, remember to pack light and breathable clothing, such as cotton T-shirts and shorts, as the weather in June can be exceptionally hot and humid.\n\nI hope you find my suggestions helpful. Let me know how things go. Write back soon.\n\nBest wishes,",
-            "letter_vi": "Helen thân mến,\n\nCảm ơn vì đã viết thư cho tớ. Dạo này cậu thế nào? Sau khi đọc thư của cậu, tớ có một vài gợi ý mà cậu có thể cân nhắc cho chuyến đi sắp tới đến Hà Nội vào tháng Sáu.\n\nĐầu tiên, cậu có thể cân nhắc ở tại một khách sạn boutique trong khu Phố Cổ. Khu vực này nằm ngay trung tâm thành phố, điều này làm cho việc tham quan ngắm cảnh cực kỳ thuận tiện. Thứ hai, sẽ là một ý kiến hay nếu thử nền ẩm thực địa phương nổi tiếng của chúng tớ, đặc biệt là Phở, Bún Chả và Bánh Mì. Những món ăn truyền thống này không chỉ ngon miệng mà còn thể hiện sâu sắc văn hóa ẩm thực của chúng tớ. Tiếp theo, nếu tớ là cậu, tớ sẽ dành thời gian tham quan các di tích lịch sử quan trọng như Hồ Hoàn Kiếm, Văn Miếu và Lăng Chủ tịch Hồ Chí Minh. Chúng mang đến cái nhìn hấp dẫn về di sản phong phú của Việt Nam. Cuối cùng, hãy nhớ mang theo quần áo mỏng nhẹ và thoáng khí, như áo phông cotton và quần đùi, vì thời tiết vào tháng Sáu có thể vô cùng nóng và ẩm.\n\nTớ hy vọng cậu thấy những gợi ý của tớ hữu ích. Hãy cho tớ biết mọi chuyện diễn ra như thế nào nhé. Hồi âm sớm cho tớ.\n\nChúc những điều tốt đẹp nhất,",
-            "text": "Dear Helen,\n\nThanks for writing to me. How have you been lately? After reading your letter, I have a few suggestions that you may want to consider for your upcoming trip to Hanoi in June.\n\nTo begin with, you could consider staying in a boutique hotel in the Old Quarter. This area is situated right in the heart of the city, which makes it extremely convenient for sightseeing. Secondly, it would be a good idea to try out our renowned local cuisine, particularly Pho, Bun Cha, and Banh Mi. These traditional dishes are not only mouth-watering but also deeply represent our culinary culture. Next, if I were you, I would spend time visiting significant historical landmarks such as Hoan Kiem Lake, the Temple of Literature, and the Ho Chi Minh Mausoleum. They offer fascinating insights into Vietnam's rich heritage. Finally, remember to pack light and breathable clothing, such as cotton T-shirts and shorts, as the weather in June can be exceptionally hot and humid.\n\nI hope you find my suggestions helpful. Let me know how things go. Write back soon.\n\nBest wishes,",
-            "translation": "Helen thân mến,\n\nCảm ơn vì đã viết thư cho tớ. Dạo này cậu thế nào? Sau khi đọc thư của cậu, tớ có một vài gợi ý mà cậu có thể cân nhắc cho chuyến đi sắp tới đến Hà Nội vào tháng Sáu.\n\nĐầu tiên, cậu có thể cân nhắc ở tại một khách sạn boutique trong khu Phố Cổ. Khu vực này nằm ngay trung tâm thành phố, điều này làm cho việc tham quan ngắm cảnh cực kỳ thuận tiện. Thứ hai, sẽ là một ý kiến hay nếu thử nền ẩm thực địa phương nổi tiếng của chúng tớ, đặc biệt là Phở, Bún Chả và Bánh Mì. Những món ăn truyền thống này không chỉ ngon miệng mà còn thể hiện sâu sắc văn hóa ẩm thực của chúng tớ. Tiếp theo, nếu tớ là cậu, tớ sẽ dành thời gian tham quan các di tích lịch sử quan trọng như Hồ Hoàn Kiếm, Văn Miếu và Lăng Chủ tịch Hồ Chí Minh. Chúng mang đến cái nhìn hấp dẫn về di sản phong phú của Việt Nam. Cuối cùng, hãy nhớ mang theo quần áo mỏng nhẹ và thoáng khí, như áo phông cotton và quần đùi, vì thời tiết vào tháng Sáu có thể vô cùng nóng và ẩm.\n\nTớ hy vọng cậu thấy những gợi ý của tớ hữu ích. Hãy cho tớ biết mọi chuyện diễn ra như thế nào nhé. Hồi âm sớm cho tớ.\n\nChúc những điều tốt đẹp nhất,",
+            "letter_en": "Dear Helen,\n\nThanks for writing to me. How have you been lately? After reading your letter, I have a few suggestions that you may want to consider for your upcoming trip to Hanoi in June.\n\nTo begin with, you could consider staying in a small hotel in the Old Quarter. This area is situated right in the heart of the city, which makes it extremely convenient for sightseeing. Secondly, it would be a good idea to try out our renowned local cuisine, particularly Pho, Bun Cha, and Banh Mi. These traditional dishes are not only mouth-watering but also deeply represent our food culture. Next, if I were you, I would spend time visiting significant historical landmarks such as Hoan Kiem Lake, the Temple of Literature, and the Ho Chi Minh Mausoleum. They offer interesting insights into Vietnam's rich heritage. Finally, remember to pack light and breathable clothing, such as cotton T-shirts and shorts, as the weather in June can be exceptionally hot and humid.\n\nI hope you find my suggestions helpful. Let me know how things go. Write back soon.\n\nBest wishes,",
+            "letter_vi": "Helen thân mến,\n\nCảm ơn vì đã viết thư cho tớ. Dạo này cậu thế nào? Sau khi đọc thư của cậu, tớ có một vài gợi ý mà cậu có thể cân nhắc cho chuyến đi sắp tới đến Hà Nội vào tháng Sáu.\n\nĐầu tiên, cậu có thể cân nhắc ở tại một khách sạn nhỏ ấm cúng trong khu Phố Cổ. Khu vực này nằm ngay trung tâm thành phố, điều này làm cho việc tham quan ngắm cảnh cực kỳ thuận tiện. Thứ hai, sẽ là một ý kiến hay nếu thử nền ẩm thực địa phương nổi tiếng của chúng tớ, đặc biệt là Phở, Bún Chả và Bánh Mì. Những món ăn truyền thống này không chỉ ngon miệng mà còn thể hiện sâu sắc văn hóa ẩm thực của chúng tớ. Tiếp theo, nếu tớ là cậu, tớ sẽ dành thời gian tham quan các di tích lịch sử quan trọng như Hồ Hoàn Kiếm, Văn Miếu và Lăng Chủ tịch Hồ Chí Minh. Chúng mang đến cái nhìn hấp dẫn về di sản phong phú của Việt Nam. Cuối cùng, hãy nhớ mang theo quần áo mỏng nhẹ và thoáng khí, như áo phông cotton và quần đùi, vì thời tiết vào tháng Sáu có thể vô cùng nóng và ẩm.\n\nTớ hy vọng cậu thấy những gợi ý của tớ hữu ích. Hãy cho tớ biết mọi chuyện diễn ra như thế nào nhé. Hồi âm sớm cho tớ.\n\nChúc những điều tốt đẹp nhất,",
+            "text": "Dear Helen,\n\nThanks for writing to me. How have you been lately? After reading your letter, I have a few suggestions that you may want to consider for your upcoming trip to Hanoi in June.\n\nTo begin with, you could consider staying in a small hotel in the Old Quarter. This area is situated right in the heart of the city, which makes it extremely convenient for sightseeing. Secondly, it would be a good idea to try out our renowned local cuisine, particularly Pho, Bun Cha, and Banh Mi. These traditional dishes are not only mouth-watering but also deeply represent our food culture. Next, if I were you, I would spend time visiting significant historical landmarks such as Hoan Kiem Lake, the Temple of Literature, and the Ho Chi Minh Mausoleum. They offer interesting insights into Vietnam's rich heritage. Finally, remember to pack light and breathable clothing, such as cotton T-shirts and shorts, as the weather in June can be exceptionally hot and humid.\n\nI hope you find my suggestions helpful. Let me know how things go. Write back soon.\n\nBest wishes,",
+            "translation": "Helen thân mến,\n\nCảm ơn vì đã viết thư cho tớ. Dạo này cậu thế nào? Sau khi đọc thư của cậu, tớ có một vài gợi ý mà cậu có thể cân nhắc cho chuyến đi sắp tới đến Hà Nội vào tháng Sáu.\n\nĐầu tiên, cậu có thể cân nhắc ở tại một khách sạn nhỏ ấm cúng trong khu Phố Cổ. Khu vực này nằm ngay trung tâm thành phố, điều này làm cho việc tham quan ngắm cảnh cực kỳ thuận tiện. Thứ hai, sẽ là một ý kiến hay nếu thử nền ẩm thực địa phương nổi tiếng của chúng tớ, đặc biệt là Phở, Bún Chả và Bánh Mì. Những món ăn truyền thống này không chỉ ngon miệng mà còn thể hiện sâu sắc văn hóa ẩm thực của chúng tớ. Tiếp theo, nếu tớ là cậu, tớ sẽ dành thời gian tham quan các di tích lịch sử quan trọng như Hồ Hoàn Kiếm, Văn Miếu và Lăng Chủ tịch Hồ Chí Minh. Chúng mang đến cái nhìn hấp dẫn về di sản phong phú của Việt Nam. Cuối cùng, hãy nhớ mang theo quần áo mỏng nhẹ và thoáng khí, như áo phông cotton và quần đùi, vì thời tiết vào tháng Sáu có thể vô cùng nóng và ẩm.\n\nTớ hy vọng cậu thấy những gợi ý của tớ hữu ích. Hãy cho tớ biết mọi chuyện diễn ra như thế nào nhé. Hồi âm sớm cho tớ.\n\nChúc những điều tốt đẹp nhất,",
             "word_count": 182,
             "key_structures": [
               {
@@ -1146,7 +1147,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "opt for a serviced mini-apartment near West Lake",
                   "action_vi": "chọn một căn hộ mini dịch vụ gần khu vực Hồ Tây",
-                  "reason_en": "because the surrounding area is peaceful, scenic, and has a welcoming expat community.",
+                  "reason_en": "because the surrounding area is peaceful, beautiful, and has a welcoming expat community.",
                   "reason_vi": "vì không khí thoáng mát, thanh bình và có cộng đồng người nước ngoài thân thiện."
                 },
                 {
@@ -1216,7 +1217,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "participate in cultural excursions and traditional craft workshops",
                   "action_vi": "tham gia các chuyến dã ngoại văn hóa và xưởng thủ công truyền thống",
-                  "reason_en": "because field trips give you fascinating insights into Vietnamese history, art, and customs.",
+                  "reason_en": "because field trips give you interesting insights into Vietnamese history, art, and customs.",
                   "reason_vi": "vì những chuyến đi thực tế giúp bạn hiểu sâu sắc về lịch sử, nghệ thuật và phong tục Việt Nam."
                 },
                 {
@@ -1228,7 +1229,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "take part in street food discovery walks around the Old Quarter",
                   "action_vi": "tham gia các chuyến đi bộ khám phá ẩm thực đường phố quanh Phố Cổ",
-                  "reason_en": "because tasting iconic street dishes is the most authentic way to experience local culinary life.",
+                  "reason_en": "because tasting iconic street dishes is the most traditional way to experience local food life.",
                   "reason_vi": "vì thưởng thức các món ăn đường phố là cách chân thực nhất để trải nghiệm đời sống ẩm thực."
                 },
                 {
@@ -1295,7 +1296,7 @@ const LETTERS_DATA = [
       {
         "id": "de-15",
         "title_en": "Advice to Emily visiting Can Tho in December",
-        "title_vi": "Đề 15: Gợi ý cho bạn (Emily) đến thăm Cần Thơ vào tháng Mười Hai",
+        "title_vi": "Đề 03: Gợi ý cho bạn (Emily) đến thăm Cần Thơ vào tháng Mười Hai",
         "recipient_type": "Informal (Bạn thân - Emily)",
         "target_words": 120,
         "tags": [
@@ -1382,7 +1383,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "taste grilled snakehead fish wrapped in rice paper",
                   "action_vi": "thưởng thức cá lóc nướng trui cuốn bánh tráng",
-                  "reason_en": "because it is an authentic rustic specialty with rich, smoky flavour.",
+                  "reason_en": "because it is an traditional rustic specialty with rich, smoky flavour.",
                   "reason_vi": "vì đây là món ăn dân dã chuẩn vị miền sông nước với hương thơm nướng rơm đặc trưng."
                 },
                 {
@@ -1420,7 +1421,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "visit Cai Rang Floating Market in the early morning",
                   "action_vi": "đi chợ nổi Cái Răng vào sáng sớm",
-                  "reason_en": "because you can witness the bustling boat-to-boat trading culture of the Mekong Delta.",
+                  "reason_en": "because you can witness the busy boat-to-boat trading culture of the Mekong Delta.",
                   "reason_vi": "vì bạn sẽ được tận mắt ngắm nhìn cảnh giao thương ghe xuồng tấp nập của miền Tây."
                 },
                 {
@@ -1444,13 +1445,13 @@ const LETTERS_DATA = [
                 {
                   "action_en": "visit Truc Lam Phuong Nam Zen Monastery",
                   "action_vi": "chiêm bái Thiền viện Trúc Lâm Phương Nam",
-                  "reason_en": "because it is the largest tranquil monastery with magnificent wooden architecture.",
+                  "reason_en": "because it is the largest quiet monastery with magnificent wooden architecture.",
                   "reason_vi": "vì đây là thiền viện lớn và thanh tịnh nhất vùng với kiến trúc gỗ lim bề thế."
                 },
                 {
                   "action_en": "take a small boat ride along canal networks under coconut trees",
                   "action_vi": "chèo xuồng len lỏi qua các con rạch rợp bóng dừa nước",
-                  "reason_en": "because you can fully immerse yourself in peaceful Southwestern nature.",
+                  "reason_en": "because you can fully learn yourself in peaceful Southwestern nature.",
                   "reason_vi": "vì bạn sẽ được hòa mình trọn vẹn vào không gian thiên nhiên thanh bình Tây Nam Bộ."
                 }
               ]
@@ -1480,7 +1481,7 @@ const LETTERS_DATA = [
                   "reason_vi": "vì giúp việc bước lên xuống ghe thuyền và đi bộ trong vườn an toàn hơn."
                 },
                 {
-                  "action_en": "carry a wide-brimmed sun hat and sunglasses",
+                  "action_en": "carry a sun sun hat and sunglasses",
                   "action_vi": "đội mũ rộng vành và đeo kính râm",
                   "reason_en": "because daytime sunshine on the open river can be strong.",
                   "reason_vi": "vì ánh nắng trên sông vào buổi trưa có thể khá gay gắt."
@@ -1488,7 +1489,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "pack modest clothes covering shoulders and knees",
                   "action_vi": "chuẩn bị trang phục lịch sự che kín vai và đầu gối",
-                  "reason_en": "because they are required when visiting sacred pagodas and ancient houses.",
+                  "reason_en": "because they are required when visiting ancient pagodas and ancient houses.",
                   "reason_vi": "vì cần thiết khi đến thăm các chùa chiền linh thiêng và di tích nhà cổ."
                 },
                 {
@@ -1532,7 +1533,7 @@ const LETTERS_DATA = [
               "category": "2. Món ăn (What dishes to try)"
             },
             {
-              "en": "authentic rustic specialty",
+              "en": "traditional rustic specialty",
               "vi": "đặc sản dân dã chuẩn vị miền sông nước",
               "category": "2. Món ăn (What dishes to try)"
             },
@@ -1670,7 +1671,7 @@ const LETTERS_DATA = [
               "id": 3,
               "part": "3. Thân thư - Lời khuyên 2: Món ăn (What dishes to try)",
               "vi": "Thứ hai, sẽ là một ý kiến tuyệt vời nếu cậu thử bánh xèo giòn rụm và cá lóc nướng trui vì đây là những món đặc sản dân dã với hương vị khó quên.",
-              "en": "Secondly, it would be a great idea to try crispy Vietnamese sizzling pancakes and grilled snakehead fish because they are authentic rustic specialties with unforgettable flavours.",
+              "en": "Secondly, it would be a great idea to try crispy Vietnamese sizzling pancakes and grilled snakehead fish because they are traditional rustic specialties with unforgettable flavours.",
               "vocab_hints": [
                 {
                   "en": "crispy Vietnamese sizzling pancakes",
@@ -1705,7 +1706,7 @@ const LETTERS_DATA = [
                   "id": "cp3",
                   "name": "Lý do đặc sản dân dã thơm ngon",
                   "pattern": {},
-                  "desc": "Lý do hương vị đặc sản ('authentic rustic specialties with unforgettable flavours')",
+                  "desc": "Lý do hương vị đặc sản ('traditional rustic specialties with unforgettable flavours')",
                   "missingFeedback": "Cần giải thích lý do món ăn hấp dẫn bằng liên từ 'because'."
                 }
               ],
@@ -1871,18 +1872,18 @@ const LETTERS_DATA = [
               "id": 1,
               "part": "Diễn đạt nâng cao B2 - Nơi ở & Trải nghiệm sông nước",
               "vi": "Về nơi lưu trú, việc lựa chọn một khách sạn ven sông gần bến Ninh Kiều sẽ tạo điều kiện thuận lợi nhất cho lịch trình khám phá của bạn, trong khi việc dậy sớm để trải nghiệm văn hóa chợ nổi Cái Răng sẽ đem lại cái nhìn chân thực về nhịp sống thương hồ miền Tây.",
-              "en": "Regarding accommodation, opting for a riverside hotel near Ninh Kieu Wharf will greatly optimize your travel itinerary, while getting up early to experience Cai Rang Floating Market provides a captivating insight into the bustling river trade culture.",
+              "en": "Regarding accommodation, opting for a riverside hotel near Ninh Kieu Wharf will greatly optimize your travel travel plan, while getting up early to experience Cai Rang Floating Market provides a captivating insight into the busy river trade culture.",
               "vocab_hints": [
                 {
                   "en": "Regarding accommodation",
                   "vi": "Về nơi lưu trú"
                 },
                 {
-                  "en": "optimize your travel itinerary",
+                  "en": "optimize your travel travel plan",
                   "vi": "tối ưu hóa lịch trình tham quan"
                 },
                 {
-                  "en": "bustling river trade culture",
+                  "en": "busy river trade culture",
                   "vi": "văn hóa thương hồ sông nước nhộn nhịp"
                 }
               ],
@@ -1902,9 +1903,9 @@ const LETTERS_DATA = [
             }
           ],
           "sample_b1": {
-            "letter_en": "Dear Emily,\n\nThanks for your letter. I hope you are doing well. I’m writing to give you some advice for your upcoming trip to Can Tho in December.\n\nFirstly, you should stay at a riverside hotel or homestay near Ninh Kieu Wharf because it is very convenient for travelling and offers stunning river views. Secondly, it would be a good idea to try out local delicacies such as grilled snakehead fish, crispy sizzling pancakes, and fresh tropical fruits. Next, if I were you, I would take an early morning boat to visit Cai Rang floating market because you can experience the authentic river commerce of the Mekong Delta. Finally, remember to bring lightweight clothes, sunscreen, and an umbrella because the weather is warm and sunny during December.\n\nI hope my advice will be helpful to you. Please let me know how everything turns out. Write back soon.\n\nBest wishes,",
+            "letter_en": "Dear Emily,\n\nThanks for your letter. I hope you are doing well. I’m writing to give you some advice for your upcoming trip to Can Tho in December.\n\nFirstly, you should stay at a riverside hotel or homestay near Ninh Kieu Wharf because it is very convenient for travelling and offers stunning river views. Secondly, it would be a good idea to try out local delicacies such as grilled snakehead fish, crispy sizzling pancakes, and fresh tropical fruits. Next, if I were you, I would take an early morning boat to visit Cai Rang floating market because you can experience the traditional river commerce of the Mekong Delta. Finally, remember to bring lightweight clothes, sunscreen, and an umbrella because the weather is warm and sunny during December.\n\nI hope my advice will be helpful to you. Please let me know how everything turns out. Write back soon.\n\nBest wishes,",
             "letter_vi": "Emily thân mến,\n\nCảm ơn thư của cậu. Tớ hy vọng cậu vẫn khỏe. Tớ viết thư này để đưa ra một vài lời khuyên cho chuyến du lịch sắp tới của cậu đến Cần Thơ vào tháng Mười Hai.\n\nĐầu tiên, cậu nên ở một khách sạn ven sông hoặc homestay gần Bến Ninh Kiều vì nó rất thuận tiện cho việc đi lại và có tầm nhìn hướng sông tuyệt đẹp. Thứ hai, sẽ là một ý kiến hay nếu cậu thưởng thức các món ăn đặc sản địa phương như cá lóc nướng trui, bánh xèo giòn rụm và các loại trái cây nhiệt đới tươi ngon. Tiếp theo, nếu tớ là cậu, tớ sẽ đi thuyền vào sáng sớm để tham quan chợ nổi Cái Răng vì cậu có thể trải nghiệm nét giao thương sông nước đích thực của miền Tây. Cuối cùng, hãy nhớ mang theo quần áo mỏng nhẹ, kem chống nắng và một chiếc ô vì thời tiết vào tháng Mười Hai rất ấm áp và nhiều nắng.\n\nTớ hy vọng những lời khuyên của tớ sẽ hữu ích cho cậu. Hãy cho tớ biết chuyến đi diễn ra thế nào nhé. Hồi âm sớm cho tớ nhé.\n\nChúc cậu mọi điều tốt lành,",
-            "text": "Dear Emily,\n\nThanks for your letter. I hope you are doing well. I’m writing to give you some advice for your upcoming trip to Can Tho in December.\n\nFirstly, you should stay at a riverside hotel or homestay near Ninh Kieu Wharf because it is very convenient for travelling and offers stunning river views. Secondly, it would be a good idea to try out local delicacies such as grilled snakehead fish, crispy sizzling pancakes, and fresh tropical fruits. Next, if I were you, I would take an early morning boat to visit Cai Rang floating market because you can experience the authentic river commerce of the Mekong Delta. Finally, remember to bring lightweight clothes, sunscreen, and an umbrella because the weather is warm and sunny during December.\n\nI hope my advice will be helpful to you. Please let me know how everything turns out. Write back soon.\n\nBest wishes,",
+            "text": "Dear Emily,\n\nThanks for your letter. I hope you are doing well. I’m writing to give you some advice for your upcoming trip to Can Tho in December.\n\nFirstly, you should stay at a riverside hotel or homestay near Ninh Kieu Wharf because it is very convenient for travelling and offers stunning river views. Secondly, it would be a good idea to try out local delicacies such as grilled snakehead fish, crispy sizzling pancakes, and fresh tropical fruits. Next, if I were you, I would take an early morning boat to visit Cai Rang floating market because you can experience the traditional river commerce of the Mekong Delta. Finally, remember to bring lightweight clothes, sunscreen, and an umbrella because the weather is warm and sunny during December.\n\nI hope my advice will be helpful to you. Please let me know how everything turns out. Write back soon.\n\nBest wishes,",
             "translation": "Emily thân mến,\n\nCảm ơn thư của cậu. Tớ hy vọng cậu vẫn khỏe. Tớ viết thư này để đưa ra một vài lời khuyên cho chuyến du lịch sắp tới của cậu đến Cần Thơ vào tháng Mười Hai.\n\nĐầu tiên, cậu nên ở một khách sạn ven sông hoặc homestay gần Bến Ninh Kiều vì nó rất thuận tiện cho việc đi lại và có tầm nhìn hướng sông tuyệt đẹp. Thứ hai, sẽ là một ý kiến hay nếu cậu thưởng thức các món ăn đặc sản địa phương như cá lóc nướng trui, bánh xèo giòn rụm và các loại trái cây nhiệt đới tươi ngon. Tiếp theo, nếu tớ là cậu, tớ sẽ đi thuyền vào sáng sớm để tham quan chợ nổi Cái Răng vì cậu có thể trải nghiệm nét giao thương sông nước đích thực của miền Tây. Cuối cùng, hãy nhớ mang theo quần áo mỏng nhẹ, kem chống nắng và một chiếc ô vì thời tiết vào tháng Mười Hai rất ấm áp và nhiều nắng.\n\nTớ hy vọng những lời khuyên của tớ sẽ hữu ích cho cậu. Hãy cho tớ biết chuyến đi diễn ra thế nào nhé. Hồi âm sớm cho tớ nhé.\n\nChúc cậu mọi điều tốt lành,",
             "word_count": 149,
             "key_structures": [
@@ -1927,9 +1928,9 @@ const LETTERS_DATA = [
             ]
           },
           "sample_b2": {
-            "letter_en": "Dear Emily,\n\nThanks for writing to me. How have you been lately? After reading your letter, I have a few suggestions that you may want to consider for your upcoming trip to Can Tho in December.\n\nTo begin with, you could consider staying at an eco-resort or boutique homestay nestled along the Hau River near Ninh Kieu Wharf. This location provides convenient access to central tourist promenades while allowing you to enjoy scenic river sunsets. Secondly, it would be a good idea to savor our renowned regional delicacies, particularly crispy Vietnamese pancakes, grilled snakehead fish, and noodle soup with fermented fish paste. These traditional specialties are deeply tied to the culinary soul of the Mekong Delta. Next, if I were you, I would take a dawn boat tour to explore Cai Rang Floating Market and lush fruit orchards. Witnessing hundreds of trading sampans bustling at sunrise offers an unforgettable cultural immersion. Finally, remember to pack breathable linen clothing, sunglasses, and high-SPF sunscreen, as the daytime climate in December remains pleasantly warm and bright.\n\nI hope you find my suggestions helpful. Let me know how things go. Write back soon.\n\nBest wishes,",
+            "letter_en": "Dear Emily,\n\nThanks for writing to me. How have you been lately? After reading your letter, I have a few suggestions that you may want to consider for your upcoming trip to Can Tho in December.\n\nTo begin with, you could consider staying at an cozy hotel or friendly homestay nestled along the Hau River near Ninh Kieu Wharf. This location provides convenient access to central tourist promenades while allowing you to enjoy beautiful river sunsets. Secondly, it would be a good idea to savor our renowned regional delicacies, particularly crispy Vietnamese pancakes, grilled snakehead fish, and noodle soup with fermented fish paste. These traditional specialties are deeply tied to the food soul of the Mekong Delta. Next, if I were you, I would take a dawn boat tour to explore Cai Rang Floating Market and lush fruit orchards. Witnessing hundreds of trading sampans busy at sunrise offers an unforgettable cultural immersion. Finally, remember to pack breathable linen clothing, sunglasses, and high-SPF sunscreen, as the daytime climate in December remains pleasantly warm and bright.\n\nI hope you find my suggestions helpful. Let me know how things go. Write back soon.\n\nBest wishes,",
             "letter_vi": "Emily thân mến,\n\nCảm ơn vì đã viết thư cho tớ. Dạo này cậu thế nào? Sau khi đọc thư của cậu, tớ có một vài gợi ý mà cậu có thể cân nhắc cho chuyến đi sắp tới đến Cần Thơ vào tháng Mười Hai.\n\nTrước hết, cậu có thể cân nhắc ở tại một khu nghỉ dưỡng sinh thái hoặc homestay xinh xắn ven sông Hậu gần Bến Ninh Kiều. Địa điểm này vừa thuận tiện để dạo bộ ra các con phố trung tâm vừa cho phép cậu ngắm cảnh hoàng hôn tuyệt đẹp trên sông. Thứ hai, sẽ là một ý kiến hay nếu thử nền ẩm thực đặc sản miền sông nước, đặc biệt là bánh xèo giòn rụm, cá lóc nướng trui và bún mắm. Những món ăn truyền thống này thể hiện sâu sắc linh hồn ẩm thực của đồng bằng sông Cửu Long. Tiếp theo, nếu tớ là cậu, tớ sẽ đi thuyền lúc bình minh để khám phá Chợ nổi Cái Răng và những vườn trái cây trĩu quả. Được tận mắt chứng kiến hàng trăm ghe xuồng buôn bán tấp nập trong ánh sớm mai sẽ là một trải nghiệm văn hóa không thể nào quên. Cuối cùng, hãy nhớ mang theo quần áo vải lanh thoáng mát, kính râm và kem chống nắng có chỉ số bảo vệ cao, vì khí hậu ban ngày vào tháng Mười Hai vẫn ấm áp và ngập tràn ánh nắng.\n\nTớ hy vọng cậu thấy những gợi ý của tớ hữu ích. Cho tớ biết chuyến đi diễn ra thế nào nhé. Hồi âm sớm cho tớ.\n\nChúc những điều tốt đẹp nhất,",
-            "text": "Dear Emily,\n\nThanks for writing to me. How have you been lately? After reading your letter, I have a few suggestions that you may want to consider for your upcoming trip to Can Tho in December.\n\nTo begin with, you could consider staying at an eco-resort or boutique homestay nestled along the Hau River near Ninh Kieu Wharf. This location provides convenient access to central tourist promenades while allowing you to enjoy scenic river sunsets. Secondly, it would be a good idea to savor our renowned regional delicacies, particularly crispy Vietnamese pancakes, grilled snakehead fish, and noodle soup with fermented fish paste. These traditional specialties are deeply tied to the culinary soul of the Mekong Delta. Next, if I were you, I would take a dawn boat tour to explore Cai Rang Floating Market and lush fruit orchards. Witnessing hundreds of trading sampans bustling at sunrise offers an unforgettable cultural immersion. Finally, remember to pack breathable linen clothing, sunglasses, and high-SPF sunscreen, as the daytime climate in December remains pleasantly warm and bright.\n\nI hope you find my suggestions helpful. Let me know how things go. Write back soon.\n\nBest wishes,",
+            "text": "Dear Emily,\n\nThanks for writing to me. How have you been lately? After reading your letter, I have a few suggestions that you may want to consider for your upcoming trip to Can Tho in December.\n\nTo begin with, you could consider staying at an cozy hotel or friendly homestay nestled along the Hau River near Ninh Kieu Wharf. This location provides convenient access to central tourist promenades while allowing you to enjoy beautiful river sunsets. Secondly, it would be a good idea to savor our renowned regional delicacies, particularly crispy Vietnamese pancakes, grilled snakehead fish, and noodle soup with fermented fish paste. These traditional specialties are deeply tied to the food soul of the Mekong Delta. Next, if I were you, I would take a dawn boat tour to explore Cai Rang Floating Market and lush fruit orchards. Witnessing hundreds of trading sampans busy at sunrise offers an unforgettable cultural immersion. Finally, remember to pack breathable linen clothing, sunglasses, and high-SPF sunscreen, as the daytime climate in December remains pleasantly warm and bright.\n\nI hope you find my suggestions helpful. Let me know how things go. Write back soon.\n\nBest wishes,",
             "translation": "Emily thân mến,\n\nCảm ơn vì đã viết thư cho tớ. Dạo này cậu thế nào? Sau khi đọc thư của cậu, tớ có một vài gợi ý mà cậu có thể cân nhắc cho chuyến đi sắp tới đến Cần Thơ vào tháng Mười Hai.\n\nTrước hết, cậu có thể cân nhắc ở tại một khu nghỉ dưỡng sinh thái hoặc homestay xinh xắn ven sông Hậu gần Bến Ninh Kiều. Địa điểm này vừa thuận tiện để dạo bộ ra các con phố trung tâm vừa cho phép cậu ngắm cảnh hoàng hôn tuyệt đẹp trên sông. Thứ hai, sẽ là một ý kiến hay nếu thử nền ẩm thực đặc sản miền sông nước, đặc biệt là bánh xèo giòn rụm, cá lóc nướng trui và bún mắm. Những món ăn truyền thống này thể hiện sâu sắc linh hồn ẩm thực của đồng bằng sông Cửu Long. Tiếp theo, nếu tớ là cậu, tớ sẽ đi thuyền lúc bình minh để khám phá Chợ nổi Cái Răng và những vườn trái cây trĩu quả. Được tận mắt chứng kiến hàng trăm ghe xuồng buôn bán tấp nập trong ánh sớm mai sẽ là một trải nghiệm văn hóa không thể nào quên. Cuối cùng, hãy nhớ mang theo quần áo vải lanh thoáng mát, kính râm và kem chống nắng có chỉ số bảo vệ cao, vì khí hậu ban ngày vào tháng Mười Hai vẫn ấm áp và ngập tràn ánh nắng.\n\nTớ hy vọng cậu thấy những gợi ý của tớ hữu ích. Cho tớ biết chuyến đi diễn ra thế nào nhé. Hồi âm sớm cho tớ.\n\nChúc những điều tốt đẹp nhất,",
             "word_count": 191,
             "key_structures": [
@@ -1956,7 +1957,7 @@ const LETTERS_DATA = [
       {
         "id": "de-29",
         "title_en": "Advice on choosing a Vietnamese course and class preparation to Ann",
-        "title_vi": "Đề 29: Tư vấn cho bạn Ann về khóa học tiếng Việt tại Việt Nam",
+        "title_vi": "Đề 04: Tư vấn cho bạn Ann về khóa học tiếng Việt tại Việt Nam",
         "recipient_type": "Informal (Bạn bè - Ann)",
         "target_words": 120,
         "tags": [
@@ -2392,7 +2393,7 @@ const LETTERS_DATA = [
       {
         "id": "de-30",
         "title_en": "Update on new workplace and job interview preparation tips to Jane",
-        "title_vi": "Đề 30: Kể về công việc mới và tư vấn chuẩn bị phỏng vấn xin việc cho Jane",
+        "title_vi": "Đề 05: Kể về công việc mới và tư vấn chuẩn bị phỏng vấn xin việc cho Jane",
         "recipient_type": "Informal (Bạn bè - Jane)",
         "target_words": 120,
         "tags": [
@@ -2828,7 +2829,7 @@ const LETTERS_DATA = [
       {
         "id": "de-31",
         "title_en": "Travel advice on summer vacation destinations and festivals in Vietnam to Jane",
-        "title_vi": "Đề 31: Gợi ý cho Jane về chuyến du lịch Việt Nam mùa hè",
+        "title_vi": "Đề 06: Gợi ý cho Jane về chuyến du lịch Việt Nam mùa hè",
         "recipient_type": "Informal (Bạn bè - Jane)",
         "target_words": 120,
         "tags": [
@@ -2907,7 +2908,7 @@ const LETTERS_DATA = [
               "vi": "màn trình diễn ngoạn mục"
             },
             {
-              "en": "vibrant nightlife",
+              "en": "lively nightlife",
               "vi": "cuộc sống về đêm sôi động"
             },
             {
@@ -3019,12 +3020,12 @@ const LETTERS_DATA = [
               "id": 4,
               "part": "4. Thân bài B2 - Ý 3 (Festival experience)",
               "vi": "Lễ hội pháo hoa quốc tế quy tụ các đội thi hàng đầu thế giới, thắp sáng bầu trời đêm bằng những màn trình diễn âm thanh và ánh sáng ngoạn mục.",
-              "en": "The international fireworks contest brings together world-class teams, illuminating the night sky with breathtaking choreographies of light and music.",
+              "en": "The international fireworks contest brings together world-class teams, illuminating the night sky with wonderful choreographies of light and music.",
               "hints": [
                 "brings together world-class teams",
-                "illuminating the night sky with breathtaking choreographies"
+                "illuminating the night sky with wonderful choreographies"
               ],
-              "explanation": "Mệnh đề phân từ và từ vựng cao cấp 'illuminating the night sky', 'breathtaking choreographies'."
+              "explanation": "Mệnh đề phân từ và từ vựng cao cấp 'illuminating the night sky', 'wonderful choreographies'."
             },
             {
               "id": 5,
@@ -3092,7 +3093,7 @@ const LETTERS_DATA = [
               },
               {
                 "label": "Cultural & Festival Immersion",
-                "desc": "Vivid depiction of the International Fireworks Festival and culinary delights"
+                "desc": "Vivid depiction of the International Fireworks Festival and food delights"
               },
               {
                 "label": "Packing Essentials",
@@ -3170,11 +3171,11 @@ const LETTERS_DATA = [
                 {
                   "action_en": "you can rent an automatic scooter to visit Son Tra Peninsula",
                   "action_vi": "cậu có thể thuê xe máy tay ga để tham quan bán đảo Sơn Trà",
-                  "reason_en": "because coastal mountain roads offer breathtaking panoramic ocean views.",
+                  "reason_en": "because coastal mountain roads offer wonderful wide ocean views.",
                   "reason_vi": "bởi vì những con đường núi ven biển đem lại tầm nhìn ngoạn mục ra đại dương."
                 },
                 {
-                  "action_en": "you can travel on the scenic coastal train over Hai Van Pass",
+                  "action_en": "you can travel on the beautiful coastal train over Hai Van Pass",
                   "action_vi": "cậu có thể di chuyển trên chuyến tàu ven biển qua đèo Hải Vân",
                   "reason_en": "because the train ride shows you incredible lush mountain scenery.",
                   "reason_vi": "bởi vì chuyến tàu mang lại cho cậu khung cảnh núi rừng xanh tươi tuyệt đẹp."
@@ -3196,7 +3197,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "you can enjoy street carnival parades in the city center",
                   "action_vi": "cậu có thể thưởng thức các đoàn diễu hành lễ hội đường phố tại trung tâm",
-                  "reason_en": "because dancers in vibrant costumes bring exciting music and positive energy.",
+                  "reason_en": "because dancers in lively costumes bring exciting music and positive energy.",
                   "reason_vi": "bởi vì các vũ công trong trang phục rực rỡ mang đến âm nhạc sôi động và năng lượng tích cực."
                 },
                 {
@@ -3214,7 +3215,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "you should explore night food markets along the Han River",
                   "action_vi": "cậu nên khám phá các khu chợ ẩm thực đêm dọc bờ sông Hàn",
-                  "reason_en": "because you can taste authentic local snacks with welcoming residents.",
+                  "reason_en": "because you can taste traditional local snacks with welcoming residents.",
                   "reason_vi": "bởi vì cậu có thể thưởng thức các món ăn vặt bản địa chuẩn vị cùng người dân hiếu khách."
                 }
               ]
@@ -3263,7 +3264,7 @@ const LETTERS_DATA = [
       {
         "id": "de-32",
         "title_en": "Advice on selecting a topic, finding reliable sources, and poster design tips to Alex",
-        "title_vi": "Đề 32: Tư vấn cho Alex về dự án thiết kế áp phích nhóm",
+        "title_vi": "Đề 07: Tư vấn cho Alex về dự án thiết kế áp phích nhóm",
         "recipient_type": "Informal (Bạn bè - Alex)",
         "target_words": 120,
         "tags": [
@@ -3442,12 +3443,12 @@ const LETTERS_DATA = [
               "id": 3,
               "part": "3. Thân bài B2 - Ý 2 (Credible research)",
               "vi": "Nhóm cậu có thể trích xuất các số liệu thống kê đáng tin cậy từ báo cáo của UNESCO hoặc các tạp chí khoa học uy tín.",
-              "en": "Your group can extract credible statistics from official UNESCO reports or reputable academic science journals.",
+              "en": "Your group can extract credible statistics from official UNESCO reports or well-known academic science journals.",
               "hints": [
                 "extract credible statistics from",
-                "reputable academic science journals"
+                "well-known academic science journals"
               ],
-              "explanation": "Dùng từ vựng học thuật 'extract credible statistics', 'reputable academic journals'."
+              "explanation": "Dùng từ vựng học thuật 'extract credible statistics', 'well-known academic journals'."
             },
             {
               "id": 4,
@@ -3698,7 +3699,7 @@ const LETTERS_DATA = [
       {
         "id": "de-35",
         "title_en": "Advice on customer book selection, bookstore decoration, and promotions to Moonie",
-        "title_vi": "Đề 35: Tư vấn kinh nghiệm làm việc tại hiệu sách cho bạn thân",
+        "title_vi": "Đề 08: Tư vấn kinh nghiệm làm việc tại hiệu sách cho bạn thân",
         "recipient_type": "Informal (Bạn bè - Moonie)",
         "target_words": 120,
         "tags": [
@@ -3899,12 +3900,12 @@ const LETTERS_DATA = [
               "id": 5,
               "part": "5. Thân bài B2 - Ý 4 (Warmth & Customer rapport)",
               "vi": "Xây dựng sự gắn kết tự nhiên bằng lòng hiếu khách chân thành là chiếc chìa khóa vàng đưa khách hàng quay trở lại nhiều năm sau đó.",
-              "en": "Establishing authentic rapport through gracious hospitality is the golden key to ensuring enduring customer loyalty.",
+              "en": "Establishing traditional rapport through gracious hospitality is the golden key to ensuring enduring customer loyalty.",
               "hints": [
-                "Establishing authentic rapport",
+                "Establishing traditional rapport",
                 "ensuring enduring customer loyalty"
               ],
-              "explanation": "Cấu trúc danh động từ làm chủ ngữ 'Establishing authentic rapport'."
+              "explanation": "Cấu trúc danh động từ làm chủ ngữ 'Establishing traditional rapport'."
             }
           ],
           "sample_b1": {
@@ -4128,6 +4129,3962 @@ const LETTERS_DATA = [
             }
           ]
         }
+      },
+      {
+        "id": "de-39",
+        "title_en": "Advice to John about joining a summer camp",
+        "title_vi": "Đề 09: Chia sẻ kinh nghiệm và khuyên bạn John về việc tham gia trại hè",
+        "recipient_type": "Informal (Bạn bè - John)",
+        "target_words": 120,
+        "tags": [
+          "Trại hè",
+          "Lời khuyên",
+          "Hoạt động ngoại khóa",
+          "Chuẩn B1"
+        ],
+        "context": "Your friend John is thinking about joining a summer camp and has asked for your advice. Write an email to John.",
+        "prompt": "Your friend John is thinking about joining a summer camp and has asked for your advice. Write an email to John.\n\nIn your email you should say:\n1. what your experience of a summer camp was like\n2. what special requirements he should check before joining\n3. how he can prepare to meet those requirements\n\nWrite at least 120 words. You do not need to include your name or addresses. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt_vi": "Người bạn John của bạn đang nghĩ đến việc tham gia một trại hè và viết thư xin lời khuyên của bạn. Hãy viết một email gửi cho John.\n\nTrong email, bạn nên nói rõ:\n1. Trải nghiệm đi trại hè trước đây của bạn như thế nào (what your experience of a summer camp was like)\n2. Những yêu cầu đặc biệt nào bạn ấy nên kiểm tra trước khi tham gia (what special requirements he should check before joining)\n3. Bạn ấy có thể chuẩn bị như thế nào để đáp ứng các yêu cầu đó (how he can prepare to meet those requirements)",
+        "has_full_details": true,
+        "details": {
+          "analysis": {
+            "recipient": "John (Người bạn đang định tham gia trại hè)",
+            "letter_type": "Informal (Thư thân mật)",
+            "purpose": "Kể lại trải nghiệm đi trại hè của bản thân, khuyên John kiểm tra các yêu cầu trước khi đăng ký và cách chuẩn bị phù hợp",
+            "key_requirements": [
+              "1. What your experience of a summer camp was like (Trải nghiệm trại hè của bạn như thế nào)",
+              "2. What special requirements he should check before joining (Những yêu cầu cần kiểm tra trước khi tham gia)",
+              "3. How he can prepare to meet those requirements (Cách chuẩn bị để đáp ứng các yêu cầu đó)"
+            ]
+          },
+          "task_extractions": [
+            {
+              "id": 1,
+              "icon": "fa-campground",
+              "prompt_requirement": "what your experience of a summer camp was like",
+              "task_title": "1. Trải nghiệm trại hè (Your experience)",
+              "task_goal": "Chia sẻ kỷ niệm vui vẻ khi đi trại hè năm ngoái (kết bạn mới, chơi trò chơi ngoài trời)."
+            },
+            {
+              "id": 2,
+              "icon": "fa-clipboard-check",
+              "prompt_requirement": "what special requirements he should check before joining",
+              "task_title": "2. Yêu cầu cần kiểm tra (Special requirements)",
+              "task_goal": "Khuyên John kiểm tra yêu cầu về sức khỏe, độ tuổi và danh sách đồ dùng cần mang theo."
+            },
+            {
+              "id": 3,
+              "icon": "fa-person-running",
+              "prompt_requirement": "how he can prepare to meet those requirements",
+              "task_title": "3. Cách chuẩn bị (How to prepare)",
+              "task_goal": "Khuyên John tập thể dục mỗi ngày và chuẩn bị sẵn giày thể thao, thuốc cá nhân."
+            }
+          ],
+          "suggested_ideas": [
+            {
+              "id": 1,
+              "title_en": "1. Your summer camp experience",
+              "title_vi": "Trải nghiệm đi trại hè của bạn",
+              "icon": "fa-campground",
+              "options": [
+                {
+                  "action_en": "my summer camp last year was really fun and exciting",
+                  "action_vi": "trại hè năm ngoái của tớ thực sự rất vui và thú vị",
+                  "reason_en": "because I made many new friends and played lots of outdoor games.",
+                  "reason_vi": "vì tớ đã kết bạn được với nhiều người mới và chơi rất nhiều trò chơi ngoài trời.",
+                  "b1_sentence": "First, my summer camp last year was really fun and exciting because I made many new friends and played lots of outdoor games.",
+                  "b1_sentence_vi": "Đầu tiên, trại hè năm ngoái của tớ thực sự rất vui và thú vị vì tớ đã kết bạn được với nhiều người mới và chơi rất nhiều trò chơi ngoài trời."
+                },
+                {
+                  "action_en": "I had a wonderful time at the summer camp two years ago",
+                  "action_vi": "tớ đã có khoảng thời gian tuyệt vời tại trại hè cách đây hai năm",
+                  "reason_en": "because I learned useful life skills like cooking and camping.",
+                  "reason_vi": "vì tớ đã học được các kỹ năng sống hữu ích như nấu ăn và cắm trại.",
+                  "b1_sentence": "First, I had a wonderful time at the summer camp two years ago because I learned useful life skills like cooking and camping.",
+                  "b1_sentence_vi": "Đầu tiên, tớ đã có khoảng thời gian tuyệt vời tại trại hè cách đây hai năm vì tớ đã học được các kỹ năng sống hữu ích như nấu ăn và cắm trại."
+                },
+                {
+                  "action_en": "joining the summer camp was one of my best summer memories",
+                  "action_vi": "tham gia trại hè là một trong những kỷ niệm mùa hè đẹp nhất của tớ",
+                  "reason_en": "because everyone was friendly and the camp leaders were very helpful.",
+                  "reason_vi": "vì mọi người đều thân thiện và các anh chị phụ trách rất nhiệt tình giúp đỡ.",
+                  "b1_sentence": "First, joining the summer camp was one of my best summer memories because everyone was friendly and the camp leaders were very helpful.",
+                  "b1_sentence_vi": "Đầu tiên, tham gia trại hè là một trong những kỷ niệm mùa hè đẹp nhất của tớ vì mọi người đều thân thiện và các anh chị phụ trách rất nhiệt tình giúp đỡ."
+                },
+                {
+                  "action_en": "my experience at the summer camp was great",
+                  "action_vi": "trải nghiệm của tớ ở trại hè rất tuyệt vời",
+                  "reason_en": "because it helped me become more confident and active.",
+                  "reason_vi": "vì nó giúp tớ trở nên tự tin và năng động hơn.",
+                  "b1_sentence": "First, my experience at the summer camp was great because it helped me become more confident and active.",
+                  "b1_sentence_vi": "Đầu tiên, trải nghiệm của tớ ở trại hè rất tuyệt vời vì nó giúp tớ trở nên tự tin và năng động hơn."
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "title_en": "2. Special requirements to check",
+              "title_vi": "Những yêu cầu cần kiểm tra trước",
+              "icon": "fa-clipboard-check",
+              "options": [
+                {
+                  "action_en": "check the health rules and the list of things to bring",
+                  "action_vi": "kiểm tra quy định về sức khỏe và danh sách những đồ dùng cần mang theo",
+                  "reason_en": "because the camp has many outdoor sports activities every day.",
+                  "reason_vi": "vì trại hè có nhiều hoạt động thể thao ngoài trời mỗi ngày.",
+                  "b1_sentence": "Second, it would be a good idea to check the health rules and the list of things to bring because the camp has many outdoor sports activities every day.",
+                  "b1_sentence_vi": "Thứ hai, sẽ là một ý kiến hay nếu cậu kiểm tra quy định về sức khỏe và danh sách những đồ dùng cần mang theo vì trại hè có nhiều hoạt động thể thao ngoài trời mỗi ngày."
+                },
+                {
+                  "action_en": "check if the camp requires a health check paper and swimming skills",
+                  "action_vi": "kiểm tra xem trại hè có yêu cầu giấy khám sức khỏe và kỹ năng bơi lội không",
+                  "reason_en": "because some camps have water games in the lake or pool.",
+                  "reason_vi": "vì một số trại hè có các trò chơi dưới nước ở hồ hoặc bể bơi.",
+                  "b1_sentence": "Second, it would be a good idea to check if the camp requires a health check paper and swimming skills because some camps have water games in the lake or pool.",
+                  "b1_sentence_vi": "Thứ hai, sẽ là một ý kiến hay nếu cậu kiểm tra xem trại hè có yêu cầu giấy khám sức khỏe và kỹ năng bơi lội không vì một số trại hè có các trò chơi dưới nước ở hồ hoặc bể bơi."
+                },
+                {
+                  "action_en": "read the camp rules and age requirements carefully on their website",
+                  "action_vi": "đọc kỹ nội quy trại hè và yêu cầu về độ tuổi trên trang web của họ",
+                  "reason_en": "because you need to choose the right group for your age.",
+                  "reason_vi": "vì cậu cần chọn đúng nhóm phù hợp với độ tuổi của mình.",
+                  "b1_sentence": "Second, it would be a good idea to read the camp rules and age requirements carefully on their website because you need to choose the right group for your age.",
+                  "b1_sentence_vi": "Thứ hai, sẽ là một ý kiến hay nếu cậu đọc kỹ nội quy trại hè và yêu cầu về độ tuổi trên trang web của họ vì cậu cần chọn đúng nhóm phù hợp với độ tuổi của mình."
+                },
+                {
+                  "action_en": "ask the organizers about the camp fee and required camping gear",
+                  "action_vi": "hỏi ban tổ chức về chi phí trại hè và các đồ dùng cắm trại bắt buộc",
+                  "reason_en": "because you should know what the camp provides and what you must buy.",
+                  "reason_vi": "vì cậu nên biết trại hè cung cấp những gì và cậu phải tự mua những gì.",
+                  "b1_sentence": "Second, it would be a good idea to ask the organizers about the camp fee and required camping gear because you should know what the camp provides and what you must buy.",
+                  "b1_sentence_vi": "Thứ hai, sẽ là một ý kiến hay nếu cậu hỏi ban tổ chức về chi phí trại hè và các đồ dùng cắm trại bắt buộc vì cậu nên biết trại hè cung cấp những gì và cậu phải tự mua những gì."
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "title_en": "3. How to prepare for the camp",
+              "title_vi": "Cách chuẩn bị cho trại hè",
+              "icon": "fa-person-running",
+              "options": [
+                {
+                  "action_en": "go jogging every morning and pack comfortable sports shoes",
+                  "action_vi": "chạy bộ mỗi sáng và chuẩn bị giày thể thao thoải mái",
+                  "reason_en": "because this will help you stay fit and enjoy all the camp activities.",
+                  "reason_vi": "vì điều này sẽ giúp cậu khỏe mạnh và tận hưởng mọi hoạt động ở trại hè.",
+                  "b1_sentence": "Finally, you should go jogging every morning and pack comfortable sports shoes because this will help you stay fit and enjoy all the camp activities.",
+                  "b1_sentence_vi": "Cuối cùng, cậu nên chạy bộ mỗi sáng và chuẩn bị giày thể thao thoải mái vì điều này sẽ giúp cậu khỏe mạnh và tận hưởng mọi hoạt động ở trại hè."
+                },
+                {
+                  "action_en": "do some exercise for 30 minutes a day and buy a good backpack",
+                  "action_vi": "tập thể dục 30 phút mỗi ngày và mua một chiếc ba lô tốt",
+                  "reason_en": "because you will walk a lot in the forest during the camp.",
+                  "reason_vi": "vì cậu sẽ phải đi bộ rất nhiều trong rừng suốt kỳ trại hè.",
+                  "b1_sentence": "Finally, you should do some exercise for 30 minutes a day and buy a good backpack because you will walk a lot in the forest during the camp.",
+                  "b1_sentence_vi": "Cuối cùng, cậu nên tập thể dục 30 phút mỗi ngày và mua một chiếc ba lô tốt vì cậu sẽ phải đi bộ rất nhiều trong rừng suốt kỳ trại hè."
+                },
+                {
+                  "action_en": "practice swimming on weekends and prepare some personal medicine",
+                  "action_vi": "tập bơi vào cuối tuần và chuẩn bị một ít thuốc cá nhân",
+                  "reason_en": "because it will keep you safe and healthy during the trip.",
+                  "reason_vi": "vì nó sẽ giúp cậu luôn an toàn và khỏe mạnh trong suốt chuyến đi.",
+                  "b1_sentence": "Finally, you should practice swimming on weekends and prepare some personal medicine because it will keep you safe and healthy during the trip.",
+                  "b1_sentence_vi": "Cuối cùng, cậu nên tập bơi vào cuối tuần và chuẩn bị một ít thuốc cá nhân vì nó sẽ giúp cậu luôn an toàn và khỏe mạnh trong suốt chuyến đi."
+                },
+                {
+                  "action_en": "visit a doctor for a quick health check and buy a sleeping bag early",
+                  "action_vi": "đến gặp bác sĩ để khám sức khỏe nhanh và mua túi ngủ sớm",
+                  "reason_en": "because you will not have to worry at the last minute.",
+                  "reason_vi": "vì cậu sẽ không phải lo lắng cập rập vào phút chót.",
+                  "b1_sentence": "Finally, you should visit a doctor for a quick health check and buy a sleeping bag early because you will not have to worry at the last minute.",
+                  "b1_sentence_vi": "Cuối cùng, cậu nên đến gặp bác sĩ để khám sức khỏe nhanh và mua túi ngủ sớm vì cậu sẽ không phải lo lắng cập rập vào phút chót."
+                }
+              ]
+            }
+          ],
+          "vocab": [
+            {
+              "en": "join a summer camp",
+              "vi": "tham gia trại hè",
+              "category": "1. Trải nghiệm (Summer camp experience)"
+            },
+            {
+              "en": "fun and exciting",
+              "vi": "vui vẻ và thú vị",
+              "category": "1. Trải nghiệm (Summer camp experience)"
+            },
+            {
+              "en": "make new friends",
+              "vi": "kết thêm nhiều bạn mới",
+              "category": "1. Trải nghiệm (Summer camp experience)"
+            },
+            {
+              "en": "outdoor games",
+              "vi": "các trò chơi ngoài trời",
+              "category": "1. Trải nghiệm (Summer camp experience)"
+            },
+            {
+              "en": "check the health rules",
+              "vi": "kiểm tra quy định về sức khỏe",
+              "category": "2. Yêu cầu (Special requirements)"
+            },
+            {
+              "en": "list of things to bring",
+              "vi": "danh sách đồ cần mang theo",
+              "category": "2. Yêu cầu (Special requirements)"
+            },
+            {
+              "en": "outdoor sports activities",
+              "vi": "hoạt động thể thao ngoài trời",
+              "category": "2. Yêu cầu (Special requirements)"
+            },
+            {
+              "en": "health check paper",
+              "vi": "giấy khám sức khỏe",
+              "category": "2. Yêu cầu (Special requirements)"
+            },
+            {
+              "en": "go jogging every morning",
+              "vi": "chạy bộ mỗi buổi sáng",
+              "category": "3. Chuẩn bị (How to prepare)"
+            },
+            {
+              "en": "comfortable sports shoes",
+              "vi": "giày thể thao êm chân",
+              "category": "3. Chuẩn bị (How to prepare)"
+            },
+            {
+              "en": "stay fit and healthy",
+              "vi": "giữ cơ thể cân đối và khỏe mạnh",
+              "category": "3. Chuẩn bị (How to prepare)"
+            },
+            {
+              "en": "personal medicine",
+              "vi": "thuốc men cá nhân",
+              "category": "3. Chuẩn bị (How to prepare)"
+            }
+          ],
+          "sentence_practice_b1": [
+            {
+              "id": 1,
+              "part": "1. Mở thư (Opening - Thân mật)",
+              "vi": "Cảm ơn thư của cậu. Tớ hy vọng cậu vẫn khỏe. Tớ viết thư này để cho cậu vài lời khuyên về việc tham gia trại hè.",
+              "en": "Thanks for your letter. I hope you are doing well. I’m writing to give you some advice about joining a summer camp.",
+              "formula": "Thanks for your letter. I hope you are doing well. I’m writing to give you some advice about + V-ing.",
+              "vocab_hints": [
+                {
+                  "en": "give you some advice",
+                  "vi": "cho cậu một vài lời khuyên"
+                },
+                {
+                  "en": "joining a summer camp",
+                  "vi": "việc tham gia trại hè"
+                }
+              ],
+              "explanation": "Mở thư thân mật chuẩn B1 theo đúng khung dàn ý của Cô Nguyệt."
+            },
+            {
+              "id": 2,
+              "part": "2. Thân thư - Ý 1: Trải nghiệm trại hè (Your experience)",
+              "vi": "Đầu tiên, trại hè năm ngoái của tớ thực sự rất vui và thú vị vì tớ đã kết bạn được với nhiều người mới và chơi rất nhiều trò chơi ngoài trời.",
+              "en": "First, my summer camp last year was really fun and exciting because I made many new friends and played lots of outdoor games.",
+              "formula": "First, my summer camp last year was + adj + because + S + V (quá khứ đơn).",
+              "vocab_hints": [
+                {
+                  "en": "fun and exciting",
+                  "vi": "vui và thú vị"
+                },
+                {
+                  "en": "made many new friends",
+                  "vi": "kết bạn được với nhiều người mới"
+                },
+                {
+                  "en": "outdoor games",
+                  "vi": "trò chơi ngoài trời"
+                }
+              ],
+              "explanation": "Sử dụng thì quá khứ đơn (was, made, played) để kể lại trải nghiệm trại hè của bản thân."
+            },
+            {
+              "id": 3,
+              "part": "3. Thân thư - Ý 2: Yêu cầu cần kiểm tra (Special requirements)",
+              "vi": "Thứ hai, sẽ là một ý kiến hay nếu cậu kiểm tra quy định về sức khỏe và danh sách những đồ dùng cần mang theo vì trại hè có nhiều hoạt động thể thao ngoài trời mỗi ngày.",
+              "en": "Second, it would be a good idea to check the health rules and the list of things to bring because the camp has many outdoor sports activities every day.",
+              "formula": "Second, it would be a good idea to + Vo + because...",
+              "vocab_hints": [
+                {
+                  "en": "check the health rules",
+                  "vi": "kiểm tra quy định sức khỏe"
+                },
+                {
+                  "en": "list of things to bring",
+                  "vi": "danh sách đồ dùng cần mang theo"
+                }
+              ],
+              "explanation": "Áp dụng cấu trúc khuyên chuẩn B1: \"It would be a good idea to + Vo\"."
+            },
+            {
+              "id": 4,
+              "part": "4. Thân thư - Ý 3: Cách chuẩn bị (How to prepare)",
+              "vi": "Cuối cùng, cậu nên chạy bộ mỗi sáng và chuẩn bị giày thể thao thoải mái vì điều này sẽ giúp cậu khỏe mạnh và tận hưởng mọi hoạt động ở trại hè.",
+              "en": "Finally, you should go jogging every morning and pack comfortable sports shoes because this will help you stay fit and enjoy all the camp activities.",
+              "formula": "Finally, you should + Vo + because...",
+              "vocab_hints": [
+                {
+                  "en": "go jogging every morning",
+                  "vi": "chạy bộ mỗi sáng"
+                },
+                {
+                  "en": "comfortable sports shoes",
+                  "vi": "giày thể thao thoải mái"
+                },
+                {
+                  "en": "stay fit",
+                  "vi": "giữ sức khỏe dẻo dai"
+                }
+              ],
+              "explanation": "Đưa ra lời khuyên thiết thực bằng cấu trúc \"You should + Vo\"."
+            },
+            {
+              "id": 5,
+              "part": "5. Kết thư (Closing - Thân mật)",
+              "vi": "Tớ hy vọng những lời khuyên của tớ sẽ hữu ích cho cậu. Hãy cho tớ biết mọi chuyện diễn ra thế nào nhé. Hồi âm sớm nhé.",
+              "en": "I hope my advice will be helpful to you. Please let me know how everything turns out. Write back soon.",
+              "formula": "I hope my advice will be helpful to you. Please let me know how everything turns out. Write back soon.",
+              "vocab_hints": [
+                {
+                  "en": "helpful to you",
+                  "vi": "hữu ích cho cậu"
+                },
+                {
+                  "en": "how everything turns out",
+                  "vi": "mọi chuyện diễn ra thế nào"
+                }
+              ],
+              "explanation": "Câu kết thư cho lời khuyên chuẩn B1."
+            }
+          ],
+          "sentence_practice_b2": [
+            {
+              "id": 1,
+              "part": "1. Mở thư (Opening - Thân mật)",
+              "vi": "Cảm ơn thư của cậu. Tớ hy vọng cậu vẫn khỏe. Tớ viết thư này để cho cậu vài lời khuyên về việc tham gia trại hè.",
+              "en": "Thanks for your letter. I hope you are doing well. I’m writing to give you some advice about joining a summer camp.",
+              "formula": "Thanks for your letter. I hope you are doing well. I’m writing to give you some advice about + V-ing.",
+              "vocab_hints": [
+                {
+                  "en": "give you some advice",
+                  "vi": "cho cậu một vài lời khuyên"
+                },
+                {
+                  "en": "joining a summer camp",
+                  "vi": "việc tham gia trại hè"
+                }
+              ],
+              "explanation": "Mở thư thân mật chuẩn B1 theo đúng khung dàn ý của Cô Nguyệt."
+            },
+            {
+              "id": 2,
+              "part": "2. Thân thư - Ý 1: Trải nghiệm trại hè (Your experience)",
+              "vi": "Đầu tiên, trại hè năm ngoái của tớ thực sự rất vui và thú vị vì tớ đã kết bạn được với nhiều người mới và chơi rất nhiều trò chơi ngoài trời.",
+              "en": "First, my summer camp last year was really fun and exciting because I made many new friends and played lots of outdoor games.",
+              "formula": "First, my summer camp last year was + adj + because + S + V (quá khứ đơn).",
+              "vocab_hints": [
+                {
+                  "en": "fun and exciting",
+                  "vi": "vui và thú vị"
+                },
+                {
+                  "en": "made many new friends",
+                  "vi": "kết bạn được với nhiều người mới"
+                },
+                {
+                  "en": "outdoor games",
+                  "vi": "trò chơi ngoài trời"
+                }
+              ],
+              "explanation": "Sử dụng thì quá khứ đơn (was, made, played) để kể lại trải nghiệm trại hè của bản thân."
+            },
+            {
+              "id": 3,
+              "part": "3. Thân thư - Ý 2: Yêu cầu cần kiểm tra (Special requirements)",
+              "vi": "Thứ hai, sẽ là một ý kiến hay nếu cậu kiểm tra quy định về sức khỏe và danh sách những đồ dùng cần mang theo vì trại hè có nhiều hoạt động thể thao ngoài trời mỗi ngày.",
+              "en": "Second, it would be a good idea to check the health rules and the list of things to bring because the camp has many outdoor sports activities every day.",
+              "formula": "Second, it would be a good idea to + Vo + because...",
+              "vocab_hints": [
+                {
+                  "en": "check the health rules",
+                  "vi": "kiểm tra quy định sức khỏe"
+                },
+                {
+                  "en": "list of things to bring",
+                  "vi": "danh sách đồ dùng cần mang theo"
+                }
+              ],
+              "explanation": "Áp dụng cấu trúc khuyên chuẩn B1: \"It would be a good idea to + Vo\"."
+            },
+            {
+              "id": 4,
+              "part": "4. Thân thư - Ý 3: Cách chuẩn bị (How to prepare)",
+              "vi": "Cuối cùng, cậu nên chạy bộ mỗi sáng và chuẩn bị giày thể thao thoải mái vì điều này sẽ giúp cậu khỏe mạnh và tận hưởng mọi hoạt động ở trại hè.",
+              "en": "Finally, you should go jogging every morning and pack comfortable sports shoes because this will help you stay fit and enjoy all the camp activities.",
+              "formula": "Finally, you should + Vo + because...",
+              "vocab_hints": [
+                {
+                  "en": "go jogging every morning",
+                  "vi": "chạy bộ mỗi sáng"
+                },
+                {
+                  "en": "comfortable sports shoes",
+                  "vi": "giày thể thao thoải mái"
+                },
+                {
+                  "en": "stay fit",
+                  "vi": "giữ sức khỏe dẻo dai"
+                }
+              ],
+              "explanation": "Đưa ra lời khuyên thiết thực bằng cấu trúc \"You should + Vo\"."
+            },
+            {
+              "id": 5,
+              "part": "5. Kết thư (Closing - Thân mật)",
+              "vi": "Tớ hy vọng những lời khuyên của tớ sẽ hữu ích cho cậu. Hãy cho tớ biết mọi chuyện diễn ra thế nào nhé. Hồi âm sớm nhé.",
+              "en": "I hope my advice will be helpful to you. Please let me know how everything turns out. Write back soon.",
+              "formula": "I hope my advice will be helpful to you. Please let me know how everything turns out. Write back soon.",
+              "vocab_hints": [
+                {
+                  "en": "helpful to you",
+                  "vi": "hữu ích cho cậu"
+                },
+                {
+                  "en": "how everything turns out",
+                  "vi": "mọi chuyện diễn ra thế nào"
+                }
+              ],
+              "explanation": "Câu kết thư cho lời khuyên chuẩn B1."
+            }
+          ],
+          "sample_b1": {
+            "letter_en": "Dear John,\n\nThanks for your letter. I hope you are doing well. I’m writing to give you some advice about joining a summer camp.\n\nFirst, my summer camp last year was really fun and exciting because I made many new friends and played lots of outdoor games. We also sang songs around the campfire at night, so I think you will love it too. Second, it would be a good idea to check the health rules and the list of things to bring because the camp has many outdoor sports activities every day. Finally, you should go jogging every morning and pack comfortable sports shoes because this will help you stay fit and enjoy all the camp activities.\n\nI hope my advice will be helpful to you. Please let me know how everything turns out. Write back soon.\n\nBest wishes,",
+            "letter_vi": "John thân mến,\n\nCảm ơn thư của cậu. Tớ hy vọng cậu vẫn khỏe. Tớ viết thư này để cho cậu một vài lời khuyên về việc tham gia trại hè.\n\nĐầu tiên, trại hè năm ngoái của tớ thực sự rất vui và thú vị vì tớ đã kết bạn được với nhiều người mới và chơi rất nhiều trò chơi ngoài trời. Bọn tớ còn hát quanh lửa trại vào buổi tối, nên tớ nghĩ cậu cũng sẽ rất thích. Thứ hai, sẽ là một ý kiến hay nếu cậu kiểm tra quy định về sức khỏe và danh sách những đồ dùng cần mang theo vì trại hè có nhiều hoạt động thể thao ngoài trời mỗi ngày. Cuối cùng, cậu nên chạy bộ mỗi sáng và chuẩn bị giày thể thao thoải mái vì điều này sẽ giúp cậu khỏe mạnh và tận hưởng mọi hoạt động ở trại hè.\n\nTớ hy vọng những lời khuyên của tớ sẽ hữu ích cho cậu. Hãy cho tớ biết mọi chuyện diễn ra thế nào nhé. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "text": "Dear John,\n\nThanks for your letter. I hope you are doing well. I’m writing to give you some advice about joining a summer camp.\n\nFirst, my summer camp last year was really fun and exciting because I made many new friends and played lots of outdoor games. We also sang songs around the campfire at night, so I think you will love it too. Second, it would be a good idea to check the health rules and the list of things to bring because the camp has many outdoor sports activities every day. Finally, you should go jogging every morning and pack comfortable sports shoes because this will help you stay fit and enjoy all the camp activities.\n\nI hope my advice will be helpful to you. Please let me know how everything turns out. Write back soon.\n\nBest wishes,",
+            "translation": "John thân mến,\n\nCảm ơn thư của cậu. Tớ hy vọng cậu vẫn khỏe. Tớ viết thư này để cho cậu một vài lời khuyên về việc tham gia trại hè.\n\nĐầu tiên, trại hè năm ngoái của tớ thực sự rất vui và thú vị vì tớ đã kết bạn được với nhiều người mới và chơi rất nhiều trò chơi ngoài trời. Bọn tớ còn hát quanh lửa trại vào buổi tối, nên tớ nghĩ cậu cũng sẽ rất thích. Thứ hai, sẽ là một ý kiến hay nếu cậu kiểm tra quy định về sức khỏe và danh sách những đồ dùng cần mang theo vì trại hè có nhiều hoạt động thể thao ngoài trời mỗi ngày. Cuối cùng, cậu nên chạy bộ mỗi sáng và chuẩn bị giày thể thao thoải mái vì điều này sẽ giúp cậu khỏe mạnh và tận hưởng mọi hoạt động ở trại hè.\n\nTớ hy vọng những lời khuyên của tớ sẽ hữu ích cho cậu. Hãy cho tớ biết mọi chuyện diễn ra thế nào nhé. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "word_count": 140,
+            "key_structures": []
+          },
+          "sample_b2": {
+            "letter_en": "Dear John,\n\nThanks for your letter. I hope you are doing well. I’m writing to give you some advice about joining a summer camp.\n\nFirst, my summer camp last year was really fun and exciting because I made many new friends and played lots of outdoor games. We also sang songs around the campfire at night, so I think you will love it too. Second, it would be a good idea to check the health rules and the list of things to bring because the camp has many outdoor sports activities every day. Finally, you should go jogging every morning and pack comfortable sports shoes because this will help you stay fit and enjoy all the camp activities.\n\nI hope my advice will be helpful to you. Please let me know how everything turns out. Write back soon.\n\nBest wishes,",
+            "letter_vi": "John thân mến,\n\nCảm ơn thư của cậu. Tớ hy vọng cậu vẫn khỏe. Tớ viết thư này để cho cậu một vài lời khuyên về việc tham gia trại hè.\n\nĐầu tiên, trại hè năm ngoái của tớ thực sự rất vui và thú vị vì tớ đã kết bạn được với nhiều người mới và chơi rất nhiều trò chơi ngoài trời. Bọn tớ còn hát quanh lửa trại vào buổi tối, nên tớ nghĩ cậu cũng sẽ rất thích. Thứ hai, sẽ là một ý kiến hay nếu cậu kiểm tra quy định về sức khỏe và danh sách những đồ dùng cần mang theo vì trại hè có nhiều hoạt động thể thao ngoài trời mỗi ngày. Cuối cùng, cậu nên chạy bộ mỗi sáng và chuẩn bị giày thể thao thoải mái vì điều này sẽ giúp cậu khỏe mạnh và tận hưởng mọi hoạt động ở trại hè.\n\nTớ hy vọng những lời khuyên của tớ sẽ hữu ích cho cậu. Hãy cho tớ biết mọi chuyện diễn ra thế nào nhé. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "text": "Dear John,\n\nThanks for your letter. I hope you are doing well. I’m writing to give you some advice about joining a summer camp.\n\nFirst, my summer camp last year was really fun and exciting because I made many new friends and played lots of outdoor games. We also sang songs around the campfire at night, so I think you will love it too. Second, it would be a good idea to check the health rules and the list of things to bring because the camp has many outdoor sports activities every day. Finally, you should go jogging every morning and pack comfortable sports shoes because this will help you stay fit and enjoy all the camp activities.\n\nI hope my advice will be helpful to you. Please let me know how everything turns out. Write back soon.\n\nBest wishes,",
+            "translation": "John thân mến,\n\nCảm ơn thư của cậu. Tớ hy vọng cậu vẫn khỏe. Tớ viết thư này để cho cậu một vài lời khuyên về việc tham gia trại hè.\n\nĐầu tiên, trại hè năm ngoái của tớ thực sự rất vui và thú vị vì tớ đã kết bạn được với nhiều người mới và chơi rất nhiều trò chơi ngoài trời. Bọn tớ còn hát quanh lửa trại vào buổi tối, nên tớ nghĩ cậu cũng sẽ rất thích. Thứ hai, sẽ là một ý kiến hay nếu cậu kiểm tra quy định về sức khỏe và danh sách những đồ dùng cần mang theo vì trại hè có nhiều hoạt động thể thao ngoài trời mỗi ngày. Cuối cùng, cậu nên chạy bộ mỗi sáng và chuẩn bị giày thể thao thoải mái vì điều này sẽ giúp cậu khỏe mạnh và tận hưởng mọi hoạt động ở trại hè.\n\nTớ hy vọng những lời khuyên của tớ sẽ hữu ích cho cậu. Hãy cho tớ biết mọi chuyện diễn ra thế nào nhé. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "word_count": 140,
+            "key_structures": []
+          }
+        }
+      },
+      {
+        "id": "de-41",
+        "title_en": "Local advice to the leader of a visiting group",
+        "title_vi": "Đề 10: Tư vấn cho trưởng đoàn khách du lịch về nơi mua sắm, trung tâm thể thao và khách sạn đã đặt",
+        "recipient_type": "Semi-formal / Formal (Trưởng đoàn khách tham quan - Group Leader)",
+        "target_words": 120,
+        "tags": [
+          "Tư vấn địa phương",
+          "Mua sắm",
+          "Trung tâm thể thao",
+          "Khách sạn",
+          "Chuẩn B1"
+        ],
+        "context": "The leader of a visiting group has booked a hotel in your area and asks for local advice. Write an email to the group leader.",
+        "prompt": "The leader of a visiting group has booked a hotel in your area and asks for local advice. Write an email to the group leader.\n\nIn your email you should say:\n1. which one or two places you recommend for shopping\n2. what a local sports centre can offer the group\n3. what you think about the hotel they have booked and what details they should confirm\n\nWrite at least 120 words. You do not need to include your name or addresses. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt_vi": "Trưởng đoàn của một nhóm khách tham quan đã đặt khách sạn tại khu vực của bạn và viết thư xin lời khuyên về địa phương. Hãy viết một email gửi cho vị trưởng đoàn.\n\nTrong email, bạn nên nói rõ:\n1. Một hoặc hai địa điểm mua sắm mà bạn gợi ý cho đoàn (which one or two places you recommend for shopping)\n2. Trung tâm thể thao địa phương có thể cung cấp những dịch vụ/tiện ích gì cho đoàn (what a local sports centre can offer the group)\n3. Nhận xét của bạn về khách sạn mà đoàn đã đặt và những thông tin chi tiết nào họ nên xác nhận lại (what you think about the hotel they have booked and what details they should confirm)",
+        "has_full_details": true,
+        "details": {
+          "analysis": {
+            "recipient": "The Group Leader (Trưởng đoàn khách tham quan)",
+            "letter_type": "Semi-formal / Formal (Thư bán trang trọng / trang trọng)",
+            "purpose": "Gợi ý 1–2 điểm mua sắm, giới thiệu các hoạt động tại trung tâm thể thao địa phương, và nhận xét về khách sạn kèm các thông tin cần xác nhận trước",
+            "key_requirements": [
+              "1. Recommend one or two places for shopping (Gợi ý 1–2 địa điểm mua sắm)",
+              "2. What a local sports centre can offer the group (Trung tâm thể thao địa phương có gì cho đoàn)",
+              "3. What you think about the hotel and what details to confirm (Nhận xét khách sạn đã đặt và các chi tiết cần xác nhận)"
+            ]
+          },
+          "task_extractions": [
+            {
+              "id": 1,
+              "icon": "fa-bag-shopping",
+              "prompt_requirement": "which one or two places you recommend for shopping",
+              "task_title": "1. Địa điểm mua sắm (Shopping places)",
+              "task_goal": "Gợi ý trung tâm thương mại Vincom Plaza và chợ đêm địa phương để mua quần áo và quà lưu niệm."
+            },
+            {
+              "id": 2,
+              "icon": "fa-dumbbell",
+              "prompt_requirement": "what a local sports centre can offer the group",
+              "task_title": "2. Trung tâm thể thao (Local sports centre)",
+              "task_goal": "Giới thiệu trung tâm thể thao thành phố có hồ bơi lớn, sân cầu lông và phòng tập gym."
+            },
+            {
+              "id": 3,
+              "icon": "fa-hotel",
+              "prompt_requirement": "what you think about the hotel they have booked and what details they should confirm",
+              "task_title": "3. Nhận xét khách sạn & Xác nhận (Hotel & Details)",
+              "task_goal": "Khen khách sạn sạch sẽ, gần trung tâm và khuyên xác nhận bữa sáng miễn phí cùng xe đưa đón sân bay."
+            }
+          ],
+          "suggested_ideas": [
+            {
+              "id": 1,
+              "title_en": "1. Places recommended for shopping",
+              "title_vi": "Gợi ý một hoặc hai địa điểm mua sắm",
+              "icon": "fa-bag-shopping",
+              "options": [
+                {
+                  "action_en": "visit Vincom Shopping Mall and the Central Night Market",
+                  "action_vi": "ghé thăm Trung tâm thương mại Vincom và Chợ Đêm Trung tâm",
+                  "reason_en": "because your group can buy both modern clothes and cheap local gifts there.",
+                  "reason_vi": "vì đoàn của quý vị có thể mua cả quần áo hiện đại lẫn quà lưu niệm địa phương giá rẻ ở đó.",
+                  "b1_sentence": "First, for shopping, you should visit Vincom Shopping Mall and the Central Night Market because your group can buy both modern clothes and cheap local gifts there.",
+                  "b1_sentence_vi": "Đầu tiên, về việc mua sắm, quý vị nên ghé thăm Trung tâm thương mại Vincom và Chợ Đêm Trung tâm vì đoàn của quý vị có thể mua cả quần áo hiện đại lẫn quà lưu niệm địa phương giá rẻ ở đó."
+                },
+                {
+                  "action_en": "go shopping at Aeon Mall and the Old Street Market",
+                  "action_vi": "đi mua sắm tại Aeon Mall và Chợ Phố Cổ",
+                  "reason_en": "because they have many good shops and reasonable prices for tourists.",
+                  "reason_vi": "vì ở đó có nhiều cửa hàng tốt và giá cả hợp lý cho khách du lịch.",
+                  "b1_sentence": "First, for shopping, you should go shopping at Aeon Mall and the Old Street Market because they have many good shops and reasonable prices for tourists.",
+                  "b1_sentence_vi": "Đầu tiên, về việc mua sắm, quý vị nên đi mua sắm tại Aeon Mall và Chợ Phố Cổ vì ở đó có nhiều cửa hàng tốt và giá cả hợp lý cho khách du lịch."
+                },
+                {
+                  "action_en": "take your group to Lotte Center and Green Supermarket",
+                  "action_vi": "đưa đoàn đến Lotte Center và Siêu thị Xanh",
+                  "reason_en": "because they are very close to your hotel and sell many local products.",
+                  "reason_vi": "vì chúng ở rất gần khách sạn của quý vị và bán nhiều sản phẩm địa phương.",
+                  "b1_sentence": "First, for shopping, you should take your group to Lotte Center and Green Supermarket because they are very close to your hotel and sell many local products.",
+                  "b1_sentence_vi": "Đầu tiên, về việc mua sắm, quý vị nên đưa đoàn đến Lotte Center và Siêu thị Xanh vì chúng ở rất gần khách sạn của quý vị và bán nhiều sản phẩm địa phương."
+                },
+                {
+                  "action_en": "explore the City Plaza and the Weekend Craft Market",
+                  "action_vi": "khám phá City Plaza và Chợ Thủ công Cuối tuần",
+                  "reason_en": "because visitors can find beautiful handmade souvenirs and local snacks.",
+                  "reason_vi": "vì du khách có thể tìm thấy những món quà lưu niệm thủ công đẹp mắt và đồ ăn vặt địa phương.",
+                  "b1_sentence": "First, for shopping, you should explore the City Plaza and the Weekend Craft Market because visitors can find beautiful handmade souvenirs and local snacks.",
+                  "b1_sentence_vi": "Đầu tiên, về việc mua sắm, quý vị nên khám phá City Plaza và Chợ Thủ công Cuối tuần vì du khách có thể tìm thấy những món quà lưu niệm thủ công đẹp mắt và đồ ăn vặt địa phương."
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "title_en": "2. What a local sports centre can offer",
+              "title_vi": "Trung tâm thể thao địa phương có gì cho đoàn",
+              "icon": "fa-dumbbell",
+              "options": [
+                {
+                  "action_en": "the City Sports Centre offers a large swimming pool, badminton courts, and a modern gym",
+                  "action_vi": "Trung tâm Thể thao Thành phố có hồ bơi lớn, sân cầu lông và phòng tập gym hiện đại",
+                  "reason_en": "because it is designed for big groups to play sports and relax together.",
+                  "reason_vi": "vì nơi này được thiết kế cho các đoàn đông người cùng chơi thể thao và thư giãn.",
+                  "b1_sentence": "Second, the City Sports Centre offers a large swimming pool, badminton courts, and a modern gym because it is designed for big groups to play sports and relax together.",
+                  "b1_sentence_vi": "Thứ hai, Trung tâm Thể thao Thành phố có hồ bơi lớn, sân cầu lông và phòng tập gym hiện đại vì nơi này được thiết kế cho các đoàn đông người cùng chơi thể thao và thư giãn."
+                },
+                {
+                  "action_en": "the local sports centre has tennis courts, a football field, and yoga classes",
+                  "action_vi": "trung tâm thể thao địa phương có sân tennis, sân bóng đá và các lớp tập yoga",
+                  "reason_en": "so your group members can easily choose their favorite sport.",
+                  "reason_vi": "nên các thành viên trong đoàn có thể dễ dàng chọn môn thể thao yêu thích của mình.",
+                  "b1_sentence": "Second, the local sports centre has tennis courts, a football field, and yoga classes, so your group members can easily choose their favorite sport.",
+                  "b1_sentence_vi": "Thứ hai, trung tâm thể thao địa phương có sân tennis, sân bóng đá và các lớp tập yoga, nên các thành viên trong đoàn có thể dễ dàng chọn môn thể thao yêu thích của mình."
+                },
+                {
+                  "action_en": "our town sports centre provides indoor basketball courts and cheap group tickets",
+                  "action_vi": "trung tâm thể thao thị trấn có sân bóng rổ trong nhà và vé tập theo đoàn giá rẻ",
+                  "reason_en": "because they always welcome visiting groups and tourists.",
+                  "reason_vi": "vì họ luôn chào đón các đoàn khách tham quan và du khách.",
+                  "b1_sentence": "Second, our town sports centre provides indoor basketball courts and cheap group tickets because they always welcome visiting groups and tourists.",
+                  "b1_sentence_vi": "Thứ hai, trung tâm thể thao thị trấn có sân bóng rổ trong nhà và vé tập theo đoàn giá rẻ vì họ luôn chào đón các đoàn khách tham quan và du khách."
+                },
+                {
+                  "action_en": "the Sunshine Sports Centre offers table tennis tables, a clean pool, and sports equipment for rent",
+                  "action_vi": "Trung tâm Thể thao Ánh Dương có bàn bóng bàn, hồ bơi sạch sẽ và cho thuê dụng cụ thể thao",
+                  "reason_en": "so your group does not need to bring heavy sports gear from home.",
+                  "reason_vi": "nên đoàn của quý vị không cần mang theo dụng cụ thể thao nặng nề từ nhà.",
+                  "b1_sentence": "Second, the Sunshine Sports Centre offers table tennis tables, a clean pool, and sports equipment for rent, so your group does not need to bring heavy sports gear from home.",
+                  "b1_sentence_vi": "Thứ hai, Trung tâm Thể thao Ánh Dương có bàn bóng bàn, hồ bơi sạch sẽ và cho thuê dụng cụ thể thao, nên đoàn của quý vị không cần mang theo dụng cụ thể thao nặng nề từ nhà."
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "title_en": "3. Opinion on the hotel and details to confirm",
+              "title_vi": "Nhận xét về khách sạn và các chi tiết cần xác nhận",
+              "icon": "fa-hotel",
+              "options": [
+                {
+                  "action_en": "the hotel you booked is very clean and comfortable, but you should confirm the check-in time and free breakfast",
+                  "action_vi": "khách sạn quý vị đặt rất sạch sẽ và thoải mái, nhưng quý vị nên xác nhận lại giờ nhận phòng và bữa sáng miễn phí",
+                  "reason_en": "because this will help your group avoid any problem when arriving.",
+                  "reason_vi": "vì điều này sẽ giúp đoàn tránh được mọi rắc rối khi đến nơi.",
+                  "b1_sentence": "Finally, I think the hotel you booked is very clean and comfortable, but you should confirm the check-in time and free breakfast because this will help your group avoid any problem when arriving.",
+                  "b1_sentence_vi": "Cuối cùng, tôi nghĩ khách sạn quý vị đặt rất sạch sẽ và thoải mái, nhưng quý vị nên xác nhận lại giờ nhận phòng và bữa sáng miễn phí vì điều này sẽ giúp đoàn tránh được mọi rắc rối khi đến nơi."
+                },
+                {
+                  "action_en": "your hotel is in a great location near the park, and you should check the airport bus service and room types",
+                  "action_vi": "khách sạn của quý vị có vị trí rất đẹp gần công viên, và quý vị nên kiểm tra dịch vụ xe đón sân bay cùng loại phòng",
+                  "reason_en": "because travelling in a big group needs careful preparation.",
+                  "reason_vi": "vì đi du lịch theo đoàn đông người cần sự chuẩn bị kỹ lưỡng.",
+                  "b1_sentence": "Finally, I think your hotel is in a great location near the park, and you should check the airport bus service and room types because travelling in a big group needs careful preparation.",
+                  "b1_sentence_vi": "Cuối cùng, tôi nghĩ khách sạn của quý vị có vị trí rất đẹp gần công viên, và quý vị nên kiểm tra dịch vụ xe đón sân bay cùng loại phòng vì đi du lịch theo đoàn đông người cần sự chuẩn bị kỹ lưỡng."
+                },
+                {
+                  "action_en": "the hotel has very friendly staff, and you should confirm if they have parking space for your tour bus",
+                  "action_vi": "khách sạn có đội ngũ nhân viên rất thân thiện, và quý vị nên xác nhận xem họ có chỗ đỗ xe cho xe du lịch của đoàn không",
+                  "reason_en": "because the streets around the hotel are quite busy.",
+                  "reason_vi": "vì đường phố xung quanh khách sạn khá đông đúc.",
+                  "b1_sentence": "Finally, I think the hotel has very friendly staff, and you should confirm if they have parking space for your tour bus because the streets around the hotel are quite busy.",
+                  "b1_sentence_vi": "Cuối cùng, tôi nghĩ khách sạn có đội ngũ nhân viên rất thân thiện, và quý vị nên xác nhận xem họ có chỗ đỗ xe cho xe du lịch của đoàn không vì đường phố xung quanh khách sạn khá đông đúc."
+                },
+                {
+                  "action_en": "it is a nice three-star hotel, and you should call them to confirm extra beds and Wi-Fi access",
+                  "action_vi": "đó là một khách sạn ba sao rất tốt, và quý vị nên gọi cho họ để xác nhận giường phụ cũng như kết nối Wi-Fi",
+                  "reason_en": "because the hotel is often busy during the summer holiday.",
+                  "reason_vi": "vì khách sạn thường rất đông khách vào kỳ nghỉ hè.",
+                  "b1_sentence": "Finally, I think it is a nice three-star hotel, and you should call them to confirm extra beds and Wi-Fi access because the hotel is often busy during the summer holiday.",
+                  "b1_sentence_vi": "Cuối cùng, tôi nghĩ đó là một khách sạn ba sao rất tốt, và quý vị nên gọi cho họ để xác nhận giường phụ cũng như kết nối Wi-Fi vì khách sạn thường rất đông khách vào kỳ nghỉ hè."
+                }
+              ]
+            }
+          ],
+          "vocab": [
+            {
+              "en": "shopping mall",
+              "vi": "trung tâm thương mại",
+              "category": "1. Mua sắm (Shopping places)"
+            },
+            {
+              "en": "night market",
+              "vi": "chợ đêm",
+              "category": "1. Mua sắm (Shopping places)"
+            },
+            {
+              "en": "cheap local gifts",
+              "vi": "quà lưu niệm địa phương giá rẻ",
+              "category": "1. Mua sắm (Shopping places)"
+            },
+            {
+              "en": "reasonable prices",
+              "vi": "giá cả hợp lý",
+              "category": "1. Mua sắm (Shopping places)"
+            },
+            {
+              "en": "local sports centre",
+              "vi": "trung tâm thể thao địa phương",
+              "category": "2. Trung tâm thể thao (Sports centre)"
+            },
+            {
+              "en": "large swimming pool",
+              "vi": "hồ bơi lớn",
+              "category": "2. Trung tâm thể thao (Sports centre)"
+            },
+            {
+              "en": "badminton courts",
+              "vi": "sân cầu lông",
+              "category": "2. Trung tâm thể thao (Sports centre)"
+            },
+            {
+              "en": "modern gym",
+              "vi": "phòng tập gym hiện đại",
+              "category": "2. Trung tâm thể thao (Sports centre)"
+            },
+            {
+              "en": "clean and comfortable",
+              "vi": "sạch sẽ và thoải mái",
+              "category": "3. Khách sạn (Hotel & Details)"
+            },
+            {
+              "en": "confirm the check-in time",
+              "vi": "xác nhận giờ nhận phòng",
+              "category": "3. Khách sạn (Hotel & Details)"
+            },
+            {
+              "en": "free breakfast",
+              "vi": "bữa sáng miễn phí",
+              "category": "3. Khách sạn (Hotel & Details)"
+            },
+            {
+              "en": "airport bus service",
+              "vi": "dịch vụ xe đưa đón sân bay",
+              "category": "3. Khách sạn (Hotel & Details)"
+            }
+          ],
+          "sentence_practice_b1": [
+            {
+              "id": 1,
+              "part": "1. Mở thư (Opening - Trang trọng)",
+              "vi": "Trong thư, quý vị đã hỏi xin lời khuyên về khu vực của chúng tôi cho chuyến đi sắp tới của đoàn, vì vậy tôi viết thư này để cung cấp một số thông tin hữu ích.",
+              "en": "In your letter, you asked for advice about our area for your group’s upcoming trip, so I am writing to give you some useful information.",
+              "formula": "In your letter, you asked for advice about..., so I am writing to give you some useful information.",
+              "vocab_hints": [
+                {
+                  "en": "asked for advice",
+                  "vi": "hỏi xin lời khuyên"
+                },
+                {
+                  "en": "upcoming trip",
+                  "vi": "chuyến đi sắp tới"
+                }
+              ],
+              "explanation": "Mở thư lịch sự, nêu rõ mục đích cung cấp thông tin và lời khuyên cho trưởng đoàn."
+            },
+            {
+              "id": 2,
+              "part": "2. Thân thư - Ý 1: Gợi ý địa điểm mua sắm",
+              "vi": "Đầu tiên, về việc mua sắm, quý vị nên ghé thăm Trung tâm thương mại Vincom và Chợ Đêm Trung tâm vì đoàn của quý vị có thể mua cả quần áo hiện đại lẫn quà lưu niệm địa phương giá rẻ ở đó.",
+              "en": "First, for shopping, you should visit Vincom Shopping Mall and the Central Night Market because your group can buy both modern clothes and cheap local gifts there.",
+              "formula": "First, for shopping, you should visit + [địa điểm] + because...",
+              "vocab_hints": [
+                {
+                  "en": "Vincom Shopping Mall",
+                  "vi": "Trung tâm thương mại Vincom"
+                },
+                {
+                  "en": "Central Night Market",
+                  "vi": "Chợ Đêm Trung tâm"
+                },
+                {
+                  "en": "cheap local gifts",
+                  "vi": "quà lưu niệm địa phương giá rẻ"
+                }
+              ],
+              "explanation": "Gợi ý 2 địa điểm mua sắm cụ thể kèm lý do rõ ràng."
+            },
+            {
+              "id": 3,
+              "part": "3. Thân thư - Ý 2: Tiện ích tại trung tâm thể thao",
+              "vi": "Thứ hai, Trung tâm Thể thao Thành phố có hồ bơi lớn, sân cầu lông và phòng tập gym hiện đại vì nơi này được thiết kế cho các đoàn đông người cùng chơi thể thao và thư giãn.",
+              "en": "Second, the City Sports Centre offers a large swimming pool, badminton courts, and a modern gym because it is designed for big groups to play sports and relax together.",
+              "formula": "Second, the City Sports Centre offers + [tiện ích] + because...",
+              "vocab_hints": [
+                {
+                  "en": "large swimming pool",
+                  "vi": "hồ bơi lớn"
+                },
+                {
+                  "en": "badminton courts",
+                  "vi": "sân cầu lông"
+                },
+                {
+                  "en": "modern gym",
+                  "vi": "phòng tập gym hiện đại"
+                }
+              ],
+              "explanation": "Giới thiệu các tiện ích thể thao phù hợp cho đoàn khách."
+            },
+            {
+              "id": 4,
+              "part": "4. Thân thư - Ý 3: Nhận xét khách sạn và chi tiết cần xác nhận",
+              "vi": "Cuối cùng, tôi nghĩ khách sạn quý vị đặt rất sạch sẽ và thoải mái, nhưng quý vị nên xác nhận lại giờ nhận phòng và bữa sáng miễn phí vì điều này sẽ giúp đoàn tránh được mọi rắc rối khi đến nơi.",
+              "en": "Finally, I think the hotel you booked is very clean and comfortable, but you should confirm the check-in time and free breakfast because this will help your group avoid any problem when arriving.",
+              "formula": "Finally, I think the hotel you booked is..., but you should confirm + [chi tiết] + because...",
+              "vocab_hints": [
+                {
+                  "en": "clean and comfortable",
+                  "vi": "sạch sẽ và thoải mái"
+                },
+                {
+                  "en": "confirm the check-in time",
+                  "vi": "xác nhận giờ nhận phòng"
+                },
+                {
+                  "en": "free breakfast",
+                  "vi": "bữa sáng miễn phí"
+                }
+              ],
+              "explanation": "Đưa ra nhận xét tích cực về khách sạn và nhắc xác nhận 2 chi tiết quan trọng."
+            },
+            {
+              "id": 5,
+              "part": "5. Kết thư (Closing - Trang trọng)",
+              "vi": "Tôi hy vọng những thông tin trên sẽ hữu ích cho quý vị. Xin cứ tự nhiên liên hệ với tôi nếu quý vị cần thêm chi tiết.",
+              "en": "I hope the information above will be helpful to you. Please feel free to contact me if you need more details.",
+              "formula": "I hope the information above will be helpful to you. Please feel free to contact me if you need more details.",
+              "vocab_hints": [
+                {
+                  "en": "helpful to you",
+                  "vi": "hữu ích cho quý vị"
+                },
+                {
+                  "en": "feel free to contact me",
+                  "vi": "cứ tự nhiên liên hệ với tôi"
+                }
+              ],
+              "explanation": "Kết thư lịch sự chuẩn B1."
+            }
+          ],
+          "sentence_practice_b2": [
+            {
+              "id": 1,
+              "part": "1. Mở thư (Opening - Trang trọng)",
+              "vi": "Trong thư, quý vị đã hỏi xin lời khuyên về khu vực của chúng tôi cho chuyến đi sắp tới của đoàn, vì vậy tôi viết thư này để cung cấp một số thông tin hữu ích.",
+              "en": "In your letter, you asked for advice about our area for your group’s upcoming trip, so I am writing to give you some useful information.",
+              "formula": "In your letter, you asked for advice about..., so I am writing to give you some useful information.",
+              "vocab_hints": [
+                {
+                  "en": "asked for advice",
+                  "vi": "hỏi xin lời khuyên"
+                },
+                {
+                  "en": "upcoming trip",
+                  "vi": "chuyến đi sắp tới"
+                }
+              ],
+              "explanation": "Mở thư lịch sự, nêu rõ mục đích cung cấp thông tin và lời khuyên cho trưởng đoàn."
+            },
+            {
+              "id": 2,
+              "part": "2. Thân thư - Ý 1: Gợi ý địa điểm mua sắm",
+              "vi": "Đầu tiên, về việc mua sắm, quý vị nên ghé thăm Trung tâm thương mại Vincom và Chợ Đêm Trung tâm vì đoàn của quý vị có thể mua cả quần áo hiện đại lẫn quà lưu niệm địa phương giá rẻ ở đó.",
+              "en": "First, for shopping, you should visit Vincom Shopping Mall and the Central Night Market because your group can buy both modern clothes and cheap local gifts there.",
+              "formula": "First, for shopping, you should visit + [địa điểm] + because...",
+              "vocab_hints": [
+                {
+                  "en": "Vincom Shopping Mall",
+                  "vi": "Trung tâm thương mại Vincom"
+                },
+                {
+                  "en": "Central Night Market",
+                  "vi": "Chợ Đêm Trung tâm"
+                },
+                {
+                  "en": "cheap local gifts",
+                  "vi": "quà lưu niệm địa phương giá rẻ"
+                }
+              ],
+              "explanation": "Gợi ý 2 địa điểm mua sắm cụ thể kèm lý do rõ ràng."
+            },
+            {
+              "id": 3,
+              "part": "3. Thân thư - Ý 2: Tiện ích tại trung tâm thể thao",
+              "vi": "Thứ hai, Trung tâm Thể thao Thành phố có hồ bơi lớn, sân cầu lông và phòng tập gym hiện đại vì nơi này được thiết kế cho các đoàn đông người cùng chơi thể thao và thư giãn.",
+              "en": "Second, the City Sports Centre offers a large swimming pool, badminton courts, and a modern gym because it is designed for big groups to play sports and relax together.",
+              "formula": "Second, the City Sports Centre offers + [tiện ích] + because...",
+              "vocab_hints": [
+                {
+                  "en": "large swimming pool",
+                  "vi": "hồ bơi lớn"
+                },
+                {
+                  "en": "badminton courts",
+                  "vi": "sân cầu lông"
+                },
+                {
+                  "en": "modern gym",
+                  "vi": "phòng tập gym hiện đại"
+                }
+              ],
+              "explanation": "Giới thiệu các tiện ích thể thao phù hợp cho đoàn khách."
+            },
+            {
+              "id": 4,
+              "part": "4. Thân thư - Ý 3: Nhận xét khách sạn và chi tiết cần xác nhận",
+              "vi": "Cuối cùng, tôi nghĩ khách sạn quý vị đặt rất sạch sẽ và thoải mái, nhưng quý vị nên xác nhận lại giờ nhận phòng và bữa sáng miễn phí vì điều này sẽ giúp đoàn tránh được mọi rắc rối khi đến nơi.",
+              "en": "Finally, I think the hotel you booked is very clean and comfortable, but you should confirm the check-in time and free breakfast because this will help your group avoid any problem when arriving.",
+              "formula": "Finally, I think the hotel you booked is..., but you should confirm + [chi tiết] + because...",
+              "vocab_hints": [
+                {
+                  "en": "clean and comfortable",
+                  "vi": "sạch sẽ và thoải mái"
+                },
+                {
+                  "en": "confirm the check-in time",
+                  "vi": "xác nhận giờ nhận phòng"
+                },
+                {
+                  "en": "free breakfast",
+                  "vi": "bữa sáng miễn phí"
+                }
+              ],
+              "explanation": "Đưa ra nhận xét tích cực về khách sạn và nhắc xác nhận 2 chi tiết quan trọng."
+            },
+            {
+              "id": 5,
+              "part": "5. Kết thư (Closing - Trang trọng)",
+              "vi": "Tôi hy vọng những thông tin trên sẽ hữu ích cho quý vị. Xin cứ tự nhiên liên hệ với tôi nếu quý vị cần thêm chi tiết.",
+              "en": "I hope the information above will be helpful to you. Please feel free to contact me if you need more details.",
+              "formula": "I hope the information above will be helpful to you. Please feel free to contact me if you need more details.",
+              "vocab_hints": [
+                {
+                  "en": "helpful to you",
+                  "vi": "hữu ích cho quý vị"
+                },
+                {
+                  "en": "feel free to contact me",
+                  "vi": "cứ tự nhiên liên hệ với tôi"
+                }
+              ],
+              "explanation": "Kết thư lịch sự chuẩn B1."
+            }
+          ],
+          "sample_b1": {
+            "letter_en": "Dear Sir/Madam,\n\nIn your letter, you asked for advice about our area for your group’s upcoming trip, so I am writing to give you some useful information.\n\nFirst, for shopping, you should visit Vincom Shopping Mall and the Central Night Market because your group can buy both modern clothes and cheap local gifts there. Second, the City Sports Centre offers a large swimming pool, badminton courts, and a modern gym because it is designed for big groups to play sports and relax together. It is only ten minutes from your hotel on foot. Finally, I think the hotel you booked is very clean and comfortable, but you should confirm the check-in time and free breakfast because this will help your group avoid any problem when arriving.\n\nI hope the information above will be helpful to you. Please feel free to contact me if you need more details.\n\nYours faithfully,",
+            "letter_vi": "Kính gửi Ông/Bà,\n\nTrong thư, quý vị đã hỏi xin lời khuyên về khu vực của chúng tôi cho chuyến đi sắp tới của đoàn, vì vậy tôi viết thư này để cung cấp một số thông tin hữu ích.\n\nĐầu tiên, về việc mua sắm, quý vị nên ghé thăm Trung tâm thương mại Vincom và Chợ Đêm Trung tâm vì đoàn của quý vị có thể mua cả quần áo hiện đại lẫn quà lưu niệm địa phương giá rẻ ở đó. Thứ hai, Trung tâm Thể thao Thành phố có hồ bơi lớn, sân cầu lông và phòng tập gym hiện đại vì nơi này được thiết kế cho các đoàn đông người cùng chơi thể thao và thư giãn. Trung tâm này chỉ cách khách sạn của quý vị mười phút đi bộ. Cuối cùng, tôi nghĩ khách sạn quý vị đặt rất sạch sẽ và thoải mái, nhưng quý vị nên xác nhận lại giờ nhận phòng và bữa sáng miễn phí vì điều này sẽ giúp đoàn tránh được mọi rắc rối khi đến nơi.\n\nTôi hy vọng những thông tin trên sẽ hữu ích cho quý vị. Xin cứ tự nhiên liên hệ với tôi nếu quý vị cần thêm chi tiết.\n\nTrân trọng,",
+            "text": "Dear Sir/Madam,\n\nIn your letter, you asked for advice about our area for your group’s upcoming trip, so I am writing to give you some useful information.\n\nFirst, for shopping, you should visit Vincom Shopping Mall and the Central Night Market because your group can buy both modern clothes and cheap local gifts there. Second, the City Sports Centre offers a large swimming pool, badminton courts, and a modern gym because it is designed for big groups to play sports and relax together. It is only ten minutes from your hotel on foot. Finally, I think the hotel you booked is very clean and comfortable, but you should confirm the check-in time and free breakfast because this will help your group avoid any problem when arriving.\n\nI hope the information above will be helpful to you. Please feel free to contact me if you need more details.\n\nYours faithfully,",
+            "translation": "Kính gửi Ông/Bà,\n\nTrong thư, quý vị đã hỏi xin lời khuyên về khu vực của chúng tôi cho chuyến đi sắp tới của đoàn, vì vậy tôi viết thư này để cung cấp một số thông tin hữu ích.\n\nĐầu tiên, về việc mua sắm, quý vị nên ghé thăm Trung tâm thương mại Vincom và Chợ Đêm Trung tâm vì đoàn của quý vị có thể mua cả quần áo hiện đại lẫn quà lưu niệm địa phương giá rẻ ở đó. Thứ hai, Trung tâm Thể thao Thành phố có hồ bơi lớn, sân cầu lông và phòng tập gym hiện đại vì nơi này được thiết kế cho các đoàn đông người cùng chơi thể thao và thư giãn. Trung tâm này chỉ cách khách sạn của quý vị mười phút đi bộ. Cuối cùng, tôi nghĩ khách sạn quý vị đặt rất sạch sẽ và thoải mái, nhưng quý vị nên xác nhận lại giờ nhận phòng và bữa sáng miễn phí vì điều này sẽ giúp đoàn tránh được mọi rắc rối khi đến nơi.\n\nTôi hy vọng những thông tin trên sẽ hữu ích cho quý vị. Xin cứ tự nhiên liên hệ với tôi nếu quý vị cần thêm chi tiết.\n\nTrân trọng,",
+            "word_count": 149,
+            "key_structures": []
+          },
+          "sample_b2": {
+            "letter_en": "Dear Sir/Madam,\n\nIn your letter, you asked for advice about our area for your group’s upcoming trip, so I am writing to give you some useful information.\n\nFirst, for shopping, you should visit Vincom Shopping Mall and the Central Night Market because your group can buy both modern clothes and cheap local gifts there. Second, the City Sports Centre offers a large swimming pool, badminton courts, and a modern gym because it is designed for big groups to play sports and relax together. It is only ten minutes from your hotel on foot. Finally, I think the hotel you booked is very clean and comfortable, but you should confirm the check-in time and free breakfast because this will help your group avoid any problem when arriving.\n\nI hope the information above will be helpful to you. Please feel free to contact me if you need more details.\n\nYours faithfully,",
+            "letter_vi": "Kính gửi Ông/Bà,\n\nTrong thư, quý vị đã hỏi xin lời khuyên về khu vực của chúng tôi cho chuyến đi sắp tới của đoàn, vì vậy tôi viết thư này để cung cấp một số thông tin hữu ích.\n\nĐầu tiên, về việc mua sắm, quý vị nên ghé thăm Trung tâm thương mại Vincom và Chợ Đêm Trung tâm vì đoàn của quý vị có thể mua cả quần áo hiện đại lẫn quà lưu niệm địa phương giá rẻ ở đó. Thứ hai, Trung tâm Thể thao Thành phố có hồ bơi lớn, sân cầu lông và phòng tập gym hiện đại vì nơi này được thiết kế cho các đoàn đông người cùng chơi thể thao và thư giãn. Trung tâm này chỉ cách khách sạn của quý vị mười phút đi bộ. Cuối cùng, tôi nghĩ khách sạn quý vị đặt rất sạch sẽ và thoải mái, nhưng quý vị nên xác nhận lại giờ nhận phòng và bữa sáng miễn phí vì điều này sẽ giúp đoàn tránh được mọi rắc rối khi đến nơi.\n\nTôi hy vọng những thông tin trên sẽ hữu ích cho quý vị. Xin cứ tự nhiên liên hệ với tôi nếu quý vị cần thêm chi tiết.\n\nTrân trọng,",
+            "text": "Dear Sir/Madam,\n\nIn your letter, you asked for advice about our area for your group’s upcoming trip, so I am writing to give you some useful information.\n\nFirst, for shopping, you should visit Vincom Shopping Mall and the Central Night Market because your group can buy both modern clothes and cheap local gifts there. Second, the City Sports Centre offers a large swimming pool, badminton courts, and a modern gym because it is designed for big groups to play sports and relax together. It is only ten minutes from your hotel on foot. Finally, I think the hotel you booked is very clean and comfortable, but you should confirm the check-in time and free breakfast because this will help your group avoid any problem when arriving.\n\nI hope the information above will be helpful to you. Please feel free to contact me if you need more details.\n\nYours faithfully,",
+            "translation": "Kính gửi Ông/Bà,\n\nTrong thư, quý vị đã hỏi xin lời khuyên về khu vực của chúng tôi cho chuyến đi sắp tới của đoàn, vì vậy tôi viết thư này để cung cấp một số thông tin hữu ích.\n\nĐầu tiên, về việc mua sắm, quý vị nên ghé thăm Trung tâm thương mại Vincom và Chợ Đêm Trung tâm vì đoàn của quý vị có thể mua cả quần áo hiện đại lẫn quà lưu niệm địa phương giá rẻ ở đó. Thứ hai, Trung tâm Thể thao Thành phố có hồ bơi lớn, sân cầu lông và phòng tập gym hiện đại vì nơi này được thiết kế cho các đoàn đông người cùng chơi thể thao và thư giãn. Trung tâm này chỉ cách khách sạn của quý vị mười phút đi bộ. Cuối cùng, tôi nghĩ khách sạn quý vị đặt rất sạch sẽ và thoải mái, nhưng quý vị nên xác nhận lại giờ nhận phòng và bữa sáng miễn phí vì điều này sẽ giúp đoàn tránh được mọi rắc rối khi đến nơi.\n\nTôi hy vọng những thông tin trên sẽ hữu ích cho quý vị. Xin cứ tự nhiên liên hệ với tôi nếu quý vị cần thêm chi tiết.\n\nTrân trọng,",
+            "word_count": 149,
+            "key_structures": []
+          }
+        }
+      },
+      {
+        "id": "de-42",
+        "title_en": "Advice to Alex about starting ice hockey",
+        "title_vi": "Đề 11: Khuyên bạn Alex về cách bắt đầu chơi khúc côn cầu trên băng, rèn thể lực và chế độ ăn uống",
+        "recipient_type": "Informal (Bạn bè - Alex)",
+        "target_words": 120,
+        "tags": [
+          "Thể thao",
+          "Khúc côn cầu",
+          "Thể lực",
+          "Ăn uống lành mạnh",
+          "Chuẩn B1"
+        ],
+        "context": "Your friend Alex wants to try ice hockey but is worried about having little experience and not being fit enough. Write an email to Alex.",
+        "prompt": "Your friend Alex wants to try ice hockey but is worried about having little experience and not being fit enough. Write an email to Alex.\n\nIn your email you should say:\n1. what general advice you would give about getting started\n2. how Alex could prepare for the physical demands\n3. what sensible eating habits could support the preparation\n\nWrite at least 120 words. You do not need to include your name or addresses. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt_vi": "Người bạn Alex của bạn muốn thử chơi môn khúc côn cầu trên băng (ice hockey) nhưng lại lo lắng vì có ít kinh nghiệm và sợ không đủ sức khỏe. Hãy viết một email gửi cho Alex.\n\nTrong email, bạn nên nói rõ:\n1. Lời khuyên chung của bạn để bắt đầu làm quen với môn thể thao này (what general advice you would give about getting started)\n2. Alex có thể chuẩn bị về mặt thể lực như thế nào (how Alex could prepare for the physical demands)\n3. Thói quen ăn uống hợp lý nào sẽ hỗ trợ tốt cho quá trình chuẩn bị đó (what sensible eating habits could support the preparation)",
+        "has_full_details": true,
+        "details": {
+          "analysis": {
+            "recipient": "Alex (Người bạn muốn tập chơi môn khúc côn cầu trên băng)",
+            "letter_type": "Informal (Thư thân mật)",
+            "purpose": "Động viên Alex bắt đầu từ lớp cơ bản, hướng dẫn cách tập luyện tăng thể lực và gợi ý chế độ ăn uống lành mạnh",
+            "key_requirements": [
+              "1. General advice about getting started (Lời khuyên chung khi mới bắt đầu)",
+              "2. How to prepare for the physical demands (Cách rèn luyện chuẩn bị thể lực)",
+              "3. Sensible eating habits to support preparation (Thói quen ăn uống hợp lý hỗ trợ tập luyện)"
+            ]
+          },
+          "task_extractions": [
+            {
+              "id": 1,
+              "icon": "fa-hockey-puck",
+              "prompt_requirement": "what general advice you would give about getting started",
+              "task_title": "1. Lời khuyên khi bắt đầu (Getting started)",
+              "task_goal": "Khuyên Alex tham gia lớp học cho người mới bắt đầu và thuê đồ bảo hộ trước khi mua."
+            },
+            {
+              "id": 2,
+              "icon": "fa-heart-pulse",
+              "prompt_requirement": "how Alex could prepare for the physical demands",
+              "task_title": "2. Chuẩn bị thể lực (Physical preparation)",
+              "task_goal": "Khuyên Alex chạy bộ hoặc đạp xe 30 phút mỗi ngày để tăng sức bền và khỏe chân."
+            },
+            {
+              "id": 3,
+              "icon": "fa-apple-whole",
+              "prompt_requirement": "what sensible eating habits could support the preparation",
+              "task_title": "3. Thói quen ăn uống (Sensible eating habits)",
+              "task_goal": "Khuyên ăn nhiều thịt nạc, trứng, rau xanh, uống đủ nước và hạn chế đồ ăn nhanh."
+            }
+          ],
+          "suggested_ideas": [
+            {
+              "id": 1,
+              "title_en": "1. General advice about getting started",
+              "title_vi": "Lời khuyên chung khi mới bắt đầu",
+              "icon": "fa-hockey-puck",
+              "options": [
+                {
+                  "action_en": "join a beginner class at the local ice rink and rent protective gear first",
+                  "action_vi": "tham gia lớp học cho người mới bắt đầu tại sân băng địa phương và thuê đồ bảo hộ trước",
+                  "reason_en": "because the coach will teach you basic skating skills step by step.",
+                  "reason_vi": "vì huấn luyện viên sẽ dạy cậu các kỹ năng trượt băng cơ bản từng bước một.",
+                  "b1_sentence": "First, you should join a beginner class at the local ice rink and rent protective gear first because the coach will teach you basic skating skills step by step.",
+                  "b1_sentence_vi": "Đầu tiên, cậu nên tham gia lớp học cho người mới bắt đầu tại sân băng địa phương và thuê đồ bảo hộ trước vì huấn luyện viên sẽ dạy cậu các kỹ năng trượt băng cơ bản từng bước một."
+                },
+                {
+                  "action_en": "practice basic ice skating first before holding a hockey stick",
+                  "action_vi": "tập trượt băng cơ bản trước khi cầm gậy khúc côn cầu",
+                  "reason_en": "because keeping your balance on the ice is the most important skill.",
+                  "reason_vi": "vì giữ thăng bằng trên mặt băng là kỹ năng quan trọng nhất.",
+                  "b1_sentence": "First, you should practice basic ice skating first before holding a hockey stick because keeping your balance on the ice is the most important skill.",
+                  "b1_sentence_vi": "Đầu tiên, cậu nên tập trượt băng cơ bản trước khi cầm gậy khúc côn cầu vì giữ thăng bằng trên mặt băng là kỹ năng quan trọng nhất."
+                },
+                {
+                  "action_en": "find a beginner hockey club and wear a good helmet and pads",
+                  "action_vi": "tìm một câu lạc bộ khúc côn cầu cho người mới và đội mũ bảo hiểm cùng miếng đệm tốt",
+                  "reason_en": "because everyone there is a beginner like you and you will stay safe.",
+                  "reason_vi": "vì mọi người ở đó đều là người mới giống cậu và cậu sẽ luôn được an toàn.",
+                  "b1_sentence": "First, you should find a beginner hockey club and wear a good helmet and pads because everyone there is a beginner like you and you will stay safe.",
+                  "b1_sentence_vi": "Đầu tiên, cậu nên tìm một câu lạc bộ khúc côn cầu cho người mới và đội mũ bảo hiểm cùng miếng đệm tốt vì mọi người ở đó đều là người mới giống cậu và cậu sẽ luôn được an toàn."
+                },
+                {
+                  "action_en": "take a few basic skating lessons with a friendly instructor",
+                  "action_vi": "học một vài buổi trượt băng cơ bản với một người hướng dẫn thân thiện",
+                  "reason_en": "because it will help you feel much more confident on the ice.",
+                  "reason_vi": "vì điều đó sẽ giúp cậu cảm thấy tự tin hơn nhiều trên mặt băng.",
+                  "b1_sentence": "First, you should take a few basic skating lessons with a friendly instructor because it will help you feel much more confident on the ice.",
+                  "b1_sentence_vi": "Đầu tiên, cậu nên học một vài buổi trượt băng cơ bản với một người hướng dẫn thân thiện vì điều đó sẽ giúp cậu cảm thấy tự tin hơn nhiều trên mặt băng."
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "title_en": "2. Preparing for physical demands",
+              "title_vi": "Cách chuẩn bị về mặt thể lực",
+              "icon": "fa-heart-pulse",
+              "options": [
+                {
+                  "action_en": "go jogging or cycling three times a week",
+                  "action_vi": "đi chạy bộ hoặc đạp xe ba lần một tuần",
+                  "reason_en": "because it will make your legs stronger and improve your energy.",
+                  "reason_vi": "vì nó sẽ giúp đôi chân của cậu khỏe hơn và cải thiện sức bền của cậu.",
+                  "b1_sentence": "Second, it would be a good idea to go jogging or cycling three times a week because it will make your legs stronger and improve your energy.",
+                  "b1_sentence_vi": "Thứ hai, sẽ là một ý kiến hay nếu cậu đi chạy bộ hoặc đạp xe ba lần một tuần vì nó sẽ giúp đôi chân của cậu khỏe hơn và cải thiện sức bền của cậu."
+                },
+                {
+                  "action_en": "do simple exercises at home like squats and jumping rope every day",
+                  "action_vi": "tập các bài thể dục đơn giản tại nhà như squat và nhảy dây mỗi ngày",
+                  "reason_en": "because ice hockey requires strong legs and quick movement.",
+                  "reason_vi": "vì môn khúc côn cầu trên băng đòi hỏi đôi chân khỏe và sự di chuyển nhanh nhẹn.",
+                  "b1_sentence": "Second, it would be a good idea to do simple exercises at home like squats and jumping rope every day because ice hockey requires strong legs and quick movement.",
+                  "b1_sentence_vi": "Thứ hai, sẽ là một ý kiến hay nếu cậu tập các bài thể dục đơn giản tại nhà như squat và nhảy dây mỗi ngày vì môn khúc côn cầu trên băng đòi hỏi đôi chân khỏe và sự di chuyển nhanh nhẹn."
+                },
+                {
+                  "action_en": "swim or run in the park for 30 minutes a day",
+                  "action_vi": "bơi lội hoặc chạy bộ trong công viên 30 phút mỗi ngày",
+                  "reason_en": "because this helps you build good fitness without getting too tired.",
+                  "reason_vi": "vì việc này giúp cậu xây dựng thể lực tốt mà không bị quá mệt.",
+                  "b1_sentence": "Second, it would be a good idea to swim or run in the park for 30 minutes a day because this helps you build good fitness without getting too tired.",
+                  "b1_sentence_vi": "Thứ hai, sẽ là một ý kiến hay nếu cậu bơi lội hoặc chạy bộ trong công viên 30 phút mỗi ngày vì việc này giúp cậu xây dựng thể lực tốt mà không bị quá mệt."
+                },
+                {
+                  "action_en": "start working out at the gym twice a week and stretch your body daily",
+                  "action_vi": "bắt đầu tập luyện ở phòng gym hai lần một tuần và giãn cơ hàng ngày",
+                  "reason_en": "because it will make your body strong and prevent sports injuries.",
+                  "reason_vi": "vì nó sẽ giúp cơ thể cậu khỏe mạnh và tránh được chấn thương thể thao.",
+                  "b1_sentence": "Second, it would be a good idea to start working out at the gym twice a week and stretch your body daily because it will make your body strong and prevent sports injuries.",
+                  "b1_sentence_vi": "Thứ hai, sẽ là một ý kiến hay nếu cậu bắt đầu tập luyện ở phòng gym hai lần một tuần và giãn cơ hàng ngày vì nó sẽ giúp cơ thể cậu khỏe mạnh và tránh được chấn thương thể thao."
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "title_en": "3. Sensible eating habits",
+              "title_vi": "Thói quen ăn uống hợp lý",
+              "icon": "fa-apple-whole",
+              "options": [
+                {
+                  "action_en": "eat healthy food such as chicken, eggs, rice, and fresh vegetables, and drink plenty of water",
+                  "action_vi": "ăn thực phẩm lành mạnh như thịt gà, trứng, cơm và rau tươi, đồng thời uống nhiều nước",
+                  "reason_en": "because they give your body enough energy for training.",
+                  "reason_vi": "vì chúng cung cấp cho cơ thể cậu đủ năng lượng để tập luyện.",
+                  "b1_sentence": "Finally, if I were you, I would eat healthy food such as chicken, eggs, rice, and fresh vegetables, and drink plenty of water because they give your body enough energy for training.",
+                  "b1_sentence_vi": "Cuối cùng, nếu tớ là cậu, tớ sẽ ăn thực phẩm lành mạnh như thịt gà, trứng, cơm và rau tươi, đồng thời uống nhiều nước vì chúng cung cấp cho cơ thể cậu đủ năng lượng để tập luyện."
+                },
+                {
+                  "action_en": "eat more fish, fruit, and whole grains while avoiding fast food and sweet drinks",
+                  "action_vi": "ăn nhiều cá, trái cây và ngũ cốc nguyên hạt đồng thời tránh đồ ăn nhanh và nước ngọt",
+                  "reason_en": "because a healthy diet helps you build muscle and stay strong.",
+                  "reason_vi": "vì chế độ ăn lành mạnh giúp cậu phát triển cơ bắp và luôn khỏe khoắn.",
+                  "b1_sentence": "Finally, if I were you, I would eat more fish, fruit, and whole grains while avoiding fast food and sweet drinks because a healthy diet helps you build muscle and stay strong.",
+                  "b1_sentence_vi": "Cuối cùng, nếu tớ là cậu, tớ sẽ ăn nhiều cá, trái cây và ngũ cốc nguyên hạt đồng thời tránh đồ ăn nhanh và nước ngọt vì chế độ ăn lành mạnh giúp cậu phát triển cơ bắp và luôn khỏe khoắn."
+                },
+                {
+                  "action_en": "have a good breakfast every day and eat bananas or nuts before practice",
+                  "action_vi": "ăn sáng đầy đủ mỗi ngày và ăn chuối hoặc các loại hạt trước buổi tập",
+                  "reason_en": "because they will keep you full of energy on the ice.",
+                  "reason_vi": "vì chúng sẽ giúp cậu luôn tràn đầy năng lượng trên sân băng.",
+                  "b1_sentence": "Finally, if I were you, I would have a good breakfast every day and eat bananas or nuts before practice because they will keep you full of energy on the ice.",
+                  "b1_sentence_vi": "Cuối cùng, nếu tớ là cậu, tớ sẽ ăn sáng đầy đủ mỗi ngày và ăn chuối hoặc các loại hạt trước buổi tập vì chúng sẽ giúp cậu luôn tràn đầy năng lượng trên sân băng."
+                },
+                {
+                  "action_en": "cook healthy meals at home with lots of protein and green vegetables",
+                  "action_vi": "nấu các bữa ăn lành mạnh tại nhà với nhiều chất đạm và rau xanh",
+                  "reason_en": "because home-cooked food is clean and very good for your health.",
+                  "reason_vi": "vì đồ ăn tự nấu tại nhà rất sạch sẽ và tốt cho sức khỏe của cậu.",
+                  "b1_sentence": "Finally, if I were you, I would cook healthy meals at home with lots of protein and green vegetables because home-cooked food is clean and very good for your health.",
+                  "b1_sentence_vi": "Cuối cùng, nếu tớ là cậu, tớ sẽ nấu các bữa ăn lành mạnh tại nhà với nhiều chất đạm và rau xanh vì đồ ăn tự nấu tại nhà rất sạch sẽ và tốt cho sức khỏe của cậu."
+                }
+              ]
+            }
+          ],
+          "vocab": [
+            {
+              "en": "join a beginner class",
+              "vi": "tham gia lớp cho người mới bắt đầu",
+              "category": "1. Bắt đầu tập (Getting started)"
+            },
+            {
+              "en": "local ice rink",
+              "vi": "sân trượt băng địa phương",
+              "category": "1. Bắt đầu tập (Getting started)"
+            },
+            {
+              "en": "rent protective gear",
+              "vi": "thuê đồ bảo hộ",
+              "category": "1. Bắt đầu tập (Getting started)"
+            },
+            {
+              "en": "basic skating skills",
+              "vi": "kỹ năng trượt băng cơ bản",
+              "category": "1. Bắt đầu tập (Getting started)"
+            },
+            {
+              "en": "go jogging or cycling",
+              "vi": "chạy bộ hoặc đạp xe",
+              "category": "2. Rèn thể lực (Physical demands)"
+            },
+            {
+              "en": "three times a week",
+              "vi": "ba lần một tuần",
+              "category": "2. Rèn thể lực (Physical demands)"
+            },
+            {
+              "en": "make your legs stronger",
+              "vi": "giúp đôi chân khỏe hơn",
+              "category": "2. Rèn thể lực (Physical demands)"
+            },
+            {
+              "en": "improve your energy",
+              "vi": "cải thiện năng lượng/sức bền",
+              "category": "2. Rèn thể lực (Physical demands)"
+            },
+            {
+              "en": "eat healthy food",
+              "vi": "ăn thực phẩm lành mạnh",
+              "category": "3. Ăn uống (Eating habits)"
+            },
+            {
+              "en": "fresh vegetables",
+              "vi": "rau xanh tươi",
+              "category": "3. Ăn uống (Eating habits)"
+            },
+            {
+              "en": "drink plenty of water",
+              "vi": "uống nhiều nước",
+              "category": "3. Ăn uống (Eating habits)"
+            },
+            {
+              "en": "avoid fast food",
+              "vi": "tránh đồ ăn nhanh",
+              "category": "3. Ăn uống (Eating habits)"
+            }
+          ],
+          "sentence_practice_b1": [
+            {
+              "id": 1,
+              "part": "1. Mở thư (Opening - Thân mật)",
+              "vi": "Cảm ơn thư của cậu. Tớ hy vọng cậu vẫn khỏe. Tớ viết thư này để cho cậu một vài lời khuyên về việc bắt đầu tập chơi khúc côn cầu trên băng.",
+              "en": "Thanks for your letter. I hope you are doing well. I’m writing to give you some advice about starting to play ice hockey.",
+              "formula": "Thanks for your letter. I hope you are doing well. I’m writing to give you some advice about...",
+              "vocab_hints": [
+                {
+                  "en": "give you some advice",
+                  "vi": "cho cậu vài lời khuyên"
+                },
+                {
+                  "en": "starting to play ice hockey",
+                  "vi": "bắt đầu tập chơi khúc côn cầu trên băng"
+                }
+              ],
+              "explanation": "Mở thư thân mật chuẩn B1."
+            },
+            {
+              "id": 2,
+              "part": "2. Thân thư - Ý 1: Lời khuyên chung khi bắt đầu",
+              "vi": "Đầu tiên, cậu nên tham gia lớp học cho người mới bắt đầu tại sân băng địa phương và thuê đồ bảo hộ trước vì huấn luyện viên sẽ dạy cậu các kỹ năng trượt băng cơ bản từng bước một.",
+              "en": "First, you should join a beginner class at the local ice rink and rent protective gear first because the coach will teach you basic skating skills step by step.",
+              "formula": "First, you should + Vo + because...",
+              "vocab_hints": [
+                {
+                  "en": "join a beginner class",
+                  "vi": "tham gia lớp cho người mới bắt đầu"
+                },
+                {
+                  "en": "rent protective gear",
+                  "vi": "thuê đồ bảo hộ"
+                },
+                {
+                  "en": "basic skating skills",
+                  "vi": "kỹ năng trượt băng cơ bản"
+                }
+              ],
+              "explanation": "Sử dụng cấu trúc khuyên \"You should + Vo\" kèm lý do."
+            },
+            {
+              "id": 3,
+              "part": "3. Thân thư - Ý 2: Chuẩn bị về mặt thể lực",
+              "vi": "Thứ hai, sẽ là một ý kiến hay nếu cậu đi chạy bộ hoặc đạp xe ba lần một tuần vì nó sẽ giúp đôi chân của cậu khỏe hơn và cải thiện sức bền của cậu.",
+              "en": "Second, it would be a good idea to go jogging or cycling three times a week because it will make your legs stronger and improve your energy.",
+              "formula": "Second, it would be a good idea to + Vo + because...",
+              "vocab_hints": [
+                {
+                  "en": "go jogging or cycling",
+                  "vi": "chạy bộ hoặc đạp xe"
+                },
+                {
+                  "en": "make your legs stronger",
+                  "vi": "giúp đôi chân khỏe hơn"
+                }
+              ],
+              "explanation": "Sử dụng cấu trúc khuyên thứ hai \"It would be a good idea to + Vo\"."
+            },
+            {
+              "id": 4,
+              "part": "4. Thân thư - Ý 3: Thói quen ăn uống hợp lý",
+              "vi": "Cuối cùng, nếu tớ là cậu, tớ sẽ ăn thực phẩm lành mạnh như thịt gà, trứng, cơm và rau tươi, đồng thời uống nhiều nước vì chúng cung cấp cho cơ thể cậu đủ năng lượng để tập luyện.",
+              "en": "Finally, if I were you, I would eat healthy food such as chicken, eggs, rice, and fresh vegetables, and drink plenty of water because they give your body enough energy for training.",
+              "formula": "Finally, if I were you, I would + Vo + because...",
+              "vocab_hints": [
+                {
+                  "en": "eat healthy food",
+                  "vi": "ăn thực phẩm lành mạnh"
+                },
+                {
+                  "en": "drink plenty of water",
+                  "vi": "uống nhiều nước"
+                },
+                {
+                  "en": "enough energy for training",
+                  "vi": "đủ năng lượng để tập luyện"
+                }
+              ],
+              "explanation": "Sử dụng câu điều kiện loại 2 \"If I were you, I would + Vo\" để khuyên về chế độ ăn uống."
+            },
+            {
+              "id": 5,
+              "part": "5. Kết thư (Closing - Thân mật)",
+              "vi": "Tớ hy vọng những lời khuyên của tớ sẽ hữu ích cho cậu. Hãy cho tớ biết mọi chuyện diễn ra thế nào nhé. Hồi âm sớm nhé.",
+              "en": "I hope my advice will be helpful to you. Please let me know how everything turns out. Write back soon.",
+              "formula": "I hope my advice will be helpful to you. Please let me know how everything turns out. Write back soon.",
+              "vocab_hints": [
+                {
+                  "en": "helpful to you",
+                  "vi": "hữu ích cho cậu"
+                }
+              ],
+              "explanation": "Kết thư thân mật chuẩn B1."
+            }
+          ],
+          "sentence_practice_b2": [
+            {
+              "id": 1,
+              "part": "1. Mở thư (Opening - Thân mật)",
+              "vi": "Cảm ơn thư của cậu. Tớ hy vọng cậu vẫn khỏe. Tớ viết thư này để cho cậu một vài lời khuyên về việc bắt đầu tập chơi khúc côn cầu trên băng.",
+              "en": "Thanks for your letter. I hope you are doing well. I’m writing to give you some advice about starting to play ice hockey.",
+              "formula": "Thanks for your letter. I hope you are doing well. I’m writing to give you some advice about...",
+              "vocab_hints": [
+                {
+                  "en": "give you some advice",
+                  "vi": "cho cậu vài lời khuyên"
+                },
+                {
+                  "en": "starting to play ice hockey",
+                  "vi": "bắt đầu tập chơi khúc côn cầu trên băng"
+                }
+              ],
+              "explanation": "Mở thư thân mật chuẩn B1."
+            },
+            {
+              "id": 2,
+              "part": "2. Thân thư - Ý 1: Lời khuyên chung khi bắt đầu",
+              "vi": "Đầu tiên, cậu nên tham gia lớp học cho người mới bắt đầu tại sân băng địa phương và thuê đồ bảo hộ trước vì huấn luyện viên sẽ dạy cậu các kỹ năng trượt băng cơ bản từng bước một.",
+              "en": "First, you should join a beginner class at the local ice rink and rent protective gear first because the coach will teach you basic skating skills step by step.",
+              "formula": "First, you should + Vo + because...",
+              "vocab_hints": [
+                {
+                  "en": "join a beginner class",
+                  "vi": "tham gia lớp cho người mới bắt đầu"
+                },
+                {
+                  "en": "rent protective gear",
+                  "vi": "thuê đồ bảo hộ"
+                },
+                {
+                  "en": "basic skating skills",
+                  "vi": "kỹ năng trượt băng cơ bản"
+                }
+              ],
+              "explanation": "Sử dụng cấu trúc khuyên \"You should + Vo\" kèm lý do."
+            },
+            {
+              "id": 3,
+              "part": "3. Thân thư - Ý 2: Chuẩn bị về mặt thể lực",
+              "vi": "Thứ hai, sẽ là một ý kiến hay nếu cậu đi chạy bộ hoặc đạp xe ba lần một tuần vì nó sẽ giúp đôi chân của cậu khỏe hơn và cải thiện sức bền của cậu.",
+              "en": "Second, it would be a good idea to go jogging or cycling three times a week because it will make your legs stronger and improve your energy.",
+              "formula": "Second, it would be a good idea to + Vo + because...",
+              "vocab_hints": [
+                {
+                  "en": "go jogging or cycling",
+                  "vi": "chạy bộ hoặc đạp xe"
+                },
+                {
+                  "en": "make your legs stronger",
+                  "vi": "giúp đôi chân khỏe hơn"
+                }
+              ],
+              "explanation": "Sử dụng cấu trúc khuyên thứ hai \"It would be a good idea to + Vo\"."
+            },
+            {
+              "id": 4,
+              "part": "4. Thân thư - Ý 3: Thói quen ăn uống hợp lý",
+              "vi": "Cuối cùng, nếu tớ là cậu, tớ sẽ ăn thực phẩm lành mạnh như thịt gà, trứng, cơm và rau tươi, đồng thời uống nhiều nước vì chúng cung cấp cho cơ thể cậu đủ năng lượng để tập luyện.",
+              "en": "Finally, if I were you, I would eat healthy food such as chicken, eggs, rice, and fresh vegetables, and drink plenty of water because they give your body enough energy for training.",
+              "formula": "Finally, if I were you, I would + Vo + because...",
+              "vocab_hints": [
+                {
+                  "en": "eat healthy food",
+                  "vi": "ăn thực phẩm lành mạnh"
+                },
+                {
+                  "en": "drink plenty of water",
+                  "vi": "uống nhiều nước"
+                },
+                {
+                  "en": "enough energy for training",
+                  "vi": "đủ năng lượng để tập luyện"
+                }
+              ],
+              "explanation": "Sử dụng câu điều kiện loại 2 \"If I were you, I would + Vo\" để khuyên về chế độ ăn uống."
+            },
+            {
+              "id": 5,
+              "part": "5. Kết thư (Closing - Thân mật)",
+              "vi": "Tớ hy vọng những lời khuyên của tớ sẽ hữu ích cho cậu. Hãy cho tớ biết mọi chuyện diễn ra thế nào nhé. Hồi âm sớm nhé.",
+              "en": "I hope my advice will be helpful to you. Please let me know how everything turns out. Write back soon.",
+              "formula": "I hope my advice will be helpful to you. Please let me know how everything turns out. Write back soon.",
+              "vocab_hints": [
+                {
+                  "en": "helpful to you",
+                  "vi": "hữu ích cho cậu"
+                }
+              ],
+              "explanation": "Kết thư thân mật chuẩn B1."
+            }
+          ],
+          "sample_b1": {
+            "letter_en": "Dear Alex,\n\nThanks for your letter. I hope you are doing well. I’m writing to give you some advice about starting to play ice hockey. Please do not worry too much because everyone starts as a beginner.\n\nFirst, you should join a beginner class at the local ice rink and rent protective gear first because the coach will teach you basic skating skills step by step. Second, it would be a good idea to go jogging or cycling three times a week because it will make your legs stronger and improve your energy. Finally, if I were you, I would eat healthy food such as chicken, eggs, rice, and fresh vegetables, and drink plenty of water because they give your body enough energy for training.\n\nI hope my advice will be helpful to you. Please let me know how everything turns out. Write back soon.\n\nBest wishes,",
+            "letter_vi": "Alex thân mến,\n\nCảm ơn thư của cậu. Tớ hy vọng cậu vẫn khỏe. Tớ viết thư này để cho cậu một vài lời khuyên về việc bắt đầu tập chơi khúc côn cầu trên băng. Cậu đừng lo lắng quá nhé vì ai mới bắt đầu cũng đều là người mới cả.\n\nĐầu tiên, cậu nên tham gia lớp học cho người mới bắt đầu tại sân băng địa phương và thuê đồ bảo hộ trước vì huấn luyện viên sẽ dạy cậu các kỹ năng trượt băng cơ bản từng bước một. Thứ hai, sẽ là một ý kiến hay nếu cậu đi chạy bộ hoặc đạp xe ba lần một tuần vì nó sẽ giúp đôi chân của cậu khỏe hơn và cải thiện sức bền của cậu. Cuối cùng, nếu tớ là cậu, tớ sẽ ăn thực phẩm lành mạnh như thịt gà, trứng, cơm và rau tươi, đồng thời uống nhiều nước vì chúng cung cấp cho cơ thể cậu đủ năng lượng để tập luyện.\n\nTớ hy vọng những lời khuyên của tớ sẽ hữu ích cho cậu. Hãy cho tớ biết mọi chuyện diễn ra thế nào nhé. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "text": "Dear Alex,\n\nThanks for your letter. I hope you are doing well. I’m writing to give you some advice about starting to play ice hockey. Please do not worry too much because everyone starts as a beginner.\n\nFirst, you should join a beginner class at the local ice rink and rent protective gear first because the coach will teach you basic skating skills step by step. Second, it would be a good idea to go jogging or cycling three times a week because it will make your legs stronger and improve your energy. Finally, if I were you, I would eat healthy food such as chicken, eggs, rice, and fresh vegetables, and drink plenty of water because they give your body enough energy for training.\n\nI hope my advice will be helpful to you. Please let me know how everything turns out. Write back soon.\n\nBest wishes,",
+            "translation": "Alex thân mến,\n\nCảm ơn thư của cậu. Tớ hy vọng cậu vẫn khỏe. Tớ viết thư này để cho cậu một vài lời khuyên về việc bắt đầu tập chơi khúc côn cầu trên băng. Cậu đừng lo lắng quá nhé vì ai mới bắt đầu cũng đều là người mới cả.\n\nĐầu tiên, cậu nên tham gia lớp học cho người mới bắt đầu tại sân băng địa phương và thuê đồ bảo hộ trước vì huấn luyện viên sẽ dạy cậu các kỹ năng trượt băng cơ bản từng bước một. Thứ hai, sẽ là một ý kiến hay nếu cậu đi chạy bộ hoặc đạp xe ba lần một tuần vì nó sẽ giúp đôi chân của cậu khỏe hơn và cải thiện sức bền của cậu. Cuối cùng, nếu tớ là cậu, tớ sẽ ăn thực phẩm lành mạnh như thịt gà, trứng, cơm và rau tươi, đồng thời uống nhiều nước vì chúng cung cấp cho cơ thể cậu đủ năng lượng để tập luyện.\n\nTớ hy vọng những lời khuyên của tớ sẽ hữu ích cho cậu. Hãy cho tớ biết mọi chuyện diễn ra thế nào nhé. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "word_count": 147,
+            "key_structures": []
+          },
+          "sample_b2": {
+            "letter_en": "Dear Alex,\n\nThanks for your letter. I hope you are doing well. I’m writing to give you some advice about starting to play ice hockey. Please do not worry too much because everyone starts as a beginner.\n\nFirst, you should join a beginner class at the local ice rink and rent protective gear first because the coach will teach you basic skating skills step by step. Second, it would be a good idea to go jogging or cycling three times a week because it will make your legs stronger and improve your energy. Finally, if I were you, I would eat healthy food such as chicken, eggs, rice, and fresh vegetables, and drink plenty of water because they give your body enough energy for training.\n\nI hope my advice will be helpful to you. Please let me know how everything turns out. Write back soon.\n\nBest wishes,",
+            "letter_vi": "Alex thân mến,\n\nCảm ơn thư của cậu. Tớ hy vọng cậu vẫn khỏe. Tớ viết thư này để cho cậu một vài lời khuyên về việc bắt đầu tập chơi khúc côn cầu trên băng. Cậu đừng lo lắng quá nhé vì ai mới bắt đầu cũng đều là người mới cả.\n\nĐầu tiên, cậu nên tham gia lớp học cho người mới bắt đầu tại sân băng địa phương và thuê đồ bảo hộ trước vì huấn luyện viên sẽ dạy cậu các kỹ năng trượt băng cơ bản từng bước một. Thứ hai, sẽ là một ý kiến hay nếu cậu đi chạy bộ hoặc đạp xe ba lần một tuần vì nó sẽ giúp đôi chân của cậu khỏe hơn và cải thiện sức bền của cậu. Cuối cùng, nếu tớ là cậu, tớ sẽ ăn thực phẩm lành mạnh như thịt gà, trứng, cơm và rau tươi, đồng thời uống nhiều nước vì chúng cung cấp cho cơ thể cậu đủ năng lượng để tập luyện.\n\nTớ hy vọng những lời khuyên của tớ sẽ hữu ích cho cậu. Hãy cho tớ biết mọi chuyện diễn ra thế nào nhé. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "text": "Dear Alex,\n\nThanks for your letter. I hope you are doing well. I’m writing to give you some advice about starting to play ice hockey. Please do not worry too much because everyone starts as a beginner.\n\nFirst, you should join a beginner class at the local ice rink and rent protective gear first because the coach will teach you basic skating skills step by step. Second, it would be a good idea to go jogging or cycling three times a week because it will make your legs stronger and improve your energy. Finally, if I were you, I would eat healthy food such as chicken, eggs, rice, and fresh vegetables, and drink plenty of water because they give your body enough energy for training.\n\nI hope my advice will be helpful to you. Please let me know how everything turns out. Write back soon.\n\nBest wishes,",
+            "translation": "Alex thân mến,\n\nCảm ơn thư của cậu. Tớ hy vọng cậu vẫn khỏe. Tớ viết thư này để cho cậu một vài lời khuyên về việc bắt đầu tập chơi khúc côn cầu trên băng. Cậu đừng lo lắng quá nhé vì ai mới bắt đầu cũng đều là người mới cả.\n\nĐầu tiên, cậu nên tham gia lớp học cho người mới bắt đầu tại sân băng địa phương và thuê đồ bảo hộ trước vì huấn luyện viên sẽ dạy cậu các kỹ năng trượt băng cơ bản từng bước một. Thứ hai, sẽ là một ý kiến hay nếu cậu đi chạy bộ hoặc đạp xe ba lần một tuần vì nó sẽ giúp đôi chân của cậu khỏe hơn và cải thiện sức bền của cậu. Cuối cùng, nếu tớ là cậu, tớ sẽ ăn thực phẩm lành mạnh như thịt gà, trứng, cơm và rau tươi, đồng thời uống nhiều nước vì chúng cung cấp cho cơ thể cậu đủ năng lượng để tập luyện.\n\nTớ hy vọng những lời khuyên của tớ sẽ hữu ích cho cậu. Hãy cho tớ biết mọi chuyện diễn ra thế nào nhé. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "word_count": 147,
+            "key_structures": []
+          }
+        }
+      },
+      {
+        "id": "de-43",
+        "title_en": "Advice to Anna about moving to a home near your university",
+        "title_vi": "Đề 12: Khuyên bạn Anna về công ty chuyển nhà, đề nghị phụ giúp và miêu tả hàng xóm quanh trường",
+        "recipient_type": "Informal (Bạn bè - Anna)",
+        "target_words": 120,
+        "tags": [
+          "Chuyển nhà",
+          "Hàng xóm",
+          "Trường đại học",
+          "Giúp đỡ bạn bè",
+          "Chuẩn B1"
+        ],
+        "context": "You have received an email from your friend Anna, who is moving to a home near your university. She asks for advice about the move and the neighbourhood. Write an informal reply.",
+        "prompt": "You have received an email from your friend Anna, who is moving to a home near your university. She asks for advice about the move and the neighbourhood. Write an informal reply.\n\nIn your email:\n1. Recommend a reliable moving company\n2. Say whether you can help with the move and explain what you can do\n3. Describe the neighbours in the area\n\nWrite at least 120 words. You do not need to include your name or addresses. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt_vi": "Bạn vừa nhận được một email từ người bạn Anna, người sắp chuyển đến một ngôi nhà gần trường đại học của bạn. Bạn ấy xin lời khuyên về việc chuyển nhà và khu phố xung quanh. Hãy viết một bức thư thân mật hồi âm.\n\nTrong email của bạn:\n1. Giới thiệu một công ty chuyển nhà đáng tin cậy (Recommend a reliable moving company)\n2. Nói rõ liệu bạn có thể giúp bạn ấy chuyển nhà hay không và giải thích bạn có thể làm gì (Say whether you can help with the move and explain what you can do)\n3. Miêu tả những người hàng xóm trong khu vực đó (Describe the neighbours in the area)",
+        "has_full_details": true,
+        "details": {
+          "analysis": {
+            "recipient": "Anna (Người bạn sắp chuyển đến ở gần trường đại học của bạn)",
+            "letter_type": "Informal (Thư thân mật)",
+            "purpose": "Giới thiệu một dịch vụ chuyển nhà uy tín, nhận lời qua phụ giúp dọn đồ và miêu tả những người hàng xóm thân thiện trong khu phố",
+            "key_requirements": [
+              "1. Recommend a reliable moving company (Giới thiệu một công ty chuyển nhà đáng tin cậy)",
+              "2. Say whether you can help with the move and what you can do (Nói rõ có giúp được không và có thể làm gì)",
+              "3. Describe the neighbours in the area (Miêu tả hàng xóm trong khu vực)"
+            ]
+          },
+          "task_extractions": [
+            {
+              "id": 1,
+              "icon": "fa-truck-moving",
+              "prompt_requirement": "Recommend a reliable moving company",
+              "task_title": "1. Công ty chuyển nhà (Moving company)",
+              "task_goal": "Giới thiệu dịch vụ chuyển nhà Fast Move vì nhân viên cẩn thận và giá rẻ cho sinh viên."
+            },
+            {
+              "id": 2,
+              "icon": "fa-Hands-helping",
+              "prompt_requirement": "Say whether you can help with the move and explain what you can do",
+              "task_title": "2. Giúp bạn chuyển nhà (Help with the move)",
+              "task_goal": "Khẳng định bạn rảnh vào cuối tuần để qua giúp Anna đóng gói thùng đồ và dọn dẹp phòng."
+            },
+            {
+              "id": 3,
+              "icon": "fa-people-group",
+              "prompt_requirement": "Describe the neighbours in the area",
+              "task_title": "3. Hàng xóm xung quanh (The neighbours)",
+              "task_goal": "Miêu tả hàng xóm chủ yếu là các gia đình trẻ và sinh viên đại học rất thân thiện, yên tĩnh."
+            }
+          ],
+          "suggested_ideas": [
+            {
+              "id": 1,
+              "title_en": "1. Recommend a reliable moving company",
+              "title_vi": "Giới thiệu công ty chuyển nhà đáng tin cậy",
+              "icon": "fa-truck-moving",
+              "options": [
+                {
+                  "action_en": "use Fast Move Company for your move",
+                  "action_vi": "sử dụng Công ty Fast Move cho việc chuyển nhà của cậu",
+                  "reason_en": "because their workers are very careful and their price is cheap for students.",
+                  "reason_vi": "vì nhân viên của họ rất cẩn thận và giá cả lại rẻ cho sinh viên.",
+                  "b1_sentence": "First, you should use Fast Move Company for your move because their workers are very careful and their price is cheap for students.",
+                  "b1_sentence_vi": "Đầu tiên, cậu nên sử dụng Công ty Fast Move cho việc chuyển nhà của cậu vì nhân viên của họ rất cẩn thận và giá cả lại rẻ cho sinh viên."
+                },
+                {
+                  "action_en": "book City Express Moving Service",
+                  "action_vi": "đặt Dịch vụ Chuyển nhà City Express",
+                  "reason_en": "because I used them last year and they carried my furniture very safely.",
+                  "reason_vi": "vì năm ngoái tớ đã dùng dịch vụ của họ và họ vận chuyển đồ đạc của tớ rất an toàn.",
+                  "b1_sentence": "First, you should book City Express Moving Service because I used them last year and they carried my furniture very safely.",
+                  "b1_sentence_vi": "Đầu tiên, cậu nên đặt Dịch vụ Chuyển nhà City Express vì năm ngoái tớ đã dùng dịch vụ của họ và họ vận chuyển đồ đạc của tớ rất an toàn."
+                },
+                {
+                  "action_en": "choose Happy Home Movers",
+                  "action_vi": "chọn Dịch vụ Chuyển nhà Happy Home",
+                  "reason_en": "because they always arrive on time and provide free cardboard boxes.",
+                  "reason_vi": "vì họ luôn đến đúng giờ và cung cấp thùng giấy miễn phí.",
+                  "b1_sentence": "First, you should choose Happy Home Movers because they always arrive on time and provide free cardboard boxes.",
+                  "b1_sentence_vi": "Đầu tiên, cậu nên chọn Dịch vụ Chuyển nhà Happy Home vì họ luôn đến đúng giờ và cung cấp thùng giấy miễn phí."
+                },
+                {
+                  "action_en": "hire Student Van Service near our university",
+                  "action_vi": "thuê Dịch vụ Xe tải Sinh viên ở gần trường đại học của chúng mình",
+                  "reason_en": "because the drivers are friendly and offer a 20% discount for university students.",
+                  "reason_vi": "vì các bác tài xế rất thân thiện và giảm giá 20% cho sinh viên đại học.",
+                  "b1_sentence": "First, you should hire Student Van Service near our university because the drivers are friendly and offer a 20% discount for university students.",
+                  "b1_sentence_vi": "Đầu tiên, cậu nên thuê Dịch vụ Xe tải Sinh viên ở gần trường đại học của chúng mình vì các bác tài xế rất thân thiện và giảm giá 20% cho sinh viên đại học."
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "title_en": "2. Help with the move",
+              "title_vi": "Bạn có thể giúp gì khi chuyển nhà",
+              "icon": "fa-hands-helping",
+              "options": [
+                {
+                  "action_en": "I am free this weekend, so I can definitely help you clean the new house and unpack your boxes",
+                  "action_vi": "tớ rảnh vào cuối tuần này, nên tớ chắc chắn có thể giúp cậu dọn dẹp ngôi nhà mới và mở các thùng đồ",
+                  "reason_en": "because I live just five minutes away from your new place.",
+                  "reason_vi": "vì tớ sống chỉ cách chỗ ở mới của cậu năm phút đi bộ.",
+                  "b1_sentence": "Second, I am free this weekend, so I can definitely help you clean the new house and unpack your boxes because I live just five minutes away from your new place.",
+                  "b1_sentence_vi": "Thứ hai, tớ rảnh vào cuối tuần này, nên tớ chắc chắn có thể giúp cậu dọn dẹp ngôi nhà mới và mở các thùng đồ vì tớ sống chỉ cách chỗ ở mới của cậu năm phút đi bộ."
+                },
+                {
+                  "action_en": "I can come over on moving day to help you carry small bags and arrange your bedroom",
+                  "action_vi": "tớ có thể sang vào ngày chuyển nhà để giúp cậu xách các túi nhỏ và sắp xếp phòng ngủ",
+                  "reason_en": "because doing everything alone is very tiring.",
+                  "reason_vi": "vì tự làm mọi thứ một mình sẽ rất mệt.",
+                  "b1_sentence": "Second, I can come over on moving day to help you carry small bags and arrange your bedroom because doing everything alone is very tiring.",
+                  "b1_sentence_vi": "Thứ hai, tớ có thể sang vào ngày chuyển nhà để giúp cậu xách các túi nhỏ và sắp xếp phòng ngủ vì tự làm mọi thứ một mình sẽ rất mệt."
+                },
+                {
+                  "action_en": "I will gladly help you pack your books and cook lunch for us on Sunday",
+                  "action_vi": "tớ rất sẵn lòng giúp cậu đóng gói sách vở và nấu bữa trưa cho hai đứa vào Chủ nhật",
+                  "reason_en": "because I do not have any classes on that day.",
+                  "reason_vi": "vì tớ không có tiết học nào vào ngày hôm đó.",
+                  "b1_sentence": "Second, I will gladly help you pack your books and cook lunch for us on Sunday because I do not have any classes on that day.",
+                  "b1_sentence_vi": "Thứ hai, tớ rất sẵn lòng giúp cậu đóng gói sách vở và nấu bữa trưa cho hai đứa vào Chủ nhật vì tớ không có tiết học nào vào ngày hôm đó."
+                },
+                {
+                  "action_en": "I can bring my motorbike to help you carry small items and buy things at the supermarket",
+                  "action_vi": "tớ có thể mang xe máy sang giúp cậu chở các đồ vật nhỏ và đi mua đồ ở siêu thị",
+                  "reason_en": "because I know all the good shops in this area.",
+                  "reason_vi": "vì tớ biết tất cả các cửa hàng tốt trong khu vực này.",
+                  "b1_sentence": "Second, I can bring my motorbike to help you carry small items and buy things at the supermarket because I know all the good shops in this area.",
+                  "b1_sentence_vi": "Thứ hai, tớ có thể mang xe máy sang giúp cậu chở các đồ vật nhỏ và đi mua đồ ở siêu thị vì tớ biết tất cả các cửa hàng tốt trong khu vực này."
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "title_en": "3. Describe the neighbours",
+              "title_vi": "Miêu tả hàng xóm trong khu vực",
+              "icon": "fa-people-group",
+              "options": [
+                {
+                  "action_en": "the neighbours in this area are very friendly and quiet, and most of them are university students and young families",
+                  "action_vi": "hàng xóm ở khu vực này rất thân thiện và yên tĩnh, và phần lớn họ là sinh viên đại học cùng các gia đình trẻ",
+                  "reason_en": "so you will feel very safe and make new friends easily.",
+                  "reason_vi": "nên cậu sẽ cảm thấy rất an toàn và dễ dàng kết thêm bạn mới.",
+                  "b1_sentence": "Finally, the neighbours in this area are very friendly and quiet, and most of them are university students and young families, so you will feel very safe and make new friends easily.",
+                  "b1_sentence_vi": "Cuối cùng, hàng xóm ở khu vực này rất thân thiện và yên tĩnh, và phần lớn họ là sinh viên đại học cùng các gia đình trẻ, nên cậu sẽ cảm thấy rất an toàn và dễ dàng kết thêm bạn mới."
+                },
+                {
+                  "action_en": "the people living next door are kind and helpful teachers",
+                  "action_vi": "những người sống cạnh nhà là các thầy cô giáo rất tốt bụng và hay giúp đỡ",
+                  "reason_en": "because they always smile and help students when we need anything.",
+                  "reason_vi": "vì họ luôn mỉm cười và giúp đỡ sinh viên mỗi khi chúng tớ cần bất cứ điều gì.",
+                  "b1_sentence": "Finally, the people living next door are kind and helpful teachers because they always smile and help students when we need anything.",
+                  "b1_sentence_vi": "Cuối cùng, những người sống cạnh nhà là các thầy cô giáo rất tốt bụng và hay giúp đỡ vì họ luôn mỉm cười và giúp đỡ sinh viên mỗi khi chúng tớ cần bất cứ điều gì."
+                },
+                {
+                  "action_en": "our neighbourhood is very peaceful and the neighbours are polite",
+                  "action_vi": "khu phố của chúng mình rất bình yên và hàng xóm đều lịch sự",
+                  "reason_en": "because nobody plays loud music at night.",
+                  "reason_vi": "vì không có ai mở nhạc ồn ào vào ban đêm.",
+                  "b1_sentence": "Finally, our neighbourhood is very peaceful and the neighbours are polite because nobody plays loud music at night.",
+                  "b1_sentence_vi": "Cuối cùng, khu phố của chúng mình rất bình yên và hàng xóm đều lịch sự vì không có ai mở nhạc ồn ào vào ban đêm."
+                },
+                {
+                  "action_en": "the neighbours here are warm and welcoming",
+                  "action_vi": "hàng xóm ở đây rất ấm áp và hiếu khách",
+                  "reason_en": "and they often share fresh fruit from their gardens with each other.",
+                  "reason_vi": "và họ thường chia sẻ trái cây tươi từ vườn nhà cho nhau.",
+                  "b1_sentence": "Finally, the neighbours here are warm and welcoming, and they often share fresh fruit from their gardens with each other.",
+                  "b1_sentence_vi": "Cuối cùng, hàng xóm ở đây rất ấm áp và hiếu khách, và họ thường chia sẻ trái cây tươi từ vườn nhà cho nhau."
+                }
+              ]
+            }
+          ],
+          "vocab": [
+            {
+              "en": "reliable moving company",
+              "vi": "công ty chuyển nhà đáng tin cậy",
+              "category": "1. Công ty chuyển nhà (Moving company)"
+            },
+            {
+              "en": "careful workers",
+              "vi": "nhân viên cẩn thận",
+              "category": "1. Công ty chuyển nhà (Moving company)"
+            },
+            {
+              "en": "cheap price for students",
+              "vi": "giá rẻ cho sinh viên",
+              "category": "1. Công ty chuyển nhà (Moving company)"
+            },
+            {
+              "en": "carry furniture safely",
+              "vi": "vận chuyển đồ đạc an toàn",
+              "category": "1. Công ty chuyển nhà (Moving company)"
+            },
+            {
+              "en": "help you with the move",
+              "vi": "giúp cậu chuyển nhà",
+              "category": "2. Phụ giúp chuyển nhà (Help with the move)"
+            },
+            {
+              "en": "clean the new house",
+              "vi": "dọn dẹp ngôi nhà mới",
+              "category": "2. Phụ giúp chuyển nhà (Help with the move)"
+            },
+            {
+              "en": "unpack your boxes",
+              "vi": "mở và sắp xếp các thùng đồ",
+              "category": "2. Phụ giúp chuyển nhà (Help with the move)"
+            },
+            {
+              "en": "five minutes away",
+              "vi": "cách đó năm phút",
+              "category": "2. Phụ giúp chuyển nhà (Help with the move)"
+            },
+            {
+              "en": "friendly and quiet neighbours",
+              "vi": "hàng xóm thân thiện và yên tĩnh",
+              "category": "3. Hàng xóm (The neighbours)"
+            },
+            {
+              "en": "young families",
+              "vi": "các gia đình trẻ",
+              "category": "3. Hàng xóm (The neighbours)"
+            },
+            {
+              "en": "feel very safe",
+              "vi": "cảm thấy rất an toàn",
+              "category": "3. Hàng xóm (The neighbours)"
+            },
+            {
+              "en": "make new friends easily",
+              "vi": "dễ dàng kết bạn mới",
+              "category": "3. Hàng xóm (The neighbours)"
+            }
+          ],
+          "sentence_practice_b1": [
+            {
+              "id": 1,
+              "part": "1. Mở thư (Opening - Thân mật)",
+              "vi": "Cảm ơn thư của cậu. Tớ rất vui khi biết cậu sắp chuyển đến một ngôi nhà gần trường đại học của tớ. Tớ viết thư này để cho cậu vài lời khuyên.",
+              "en": "Thanks for your letter. I am very happy to hear that you are moving to a home near my university. I’m writing to give you some advice.",
+              "formula": "Thanks for your letter. I am very happy to hear that... I’m writing to give you some advice.",
+              "vocab_hints": [
+                {
+                  "en": "moving to a home near my university",
+                  "vi": "chuyển đến một ngôi nhà gần trường đại học của tớ"
+                },
+                {
+                  "en": "give you some advice",
+                  "vi": "cho cậu vài lời khuyên"
+                }
+              ],
+              "explanation": "Mở thư thân mật, bày tỏ niềm vui khi bạn chuyển đến gần trường."
+            },
+            {
+              "id": 2,
+              "part": "2. Thân thư - Ý 1: Giới thiệu công ty chuyển nhà",
+              "vi": "Đầu tiên, cậu nên sử dụng Công ty Fast Move cho việc chuyển nhà của cậu vì nhân viên của họ rất cẩn thận và giá cả lại rẻ cho sinh viên.",
+              "en": "First, you should use Fast Move Company for your move because their workers are very careful and their price is cheap for students.",
+              "formula": "First, you should use + [tên công ty] + because...",
+              "vocab_hints": [
+                {
+                  "en": "Fast Move Company",
+                  "vi": "Công ty Fast Move"
+                },
+                {
+                  "en": "very careful",
+                  "vi": "rất cẩn thận"
+                },
+                {
+                  "en": "cheap for students",
+                  "vi": "rẻ cho sinh viên"
+                }
+              ],
+              "explanation": "Khuyên bạn chọn một công ty chuyển nhà cụ thể kèm 2 lý do đơn giản."
+            },
+            {
+              "id": 3,
+              "part": "3. Thân thư - Ý 2: Đề nghị phụ giúp chuyển nhà",
+              "vi": "Thứ hai, tớ rảnh vào cuối tuần này, nên tớ chắc chắn có thể giúp cậu dọn dẹp ngôi nhà mới và mở các thùng đồ vì tớ sống chỉ cách chỗ ở mới của cậu năm phút đi bộ.",
+              "en": "Second, I am free this weekend, so I can definitely help you clean the new house and unpack your boxes because I live just five minutes away from your new place.",
+              "formula": "Second, I am free..., so I can help you + Vo + because...",
+              "vocab_hints": [
+                {
+                  "en": "clean the new house",
+                  "vi": "dọn dẹp ngôi nhà mới"
+                },
+                {
+                  "en": "unpack your boxes",
+                  "vi": "mở các thùng đồ"
+                },
+                {
+                  "en": "five minutes away",
+                  "vi": "cách đó năm phút"
+                }
+              ],
+              "explanation": "Trả lời rõ có thể giúp bạn và nêu việc cụ thể mình sẽ làm."
+            },
+            {
+              "id": 4,
+              "part": "4. Thân thư - Ý 3: Miêu tả hàng xóm trong khu vực",
+              "vi": "Cuối cùng, hàng xóm ở khu vực này rất thân thiện và yên tĩnh, và phần lớn họ là sinh viên đại học cùng các gia đình trẻ, nên cậu sẽ cảm thấy rất an toàn và dễ dàng kết thêm bạn mới.",
+              "en": "Finally, the neighbours in this area are very friendly and quiet, and most of them are university students and young families, so you will feel very safe and make new friends easily.",
+              "formula": "Finally, the neighbours in this area are + adj..., so you will...",
+              "vocab_hints": [
+                {
+                  "en": "friendly and quiet",
+                  "vi": "thân thiện và yên tĩnh"
+                },
+                {
+                  "en": "young families",
+                  "vi": "các gia đình trẻ"
+                },
+                {
+                  "en": "feel very safe",
+                  "vi": "cảm thấy rất an toàn"
+                }
+              ],
+              "explanation": "Miêu tả đặc điểm hàng xóm bằng các tính từ B1 quen thuộc (friendly, quiet, safe)."
+            },
+            {
+              "id": 5,
+              "part": "5. Kết thư (Closing - Thân mật)",
+              "vi": "Tớ hy vọng những lời khuyên của tớ sẽ hữu ích cho cậu. Hãy gọi cho tớ khi cậu chuyển đến nhé. Hồi âm sớm nhé.",
+              "en": "I hope my advice will be helpful to you. Please call me when you arrive. Write back soon.",
+              "formula": "I hope my advice will be helpful to you... Write back soon.",
+              "vocab_hints": [
+                {
+                  "en": "helpful to you",
+                  "vi": "hữu ích cho cậu"
+                },
+                {
+                  "en": "when you arrive",
+                  "vi": "khi cậu chuyển đến"
+                }
+              ],
+              "explanation": "Kết thư thân mật chuẩn B1."
+            }
+          ],
+          "sentence_practice_b2": [
+            {
+              "id": 1,
+              "part": "1. Mở thư (Opening - Thân mật)",
+              "vi": "Cảm ơn thư của cậu. Tớ rất vui khi biết cậu sắp chuyển đến một ngôi nhà gần trường đại học của tớ. Tớ viết thư này để cho cậu vài lời khuyên.",
+              "en": "Thanks for your letter. I am very happy to hear that you are moving to a home near my university. I’m writing to give you some advice.",
+              "formula": "Thanks for your letter. I am very happy to hear that... I’m writing to give you some advice.",
+              "vocab_hints": [
+                {
+                  "en": "moving to a home near my university",
+                  "vi": "chuyển đến một ngôi nhà gần trường đại học của tớ"
+                },
+                {
+                  "en": "give you some advice",
+                  "vi": "cho cậu vài lời khuyên"
+                }
+              ],
+              "explanation": "Mở thư thân mật, bày tỏ niềm vui khi bạn chuyển đến gần trường."
+            },
+            {
+              "id": 2,
+              "part": "2. Thân thư - Ý 1: Giới thiệu công ty chuyển nhà",
+              "vi": "Đầu tiên, cậu nên sử dụng Công ty Fast Move cho việc chuyển nhà của cậu vì nhân viên của họ rất cẩn thận và giá cả lại rẻ cho sinh viên.",
+              "en": "First, you should use Fast Move Company for your move because their workers are very careful and their price is cheap for students.",
+              "formula": "First, you should use + [tên công ty] + because...",
+              "vocab_hints": [
+                {
+                  "en": "Fast Move Company",
+                  "vi": "Công ty Fast Move"
+                },
+                {
+                  "en": "very careful",
+                  "vi": "rất cẩn thận"
+                },
+                {
+                  "en": "cheap for students",
+                  "vi": "rẻ cho sinh viên"
+                }
+              ],
+              "explanation": "Khuyên bạn chọn một công ty chuyển nhà cụ thể kèm 2 lý do đơn giản."
+            },
+            {
+              "id": 3,
+              "part": "3. Thân thư - Ý 2: Đề nghị phụ giúp chuyển nhà",
+              "vi": "Thứ hai, tớ rảnh vào cuối tuần này, nên tớ chắc chắn có thể giúp cậu dọn dẹp ngôi nhà mới và mở các thùng đồ vì tớ sống chỉ cách chỗ ở mới của cậu năm phút đi bộ.",
+              "en": "Second, I am free this weekend, so I can definitely help you clean the new house and unpack your boxes because I live just five minutes away from your new place.",
+              "formula": "Second, I am free..., so I can help you + Vo + because...",
+              "vocab_hints": [
+                {
+                  "en": "clean the new house",
+                  "vi": "dọn dẹp ngôi nhà mới"
+                },
+                {
+                  "en": "unpack your boxes",
+                  "vi": "mở các thùng đồ"
+                },
+                {
+                  "en": "five minutes away",
+                  "vi": "cách đó năm phút"
+                }
+              ],
+              "explanation": "Trả lời rõ có thể giúp bạn và nêu việc cụ thể mình sẽ làm."
+            },
+            {
+              "id": 4,
+              "part": "4. Thân thư - Ý 3: Miêu tả hàng xóm trong khu vực",
+              "vi": "Cuối cùng, hàng xóm ở khu vực này rất thân thiện và yên tĩnh, và phần lớn họ là sinh viên đại học cùng các gia đình trẻ, nên cậu sẽ cảm thấy rất an toàn và dễ dàng kết thêm bạn mới.",
+              "en": "Finally, the neighbours in this area are very friendly and quiet, and most of them are university students and young families, so you will feel very safe and make new friends easily.",
+              "formula": "Finally, the neighbours in this area are + adj..., so you will...",
+              "vocab_hints": [
+                {
+                  "en": "friendly and quiet",
+                  "vi": "thân thiện và yên tĩnh"
+                },
+                {
+                  "en": "young families",
+                  "vi": "các gia đình trẻ"
+                },
+                {
+                  "en": "feel very safe",
+                  "vi": "cảm thấy rất an toàn"
+                }
+              ],
+              "explanation": "Miêu tả đặc điểm hàng xóm bằng các tính từ B1 quen thuộc (friendly, quiet, safe)."
+            },
+            {
+              "id": 5,
+              "part": "5. Kết thư (Closing - Thân mật)",
+              "vi": "Tớ hy vọng những lời khuyên của tớ sẽ hữu ích cho cậu. Hãy gọi cho tớ khi cậu chuyển đến nhé. Hồi âm sớm nhé.",
+              "en": "I hope my advice will be helpful to you. Please call me when you arrive. Write back soon.",
+              "formula": "I hope my advice will be helpful to you... Write back soon.",
+              "vocab_hints": [
+                {
+                  "en": "helpful to you",
+                  "vi": "hữu ích cho cậu"
+                },
+                {
+                  "en": "when you arrive",
+                  "vi": "khi cậu chuyển đến"
+                }
+              ],
+              "explanation": "Kết thư thân mật chuẩn B1."
+            }
+          ],
+          "sample_b1": {
+            "letter_en": "Dear Anna,\n\nThanks for your letter. I am very happy to hear that you are moving to a home near my university. I’m writing to give you some advice about your move and the neighbourhood.\n\nFirst, you should use Fast Move Company for your move because their workers are very careful and their price is cheap for students. Second, I am free this weekend, so I can definitely help you clean the new house and unpack your boxes because I live just five minutes away from your new place. Finally, the neighbours in this area are very friendly and quiet, and most of them are university students and young families, so you will feel very safe and make new friends easily.\n\nI hope my advice will be helpful to you. Please call me when you arrive. Write back soon.\n\nBest wishes,",
+            "letter_vi": "Anna thân mến,\n\nCảm ơn thư của cậu. Tớ rất vui khi biết cậu sắp chuyển đến một ngôi nhà gần trường đại học của tớ. Tớ viết thư này để cho cậu một vài lời khuyên về việc chuyển nhà và khu phố xung quanh.\n\nĐầu tiên, cậu nên sử dụng Công ty Fast Move cho việc chuyển nhà của cậu vì nhân viên của họ rất cẩn thận và giá cả lại rẻ cho sinh viên. Thứ hai, tớ rảnh vào cuối tuần này, nên tớ chắc chắn có thể giúp cậu dọn dẹp ngôi nhà mới và mở các thùng đồ vì tớ sống chỉ cách chỗ ở mới của cậu năm phút đi bộ. Cuối cùng, hàng xóm ở khu vực này rất thân thiện và yên tĩnh, và phần lớn họ là sinh viên đại học cùng các gia đình trẻ, nên cậu sẽ cảm thấy rất an toàn và dễ dàng kết thêm bạn mới.\n\nTớ hy vọng những lời khuyên của tớ sẽ hữu ích cho cậu. Hãy gọi cho tớ khi cậu chuyển đến nhé. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "text": "Dear Anna,\n\nThanks for your letter. I am very happy to hear that you are moving to a home near my university. I’m writing to give you some advice about your move and the neighbourhood.\n\nFirst, you should use Fast Move Company for your move because their workers are very careful and their price is cheap for students. Second, I am free this weekend, so I can definitely help you clean the new house and unpack your boxes because I live just five minutes away from your new place. Finally, the neighbours in this area are very friendly and quiet, and most of them are university students and young families, so you will feel very safe and make new friends easily.\n\nI hope my advice will be helpful to you. Please call me when you arrive. Write back soon.\n\nBest wishes,",
+            "translation": "Anna thân mến,\n\nCảm ơn thư của cậu. Tớ rất vui khi biết cậu sắp chuyển đến một ngôi nhà gần trường đại học của tớ. Tớ viết thư này để cho cậu một vài lời khuyên về việc chuyển nhà và khu phố xung quanh.\n\nĐầu tiên, cậu nên sử dụng Công ty Fast Move cho việc chuyển nhà của cậu vì nhân viên của họ rất cẩn thận và giá cả lại rẻ cho sinh viên. Thứ hai, tớ rảnh vào cuối tuần này, nên tớ chắc chắn có thể giúp cậu dọn dẹp ngôi nhà mới và mở các thùng đồ vì tớ sống chỉ cách chỗ ở mới của cậu năm phút đi bộ. Cuối cùng, hàng xóm ở khu vực này rất thân thiện và yên tĩnh, và phần lớn họ là sinh viên đại học cùng các gia đình trẻ, nên cậu sẽ cảm thấy rất an toàn và dễ dàng kết thêm bạn mới.\n\nTớ hy vọng những lời khuyên của tớ sẽ hữu ích cho cậu. Hãy gọi cho tớ khi cậu chuyển đến nhé. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "word_count": 141,
+            "key_structures": []
+          },
+          "sample_b2": {
+            "letter_en": "Dear Anna,\n\nThanks for your letter. I am very happy to hear that you are moving to a home near my university. I’m writing to give you some advice about your move and the neighbourhood.\n\nFirst, you should use Fast Move Company for your move because their workers are very careful and their price is cheap for students. Second, I am free this weekend, so I can definitely help you clean the new house and unpack your boxes because I live just five minutes away from your new place. Finally, the neighbours in this area are very friendly and quiet, and most of them are university students and young families, so you will feel very safe and make new friends easily.\n\nI hope my advice will be helpful to you. Please call me when you arrive. Write back soon.\n\nBest wishes,",
+            "letter_vi": "Anna thân mến,\n\nCảm ơn thư của cậu. Tớ rất vui khi biết cậu sắp chuyển đến một ngôi nhà gần trường đại học của tớ. Tớ viết thư này để cho cậu một vài lời khuyên về việc chuyển nhà và khu phố xung quanh.\n\nĐầu tiên, cậu nên sử dụng Công ty Fast Move cho việc chuyển nhà của cậu vì nhân viên của họ rất cẩn thận và giá cả lại rẻ cho sinh viên. Thứ hai, tớ rảnh vào cuối tuần này, nên tớ chắc chắn có thể giúp cậu dọn dẹp ngôi nhà mới và mở các thùng đồ vì tớ sống chỉ cách chỗ ở mới của cậu năm phút đi bộ. Cuối cùng, hàng xóm ở khu vực này rất thân thiện và yên tĩnh, và phần lớn họ là sinh viên đại học cùng các gia đình trẻ, nên cậu sẽ cảm thấy rất an toàn và dễ dàng kết thêm bạn mới.\n\nTớ hy vọng những lời khuyên của tớ sẽ hữu ích cho cậu. Hãy gọi cho tớ khi cậu chuyển đến nhé. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "text": "Dear Anna,\n\nThanks for your letter. I am very happy to hear that you are moving to a home near my university. I’m writing to give you some advice about your move and the neighbourhood.\n\nFirst, you should use Fast Move Company for your move because their workers are very careful and their price is cheap for students. Second, I am free this weekend, so I can definitely help you clean the new house and unpack your boxes because I live just five minutes away from your new place. Finally, the neighbours in this area are very friendly and quiet, and most of them are university students and young families, so you will feel very safe and make new friends easily.\n\nI hope my advice will be helpful to you. Please call me when you arrive. Write back soon.\n\nBest wishes,",
+            "translation": "Anna thân mến,\n\nCảm ơn thư của cậu. Tớ rất vui khi biết cậu sắp chuyển đến một ngôi nhà gần trường đại học của tớ. Tớ viết thư này để cho cậu một vài lời khuyên về việc chuyển nhà và khu phố xung quanh.\n\nĐầu tiên, cậu nên sử dụng Công ty Fast Move cho việc chuyển nhà của cậu vì nhân viên của họ rất cẩn thận và giá cả lại rẻ cho sinh viên. Thứ hai, tớ rảnh vào cuối tuần này, nên tớ chắc chắn có thể giúp cậu dọn dẹp ngôi nhà mới và mở các thùng đồ vì tớ sống chỉ cách chỗ ở mới của cậu năm phút đi bộ. Cuối cùng, hàng xóm ở khu vực này rất thân thiện và yên tĩnh, và phần lớn họ là sinh viên đại học cùng các gia đình trẻ, nên cậu sẽ cảm thấy rất an toàn và dễ dàng kết thêm bạn mới.\n\nTớ hy vọng những lời khuyên của tớ sẽ hữu ích cho cậu. Hãy gọi cho tớ khi cậu chuyển đến nhé. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "word_count": 141,
+            "key_structures": []
+          }
+        }
+      },
+      {
+        "id": "de-47",
+        "title_en": "Advice to Anna on healthy eating, exercise, and reducing stress",
+        "title_vi": "Đề 13: Lời khuyên cho Anna về thói quen ăn uống, tập thể dục và giảm căng thẳng",
+        "recipient_type": "Informal (Bạn bè - Anna)",
+        "target_words": 120,
+        "tags": [
+          "Giảm cân",
+          "Chế độ ăn",
+          "Thể dục",
+          "Giảm stress",
+          "Chuẩn B1"
+        ],
+        "context": "Your friend Anna has written to you. She has put on weight recently and feels very stressed about it. She knows that you lost weight successfully in the past and asks for your advice. Write an email to Anna.",
+        "prompt": "Your friend Anna has written to you. She has put on weight recently and feels very stressed about it. She knows that you lost weight successfully in the past and asks for your advice. Write an email to Anna.\n\nIn your email you should say:\n1. what changes she should make to her eating habits\n2. what kind of exercise she could do\n3. how she can reduce stress and stay motivated\n\nWrite at least 120 words. You do not need to include your name or addresses. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt_vi": "Bạn Anna vừa gửi thư cho bạn. Dạo này bạn ấy bị tăng cân và thấy rất căng thẳng. Bạn ấy biết bạn từng giảm cân thành công nên hỏi xin lời khuyên. Hãy viết email gửi cho Anna.\n\nTrong email, bạn nên nêu rõ:\n1. Bạn ấy nên thay đổi thói quen ăn uống như thế nào (what changes she should make to her eating habits)\n2. Bạn ấy có thể tập loại thể dục nào (what kind of exercise she could do)\n3. Làm sao để bạn ấy giảm bớt căng thẳng và giữ vững động lực (how she can reduce stress and stay motivated)",
+        "has_full_details": true,
+        "details": {
+          "analysis": {
+            "recipient": "Anna (Bạn thân đang bị tăng cân và căng thẳng)",
+            "letter_type": "Informal (Thư thân mật)",
+            "purpose": "Chia sẻ kinh nghiệm giảm cân: ăn uống lành mạnh, tập thể dục vừa sức và cách giảm bớt căng thẳng để duy trì động lực",
+            "key_requirements": [
+              "1. What changes she should make to her eating habits",
+              "2. What kind of exercise she could do",
+              "3. How she can reduce stress and stay motivated"
+            ]
+          },
+          "task_extractions": [
+            {
+              "id": 1,
+              "icon": "fa-apple-whole",
+              "prompt_requirement": "what changes she should make to her eating habits",
+              "task_title": "1. Thay đổi thói quen ăn uống (Eating habits)",
+              "task_goal": "Khuyên cắt giảm đồ ngọt/trà sữa/đồ chiên rán, ăn nhiều rau củ quả và uống đủ 2 lít nước mỗi ngày."
+            },
+            {
+              "id": 2,
+              "icon": "fa-person-running",
+              "prompt_requirement": "what kind of exercise she could do",
+              "task_title": "2. Môn thể dục phù hợp (Kind of exercise)",
+              "task_goal": "Gợi ý đi bộ nhanh, đạp xe hoặc chạy bộ 30 phút mỗi ngày trong công viên."
+            },
+            {
+              "id": 3,
+              "icon": "fa-heart",
+              "prompt_requirement": "how she can reduce stress and stay motivated",
+              "task_title": "3. Giảm stress & giữ động lực (Reduce stress & motivation)",
+              "task_goal": "Khuyên ngủ đủ giấc, đừng cân mỗi ngày, đặt mục tiêu nhỏ từng tuần và tập cùng bạn bè."
+            }
+          ],
+          "suggested_ideas": [
+            {
+              "id": 1,
+              "title_en": "1. Changes to eating habits",
+              "title_vi": "Thay đổi thói quen ăn uống",
+              "icon": "fa-apple-whole",
+              "options": [
+                {
+                  "action_en": "you should cut down on sweet drinks and fast food while eating more vegetables and fresh fruit",
+                  "action_vi": "cậu nên cắt giảm đồ uống ngọt và thức ăn nhanh đồng thời ăn nhiều rau xanh và trái cây tươi hơn",
+                  "reason_en": "because healthy food helps you control your weight easily.",
+                  "reason_vi": "vì thực phẩm lành mạnh giúp cậu kiểm soát cân nặng dễ dàng.",
+                  "b1_sentence": "First, you should cut down on sweet drinks and fast food while eating more vegetables and fresh fruit because healthy food helps you control your weight easily.",
+                  "b1_sentence_vi": "Đầu tiên, cậu nên cắt giảm đồ uống ngọt và thức ăn nhanh đồng thời ăn nhiều rau xanh và trái cây tươi hơn vì thực phẩm lành mạnh giúp cậu kiểm soát cân nặng dễ dàng."
+                },
+                {
+                  "action_en": "you can stop eating late at night and drink at least two liters of water each day",
+                  "action_vi": "cậu có thể ngừng ăn khuya và uống ít nhất hai lít nước mỗi ngày",
+                  "reason_en": "because drinking enough water keeps your body healthy and fresh.",
+                  "reason_vi": "vì uống đủ nước giúp cơ thể cậu khỏe mạnh và tươi tỉnh.",
+                  "b1_sentence": "First, you can stop eating late at night and drink at least two liters of water each day because drinking enough water keeps your body healthy and fresh.",
+                  "b1_sentence_vi": "Đầu tiên, cậu có thể ngừng ăn khuya và uống ít nhất hai lít nước mỗi ngày vì uống đủ nước giúp cơ thể cậu khỏe mạnh và tươi tỉnh."
+                },
+                {
+                  "action_en": "you should cook your meals at home instead of eating outside",
+                  "action_vi": "cậu nên tự nấu ăn ở nhà thay vì ăn ngoài hàng",
+                  "reason_en": "because you can avoid using too much oil and sugar.",
+                  "reason_vi": "vì cậu có thể tránh dùng quá nhiều dầu mỡ và đường.",
+                  "b1_sentence": "First, you should cook your meals at home instead of eating outside because you can avoid using too much oil and sugar.",
+                  "b1_sentence_vi": "Đầu tiên, cậu nên tự nấu ăn ở nhà thay vì ăn ngoài hàng vì cậu có thể tránh dùng quá nhiều dầu mỡ và đường."
+                },
+                {
+                  "action_en": "it is a good idea to eat smaller portions for dinner and eat more fish and boiled eggs",
+                  "action_vi": "sẽ là một ý kiến hay nếu cậu ăn khẩu phần nhỏ hơn vào bữa tối và ăn nhiều cá cùng trứng luộc hơn",
+                  "reason_en": "because they give you good protein without making you gain weight.",
+                  "reason_vi": "vì chúng cung cấp đạm tốt mà không làm cậu tăng cân.",
+                  "b1_sentence": "First, it is a good idea to eat smaller portions for dinner and eat more fish and boiled eggs because they give you good protein without making you gain weight.",
+                  "b1_sentence_vi": "Đầu tiên, sẽ là một ý kiến hay nếu cậu ăn khẩu phần nhỏ hơn vào bữa tối và ăn nhiều cá cùng trứng luộc hơn vì chúng cung cấp đạm tốt mà không làm cậu tăng cân."
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "title_en": "2. Kind of exercise to do",
+              "title_vi": "Hình thức thể dục phù hợp",
+              "icon": "fa-person-running",
+              "options": [
+                {
+                  "action_en": "you could try brisk walking or cycling in the park for thirty minutes every day",
+                  "action_vi": "cậu có thể thử đi bộ nhanh hoặc đạp xe trong công viên ba mươi phút mỗi ngày",
+                  "reason_en": "because these simple exercises help burn calories effectively.",
+                  "reason_vi": "vì những bài tập đơn giản này giúp đốt cháy năng lượng hiệu quả.",
+                  "b1_sentence": "Second, you could try brisk walking or cycling in the park for thirty minutes every day because these simple exercises help burn calories effectively.",
+                  "b1_sentence_vi": "Thứ hai, cậu có thể thử đi bộ nhanh hoặc đạp xe trong công viên ba mươi phút mỗi ngày vì những bài tập đơn giản này giúp đốt cháy năng lượng hiệu quả."
+                },
+                {
+                  "action_en": "it would be great to join a swimming class twice a week or practice yoga at home",
+                  "action_vi": "sẽ rất tuyệt nếu cậu tham gia lớp bơi hai lần một tuần hoặc tập yoga tại nhà",
+                  "reason_en": "because swimming works your whole body and is very fun.",
+                  "reason_vi": "vì bơi lội vận động toàn thân và rất vui.",
+                  "b1_sentence": "Second, it would be great to join a swimming class twice a week or practice yoga at home because swimming works your whole body and is very fun.",
+                  "b1_sentence_vi": "Thứ hai, sẽ rất tuyệt nếu cậu tham gia lớp bơi hai lần một tuần hoặc tập yoga tại nhà vì bơi lội vận động toàn thân và rất vui."
+                },
+                {
+                  "action_en": "you can follow simple workout videos on YouTube for twenty minutes each morning",
+                  "action_vi": "cậu có thể tập theo các video thể dục đơn giản trên YouTube hai mươi phút mỗi sáng",
+                  "reason_en": "because you do not need to go to an expensive gym.",
+                  "reason_vi": "vì cậu không cần phải đến phòng tập đắt tiền.",
+                  "b1_sentence": "Second, you can follow simple workout videos on YouTube for twenty minutes each morning because you do not need to go to an expensive gym.",
+                  "b1_sentence_vi": "Thứ hai, cậu có thể tập theo các video thể dục đơn giản trên YouTube hai mươi phút mỗi sáng vì cậu không cần phải đến phòng tập đắt tiền."
+                },
+                {
+                  "action_en": "you should take the stairs instead of the elevator and take a walk after dinner",
+                  "action_vi": "cậu nên đi cầu thang bộ thay vì thang máy và đi dạo sau bữa tối",
+                  "reason_en": "because staying active all day makes a big difference over time.",
+                  "reason_vi": "vì duy trì vận động cả ngày sẽ tạo ra sự khác biệt lớn theo thời gian.",
+                  "b1_sentence": "Second, you should take the stairs instead of the elevator and take a walk after dinner because staying active all day makes a big difference over time.",
+                  "b1_sentence_vi": "Thứ hai, cậu nên đi cầu thang bộ thay vì thang máy và đi dạo sau bữa tối vì duy trì vận động cả ngày sẽ tạo ra sự khác biệt lớn theo thời gian."
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "title_en": "3. Reducing stress and staying motivated",
+              "title_vi": "Giảm căng thẳng và giữ vững động lực",
+              "icon": "fa-heart",
+              "options": [
+                {
+                  "action_en": "remember to get enough sleep at night and stop checking your weight every single day",
+                  "action_vi": "hãy nhớ ngủ đủ giấc vào ban đêm và đừng bước lên cân mỗi ngày nữa",
+                  "reason_en": "because losing weight safely takes time and patience.",
+                  "reason_vi": "vì giảm cân an toàn cần có thời gian và sự kiên nhẫn.",
+                  "b1_sentence": "Finally, remember to get enough sleep at night and stop checking your weight every single day because losing weight safely takes time and patience.",
+                  "b1_sentence_vi": "Cuối cùng, hãy nhớ ngủ đủ giấc vào ban đêm và đừng bước lên cân mỗi ngày nữa vì giảm cân an toàn cần có thời gian và sự kiên nhẫn."
+                },
+                {
+                  "action_en": "you should set small weekly goals and reward yourself with a nice book or movie",
+                  "action_vi": "cậu nên đặt ra các mục tiêu nhỏ theo tuần và tự thưởng cho mình một cuốn sách hay hoặc bộ phim",
+                  "reason_en": "because small successes will keep you happy and motivated.",
+                  "reason_vi": "vì những thành công nhỏ sẽ giúp cậu luôn vui vẻ và có động lực.",
+                  "b1_sentence": "Finally, you should set small weekly goals and reward yourself with a nice book or movie because small successes will keep you happy and motivated.",
+                  "b1_sentence_vi": "Cuối cùng, cậu nên đặt ra các mục tiêu nhỏ theo tuần và tự thưởng cho mình một cuốn sách hay hoặc bộ phim vì những thành công nhỏ sẽ giúp cậu luôn vui vẻ và có động lực."
+                },
+                {
+                  "action_en": "you can exercise with a close friend or listen to your favorite music while walking",
+                  "action_vi": "cậu có thể tập thể dục cùng một người bạn thân hoặc nghe bản nhạc yêu thích khi đi bộ",
+                  "reason_en": "because working out with music makes exercise feel easy and fun.",
+                  "reason_vi": "vì vừa tập vừa nghe nhạc khiến việc tập luyện cảm thấy nhẹ nhàng và vui.",
+                  "b1_sentence": "Finally, you can exercise with a close friend or listen to your favorite music while walking because working out with music makes exercise feel easy and fun.",
+                  "b1_sentence_vi": "Cuối cùng, cậu có thể tập thể dục cùng một người bạn thân hoặc nghe bản nhạc yêu thích khi đi bộ vì vừa tập vừa nghe nhạc khiến việc tập luyện cảm thấy nhẹ nhàng và vui."
+                },
+                {
+                  "action_en": "remember that I am always here to support you and listen whenever you feel stressed",
+                  "action_vi": "hãy nhớ rằng tớ luôn ở đây để ủng hộ cậu và lắng nghe mỗi khi cậu thấy căng thẳng",
+                  "reason_en": "because sharing your feelings will help you feel much better.",
+                  "reason_vi": "vì chia sẻ cảm xúc sẽ giúp cậu cảm thấy nhẹ nhõm hơn nhiều.",
+                  "b1_sentence": "Finally, remember that I am always here to support you and listen whenever you feel stressed because sharing your feelings will help you feel much better.",
+                  "b1_sentence_vi": "Cuối cùng, hãy nhớ rằng tớ luôn ở đây để ủng hộ cậu và lắng nghe mỗi khi cậu thấy căng thẳng vì chia sẻ cảm xúc sẽ giúp cậu cảm thấy nhẹ nhõm hơn nhiều."
+                }
+              ]
+            }
+          ],
+          "vocab": [
+            {
+              "en": "cut down on sweet drinks",
+              "vi": "cắt giảm đồ uống ngọt",
+              "category": "1. Ăn uống"
+            },
+            {
+              "en": "fast food",
+              "vi": "thức ăn nhanh",
+              "category": "1. Ăn uống"
+            },
+            {
+              "en": "fresh fruit and vegetables",
+              "vi": "rau củ quả tươi",
+              "category": "1. Ăn uống"
+            },
+            {
+              "en": "brisk walking",
+              "vi": "đi bộ nhanh",
+              "category": "2. Thể dục"
+            },
+            {
+              "en": "cycling in the park",
+              "vi": "đạp xe trong công viên",
+              "category": "2. Thể dục"
+            },
+            {
+              "en": "burn calories",
+              "vi": "tiêu hao năng lượng",
+              "category": "2. Thể dục"
+            },
+            {
+              "en": "get enough sleep",
+              "vi": "ngủ đủ giấc",
+              "category": "3. Giảm stress"
+            },
+            {
+              "en": "small weekly goals",
+              "vi": "mục tiêu nhỏ hàng tuần",
+              "category": "3. Giảm stress"
+            },
+            {
+              "en": "stay motivated",
+              "vi": "giữ vững động lực",
+              "category": "3. Giảm stress"
+            }
+          ],
+          "sentence_practice_b1": [
+            {
+              "id": 1,
+              "part": "1. Mở thư (Opening - Thân mật)",
+              "vi": "Cảm ơn thư của cậu. Cậu khỏe không? Đừng quá lo lắng về cân nặng của mình nhé vì tớ có vài lời khuyên hữu ích cho cậu.",
+              "en": "Thanks for your email. How are you? Please do not worry too much about your weight because I have some helpful advice for you.",
+              "formula": "Thanks for your email. How are you? Please do not worry too much about... because I have some helpful advice for you.",
+              "vocab_hints": [
+                {
+                  "en": "worry too much about your weight",
+                  "vi": "lo lắng quá mức về cân nặng"
+                },
+                {
+                  "en": "helpful advice",
+                  "vi": "lời khuyên hữu ích"
+                }
+              ],
+              "explanation": "Mở thư khích lệ bạn chuẩn B1."
+            },
+            {
+              "id": 2,
+              "part": "2. Thân thư - Ý 1: Thay đổi ăn uống",
+              "vi": "Đầu tiên, cậu nên cắt giảm đồ uống ngọt và thức ăn nhanh đồng thời ăn nhiều rau xanh và trái cây tươi hơn vì thực phẩm lành mạnh giúp cậu kiểm soát cân nặng dễ dàng.",
+              "en": "First, you should cut down on sweet drinks and fast food while eating more vegetables and fresh fruit because healthy food helps you control your weight easily.",
+              "formula": "First, you should cut down on... because...",
+              "vocab_hints": [
+                {
+                  "en": "cut down on sweet drinks",
+                  "vi": "cắt giảm đồ uống ngọt"
+                },
+                {
+                  "en": "control your weight easily",
+                  "vi": "kiểm soát cân nặng dễ dàng"
+                }
+              ],
+              "explanation": "Khuyên thay đổi thói quen ăn uống rõ ràng."
+            },
+            {
+              "id": 3,
+              "part": "3. Thân thư - Ý 2: Thể dục phù hợp",
+              "vi": "Thứ hai, cậu có thể thử đi bộ nhanh hoặc đạp xe trong công viên ba mươi phút mỗi ngày vì những bài tập đơn giản này giúp đốt cháy năng lượng hiệu quả.",
+              "en": "Second, you could try brisk walking or cycling in the park for thirty minutes every day because these simple exercises help burn calories effectively.",
+              "formula": "Second, you could try + V-ing + because...",
+              "vocab_hints": [
+                {
+                  "en": "brisk walking or cycling",
+                  "vi": "đi bộ nhanh hoặc đạp xe"
+                },
+                {
+                  "en": "burn calories effectively",
+                  "vi": "đốt calo hiệu quả"
+                }
+              ],
+              "explanation": "Gợi ý bài tập vận động quen thuộc."
+            },
+            {
+              "id": 4,
+              "part": "4. Thân thư - Ý 3: Giảm stress & giữ động lực",
+              "vi": "Cuối cùng, hãy nhớ ngủ đủ giấc vào ban đêm và đừng bước lên cân mỗi ngày nữa vì giảm cân an toàn cần có thời gian và sự kiên nhẫn.",
+              "en": "Finally, remember to get enough sleep at night and stop checking your weight every single day because losing weight safely takes time and patience.",
+              "formula": "Finally, remember to + Vo + because...",
+              "vocab_hints": [
+                {
+                  "en": "get enough sleep at night",
+                  "vi": "ngủ đủ giấc vào ban đêm"
+                },
+                {
+                  "en": "takes time and patience",
+                  "vi": "cần thời gian và sự kiên nhẫn"
+                }
+              ],
+              "explanation": "Dặn dò cách giảm căng thẳng tâm lý."
+            },
+            {
+              "id": 5,
+              "part": "5. Kết thư (Closing - Thân mật)",
+              "vi": "Tớ hy vọng lời khuyên của tớ sẽ giúp ích cho cậu. Hãy tin vào bản thân và cho tớ biết kết quả nhé. Hồi âm sớm nhé.",
+              "en": "I hope my advice will be helpful to you. Believe in yourself and let me know how things go. Write back soon.",
+              "formula": "I hope my advice will be helpful to you. Believe in yourself and let me know how things go. Write back soon.",
+              "vocab_hints": [
+                {
+                  "en": "believe in yourself",
+                  "vi": "tin vào chính mình"
+                },
+                {
+                  "en": "let me know how things go",
+                  "vi": "báo cho tớ biết mọi việc diễn ra thế nào"
+                }
+              ],
+              "explanation": "Kết thư ấm áp, động viên bạn bè."
+            }
+          ],
+          "sentence_practice_b2": [
+            {
+              "id": 1,
+              "part": "1. Mở thư (Opening - Thân mật)",
+              "vi": "Cảm ơn thư của cậu. Cậu khỏe không? Đừng quá lo lắng về cân nặng của mình nhé vì tớ có vài lời khuyên hữu ích cho cậu.",
+              "en": "Thanks for your email. How are you? Please do not worry too much about your weight because I have some helpful advice for you.",
+              "formula": "Thanks for your email. How are you? Please do not worry too much about... because I have some helpful advice for you.",
+              "vocab_hints": [
+                {
+                  "en": "worry too much about your weight",
+                  "vi": "lo lắng quá mức về cân nặng"
+                },
+                {
+                  "en": "helpful advice",
+                  "vi": "lời khuyên hữu ích"
+                }
+              ],
+              "explanation": "Mở thư khích lệ bạn chuẩn B1."
+            },
+            {
+              "id": 2,
+              "part": "2. Thân thư - Ý 1: Thay đổi ăn uống",
+              "vi": "Đầu tiên, cậu nên cắt giảm đồ uống ngọt và thức ăn nhanh đồng thời ăn nhiều rau xanh và trái cây tươi hơn vì thực phẩm lành mạnh giúp cậu kiểm soát cân nặng dễ dàng.",
+              "en": "First, you should cut down on sweet drinks and fast food while eating more vegetables and fresh fruit because healthy food helps you control your weight easily.",
+              "formula": "First, you should cut down on... because...",
+              "vocab_hints": [
+                {
+                  "en": "cut down on sweet drinks",
+                  "vi": "cắt giảm đồ uống ngọt"
+                },
+                {
+                  "en": "control your weight easily",
+                  "vi": "kiểm soát cân nặng dễ dàng"
+                }
+              ],
+              "explanation": "Khuyên thay đổi thói quen ăn uống rõ ràng."
+            },
+            {
+              "id": 3,
+              "part": "3. Thân thư - Ý 2: Thể dục phù hợp",
+              "vi": "Thứ hai, cậu có thể thử đi bộ nhanh hoặc đạp xe trong công viên ba mươi phút mỗi ngày vì những bài tập đơn giản này giúp đốt cháy năng lượng hiệu quả.",
+              "en": "Second, you could try brisk walking or cycling in the park for thirty minutes every day because these simple exercises help burn calories effectively.",
+              "formula": "Second, you could try + V-ing + because...",
+              "vocab_hints": [
+                {
+                  "en": "brisk walking or cycling",
+                  "vi": "đi bộ nhanh hoặc đạp xe"
+                },
+                {
+                  "en": "burn calories effectively",
+                  "vi": "đốt calo hiệu quả"
+                }
+              ],
+              "explanation": "Gợi ý bài tập vận động quen thuộc."
+            },
+            {
+              "id": 4,
+              "part": "4. Thân thư - Ý 3: Giảm stress & giữ động lực",
+              "vi": "Cuối cùng, hãy nhớ ngủ đủ giấc vào ban đêm và đừng bước lên cân mỗi ngày nữa vì giảm cân an toàn cần có thời gian và sự kiên nhẫn.",
+              "en": "Finally, remember to get enough sleep at night and stop checking your weight every single day because losing weight safely takes time and patience.",
+              "formula": "Finally, remember to + Vo + because...",
+              "vocab_hints": [
+                {
+                  "en": "get enough sleep at night",
+                  "vi": "ngủ đủ giấc vào ban đêm"
+                },
+                {
+                  "en": "takes time and patience",
+                  "vi": "cần thời gian và sự kiên nhẫn"
+                }
+              ],
+              "explanation": "Dặn dò cách giảm căng thẳng tâm lý."
+            },
+            {
+              "id": 5,
+              "part": "5. Kết thư (Closing - Thân mật)",
+              "vi": "Tớ hy vọng lời khuyên của tớ sẽ giúp ích cho cậu. Hãy tin vào bản thân và cho tớ biết kết quả nhé. Hồi âm sớm nhé.",
+              "en": "I hope my advice will be helpful to you. Believe in yourself and let me know how things go. Write back soon.",
+              "formula": "I hope my advice will be helpful to you. Believe in yourself and let me know how things go. Write back soon.",
+              "vocab_hints": [
+                {
+                  "en": "believe in yourself",
+                  "vi": "tin vào chính mình"
+                },
+                {
+                  "en": "let me know how things go",
+                  "vi": "báo cho tớ biết mọi việc diễn ra thế nào"
+                }
+              ],
+              "explanation": "Kết thư ấm áp, động viên bạn bè."
+            }
+          ],
+          "sample_b1": {
+            "letter_en": "Dear Anna,\n\nThanks for your email. How are you? Please do not worry too much about your weight because I have some helpful advice for you.\n\nFirst, you should cut down on sweet drinks and fast food while eating more vegetables and fresh fruit because healthy food helps you control your weight easily. Drinking two liters of water a day will also keep you healthy.\n\nSecond, you could try brisk walking or cycling in the park for thirty minutes every day because these simple exercises help burn calories effectively. You can also listen to your favorite music while walking.\n\nFinally, remember to get enough sleep at night and stop checking your weight every single day because losing weight safely takes time and patience. You can set small weekly goals to stay motivated.\n\nI hope my advice will be helpful to you. Believe in yourself and let me know how things go. Write back soon.\n\nBest wishes,",
+            "letter_vi": "Anna thân mến,\n\nCảm ơn email của cậu. Cậu khỏe không? Đừng quá lo lắng về cân nặng của mình nhé vì tớ có vài lời khuyên hữu ích cho cậu.\n\nĐầu tiên, cậu nên cắt giảm đồ uống ngọt và thức ăn nhanh đồng thời ăn nhiều rau xanh và trái cây tươi hơn vì thực phẩm lành mạnh giúp cậu kiểm soát cân nặng dễ dàng. Uống hai lít nước mỗi ngày cũng sẽ giúp cậu khỏe khoắn.\n\nThứ hai, cậu có thể thử đi bộ nhanh hoặc đạp xe trong công viên ba mươi phút mỗi ngày vì những bài tập đơn giản này giúp đốt cháy năng lượng hiệu quả. Cậu cũng có thể nghe bản nhạc yêu thích khi đi bộ.\n\nCuối cùng, hãy nhớ ngủ đủ giấc vào ban đêm và đừng bước lên cân mỗi ngày nữa vì giảm cân an toàn cần có thời gian và sự kiên nhẫn. Cậu có thể đặt những mục tiêu nhỏ từng tuần để giữ vững động lực.\n\nTớ hy vọng lời khuyên của tớ sẽ giúp ích cho cậu. Hãy tin vào bản thân và cho tớ biết kết quả nhé. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "text": "Dear Anna,\n\nThanks for your email. How are you? Please do not worry too much about your weight because I have some helpful advice for you.\n\nFirst, you should cut down on sweet drinks and fast food while eating more vegetables and fresh fruit because healthy food helps you control your weight easily. Drinking two liters of water a day will also keep you healthy.\n\nSecond, you could try brisk walking or cycling in the park for thirty minutes every day because these simple exercises help burn calories effectively. You can also listen to your favorite music while walking.\n\nFinally, remember to get enough sleep at night and stop checking your weight every single day because losing weight safely takes time and patience. You can set small weekly goals to stay motivated.\n\nI hope my advice will be helpful to you. Believe in yourself and let me know how things go. Write back soon.\n\nBest wishes,",
+            "translation": "Anna thân mến,\n\nCảm ơn email của cậu. Cậu khỏe không? Đừng quá lo lắng về cân nặng của mình nhé vì tớ có vài lời khuyên hữu ích cho cậu.\n\nĐầu tiên, cậu nên cắt giảm đồ uống ngọt và thức ăn nhanh đồng thời ăn nhiều rau xanh và trái cây tươi hơn vì thực phẩm lành mạnh giúp cậu kiểm soát cân nặng dễ dàng. Uống hai lít nước mỗi ngày cũng sẽ giúp cậu khỏe khoắn.\n\nThứ hai, cậu có thể thử đi bộ nhanh hoặc đạp xe trong công viên ba mươi phút mỗi ngày vì những bài tập đơn giản này giúp đốt cháy năng lượng hiệu quả. Cậu cũng có thể nghe bản nhạc yêu thích khi đi bộ.\n\nCuối cùng, hãy nhớ ngủ đủ giấc vào ban đêm và đừng bước lên cân mỗi ngày nữa vì giảm cân an toàn cần có thời gian và sự kiên nhẫn. Cậu có thể đặt những mục tiêu nhỏ từng tuần để giữ vững động lực.\n\nTớ hy vọng lời khuyên của tớ sẽ giúp ích cho cậu. Hãy tin vào bản thân và cho tớ biết kết quả nhé. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "word_count": 156,
+            "key_structures": []
+          },
+          "sample_b2": {
+            "letter_en": "Dear Anna,\n\nThanks for your email. How are you? Please do not worry too much about your weight because I have some helpful advice for you.\n\nFirst, you should cut down on sweet drinks and fast food while eating more vegetables and fresh fruit because healthy food helps you control your weight easily. Drinking two liters of water a day will also keep you healthy.\n\nSecond, you could try brisk walking or cycling in the park for thirty minutes every day because these simple exercises help burn calories effectively. You can also listen to your favorite music while walking.\n\nFinally, remember to get enough sleep at night and stop checking your weight every single day because losing weight safely takes time and patience. You can set small weekly goals to stay motivated.\n\nI hope my advice will be helpful to you. Believe in yourself and let me know how things go. Write back soon.\n\nBest wishes,",
+            "letter_vi": "Anna thân mến,\n\nCảm ơn email của cậu. Cậu khỏe không? Đừng quá lo lắng về cân nặng của mình nhé vì tớ có vài lời khuyên hữu ích cho cậu.\n\nĐầu tiên, cậu nên cắt giảm đồ uống ngọt và thức ăn nhanh đồng thời ăn nhiều rau xanh và trái cây tươi hơn vì thực phẩm lành mạnh giúp cậu kiểm soát cân nặng dễ dàng. Uống hai lít nước mỗi ngày cũng sẽ giúp cậu khỏe khoắn.\n\nThứ hai, cậu có thể thử đi bộ nhanh hoặc đạp xe trong công viên ba mươi phút mỗi ngày vì những bài tập đơn giản này giúp đốt cháy năng lượng hiệu quả. Cậu cũng có thể nghe bản nhạc yêu thích khi đi bộ.\n\nCuối cùng, hãy nhớ ngủ đủ giấc vào ban đêm và đừng bước lên cân mỗi ngày nữa vì giảm cân an toàn cần có thời gian và sự kiên nhẫn. Cậu có thể đặt những mục tiêu nhỏ từng tuần để giữ vững động lực.\n\nTớ hy vọng lời khuyên của tớ sẽ giúp ích cho cậu. Hãy tin vào bản thân và cho tớ biết kết quả nhé. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "text": "Dear Anna,\n\nThanks for your email. How are you? Please do not worry too much about your weight because I have some helpful advice for you.\n\nFirst, you should cut down on sweet drinks and fast food while eating more vegetables and fresh fruit because healthy food helps you control your weight easily. Drinking two liters of water a day will also keep you healthy.\n\nSecond, you could try brisk walking or cycling in the park for thirty minutes every day because these simple exercises help burn calories effectively. You can also listen to your favorite music while walking.\n\nFinally, remember to get enough sleep at night and stop checking your weight every single day because losing weight safely takes time and patience. You can set small weekly goals to stay motivated.\n\nI hope my advice will be helpful to you. Believe in yourself and let me know how things go. Write back soon.\n\nBest wishes,",
+            "translation": "Anna thân mến,\n\nCảm ơn email của cậu. Cậu khỏe không? Đừng quá lo lắng về cân nặng của mình nhé vì tớ có vài lời khuyên hữu ích cho cậu.\n\nĐầu tiên, cậu nên cắt giảm đồ uống ngọt và thức ăn nhanh đồng thời ăn nhiều rau xanh và trái cây tươi hơn vì thực phẩm lành mạnh giúp cậu kiểm soát cân nặng dễ dàng. Uống hai lít nước mỗi ngày cũng sẽ giúp cậu khỏe khoắn.\n\nThứ hai, cậu có thể thử đi bộ nhanh hoặc đạp xe trong công viên ba mươi phút mỗi ngày vì những bài tập đơn giản này giúp đốt cháy năng lượng hiệu quả. Cậu cũng có thể nghe bản nhạc yêu thích khi đi bộ.\n\nCuối cùng, hãy nhớ ngủ đủ giấc vào ban đêm và đừng bước lên cân mỗi ngày nữa vì giảm cân an toàn cần có thời gian và sự kiên nhẫn. Cậu có thể đặt những mục tiêu nhỏ từng tuần để giữ vững động lực.\n\nTớ hy vọng lời khuyên của tớ sẽ giúp ích cho cậu. Hãy tin vào bản thân và cho tớ biết kết quả nhé. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "word_count": 156,
+            "key_structures": []
+          }
+        }
+      },
+      {
+        "id": "de-49",
+        "title_en": "Advice to Sam on places to eat, hometown food request, and city transport",
+        "title_vi": "Đề 14: Tư vấn cho Sam về quán ăn ngon, nhờ mua đặc sản và cách đi lại trong thành phố",
+        "recipient_type": "Informal (Bạn bè - Sam)",
+        "target_words": 120,
+        "tags": [
+          "Ẩm thực",
+          "Đặc sản",
+          "Đi lại",
+          "Du lịch",
+          "Chuẩn B1"
+        ],
+        "context": "Your friend Sam is going to visit your city next month and has written to ask for some advice. Write an email to Sam.",
+        "prompt": "Your friend Sam is going to visit your city next month and has written to ask for some advice. Write an email to Sam.\n\nIn your email you should say:\n1. what good places to eat Sam should try\n2. what special food from Sam's hometown you would like Sam to bring for you\n3. how Sam can get around the city\n\nWrite at least 120 words. You do not need to include your name or addresses. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt_vi": "Bạn Sam sắp đến thăm thành phố của bạn vào tháng tới và đã viết thư xin lời khuyên. Hãy viết email gửi cho Sam.\n\nTrong email, bạn nên nêu rõ:\n1. Những quán ăn ngon nào Sam nên thử (what good places to eat Sam should try)\n2. Món ăn đặc sản nào từ quê của Sam mà bạn muốn nhờ Sam mang sang (what special food from Sam's hometown you would like Sam to bring for you)\n3. Sam có thể đi lại trong thành phố bằng cách nào (how Sam can get around the city)",
+        "has_full_details": true,
+        "details": {
+          "analysis": {
+            "recipient": "Sam (Bạn bè sắp đến thăm thành phố của bạn vào tháng tới)",
+            "letter_type": "Informal (Thư thân mật)",
+            "purpose": "Gợi ý quán ăn ngon, nhờ bạn mang theo đặc sản quê bạn ấy và hướng dẫn cách đi lại thuận tiện",
+            "key_requirements": [
+              "1. What good places to eat Sam should try",
+              "2. What special food from Sam's hometown you would like Sam to bring for you",
+              "3. How Sam can get around the city"
+            ]
+          },
+          "task_extractions": [
+            {
+              "id": 1,
+              "icon": "fa-utensils",
+              "prompt_requirement": "what good places to eat Sam should try",
+              "task_title": "1. Địa điểm ăn uống ngon (Good places to eat)",
+              "task_goal": "Gợi ý khu phố ẩm thực phố cổ và nhà hàng địa phương để thử phở bò và nem rán."
+            },
+            {
+              "id": 2,
+              "icon": "fa-cookie-bite",
+              "prompt_requirement": "what special food from Sam's hometown you would like Sam to bring for you",
+              "task_title": "2. Nhờ mua đặc sản quê của Sam (Special food from hometown)",
+              "task_goal": "Nhờ Sam mang giúp một hộp bánh quy bơ truyền thống hoặc sô-cô-la nổi tiếng ở quê bạn ấy."
+            },
+            {
+              "id": 3,
+              "icon": "fa-bus",
+              "prompt_requirement": "how Sam can get around the city",
+              "task_title": "3. Cách di chuyển trong thành phố (Getting around)",
+              "task_goal": "Khuyên dùng ứng dụng gọi xe (Grab/taxi) hoặc đi xe buýt công cộng vừa rẻ vừa tiện."
+            }
+          ],
+          "suggested_ideas": [
+            {
+              "id": 1,
+              "title_en": "1. Good places to eat",
+              "title_vi": "Quán ăn ngon nên thử",
+              "icon": "fa-utensils",
+              "options": [
+                {
+                  "action_en": "you should try the food stalls in the Old Quarter and Lotus Restaurant",
+                  "action_vi": "cậu nên thử các quán ăn ở khu Phố Cổ và Nhà hàng Hoa Sen",
+                  "reason_en": "because they serve famous dishes like pho and spring rolls at cheap prices.",
+                  "reason_vi": "vì họ phục vụ các món ăn nổi tiếng như phở và nem rán với giá rẻ.",
+                  "b1_sentence": "First, you should try the food stalls in the Old Quarter and Lotus Restaurant because they serve famous dishes like pho and spring rolls at cheap prices.",
+                  "b1_sentence_vi": "Đầu tiên, cậu nên thử các quán ăn ở khu Phố Cổ và Nhà hàng Hoa Sen vì họ phục vụ các món ăn nổi tiếng như phở và nem rán với giá rẻ."
+                },
+                {
+                  "action_en": "you can eat at the night market by the river",
+                  "action_vi": "cậu có thể ăn tại chợ đêm bên bờ sông",
+                  "reason_en": "because there are many seafood dishes and sweet desserts.",
+                  "reason_vi": "vì ở đó có nhiều món hải sản và đồ tráng miệng ngọt ngào.",
+                  "b1_sentence": "First, you can eat at the night market by the river because there are many seafood dishes and sweet desserts.",
+                  "b1_sentence_vi": "Đầu tiên, cậu có thể ăn tại chợ đêm bên bờ sông vì ở đó có nhiều món hải sản và đồ tráng miệng ngọt ngào."
+                },
+                {
+                  "action_en": "I suggest visiting traditional noodle shops along the main walking street",
+                  "action_vi": "tớ gợi ý ghé thăm các quán bún truyền thống dọc theo phố đi bộ chính",
+                  "reason_en": "because the food is freshly cooked and very tasty.",
+                  "reason_vi": "vì đồ ăn được nấu mới nóng hổi và rất ngon miệng.",
+                  "b1_sentence": "First, I suggest visiting traditional noodle shops along the main walking street because the food is freshly cooked and very tasty.",
+                  "b1_sentence_vi": "Đầu tiên, tớ gợi ý ghé thăm các quán bún truyền thống dọc theo phố đi bộ chính vì đồ ăn được nấu mới nóng hổi và rất ngon miệng."
+                },
+                {
+                  "action_en": "you should go to my favorite family restaurant in the city center",
+                  "action_vi": "cậu nên đến quán ăn gia đình ruột của tớ ở trung tâm thành phố",
+                  "reason_en": "because the owners are very friendly and the beef soup is delicious.",
+                  "reason_vi": "vì chủ quán rất thân thiện và món canh bò rất ngon.",
+                  "b1_sentence": "First, you should go to my favorite family restaurant in the city center because the owners are very friendly and the beef soup is delicious.",
+                  "b1_sentence_vi": "Đầu tiên, cậu nên đến quán ăn gia đình ruột của tớ ở trung tâm thành phố vì chủ quán rất thân thiện và món canh bò rất ngon."
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "title_en": "2. Hometown special food to bring",
+              "title_vi": "Món đặc sản quê hương nhờ bạn mang",
+              "icon": "fa-cookie-bite",
+              "options": [
+                {
+                  "action_en": "could you please bring me a box of traditional butter cookies from your hometown?",
+                  "action_vi": "cậu có thể mang cho tớ một hộp bánh quy bơ truyền thống từ quê của cậu được không?",
+                  "reason_en": "because my family really loved their taste when you gave us some last year.",
+                  "reason_vi": "vì gia đình tớ thực sự rất thích hương vị của chúng khi cậu tặng chúng tớ năm ngoái.",
+                  "b1_sentence": "Second, could you please bring me a box of traditional butter cookies from your hometown because my family really loved their taste when you gave us some last year?",
+                  "b1_sentence_vi": "Thứ hai, cậu có thể mang cho tớ một hộp bánh quy bơ truyền thống từ quê của cậu được không vì gia đình tớ thực sự rất thích hương vị của chúng khi cậu tặng chúng tớ năm ngoái?"
+                },
+                {
+                  "action_en": "I would be very happy if you could bring a small box of local chocolates",
+                  "action_vi": "tớ sẽ rất vui nếu cậu có thể mang theo một hộp nhỏ sô-cô-la địa phương",
+                  "reason_en": "because your hometown is famous for making great sweets.",
+                  "reason_vi": "vì quê cậu rất nổi tiếng với việc làm đồ ngọt ngon.",
+                  "b1_sentence": "Second, I would be very happy if you could bring a small box of local chocolates because your hometown is famous for making great sweets.",
+                  "b1_sentence_vi": "Thứ hai, tớ sẽ rất vui nếu cậu có thể mang theo một hộp nhỏ sô-cô-la địa phương vì quê cậu rất nổi tiếng với việc làm đồ ngọt ngon."
+                },
+                {
+                  "action_en": "could you bring a pack of dried fruit or herbal tea from your town?",
+                  "action_vi": "cậu có thể mang một gói hoa quả sấy hoặc trà thảo mộc từ thị trấn của cậu không?",
+                  "reason_en": "because it is light to carry and we cannot buy it here.",
+                  "reason_vi": "vì nó nhẹ để mang theo và chúng tớ không thể mua được ở đây.",
+                  "b1_sentence": "Second, could you bring a pack of dried fruit or herbal tea from your town because it is light to carry and we cannot buy it here?",
+                  "b1_sentence_vi": "Thứ hai, cậu có thể mang một gói hoa quả sấy hoặc trà thảo mộc từ thị trấn của cậu không vì nó nhẹ để mang theo và chúng tớ không thể mua được ở đây?"
+                },
+                {
+                  "action_en": "I would love a small jar of honey from your local farm",
+                  "action_vi": "tớ rất thích một lọ mật ong nhỏ từ nông trại địa phương của cậu",
+                  "reason_en": "because I love having honey with my morning tea.",
+                  "reason_vi": "vì tớ thích uống mật ong cùng trà buổi sáng.",
+                  "b1_sentence": "Second, I would love a small jar of honey from your local farm because I love having honey with my morning tea.",
+                  "b1_sentence_vi": "Thứ hai, tớ rất thích một lọ mật ong nhỏ từ nông trại địa phương của cậu vì tớ thích uống mật ong cùng trà buổi sáng."
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "title_en": "3. Getting around the city",
+              "title_vi": "Cách đi lại trong thành phố",
+              "icon": "fa-bus",
+              "options": [
+                {
+                  "action_en": "you can download a ride-hailing app like Grab to book car or motorbike rides",
+                  "action_vi": "cậu có thể tải ứng dụng gọi xe như Grab để đặt xe ô tô hoặc xe máy",
+                  "reason_en": "because it shows the exact price in advance and is very safe.",
+                  "reason_vi": "vì nó hiển thị giá tiền chính xác từ trước và rất an toàn.",
+                  "b1_sentence": "Finally, you can download a ride-hailing app like Grab to book car or motorbike rides because it shows the exact price in advance and is very safe.",
+                  "b1_sentence_vi": "Cuối cùng, cậu có thể tải ứng dụng gọi xe như Grab để đặt xe ô tô hoặc xe máy vì nó hiển thị giá tiền chính xác từ trước và rất an toàn."
+                },
+                {
+                  "action_en": "you can travel around by public buses and the new city train line",
+                  "action_vi": "cậu có thể đi lại bằng xe buýt công cộng và tuyến tàu điện mới của thành phố",
+                  "reason_en": "because tickets are very cheap and go to all major places.",
+                  "reason_vi": "vì vé rất rẻ và đi qua tất cả các điểm chính.",
+                  "b1_sentence": "Finally, you can travel around by public buses and the new city train line because tickets are very cheap and go to all major places.",
+                  "b1_sentence_vi": "Cuối cùng, cậu có thể đi lại bằng xe buýt công cộng và tuyến tàu điện mới của thành phố vì vé rất rẻ và đi qua tất cả các điểm chính."
+                },
+                {
+                  "action_en": "for short distances in the center, you can walk or rent a public bicycle",
+                  "action_vi": "đối với các quãng đường ngắn ở trung tâm, cậu có thể đi bộ hoặc thuê xe đạp công cộng",
+                  "reason_en": "because it is an easy way to enjoy the streets and stay healthy.",
+                  "reason_vi": "vì đó là cách dễ dàng để ngắm phố xá và rèn luyện sức khỏe.",
+                  "b1_sentence": "Finally, for short distances in the center, you can walk or rent a public bicycle because it is an easy way to enjoy the streets and stay healthy.",
+                  "b1_sentence_vi": "Cuối cùng, đối với các quãng đường ngắn ở trung tâm, cậu có thể đi bộ hoặc thuê xe đạp công cộng vì đó là cách dễ dàng để ngắm phố xá và rèn luyện sức khỏe."
+                },
+                {
+                  "action_en": "I can also take you around on my motorbike on the weekend",
+                  "action_vi": "tớ cũng có thể chở cậu đi dạo quanh bằng xe máy của tớ vào cuối tuần",
+                  "reason_en": "because riding a motorbike is the best way to see the town.",
+                  "reason_vi": "vì đi xe máy là cách tốt nhất để ngắm nhìn thị trấn.",
+                  "b1_sentence": "Finally, I can also take you around on my motorbike on the weekend because riding a motorbike is the best way to see the town.",
+                  "b1_sentence_vi": "Cuối cùng, tớ cũng có thể chở cậu đi dạo quanh bằng xe máy của tớ vào cuối tuần vì đi xe máy là cách tốt nhất để ngắm nhìn thị trấn."
+                }
+              ]
+            }
+          ],
+          "vocab": [
+            {
+              "en": "places to eat",
+              "vi": "địa điểm ăn uống",
+              "category": "1. Ăn uống"
+            },
+            {
+              "en": "Old Quarter",
+              "vi": "khu Phố Cổ",
+              "category": "1. Ăn uống"
+            },
+            {
+              "en": "special food",
+              "vi": "món ăn đặc sản",
+              "category": "2. Đặc sản"
+            },
+            {
+              "en": "butter cookies",
+              "vi": "bánh quy bơ",
+              "category": "2. Đặc sản"
+            },
+            {
+              "en": "from your hometown",
+              "vi": "từ quê hương của cậu",
+              "category": "2. Đặc sản"
+            },
+            {
+              "en": "get around the city",
+              "vi": "đi lại quanh thành phố",
+              "category": "3. Đi lại"
+            },
+            {
+              "en": "ride-hailing app",
+              "vi": "ứng dụng gọi xe",
+              "category": "3. Đi lại"
+            },
+            {
+              "en": "public buses",
+              "vi": "xe buýt công cộng",
+              "category": "3. Đi lại"
+            }
+          ],
+          "sentence_practice_b1": [
+            {
+              "id": 1,
+              "part": "1. Mở thư (Opening - Thân mật)",
+              "vi": "Cậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Tớ rất vui khi biết cậu sắp đến thăm thành phố của tớ vào tháng tới.",
+              "en": "How are you? I hope you are doing well. I am very happy to know that you are going to visit my city next month.",
+              "formula": "How are you? I hope you are doing well. I am very happy to know that you are going to visit...",
+              "vocab_hints": [
+                {
+                  "en": "happy to know",
+                  "vi": "vui khi biết"
+                },
+                {
+                  "en": "visit my city next month",
+                  "vi": "thăm thành phố của tớ vào tháng tới"
+                }
+              ],
+              "explanation": "Mở thư thân mật chuẩn B1."
+            },
+            {
+              "id": 2,
+              "part": "2. Thân thư - Ý 1: Quán ăn ngon nên thử",
+              "vi": "Đầu tiên, cậu nên thử các quán ăn ở khu Phố Cổ và Nhà hàng Hoa Sen vì họ phục vụ các món ăn nổi tiếng như phở và nem rán với giá rẻ.",
+              "en": "First, you should try the food stalls in the Old Quarter and Lotus Restaurant because they serve famous dishes like pho and spring rolls at cheap prices.",
+              "formula": "First, you should try... because...",
+              "vocab_hints": [
+                {
+                  "en": "food stalls in the Old Quarter",
+                  "vi": "quán ăn ở Phố Cổ"
+                },
+                {
+                  "en": "famous dishes",
+                  "vi": "các món ăn nổi tiếng"
+                }
+              ],
+              "explanation": "Gợi ý món ăn ngon đơn giản."
+            },
+            {
+              "id": 3,
+              "part": "3. Thân thư - Ý 2: Nhờ mang đặc sản",
+              "vi": "Thứ hai, cậu có thể mang cho tớ một hộp bánh quy bơ truyền thống từ quê của cậu được không vì gia đình tớ thực sự rất thích hương vị của chúng khi cậu tặng chúng tớ năm ngoái?",
+              "en": "Second, could you please bring me a box of traditional butter cookies from your hometown because my family really loved their taste when you gave us some last year?",
+              "formula": "Second, could you please bring me... from your hometown because...?",
+              "vocab_hints": [
+                {
+                  "en": "traditional butter cookies",
+                  "vi": "bánh quy bơ truyền thống"
+                },
+                {
+                  "en": "from your hometown",
+                  "vi": "từ quê hương của cậu"
+                }
+              ],
+              "explanation": "Nhờ vả bạn một cách lịch sự, thân mật."
+            },
+            {
+              "id": 4,
+              "part": "4. Thân thư - Ý 3: Cách đi lại trong thành phố",
+              "vi": "Cuối cùng, cậu có thể tải ứng dụng gọi xe như Grab để đặt xe ô tô hoặc xe máy vì nó hiển thị giá tiền chính xác từ trước và rất an toàn.",
+              "en": "Finally, you can download a ride-hailing app like Grab to book car or motorbike rides because it shows the exact price in advance and is very safe.",
+              "formula": "Finally, you can... to... because...",
+              "vocab_hints": [
+                {
+                  "en": "download a ride-hailing app",
+                  "vi": "tải ứng dụng gọi xe"
+                },
+                {
+                  "en": "shows the exact price in advance",
+                  "vi": "hiển thị giá chính xác từ trước"
+                }
+              ],
+              "explanation": "Hướng dẫn phương tiện di chuyển phổ biến."
+            },
+            {
+              "id": 5,
+              "part": "5. Kết thư (Closing - Thân mật)",
+              "vi": "Tớ hy vọng những lời khuyên này hữu ích. Hãy báo cho tớ ngày đến của cậu để chúng mình gặp nhau nhé. Hồi âm sớm nhé.",
+              "en": "I hope this advice is helpful. Let me know your arrival date so we can meet up. Write back soon.",
+              "formula": "I hope this advice is helpful. Let me know your arrival date so we can meet up. Write back soon.",
+              "vocab_hints": [
+                {
+                  "en": "arrival date",
+                  "vi": "ngày đến"
+                },
+                {
+                  "en": "meet up",
+                  "vi": "gặp mặt nhau"
+                }
+              ],
+              "explanation": "Kết thư hẹn gặp lại bạn."
+            }
+          ],
+          "sentence_practice_b2": [
+            {
+              "id": 1,
+              "part": "1. Mở thư (Opening - Thân mật)",
+              "vi": "Cậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Tớ rất vui khi biết cậu sắp đến thăm thành phố của tớ vào tháng tới.",
+              "en": "How are you? I hope you are doing well. I am very happy to know that you are going to visit my city next month.",
+              "formula": "How are you? I hope you are doing well. I am very happy to know that you are going to visit...",
+              "vocab_hints": [
+                {
+                  "en": "happy to know",
+                  "vi": "vui khi biết"
+                },
+                {
+                  "en": "visit my city next month",
+                  "vi": "thăm thành phố của tớ vào tháng tới"
+                }
+              ],
+              "explanation": "Mở thư thân mật chuẩn B1."
+            },
+            {
+              "id": 2,
+              "part": "2. Thân thư - Ý 1: Quán ăn ngon nên thử",
+              "vi": "Đầu tiên, cậu nên thử các quán ăn ở khu Phố Cổ và Nhà hàng Hoa Sen vì họ phục vụ các món ăn nổi tiếng như phở và nem rán với giá rẻ.",
+              "en": "First, you should try the food stalls in the Old Quarter and Lotus Restaurant because they serve famous dishes like pho and spring rolls at cheap prices.",
+              "formula": "First, you should try... because...",
+              "vocab_hints": [
+                {
+                  "en": "food stalls in the Old Quarter",
+                  "vi": "quán ăn ở Phố Cổ"
+                },
+                {
+                  "en": "famous dishes",
+                  "vi": "các món ăn nổi tiếng"
+                }
+              ],
+              "explanation": "Gợi ý món ăn ngon đơn giản."
+            },
+            {
+              "id": 3,
+              "part": "3. Thân thư - Ý 2: Nhờ mang đặc sản",
+              "vi": "Thứ hai, cậu có thể mang cho tớ một hộp bánh quy bơ truyền thống từ quê của cậu được không vì gia đình tớ thực sự rất thích hương vị của chúng khi cậu tặng chúng tớ năm ngoái?",
+              "en": "Second, could you please bring me a box of traditional butter cookies from your hometown because my family really loved their taste when you gave us some last year?",
+              "formula": "Second, could you please bring me... from your hometown because...?",
+              "vocab_hints": [
+                {
+                  "en": "traditional butter cookies",
+                  "vi": "bánh quy bơ truyền thống"
+                },
+                {
+                  "en": "from your hometown",
+                  "vi": "từ quê hương của cậu"
+                }
+              ],
+              "explanation": "Nhờ vả bạn một cách lịch sự, thân mật."
+            },
+            {
+              "id": 4,
+              "part": "4. Thân thư - Ý 3: Cách đi lại trong thành phố",
+              "vi": "Cuối cùng, cậu có thể tải ứng dụng gọi xe như Grab để đặt xe ô tô hoặc xe máy vì nó hiển thị giá tiền chính xác từ trước và rất an toàn.",
+              "en": "Finally, you can download a ride-hailing app like Grab to book car or motorbike rides because it shows the exact price in advance and is very safe.",
+              "formula": "Finally, you can... to... because...",
+              "vocab_hints": [
+                {
+                  "en": "download a ride-hailing app",
+                  "vi": "tải ứng dụng gọi xe"
+                },
+                {
+                  "en": "shows the exact price in advance",
+                  "vi": "hiển thị giá chính xác từ trước"
+                }
+              ],
+              "explanation": "Hướng dẫn phương tiện di chuyển phổ biến."
+            },
+            {
+              "id": 5,
+              "part": "5. Kết thư (Closing - Thân mật)",
+              "vi": "Tớ hy vọng những lời khuyên này hữu ích. Hãy báo cho tớ ngày đến của cậu để chúng mình gặp nhau nhé. Hồi âm sớm nhé.",
+              "en": "I hope this advice is helpful. Let me know your arrival date so we can meet up. Write back soon.",
+              "formula": "I hope this advice is helpful. Let me know your arrival date so we can meet up. Write back soon.",
+              "vocab_hints": [
+                {
+                  "en": "arrival date",
+                  "vi": "ngày đến"
+                },
+                {
+                  "en": "meet up",
+                  "vi": "gặp mặt nhau"
+                }
+              ],
+              "explanation": "Kết thư hẹn gặp lại bạn."
+            }
+          ],
+          "sample_b1": {
+            "letter_en": "Dear Sam,\n\nHow are you? I hope you are doing well. I am very happy to know that you are going to visit my city next month.\n\nFirst, you should try the food stalls in the Old Quarter and Lotus Restaurant because they serve famous dishes like pho and spring rolls at cheap prices. I will definitely take you there on your first evening.\n\nSecond, could you please bring me a box of traditional butter cookies from your hometown because my family really loved their taste when you gave us some last year? Please let me know how much it costs so I can pay you back.\n\nFinally, you can download a ride-hailing app like Grab to book car or motorbike rides because it shows the exact price in advance and is very safe. You can also take public buses for longer trips.\n\nI hope this advice is helpful. Let me know your arrival date so we can meet up. Write back soon.\n\nBest wishes,",
+            "letter_vi": "Sam thân mến,\n\nCậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Tớ rất vui khi biết cậu sắp đến thăm thành phố của tớ vào tháng tới.\n\nĐầu tiên, cậu nên thử các quán ăn ở khu Phố Cổ và Nhà hàng Hoa Sen vì họ phục vụ các món ăn nổi tiếng như phở và nem rán với giá rẻ. Chắc chắn tớ sẽ dẫn cậu đến đó vào buổi tối đầu tiên.\n\nThứ hai, cậu có thể mang cho tớ một hộp bánh quy bơ truyền thống từ quê của cậu được không vì gia đình tớ thực sự rất thích hương vị của chúng khi cậu tặng chúng tớ năm ngoái? Cậu nhớ cho tớ biết giá tiền để tớ gửi lại cậu nhé.\n\nCuối cùng, cậu có thể tải ứng dụng gọi xe như Grab để đặt xe ô tô hoặc xe máy vì nó hiển thị giá tiền chính xác từ trước và rất an toàn. Cậu cũng có thể đi xe buýt công cộng cho các chuyến đi xa hơn.\n\nTớ hy vọng những lời khuyên này hữu ích. Hãy báo cho tớ ngày đến của cậu để chúng mình gặp nhau nhé. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "text": "Dear Sam,\n\nHow are you? I hope you are doing well. I am very happy to know that you are going to visit my city next month.\n\nFirst, you should try the food stalls in the Old Quarter and Lotus Restaurant because they serve famous dishes like pho and spring rolls at cheap prices. I will definitely take you there on your first evening.\n\nSecond, could you please bring me a box of traditional butter cookies from your hometown because my family really loved their taste when you gave us some last year? Please let me know how much it costs so I can pay you back.\n\nFinally, you can download a ride-hailing app like Grab to book car or motorbike rides because it shows the exact price in advance and is very safe. You can also take public buses for longer trips.\n\nI hope this advice is helpful. Let me know your arrival date so we can meet up. Write back soon.\n\nBest wishes,",
+            "translation": "Sam thân mến,\n\nCậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Tớ rất vui khi biết cậu sắp đến thăm thành phố của tớ vào tháng tới.\n\nĐầu tiên, cậu nên thử các quán ăn ở khu Phố Cổ và Nhà hàng Hoa Sen vì họ phục vụ các món ăn nổi tiếng như phở và nem rán với giá rẻ. Chắc chắn tớ sẽ dẫn cậu đến đó vào buổi tối đầu tiên.\n\nThứ hai, cậu có thể mang cho tớ một hộp bánh quy bơ truyền thống từ quê của cậu được không vì gia đình tớ thực sự rất thích hương vị của chúng khi cậu tặng chúng tớ năm ngoái? Cậu nhớ cho tớ biết giá tiền để tớ gửi lại cậu nhé.\n\nCuối cùng, cậu có thể tải ứng dụng gọi xe như Grab để đặt xe ô tô hoặc xe máy vì nó hiển thị giá tiền chính xác từ trước và rất an toàn. Cậu cũng có thể đi xe buýt công cộng cho các chuyến đi xa hơn.\n\nTớ hy vọng những lời khuyên này hữu ích. Hãy báo cho tớ ngày đến của cậu để chúng mình gặp nhau nhé. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "word_count": 165,
+            "key_structures": []
+          },
+          "sample_b2": {
+            "letter_en": "Dear Sam,\n\nHow are you? I hope you are doing well. I am very happy to know that you are going to visit my city next month.\n\nFirst, you should try the food stalls in the Old Quarter and Lotus Restaurant because they serve famous dishes like pho and spring rolls at cheap prices. I will definitely take you there on your first evening.\n\nSecond, could you please bring me a box of traditional butter cookies from your hometown because my family really loved their taste when you gave us some last year? Please let me know how much it costs so I can pay you back.\n\nFinally, you can download a ride-hailing app like Grab to book car or motorbike rides because it shows the exact price in advance and is very safe. You can also take public buses for longer trips.\n\nI hope this advice is helpful. Let me know your arrival date so we can meet up. Write back soon.\n\nBest wishes,",
+            "letter_vi": "Sam thân mến,\n\nCậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Tớ rất vui khi biết cậu sắp đến thăm thành phố của tớ vào tháng tới.\n\nĐầu tiên, cậu nên thử các quán ăn ở khu Phố Cổ và Nhà hàng Hoa Sen vì họ phục vụ các món ăn nổi tiếng như phở và nem rán với giá rẻ. Chắc chắn tớ sẽ dẫn cậu đến đó vào buổi tối đầu tiên.\n\nThứ hai, cậu có thể mang cho tớ một hộp bánh quy bơ truyền thống từ quê của cậu được không vì gia đình tớ thực sự rất thích hương vị của chúng khi cậu tặng chúng tớ năm ngoái? Cậu nhớ cho tớ biết giá tiền để tớ gửi lại cậu nhé.\n\nCuối cùng, cậu có thể tải ứng dụng gọi xe như Grab để đặt xe ô tô hoặc xe máy vì nó hiển thị giá tiền chính xác từ trước và rất an toàn. Cậu cũng có thể đi xe buýt công cộng cho các chuyến đi xa hơn.\n\nTớ hy vọng những lời khuyên này hữu ích. Hãy báo cho tớ ngày đến của cậu để chúng mình gặp nhau nhé. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "text": "Dear Sam,\n\nHow are you? I hope you are doing well. I am very happy to know that you are going to visit my city next month.\n\nFirst, you should try the food stalls in the Old Quarter and Lotus Restaurant because they serve famous dishes like pho and spring rolls at cheap prices. I will definitely take you there on your first evening.\n\nSecond, could you please bring me a box of traditional butter cookies from your hometown because my family really loved their taste when you gave us some last year? Please let me know how much it costs so I can pay you back.\n\nFinally, you can download a ride-hailing app like Grab to book car or motorbike rides because it shows the exact price in advance and is very safe. You can also take public buses for longer trips.\n\nI hope this advice is helpful. Let me know your arrival date so we can meet up. Write back soon.\n\nBest wishes,",
+            "translation": "Sam thân mến,\n\nCậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Tớ rất vui khi biết cậu sắp đến thăm thành phố của tớ vào tháng tới.\n\nĐầu tiên, cậu nên thử các quán ăn ở khu Phố Cổ và Nhà hàng Hoa Sen vì họ phục vụ các món ăn nổi tiếng như phở và nem rán với giá rẻ. Chắc chắn tớ sẽ dẫn cậu đến đó vào buổi tối đầu tiên.\n\nThứ hai, cậu có thể mang cho tớ một hộp bánh quy bơ truyền thống từ quê của cậu được không vì gia đình tớ thực sự rất thích hương vị của chúng khi cậu tặng chúng tớ năm ngoái? Cậu nhớ cho tớ biết giá tiền để tớ gửi lại cậu nhé.\n\nCuối cùng, cậu có thể tải ứng dụng gọi xe như Grab để đặt xe ô tô hoặc xe máy vì nó hiển thị giá tiền chính xác từ trước và rất an toàn. Cậu cũng có thể đi xe buýt công cộng cho các chuyến đi xa hơn.\n\nTớ hy vọng những lời khuyên này hữu ích. Hãy báo cho tớ ngày đến của cậu để chúng mình gặp nhau nhé. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "word_count": 165,
+            "key_structures": []
+          }
+        }
+      },
+      {
+        "id": "de-51",
+        "title_en": "Suggestions to Alex on places to visit, dishes to try, and festivals",
+        "title_vi": "Đề 15: Gợi ý địa điểm tham quan, món ăn và lễ hội cho Alex lần đầu đến thành phố",
+        "recipient_type": "Informal (Bạn bè - Alex)",
+        "target_words": 120,
+        "tags": [
+          "Điểm tham quan",
+          "Món ăn",
+          "Lễ hội",
+          "Du lịch",
+          "Chuẩn B1"
+        ],
+        "context": "Your friend Alex is going to visit your city for the first time and has written to ask you for some suggestions. Write an email to Alex.",
+        "prompt": "Your friend Alex is going to visit your city for the first time and has written to ask you for some suggestions. Write an email to Alex.\n\nIn your email you should say:\n1. Which places Alex must visit\n2. Which dishes Alex must try\n3. What events or festivals will take place during the trip\n\nWrite at least 120 words. You do not need to include your name or addresses. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt_vi": "Bạn Alex sắp đến thăm thành phố của bạn lần đầu tiên và đã viết thư xin vài gợi ý. Hãy viết email gửi cho Alex.\n\nTrong email, bạn nên nêu rõ:\n1. Những địa điểm nào Alex nhất định phải ghé thăm (Which places Alex must visit)\n2. Những món ăn nào Alex nhất định phải thử (Which dishes Alex must try)\n3. Sự kiện hoặc lễ hội nào sẽ diễn ra trong chuyến đi (What events or festivals will take place during the trip)",
+        "has_full_details": true,
+        "details": {
+          "analysis": {
+            "recipient": "Alex (Bạn bè lần đầu đến thăm thành phố của bạn)",
+            "letter_type": "Informal (Thư thân mật)",
+            "purpose": "Gợi ý các điểm tham quan nổi tiếng, món ăn ngon nhất định phải thử và lễ hội đặc sắc diễn ra trong dịp bạn đến",
+            "key_requirements": [
+              "1. Which places Alex must visit",
+              "2. Which dishes Alex must try",
+              "3. What events or festivals will take place during the trip"
+            ]
+          },
+          "task_extractions": [
+            {
+              "id": 1,
+              "icon": "fa-landmark",
+              "prompt_requirement": "Which places Alex must visit",
+              "task_title": "1. Địa điểm nhất định phải thăm (Must-visit places)",
+              "task_goal": "Gợi ý Hồ Hoàn Kiếm, khu Phố Cổ và Văn Miếu Quốc Tử Giám để khám phá lịch sử và chụp ảnh."
+            },
+            {
+              "id": 2,
+              "icon": "fa-bowl-food",
+              "prompt_requirement": "Which dishes Alex must try",
+              "task_title": "2. Món ăn nhất định phải thử (Must-try dishes)",
+              "task_goal": "Gợi ý phở bò nóng hổi, bún chả nướng và bánh mì giòn thơm."
+            },
+            {
+              "id": 3,
+              "icon": "fa-wand-magic-sparkles",
+              "prompt_requirement": "What events or festivals will take place during the trip",
+              "task_title": "3. Sự kiện hoặc lễ hội (Events or festivals)",
+              "task_goal": "Giới thiệu Lễ hội Ẩm thực & Âm nhạc Đường phố diễn ra vào cuối tuần tại quảng trường trung tâm."
+            }
+          ],
+          "suggested_ideas": [
+            {
+              "id": 1,
+              "title_en": "1. Places Alex must visit",
+              "title_vi": "Những địa điểm nhất định phải thăm",
+              "icon": "fa-landmark",
+              "options": [
+                {
+                  "action_en": "you must visit iconic places such as Hoan Kiem Lake, the Old Quarter, and the Temple of Literature",
+                  "action_vi": "cậu nhất định phải ghé thăm các địa danh nổi tiếng như Hồ Hoàn Kiếm, Phố Cổ và Văn Miếu Quốc Tử Giám",
+                  "reason_en": "because they show the beautiful history and culture of my city.",
+                  "reason_vi": "vì chúng thể hiện lịch sử và văn hóa tươi đẹp của thành phố tớ.",
+                  "b1_sentence": "First, you must visit iconic places such as Hoan Kiem Lake, the Old Quarter, and the Temple of Literature because they show the beautiful history and culture of my city.",
+                  "b1_sentence_vi": "Đầu tiên, cậu nhất định phải ghé thăm các địa danh nổi tiếng như Hồ Hoàn Kiếm, Phố Cổ và Văn Miếu Quốc Tử Giám vì chúng thể hiện lịch sử và văn hóa tươi đẹp của thành phố tớ."
+                },
+                {
+                  "action_en": "you should definitely explore the history museum and the central botanical garden",
+                  "action_vi": "cậu chắc chắn nên khám phá bảo tàng lịch sử và vườn bách thảo trung tâm",
+                  "reason_en": "because they have peaceful gardens and interesting exhibitions.",
+                  "reason_vi": "vì những nơi này có những khu vườn yên bình và các triển lãm thú vị.",
+                  "b1_sentence": "First, you should definitely explore the history museum and the central botanical garden because they have peaceful gardens and interesting exhibitions.",
+                  "b1_sentence_vi": "Đầu tiên, cậu chắc chắn nên khám phá bảo tàng lịch sử và vườn bách thảo trung tâm vì những nơi này có những khu vườn yên bình và các triển lãm thú vị."
+                },
+                {
+                  "action_en": "you must walk around the riverside park and cross the ancient bridge",
+                  "action_vi": "cậu nhất định phải đi dạo quanh công viên ven sông và đi qua cây cầu cổ",
+                  "reason_en": "because the view there is fantastic for taking souvenir photos.",
+                  "reason_vi": "vì khung cảnh ở đó rất tuyệt để chụp ảnh lưu niệm.",
+                  "b1_sentence": "First, you must walk around the riverside park and cross the ancient bridge because the view there is fantastic for taking souvenir photos.",
+                  "b1_sentence_vi": "Đầu tiên, cậu nhất định phải đi dạo quanh công viên ven sông và đi qua cây cầu cổ vì khung cảnh ở đó rất tuyệt để chụp ảnh lưu niệm."
+                },
+                {
+                  "action_en": "you should spend your morning at the big public market in the center",
+                  "action_vi": "cậu nên dành buổi sáng tại khu chợ lớn ở trung tâm",
+                  "reason_en": "because you can see how local people buy and sell everyday goods.",
+                  "reason_vi": "vì cậu có thể nhìn thấy cảnh người dân địa phương mua bán hàng hóa mỗi ngày.",
+                  "b1_sentence": "First, you should spend your morning at the big public market in the center because you can see how local people buy and sell everyday goods.",
+                  "b1_sentence_vi": "Đầu tiên, cậu nên dành buổi sáng tại khu chợ lớn ở trung tâm vì cậu có thể nhìn thấy cảnh người dân địa phương mua bán hàng hóa mỗi ngày."
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "title_en": "2. Dishes Alex must try",
+              "title_vi": "Những món ăn nhất định phải thử",
+              "icon": "fa-bowl-food",
+              "options": [
+                {
+                  "action_en": "you must try our famous dishes like beef pho, bun cha, and crispy banh mi",
+                  "action_vi": "cậu nhất định phải thử các món nổi tiếng của chúng tớ như phở bò, bún chả và bánh mì giòn",
+                  "reason_en": "because they are delicious, fresh, and very popular with tourists.",
+                  "reason_vi": "vì chúng rất ngon, tươi và rất được du khách yêu thích.",
+                  "b1_sentence": "Second, you must try our famous dishes like beef pho, bun cha, and crispy banh mi because they are delicious, fresh, and very popular with tourists.",
+                  "b1_sentence_vi": "Thứ hai, cậu nhất định phải thử các món nổi tiếng của chúng tớ như phở bò, bún chả và bánh mì giòn vì chúng rất ngon, tươi và rất được du khách yêu thích."
+                },
+                {
+                  "action_en": "you should definitely taste spring rolls and hot egg coffee",
+                  "action_vi": "cậu chắc chắn nên nếm thử nem cuốn và cà phê trứng nóng",
+                  "reason_en": "because you cannot find this unique taste anywhere else.",
+                  "reason_vi": "vì cậu không thể tìm thấy hương vị độc đáo này ở bất kỳ nơi nào khác.",
+                  "b1_sentence": "Second, you should definitely taste spring rolls and hot egg coffee because you cannot find this unique taste anywhere else.",
+                  "b1_sentence_vi": "Thứ hai, cậu chắc chắn nên nếm thử nem cuốn và cà phê trứng nóng vì cậu không thể tìm thấy hương vị độc đáo này ở bất kỳ nơi nào khác."
+                },
+                {
+                  "action_en": "I recommend eating seafood pancakes and coconut ice cream at the night market",
+                  "action_vi": "tớ khuyên cậu nên ăn bánh xèo hải sản và kem dừa ở chợ đêm",
+                  "reason_en": "because they are freshly prepared and very cheap.",
+                  "reason_vi": "vì chúng được làm nóng hổi và rất rẻ.",
+                  "b1_sentence": "Second, I recommend eating seafood pancakes and coconut ice cream at the night market because they are freshly prepared and very cheap.",
+                  "b1_sentence_vi": "Thứ hai, tớ khuyên cậu nên ăn bánh xèo hải sản và kem dừa ở chợ đêm vì chúng được làm nóng hổi và rất rẻ."
+                },
+                {
+                  "action_en": "you should try chicken noodle soup and grilled corn on the street",
+                  "action_vi": "cậu nên thử món phở gà và ngô nướng trên đường phố",
+                  "reason_en": "because street food here is very tasty and safe.",
+                  "reason_vi": "vì ẩm thực đường phố ở đây rất ngon và an toàn.",
+                  "b1_sentence": "Second, you should try chicken noodle soup and grilled corn on the street because street food here is very tasty and safe.",
+                  "b1_sentence_vi": "Thứ hai, cậu nên thử món phở gà và ngô nướng trên đường phố vì ẩm thực đường phố ở đây rất ngon và an toàn."
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "title_en": "3. Events or festivals during the trip",
+              "title_vi": "Sự kiện hoặc lễ hội diễn ra",
+              "icon": "fa-wand-magic-sparkles",
+              "options": [
+                {
+                  "action_en": "the annual Food and Music Festival will take place at the Central Square during your visit",
+                  "action_vi": "Lễ hội Ẩm thực và Âm nhạc thường niên sẽ diễn ra tại Quảng trường Trung tâm trong chuyến đi của cậu",
+                  "reason_en": "because there will be live performances, folk games, and free entrance every evening.",
+                  "reason_vi": "vì ở đó sẽ có các màn biểu diễn trực tiếp, trò chơi dân gian và miễn phí vé vào cửa mỗi tối.",
+                  "b1_sentence": "Finally, the annual Food and Music Festival will take place at the Central Square during your visit because there will be live performances, folk games, and free entrance every evening.",
+                  "b1_sentence_vi": "Cuối cùng, Lễ hội Ẩm thực và Âm nhạc thường niên sẽ diễn ra tại Quảng trường Trung tâm trong chuyến đi của cậu vì ở đó sẽ có các màn biểu diễn trực tiếp, trò chơi dân gian và miễn phí vé vào cửa mỗi tối."
+                },
+                {
+                  "action_en": "there is a colorful Lantern Festival held along the pedestrian street next week",
+                  "action_vi": "có một Lễ hội Đèn lồng rực rỡ được tổ chức dọc theo phố đi bộ vào tuần tới",
+                  "reason_en": "because hundreds of glowing lanterns will light up the whole street.",
+                  "reason_vi": "vì hàng trăm chiếc đèn lồng lung linh sẽ thắp sáng toàn bộ con phố.",
+                  "b1_sentence": "Finally, there is a colorful Lantern Festival held along the pedestrian street next week because hundreds of glowing lanterns will light up the whole street.",
+                  "b1_sentence_vi": "Cuối cùng, có một Lễ hội Đèn lồng rực rỡ được tổ chức dọc theo phố đi bộ vào tuần tới vì hàng trăm chiếc đèn lồng lung linh sẽ thắp sáng toàn bộ con phố."
+                },
+                {
+                  "action_en": "you can watch a fireworks and light show by the river on Saturday night",
+                  "action_vi": "cậu có thể xem màn bắn pháo hoa và trình diễn ánh sáng bên bờ sông vào tối thứ Bảy",
+                  "reason_en": "because the city organizes it to celebrate the summer holiday.",
+                  "reason_vi": "vì thành phố tổ chức sự kiện này để chào mừng kỳ nghỉ hè.",
+                  "b1_sentence": "Finally, you can watch a fireworks and light show by the river on Saturday night because the city organizes it to celebrate the summer holiday.",
+                  "b1_sentence_vi": "Cuối cùng, cậu có thể xem màn bắn pháo hoa và trình diễn ánh sáng bên bờ sông vào tối thứ Bảy vì thành phố tổ chức sự kiện này để chào mừng kỳ nghỉ hè."
+                },
+                {
+                  "action_en": "there will be an outdoor craft fair where local artisans sell handmade gifts",
+                  "action_vi": "sẽ có một hội chợ thủ công ngoài trời nơi các nghệ nhân địa phương bán đồ lưu niệm tự làm",
+                  "reason_en": "because you can buy great souvenirs for your family and friends.",
+                  "reason_vi": "vì cậu có thể mua những món quà lưu niệm tuyệt vời cho gia đình và bạn bè.",
+                  "b1_sentence": "Finally, there will be an outdoor craft fair where local artisans sell handmade gifts because you can buy great souvenirs for your family and friends.",
+                  "b1_sentence_vi": "Cuối cùng, sẽ có một hội chợ thủ công ngoài trời nơi các nghệ nhân địa phương bán đồ lưu niệm tự làm vì cậu có thể mua những món quà lưu niệm tuyệt vời cho gia đình và bạn bè."
+                }
+              ]
+            }
+          ],
+          "vocab": [
+            {
+              "en": "places to visit",
+              "vi": "địa điểm tham quan",
+              "category": "1. Địa điểm"
+            },
+            {
+              "en": "Old Quarter",
+              "vi": "khu Phố Cổ",
+              "category": "1. Địa điểm"
+            },
+            {
+              "en": "Temple of Literature",
+              "vi": "Văn Miếu Quốc Tử Giám",
+              "category": "1. Địa điểm"
+            },
+            {
+              "en": "dishes to try",
+              "vi": "món ăn nên thử",
+              "category": "2. Món ăn"
+            },
+            {
+              "en": "crispy banh mi",
+              "vi": "bánh mì giòn",
+              "category": "2. Món ăn"
+            },
+            {
+              "en": "egg coffee",
+              "vi": "cà phê trứng",
+              "category": "2. Món ăn"
+            },
+            {
+              "en": "Food and Music Festival",
+              "vi": "Lễ hội Ẩm thực và Âm nhạc",
+              "category": "3. Lễ hội"
+            },
+            {
+              "en": "take place",
+              "vi": "diễn ra",
+              "category": "3. Lễ hội"
+            },
+            {
+              "en": "Central Square",
+              "vi": "Quảng trường Trung tâm",
+              "category": "3. Lễ hội"
+            }
+          ],
+          "sentence_practice_b1": [
+            {
+              "id": 1,
+              "part": "1. Mở thư (Opening - Thân mật)",
+              "vi": "Cậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Tớ rất vui khi biết cậu sắp đến thăm thành phố của tớ lần đầu tiên.",
+              "en": "How are you? I hope you are doing well. I am so glad to know that you are going to visit my city for the first time.",
+              "formula": "How are you? I hope you are doing well. I am so glad to know that you are going to visit... for the first time.",
+              "vocab_hints": [
+                {
+                  "en": "visit my city for the first time",
+                  "vi": "thăm thành phố của tớ lần đầu"
+                }
+              ],
+              "explanation": "Mở thư chào đón bạn lần đầu đến thăm."
+            },
+            {
+              "id": 2,
+              "part": "2. Thân thư - Ý 1: Địa điểm nhất định phải thăm",
+              "vi": "Đầu tiên, cậu nhất định phải ghé thăm các địa danh nổi tiếng như Hồ Hoàn Kiếm, Phố Cổ và Văn Miếu Quốc Tử Giám vì chúng thể hiện lịch sử và văn hóa tươi đẹp của thành phố tớ.",
+              "en": "First, you must visit iconic places such as Hoan Kiem Lake, the Old Quarter, and the Temple of Literature because they show the beautiful history and culture of my city.",
+              "formula": "First, you must visit... because...",
+              "vocab_hints": [
+                {
+                  "en": "must visit",
+                  "vi": "nhất định phải thăm"
+                },
+                {
+                  "en": "history and culture",
+                  "vi": "lịch sử và văn hóa"
+                }
+              ],
+              "explanation": "Gợi ý các địa danh tiêu biểu."
+            },
+            {
+              "id": 3,
+              "part": "3. Thân thư - Ý 2: Món ăn nhất định phải thử",
+              "vi": "Thứ hai, cậu nhất định phải thử các món nổi tiếng của chúng tớ như phở bò, bún chả và bánh mì giòn vì chúng rất ngon, tươi và rất được du khách yêu thích.",
+              "en": "Second, you must try our famous dishes like beef pho, bun cha, and crispy banh mi because they are delicious, fresh, and very popular with tourists.",
+              "formula": "Second, you must try... because...",
+              "vocab_hints": [
+                {
+                  "en": "famous dishes",
+                  "vi": "các món ăn nổi tiếng"
+                },
+                {
+                  "en": "popular with tourists",
+                  "vi": "được du khách yêu thích"
+                }
+              ],
+              "explanation": "Liệt kê các món ăn đặc sản B1."
+            },
+            {
+              "id": 4,
+              "part": "4. Thân thư - Ý 3: Lễ hội hoặc sự kiện",
+              "vi": "Cuối cùng, Lễ hội Ẩm thực và Âm nhạc thường niên sẽ diễn ra tại Quảng trường Trung tâm trong chuyến đi của cậu vì ở đó sẽ có các màn biểu diễn trực tiếp, trò chơi dân gian và miễn phí vé vào cửa mỗi tối.",
+              "en": "Finally, the annual Food and Music Festival will take place at the Central Square during your visit because there will be live performances, folk games, and free entrance every evening.",
+              "formula": "Finally, the annual... will take place at... because...",
+              "vocab_hints": [
+                {
+                  "en": "annual Food and Music Festival",
+                  "vi": "Lễ hội Ẩm thực và Âm nhạc thường niên"
+                },
+                {
+                  "en": "live performances",
+                  "vi": "các màn biểu diễn trực tiếp"
+                }
+              ],
+              "explanation": "Giới thiệu lễ hội hấp dẫn."
+            },
+            {
+              "id": 5,
+              "part": "5. Kết thư (Closing - Thân mật)",
+              "vi": "Tớ hy vọng những gợi ý này hữu ích. Hãy báo cho tớ khi cậu đến nơi để tớ dẫn cậu đi tham quan nhé. Hồi âm sớm nhé.",
+              "en": "I hope these suggestions are helpful. Let me know when you arrive so I can show you around. Write back soon.",
+              "formula": "I hope these suggestions are helpful. Let me know when you arrive so I can show you around. Write back soon.",
+              "vocab_hints": [
+                {
+                  "en": "show you around",
+                  "vi": "dẫn cậu đi tham quan quanh thành phố"
+                },
+                {
+                  "en": "write back soon",
+                  "vi": "hồi âm sớm nhé"
+                }
+              ],
+              "explanation": "Kết thư thân mật chuẩn B1."
+            }
+          ],
+          "sentence_practice_b2": [
+            {
+              "id": 1,
+              "part": "1. Mở thư (Opening - Thân mật)",
+              "vi": "Cậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Tớ rất vui khi biết cậu sắp đến thăm thành phố của tớ lần đầu tiên.",
+              "en": "How are you? I hope you are doing well. I am so glad to know that you are going to visit my city for the first time.",
+              "formula": "How are you? I hope you are doing well. I am so glad to know that you are going to visit... for the first time.",
+              "vocab_hints": [
+                {
+                  "en": "visit my city for the first time",
+                  "vi": "thăm thành phố của tớ lần đầu"
+                }
+              ],
+              "explanation": "Mở thư chào đón bạn lần đầu đến thăm."
+            },
+            {
+              "id": 2,
+              "part": "2. Thân thư - Ý 1: Địa điểm nhất định phải thăm",
+              "vi": "Đầu tiên, cậu nhất định phải ghé thăm các địa danh nổi tiếng như Hồ Hoàn Kiếm, Phố Cổ và Văn Miếu Quốc Tử Giám vì chúng thể hiện lịch sử và văn hóa tươi đẹp của thành phố tớ.",
+              "en": "First, you must visit iconic places such as Hoan Kiem Lake, the Old Quarter, and the Temple of Literature because they show the beautiful history and culture of my city.",
+              "formula": "First, you must visit... because...",
+              "vocab_hints": [
+                {
+                  "en": "must visit",
+                  "vi": "nhất định phải thăm"
+                },
+                {
+                  "en": "history and culture",
+                  "vi": "lịch sử và văn hóa"
+                }
+              ],
+              "explanation": "Gợi ý các địa danh tiêu biểu."
+            },
+            {
+              "id": 3,
+              "part": "3. Thân thư - Ý 2: Món ăn nhất định phải thử",
+              "vi": "Thứ hai, cậu nhất định phải thử các món nổi tiếng của chúng tớ như phở bò, bún chả và bánh mì giòn vì chúng rất ngon, tươi và rất được du khách yêu thích.",
+              "en": "Second, you must try our famous dishes like beef pho, bun cha, and crispy banh mi because they are delicious, fresh, and very popular with tourists.",
+              "formula": "Second, you must try... because...",
+              "vocab_hints": [
+                {
+                  "en": "famous dishes",
+                  "vi": "các món ăn nổi tiếng"
+                },
+                {
+                  "en": "popular with tourists",
+                  "vi": "được du khách yêu thích"
+                }
+              ],
+              "explanation": "Liệt kê các món ăn đặc sản B1."
+            },
+            {
+              "id": 4,
+              "part": "4. Thân thư - Ý 3: Lễ hội hoặc sự kiện",
+              "vi": "Cuối cùng, Lễ hội Ẩm thực và Âm nhạc thường niên sẽ diễn ra tại Quảng trường Trung tâm trong chuyến đi của cậu vì ở đó sẽ có các màn biểu diễn trực tiếp, trò chơi dân gian và miễn phí vé vào cửa mỗi tối.",
+              "en": "Finally, the annual Food and Music Festival will take place at the Central Square during your visit because there will be live performances, folk games, and free entrance every evening.",
+              "formula": "Finally, the annual... will take place at... because...",
+              "vocab_hints": [
+                {
+                  "en": "annual Food and Music Festival",
+                  "vi": "Lễ hội Ẩm thực và Âm nhạc thường niên"
+                },
+                {
+                  "en": "live performances",
+                  "vi": "các màn biểu diễn trực tiếp"
+                }
+              ],
+              "explanation": "Giới thiệu lễ hội hấp dẫn."
+            },
+            {
+              "id": 5,
+              "part": "5. Kết thư (Closing - Thân mật)",
+              "vi": "Tớ hy vọng những gợi ý này hữu ích. Hãy báo cho tớ khi cậu đến nơi để tớ dẫn cậu đi tham quan nhé. Hồi âm sớm nhé.",
+              "en": "I hope these suggestions are helpful. Let me know when you arrive so I can show you around. Write back soon.",
+              "formula": "I hope these suggestions are helpful. Let me know when you arrive so I can show you around. Write back soon.",
+              "vocab_hints": [
+                {
+                  "en": "show you around",
+                  "vi": "dẫn cậu đi tham quan quanh thành phố"
+                },
+                {
+                  "en": "write back soon",
+                  "vi": "hồi âm sớm nhé"
+                }
+              ],
+              "explanation": "Kết thư thân mật chuẩn B1."
+            }
+          ],
+          "sample_b1": {
+            "letter_en": "Dear Alex,\n\nHow are you? I hope you are doing well. I am so glad to know that you are going to visit my city for the first time.\n\nFirst, you must visit iconic places such as Hoan Kiem Lake, the Old Quarter, and the Temple of Literature because they show the beautiful history and culture of my city. Walking around the lake in the morning is very peaceful.\n\nSecond, you must try our famous dishes like beef pho, bun cha, and crispy banh mi because they are delicious, fresh, and very popular with tourists. You should also taste traditional egg coffee.\n\nFinally, the annual Food and Music Festival will take place at the Central Square during your visit because there will be live performances, folk games, and free entrance every evening.\n\nI hope these suggestions are helpful. Let me know when you arrive so I can show you around. Write back soon.\n\nBest wishes,",
+            "letter_vi": "Alex thân mến,\n\nCậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Tớ rất vui khi biết cậu sắp đến thăm thành phố của tớ lần đầu tiên.\n\nĐầu tiên, cậu nhất định phải ghé thăm các địa danh nổi tiếng như Hồ Hoàn Kiếm, Phố Cổ và Văn Miếu Quốc Tử Giám vì chúng thể hiện lịch sử và văn hóa tươi đẹp của thành phố tớ. Đi dạo quanh hồ vào buổi sáng rất thanh bình.\n\nThứ hai, cậu nhất định phải thử các món nổi tiếng của chúng tớ như phở bò, bún chả và bánh mì giòn vì chúng rất ngon, tươi và rất được du khách yêu thích. Cậu cũng nên nếm thử món cà phê trứng truyền thống.\n\nCuối cùng, Lễ hội Ẩm thực và Âm nhạc thường niên sẽ diễn ra tại Quảng trường Trung tâm trong chuyến đi của cậu vì ở đó sẽ có các màn biểu diễn trực tiếp, trò chơi dân gian và miễn phí vé vào cửa mỗi tối.\n\nTớ hy vọng những gợi ý này hữu ích. Hãy báo cho tớ khi cậu đến nơi để tớ dẫn cậu đi tham quan nhé. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "text": "Dear Alex,\n\nHow are you? I hope you are doing well. I am so glad to know that you are going to visit my city for the first time.\n\nFirst, you must visit iconic places such as Hoan Kiem Lake, the Old Quarter, and the Temple of Literature because they show the beautiful history and culture of my city. Walking around the lake in the morning is very peaceful.\n\nSecond, you must try our famous dishes like beef pho, bun cha, and crispy banh mi because they are delicious, fresh, and very popular with tourists. You should also taste traditional egg coffee.\n\nFinally, the annual Food and Music Festival will take place at the Central Square during your visit because there will be live performances, folk games, and free entrance every evening.\n\nI hope these suggestions are helpful. Let me know when you arrive so I can show you around. Write back soon.\n\nBest wishes,",
+            "translation": "Alex thân mến,\n\nCậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Tớ rất vui khi biết cậu sắp đến thăm thành phố của tớ lần đầu tiên.\n\nĐầu tiên, cậu nhất định phải ghé thăm các địa danh nổi tiếng như Hồ Hoàn Kiếm, Phố Cổ và Văn Miếu Quốc Tử Giám vì chúng thể hiện lịch sử và văn hóa tươi đẹp của thành phố tớ. Đi dạo quanh hồ vào buổi sáng rất thanh bình.\n\nThứ hai, cậu nhất định phải thử các món nổi tiếng của chúng tớ như phở bò, bún chả và bánh mì giòn vì chúng rất ngon, tươi và rất được du khách yêu thích. Cậu cũng nên nếm thử món cà phê trứng truyền thống.\n\nCuối cùng, Lễ hội Ẩm thực và Âm nhạc thường niên sẽ diễn ra tại Quảng trường Trung tâm trong chuyến đi của cậu vì ở đó sẽ có các màn biểu diễn trực tiếp, trò chơi dân gian và miễn phí vé vào cửa mỗi tối.\n\nTớ hy vọng những gợi ý này hữu ích. Hãy báo cho tớ khi cậu đến nơi để tớ dẫn cậu đi tham quan nhé. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "word_count": 155,
+            "key_structures": []
+          },
+          "sample_b2": {
+            "letter_en": "Dear Alex,\n\nHow are you? I hope you are doing well. I am so glad to know that you are going to visit my city for the first time.\n\nFirst, you must visit iconic places such as Hoan Kiem Lake, the Old Quarter, and the Temple of Literature because they show the beautiful history and culture of my city. Walking around the lake in the morning is very peaceful.\n\nSecond, you must try our famous dishes like beef pho, bun cha, and crispy banh mi because they are delicious, fresh, and very popular with tourists. You should also taste traditional egg coffee.\n\nFinally, the annual Food and Music Festival will take place at the Central Square during your visit because there will be live performances, folk games, and free entrance every evening.\n\nI hope these suggestions are helpful. Let me know when you arrive so I can show you around. Write back soon.\n\nBest wishes,",
+            "letter_vi": "Alex thân mến,\n\nCậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Tớ rất vui khi biết cậu sắp đến thăm thành phố của tớ lần đầu tiên.\n\nĐầu tiên, cậu nhất định phải ghé thăm các địa danh nổi tiếng như Hồ Hoàn Kiếm, Phố Cổ và Văn Miếu Quốc Tử Giám vì chúng thể hiện lịch sử và văn hóa tươi đẹp của thành phố tớ. Đi dạo quanh hồ vào buổi sáng rất thanh bình.\n\nThứ hai, cậu nhất định phải thử các món nổi tiếng của chúng tớ như phở bò, bún chả và bánh mì giòn vì chúng rất ngon, tươi và rất được du khách yêu thích. Cậu cũng nên nếm thử món cà phê trứng truyền thống.\n\nCuối cùng, Lễ hội Ẩm thực và Âm nhạc thường niên sẽ diễn ra tại Quảng trường Trung tâm trong chuyến đi của cậu vì ở đó sẽ có các màn biểu diễn trực tiếp, trò chơi dân gian và miễn phí vé vào cửa mỗi tối.\n\nTớ hy vọng những gợi ý này hữu ích. Hãy báo cho tớ khi cậu đến nơi để tớ dẫn cậu đi tham quan nhé. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "text": "Dear Alex,\n\nHow are you? I hope you are doing well. I am so glad to know that you are going to visit my city for the first time.\n\nFirst, you must visit iconic places such as Hoan Kiem Lake, the Old Quarter, and the Temple of Literature because they show the beautiful history and culture of my city. Walking around the lake in the morning is very peaceful.\n\nSecond, you must try our famous dishes like beef pho, bun cha, and crispy banh mi because they are delicious, fresh, and very popular with tourists. You should also taste traditional egg coffee.\n\nFinally, the annual Food and Music Festival will take place at the Central Square during your visit because there will be live performances, folk games, and free entrance every evening.\n\nI hope these suggestions are helpful. Let me know when you arrive so I can show you around. Write back soon.\n\nBest wishes,",
+            "translation": "Alex thân mến,\n\nCậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Tớ rất vui khi biết cậu sắp đến thăm thành phố của tớ lần đầu tiên.\n\nĐầu tiên, cậu nhất định phải ghé thăm các địa danh nổi tiếng như Hồ Hoàn Kiếm, Phố Cổ và Văn Miếu Quốc Tử Giám vì chúng thể hiện lịch sử và văn hóa tươi đẹp của thành phố tớ. Đi dạo quanh hồ vào buổi sáng rất thanh bình.\n\nThứ hai, cậu nhất định phải thử các món nổi tiếng của chúng tớ như phở bò, bún chả và bánh mì giòn vì chúng rất ngon, tươi và rất được du khách yêu thích. Cậu cũng nên nếm thử món cà phê trứng truyền thống.\n\nCuối cùng, Lễ hội Ẩm thực và Âm nhạc thường niên sẽ diễn ra tại Quảng trường Trung tâm trong chuyến đi của cậu vì ở đó sẽ có các màn biểu diễn trực tiếp, trò chơi dân gian và miễn phí vé vào cửa mỗi tối.\n\nTớ hy vọng những gợi ý này hữu ích. Hãy báo cho tớ khi cậu đến nơi để tớ dẫn cậu đi tham quan nhé. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "word_count": 155,
+            "key_structures": []
+          }
+        }
+      },
+      {
+        "id": "de-54",
+        "title_en": "Advice to Korean friend on winter clothes, indoor activities, and gifts for parents",
+        "title_vi": "Đề 16: Tư vấn cho bạn Hàn Quốc về quần áo mùa đông, hoạt động trong nhà và quà biếu bố mẹ",
+        "recipient_type": "Informal (Bạn Hàn Quốc - Korean Friend)",
+        "target_words": 120,
+        "tags": [
+          "Nghỉ đông",
+          "Bạn Hàn Quốc",
+          "Trang phục",
+          "Hoạt động",
+          "Quà tặng",
+          "Chuẩn B1"
+        ],
+        "context": "You have received an email from your Korean friend, who is going to visit you during the winter holiday. Write an email in reply to your friend.",
+        "prompt": "You have received an email from your Korean friend, who is going to visit you during the winter holiday. Read part of the email below.\n\n\"I'm so excited to visit you this winter! I have a few questions to help me prepare. What kind of clothes should I bring for the weather there? What indoor activities can we do together while I'm staying with you? I'd also like to give your parents a small gift — what do you think I should buy for them?\"\n\nWrite an email of at least 120 words in reply to your friend. You do not need to include your name or addresses. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt_vi": "Bạn nhận được email từ người bạn Hàn Quốc sắp sang thăm vào kỳ nghỉ đông:\n\"Tớ rất hào hứng sang thăm cậu vào mùa đông này! Tớ có vài câu hỏi để chuẩn bị:\n- Tớ nên mang loại quần áo nào cho thời tiết ở đó?\n- Chúng mình có thể cùng làm những hoạt động trong nhà nào khi tớ ở cùng cậu?\n- Tớ muốn tặng bố mẹ cậu một món quà nhỏ — cậu nghĩ tớ nên mua gì cho hai bác?\"\n\nHãy viết email ít nhất 120 từ hồi âm cho người bạn.",
+        "has_full_details": true,
+        "details": {
+          "analysis": {
+            "recipient": "Korean Friend (Bạn người Hàn Quốc sắp sang thăm dịp nghỉ đông)",
+            "letter_type": "Informal (Thư thân mật)",
+            "purpose": "Tư vấn quần áo mùa đông phù hợp, gợi ý các hoạt động trong nhà ấm cúng, và gợi ý quà nhỏ ý nghĩa tặng bố mẹ",
+            "key_requirements": [
+              "1. What kind of clothes to bring for the weather",
+              "2. What indoor activities can we do together",
+              "3. What small gift to buy for your parents"
+            ]
+          },
+          "task_extractions": [
+            {
+              "id": 1,
+              "icon": "fa-shirt",
+              "prompt_requirement": "What kind of clothes should I bring for the weather there?",
+              "task_title": "1. Trang phục mùa đông (Winter clothes)",
+              "task_goal": "Giải thích thời tiết mùa đông mát/se lạnh (15-20°C), khuyên mang áo len mỏng, áo hoodie và áo khoác vừa."
+            },
+            {
+              "id": 2,
+              "icon": "fa-house-user",
+              "prompt_requirement": "What indoor activities can we do together while I'm staying with you?",
+              "task_title": "2. Hoạt động trong nhà (Indoor activities)",
+              "task_goal": "Gợi ý cùng nấu lẩu tại nhà, làm chả giò/nem cuốn với mẹ và chơi cờ board game hoặc xem phim."
+            },
+            {
+              "id": 3,
+              "icon": "fa-gift",
+              "prompt_requirement": "I'd also like to give your parents a small gift — what do you think I should buy for them?",
+              "task_title": "3. Quà tặng bố mẹ (Gift for parents)",
+              "task_goal": "Gợi ý mua một hộp trà nhân sâm Hàn Quốc hoặc rong biển khô vì bố mẹ rất thích uống trà."
+            }
+          ],
+          "suggested_ideas": [
+            {
+              "id": 1,
+              "title_en": "1. Clothes for the winter weather",
+              "title_vi": "Quần áo cho thời tiết mùa đông",
+              "icon": "fa-shirt",
+              "options": [
+                {
+                  "action_en": "you should pack some warm sweaters, hoodies, and a light jacket instead of heavy winter coats",
+                  "action_vi": "cậu nên mang một vài chiếc áo len ấm, áo hoodie và áo khoác mỏng thay vì áo phao dày",
+                  "reason_en": "because winter here is not freezing like Korea, with temperatures around 18 degrees Celsius.",
+                  "reason_vi": "vì mùa đông ở đây không lạnh buốt như Hàn Quốc, với nhiệt độ khoảng 18 độ C.",
+                  "b1_sentence": "First, you should pack some warm sweaters, hoodies, and a light jacket instead of heavy winter coats because winter here is not freezing like Korea, with temperatures around 18 degrees Celsius.",
+                  "b1_sentence_vi": "Đầu tiên, cậu nên mang một vài chiếc áo len ấm, áo hoodie và áo khoác mỏng thay vì áo phao dày vì mùa đông ở đây không lạnh buốt như Hàn Quốc, với nhiệt độ khoảng 18 độ C."
+                },
+                {
+                  "action_en": "you should bring comfortable jeans, long-sleeved shirts, and sneakers",
+                  "action_vi": "cậu nên mang quần jean thoải mái, áo dài tay và giày thể thao",
+                  "reason_en": "because the weather is cool and pleasant for walking around.",
+                  "reason_vi": "vì thời tiết mát mẻ và dễ chịu để đi dạo.",
+                  "b1_sentence": "First, you should bring comfortable jeans, long-sleeved shirts, and sneakers because the weather is cool and pleasant for walking around.",
+                  "b1_sentence_vi": "Đầu tiên, cậu nên mang quần jean thoải mái, áo dài tay và giày thể thao vì thời tiết mát mẻ và dễ chịu để đi dạo."
+                },
+                {
+                  "action_en": "it would be a good idea to bring a warm scarf and a light coat for the evening",
+                  "action_vi": "sẽ là ý hay nếu cậu mang theo một chiếc khăn ấm và một chiếc áo khoác mỏng cho buổi tối",
+                  "reason_en": "because it can get a bit chilly at night.",
+                  "reason_vi": "vì ban đêm trời có thể hơi se lạnh.",
+                  "b1_sentence": "First, it would be a good idea to bring a warm scarf and a light coat for the evening because it can get a bit chilly at night.",
+                  "b1_sentence_vi": "Đầu tiên, sẽ là ý hay nếu cậu mang theo một chiếc khăn ấm và một chiếc áo khoác mỏng cho buổi tối vì ban đêm trời có thể hơi se lạnh."
+                },
+                {
+                  "action_en": "you do not need heavy snow boots or gloves",
+                  "action_vi": "cậu không cần mang ủng đi tuyết dày hay găng tay đâu",
+                  "reason_en": "because it never snows in my city during winter.",
+                  "reason_vi": "vì thành phố của tớ không bao giờ có tuyết rơi vào mùa đông.",
+                  "b1_sentence": "First, you do not need heavy snow boots or gloves because it never snows in my city during winter.",
+                  "b1_sentence_vi": "Đầu tiên, cậu không cần mang ủng đi tuyết dày hay găng tay đâu vì thành phố của tớ không bao giờ có tuyết rơi vào mùa đông."
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "title_en": "2. Indoor activities together",
+              "title_vi": "Hoạt động trong nhà cùng làm",
+              "icon": "fa-house-user",
+              "options": [
+                {
+                  "action_en": "we can cook a hotpot at home and learn how to make traditional spring rolls with my mom",
+                  "action_vi": "chúng mình có thể nấu lẩu tại nhà và học làm nem rán truyền thống với mẹ tớ",
+                  "reason_en": "because hot food is perfect for winter days and it will be lots of fun.",
+                  "reason_vi": "vì đồ ăn nóng rất hợp cho ngày mùa đông và nó sẽ rất vui.",
+                  "b1_sentence": "Second, we can cook a hotpot at home and learn how to make traditional spring rolls with my mom because hot food is perfect for winter days and it will be lots of fun.",
+                  "b1_sentence_vi": "Thứ hai, chúng mình có thể nấu lẩu tại nhà và học làm nem rán truyền thống với mẹ tớ vì đồ ăn nóng rất hợp cho ngày mùa đông và nó sẽ rất vui."
+                },
+                {
+                  "action_en": "we can play board games and watch movies together at my house",
+                  "action_vi": "chúng mình có thể chơi cờ và cùng xem phim tại nhà tớ",
+                  "reason_en": "because it will keep us warm and give us time to talk.",
+                  "reason_vi": "vì nó sẽ giúp chúng mình ấm áp và có thời gian nói chuyện.",
+                  "b1_sentence": "Second, we can play board games and watch movies together at my house because it will keep us warm and give us time to talk.",
+                  "b1_sentence_vi": "Thứ hai, chúng mình có thể chơi cờ và cùng xem phim tại nhà tớ vì nó sẽ giúp chúng mình ấm áp và có thời gian nói chuyện."
+                },
+                {
+                  "action_en": "we can go to an indoor shopping mall to try bowling or visit a cozy café",
+                  "action_vi": "chúng mình có thể đến trung tâm thương mại để chơi bowling hoặc ghé một quán cà phê ấm cúng",
+                  "reason_en": "because there are many entertaining indoor places near my house.",
+                  "reason_vi": "vì có nhiều địa điểm giải trí trong nhà ở gần nhà tớ.",
+                  "b1_sentence": "Second, we can go to an indoor shopping mall to try bowling or visit a cozy café because there are many entertaining indoor places near my house.",
+                  "b1_sentence_vi": "Thứ hai, chúng mình có thể đến trung tâm thương mại để chơi bowling hoặc ghé một quán cà phê ấm cúng vì có nhiều địa điểm giải trí trong nhà ở gần nhà tớ."
+                },
+                {
+                  "action_en": "we could try a pottery making class or visit the indoor art museum",
+                  "action_vi": "chúng mình có thể thử tham gia lớp làm gốm hoặc đi thăm bảo tàng nghệ thuật trong nhà",
+                  "reason_en": "because you can make a small souvenir to take home.",
+                  "reason_vi": "vì cậu có thể tự làm một món đồ lưu niệm nhỏ để mang về.",
+                  "b1_sentence": "Second, we could try a pottery making class or visit the indoor art museum because you can make a small souvenir to take home.",
+                  "b1_sentence_vi": "Thứ hai, chúng mình có thể thử tham gia lớp làm gốm hoặc đi thăm bảo tàng nghệ thuật trong nhà vì cậu có thể tự làm một món đồ lưu niệm nhỏ để mang về."
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "title_en": "3. Small gift for parents",
+              "title_vi": "Món quà nhỏ cho bố mẹ",
+              "icon": "fa-gift",
+              "options": [
+                {
+                  "action_en": "you could buy a box of Korean ginseng tea or dried seaweed for my parents",
+                  "action_vi": "cậu có thể mua một hộp trà sâm Hàn Quốc hoặc rong biển khô cho bố mẹ tớ",
+                  "reason_en": "because my parents love drinking hot tea every morning and care about healthy products.",
+                  "reason_vi": "vì bố mẹ tớ thích uống trà nóng mỗi sáng và rất quan tâm đến các sản phẩm tốt cho sức khỏe.",
+                  "b1_sentence": "Finally, you could buy a box of Korean ginseng tea or dried seaweed for my parents because my parents love drinking hot tea every morning and care about healthy products.",
+                  "b1_sentence_vi": "Cuối cùng, cậu có thể mua một hộp trà sâm Hàn Quốc hoặc rong biển khô cho bố mẹ tớ vì bố mẹ tớ thích uống trà nóng mỗi sáng và rất quan tâm đến các sản phẩm tốt cho sức khỏe."
+                },
+                {
+                  "action_en": "a small box of traditional Korean honey cookies would be a wonderful gift",
+                  "action_vi": "một hộp nhỏ bánh quy mật ong truyền thống Hàn Quốc sẽ là món quà tuyệt vời",
+                  "reason_en": "because my family loves trying sweet snacks from other countries.",
+                  "reason_vi": "vì gia đình tớ rất thích thử bánh kẹo ngọt từ các nước khác.",
+                  "b1_sentence": "Finally, a small box of traditional Korean honey cookies would be a wonderful gift because my family loves trying sweet snacks from other countries.",
+                  "b1_sentence_vi": "Cuối cùng, một hộp nhỏ bánh quy mật ong truyền thống Hàn Quốc sẽ là món quà tuyệt vời vì gia đình tớ rất thích thử bánh kẹo ngọt từ các nước khác."
+                },
+                {
+                  "action_en": "you can bring some Korean face masks for my mom and a keychain for my dad",
+                  "action_vi": "cậu có thể mang vài chiếc mặt nạ dưỡng da Hàn Quốc cho mẹ tớ và một chiếc móc khóa cho bố tớ",
+                  "reason_en": "because Korean skin care products are very famous in Vietnam.",
+                  "reason_vi": "vì mỹ phẩm chăm sóc da Hàn Quốc rất nổi tiếng ở Việt Nam.",
+                  "b1_sentence": "Finally, you can bring some Korean face masks for my mom and a keychain for my dad because Korean skin care products are very famous in Vietnam.",
+                  "b1_sentence_vi": "Cuối cùng, cậu có thể mang vài chiếc mặt nạ dưỡng da Hàn Quốc cho mẹ tớ và một chiếc móc khóa cho bố tớ vì mỹ phẩm chăm sóc da Hàn Quốc rất nổi tiếng ở Việt Nam."
+                },
+                {
+                  "action_en": "please do not buy anything expensive for my parents",
+                  "action_vi": "cậu đừng mua thứ gì đắt tiền cho bố mẹ tớ nhé",
+                  "reason_en": "because your visit is already a great gift for our family.",
+                  "reason_vi": "vì chuyến thăm của cậu đã là một món quà tuyệt vời cho gia đình tớ rồi.",
+                  "b1_sentence": "Finally, please do not buy anything expensive for my parents because your visit is already a great gift for our family.",
+                  "b1_sentence_vi": "Cuối cùng, cậu đừng mua thứ gì đắt tiền cho bố mẹ tớ nhé vì chuyến thăm của cậu đã là một món quà tuyệt vời cho gia đình tớ rồi."
+                }
+              ]
+            }
+          ],
+          "vocab": [
+            {
+              "en": "winter holiday",
+              "vi": "kỳ nghỉ đông",
+              "category": "1. Thời gian"
+            },
+            {
+              "en": "warm sweaters",
+              "vi": "áo len ấm",
+              "category": "1. Quần áo"
+            },
+            {
+              "en": "light jacket",
+              "vi": "áo khoác mỏng",
+              "category": "1. Quần áo"
+            },
+            {
+              "en": "cook a hotpot",
+              "vi": "nấu lẩu",
+              "category": "2. Hoạt động"
+            },
+            {
+              "en": "spring rolls",
+              "vi": "nem rán",
+              "category": "2. Hoạt động"
+            },
+            {
+              "en": "board games",
+              "vi": "trò chơi cờ",
+              "category": "2. Hoạt động"
+            },
+            {
+              "en": "Korean ginseng tea",
+              "vi": "trà nhân sâm Hàn Quốc",
+              "category": "3. Quà tặng"
+            },
+            {
+              "en": "honey cookies",
+              "vi": "bánh quy mật ong",
+              "category": "3. Quà tặng"
+            }
+          ],
+          "sentence_practice_b1": [
+            {
+              "id": 1,
+              "part": "1. Mở thư (Opening - Thân mật)",
+              "vi": "Cậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Tớ rất vui và hào hứng khi biết cậu sắp sang thăm tớ vào kỳ nghỉ đông này!",
+              "en": "How are you? I hope you are doing well. I am so glad and excited to know that you are going to visit me this winter holiday!",
+              "formula": "How are you? I hope you are doing well. I am so glad and excited to know that you are going to visit me...",
+              "vocab_hints": [
+                {
+                  "en": "excited to know",
+                  "vi": "hào hứng khi biết"
+                },
+                {
+                  "en": "this winter holiday",
+                  "vi": "kỳ nghỉ đông này"
+                }
+              ],
+              "explanation": "Mở thư nồng hậu chào đón bạn."
+            },
+            {
+              "id": 2,
+              "part": "2. Thân thư - Ý 1: Quần áo mùa đông",
+              "vi": "Đầu tiên, cậu nên mang một vài chiếc áo len ấm, áo hoodie và áo khoác mỏng thay vì áo phao dày vì mùa đông ở đây không lạnh buốt như Hàn Quốc, với nhiệt độ khoảng 18 độ C.",
+              "en": "First, you should pack some warm sweaters, hoodies, and a light jacket instead of heavy winter coats because winter here is not freezing like Korea, with temperatures around 18 degrees Celsius.",
+              "formula": "First, you should pack... instead of... because...",
+              "vocab_hints": [
+                {
+                  "en": "warm sweaters",
+                  "vi": "áo len ấm"
+                },
+                {
+                  "en": "not freezing like Korea",
+                  "vi": "không lạnh buốt như Hàn Quốc"
+                }
+              ],
+              "explanation": "Khuyên mang quần áo phù hợp thời tiết."
+            },
+            {
+              "id": 3,
+              "part": "3. Thân thư - Ý 2: Hoạt động trong nhà",
+              "vi": "Thứ hai, chúng mình có thể nấu lẩu tại nhà và học làm nem rán truyền thống với mẹ tớ vì đồ ăn nóng rất hợp cho ngày mùa đông và nó sẽ rất vui.",
+              "en": "Second, we can cook a hotpot at home and learn how to make traditional spring rolls with my mom because hot food is perfect for winter days and it will be lots of fun.",
+              "formula": "Second, we can... because...",
+              "vocab_hints": [
+                {
+                  "en": "cook a hotpot at home",
+                  "vi": "nấu lẩu tại nhà"
+                },
+                {
+                  "en": "traditional spring rolls",
+                  "vi": "nem rán truyền thống"
+                }
+              ],
+              "explanation": "Gợi ý hoạt động nấu ăn ấm cúng trong nhà."
+            },
+            {
+              "id": 4,
+              "part": "4. Thân thư - Ý 3: Quà tặng bố mẹ",
+              "vi": "Cuối cùng, cậu có thể mua một hộp trà sâm Hàn Quốc hoặc rong biển khô cho bố mẹ tớ vì bố mẹ tớ thích uống trà nóng mỗi sáng và rất quan tâm đến các sản phẩm tốt cho sức khỏe.",
+              "en": "Finally, you could buy a box of Korean ginseng tea or dried seaweed for my parents because my parents love drinking hot tea every morning and care about healthy products.",
+              "formula": "Finally, you could buy... for my parents because...",
+              "vocab_hints": [
+                {
+                  "en": "Korean ginseng tea",
+                  "vi": "trà nhân sâm Hàn Quốc"
+                },
+                {
+                  "en": "care about healthy products",
+                  "vi": "quan tâm đồ tốt cho sức khỏe"
+                }
+              ],
+              "explanation": "Gợi ý quà biếu bố mẹ hợp lý."
+            },
+            {
+              "id": 5,
+              "part": "5. Kết thư (Closing - Thân mật)",
+              "vi": "Gia đình tớ rất mong được chào đón cậu tại nhà. Hãy giữ ấm và viết thư lại cho tớ sớm nhé.",
+              "en": "My family is looking forward to welcoming you to our home. Keep warm and write back soon.",
+              "formula": "My family is looking forward to welcoming you to our home. Keep warm and write back soon.",
+              "vocab_hints": [
+                {
+                  "en": "keep warm",
+                  "vi": "giữ ấm nhé"
+                },
+                {
+                  "en": "write back soon",
+                  "vi": "hồi âm sớm nhé"
+                }
+              ],
+              "explanation": "Kết thư tình cảm, chuẩn B1."
+            }
+          ],
+          "sentence_practice_b2": [
+            {
+              "id": 1,
+              "part": "1. Mở thư (Opening - Thân mật)",
+              "vi": "Cậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Tớ rất vui và hào hứng khi biết cậu sắp sang thăm tớ vào kỳ nghỉ đông này!",
+              "en": "How are you? I hope you are doing well. I am so glad and excited to know that you are going to visit me this winter holiday!",
+              "formula": "How are you? I hope you are doing well. I am so glad and excited to know that you are going to visit me...",
+              "vocab_hints": [
+                {
+                  "en": "excited to know",
+                  "vi": "hào hứng khi biết"
+                },
+                {
+                  "en": "this winter holiday",
+                  "vi": "kỳ nghỉ đông này"
+                }
+              ],
+              "explanation": "Mở thư nồng hậu chào đón bạn."
+            },
+            {
+              "id": 2,
+              "part": "2. Thân thư - Ý 1: Quần áo mùa đông",
+              "vi": "Đầu tiên, cậu nên mang một vài chiếc áo len ấm, áo hoodie và áo khoác mỏng thay vì áo phao dày vì mùa đông ở đây không lạnh buốt như Hàn Quốc, với nhiệt độ khoảng 18 độ C.",
+              "en": "First, you should pack some warm sweaters, hoodies, and a light jacket instead of heavy winter coats because winter here is not freezing like Korea, with temperatures around 18 degrees Celsius.",
+              "formula": "First, you should pack... instead of... because...",
+              "vocab_hints": [
+                {
+                  "en": "warm sweaters",
+                  "vi": "áo len ấm"
+                },
+                {
+                  "en": "not freezing like Korea",
+                  "vi": "không lạnh buốt như Hàn Quốc"
+                }
+              ],
+              "explanation": "Khuyên mang quần áo phù hợp thời tiết."
+            },
+            {
+              "id": 3,
+              "part": "3. Thân thư - Ý 2: Hoạt động trong nhà",
+              "vi": "Thứ hai, chúng mình có thể nấu lẩu tại nhà và học làm nem rán truyền thống với mẹ tớ vì đồ ăn nóng rất hợp cho ngày mùa đông và nó sẽ rất vui.",
+              "en": "Second, we can cook a hotpot at home and learn how to make traditional spring rolls with my mom because hot food is perfect for winter days and it will be lots of fun.",
+              "formula": "Second, we can... because...",
+              "vocab_hints": [
+                {
+                  "en": "cook a hotpot at home",
+                  "vi": "nấu lẩu tại nhà"
+                },
+                {
+                  "en": "traditional spring rolls",
+                  "vi": "nem rán truyền thống"
+                }
+              ],
+              "explanation": "Gợi ý hoạt động nấu ăn ấm cúng trong nhà."
+            },
+            {
+              "id": 4,
+              "part": "4. Thân thư - Ý 3: Quà tặng bố mẹ",
+              "vi": "Cuối cùng, cậu có thể mua một hộp trà sâm Hàn Quốc hoặc rong biển khô cho bố mẹ tớ vì bố mẹ tớ thích uống trà nóng mỗi sáng và rất quan tâm đến các sản phẩm tốt cho sức khỏe.",
+              "en": "Finally, you could buy a box of Korean ginseng tea or dried seaweed for my parents because my parents love drinking hot tea every morning and care about healthy products.",
+              "formula": "Finally, you could buy... for my parents because...",
+              "vocab_hints": [
+                {
+                  "en": "Korean ginseng tea",
+                  "vi": "trà nhân sâm Hàn Quốc"
+                },
+                {
+                  "en": "care about healthy products",
+                  "vi": "quan tâm đồ tốt cho sức khỏe"
+                }
+              ],
+              "explanation": "Gợi ý quà biếu bố mẹ hợp lý."
+            },
+            {
+              "id": 5,
+              "part": "5. Kết thư (Closing - Thân mật)",
+              "vi": "Gia đình tớ rất mong được chào đón cậu tại nhà. Hãy giữ ấm và viết thư lại cho tớ sớm nhé.",
+              "en": "My family is looking forward to welcoming you to our home. Keep warm and write back soon.",
+              "formula": "My family is looking forward to welcoming you to our home. Keep warm and write back soon.",
+              "vocab_hints": [
+                {
+                  "en": "keep warm",
+                  "vi": "giữ ấm nhé"
+                },
+                {
+                  "en": "write back soon",
+                  "vi": "hồi âm sớm nhé"
+                }
+              ],
+              "explanation": "Kết thư tình cảm, chuẩn B1."
+            }
+          ],
+          "sample_b1": {
+            "letter_en": "Dear Min-ji,\n\nHow are you? I hope you are doing well. I am so glad and excited to know that you are going to visit me this winter holiday!\n\nFirst, you should pack some warm sweaters, hoodies, and a light jacket instead of heavy winter coats because winter here is not freezing like Korea, with temperatures around 18 degrees Celsius. Bringing comfortable sneakers will also be useful.\n\nSecond, we can cook a hotpot at home and learn how to make traditional spring rolls with my mom because hot food is perfect for winter days and it will be lots of fun. In the evening, we can watch movies together.\n\nFinally, you could buy a box of Korean ginseng tea or dried seaweed for my parents because my parents love drinking hot tea every morning and care about healthy products. Please do not buy anything expensive.\n\nMy family is looking forward to welcoming you to our home. Keep warm and write back soon.\n\nBest wishes,",
+            "letter_vi": "Min-ji thân mến,\n\nCậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Tớ rất vui và hào hứng khi biết cậu sắp sang thăm tớ vào kỳ nghỉ đông này!\n\nĐầu tiên, cậu nên mang một vài chiếc áo len ấm, áo hoodie và áo khoác mỏng thay vì áo phao dày vì mùa đông ở đây không lạnh buốt như Hàn Quốc, với nhiệt độ khoảng 18 độ C. Mang giày thể thao êm chân cũng sẽ rất hữu ích.\n\nThứ hai, chúng mình có thể nấu lẩu tại nhà và học làm nem rán truyền thống với mẹ tớ vì đồ ăn nóng rất hợp cho ngày mùa đông và nó sẽ rất vui. Vào buổi tối, chúng mình có thể cùng nhau xem phim.\n\nCuối cùng, cậu có thể mua một hộp trà sâm Hàn Quốc hoặc rong biển khô cho bố mẹ tớ vì bố mẹ tớ thích uống trà nóng mỗi sáng và rất quan tâm đến các sản phẩm tốt cho sức khỏe. Cậu đừng mua món gì đắt tiền nhé.\n\nGia đình tớ rất mong được chào đón cậu tại nhà. Hãy giữ ấm và viết thư lại cho tớ sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "text": "Dear Min-ji,\n\nHow are you? I hope you are doing well. I am so glad and excited to know that you are going to visit me this winter holiday!\n\nFirst, you should pack some warm sweaters, hoodies, and a light jacket instead of heavy winter coats because winter here is not freezing like Korea, with temperatures around 18 degrees Celsius. Bringing comfortable sneakers will also be useful.\n\nSecond, we can cook a hotpot at home and learn how to make traditional spring rolls with my mom because hot food is perfect for winter days and it will be lots of fun. In the evening, we can watch movies together.\n\nFinally, you could buy a box of Korean ginseng tea or dried seaweed for my parents because my parents love drinking hot tea every morning and care about healthy products. Please do not buy anything expensive.\n\nMy family is looking forward to welcoming you to our home. Keep warm and write back soon.\n\nBest wishes,",
+            "translation": "Min-ji thân mến,\n\nCậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Tớ rất vui và hào hứng khi biết cậu sắp sang thăm tớ vào kỳ nghỉ đông này!\n\nĐầu tiên, cậu nên mang một vài chiếc áo len ấm, áo hoodie và áo khoác mỏng thay vì áo phao dày vì mùa đông ở đây không lạnh buốt như Hàn Quốc, với nhiệt độ khoảng 18 độ C. Mang giày thể thao êm chân cũng sẽ rất hữu ích.\n\nThứ hai, chúng mình có thể nấu lẩu tại nhà và học làm nem rán truyền thống với mẹ tớ vì đồ ăn nóng rất hợp cho ngày mùa đông và nó sẽ rất vui. Vào buổi tối, chúng mình có thể cùng nhau xem phim.\n\nCuối cùng, cậu có thể mua một hộp trà sâm Hàn Quốc hoặc rong biển khô cho bố mẹ tớ vì bố mẹ tớ thích uống trà nóng mỗi sáng và rất quan tâm đến các sản phẩm tốt cho sức khỏe. Cậu đừng mua món gì đắt tiền nhé.\n\nGia đình tớ rất mong được chào đón cậu tại nhà. Hãy giữ ấm và viết thư lại cho tớ sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "word_count": 164,
+            "key_structures": []
+          },
+          "sample_b2": {
+            "letter_en": "Dear Min-ji,\n\nHow are you? I hope you are doing well. I am so glad and excited to know that you are going to visit me this winter holiday!\n\nFirst, you should pack some warm sweaters, hoodies, and a light jacket instead of heavy winter coats because winter here is not freezing like Korea, with temperatures around 18 degrees Celsius. Bringing comfortable sneakers will also be useful.\n\nSecond, we can cook a hotpot at home and learn how to make traditional spring rolls with my mom because hot food is perfect for winter days and it will be lots of fun. In the evening, we can watch movies together.\n\nFinally, you could buy a box of Korean ginseng tea or dried seaweed for my parents because my parents love drinking hot tea every morning and care about healthy products. Please do not buy anything expensive.\n\nMy family is looking forward to welcoming you to our home. Keep warm and write back soon.\n\nBest wishes,",
+            "letter_vi": "Min-ji thân mến,\n\nCậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Tớ rất vui và hào hứng khi biết cậu sắp sang thăm tớ vào kỳ nghỉ đông này!\n\nĐầu tiên, cậu nên mang một vài chiếc áo len ấm, áo hoodie và áo khoác mỏng thay vì áo phao dày vì mùa đông ở đây không lạnh buốt như Hàn Quốc, với nhiệt độ khoảng 18 độ C. Mang giày thể thao êm chân cũng sẽ rất hữu ích.\n\nThứ hai, chúng mình có thể nấu lẩu tại nhà và học làm nem rán truyền thống với mẹ tớ vì đồ ăn nóng rất hợp cho ngày mùa đông và nó sẽ rất vui. Vào buổi tối, chúng mình có thể cùng nhau xem phim.\n\nCuối cùng, cậu có thể mua một hộp trà sâm Hàn Quốc hoặc rong biển khô cho bố mẹ tớ vì bố mẹ tớ thích uống trà nóng mỗi sáng và rất quan tâm đến các sản phẩm tốt cho sức khỏe. Cậu đừng mua món gì đắt tiền nhé.\n\nGia đình tớ rất mong được chào đón cậu tại nhà. Hãy giữ ấm và viết thư lại cho tớ sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "text": "Dear Min-ji,\n\nHow are you? I hope you are doing well. I am so glad and excited to know that you are going to visit me this winter holiday!\n\nFirst, you should pack some warm sweaters, hoodies, and a light jacket instead of heavy winter coats because winter here is not freezing like Korea, with temperatures around 18 degrees Celsius. Bringing comfortable sneakers will also be useful.\n\nSecond, we can cook a hotpot at home and learn how to make traditional spring rolls with my mom because hot food is perfect for winter days and it will be lots of fun. In the evening, we can watch movies together.\n\nFinally, you could buy a box of Korean ginseng tea or dried seaweed for my parents because my parents love drinking hot tea every morning and care about healthy products. Please do not buy anything expensive.\n\nMy family is looking forward to welcoming you to our home. Keep warm and write back soon.\n\nBest wishes,",
+            "translation": "Min-ji thân mến,\n\nCậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Tớ rất vui và hào hứng khi biết cậu sắp sang thăm tớ vào kỳ nghỉ đông này!\n\nĐầu tiên, cậu nên mang một vài chiếc áo len ấm, áo hoodie và áo khoác mỏng thay vì áo phao dày vì mùa đông ở đây không lạnh buốt như Hàn Quốc, với nhiệt độ khoảng 18 độ C. Mang giày thể thao êm chân cũng sẽ rất hữu ích.\n\nThứ hai, chúng mình có thể nấu lẩu tại nhà và học làm nem rán truyền thống với mẹ tớ vì đồ ăn nóng rất hợp cho ngày mùa đông và nó sẽ rất vui. Vào buổi tối, chúng mình có thể cùng nhau xem phim.\n\nCuối cùng, cậu có thể mua một hộp trà sâm Hàn Quốc hoặc rong biển khô cho bố mẹ tớ vì bố mẹ tớ thích uống trà nóng mỗi sáng và rất quan tâm đến các sản phẩm tốt cho sức khỏe. Cậu đừng mua món gì đắt tiền nhé.\n\nGia đình tớ rất mong được chào đón cậu tại nhà. Hãy giữ ấm và viết thư lại cho tớ sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "word_count": 164,
+            "key_structures": []
+          }
+        }
+      },
+      {
+        "id": "de-57",
+        "title_en": "Reply to Mrs. Davidson about visit from 2 to 7 July, Habana Hotel, malls, and sports",
+        "title_vi": "Đề 17: Phản hồi bà Davidson về chuyến đi 2–7/7 của đoàn, khách sạn Habana, điểm mua sắm và thể thao",
+        "recipient_type": "Formal (Trưởng đoàn du lịch - Mrs. Davidson)",
+        "target_words": 120,
+        "tags": [
+          "Đề thi BAV 07/11",
+          "Mrs. Davidson",
+          "Habana Hotel",
+          "Mua sắm",
+          "Thể thao trẻ em",
+          "Chuẩn B1"
+        ],
+        "context": "Reply to Mrs. Davidson. Her group of 12 adults and 4 children plans to visit your area from 2 to 7 July. Is this a good time to visit? Give her information about the Habana Hotel, recommend one or two shopping malls and suggest sports facilities for the children.",
+        "prompt": "Reply to Mrs. Davidson. Her group of 12 adults and 4 children plans to visit your area from 2 to 7 July. Is this a good time to visit? Give her information about the Habana Hotel, recommend one or two shopping malls and suggest sports facilities for the children.\n\nWrite at least 120 words. You do not need to include your name or addresses. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt_vi": "Hãy viết thư hồi âm cho bà Davidson. Đoàn của bà gồm 12 người lớn và 4 trẻ em dự định đến thăm khu vực của bạn từ ngày 2 đến ngày 7 tháng 7.\n- Thời gian này có phải là thời điểm tốt để ghé thăm không?\n- Cung cấp thông tin về Khách sạn Habana\n- Gợi ý 1 hoặc 2 trung tâm mua sắm\n- Đề xuất các cơ sở thể thao cho các em nhỏ",
+        "has_full_details": true,
+        "details": {
+          "analysis": {
+            "recipient": "Mrs. Davidson (Trưởng đoàn du lịch gồm 12 người lớn và 4 trẻ em)",
+            "letter_type": "Formal (Thư trang trọng)",
+            "purpose": "Nhận xét thời điểm du lịch 2–7/7, giới thiệu Khách sạn Habana, gợi ý trung tâm mua sắm và sân thể thao cho trẻ em",
+            "key_requirements": [
+              "1. Is this a good time to visit (from 2 to 7 July)",
+              "2. Give her information about the Habana Hotel",
+              "3. Recommend one or two shopping malls",
+              "4. Suggest sports facilities for the children"
+            ]
+          },
+          "task_extractions": [
+            {
+              "id": 1,
+              "icon": "fa-calendar-check",
+              "prompt_requirement": "Is this a good time to visit (from 2 to 7 July)?",
+              "task_title": "1. Thời điểm 2–7 tháng 7 (Is it a good time?)",
+              "task_goal": "Khẳng định đầu tháng 7 thời tiết nắng đẹp, nhiều hoạt động mùa hè, khuyên mang mũ và kem chống nắng."
+            },
+            {
+              "id": 2,
+              "icon": "fa-hotel",
+              "prompt_requirement": "Give her information about the Habana Hotel",
+              "task_title": "2. Thông tin Khách sạn Habana (Habana Hotel)",
+              "task_goal": "Nêu rõ khách sạn 4 sao ở trung tâm, phòng gia đình rộng rãi, bữa sáng buffet ngon và nhân viên thân thiện."
+            },
+            {
+              "id": 3,
+              "icon": "fa-bag-shopping",
+              "prompt_requirement": "Recommend one or two shopping malls",
+              "task_title": "3. Gợi ý 1–2 trung tâm mua sắm (Shopping malls)",
+              "task_goal": "Gợi ý Vincom Center và Aeon Mall với nhiều cửa hàng quần áo, khu ăn uống có điều hòa mát mẻ."
+            },
+            {
+              "id": 4,
+              "icon": "fa-futbol",
+              "prompt_requirement": "Suggest sports facilities for the children",
+              "task_title": "4. Cơ sở thể thao cho trẻ em (Sports facilities for children)",
+              "task_goal": "Đề xuất hồ bơi trẻ em tại khách sạn và khu thể thao thanh thiếu niên gần đó có sân bóng đá và cầu lông."
+            }
+          ],
+          "suggested_ideas": [
+            {
+              "id": 1,
+              "title_en": "1. Whether 2 to 7 July is a good time to visit",
+              "title_vi": "Thời điểm 2 đến 7 tháng 7 có tốt không",
+              "icon": "fa-sun",
+              "options": [
+                {
+                  "action_en": "visiting from 2 to 7 July is a wonderful time for your group of 16 people",
+                  "action_vi": "đến thăm từ ngày 2 đến ngày 7 tháng 7 là một thời điểm tuyệt vời cho đoàn 16 người của bà",
+                  "reason_en": "because the weather is sunny and dry, which is perfect for outdoor trips and beaches.",
+                  "reason_vi": "vì thời tiết có nắng và khô ráo, rất hoàn hảo cho các chuyến đi ngoài trời và bãi biển.",
+                  "b1_sentence": "First, visiting from 2 to 7 July is a wonderful time for your group of 16 people because the weather is sunny and dry, which is perfect for outdoor trips and beaches.",
+                  "b1_sentence_vi": "Đầu tiên, đến thăm từ ngày 2 đến ngày 7 tháng 7 là một thời điểm tuyệt vời cho đoàn 16 người của bà vì thời tiết có nắng và khô ráo, rất hoàn hảo cho các chuyến đi ngoài trời và bãi biển."
+                },
+                {
+                  "action_en": "early July is a very good choice for your trip",
+                  "action_vi": "đầu tháng Bảy là một lựa chọn rất tốt cho chuyến đi của bà",
+                  "reason_en": "because all parks and attractions are open with exciting summer activities.",
+                  "reason_vi": "vì tất cả các công viên và điểm tham quan đều mở cửa với nhiều hoạt động hè sôi nổi.",
+                  "b1_sentence": "First, early July is a very good choice for your trip because all parks and attractions are open with exciting summer activities.",
+                  "b1_sentence_vi": "Đầu tiên, đầu tháng Bảy là một lựa chọn rất tốt cho chuyến đi của bà vì tất cả các công viên và điểm tham quan đều mở cửa với nhiều hoạt động hè sôi nổi."
+                },
+                {
+                  "action_en": "July is a great summer month to visit our area",
+                  "action_vi": "tháng Bảy là tháng mùa hè tuyệt vời để đến thăm khu vực của chúng tôi",
+                  "reason_en": "because there are many festivals, but you should bring hats and sunscreen.",
+                  "reason_vi": "vì có nhiều lễ hội, nhưng đoàn nên mang theo mũ và kem chống nắng.",
+                  "b1_sentence": "First, July is a great summer month to visit our area because there are many festivals, but you should bring hats and sunscreen.",
+                  "b1_sentence_vi": "Đầu tiên, tháng Bảy là tháng mùa hè tuyệt vời để đến thăm khu vực của chúng tôi vì có nhiều lễ hội, nhưng đoàn nên mang theo mũ và kem chống nắng."
+                },
+                {
+                  "action_en": "from 2 to 7 July is an ideal time for children on school break",
+                  "action_vi": "từ ngày 2 đến ngày 7 tháng 7 là thời điểm lý tưởng cho các em nhỏ đang nghỉ hè",
+                  "reason_en": "because the days are long and bright for family sightseeing.",
+                  "reason_vi": "vì ngày dài và sáng sủa rất thuận tiện cho gia đình đi tham quan.",
+                  "b1_sentence": "First, from 2 to 7 July is an ideal time for children on school break because the days are long and bright for family sightseeing.",
+                  "b1_sentence_vi": "Đầu tiên, từ ngày 2 đến ngày 7 tháng 7 là thời điểm lý tưởng cho các em nhỏ đang nghỉ hè vì ngày dài và sáng sủa rất thuận tiện cho gia đình đi tham quan."
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "title_en": "2. Information about the Habana Hotel",
+              "title_vi": "Thông tin về Khách sạn Habana",
+              "icon": "fa-hotel",
+              "options": [
+                {
+                  "action_en": "regarding the Habana Hotel, it is a very clean four-star hotel located right in the center",
+                  "action_vi": "về Khách sạn Habana, đây là một khách sạn bốn sao rất sạch sẽ nằm ngay trung tâm",
+                  "reason_en": "because it has large family rooms, friendly staff, and a daily buffet breakfast.",
+                  "reason_vi": "vì khách sạn có phòng gia đình rộng rãi, nhân viên thân thiện và bữa sáng buffet hàng ngày.",
+                  "b1_sentence": "Second, regarding the Habana Hotel, it is a very clean four-star hotel located right in the center because it has large family rooms, friendly staff, and a daily buffet breakfast.",
+                  "b1_sentence_vi": "Thứ hai, về Khách sạn Habana, đây là một khách sạn bốn sao rất sạch sẽ nằm ngay trung tâm vì khách sạn có phòng gia đình rộng rãi, nhân viên thân thiện và bữa sáng buffet hàng ngày."
+                },
+                {
+                  "action_en": "the Habana Hotel is a great choice for your group of 12 adults and 4 children",
+                  "action_vi": "Khách sạn Habana là lựa chọn tuyệt vời cho đoàn 12 người lớn và 4 trẻ em của bà",
+                  "reason_en": "because they offer special discounts and comfortable connecting rooms for families.",
+                  "reason_vi": "vì họ có chính sách giảm giá đặc biệt và các phòng thông nhau thoải mái cho gia đình.",
+                  "b1_sentence": "Second, the Habana Hotel is a great choice for your group of 12 adults and 4 children because they offer special discounts and comfortable connecting rooms for families.",
+                  "b1_sentence_vi": "Thứ hai, Khách sạn Habana là lựa chọn tuyệt vời cho đoàn 12 người lớn và 4 trẻ em của bà vì họ có chính sách giảm giá đặc biệt và các phòng thông nhau thoải mái cho gia đình."
+                },
+                {
+                  "action_en": "the Habana Hotel has modern rooms and a free minibus service for guests",
+                  "action_vi": "Khách sạn Habana có phòng ốc hiện đại và dịch vụ xe buýt nhỏ miễn phí cho khách",
+                  "reason_en": "because it is only ten minutes away from the beach and city center.",
+                  "reason_vi": "vì nơi đây chỉ cách bãi biển và trung tâm thành phố mười phút.",
+                  "b1_sentence": "Second, the Habana Hotel has modern rooms and a free minibus service for guests because it is only ten minutes away from the beach and city center.",
+                  "b1_sentence_vi": "Thứ hai, Khách sạn Habana có phòng ốc hiện đại và dịch vụ xe buýt nhỏ miễn phí cho khách vì nơi đây chỉ cách bãi biển và trung tâm thành phố mười phút."
+                },
+                {
+                  "action_en": "I can confirm that the Habana Hotel is safe, quiet, and highly rated by tourists",
+                  "action_vi": "tôi có thể khẳng định Khách sạn Habana rất an toàn, yên tĩnh và được du khách đánh giá cao",
+                  "reason_en": "because their service is reliable and the rooms are very comfortable.",
+                  "reason_vi": "vì dịch vụ của họ đáng tin cậy và phòng ốc rất tiện nghi.",
+                  "b1_sentence": "Second, I can confirm that the Habana Hotel is safe, quiet, and highly rated by tourists because their service is reliable and the rooms are very comfortable.",
+                  "b1_sentence_vi": "Thứ hai, tôi có thể khẳng định Khách sạn Habana rất an toàn, yên tĩnh và được du khách đánh giá cao vì dịch vụ của họ đáng tin cậy và phòng ốc rất tiện nghi."
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "title_en": "3. One or two shopping malls",
+              "title_vi": "Gợi ý 1–2 trung tâm mua sắm",
+              "icon": "fa-bag-shopping",
+              "options": [
+                {
+                  "action_en": "for shopping, I recommend visiting Vincom Center and Aeon Mall",
+                  "action_vi": "về mua sắm, tôi gợi ý đoàn ghé thăm Vincom Center và Aeon Mall",
+                  "reason_en": "because these two large malls have many clothing stores, souvenir shops, and air-conditioned food courts.",
+                  "reason_vi": "vì hai trung tâm thương mại lớn này có nhiều cửa hàng quần áo, quà lưu niệm và khu ẩm thực có điều hòa mát mẻ.",
+                  "b1_sentence": "Third, for shopping, I recommend visiting Vincom Center and Aeon Mall because these two large malls have many clothing stores, souvenir shops, and air-conditioned food courts.",
+                  "b1_sentence_vi": "Thứ ba, về mua sắm, tôi gợi ý đoàn ghé thăm Vincom Center và Aeon Mall vì hai trung tâm thương mại lớn này có nhiều cửa hàng quần áo, quà lưu niệm và khu ẩm thực có điều hòa mát mẻ."
+                },
+                {
+                  "action_en": "your group could go to Diamond Plaza in the downtown area",
+                  "action_vi": "đoàn của bà có thể đến Diamond Plaza ở khu trung tâm",
+                  "reason_en": "because it has a big supermarket and nice cafés where adults can rest.",
+                  "reason_vi": "vì nơi đây có siêu thị lớn và các quán cà phê đẹp để người lớn nghỉ chân.",
+                  "b1_sentence": "Third, your group could go to Diamond Plaza in the downtown area because it has a big supermarket and nice cafés where adults can rest.",
+                  "b1_sentence_vi": "Thứ ba, đoàn của bà có thể đến Diamond Plaza ở khu trung tâm vì nơi đây có siêu thị lớn và các quán cà phê đẹp để người lớn nghỉ chân."
+                },
+                {
+                  "action_en": "I suggest Lotte Mart near the Habana Hotel",
+                  "action_vi": "tôi gợi ý Siêu thị Lotte Mart gần Khách sạn Habana",
+                  "reason_en": "because you can buy local food and traditional gifts at cheap fixed prices.",
+                  "reason_vi": "vì bà có thể mua đồ ăn địa phương và quà truyền thống với giá niêm yết rẻ.",
+                  "b1_sentence": "Third, I suggest Lotte Mart near the Habana Hotel because you can buy local food and traditional gifts at cheap fixed prices.",
+                  "b1_sentence_vi": "Thứ ba, tôi gợi ý Siêu thị Lotte Mart gần Khách sạn Habana vì bà có thể mua đồ ăn địa phương và quà truyền thống với giá niêm yết rẻ."
+                },
+                {
+                  "action_en": "both central malls are only ten minutes by taxi from your hotel",
+                  "action_vi": "cả hai trung tâm thương mại trung tâm đều chỉ cách khách sạn của bà mười phút đi taxi",
+                  "reason_en": "because they are very convenient to travel to with children.",
+                  "reason_vi": "vì chúng rất thuận tiện để đi lại cùng các em nhỏ.",
+                  "b1_sentence": "Third, both central malls are only ten minutes by taxi from your hotel because they are very convenient to travel to with children.",
+                  "b1_sentence_vi": "Thứ ba, cả hai trung tâm thương mại trung tâm đều chỉ cách khách sạn của bà mười phút đi taxi vì chúng rất thuận tiện để đi lại cùng các em nhỏ."
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "title_en": "4. Sports facilities for the children",
+              "title_vi": "Cơ sở thể thao cho trẻ em",
+              "icon": "fa-futbol",
+              "options": [
+                {
+                  "action_en": "the children can enjoy the swimming pool at the Habana Hotel and the Youth Sports Center nearby",
+                  "action_vi": "các em nhỏ có thể bơi tại hồ bơi của Khách sạn Habana và Trung tâm Thể thao Thanh thiếu niên ở gần đó",
+                  "reason_en": "because there are safe badminton courts, mini football fields, and games for kids.",
+                  "reason_vi": "vì ở đó có sân cầu lông an toàn, sân bóng đá mini và các trò chơi cho trẻ em.",
+                  "b1_sentence": "Finally, the children can enjoy the swimming pool at the Habana Hotel and the Youth Sports Center nearby because there are safe badminton courts, mini football fields, and games for kids.",
+                  "b1_sentence_vi": "Cuối cùng, các em nhỏ có thể bơi tại hồ bơi của Khách sạn Habana và Trung tâm Thể thao Thanh thiếu niên ở gần đó vì ở đó có sân cầu lông an toàn, sân bóng đá mini và các trò chơi cho trẻ em."
+                },
+                {
+                  "action_en": "I suggest taking the children to the indoor ice skating rink inside Vincom Center",
+                  "action_vi": "tôi gợi ý đưa các em nhỏ đến sân trượt băng trong nhà bên trong Vincom Center",
+                  "reason_en": "because children always love ice skating and it is cool on hot afternoons.",
+                  "reason_vi": "vì trẻ em luôn mê trượt băng và nơi đây rất mát vào những buổi chiều nóng nực.",
+                  "b1_sentence": "Finally, I suggest taking the children to the indoor ice skating rink inside Vincom Center because children always love ice skating and it is cool on hot afternoons.",
+                  "b1_sentence_vi": "Cuối cùng, tôi gợi ý đưa các em nhỏ đến sân trượt băng trong nhà bên trong Vincom Center vì trẻ em luôn mê trượt băng và nơi đây rất mát vào những buổi chiều nóng nực."
+                },
+                {
+                  "action_en": "the city park has a big playground with sports equipment and bicycles for rent",
+                  "action_vi": "công viên thành phố có một khu vui chơi lớn với dụng cụ thể thao và dịch vụ cho thuê xe đạp",
+                  "reason_en": "because the 4 children can run and play sports freely in the green park.",
+                  "reason_vi": "vì 4 em nhỏ có thể thoải mái chạy nhảy và chơi thể thao trong công viên rợp bóng mát.",
+                  "b1_sentence": "Finally, the city park has a big playground with sports equipment and bicycles for rent because the 4 children can run and play sports freely in the green park.",
+                  "b1_sentence_vi": "Cuối cùng, công viên thành phố có một khu vui chơi lớn với dụng cụ thể thao và dịch vụ cho thuê xe đạp vì 4 em nhỏ có thể thoải mái chạy nhảy và chơi thể thao trong công viên rợp bóng mát."
+                },
+                {
+                  "action_en": "you can take the kids to the sports club next to the lake",
+                  "action_vi": "bà có thể đưa các bé đến câu lạc bộ thể thao bên cạnh hồ",
+                  "reason_en": "because they offer short swimming and table tennis lessons for children.",
+                  "reason_vi": "vì nơi đây có các buổi học bơi và bóng bàn ngắn hạn dành cho trẻ em.",
+                  "b1_sentence": "Finally, you can take the kids to the sports club next to the lake because they offer short swimming and table tennis lessons for children.",
+                  "b1_sentence_vi": "Cuối cùng, bà có thể đưa các bé đến câu lạc bộ thể thao bên cạnh hồ vì nơi đây có các buổi học bơi và bóng bàn ngắn hạn dành cho trẻ em."
+                }
+              ]
+            }
+          ],
+          "vocab": [
+            {
+              "en": "good time to visit",
+              "vi": "thời điểm tốt để ghé thăm",
+              "category": "1. Thời điểm"
+            },
+            {
+              "en": "Habana Hotel",
+              "vi": "Khách sạn Habana",
+              "category": "2. Khách sạn"
+            },
+            {
+              "en": "family rooms",
+              "vi": "phòng gia đình",
+              "category": "2. Khách sạn"
+            },
+            {
+              "en": "shopping malls",
+              "vi": "trung tâm thương mại",
+              "category": "3. Mua sắm"
+            },
+            {
+              "en": "Vincom Center and Aeon Mall",
+              "vi": "Vincom và Aeon Mall",
+              "category": "3. Mua sắm"
+            },
+            {
+              "en": "food courts",
+              "vi": "khu ẩm thực",
+              "category": "3. Mua sắm"
+            },
+            {
+              "en": "sports facilities",
+              "vi": "cơ sở thể thao",
+              "category": "4. Thể thao trẻ em"
+            },
+            {
+              "en": "swimming pool",
+              "vi": "hồ bơi",
+              "category": "4. Thể thao trẻ em"
+            }
+          ],
+          "sentence_practice_b1": [
+            {
+              "id": 1,
+              "part": "1. Mở thư (Opening - Trang trọng)",
+              "vi": "Kính gửi bà Davidson, cảm ơn email của bà về chuyến thăm sắp tới của đoàn từ ngày 2 đến ngày 7 tháng 7. Tôi rất vui được cung cấp thông tin hữu ích cho đoàn của bà.",
+              "en": "Dear Mrs. Davidson, thank you for your email about your group’s upcoming visit from 2 to 7 July. I am very glad to give you some helpful local information.",
+              "formula": "Dear Mrs. Davidson, thank you for your email about... I am very glad to give you some helpful local information.",
+              "vocab_hints": [
+                {
+                  "en": "upcoming visit",
+                  "vi": "chuyến thăm sắp tới"
+                },
+                {
+                  "en": "helpful local information",
+                  "vi": "thông tin địa phương hữu ích"
+                }
+              ],
+              "explanation": "Mở thư trang trọng chuẩn B1 cho trưởng đoàn."
+            },
+            {
+              "id": 2,
+              "part": "2. Thân thư - Ý 1: Thời điểm 2–7/7 có tốt không",
+              "vi": "Đầu tiên, đến thăm từ ngày 2 đến ngày 7 tháng 7 là một thời điểm tuyệt vời cho đoàn 16 người của bà vì thời tiết có nắng và khô ráo, rất hoàn hảo cho các chuyến đi ngoài trời và bãi biển.",
+              "en": "First, visiting from 2 to 7 July is a wonderful time for your group of 16 people because the weather is sunny and dry, which is perfect for outdoor trips and beaches.",
+              "formula": "First, visiting from 2 to 7 July is... because...",
+              "vocab_hints": [
+                {
+                  "en": "group of 16 people",
+                  "vi": "đoàn 16 người"
+                },
+                {
+                  "en": "sunny and dry",
+                  "vi": "nắng và khô ráo"
+                }
+              ],
+              "explanation": "Nhận xét thời tiết và thời điểm du lịch."
+            },
+            {
+              "id": 3,
+              "part": "3. Thân thư - Ý 2: Thông tin Khách sạn Habana",
+              "vi": "Thứ hai, về Khách sạn Habana, đây là một khách sạn bốn sao rất sạch sẽ nằm ngay trung tâm vì khách sạn có phòng gia đình rộng rãi, nhân viên thân thiện và bữa sáng buffet hàng ngày.",
+              "en": "Second, regarding the Habana Hotel, it is a very clean four-star hotel located right in the center because it has large family rooms, friendly staff, and a daily buffet breakfast.",
+              "formula": "Second, regarding the Habana Hotel, it is... because...",
+              "vocab_hints": [
+                {
+                  "en": "four-star hotel",
+                  "vi": "khách sạn 4 sao"
+                },
+                {
+                  "en": "large family rooms",
+                  "vi": "phòng gia đình rộng rãi"
+                }
+              ],
+              "explanation": "Giới thiệu khách sạn Habana."
+            },
+            {
+              "id": 4,
+              "part": "4. Thân thư - Ý 3: Gợi ý 1–2 trung tâm mua sắm",
+              "vi": "Thứ ba, về mua sắm, tôi gợi ý đoàn ghé thăm Vincom Center và Aeon Mall vì hai trung tâm thương mại lớn này có nhiều cửa hàng quần áo, quà lưu niệm và khu ẩm thực có điều hòa mát mẻ.",
+              "en": "Third, for shopping, I recommend visiting Vincom Center and Aeon Mall because these two large malls have many clothing stores, souvenir shops, and air-conditioned food courts.",
+              "formula": "Third, for shopping, I recommend visiting... because...",
+              "vocab_hints": [
+                {
+                  "en": "clothing stores and souvenir shops",
+                  "vi": "cửa hàng quần áo và quà lưu niệm"
+                },
+                {
+                  "en": "air-conditioned food courts",
+                  "vi": "khu ẩm thực có máy lạnh"
+                }
+              ],
+              "explanation": "Gợi ý 2 trung tâm mua sắm lớn."
+            },
+            {
+              "id": 5,
+              "part": "5. Thân thư - Ý 4: Thể thao cho trẻ em & Kết thư",
+              "vi": "Cuối cùng, các em nhỏ có thể bơi tại hồ bơi của Khách sạn Habana và Trung tâm Thể thao Thanh thiếu niên ở gần đó vì ở đó có sân cầu lông an toàn, sân bóng đá mini và các trò chơi cho trẻ em. Tôi hy vọng thông tin này hữu ích cho chuyến đi của đoàn. Trân trọng,",
+              "en": "Finally, the children can enjoy the swimming pool at the Habana Hotel and the Youth Sports Center nearby because there are safe badminton courts, mini football fields, and games for kids. I hope this information is helpful for your group. Yours sincerely,",
+              "formula": "Finally, the children can enjoy... because... I hope this information is helpful for your group. Yours sincerely,",
+              "vocab_hints": [
+                {
+                  "en": "Youth Sports Center",
+                  "vi": "Trung tâm Thể thao Thanh thiếu niên"
+                },
+                {
+                  "en": "mini football fields",
+                  "vi": "sân bóng đá mini"
+                }
+              ],
+              "explanation": "Gợi ý thể thao cho trẻ và kết thư trang trọng."
+            }
+          ],
+          "sentence_practice_b2": [
+            {
+              "id": 1,
+              "part": "1. Mở thư (Opening - Trang trọng)",
+              "vi": "Kính gửi bà Davidson, cảm ơn email của bà về chuyến thăm sắp tới của đoàn từ ngày 2 đến ngày 7 tháng 7. Tôi rất vui được cung cấp thông tin hữu ích cho đoàn của bà.",
+              "en": "Dear Mrs. Davidson, thank you for your email about your group’s upcoming visit from 2 to 7 July. I am very glad to give you some helpful local information.",
+              "formula": "Dear Mrs. Davidson, thank you for your email about... I am very glad to give you some helpful local information.",
+              "vocab_hints": [
+                {
+                  "en": "upcoming visit",
+                  "vi": "chuyến thăm sắp tới"
+                },
+                {
+                  "en": "helpful local information",
+                  "vi": "thông tin địa phương hữu ích"
+                }
+              ],
+              "explanation": "Mở thư trang trọng chuẩn B1 cho trưởng đoàn."
+            },
+            {
+              "id": 2,
+              "part": "2. Thân thư - Ý 1: Thời điểm 2–7/7 có tốt không",
+              "vi": "Đầu tiên, đến thăm từ ngày 2 đến ngày 7 tháng 7 là một thời điểm tuyệt vời cho đoàn 16 người của bà vì thời tiết có nắng và khô ráo, rất hoàn hảo cho các chuyến đi ngoài trời và bãi biển.",
+              "en": "First, visiting from 2 to 7 July is a wonderful time for your group of 16 people because the weather is sunny and dry, which is perfect for outdoor trips and beaches.",
+              "formula": "First, visiting from 2 to 7 July is... because...",
+              "vocab_hints": [
+                {
+                  "en": "group of 16 people",
+                  "vi": "đoàn 16 người"
+                },
+                {
+                  "en": "sunny and dry",
+                  "vi": "nắng và khô ráo"
+                }
+              ],
+              "explanation": "Nhận xét thời tiết và thời điểm du lịch."
+            },
+            {
+              "id": 3,
+              "part": "3. Thân thư - Ý 2: Thông tin Khách sạn Habana",
+              "vi": "Thứ hai, về Khách sạn Habana, đây là một khách sạn bốn sao rất sạch sẽ nằm ngay trung tâm vì khách sạn có phòng gia đình rộng rãi, nhân viên thân thiện và bữa sáng buffet hàng ngày.",
+              "en": "Second, regarding the Habana Hotel, it is a very clean four-star hotel located right in the center because it has large family rooms, friendly staff, and a daily buffet breakfast.",
+              "formula": "Second, regarding the Habana Hotel, it is... because...",
+              "vocab_hints": [
+                {
+                  "en": "four-star hotel",
+                  "vi": "khách sạn 4 sao"
+                },
+                {
+                  "en": "large family rooms",
+                  "vi": "phòng gia đình rộng rãi"
+                }
+              ],
+              "explanation": "Giới thiệu khách sạn Habana."
+            },
+            {
+              "id": 4,
+              "part": "4. Thân thư - Ý 3: Gợi ý 1–2 trung tâm mua sắm",
+              "vi": "Thứ ba, về mua sắm, tôi gợi ý đoàn ghé thăm Vincom Center và Aeon Mall vì hai trung tâm thương mại lớn này có nhiều cửa hàng quần áo, quà lưu niệm và khu ẩm thực có điều hòa mát mẻ.",
+              "en": "Third, for shopping, I recommend visiting Vincom Center and Aeon Mall because these two large malls have many clothing stores, souvenir shops, and air-conditioned food courts.",
+              "formula": "Third, for shopping, I recommend visiting... because...",
+              "vocab_hints": [
+                {
+                  "en": "clothing stores and souvenir shops",
+                  "vi": "cửa hàng quần áo và quà lưu niệm"
+                },
+                {
+                  "en": "air-conditioned food courts",
+                  "vi": "khu ẩm thực có máy lạnh"
+                }
+              ],
+              "explanation": "Gợi ý 2 trung tâm mua sắm lớn."
+            },
+            {
+              "id": 5,
+              "part": "5. Thân thư - Ý 4: Thể thao cho trẻ em & Kết thư",
+              "vi": "Cuối cùng, các em nhỏ có thể bơi tại hồ bơi của Khách sạn Habana và Trung tâm Thể thao Thanh thiếu niên ở gần đó vì ở đó có sân cầu lông an toàn, sân bóng đá mini và các trò chơi cho trẻ em. Tôi hy vọng thông tin này hữu ích cho chuyến đi của đoàn. Trân trọng,",
+              "en": "Finally, the children can enjoy the swimming pool at the Habana Hotel and the Youth Sports Center nearby because there are safe badminton courts, mini football fields, and games for kids. I hope this information is helpful for your group. Yours sincerely,",
+              "formula": "Finally, the children can enjoy... because... I hope this information is helpful for your group. Yours sincerely,",
+              "vocab_hints": [
+                {
+                  "en": "Youth Sports Center",
+                  "vi": "Trung tâm Thể thao Thanh thiếu niên"
+                },
+                {
+                  "en": "mini football fields",
+                  "vi": "sân bóng đá mini"
+                }
+              ],
+              "explanation": "Gợi ý thể thao cho trẻ và kết thư trang trọng."
+            }
+          ],
+          "sample_b1": {
+            "letter_en": "Dear Mrs. Davidson,\n\nThank you for your email about your group’s upcoming visit from 2 to 7 July. I am very glad to give you some helpful local information.\n\nFirst, visiting from 2 to 7 July is a wonderful time for your group of 16 people because the weather is sunny and dry, which is perfect for outdoor trips and beaches.\n\nSecond, regarding the Habana Hotel, it is a very clean four-star hotel located right in the center because it has large family rooms, friendly staff, and a daily buffet breakfast.\n\nThird, for shopping, I recommend visiting Vincom Center and Aeon Mall because these two large malls have many clothing stores, souvenir shops, and air-conditioned food courts.\n\nFinally, the children can enjoy the swimming pool at the Habana Hotel and the Youth Sports Center nearby because there are safe badminton courts, mini football fields, and games for kids.\n\nI hope this information is helpful for your group. Please contact me if you need any further assistance.\n\nYours sincerely,",
+            "letter_vi": "Kính gửi bà Davidson,\n\nCảm ơn email của bà về chuyến thăm sắp tới của đoàn từ ngày 2 đến ngày 7 tháng 7. Tôi rất vui được cung cấp thông tin hữu ích cho đoàn của bà.\n\nĐầu tiên, đến thăm từ ngày 2 đến ngày 7 tháng 7 là một thời điểm tuyệt vời cho đoàn 16 người của bà vì thời tiết có nắng và khô ráo, rất hoàn hảo cho các chuyến đi ngoài trời và bãi biển.\n\nThứ hai, về Khách sạn Habana, đây là một khách sạn bốn sao rất sạch sẽ nằm ngay trung tâm vì khách sạn có phòng gia đình rộng rãi, nhân viên thân thiện và bữa sáng buffet hàng ngày.\n\nThứ ba, về mua sắm, tôi gợi ý đoàn ghé thăm Vincom Center và Aeon Mall vì hai trung tâm thương mại lớn này có nhiều cửa hàng quần áo, quà lưu niệm và khu ẩm thực có điều hòa mát mẻ.\n\nCuối cùng, các em nhỏ có thể bơi tại hồ bơi của Khách sạn Habana và Trung tâm Thể thao Thanh thiếu niên ở gần đó vì ở đó có sân cầu lông an toàn, sân bóng đá mini và các trò chơi cho trẻ em.\n\nTôi hy vọng thông tin này hữu ích cho chuyến đi của đoàn. Xin vui lòng liên hệ với tôi nếu bà cần hỗ trợ thêm.\n\nTrân trọng,",
+            "text": "Dear Mrs. Davidson,\n\nThank you for your email about your group’s upcoming visit from 2 to 7 July. I am very glad to give you some helpful local information.\n\nFirst, visiting from 2 to 7 July is a wonderful time for your group of 16 people because the weather is sunny and dry, which is perfect for outdoor trips and beaches.\n\nSecond, regarding the Habana Hotel, it is a very clean four-star hotel located right in the center because it has large family rooms, friendly staff, and a daily buffet breakfast.\n\nThird, for shopping, I recommend visiting Vincom Center and Aeon Mall because these two large malls have many clothing stores, souvenir shops, and air-conditioned food courts.\n\nFinally, the children can enjoy the swimming pool at the Habana Hotel and the Youth Sports Center nearby because there are safe badminton courts, mini football fields, and games for kids.\n\nI hope this information is helpful for your group. Please contact me if you need any further assistance.\n\nYours sincerely,",
+            "translation": "Kính gửi bà Davidson,\n\nCảm ơn email của bà về chuyến thăm sắp tới của đoàn từ ngày 2 đến ngày 7 tháng 7. Tôi rất vui được cung cấp thông tin hữu ích cho đoàn của bà.\n\nĐầu tiên, đến thăm từ ngày 2 đến ngày 7 tháng 7 là một thời điểm tuyệt vời cho đoàn 16 người của bà vì thời tiết có nắng và khô ráo, rất hoàn hảo cho các chuyến đi ngoài trời và bãi biển.\n\nThứ hai, về Khách sạn Habana, đây là một khách sạn bốn sao rất sạch sẽ nằm ngay trung tâm vì khách sạn có phòng gia đình rộng rãi, nhân viên thân thiện và bữa sáng buffet hàng ngày.\n\nThứ ba, về mua sắm, tôi gợi ý đoàn ghé thăm Vincom Center và Aeon Mall vì hai trung tâm thương mại lớn này có nhiều cửa hàng quần áo, quà lưu niệm và khu ẩm thực có điều hòa mát mẻ.\n\nCuối cùng, các em nhỏ có thể bơi tại hồ bơi của Khách sạn Habana và Trung tâm Thể thao Thanh thiếu niên ở gần đó vì ở đó có sân cầu lông an toàn, sân bóng đá mini và các trò chơi cho trẻ em.\n\nTôi hy vọng thông tin này hữu ích cho chuyến đi của đoàn. Xin vui lòng liên hệ với tôi nếu bà cần hỗ trợ thêm.\n\nTrân trọng,",
+            "word_count": 168,
+            "key_structures": []
+          },
+          "sample_b2": {
+            "letter_en": "Dear Mrs. Davidson,\n\nThank you for your email about your group’s upcoming visit from 2 to 7 July. I am very glad to give you some helpful local information.\n\nFirst, visiting from 2 to 7 July is a wonderful time for your group of 16 people because the weather is sunny and dry, which is perfect for outdoor trips and beaches.\n\nSecond, regarding the Habana Hotel, it is a very clean four-star hotel located right in the center because it has large family rooms, friendly staff, and a daily buffet breakfast.\n\nThird, for shopping, I recommend visiting Vincom Center and Aeon Mall because these two large malls have many clothing stores, souvenir shops, and air-conditioned food courts.\n\nFinally, the children can enjoy the swimming pool at the Habana Hotel and the Youth Sports Center nearby because there are safe badminton courts, mini football fields, and games for kids.\n\nI hope this information is helpful for your group. Please contact me if you need any further assistance.\n\nYours sincerely,",
+            "letter_vi": "Kính gửi bà Davidson,\n\nCảm ơn email của bà về chuyến thăm sắp tới của đoàn từ ngày 2 đến ngày 7 tháng 7. Tôi rất vui được cung cấp thông tin hữu ích cho đoàn của bà.\n\nĐầu tiên, đến thăm từ ngày 2 đến ngày 7 tháng 7 là một thời điểm tuyệt vời cho đoàn 16 người của bà vì thời tiết có nắng và khô ráo, rất hoàn hảo cho các chuyến đi ngoài trời và bãi biển.\n\nThứ hai, về Khách sạn Habana, đây là một khách sạn bốn sao rất sạch sẽ nằm ngay trung tâm vì khách sạn có phòng gia đình rộng rãi, nhân viên thân thiện và bữa sáng buffet hàng ngày.\n\nThứ ba, về mua sắm, tôi gợi ý đoàn ghé thăm Vincom Center và Aeon Mall vì hai trung tâm thương mại lớn này có nhiều cửa hàng quần áo, quà lưu niệm và khu ẩm thực có điều hòa mát mẻ.\n\nCuối cùng, các em nhỏ có thể bơi tại hồ bơi của Khách sạn Habana và Trung tâm Thể thao Thanh thiếu niên ở gần đó vì ở đó có sân cầu lông an toàn, sân bóng đá mini và các trò chơi cho trẻ em.\n\nTôi hy vọng thông tin này hữu ích cho chuyến đi của đoàn. Xin vui lòng liên hệ với tôi nếu bà cần hỗ trợ thêm.\n\nTrân trọng,",
+            "text": "Dear Mrs. Davidson,\n\nThank you for your email about your group’s upcoming visit from 2 to 7 July. I am very glad to give you some helpful local information.\n\nFirst, visiting from 2 to 7 July is a wonderful time for your group of 16 people because the weather is sunny and dry, which is perfect for outdoor trips and beaches.\n\nSecond, regarding the Habana Hotel, it is a very clean four-star hotel located right in the center because it has large family rooms, friendly staff, and a daily buffet breakfast.\n\nThird, for shopping, I recommend visiting Vincom Center and Aeon Mall because these two large malls have many clothing stores, souvenir shops, and air-conditioned food courts.\n\nFinally, the children can enjoy the swimming pool at the Habana Hotel and the Youth Sports Center nearby because there are safe badminton courts, mini football fields, and games for kids.\n\nI hope this information is helpful for your group. Please contact me if you need any further assistance.\n\nYours sincerely,",
+            "translation": "Kính gửi bà Davidson,\n\nCảm ơn email của bà về chuyến thăm sắp tới của đoàn từ ngày 2 đến ngày 7 tháng 7. Tôi rất vui được cung cấp thông tin hữu ích cho đoàn của bà.\n\nĐầu tiên, đến thăm từ ngày 2 đến ngày 7 tháng 7 là một thời điểm tuyệt vời cho đoàn 16 người của bà vì thời tiết có nắng và khô ráo, rất hoàn hảo cho các chuyến đi ngoài trời và bãi biển.\n\nThứ hai, về Khách sạn Habana, đây là một khách sạn bốn sao rất sạch sẽ nằm ngay trung tâm vì khách sạn có phòng gia đình rộng rãi, nhân viên thân thiện và bữa sáng buffet hàng ngày.\n\nThứ ba, về mua sắm, tôi gợi ý đoàn ghé thăm Vincom Center và Aeon Mall vì hai trung tâm thương mại lớn này có nhiều cửa hàng quần áo, quà lưu niệm và khu ẩm thực có điều hòa mát mẻ.\n\nCuối cùng, các em nhỏ có thể bơi tại hồ bơi của Khách sạn Habana và Trung tâm Thể thao Thanh thiếu niên ở gần đó vì ở đó có sân cầu lông an toàn, sân bóng đá mini và các trò chơi cho trẻ em.\n\nTôi hy vọng thông tin này hữu ích cho chuyến đi của đoàn. Xin vui lòng liên hệ với tôi nếu bà cần hỗ trợ thêm.\n\nTrân trọng,",
+            "word_count": 168,
+            "key_structures": []
+          }
+        }
       }
     ]
   },
@@ -4203,7 +8160,7 @@ const LETTERS_DATA = [
       {
         "id": "de-03",
         "title_en": "Request for details about a summer cooking course at Delight Kitchen",
-        "title_vi": "Đề 03: Hỏi thông tin chi tiết khóa học nấu ăn mùa hè tại trung tâm Delight Kitchen",
+        "title_vi": "Đề 01: Hỏi thông tin chi tiết khóa học nấu ăn mùa hè tại trung tâm Delight Kitchen",
         "recipient_type": "Formal (Quản lý trung tâm nấu ăn)",
         "target_words": 120,
         "tags": [
@@ -4355,13 +8312,13 @@ const LETTERS_DATA = [
               "id": 1,
               "part": "Yêu cầu chi tiết B2",
               "vi": "Tôi sẽ rất biết ơn nếu ông/bà có thể gửi cho tôi bản đề cương chi tiết về chương trình ẩm thực, bao gồm cả chứng chỉ nghề nghiệp của các đầu bếp phụ trách.",
-              "en": "I would be immensely grateful if you could forward a comprehensive syllabus of the culinary curriculum, including the professional credentials of the presiding chefs.",
+              "en": "I would be immensely grateful if you could forward a comprehensive syllabus of the food curriculum, including the professional credentials of the presiding chefs.",
               "hints": [
                 "immensely grateful if you could forward",
-                "comprehensive syllabus of the culinary curriculum",
+                "comprehensive syllabus of the food curriculum",
                 "professional credentials"
               ],
-              "explanation": "Từ vựng B2: 'immensely grateful', 'culinary curriculum' (chương trình ẩm thực), 'credentials' (bằng cấp chuyên môn)."
+              "explanation": "Từ vựng B2: 'immensely grateful', 'food curriculum' (chương trình ẩm thực), 'credentials' (bằng cấp chuyên môn)."
             }
           ],
           "sample_b1": {
@@ -4390,9 +8347,9 @@ const LETTERS_DATA = [
             ]
           },
           "sample_b2": {
-            "letter_en": "Dear Sir/Madam,\n\nI am writing to formally request further details regarding the summer culinary course at Delight Kitchen, as I am planning to enroll in the upcoming intake to enhance my cooking abilities.\n\nTo begin with, can you let me know more about the course timetable and campus locations? I need to verify whether the session hours fit comfortably around my full-time work commitments. Secondly, I’d like to get more details about the comprehensive tuition fees and whether necessary kitchen supplies and premium ingredients are fully covered. Next, can you give me more information about the culinary instructors? I want to ensure that they possess extensive industry expertise and demonstrate a supportive pedagogical approach for culinary novices. Finally, I’m also wondering about the training curriculum. Could you share what specific Vietnamese and Western cuisines the practical syllabus emphasizes?\n\nI would be exceedingly grateful for your guidance and assistance. I look forward to receiving your response soon.\n\nYours faithfully,",
+            "letter_en": "Dear Sir/Madam,\n\nI am writing to formally request further details regarding the summer food course at Delight Kitchen, as I am planning to enroll in the upcoming intake to enhance my cooking abilities.\n\nTo begin with, can you let me know more about the course timetable and campus locations? I need to verify whether the session hours fit comfortably around my full-time work commitments. Secondly, I’d like to get more details about the comprehensive tuition fees and whether necessary kitchen supplies and premium ingredients are fully covered. Next, can you give me more information about the food instructors? I want to ensure that they possess extensive industry expertise and demonstrate a supportive pedagogical approach for food novices. Finally, I’m also wondering about the training curriculum. Could you share what specific Vietnamese and Western cuisines the practical syllabus emphasizes?\n\nI would be exceedingly grateful for your guidance and assistance. I look forward to receiving your response soon.\n\nYours faithfully,",
             "letter_vi": "Kính gửi Ban Tuyển sinh,\n\nTôi viết thư này để xin thêm thông tin chi tiết về khóa học ẩm thực mùa hè tại Delight Kitchen, vì tôi đang lên kế hoạch đăng ký khóa học tới nhằm nâng cao kỹ năng nấu nướng của mình.\n\nTrước hết, xin quý trung tâm cho tôi biết thêm về thời khóa biểu khóa học và địa điểm trung tâm? Tôi cần kiểm tra xem giờ học có phù hợp với lịch làm việc toàn thời gian của mình hay không. Thứ hai, tôi muốn có thêm thông tin chi tiết về học phí trọn gói và liệu các dụng cụ làm bếp cùng nguyên liệu cao cấp đã được bao gồm hoàn toàn hay chưa. Tiếp theo, xin vui lòng cung cấp thêm thông tin về các giảng viên ẩm thực? Tôi muốn đảm bảo rằng họ có chuyên môn sâu rộng trong ngành và có phương pháp sư phạm tận tình cho học viên mới. Cuối cùng, tôi cũng muốn tìm hiểu về chương trình đào tạo. Xin vui lòng chia sẻ những món ăn Việt Nam và phương Tây cụ thể mà giáo trình thực hành chú trọng?\n\nTôi sẽ vô cùng biết ơn sự hướng dẫn và hỗ trợ của quý trung tâm. Tôi rất mong sớm nhận được phản hồi.\n\nTrân trọng,",
-            "text": "Dear Sir/Madam,\n\nI am writing to formally request further details regarding the summer culinary course at Delight Kitchen, as I am planning to enroll in the upcoming intake to enhance my cooking abilities.\n\nTo begin with, can you let me know more about the course timetable and campus locations? I need to verify whether the session hours fit comfortably around my full-time work commitments. Secondly, I’d like to get more details about the comprehensive tuition fees and whether necessary kitchen supplies and premium ingredients are fully covered. Next, can you give me more information about the culinary instructors? I want to ensure that they possess extensive industry expertise and demonstrate a supportive pedagogical approach for culinary novices. Finally, I’m also wondering about the training curriculum. Could you share what specific Vietnamese and Western cuisines the practical syllabus emphasizes?\n\nI would be exceedingly grateful for your guidance and assistance. I look forward to receiving your response soon.\n\nYours faithfully,",
+            "text": "Dear Sir/Madam,\n\nI am writing to formally request further details regarding the summer food course at Delight Kitchen, as I am planning to enroll in the upcoming intake to enhance my cooking abilities.\n\nTo begin with, can you let me know more about the course timetable and campus locations? I need to verify whether the session hours fit comfortably around my full-time work commitments. Secondly, I’d like to get more details about the comprehensive tuition fees and whether necessary kitchen supplies and premium ingredients are fully covered. Next, can you give me more information about the food instructors? I want to ensure that they possess extensive industry expertise and demonstrate a supportive pedagogical approach for food novices. Finally, I’m also wondering about the training curriculum. Could you share what specific Vietnamese and Western cuisines the practical syllabus emphasizes?\n\nI would be exceedingly grateful for your guidance and assistance. I look forward to receiving your response soon.\n\nYours faithfully,",
             "translation": "Kính gửi Ban Tuyển sinh,\n\nTôi viết thư này để xin thêm thông tin chi tiết về khóa học ẩm thực mùa hè tại Delight Kitchen, vì tôi đang lên kế hoạch đăng ký khóa học tới nhằm nâng cao kỹ năng nấu nướng của mình.\n\nTrước hết, xin quý trung tâm cho tôi biết thêm về thời khóa biểu khóa học và địa điểm trung tâm? Tôi cần kiểm tra xem giờ học có phù hợp với lịch làm việc toàn thời gian của mình hay không. Thứ hai, tôi muốn có thêm thông tin chi tiết về học phí trọn gói và liệu các dụng cụ làm bếp cùng nguyên liệu cao cấp đã được bao gồm hoàn toàn hay chưa. Tiếp theo, xin vui lòng cung cấp thêm thông tin về các giảng viên ẩm thực? Tôi muốn đảm bảo rằng họ có chuyên môn sâu rộng trong ngành và có phương pháp sư phạm tận tình cho học viên mới. Cuối cùng, tôi cũng muốn tìm hiểu về chương trình đào tạo. Xin vui lòng chia sẻ những món ăn Việt Nam và phương Tây cụ thể mà giáo trình thực hành chú trọng?\n\nTôi sẽ vô cùng biết ơn sự hướng dẫn và hỗ trợ của quý trung tâm. Tôi rất mong sớm nhận được phản hồi.\n\nTrân trọng,",
             "word_count": 158,
             "key_structures": [
@@ -4510,7 +8467,7 @@ const LETTERS_DATA = [
               "icon": "fa-user-tie",
               "options": [
                 {
-                  "action_en": "ask about the culinary background and credentials of the head chefs",
+                  "action_en": "ask about the food background and credentials of the head chefs",
                   "action_vi": "hỏi về bằng cấp chuyên môn và kinh nghiệm ẩm thực của các bếp trưởng",
                   "reason_en": "because I wish to receive instruction from seasoned professionals with restaurant experience.",
                   "reason_vi": "vì tớ muốn học hỏi từ các chuyên gia ẩm thực có kinh nghiệm tại các nhà hàng danh tiếng."
@@ -4518,7 +8475,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "inquire whether instructors demonstrate step-by-step guidance for beginners",
                   "action_vi": "hỏi xem giảng viên có hướng dẫn từng bước một cho người mới bắt đầu không",
-                  "reason_en": "because I have very little prior culinary experience and need patient coaching.",
+                  "reason_en": "because I have very little prior food experience and need patient coaching.",
                   "reason_vi": "vì tớ chưa từng có nhiều kinh nghiệm làm bếp và rất cần sự chỉ dẫn kiên nhẫn."
                 },
                 {
@@ -4536,7 +8493,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "ask if native foreign chefs teach international cuisine modules",
                   "action_vi": "hỏi xem các đầu bếp nước ngoài có trực tiếp giảng dạy các học phần món Âu không",
-                  "reason_en": "because authentic culinary nuances are best conveyed by native culinary experts.",
+                  "reason_en": "because traditional food nuances are best conveyed by native food experts.",
                   "reason_vi": "vì hương vị và kỹ thuật chuẩn phong cách Âu sẽ được truyền tải chân thực nhất."
                 },
                 {
@@ -4549,7 +8506,7 @@ const LETTERS_DATA = [
             },
             {
               "id": 4,
-              "title_en": "4. Curriculum content & culinary skills taught",
+              "title_en": "4. Curriculum content & food skills taught",
               "title_vi": "Giáo trình học & kỹ năng nấu nướng",
               "icon": "fa-utensils",
               "options": [
@@ -4560,7 +8517,7 @@ const LETTERS_DATA = [
                   "reason_vi": "vì tớ muốn nấu thành thạo các món ăn truyền thống thơm ngon cho gia đình."
                 },
                 {
-                  "action_en": "inquire whether modern Western culinary techniques like searing and pasta-making are included",
+                  "action_en": "inquire whether modern Western food techniques like searing and pasta-making are included",
                   "action_vi": "hỏi xem các kỹ thuật món Âu như áp chảo và làm mì pasta tươi có được dạy không",
                   "reason_en": "because I am particularly passionate about European cooking methods and pastry baking.",
                   "reason_vi": "vì tớ rất đam mê các phương pháp chế biến món Âu và làm bánh ngọt."
@@ -4568,7 +8525,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "ask if students learn professional knife handling and food plating aesthetics",
                   "action_vi": "hỏi xem học viên có được đào tạo kỹ năng dùng dao chuyên nghiệp và bày trí đĩa ăn không",
-                  "reason_en": "because attractive visual presentation is an essential element of modern culinary arts.",
+                  "reason_en": "because attractive visual presentation is an essential element of modern food arts.",
                   "reason_vi": "vì cách bày trí món ăn bắt mắt là yếu tố rất quan trọng trong nghệ thuật ẩm thực hiện đại."
                 },
                 {
@@ -4580,7 +8537,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "ask whether students can package and take home their self-cooked creations",
                   "action_vi": "hỏi xem học viên có được đóng hộp mang món ăn tự nấu về nhà không",
-                  "reason_en": "because I would love to share my culinary accomplishments with my family members.",
+                  "reason_en": "because I would love to share my food accomplishments with my family members.",
                   "reason_vi": "vì tớ rất muốn chia sẻ thành quả nấu nướng của mình cho người thân cùng thưởng thức."
                 },
                 {
@@ -4597,7 +8554,7 @@ const LETTERS_DATA = [
       {
         "id": "de-04",
         "title_en": "Inquiry to a friend about a Chinese language course",
-        "title_vi": "Đề 04: Hỏi bạn kinh nghiệm và thông tin lớp học tiếng Trung hè",
+        "title_vi": "Đề 02: Hỏi bạn kinh nghiệm và thông tin lớp học tiếng Trung hè",
         "recipient_type": "Informal (Bạn thân - Linda)",
         "target_words": 120,
         "tags": [
@@ -4781,9 +8738,9 @@ const LETTERS_DATA = [
             ]
           },
           "sample_b2": {
-            "letter_en": "Dear Linda,\n\nHow have you been lately? I hope everything is going well. I’m writing to ask for some information about the beginner Chinese course at New Horizon Language Center, as I’m planning to enroll there next month to prepare for my upcoming studies.\n\nTo begin with, can you let me know more about the location and commuting convenience of the center? I want to make sure it is easily accessible by bus from my university dormitory. Secondly, I’d like to get more details about the total tuition fee and course materials. It is important for me to prepare an adequate budget beforehand. Next, can you give me more information about the instructors and their instructional methods? I want to be certain that the classes focus heavily on authentic pronunciation and basic conversational dialogue. Finally, I’m also wondering about the class schedule and pacing. Could you tell me whether the weekly study load is manageable alongside university assignments?\n\nI hope you can help me with this. I’m looking forward to hearing from you. Write back soon.\n\nBest wishes,",
+            "letter_en": "Dear Linda,\n\nHow have you been lately? I hope everything is going well. I’m writing to ask for some information about the beginner Chinese course at New Horizon Language Center, as I’m planning to enroll there next month to prepare for my upcoming studies.\n\nTo begin with, can you let me know more about the location and commuting convenience of the center? I want to make sure it is easily accessible by bus from my university dormitory. Secondly, I’d like to get more details about the total tuition fee and course materials. It is important for me to prepare an adequate budget beforehand. Next, can you give me more information about the instructors and their instructional methods? I want to be certain that the classes focus heavily on traditional pronunciation and basic conversational dialogue. Finally, I’m also wondering about the class schedule and pacing. Could you tell me whether the weekly study load is manageable alongside university assignments?\n\nI hope you can help me with this. I’m looking forward to hearing from you. Write back soon.\n\nBest wishes,",
             "letter_vi": "Linda thân mến,\n\nDạo này cậu thế nào? Tớ hy vọng mọi việc vẫn thuận lợi. Tớ viết thư này để hỏi một số thông tin về khóa tiếng Trung sơ cấp tại trung tâm New Horizon, vì tớ đang dự định đăng ký vào tháng tới để chuẩn bị cho việc học sắp tới.\n\nTrước hết, cậu có thể cho tớ biết thêm về địa điểm và sự thuận tiện đi lại của trung tâm không? Tớ muốn chắc chắn rằng có thể dễ dàng đi xe buýt từ ký túc xá đại học đến đó. Thứ hai, tớ muốn biết thêm chi tiết về tổng học phí và giáo trình học. Điều quan trọng là tớ cần chuẩn bị ngân sách đầy đủ từ trước. Tiếp theo, cậu có thể cho tớ thêm thông tin về giảng viên và phương pháp giảng dạy của họ không? Tớ muốn chắc chắn rằng các lớp học tập trung nhiều vào phát âm chuẩn và đàm thoại cơ bản. Cuối cùng, tớ cũng thắc mắc về thời khóa biểu và tiến độ bài học. Cậu có thể chia sẻ liệu khối lượng học tập hàng tuần có dễ dàng sắp xếp cùng với các bài tập đại học không?\n\nTớ hy vọng cậu có thể giúp tớ giải đáp những thắc mắc này. Tớ rất mong sớm nhận được hồi âm từ cậu. Viết lại sớm nhé.\n\nChúc những điều tốt đẹp nhất,",
-            "text": "Dear Linda,\n\nHow have you been lately? I hope everything is going well. I’m writing to ask for some information about the beginner Chinese course at New Horizon Language Center, as I’m planning to enroll there next month to prepare for my upcoming studies.\n\nTo begin with, can you let me know more about the location and commuting convenience of the center? I want to make sure it is easily accessible by bus from my university dormitory. Secondly, I’d like to get more details about the total tuition fee and course materials. It is important for me to prepare an adequate budget beforehand. Next, can you give me more information about the instructors and their instructional methods? I want to be certain that the classes focus heavily on authentic pronunciation and basic conversational dialogue. Finally, I’m also wondering about the class schedule and pacing. Could you tell me whether the weekly study load is manageable alongside university assignments?\n\nI hope you can help me with this. I’m looking forward to hearing from you. Write back soon.\n\nBest wishes,",
+            "text": "Dear Linda,\n\nHow have you been lately? I hope everything is going well. I’m writing to ask for some information about the beginner Chinese course at New Horizon Language Center, as I’m planning to enroll there next month to prepare for my upcoming studies.\n\nTo begin with, can you let me know more about the location and commuting convenience of the center? I want to make sure it is easily accessible by bus from my university dormitory. Secondly, I’d like to get more details about the total tuition fee and course materials. It is important for me to prepare an adequate budget beforehand. Next, can you give me more information about the instructors and their instructional methods? I want to be certain that the classes focus heavily on traditional pronunciation and basic conversational dialogue. Finally, I’m also wondering about the class schedule and pacing. Could you tell me whether the weekly study load is manageable alongside university assignments?\n\nI hope you can help me with this. I’m looking forward to hearing from you. Write back soon.\n\nBest wishes,",
             "translation": "Linda thân mến,\n\nDạo này cậu thế nào? Tớ hy vọng mọi việc vẫn thuận lợi. Tớ viết thư này để hỏi một số thông tin về khóa tiếng Trung sơ cấp tại trung tâm New Horizon, vì tớ đang dự định đăng ký vào tháng tới để chuẩn bị cho việc học sắp tới.\n\nTrước hết, cậu có thể cho tớ biết thêm về địa điểm và sự thuận tiện đi lại của trung tâm không? Tớ muốn chắc chắn rằng có thể dễ dàng đi xe buýt từ ký túc xá đại học đến đó. Thứ hai, tớ muốn biết thêm chi tiết về tổng học phí và giáo trình học. Điều quan trọng là tớ cần chuẩn bị ngân sách đầy đủ từ trước. Tiếp theo, cậu có thể cho tớ thêm thông tin về giảng viên và phương pháp giảng dạy của họ không? Tớ muốn chắc chắn rằng các lớp học tập trung nhiều vào phát âm chuẩn và đàm thoại cơ bản. Cuối cùng, tớ cũng thắc mắc về thời khóa biểu và tiến độ bài học. Cậu có thể chia sẻ liệu khối lượng học tập hàng tuần có dễ dàng sắp xếp cùng với các bài tập đại học không?\n\nTớ hy vọng cậu có thể giúp tớ giải đáp những thắc mắc này. Tớ rất mong sớm nhận được hồi âm từ cậu. Viết lại sớm nhé.\n\nChúc những điều tốt đẹp nhất,",
             "word_count": 178,
             "key_structures": [
@@ -4875,7 +8832,7 @@ const LETTERS_DATA = [
                   "reason_vi": "vì bất kỳ khoản ưu đãi nào cũng rất quý giá đối với sinh viên như tớ."
                 },
                 {
-                  "action_en": "ask whether learners receive complimentary vocabulary flashcards and mobile apps",
+                  "action_en": "ask whether learners receive free vocabulary flashcards and mobile apps",
                   "action_vi": "hỏi xem học viên có được cấp thẻ nhớ từ vựng và ứng dụng học trên điện thoại không",
                   "reason_en": "because digital apps make memorizing tricky Chinese characters far more efficient.",
                   "reason_vi": "vì ứng dụng học tập giúp việc ghi nhớ các nét chữ Hán trở nên nhanh chóng hơn."
@@ -4909,7 +8866,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "inquire whether native Chinese lecturers teach alongside Vietnamese teachers",
                   "action_vi": "hỏi xem giáo viên bản xứ có cùng giảng dạy với giảng viên Việt Nam không",
-                  "reason_en": "because learning from native speakers ensures natural pronunciation and authentic accents.",
+                  "reason_en": "because learning from native speakers ensures natural pronunciation and traditional accents.",
                   "reason_vi": "vì học cùng người bản xứ giúp luyện chuẩn ngữ điệu và phát âm tự nhiên nhất."
                 },
                 {
@@ -4988,7 +8945,7 @@ const LETTERS_DATA = [
       {
         "id": "de-16",
         "title_en": "Inquiry about English course at Rainbow Language Center",
-        "title_vi": "Đề 16: Hỏi bạn thông tin về khóa học tiếng Anh tại Rainbow Language Center",
+        "title_vi": "Đề 03: Hỏi bạn thông tin về khóa học tiếng Anh tại Rainbow Language Center",
         "recipient_type": "Informal (Bạn thân)",
         "target_words": 120,
         "tags": [
@@ -5489,7 +9446,7 @@ const LETTERS_DATA = [
               "id": 1,
               "part": "Diễn đạt nâng cao B2 - Hỏi học phí & Chương trình đào tạo",
               "vi": "Xét về mặt tài chính, tôi muốn hỏi liệu mức học phí trọn gói đã bao gồm toàn bộ giáo trình chuyên sâu chưa, đồng thời liệu chương trình đào tạo có kết hợp các buổi thi thử định kỳ nhằm mô phỏng áp lực phòng thi thực tế hay không.",
-              "en": "In terms of financial aspects, I would like to inquire whether the all-inclusive tuition fee covers all specialized coursebooks, and whether the curriculum incorporates regular mock examinations to simulate authentic test conditions.",
+              "en": "In terms of financial aspects, I would like to inquire whether the all-inclusive tuition fee covers all specialized coursebooks, and whether the curriculum incorporates regular mock examinations to simulate traditional test conditions.",
               "vocab_hints": [
                 {
                   "en": "all-inclusive tuition fee",
@@ -5570,7 +9527,7 @@ const LETTERS_DATA = [
       {
         "id": "de-17",
         "title_en": "Inquiry to Linda about Chinese course at Happy Chinese Language Center",
-        "title_vi": "Đề 17: Hỏi Linda thông tin khóa học tiếng Trung tại Happy Chinese Language Center",
+        "title_vi": "Đề 04: Hỏi Linda thông tin khóa học tiếng Trung tại Happy Chinese Language Center",
         "recipient_type": "Informal (Bạn thân - Linda)",
         "target_words": 120,
         "tags": [
@@ -5767,7 +9724,7 @@ const LETTERS_DATA = [
                   "reason_vi": "vì được học tại nhà vào những ngày mưa gió rất tiện lợi."
                 },
                 {
-                  "action_en": "ask when the next batch of classes will officially commence",
+                  "action_en": "ask when the next batch of classes will officially start",
                   "action_vi": "hỏi khi nào khóa học tiếp theo sẽ chính thức khai giảng",
                   "reason_en": "because I want to register early before slots fill up.",
                   "reason_vi": "vì tớ muốn đăng ký sớm trước khi lớp hết chỗ."
@@ -6125,7 +10082,7 @@ const LETTERS_DATA = [
       {
         "id": "de-37",
         "title_en": "Information letter to airport officer Mrs. Lan regarding lost suitcase details",
-        "title_vi": "Đề 37: Cung cấp thông tin hành lý thất lạc tại sân bay cho cô Lan",
+        "title_vi": "Đề 05: Cung cấp thông tin hành lý thất lạc tại sân bay cho cô Lan",
         "recipient_type": "Formal (Nhân viên sân bay - Mrs. Lan)",
         "target_words": 120,
         "tags": [
@@ -6377,7 +10334,7 @@ const LETTERS_DATA = [
             "structure_analysis": [
               {
                 "label": "Formal Opening",
-                "desc": "Courteous letter opening acknowledging receipt of Mrs. Lan's baggage inquiry"
+                "desc": "polite letter opening acknowledging receipt of Mrs. Lan's baggage inquiry"
               },
               {
                 "label": "Flight Details & Baggage Claim",
@@ -6404,7 +10361,7 @@ const LETTERS_DATA = [
           "suggested_ideas": [
             {
               "id": 1,
-              "title_en": "1. Flight itinerary & arrival time details",
+              "title_en": "1. Flight travel plan & arrival time details",
               "title_vi": "Chi tiết hành trình chuyến bay & giờ hạ cánh",
               "icon": "fa-plane-arrival",
               "options": [
@@ -6467,7 +10424,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "there is a small rectangular Samsonite logo on the front surface",
                   "action_vi": "có một logo thương hiệu Samsonite hình chữ nhật nhỏ ở mặt trước",
-                  "reason_en": "because it is an authentic travel suitcase bought last year.",
+                  "reason_en": "because it is an traditional travel suitcase bought last year.",
                   "reason_vi": "bởi vì đó là chiếc vali du lịch chính hãng được mua vào năm ngoái."
                 },
                 {
@@ -6556,6 +10513,415 @@ const LETTERS_DATA = [
             }
           ]
         }
+      },
+      {
+        "id": "de-53",
+        "title_en": "Email to a friend asking for details about a concert ticket",
+        "title_vi": "Đề 06: Hỏi bạn chi tiết về tấm vé hòa nhạc bạn muốn nhượng lại",
+        "recipient_type": "Informal (Bạn bè - Friend)",
+        "target_words": 120,
+        "tags": [
+          "Vé hòa nhạc",
+          "Hỏi thông tin",
+          "Nhận vé",
+          "Chương trình",
+          "Chuẩn B1"
+        ],
+        "context": "Your friend bought a concert ticket but now wants to pass it on to you. Write an email to your friend.",
+        "prompt": "Your friend bought a concert ticket but now wants to pass it on to you. Write an email to your friend.\n\nIn your email you should:\n1. Ask for details about the ticket (price, seat, and performer)\n2. Ask how you can receive the ticket\n3. Ask what is included in the program besides the music show\n\nWrite at least 120 words. You do not need to include your name or addresses. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt_vi": "Người bạn của bạn đã mua một tấm vé xem hòa nhạc nhưng muốn nhượng lại cho bạn. Hãy viết email cho bạn của mình.\n\nTrong email, bạn nên:\n1. Hỏi thông tin chi tiết về vé (giá vé, chỗ ngồi và nghệ sĩ biểu diễn)\n2. Hỏi cách thức bạn có thể nhận vé\n3. Hỏi xem chương trình còn bao gồm hoạt động gì khác ngoài buổi diễn âm nhạc",
+        "has_full_details": true,
+        "details": {
+          "analysis": {
+            "recipient": "Friend (Người bạn muốn nhượng vé hòa nhạc)",
+            "letter_type": "Informal (Thư thân mật)",
+            "purpose": "Hỏi chi tiết vé (giá, chỗ ngồi, ca sĩ), cách thức nhận vé và các hoạt động khác trong chương trình",
+            "key_requirements": [
+              "1. Ask for details about the ticket (price, seat, and performer)",
+              "2. Ask how you can receive the ticket",
+              "3. Ask what is included in the program besides the music show"
+            ]
+          },
+          "task_extractions": [
+            {
+              "id": 1,
+              "icon": "fa-ticket",
+              "prompt_requirement": "Ask for details about the ticket (price, seat, and performer)",
+              "task_title": "1. Chi tiết về tấm vé (Ticket details)",
+              "task_goal": "Hỏi giá vé là bao nhiêu, ghế ngồi ở hàng nào và ca sĩ nào sẽ biểu diễn."
+            },
+            {
+              "id": 2,
+              "icon": "fa-hand-holding-heart",
+              "prompt_requirement": "Ask how you can receive the ticket",
+              "task_title": "2. Cách thức nhận vé (How to receive the ticket)",
+              "task_goal": "Hỏi vé điện tử gửi qua email hay vé giấy để hẹn gặp lấy trực tiếp."
+            },
+            {
+              "id": 3,
+              "icon": "fa-wand-magic-sparkles",
+              "prompt_requirement": "Ask what is included in the program besides the music show",
+              "task_title": "3. Hoạt động khác trong chương trình (Other activities included)",
+              "task_goal": "Hỏi xem chương trình có giao lưu, chụp ảnh hay đồ ăn/nước uống miễn phí không."
+            }
+          ],
+          "suggested_ideas": [
+            {
+              "id": 1,
+              "title_en": "1. Details about the ticket",
+              "title_vi": "Chi tiết về tấm vé",
+              "icon": "fa-ticket",
+              "options": [
+                {
+                  "action_en": "could you please tell me the ticket price, the seat number, and who will perform at the concert?",
+                  "action_vi": "cậu có thể cho tớ biết giá vé, số ghế và ai sẽ biểu diễn tại buổi hòa nhạc được không?",
+                  "reason_en": "because I want to prepare the money and check if the seat has a good view.",
+                  "reason_vi": "vì tớ muốn chuẩn bị tiền và kiểm tra xem chỗ ngồi có tầm nhìn đẹp không.",
+                  "b1_sentence": "First, could you please tell me the ticket price, the seat number, and who will perform at the concert because I want to prepare the money and check if the seat has a good view?",
+                  "b1_sentence_vi": "Đầu tiên, cậu có thể cho tớ biết giá vé, số ghế và ai sẽ biểu diễn tại buổi hòa nhạc được không vì tớ muốn chuẩn bị tiền và kiểm tra xem chỗ ngồi có tầm nhìn đẹp không?"
+                },
+                {
+                  "action_en": "I would like to know how much the ticket costs and which singers will be there",
+                  "action_vi": "tớ muốn biết vé giá bao nhiêu và những ca sĩ nào sẽ có mặt ở đó",
+                  "reason_en": "because I am a big fan of pop music and want to know the schedule.",
+                  "reason_vi": "vì tớ là người rất thích nhạc trẻ và muốn biết lịch trình.",
+                  "b1_sentence": "First, I would like to know how much the ticket costs and which singers will be there because I am a big fan of pop music and want to know the schedule.",
+                  "b1_sentence_vi": "Đầu tiên, tớ muốn biết vé giá bao nhiêu và những ca sĩ nào sẽ có mặt ở đó vì tớ là người rất thích nhạc trẻ và muốn biết lịch trình."
+                },
+                {
+                  "action_en": "can you give me more details about your seat location and the ticket fee?",
+                  "action_vi": "cậu có thể cho tớ biết thêm chi tiết về vị trí chỗ ngồi và giá vé không?",
+                  "reason_en": "because I want to see if it is close to the stage.",
+                  "reason_vi": "vì tớ muốn xem liệu nó có gần sân khấu hay không.",
+                  "b1_sentence": "First, can you give me more details about your seat location and the ticket fee because I want to see if it is close to the stage?",
+                  "b1_sentence_vi": "Đầu tiên, cậu có thể cho tớ biết thêm chi tiết về vị trí chỗ ngồi và giá vé không vì tớ muốn xem liệu nó có gần sân khấu hay không?"
+                },
+                {
+                  "action_en": "please let me know the starting time and who the main singer of the show is",
+                  "action_vi": "hãy cho tớ biết giờ bắt đầu và ai là ca sĩ chính của buổi diễn",
+                  "reason_en": "because I want to make sure I am free that evening.",
+                  "reason_vi": "vì tớ muốn đảm bảo tớ rảnh vào buổi tối hôm đó.",
+                  "b1_sentence": "First, please let me know the starting time and who the main singer of the show is because I want to make sure I am free that evening.",
+                  "b1_sentence_vi": "Đầu tiên, hãy cho tớ biết giờ bắt đầu và ai là ca sĩ chính của buổi diễn vì tớ muốn đảm bảo tớ rảnh vào buổi tối hôm đó."
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "title_en": "2. How to receive the ticket",
+              "title_vi": "Cách nhận vé",
+              "icon": "fa-hand-holding-heart",
+              "options": [
+                {
+                  "action_en": "how can I receive the ticket from you before the weekend?",
+                  "action_vi": "làm sao để tớ có thể nhận vé từ cậu trước cuối tuần?",
+                  "reason_en": "because if it is an online ticket you can email it to me, or we can meet at a café if it is a paper ticket.",
+                  "reason_vi": "vì nếu là vé online thì cậu có thể gửi email cho tớ, hoặc chúng mình có thể gặp nhau ở quán cà phê nếu là vé giấy.",
+                  "b1_sentence": "Second, how can I receive the ticket from you before the weekend because if it is an online ticket you can email it to me, or we can meet at a café if it is a paper ticket?",
+                  "b1_sentence_vi": "Thứ hai, làm sao để tớ có thể nhận vé từ cậu trước cuối tuần vì nếu là vé online thì cậu có thể gửi email cho tớ, hoặc chúng mình có thể gặp nhau ở quán cà phê nếu là vé giấy?"
+                },
+                {
+                  "action_en": "can we meet tomorrow afternoon so that I can collect the ticket in person?",
+                  "action_vi": "chúng mình có thể gặp nhau vào chiều mai để tớ lấy vé trực tiếp không?",
+                  "reason_en": "because I can pay you the money in cash when we meet.",
+                  "reason_vi": "vì tớ có thể trả tiền mặt cho cậu khi chúng mình gặp nhau.",
+                  "b1_sentence": "Second, can we meet tomorrow afternoon so that I can collect the ticket in person because I can pay you the money in cash when we meet?",
+                  "b1_sentence_vi": "Thứ hai, chúng mình có thể gặp nhau vào chiều mai để tớ lấy vé trực tiếp không vì tớ có thể trả tiền mặt cho cậu khi chúng mình gặp nhau?"
+                },
+                {
+                  "action_en": "could you send the electronic ticket to my email or phone number?",
+                  "action_vi": "cậu có thể gửi vé điện tử qua email hoặc số điện thoại của tớ được không?",
+                  "reason_en": "because that would be very quick and convenient for both of us.",
+                  "reason_vi": "vì cách đó sẽ rất nhanh và tiện cho cả hai đứa mình.",
+                  "b1_sentence": "Second, could you send the electronic ticket to my email or phone number because that would be very quick and convenient for both of us?",
+                  "b1_sentence_vi": "Thứ hai, cậu có thể gửi vé điện tử qua email hoặc số điện thoại của tớ được không vì cách đó sẽ rất nhanh và tiện cho cả hai đứa mình?"
+                },
+                {
+                  "action_en": "I can stop by your house this evening to get the ticket from you",
+                  "action_vi": "tối nay tớ có thể ghé qua nhà cậu để lấy vé từ cậu",
+                  "reason_en": "because your house is on my way home from work.",
+                  "reason_vi": "vì nhà cậu nằm trên đường tớ đi làm về.",
+                  "b1_sentence": "Second, I can stop by your house this evening to get the ticket from you because your house is on my way home from work.",
+                  "b1_sentence_vi": "Thứ hai, tối nay tớ có thể ghé qua nhà cậu để lấy vé từ cậu vì nhà cậu nằm trên đường tớ đi làm về."
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "title_en": "3. Other activities included in the program",
+              "title_vi": "Hoạt động khác trong chương trình",
+              "icon": "fa-wand-magic-sparkles",
+              "options": [
+                {
+                  "action_en": "could you tell me what else is included in the program besides the music performance?",
+                  "action_vi": "cậu có thể cho tớ biết còn có gì khác trong chương trình ngoài buổi biểu diễn âm nhạc không?",
+                  "reason_en": "because I heard there might be a fan meeting, games, and free drinks.",
+                  "reason_vi": "vì tớ nghe nói có thể có phần giao lưu người hâm mộ, trò chơi và đồ uống miễn phí.",
+                  "b1_sentence": "Finally, could you tell me what else is included in the program besides the music performance because I heard there might be a fan meeting, games, and free drinks?",
+                  "b1_sentence_vi": "Cuối cùng, cậu có thể cho tớ biết còn có gì khác trong chương trình ngoài buổi biểu diễn âm nhạc không vì tớ nghe nói có thể có phần giao lưu người hâm mộ, trò chơi và đồ uống miễn phí?"
+                },
+                {
+                  "action_en": "I would like to ask if there are any extra activities before or after the show",
+                  "action_vi": "tớ muốn hỏi liệu có hoạt động nào thêm trước hoặc sau buổi diễn không",
+                  "reason_en": "because I want to arrive early if there is a photo exhibition.",
+                  "reason_vi": "vì tớ muốn đến sớm nếu có triển lãm ảnh.",
+                  "b1_sentence": "Finally, I would like to ask if there are any extra activities before or after the show because I want to arrive early if there is a photo exhibition.",
+                  "b1_sentence_vi": "Cuối cùng, tớ muốn hỏi liệu có hoạt động nào thêm trước hoặc sau buổi diễn không vì tớ muốn đến sớm nếu có triển lãm ảnh."
+                },
+                {
+                  "action_en": "does the ticket include free snacks or souvenirs from the singer?",
+                  "action_vi": "tấm vé có bao gồm đồ ăn nhẹ hoặc quà lưu niệm miễn phí từ ca sĩ không?",
+                  "reason_en": "because that would be a very nice bonus for the night.",
+                  "reason_vi": "vì đó sẽ là một điểm cộng rất thú vị cho buổi tối.",
+                  "b1_sentence": "Finally, does the ticket include free snacks or souvenirs from the singer because that would be a very nice bonus for the night?",
+                  "b1_sentence_vi": "Cuối cùng, tấm vé có bao gồm đồ ăn nhẹ hoặc quà lưu niệm miễn phí từ ca sĩ không vì đó sẽ là một điểm cộng rất thú vị cho buổi tối?"
+                },
+                {
+                  "action_en": "can you check if there is an outdoor food fair outside the stadium?",
+                  "action_vi": "cậu có thể kiểm tra xem có hội chợ ẩm thực ngoài trời bên ngoài sân vận động không?",
+                  "reason_en": "because I can come hungry and have dinner there before the concert.",
+                  "reason_vi": "vì tớ có thể để bụng đói và ăn tối ở đó trước buổi hòa nhạc.",
+                  "b1_sentence": "Finally, can you check if there is an outdoor food fair outside the stadium because I can come hungry and have dinner there before the concert?",
+                  "b1_sentence_vi": "Cuối cùng, cậu có thể kiểm tra xem có hội chợ ẩm thực ngoài trời bên ngoài sân vận động không vì tớ có thể để bụng đói và ăn tối ở đó trước buổi hòa nhạc?"
+                }
+              ]
+            }
+          ],
+          "vocab": [
+            {
+              "en": "concert ticket",
+              "vi": "vé xem hòa nhạc",
+              "category": "1. Vé"
+            },
+            {
+              "en": "seat location",
+              "vi": "vị trí chỗ ngồi",
+              "category": "1. Vé"
+            },
+            {
+              "en": "performer",
+              "vi": "nghệ sĩ biểu diễn",
+              "category": "1. Vé"
+            },
+            {
+              "en": "receive the ticket",
+              "vi": "nhận vé",
+              "category": "2. Cách nhận"
+            },
+            {
+              "en": "electronic ticket",
+              "vi": "vé điện tử",
+              "category": "2. Cách nhận"
+            },
+            {
+              "en": "collect in person",
+              "vi": "đến lấy trực tiếp",
+              "category": "2. Cách nhận"
+            },
+            {
+              "en": "besides the music show",
+              "vi": "ngoài buổi biểu diễn âm nhạc",
+              "category": "3. Hoạt động khác"
+            },
+            {
+              "en": "photo exhibition",
+              "vi": "triển lãm ảnh",
+              "category": "3. Hoạt động khác"
+            }
+          ],
+          "sentence_practice_b1": [
+            {
+              "id": 1,
+              "part": "1. Mở thư (Opening - Thân mật)",
+              "vi": "Cậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Cảm ơn cậu vì đã muốn nhượng lại tấm vé xem hòa nhạc cho tớ.",
+              "en": "How are you? I hope you are doing well. Thank you very much for offering to pass the concert ticket on to me.",
+              "formula": "How are you? I hope you are doing well. Thank you very much for offering to pass... on to me.",
+              "vocab_hints": [
+                {
+                  "en": "pass the concert ticket on to me",
+                  "vi": "nhượng vé hòa nhạc cho tớ"
+                }
+              ],
+              "explanation": "Mở thư cảm ơn bạn chuẩn B1."
+            },
+            {
+              "id": 2,
+              "part": "2. Thân thư - Ý 1: Hỏi chi tiết về vé",
+              "vi": "Đầu tiên, cậu có thể cho tớ biết giá vé, số ghế và ai sẽ biểu diễn tại buổi hòa nhạc được không vì tớ muốn chuẩn bị tiền và kiểm tra xem chỗ ngồi có tầm nhìn đẹp không?",
+              "en": "First, could you please tell me the ticket price, the seat number, and who will perform at the concert because I want to prepare the money and check if the seat has a good view?",
+              "formula": "First, could you please tell me... because...?",
+              "vocab_hints": [
+                {
+                  "en": "ticket price",
+                  "vi": "giá vé"
+                },
+                {
+                  "en": "who will perform",
+                  "vi": "ai sẽ biểu diễn"
+                }
+              ],
+              "explanation": "Hỏi giá vé, chỗ ngồi và ca sĩ."
+            },
+            {
+              "id": 3,
+              "part": "3. Thân thư - Ý 2: Hỏi cách nhận vé",
+              "vi": "Thứ hai, làm sao để tớ có thể nhận vé từ cậu trước cuối tuần vì nếu là vé online thì cậu có thể gửi email cho tớ, hoặc chúng mình có thể gặp nhau ở quán cà phê nếu là vé giấy?",
+              "en": "Second, how can I receive the ticket from you before the weekend because if it is an online ticket you can email it to me, or we can meet at a café if it is a paper ticket?",
+              "formula": "Second, how can I receive the ticket... because...?",
+              "vocab_hints": [
+                {
+                  "en": "receive the ticket",
+                  "vi": "nhận tấm vé"
+                },
+                {
+                  "en": "online ticket",
+                  "vi": "vé trực tuyến"
+                }
+              ],
+              "explanation": "Hỏi cách thức nhận vé."
+            },
+            {
+              "id": 4,
+              "part": "4. Thân thư - Ý 3: Hoạt động khác trong chương trình",
+              "vi": "Cuối cùng, cậu có thể cho tớ biết còn có gì khác trong chương trình ngoài buổi biểu diễn âm nhạc không vì tớ nghe nói có thể có phần giao lưu người hâm mộ, trò chơi và đồ uống miễn phí?",
+              "en": "Finally, could you tell me what else is included in the program besides the music performance because I heard there might be a fan meeting, games, and free drinks?",
+              "formula": "Finally, could you tell me what else is included... because...?",
+              "vocab_hints": [
+                {
+                  "en": "included in the program",
+                  "vi": "bao gồm trong chương trình"
+                },
+                {
+                  "en": "besides the music performance",
+                  "vi": "ngoài buổi biểu diễn âm nhạc"
+                }
+              ],
+              "explanation": "Hỏi các hoạt động bên lề."
+            },
+            {
+              "id": 5,
+              "part": "5. Kết thư (Closing - Thân mật)",
+              "vi": "Tớ rất mong sớm nhận được hồi âm từ cậu. Cảm ơn sự giúp đỡ của cậu rất nhiều. Hồi âm sớm nhé.",
+              "en": "I hope to hear from you soon. Thanks a lot for your help. Write back soon.",
+              "formula": "I hope to hear from you soon. Thanks a lot for your help. Write back soon.",
+              "vocab_hints": [
+                {
+                  "en": "hear from you soon",
+                  "vi": "nhận tin từ cậu sớm"
+                },
+                {
+                  "en": "write back soon",
+                  "vi": "hồi âm sớm nhé"
+                }
+              ],
+              "explanation": "Kết thư ngắn gọn chuẩn B1."
+            }
+          ],
+          "sentence_practice_b2": [
+            {
+              "id": 1,
+              "part": "1. Mở thư (Opening - Thân mật)",
+              "vi": "Cậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Cảm ơn cậu vì đã muốn nhượng lại tấm vé xem hòa nhạc cho tớ.",
+              "en": "How are you? I hope you are doing well. Thank you very much for offering to pass the concert ticket on to me.",
+              "formula": "How are you? I hope you are doing well. Thank you very much for offering to pass... on to me.",
+              "vocab_hints": [
+                {
+                  "en": "pass the concert ticket on to me",
+                  "vi": "nhượng vé hòa nhạc cho tớ"
+                }
+              ],
+              "explanation": "Mở thư cảm ơn bạn chuẩn B1."
+            },
+            {
+              "id": 2,
+              "part": "2. Thân thư - Ý 1: Hỏi chi tiết về vé",
+              "vi": "Đầu tiên, cậu có thể cho tớ biết giá vé, số ghế và ai sẽ biểu diễn tại buổi hòa nhạc được không vì tớ muốn chuẩn bị tiền và kiểm tra xem chỗ ngồi có tầm nhìn đẹp không?",
+              "en": "First, could you please tell me the ticket price, the seat number, and who will perform at the concert because I want to prepare the money and check if the seat has a good view?",
+              "formula": "First, could you please tell me... because...?",
+              "vocab_hints": [
+                {
+                  "en": "ticket price",
+                  "vi": "giá vé"
+                },
+                {
+                  "en": "who will perform",
+                  "vi": "ai sẽ biểu diễn"
+                }
+              ],
+              "explanation": "Hỏi giá vé, chỗ ngồi và ca sĩ."
+            },
+            {
+              "id": 3,
+              "part": "3. Thân thư - Ý 2: Hỏi cách nhận vé",
+              "vi": "Thứ hai, làm sao để tớ có thể nhận vé từ cậu trước cuối tuần vì nếu là vé online thì cậu có thể gửi email cho tớ, hoặc chúng mình có thể gặp nhau ở quán cà phê nếu là vé giấy?",
+              "en": "Second, how can I receive the ticket from you before the weekend because if it is an online ticket you can email it to me, or we can meet at a café if it is a paper ticket?",
+              "formula": "Second, how can I receive the ticket... because...?",
+              "vocab_hints": [
+                {
+                  "en": "receive the ticket",
+                  "vi": "nhận tấm vé"
+                },
+                {
+                  "en": "online ticket",
+                  "vi": "vé trực tuyến"
+                }
+              ],
+              "explanation": "Hỏi cách thức nhận vé."
+            },
+            {
+              "id": 4,
+              "part": "4. Thân thư - Ý 3: Hoạt động khác trong chương trình",
+              "vi": "Cuối cùng, cậu có thể cho tớ biết còn có gì khác trong chương trình ngoài buổi biểu diễn âm nhạc không vì tớ nghe nói có thể có phần giao lưu người hâm mộ, trò chơi và đồ uống miễn phí?",
+              "en": "Finally, could you tell me what else is included in the program besides the music performance because I heard there might be a fan meeting, games, and free drinks?",
+              "formula": "Finally, could you tell me what else is included... because...?",
+              "vocab_hints": [
+                {
+                  "en": "included in the program",
+                  "vi": "bao gồm trong chương trình"
+                },
+                {
+                  "en": "besides the music performance",
+                  "vi": "ngoài buổi biểu diễn âm nhạc"
+                }
+              ],
+              "explanation": "Hỏi các hoạt động bên lề."
+            },
+            {
+              "id": 5,
+              "part": "5. Kết thư (Closing - Thân mật)",
+              "vi": "Tớ rất mong sớm nhận được hồi âm từ cậu. Cảm ơn sự giúp đỡ của cậu rất nhiều. Hồi âm sớm nhé.",
+              "en": "I hope to hear from you soon. Thanks a lot for your help. Write back soon.",
+              "formula": "I hope to hear from you soon. Thanks a lot for your help. Write back soon.",
+              "vocab_hints": [
+                {
+                  "en": "hear from you soon",
+                  "vi": "nhận tin từ cậu sớm"
+                },
+                {
+                  "en": "write back soon",
+                  "vi": "hồi âm sớm nhé"
+                }
+              ],
+              "explanation": "Kết thư ngắn gọn chuẩn B1."
+            }
+          ],
+          "sample_b1": {
+            "letter_en": "Dear Minh,\n\nHow are you? I hope you are doing well. Thank you very much for offering to pass the concert ticket on to me.\n\nFirst, could you please tell me the ticket price, the seat number, and who will perform at the concert because I want to prepare the money and check if the seat has a good view? I am happy to pay you the full price.\n\nSecond, how can I receive the ticket from you before the weekend because if it is an online ticket you can email it to me, or we can meet at a café if it is a paper ticket? I can pay you by bank transfer or in cash.\n\nFinally, could you tell me what else is included in the program besides the music performance because I heard there might be a fan meeting, games, and free drinks?\n\nI hope to hear from you soon. Thanks a lot for your help. Write back soon.\n\nBest wishes,",
+            "letter_vi": "Minh thân mến,\n\nCậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Cảm ơn cậu rất nhiều vì đã muốn nhượng lại tấm vé xem hòa nhạc cho tớ.\n\nĐầu tiên, cậu có thể cho tớ biết giá vé, số ghế và ai sẽ biểu diễn tại buổi hòa nhạc được không vì tớ muốn chuẩn bị tiền và kiểm tra xem chỗ ngồi có tầm nhìn đẹp không? Tớ rất sẵn lòng trả đủ giá vé cho cậu.\n\nThứ hai, làm sao để tớ có thể nhận vé từ cậu trước cuối tuần vì nếu là vé online thì cậu có thể gửi email cho tớ, hoặc chúng mình có thể gặp nhau ở quán cà phê nếu là vé giấy? Tớ có thể chuyển khoản hoặc đưa tiền mặt cho cậu.\n\nCuối cùng, cậu có thể cho tớ biết còn có gì khác trong chương trình ngoài buổi biểu diễn âm nhạc không vì tớ nghe nói có thể có phần giao lưu người hâm mộ, trò chơi và đồ uống miễn phí?\n\nTớ rất mong sớm nhận được hồi âm từ cậu. Cảm ơn sự giúp đỡ của cậu rất nhiều. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "text": "Dear Minh,\n\nHow are you? I hope you are doing well. Thank you very much for offering to pass the concert ticket on to me.\n\nFirst, could you please tell me the ticket price, the seat number, and who will perform at the concert because I want to prepare the money and check if the seat has a good view? I am happy to pay you the full price.\n\nSecond, how can I receive the ticket from you before the weekend because if it is an online ticket you can email it to me, or we can meet at a café if it is a paper ticket? I can pay you by bank transfer or in cash.\n\nFinally, could you tell me what else is included in the program besides the music performance because I heard there might be a fan meeting, games, and free drinks?\n\nI hope to hear from you soon. Thanks a lot for your help. Write back soon.\n\nBest wishes,",
+            "translation": "Minh thân mến,\n\nCậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Cảm ơn cậu rất nhiều vì đã muốn nhượng lại tấm vé xem hòa nhạc cho tớ.\n\nĐầu tiên, cậu có thể cho tớ biết giá vé, số ghế và ai sẽ biểu diễn tại buổi hòa nhạc được không vì tớ muốn chuẩn bị tiền và kiểm tra xem chỗ ngồi có tầm nhìn đẹp không? Tớ rất sẵn lòng trả đủ giá vé cho cậu.\n\nThứ hai, làm sao để tớ có thể nhận vé từ cậu trước cuối tuần vì nếu là vé online thì cậu có thể gửi email cho tớ, hoặc chúng mình có thể gặp nhau ở quán cà phê nếu là vé giấy? Tớ có thể chuyển khoản hoặc đưa tiền mặt cho cậu.\n\nCuối cùng, cậu có thể cho tớ biết còn có gì khác trong chương trình ngoài buổi biểu diễn âm nhạc không vì tớ nghe nói có thể có phần giao lưu người hâm mộ, trò chơi và đồ uống miễn phí?\n\nTớ rất mong sớm nhận được hồi âm từ cậu. Cảm ơn sự giúp đỡ của cậu rất nhiều. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "word_count": 164,
+            "key_structures": []
+          },
+          "sample_b2": {
+            "letter_en": "Dear Minh,\n\nHow are you? I hope you are doing well. Thank you very much for offering to pass the concert ticket on to me.\n\nFirst, could you please tell me the ticket price, the seat number, and who will perform at the concert because I want to prepare the money and check if the seat has a good view? I am happy to pay you the full price.\n\nSecond, how can I receive the ticket from you before the weekend because if it is an online ticket you can email it to me, or we can meet at a café if it is a paper ticket? I can pay you by bank transfer or in cash.\n\nFinally, could you tell me what else is included in the program besides the music performance because I heard there might be a fan meeting, games, and free drinks?\n\nI hope to hear from you soon. Thanks a lot for your help. Write back soon.\n\nBest wishes,",
+            "letter_vi": "Minh thân mến,\n\nCậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Cảm ơn cậu rất nhiều vì đã muốn nhượng lại tấm vé xem hòa nhạc cho tớ.\n\nĐầu tiên, cậu có thể cho tớ biết giá vé, số ghế và ai sẽ biểu diễn tại buổi hòa nhạc được không vì tớ muốn chuẩn bị tiền và kiểm tra xem chỗ ngồi có tầm nhìn đẹp không? Tớ rất sẵn lòng trả đủ giá vé cho cậu.\n\nThứ hai, làm sao để tớ có thể nhận vé từ cậu trước cuối tuần vì nếu là vé online thì cậu có thể gửi email cho tớ, hoặc chúng mình có thể gặp nhau ở quán cà phê nếu là vé giấy? Tớ có thể chuyển khoản hoặc đưa tiền mặt cho cậu.\n\nCuối cùng, cậu có thể cho tớ biết còn có gì khác trong chương trình ngoài buổi biểu diễn âm nhạc không vì tớ nghe nói có thể có phần giao lưu người hâm mộ, trò chơi và đồ uống miễn phí?\n\nTớ rất mong sớm nhận được hồi âm từ cậu. Cảm ơn sự giúp đỡ của cậu rất nhiều. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "text": "Dear Minh,\n\nHow are you? I hope you are doing well. Thank you very much for offering to pass the concert ticket on to me.\n\nFirst, could you please tell me the ticket price, the seat number, and who will perform at the concert because I want to prepare the money and check if the seat has a good view? I am happy to pay you the full price.\n\nSecond, how can I receive the ticket from you before the weekend because if it is an online ticket you can email it to me, or we can meet at a café if it is a paper ticket? I can pay you by bank transfer or in cash.\n\nFinally, could you tell me what else is included in the program besides the music performance because I heard there might be a fan meeting, games, and free drinks?\n\nI hope to hear from you soon. Thanks a lot for your help. Write back soon.\n\nBest wishes,",
+            "translation": "Minh thân mến,\n\nCậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Cảm ơn cậu rất nhiều vì đã muốn nhượng lại tấm vé xem hòa nhạc cho tớ.\n\nĐầu tiên, cậu có thể cho tớ biết giá vé, số ghế và ai sẽ biểu diễn tại buổi hòa nhạc được không vì tớ muốn chuẩn bị tiền và kiểm tra xem chỗ ngồi có tầm nhìn đẹp không? Tớ rất sẵn lòng trả đủ giá vé cho cậu.\n\nThứ hai, làm sao để tớ có thể nhận vé từ cậu trước cuối tuần vì nếu là vé online thì cậu có thể gửi email cho tớ, hoặc chúng mình có thể gặp nhau ở quán cà phê nếu là vé giấy? Tớ có thể chuyển khoản hoặc đưa tiền mặt cho cậu.\n\nCuối cùng, cậu có thể cho tớ biết còn có gì khác trong chương trình ngoài buổi biểu diễn âm nhạc không vì tớ nghe nói có thể có phần giao lưu người hâm mộ, trò chơi và đồ uống miễn phí?\n\nTớ rất mong sớm nhận được hồi âm từ cậu. Cảm ơn sự giúp đỡ của cậu rất nhiều. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "word_count": 164,
+            "key_structures": []
+          }
+        }
       }
     ]
   },
@@ -6621,7 +10987,7 @@ const LETTERS_DATA = [
       {
         "id": "de-05",
         "title_en": "Description of a cycling competition and weekend tour invitation to John",
-        "title_vi": "Đề 05: Kể cho bạn John về giải đua xe đạp địa hình và mời đi tour cuối tuần",
+        "title_vi": "Đề 01: Kể cho bạn John về giải đua xe đạp địa hình và mời đi tour cuối tuần",
         "recipient_type": "Informal (Bạn bè - John)",
         "target_words": 120,
         "tags": [
@@ -6658,7 +11024,7 @@ const LETTERS_DATA = [
               {
                 "point": "Miêu tả đường đua",
                 "formula": "Secondly, ...",
-                "detail": "Secondly, the racing track was very steep and challenging with rocky paths, but the mountain scenery was breathtaking."
+                "detail": "Secondly, the racing track was very steep and challenging with rocky paths, but the mountain scenery was wonderful."
               },
               {
                 "point": "Kết quả thi đấu",
@@ -6728,11 +11094,11 @@ const LETTERS_DATA = [
               "id": 3,
               "part": "3. Thân thư - Ý 2 (Miêu tả đường đua: Secondly, ...)",
               "vi": "Thứ hai, đường đua rất dốc và đầy thử thách với những con đường đầy đá sỏi, nhưng phong cảnh núi non thì tuyệt đẹp.",
-              "en": "Secondly, the racing track was very steep and challenging with rocky paths, but the mountain scenery was breathtaking.",
+              "en": "Secondly, the racing track was very steep and challenging with rocky paths, but the mountain scenery was wonderful.",
               "hints": [
                 "Secondly, the racing track was very steep",
                 "rocky paths",
-                "mountain scenery was breathtaking"
+                "mountain scenery was wonderful"
               ],
               "explanation": "Dẫn dắt ý 2 bằng liên từ Secondly miêu tả chi tiết đường đua."
             },
@@ -6787,9 +11153,9 @@ const LETTERS_DATA = [
             }
           ],
           "sample_b1": {
-            "letter_en": "Dear John,\n\nHow are you? I hope you are doing well. In your letter, you asked me about the mountain cycling competition that I recently joined, so here is some information.\n\nFirstly, the competition took place in Ba Vi National Park last Sunday with more than one hundred cycling enthusiasts. The atmosphere was very lively and exciting. Secondly, the cycling trail was challenging but stunning, with steep rocky hills, green pine forests, and cool mountain breezes. I managed to finish in the top ten, so I felt really proud of myself. Next, my cycling club is organizing another mountain tour this coming weekend to explore the scenic valleys nearby. Finally, I would love to invite you to join us on this tour because I know you are passionate about sports and nature.\n\nI hope you will find this information useful. Let me know if you need more details. Write back soon.\n\nBest wishes,",
+            "letter_en": "Dear John,\n\nHow are you? I hope you are doing well. In your letter, you asked me about the mountain cycling competition that I recently joined, so here is some information.\n\nFirstly, the competition took place in Ba Vi National Park last Sunday with more than one hundred cycling enthusiasts. The atmosphere was very lively and exciting. Secondly, the cycling trail was challenging but stunning, with steep rocky hills, green pine forests, and cool mountain breezes. I managed to finish in the top ten, so I felt really proud of myself. Next, my cycling club is organizing another mountain tour this coming weekend to explore the beautiful valleys nearby. Finally, I would love to invite you to join us on this tour because I know you are passionate about sports and nature.\n\nI hope you will find this information useful. Let me know if you need more details. Write back soon.\n\nBest wishes,",
             "letter_vi": "John thân mến,\n\nCậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Trong thư trước, cậu có hỏi tớ về giải đua xe đạp địa hình mà tớ vừa tham gia, vì vậy đây là một vài thông tin chia sẻ với cậu.\n\nĐầu tiên, cuộc thi diễn ra tại Vườn quốc gia Ba Vì vào Chủ nhật tuần trước với hơn một trăm người đam mê xe đạp. Bầu không khí vô cùng sôi động và hào hứng. Thứ hai, cung đường đua đầy thử thách nhưng tuyệt đẹp, với những con dốc đá cheo leo, rừng thông xanh ngát và những cơn gió núi mát rượi. Tớ đã cán đích trong top mười, điều đó khiến tớ vô cùng tự hào. Tiếp theo, câu lạc bộ xe đạp của tớ đang tổ chức một chuyến dã ngoại vượt núi vào cuối tuần này để khám phá những thung lũng tuyệt đẹp gần đó. Cuối cùng, tớ rất muốn rủ cậu cùng tham gia tour này vì tớ biết cậu rất đam mê thể thao và thiên nhiên.\n\nTớ hy vọng cậu thấy những thông tin này thú vị. Hãy cho tớ biết nếu cậu cần thêm chi tiết nhé. Hồi âm sớm cho tớ.\n\nChúc cậu mọi điều tốt lành,",
-            "text": "Dear John,\n\nHow are you? I hope you are doing well. In your letter, you asked me about the mountain cycling competition that I recently joined, so here is some information.\n\nFirstly, the competition took place in Ba Vi National Park last Sunday with more than one hundred cycling enthusiasts. The atmosphere was very lively and exciting. Secondly, the cycling trail was challenging but stunning, with steep rocky hills, green pine forests, and cool mountain breezes. I managed to finish in the top ten, so I felt really proud of myself. Next, my cycling club is organizing another mountain tour this coming weekend to explore the scenic valleys nearby. Finally, I would love to invite you to join us on this tour because I know you are passionate about sports and nature.\n\nI hope you will find this information useful. Let me know if you need more details. Write back soon.\n\nBest wishes,",
+            "text": "Dear John,\n\nHow are you? I hope you are doing well. In your letter, you asked me about the mountain cycling competition that I recently joined, so here is some information.\n\nFirstly, the competition took place in Ba Vi National Park last Sunday with more than one hundred cycling enthusiasts. The atmosphere was very lively and exciting. Secondly, the cycling trail was challenging but stunning, with steep rocky hills, green pine forests, and cool mountain breezes. I managed to finish in the top ten, so I felt really proud of myself. Next, my cycling club is organizing another mountain tour this coming weekend to explore the beautiful valleys nearby. Finally, I would love to invite you to join us on this tour because I know you are passionate about sports and nature.\n\nI hope you will find this information useful. Let me know if you need more details. Write back soon.\n\nBest wishes,",
             "translation": "John thân mến,\n\nCậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Trong thư trước, cậu có hỏi tớ về giải đua xe đạp địa hình mà tớ vừa tham gia, vì vậy đây là một vài thông tin chia sẻ với cậu.\n\nĐầu tiên, cuộc thi diễn ra tại Vườn quốc gia Ba Vì vào Chủ nhật tuần trước với hơn một trăm người đam mê xe đạp. Bầu không khí vô cùng sôi động và hào hứng. Thứ hai, cung đường đua đầy thử thách nhưng tuyệt đẹp, với những con dốc đá cheo leo, rừng thông xanh ngát và những cơn gió núi mát rượi. Tớ đã cán đích trong top mười, điều đó khiến tớ vô cùng tự hào. Tiếp theo, câu lạc bộ xe đạp của tớ đang tổ chức một chuyến dã ngoại vượt núi vào cuối tuần này để khám phá những thung lũng tuyệt đẹp gần đó. Cuối cùng, tớ rất muốn rủ cậu cùng tham gia tour này vì tớ biết cậu rất đam mê thể thao và thiên nhiên.\n\nTớ hy vọng cậu thấy những thông tin này thú vị. Hãy cho tớ biết nếu cậu cần thêm chi tiết nhé. Hồi âm sớm cho tớ.\n\nChúc cậu mọi điều tốt lành,",
             "word_count": 153,
             "key_structures": [
@@ -6812,9 +11178,9 @@ const LETTERS_DATA = [
             ]
           },
           "sample_b2": {
-            "letter_en": "Dear John,\n\nHow have you been lately? I hope everything is going well. In your letter, you asked me about the mountain biking competition that I participated in, so I’d like to share some exciting details with you.\n\nTo begin with, the event was held in Ba Vi National Park last weekend, drawing over two hundred seasoned riders across the region. The energetic atmosphere and competitive camaraderie made the experience unforgettable. Secondly, the rugged trail featured steep uphill climbs, rocky descents, and winding pathways through dense pine woods. Conquering these challenging obstacles demanded immense physical endurance and quick reflexes, but crossing the finish line in the top ten was thoroughly exhilarating. Next, our cycling association is coordinating an adventurous weekend tour across the picturesque valleys surrounding Tam Dao. Finally, I would be delighted if you could join our team on this expedition, as your cycling expertise and love for outdoor adventure would make the journey even more memorable.\n\nI hope you find this information helpful. Let me know if you need more details. Write back soon.\n\nBest wishes,",
+            "letter_en": "Dear John,\n\nHow have you been lately? I hope everything is going well. In your letter, you asked me about the mountain biking competition that I participated in, so I’d like to share some exciting details with you.\n\nTo begin with, the event was held in Ba Vi National Park last weekend, drawing over two hundred seasoned riders across the region. The energetic atmosphere and competitive camaraderie made the experience unforgettable. Secondly, the rugged trail featured steep uphill climbs, rocky descents, and winding pathways through dense pine woods. Conquering these challenging obstacles demanded immense physical endurance and quick reflexes, but crossing the finish line in the top ten was thoroughly exhilarating. Next, our cycling association is coordinating an adventurous weekend tour across the beautiful valleys surrounding Tam Dao. Finally, I would be delighted if you could join our team on this expedition, as your cycling expertise and love for outdoor adventure would make the journey even more memorable.\n\nI hope you find this information helpful. Let me know if you need more details. Write back soon.\n\nBest wishes,",
             "letter_vi": "John thân mến,\n\nDạo này cậu thế nào? Tớ hy vọng mọi việc đều tốt đẹp. Trong thư của cậu, cậu có hỏi tớ về giải đua xe đạp leo núi mà tớ vừa tham gia, vì vậy tớ muốn chia sẻ một vài chi tiết thú vị với cậu.\n\nTrước hết, sự kiện được tổ chức tại Vườn quốc gia Ba Vì vào cuối tuần trước, thu hút hơn hai trăm tay đua kỳ cựu trên khắp khu vực. Bầu không khí tràn đầy năng lượng và tinh thần thể thao đã biến trải nghiệm này thành một kỷ niệm khó quên. Thứ hai, đường đua gồ ghề với những đoạn leo dốc dựng đứng, những con dốc đá trơn trượt và những lối mòn quanh co qua rừng thông rậm rạp. Chinh phục những chướng ngại vật đầy thách thức này đòi hỏi thể lực bền bỉ và phản xạ nhanh nhạy, nhưng việc cán đích trong top mười là một cảm xúc thực sự phấn khích. Tiếp theo, hội đạp xe của chúng tớ đang lên kế hoạch cho một tour dã ngoại cuối tuần qua những thung lũng thơ mộng quanh Tam Đảo. Cuối cùng, tớ sẽ rất vui nếu cậu có thể đồng hành cùng nhóm tớ trong chuyến đi này, bởi vì kinh nghiệm đạp xe và tình yêu thiên nhiên của cậu sẽ khiến chuyến đi thêm phần đáng nhớ.\n\nTớ hy vọng cậu thấy những thông tin này bổ ích. Hãy cho tớ biết nếu cậu cần thêm chi tiết. Hồi âm sớm nhé.\n\nChúc những điều tốt đẹp nhất,",
-            "text": "Dear John,\n\nHow have you been lately? I hope everything is going well. In your letter, you asked me about the mountain biking competition that I participated in, so I’d like to share some exciting details with you.\n\nTo begin with, the event was held in Ba Vi National Park last weekend, drawing over two hundred seasoned riders across the region. The energetic atmosphere and competitive camaraderie made the experience unforgettable. Secondly, the rugged trail featured steep uphill climbs, rocky descents, and winding pathways through dense pine woods. Conquering these challenging obstacles demanded immense physical endurance and quick reflexes, but crossing the finish line in the top ten was thoroughly exhilarating. Next, our cycling association is coordinating an adventurous weekend tour across the picturesque valleys surrounding Tam Dao. Finally, I would be delighted if you could join our team on this expedition, as your cycling expertise and love for outdoor adventure would make the journey even more memorable.\n\nI hope you find this information helpful. Let me know if you need more details. Write back soon.\n\nBest wishes,",
+            "text": "Dear John,\n\nHow have you been lately? I hope everything is going well. In your letter, you asked me about the mountain biking competition that I participated in, so I’d like to share some exciting details with you.\n\nTo begin with, the event was held in Ba Vi National Park last weekend, drawing over two hundred seasoned riders across the region. The energetic atmosphere and competitive camaraderie made the experience unforgettable. Secondly, the rugged trail featured steep uphill climbs, rocky descents, and winding pathways through dense pine woods. Conquering these challenging obstacles demanded immense physical endurance and quick reflexes, but crossing the finish line in the top ten was thoroughly exhilarating. Next, our cycling association is coordinating an adventurous weekend tour across the beautiful valleys surrounding Tam Dao. Finally, I would be delighted if you could join our team on this expedition, as your cycling expertise and love for outdoor adventure would make the journey even more memorable.\n\nI hope you find this information helpful. Let me know if you need more details. Write back soon.\n\nBest wishes,",
             "translation": "John thân mến,\n\nDạo này cậu thế nào? Tớ hy vọng mọi việc đều tốt đẹp. Trong thư của cậu, cậu có hỏi tớ về giải đua xe đạp leo núi mà tớ vừa tham gia, vì vậy tớ muốn chia sẻ một vài chi tiết thú vị với cậu.\n\nTrước hết, sự kiện được tổ chức tại Vườn quốc gia Ba Vì vào cuối tuần trước, thu hút hơn hai trăm tay đua kỳ cựu trên khắp khu vực. Bầu không khí tràn đầy năng lượng và tinh thần thể thao đã biến trải nghiệm này thành một kỷ niệm khó quên. Thứ hai, đường đua gồ ghề với những đoạn leo dốc dựng đứng, những con dốc đá trơn trượt và những lối mòn quanh co qua rừng thông rậm rạp. Chinh phục những chướng ngại vật đầy thách thức này đòi hỏi thể lực bền bỉ và phản xạ nhanh nhạy, nhưng việc cán đích trong top mười là một cảm xúc thực sự phấn khích. Tiếp theo, hội đạp xe của chúng tớ đang lên kế hoạch cho một tour dã ngoại cuối tuần qua những thung lũng thơ mộng quanh Tam Đảo. Cuối cùng, tớ sẽ rất vui nếu cậu có thể đồng hành cùng nhóm tớ trong chuyến đi này, bởi vì kinh nghiệm đạp xe và tình yêu thiên nhiên của cậu sẽ khiến chuyến đi thêm phần đáng nhớ.\n\nTớ hy vọng cậu thấy những thông tin này bổ ích. Hãy cho tớ biết nếu cậu cần thêm chi tiết. Hồi âm sớm nhé.\n\nChúc những điều tốt đẹp nhất,",
             "word_count": 178,
             "key_structures": [
@@ -6839,7 +11205,7 @@ const LETTERS_DATA = [
           "suggested_ideas": [
             {
               "id": 1,
-              "title_en": "1. The race venue & vibrant atmosphere",
+              "title_en": "1. The race venue & lively atmosphere",
               "title_vi": "Địa điểm & không khí cuộc đua xe đạp",
               "icon": "fa-flag-checkered",
               "options": [
@@ -6912,9 +11278,9 @@ const LETTERS_DATA = [
                   "reason_vi": "khiến tớ cảm thấy vô cùng phấn khích và tự hào về những tuần nỗ lực tập luyện."
                 },
                 {
-                  "action_en": "the sweeping panoramic vista from the mountain summit was absolutely breathtaking",
+                  "action_en": "the sweeping wide vista from the mountain summit was absolutely wonderful",
                   "action_vi": "khung cảnh bao la nhìn từ đỉnh núi xuống thực sự ngoạn mục và thơ mộng",
-                  "reason_en": "because the breathtaking view helped me forget all my tiredness.",
+                  "reason_en": "because the wonderful view helped me forget all my tiredness.",
                   "reason_vi": "khiến mọi giọt mồ hôi và sự nhức mỏi trên đường đua đều trở nên hoàn toàn xứng đáng."
                 },
                 {
@@ -6944,9 +11310,9 @@ const LETTERS_DATA = [
                   "reason_vi": "mang lại nhiều thời gian để thư giãn, trò chuyện và ngắm sao bên đống lửa trại."
                 },
                 {
-                  "action_en": "we have mapped out a moderate, scenic trail suitable for leisurely cycling and photography",
+                  "action_en": "we have mapped out a moderate, beautiful trail suitable for leisurely cycling and photography",
                   "action_vi": "chúng tớ đã thiết kế một cung đường vừa sức, cảnh đẹp phù hợp để vừa đạp xe vừa chụp ảnh",
-                  "reason_en": "so that participants can enjoy the picturesque landscape without feeling overwhelmed.",
+                  "reason_en": "so that participants can enjoy the beautiful landscape without feeling overwhelmed.",
                   "reason_vi": "để mọi người có thể thảnh thơi thưởng ngoạn phong cảnh mà không bị quá tải về thể lực."
                 },
                 {
@@ -6962,7 +11328,7 @@ const LETTERS_DATA = [
                   "reason_vi": "đảm bảo rằng cả nhóm sẽ có một chuyến đi an toàn và tiện nghi."
                 },
                 {
-                  "action_en": "we will stop by traditional local hamlets to taste authentic organic mountain produce",
+                  "action_en": "we will stop by traditional local hamlets to taste traditional organic mountain produce",
                   "action_vi": "chúng tớ sẽ dừng chân ở các bản làng truyền thống để thưởng thức đặc sản núi rừng",
                   "reason_en": "because we can try delicious local food and learn about mountain life.",
                   "reason_vi": "làm phong phú thêm trải nghiệm văn hóa và ẩm thực cho hành trình thể thao."
@@ -7019,7 +11385,7 @@ const LETTERS_DATA = [
       {
         "id": "de-06",
         "title_en": "Description of a new house near university to Helen",
-        "title_vi": "Đề 06: Giới thiệu căn nhà mới chuyển gần trường đại học cho bạn Helen",
+        "title_vi": "Đề 02: Giới thiệu căn nhà mới chuyển gần trường đại học cho bạn Helen",
         "recipient_type": "Informal (Bạn thân - Helen)",
         "target_words": 120,
         "tags": [
@@ -7204,9 +11570,9 @@ const LETTERS_DATA = [
             ]
           },
           "sample_b2": {
-            "letter_en": "Dear Helen,\n\nHow have you been lately? I hope everything is going well. In your letter, you asked me about my new house near the university campus, so I’d like to share some information with you.\n\nTo begin with, the property is situated in a tranquil residential quarter, merely a brief stroll from the central campus library. This prime location completely eliminates commuting hassles and allows me to maximize my study schedule. Secondly, the house features a spacious open-concept living area, two comfortable bedrooms, and a fully equipped kitchen with contemporary amenities. Next, there is a charming rooftop terrace filled with potted flowers and herbs, creating a serene sanctuary to unwind after intensive seminars. Finally, the local community is remarkably secure and welcoming, with reputable cafes, grocery markets, and bookstores readily available within short walking distance.\n\nI hope you find this information helpful. Let me know if you need more details. Write back soon.\n\nBest wishes,",
+            "letter_en": "Dear Helen,\n\nHow have you been lately? I hope everything is going well. In your letter, you asked me about my new house near the university campus, so I’d like to share some information with you.\n\nTo begin with, the property is situated in a quiet residential quarter, merely a brief stroll from the central campus library. This prime location completely eliminates commuting hassles and allows me to maximize my study schedule. Secondly, the house features a spacious open-concept living area, two comfortable bedrooms, and a fully equipped kitchen with contemporary amenities. Next, there is a charming rooftop terrace filled with potted flowers and herbs, creating a serene sanctuary to unwind after intensive seminars. Finally, the local community is remarkably secure and welcoming, with well-known cafes, grocery markets, and bookstores readily available within short walking distance.\n\nI hope you find this information helpful. Let me know if you need more details. Write back soon.\n\nBest wishes,",
             "letter_vi": "Helen thân mến,\n\nDạo này cậu thế nào? Tớ hy vọng mọi việc đều tốt đẹp. Trong thư của cậu, cậu có hỏi tớ về căn nhà mới gần trường đại học, vì vậy tớ muốn chia sẻ một vài thông tin với cậu.\n\nTrước hết, ngôi nhà nằm trong một khu dân cư yên tĩnh, chỉ cách thư viện trung tâm của trường vài bước đi bộ. Vị trí đắc địa này hoàn toàn loại bỏ những phiền toái khi đi lại và giúp tớ tối ưu hóa thời gian học tập. Thứ hai, ngôi nhà sở hữu không gian phòng khách mở rộng rãi, hai phòng ngủ tiện nghi và một căn bếp hiện đại đầy đủ tiện ích. Tiếp theo, trên sân thượng có một khoảng ban công xinh xắn phủ đầy hoa cỏ, tạo nên một không gian thư thái để nghỉ ngơi sau những giờ học căng thẳng. Cuối cùng, khu dân cư xung quanh vô cùng an ninh và thân thiện, có các quán cà phê yên tĩnh, siêu thị thực phẩm và hiệu sách chỉ cách vài bước chân.\n\nTớ hy vọng cậu thấy những chia sẻ này hữu ích. Cho tớ biết nếu cậu cần thêm chi tiết nhé. Hồi âm sớm cho tớ.\n\nChúc những điều tốt đẹp nhất,",
-            "text": "Dear Helen,\n\nHow have you been lately? I hope everything is going well. In your letter, you asked me about my new house near the university campus, so I’d like to share some information with you.\n\nTo begin with, the property is situated in a tranquil residential quarter, merely a brief stroll from the central campus library. This prime location completely eliminates commuting hassles and allows me to maximize my study schedule. Secondly, the house features a spacious open-concept living area, two comfortable bedrooms, and a fully equipped kitchen with contemporary amenities. Next, there is a charming rooftop terrace filled with potted flowers and herbs, creating a serene sanctuary to unwind after intensive seminars. Finally, the local community is remarkably secure and welcoming, with reputable cafes, grocery markets, and bookstores readily available within short walking distance.\n\nI hope you find this information helpful. Let me know if you need more details. Write back soon.\n\nBest wishes,",
+            "text": "Dear Helen,\n\nHow have you been lately? I hope everything is going well. In your letter, you asked me about my new house near the university campus, so I’d like to share some information with you.\n\nTo begin with, the property is situated in a quiet residential quarter, merely a brief stroll from the central campus library. This prime location completely eliminates commuting hassles and allows me to maximize my study schedule. Secondly, the house features a spacious open-concept living area, two comfortable bedrooms, and a fully equipped kitchen with contemporary amenities. Next, there is a charming rooftop terrace filled with potted flowers and herbs, creating a serene sanctuary to unwind after intensive seminars. Finally, the local community is remarkably secure and welcoming, with well-known cafes, grocery markets, and bookstores readily available within short walking distance.\n\nI hope you find this information helpful. Let me know if you need more details. Write back soon.\n\nBest wishes,",
             "translation": "Helen thân mến,\n\nDạo này cậu thế nào? Tớ hy vọng mọi việc đều tốt đẹp. Trong thư của cậu, cậu có hỏi tớ về căn nhà mới gần trường đại học, vì vậy tớ muốn chia sẻ một vài thông tin với cậu.\n\nTrước hết, ngôi nhà nằm trong một khu dân cư yên tĩnh, chỉ cách thư viện trung tâm của trường vài bước đi bộ. Vị trí đắc địa này hoàn toàn loại bỏ những phiền toái khi đi lại và giúp tớ tối ưu hóa thời gian học tập. Thứ hai, ngôi nhà sở hữu không gian phòng khách mở rộng rãi, hai phòng ngủ tiện nghi và một căn bếp hiện đại đầy đủ tiện ích. Tiếp theo, trên sân thượng có một khoảng ban công xinh xắn phủ đầy hoa cỏ, tạo nên một không gian thư thái để nghỉ ngơi sau những giờ học căng thẳng. Cuối cùng, khu dân cư xung quanh vô cùng an ninh và thân thiện, có các quán cà phê yên tĩnh, siêu thị thực phẩm và hiệu sách chỉ cách vài bước chân.\n\nTớ hy vọng cậu thấy những chia sẻ này hữu ích. Cho tớ biết nếu cậu cần thêm chi tiết nhé. Hồi âm sớm cho tớ.\n\nChúc những điều tốt đẹp nhất,",
             "word_count": 156,
             "key_structures": [
@@ -7336,7 +11702,7 @@ const LETTERS_DATA = [
                   "reason_vi": "tạo nên góc ưa thích nhất để nhâm nhi tách trà sáng và nghe tiếng chim hót."
                 },
                 {
-                  "action_en": "the balcony overlooks a tranquil leafy alley with virtually zero vehicular traffic",
+                  "action_en": "the balcony overlooks a quiet leafy alley with virtually zero vehicular traffic",
                   "action_vi": "ban công nhìn ra con ngõ nhỏ rợp bóng cây hầu như không có xe cộ qua lại",
                   "reason_en": "because it gives me a quiet view whenever I need to rest my eyes.",
                   "reason_vi": "mang lại tầm nhìn bình yên mỗi khi tớ cần nghỉ ngơi mắt sau khi nhìn màn hình máy tính."
@@ -7386,7 +11752,7 @@ const LETTERS_DATA = [
                   "reason_vi": "mang lại vô số lựa chọn món ăn ngon với giá cả cực kỳ vừa vặn túi tiền sinh viên."
                 },
                 {
-                  "action_en": "a bustling morning fresh market is located just a three-minute stroll away",
+                  "action_en": "a busy morning fresh market is located just a three-minute stroll away",
                   "action_vi": "một khu chợ dân sinh buổi sáng tấp nập nằm cách nhà chỉ ba phút đi bộ",
                   "reason_en": "because I can buy fresh vegetables and fruits at affordable prices.",
                   "reason_vi": "giúp tớ mua được rau củ tươi ngon và hoa quả theo mùa với mức giá rất hợp lý."
@@ -7411,7 +11777,7 @@ const LETTERS_DATA = [
       {
         "id": "de-18",
         "title_en": "Responding to Nam about Rainbow Language Center",
-        "title_vi": "Đề 18: Hồi âm cho Nam chia sẻ thông tin khóa học tiếng Anh tại Rainbow Language Center",
+        "title_vi": "Đề 03: Hồi âm cho Nam chia sẻ thông tin khóa học tiếng Anh tại Rainbow Language Center",
         "recipient_type": "Informal (Bạn thân - Nam)",
         "target_words": 120,
         "tags": [
@@ -7879,7 +12245,7 @@ const LETTERS_DATA = [
               "id": 1,
               "part": "Diễn đạt nâng cao B2 - Đánh giá tổng quan chương trình đào tạo",
               "vi": "Nhìn chung, tôi có thể khẳng định rằng chương trình giảng dạy toàn diện tại đây, kết hợp giữa các buổi thực hành tương tác và các kỳ thi thử định kỳ mô phỏng sát đề thi thật, chắc chắn sẽ đẩy nhanh tiến độ làm chủ ngôn ngữ của bạn một cách đáng kể.",
-              "en": "On the whole, I can confidently attest that the center's well-rounded curriculum, which harmoniously integrates interactive communicative tasks with rigorous periodic mock tests, will substantially accelerate your language proficiency.",
+              "en": "On the whole, I can confidently attest that the center's well-rounded curriculum, which harmoniously integrates interactive communicative tasks with strict periodic mock tests, will substantially accelerate your language proficiency.",
               "vocab_hints": [
                 {
                   "en": "well-rounded curriculum",
@@ -7960,7 +12326,7 @@ const LETTERS_DATA = [
       {
         "id": "de-19",
         "title_en": "Responding to Emily with information about Hoa staying in London",
-        "title_vi": "Đề 19: Hồi âm cho Emily giới thiệu về bạn Hoa dự định ở nhờ tại London",
+        "title_vi": "Đề 04: Hồi âm cho Emily giới thiệu về bạn Hoa dự định ở nhờ tại London",
         "recipient_type": "Informal (Bạn người Anh - Emily)",
         "target_words": 120,
         "tags": [
@@ -8495,7 +12861,7 @@ const LETTERS_DATA = [
       {
         "id": "de-28",
         "title_en": "Description of an art drawing project on the topic 'At Home'",
-        "title_vi": "Đề 28: Kể cho bạn Moonie về dự án vẽ tranh chủ đề 'Ở Nhà'",
+        "title_vi": "Đề 05: Kể cho bạn Moonie về dự án vẽ tranh chủ đề 'Ở Nhà'",
         "recipient_type": "Informal (Bạn bè - Moonie)",
         "target_words": 120,
         "tags": [
@@ -8955,7 +13321,7 @@ const LETTERS_DATA = [
       {
         "id": "de-34",
         "title_en": "Description of a new pet puppy and daily care experience to Anna",
-        "title_vi": "Đề 34: Kể cho bạn nghe về chú cún con mới nuôi",
+        "title_vi": "Đề 06: Kể cho bạn nghe về chú cún con mới nuôi",
         "recipient_type": "Informal (Bạn bè - Anna)",
         "target_words": 120,
         "tags": [
@@ -9134,12 +13500,12 @@ const LETTERS_DATA = [
               "id": 3,
               "part": "3. Thân bài B2 - Ý 2 (Heartwarming gift)",
               "vi": "Cậu bé là món quà sinh nhật vô giá từ anh trai tớ, người đã cẩn thận chọn một chú cún con giống Golden Retriever khỏe mạnh từ một trại thú cưng uy tín.",
-              "en": "He was an unforgettable birthday present from my brother, who adopted a healthy Golden Retriever puppy from a reputable local shelter.",
+              "en": "He was an unforgettable birthday present from my brother, who adopted a healthy Golden Retriever puppy from a well-known local shelter.",
               "hints": [
                 "unforgettable birthday present",
-                "adopted a healthy Golden Retriever puppy from a reputable shelter"
+                "adopted a healthy Golden Retriever puppy from a well-known shelter"
               ],
-              "explanation": "Dùng từ vựng chuẩn 'adopted from a reputable shelter'."
+              "explanation": "Dùng từ vựng chuẩn 'adopted from a well-known shelter'."
             },
             {
               "id": 4,
@@ -9389,7 +13755,7 @@ const LETTERS_DATA = [
       {
         "id": "de-36",
         "title_en": "Information letter to parent Mrs. Jane regarding Grade 4 outdoor activity",
-        "title_vi": "Đề 36: Giáo viên giải đáp thông tin hoạt động dã ngoại cho phụ huynh (Mrs. Jane)",
+        "title_vi": "Đề 07: Giáo viên giải đáp thông tin hoạt động dã ngoại cho phụ huynh (Mrs. Jane)",
         "recipient_type": "Formal (Phụ huynh học sinh - Mrs. Jane)",
         "target_words": 120,
         "tags": [
@@ -9555,9 +13921,9 @@ const LETTERS_DATA = [
             },
             {
               "id": 2,
-              "part": "2. Thân bài B2 - Ý 1 (Educational itinerary)",
+              "part": "2. Thân bài B2 - Ý 1 (Educational travel plan)",
               "vi": "Chương trình dã ngoại kết hợp hài hòa giữa các buổi học thực địa về sinh thái và các trò chơi vận động rèn luyện kỹ năng làm việc nhóm.",
-              "en": "The itinerary thoughtfully combines interactive botanical field studies with supervised physical games to cultivate teamwork and social bonding.",
+              "en": "The travel plan thoughtfully combines interactive botanical field studies with supervised physical games to cultivate teamwork and social bonding.",
               "hints": [
                 "interactive botanical field studies",
                 "cultivate teamwork and social bonding"
@@ -9591,12 +13957,12 @@ const LETTERS_DATA = [
               "id": 5,
               "part": "5. Thân bài B2 - Ý 4 (Essential gear & Health protection)",
               "vi": "Trang bị cho cháu một chiếc mũ rộng vành, kem chống nắng và một đôi giày có độ bám tốt sẽ bảo đảm cháu có một ngày trải nghiệm trọn vẹn và an toàn.",
-              "en": "Equipping your daughter with a wide-brimmed sun hat, sunscreen, and sturdy running shoes will guarantee a safe and memorable adventure.",
+              "en": "Equipping your daughter with a sun sun hat, sunscreen, and sturdy running shoes will guarantee a safe and memorable adventure.",
               "hints": [
-                "Equipping your daughter with a wide-brimmed sun hat",
+                "Equipping your daughter with a sun sun hat",
                 "sturdy running shoes will guarantee"
               ],
-              "explanation": "Cấu trúc phân từ 'Equipping your daughter with...' và tính từ 'wide-brimmed', 'sturdy'."
+              "explanation": "Cấu trúc phân từ 'Equipping your daughter with...' và tính từ 'sun', 'sturdy'."
             }
           ],
           "sample_b1": {
@@ -9641,7 +14007,7 @@ const LETTERS_DATA = [
             "structure_analysis": [
               {
                 "label": "Formal Greeting & Assurance",
-                "desc": "Courteous salutation appreciating parental inquiries and setting a reassuring pedagogical tone"
+                "desc": "polite salutation appreciating parental inquiries and setting a reassuring pedagogical tone"
               },
               {
                 "label": "Curriculum-linked Field Activities",
@@ -9787,7 +14153,7 @@ const LETTERS_DATA = [
               "icon": "fa-tshirt",
               "options": [
                 {
-                  "action_en": "your daughter should wear a comfortable wide-brimmed sun hat",
+                  "action_en": "your daughter should wear a comfortable sun sun hat",
                   "action_vi": "con gái bà nên đội một chiếc mũ rộng vành êm ái che nắng",
                   "reason_en": "because the midday sun on farm fields can be very bright.",
                   "reason_vi": "bởi vì ánh nắng ban trưa trên đồng cỏ trang trại có thể rất gay gắt."
@@ -9819,6 +14185,3395 @@ const LETTERS_DATA = [
               ]
             }
           ]
+        }
+      },
+      {
+        "id": "de-40",
+        "title_en": "Reply to Harry about watching a performance by his friend",
+        "title_vi": "Đề 08: Phản hồi thư mời của bạn Harry đi xem biểu diễn và chọn hoạt động đi thuyền hay xem bóng đá",
+        "recipient_type": "Informal (Bạn bè - Harry)",
+        "target_words": 120,
+        "tags": [
+          "Lời mời",
+          "Xem biểu diễn",
+          "Hoạt động giải trí",
+          "Chuẩn B1"
+        ],
+        "context": "Your friend Harry has invited you to watch a performance by one of his friends. Write an email to Harry.",
+        "prompt": "Your friend Harry has invited you to watch a performance by one of his friends. Write an email to Harry.\n\nIn your email you should say:\n1. whether you would like to accept the invitation and how you feel about it\n2. what you would like to do together after the performance\n3. whether you would prefer a boat trip or watching a football match during your visit, and why\n\nWrite at least 120 words. You do not need to include your name or addresses. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt_vi": "Người bạn Harry đã mời bạn đi xem một buổi biểu diễn của một người bạn của cậu ấy. Hãy viết một email gửi cho Harry.\n\nTrong email, bạn nên nói rõ:\n1. Bạn có đồng ý nhận lời mời không và cảm thấy thế nào về lời mời đó (whether you would like to accept the invitation and how you feel about it)\n2. Bạn muốn cùng nhau làm gì sau buổi biểu diễn (what you would like to do together after the performance)\n3. Trong chuyến đi thăm này, bạn thích đi thuyền dạo mát hay đi xem một trận bóng đá hơn, và tại sao (whether you would prefer a boat trip or watching a football match during your visit, and why)",
+        "has_full_details": true,
+        "details": {
+          "analysis": {
+            "recipient": "Harry (Người bạn mời đi xem buổi biểu diễn)",
+            "letter_type": "Informal (Thư thân mật)",
+            "purpose": "Đồng ý lời mời đi xem buổi biểu diễn, gợi ý hoạt động ăn tối/đi dạo sau buổi diễn, và chọn giữa đi thuyền hoặc xem bóng đá kèm lý do",
+            "key_requirements": [
+              "1. Accept the invitation and say how you feel (Đồng ý lời mời và nêu cảm xúc)",
+              "2. What to do together after the performance (Hoạt động làm cùng nhau sau buổi diễn)",
+              "3. Prefer a boat trip or watching a football match, and why (Chọn đi thuyền hay xem bóng đá và giải thích lý do)"
+            ]
+          },
+          "task_extractions": [
+            {
+              "id": 1,
+              "icon": "fa-face-smile-beam",
+              "prompt_requirement": "whether you would like to accept the invitation and how you feel about it",
+              "task_title": "1. Nhận lời & Cảm xúc (Accept & Feelings)",
+              "task_goal": "Vui vẻ nhận lời mời đi xem buổi biểu diễn và nói rằng bạn rất hào hứng."
+            },
+            {
+              "id": 2,
+              "icon": "fa-utensils",
+              "prompt_requirement": "what you would like to do together after the performance",
+              "task_title": "2. Hoạt động sau buổi diễn (After the performance)",
+              "task_goal": "Đề xuất cùng đi ăn tối tại một nhà hàng địa phương hoặc đi uống cà phê trò chuyện."
+            },
+            {
+              "id": 3,
+              "icon": "fa-sailboat",
+              "prompt_requirement": "whether you would prefer a boat trip or watching a football match during your visit, and why",
+              "task_title": "3. Đi thuyền hay Xem bóng đá (Boat trip vs Football match)",
+              "task_goal": "Nêu rõ bạn thích đi thuyền hay xem bóng đá hơn và giải thích lý do đơn giản."
+            }
+          ],
+          "suggested_ideas": [
+            {
+              "id": 1,
+              "title_en": "1. Accept the invitation and your feelings",
+              "title_vi": "Đồng ý lời mời và cảm xúc của bạn",
+              "icon": "fa-face-smile-beam",
+              "options": [
+                {
+                  "action_en": "I would love to accept your invitation, and I feel very excited about watching the show",
+                  "action_vi": "tớ rất vui được nhận lời mời của cậu, và tớ cảm thấy rất hào hứng khi được xem buổi biểu diễn",
+                  "reason_en": "because I really enjoy live music and want to support your friend.",
+                  "reason_vi": "vì tớ rất thích nhạc sống và muốn ủng hộ bạn của cậu.",
+                  "b1_sentence": "First, I would love to accept your invitation, and I feel very excited about watching the show because I really enjoy live music and want to support your friend.",
+                  "b1_sentence_vi": "Đầu tiên, tớ rất vui được nhận lời mời của cậu, và tớ cảm thấy rất hào hứng khi được xem buổi biểu diễn vì tớ rất thích nhạc sống và muốn ủng hộ bạn của cậu."
+                },
+                {
+                  "action_en": "I am very happy to come to the performance with you",
+                  "action_vi": "tớ rất vui được đi xem buổi biểu diễn cùng cậu",
+                  "reason_en": "because it is a great chance for us to meet and have fun together.",
+                  "reason_vi": "vì đây là cơ hội tuyệt vời để chúng mình gặp nhau và vui chơi cùng nhau.",
+                  "b1_sentence": "First, I am very happy to come to the performance with you because it is a great chance for us to meet and have fun together.",
+                  "b1_sentence_vi": "Đầu tiên, tớ rất vui được đi xem buổi biểu diễn cùng cậu vì đây là cơ hội tuyệt vời để chúng mình gặp nhau và vui chơi cùng nhau."
+                },
+                {
+                  "action_en": "I gladly accept your kind invitation, and I cannot wait to see the show",
+                  "action_vi": "tớ vui vẻ nhận lời mời tốt bụng của cậu, và tớ rất nóng lòng được xem buổi diễn",
+                  "reason_en": "because you told me that your friend is a very good singer.",
+                  "reason_vi": "vì cậu từng kể với tớ rằng bạn của cậu hát rất hay.",
+                  "b1_sentence": "First, I gladly accept your kind invitation, and I cannot wait to see the show because you told me that your friend is a very good singer.",
+                  "b1_sentence_vi": "Đầu tiên, tớ vui vẻ nhận lời mời tốt bụng của cậu, và tớ rất nóng lòng được xem buổi diễn vì cậu từng kể với tớ rằng bạn của cậu hát rất hay."
+                },
+                {
+                  "action_en": "I would definitely like to join you for the show, and I feel so happy",
+                  "action_vi": "tớ chắc chắn muốn đi xem buổi diễn cùng cậu, và tớ cảm thấy rất vui",
+                  "reason_en": "because I have not seen a live performance for a long time.",
+                  "reason_vi": "vì đã lâu lắm rồi tớ chưa được đi xem một buổi biểu diễn trực tiếp.",
+                  "b1_sentence": "First, I would definitely like to join you for the show, and I feel so happy because I have not seen a live performance for a long time.",
+                  "b1_sentence_vi": "Đầu tiên, tớ chắc chắn muốn đi xem buổi diễn cùng cậu, và tớ cảm thấy rất vui vì đã lâu lắm rồi tớ chưa được đi xem một buổi biểu diễn trực tiếp."
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "title_en": "2. What to do after the performance",
+              "title_vi": "Hoạt động làm cùng nhau sau buổi diễn",
+              "icon": "fa-utensils",
+              "options": [
+                {
+                  "action_en": "we can have dinner at a nice restaurant near the theatre after the show",
+                  "action_vi": "chúng mình có thể đi ăn tối tại một nhà hàng ngon gần nhà hát sau buổi diễn",
+                  "reason_en": "because we can enjoy good food and talk about our lives.",
+                  "reason_vi": "vì chúng mình có thể thưởng thức đồ ăn ngon và trò chuyện về cuộc sống của nhau.",
+                  "b1_sentence": "Second, we can have dinner at a nice restaurant near the theatre after the show because we can enjoy good food and talk about our lives.",
+                  "b1_sentence_vi": "Thứ hai, chúng mình có thể đi ăn tối tại một nhà hàng ngon gần nhà hát sau buổi diễn vì chúng mình có thể thưởng thức đồ ăn ngon và trò chuyện về cuộc sống của nhau."
+                },
+                {
+                  "action_en": "I would like to go to a quiet cafe with you and your friend after the performance",
+                  "action_vi": "tớ muốn đến một quán cà phê yên tĩnh cùng cậu và bạn của cậu sau buổi diễn",
+                  "reason_en": "because I want to congratulate your friend and take some photos together.",
+                  "reason_vi": "vì tớ muốn chúc mừng bạn của cậu và chụp vài bức ảnh kỷ niệm cùng nhau.",
+                  "b1_sentence": "Second, I would like to go to a quiet cafe with you and your friend after the performance because I want to congratulate your friend and take some photos together.",
+                  "b1_sentence_vi": "Thứ hai, tớ muốn đến một quán cà phê yên tĩnh cùng cậu và bạn của cậu sau buổi diễn vì tớ muốn chúc mừng bạn của cậu và chụp vài bức ảnh kỷ niệm cùng nhau."
+                },
+                {
+                  "action_en": "we could walk around the night market and eat some street food",
+                  "action_vi": "chúng mình có thể đi dạo quanh chợ đêm và ăn vài món đường phố",
+                  "reason_en": "because the weather at night is cool and pleasant.",
+                  "reason_vi": "vì thời tiết vào buổi tối rất mát mẻ và dễ chịu.",
+                  "b1_sentence": "Second, we could walk around the night market and eat some street food because the weather at night is cool and pleasant.",
+                  "b1_sentence_vi": "Thứ hai, chúng mình có thể đi dạo quanh chợ đêm và ăn vài món đường phố vì thời tiết vào buổi tối rất mát mẻ và dễ chịu."
+                },
+                {
+                  "action_en": "we can go for ice cream and take a walk by the river",
+                  "action_vi": "chúng mình có thể đi ăn kem và đi dạo bên bờ sông",
+                  "reason_en": "because it is a relaxing way to end the evening.",
+                  "reason_vi": "vì đó là một cách thư giãn để kết thúc buổi tối.",
+                  "b1_sentence": "Second, we can go for ice cream and take a walk by the river because it is a relaxing way to end the evening.",
+                  "b1_sentence_vi": "Thứ hai, chúng mình có thể đi ăn kem và đi dạo bên bờ sông vì đó là một cách thư giãn để kết thúc buổi tối."
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "title_en": "3. Boat trip or football match",
+              "title_vi": "Chọn đi thuyền hay xem bóng đá và lý do",
+              "icon": "fa-sailboat",
+              "options": [
+                {
+                  "action_en": "I would prefer taking a boat trip during my visit",
+                  "action_vi": "tớ thích đi thuyền dạo mát hơn trong chuyến thăm của mình",
+                  "reason_en": "because it is quiet and we can enjoy the beautiful river views and take photos.",
+                  "reason_vi": "vì nó yên tĩnh và chúng mình có thể ngắm cảnh sông tuyệt đẹp cũng như chụp ảnh.",
+                  "b1_sentence": "Finally, I would prefer taking a boat trip during my visit because it is quiet and we can enjoy the beautiful river views and take photos.",
+                  "b1_sentence_vi": "Cuối cùng, tớ thích đi thuyền dạo mát hơn trong chuyến thăm của mình vì nó yên tĩnh và chúng mình có thể ngắm cảnh sông tuyệt đẹp cũng như chụp ảnh."
+                },
+                {
+                  "action_en": "I would prefer watching a football match at the stadium with you",
+                  "action_vi": "tớ thích đi xem một trận bóng đá ở sân vận động cùng cậu hơn",
+                  "reason_en": "because we both love football and the atmosphere at the stadium is very exciting.",
+                  "reason_vi": "vì cả hai đứa mình đều yêu bóng đá và không khí ở sân vận động rất sôi động.",
+                  "b1_sentence": "Finally, I would prefer watching a football match at the stadium with you because we both love football and the atmosphere at the stadium is very exciting.",
+                  "b1_sentence_vi": "Cuối cùng, tớ thích đi xem một trận bóng đá ở sân vận động cùng cậu hơn vì cả hai đứa mình đều yêu bóng đá và không khí ở sân vận động rất sôi động."
+                },
+                {
+                  "action_en": "I would like to go on a boat trip rather than watch a football match",
+                  "action_vi": "tớ muốn đi thuyền hơn là đi xem một trận bóng đá",
+                  "reason_en": "because I do not like noisy crowds and we can talk more easily on the boat.",
+                  "reason_vi": "vì tớ không thích đám đông ồn ào và chúng mình có thể trò chuyện dễ dàng hơn trên thuyền.",
+                  "b1_sentence": "Finally, I would like to go on a boat trip rather than watch a football match because I do not like noisy crowds and we can talk more easily on the boat.",
+                  "b1_sentence_vi": "Cuối cùng, tớ muốn đi thuyền hơn là đi xem một trận bóng đá vì tớ không thích đám đông ồn ào và chúng mình có thể trò chuyện dễ dàng hơn trên thuyền."
+                },
+                {
+                  "action_en": "I would choose watching the football match over the boat trip",
+                  "action_vi": "tớ sẽ chọn đi xem trận bóng đá thay vì đi thuyền",
+                  "reason_en": "because I sometimes get seasick on boats and I want to cheer for our favorite team.",
+                  "reason_vi": "vì đôi khi tớ bị say sóng khi đi thuyền và tớ muốn cổ vũ cho đội bóng yêu thích của chúng mình.",
+                  "b1_sentence": "Finally, I would choose watching the football match over the boat trip because I sometimes get seasick on boats and I want to cheer for our favorite team.",
+                  "b1_sentence_vi": "Cuối cùng, tớ sẽ chọn đi xem trận bóng đá thay vì đi thuyền vì đôi khi tớ bị say sóng khi đi thuyền và tớ muốn cổ vũ cho đội bóng yêu thích của chúng mình."
+                }
+              ]
+            }
+          ],
+          "vocab": [
+            {
+              "en": "accept your invitation",
+              "vi": "nhận lời mời của cậu",
+              "category": "1. Nhận lời mời (Accept invitation)"
+            },
+            {
+              "en": "feel very excited",
+              "vi": "cảm thấy rất hào hứng",
+              "category": "1. Nhận lời mời (Accept invitation)"
+            },
+            {
+              "en": "watch the performance",
+              "vi": "xem buổi biểu diễn",
+              "category": "1. Nhận lời mời (Accept invitation)"
+            },
+            {
+              "en": "support your friend",
+              "vi": "ủng hộ bạn của cậu",
+              "category": "1. Nhận lời mời (Accept invitation)"
+            },
+            {
+              "en": "have dinner at a nice restaurant",
+              "vi": "ăn tối ở một nhà hàng ngon",
+              "category": "2. Hoạt động sau buổi diễn (After the show)"
+            },
+            {
+              "en": "talk about our lives",
+              "vi": "trò chuyện về cuộc sống của chúng mình",
+              "category": "2. Hoạt động sau buổi diễn (After the show)"
+            },
+            {
+              "en": "take some photos together",
+              "vi": "chụp vài bức ảnh cùng nhau",
+              "category": "2. Hoạt động sau buổi diễn (After the show)"
+            },
+            {
+              "en": "walk around the night market",
+              "vi": "đi dạo quanh chợ đêm",
+              "category": "2. Hoạt động sau buổi diễn (After the show)"
+            },
+            {
+              "en": "prefer taking a boat trip",
+              "vi": "thích đi thuyền dạo mát hơn",
+              "category": "3. Đi thuyền hay Bóng đá (Boat trip vs Football)"
+            },
+            {
+              "en": "enjoy the beautiful river views",
+              "vi": "ngắm cảnh sông tuyệt đẹp",
+              "category": "3. Đi thuyền hay Bóng đá (Boat trip vs Football)"
+            },
+            {
+              "en": "watch a football match",
+              "vi": "xem một trận bóng đá",
+              "category": "3. Đi thuyền hay Bóng đá (Boat trip vs Football)"
+            },
+            {
+              "en": "exciting atmosphere",
+              "vi": "bầu không khí sôi động",
+              "category": "3. Đi thuyền hay Bóng đá (Boat trip vs Football)"
+            }
+          ],
+          "sentence_practice_b1": [
+            {
+              "id": 1,
+              "part": "1. Mở thư (Opening - Thân mật)",
+              "vi": "Cậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Trong thư, cậu đã mời tớ đi xem buổi biểu diễn của bạn cậu, vì vậy tớ viết thư này để trả lời các câu hỏi của cậu.",
+              "en": "How are you? I hope you are doing well. In your letter, you invited me to watch your friend’s performance, so I am writing to answer your questions.",
+              "formula": "How are you? I hope you are doing well. In your letter, you..., so I am writing to...",
+              "vocab_hints": [
+                {
+                  "en": "invited me to watch",
+                  "vi": "mời tớ đi xem"
+                },
+                {
+                  "en": "your friend’s performance",
+                  "vi": "buổi biểu diễn của bạn cậu"
+                }
+              ],
+              "explanation": "Mở thư thân mật tự nhiên, nhắc lại lời mời của Harry."
+            },
+            {
+              "id": 2,
+              "part": "2. Thân thư - Ý 1: Nhận lời mời và nêu cảm xúc",
+              "vi": "Đầu tiên, tớ rất vui được nhận lời mời của cậu, và tớ cảm thấy rất hào hứng khi được xem buổi biểu diễn vì tớ rất thích nhạc sống và muốn ủng hộ bạn của cậu.",
+              "en": "First, I would love to accept your invitation, and I feel very excited about watching the show because I really enjoy live music and want to support your friend.",
+              "formula": "First, I would love to accept your invitation, and I feel + adj + because...",
+              "vocab_hints": [
+                {
+                  "en": "accept your invitation",
+                  "vi": "nhận lời mời của cậu"
+                },
+                {
+                  "en": "feel very excited",
+                  "vi": "cảm thấy rất hào hứng"
+                },
+                {
+                  "en": "enjoy live music",
+                  "vi": "thích nhạc sống"
+                }
+              ],
+              "explanation": "Sử dụng cấu trúc \"I would love to...\" và \"I feel + adj\" để trả lời trọn vẹn yêu cầu 1."
+            },
+            {
+              "id": 3,
+              "part": "3. Thân thư - Ý 2: Hoạt động sau buổi biểu diễn",
+              "vi": "Thứ hai, chúng mình có thể đi ăn tối tại một nhà hàng ngon gần nhà hát sau buổi diễn vì chúng mình có thể thưởng thức đồ ăn ngon và trò chuyện về cuộc sống của nhau.",
+              "en": "Second, we can have dinner at a nice restaurant near the theatre after the show because we can enjoy good food and talk about our lives.",
+              "formula": "Second, we can + Vo + after the show because...",
+              "vocab_hints": [
+                {
+                  "en": "have dinner at a nice restaurant",
+                  "vi": "ăn tối ở một nhà hàng ngon"
+                },
+                {
+                  "en": "talk about our lives",
+                  "vi": "trò chuyện về cuộc sống của nhau"
+                }
+              ],
+              "explanation": "Gợi ý hoạt động làm cùng nhau sau buổi biểu diễn bằng cấu trúc đơn giản \"we can + Vo\"."
+            },
+            {
+              "id": 4,
+              "part": "4. Thân thư - Ý 3: Chọn đi thuyền hay xem bóng đá",
+              "vi": "Cuối cùng, tớ thích đi thuyền dạo mát hơn trong chuyến thăm của mình vì nó yên tĩnh và chúng mình có thể ngắm cảnh sông tuyệt đẹp cũng như chụp ảnh.",
+              "en": "Finally, I would prefer taking a boat trip during my visit because it is quiet and we can enjoy the beautiful river views and take photos.",
+              "formula": "Finally, I would prefer + V-ing / Noun + because...",
+              "vocab_hints": [
+                {
+                  "en": "prefer taking a boat trip",
+                  "vi": "thích đi thuyền hơn"
+                },
+                {
+                  "en": "beautiful river views",
+                  "vi": "cảnh sông tuyệt đẹp"
+                }
+              ],
+              "explanation": "Sử dụng cấu trúc \"I would prefer + V-ing\" kèm \"because\" để nêu rõ sự lựa chọn và lý do."
+            },
+            {
+              "id": 5,
+              "part": "5. Kết thư (Closing - Thân mật)",
+              "vi": "Tớ rất mong sớm được gặp cậu vào tuần tới. Hãy cho tớ biết nếu cậu cần thêm thông tin gì nhé. Hồi âm sớm nhé.",
+              "en": "I really look forward to seeing you next week. Let me know if you need more details. Write back soon.",
+              "formula": "I really look forward to seeing you... Write back soon.",
+              "vocab_hints": [
+                {
+                  "en": "look forward to seeing you",
+                  "vi": "rất mong được gặp cậu"
+                }
+              ],
+              "explanation": "Kết thư thân mật, hẹn gặp lại bạn."
+            }
+          ],
+          "sentence_practice_b2": [
+            {
+              "id": 1,
+              "part": "1. Mở thư (Opening - Thân mật)",
+              "vi": "Cậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Trong thư, cậu đã mời tớ đi xem buổi biểu diễn của bạn cậu, vì vậy tớ viết thư này để trả lời các câu hỏi của cậu.",
+              "en": "How are you? I hope you are doing well. In your letter, you invited me to watch your friend’s performance, so I am writing to answer your questions.",
+              "formula": "How are you? I hope you are doing well. In your letter, you..., so I am writing to...",
+              "vocab_hints": [
+                {
+                  "en": "invited me to watch",
+                  "vi": "mời tớ đi xem"
+                },
+                {
+                  "en": "your friend’s performance",
+                  "vi": "buổi biểu diễn của bạn cậu"
+                }
+              ],
+              "explanation": "Mở thư thân mật tự nhiên, nhắc lại lời mời của Harry."
+            },
+            {
+              "id": 2,
+              "part": "2. Thân thư - Ý 1: Nhận lời mời và nêu cảm xúc",
+              "vi": "Đầu tiên, tớ rất vui được nhận lời mời của cậu, và tớ cảm thấy rất hào hứng khi được xem buổi biểu diễn vì tớ rất thích nhạc sống và muốn ủng hộ bạn của cậu.",
+              "en": "First, I would love to accept your invitation, and I feel very excited about watching the show because I really enjoy live music and want to support your friend.",
+              "formula": "First, I would love to accept your invitation, and I feel + adj + because...",
+              "vocab_hints": [
+                {
+                  "en": "accept your invitation",
+                  "vi": "nhận lời mời của cậu"
+                },
+                {
+                  "en": "feel very excited",
+                  "vi": "cảm thấy rất hào hứng"
+                },
+                {
+                  "en": "enjoy live music",
+                  "vi": "thích nhạc sống"
+                }
+              ],
+              "explanation": "Sử dụng cấu trúc \"I would love to...\" và \"I feel + adj\" để trả lời trọn vẹn yêu cầu 1."
+            },
+            {
+              "id": 3,
+              "part": "3. Thân thư - Ý 2: Hoạt động sau buổi biểu diễn",
+              "vi": "Thứ hai, chúng mình có thể đi ăn tối tại một nhà hàng ngon gần nhà hát sau buổi diễn vì chúng mình có thể thưởng thức đồ ăn ngon và trò chuyện về cuộc sống của nhau.",
+              "en": "Second, we can have dinner at a nice restaurant near the theatre after the show because we can enjoy good food and talk about our lives.",
+              "formula": "Second, we can + Vo + after the show because...",
+              "vocab_hints": [
+                {
+                  "en": "have dinner at a nice restaurant",
+                  "vi": "ăn tối ở một nhà hàng ngon"
+                },
+                {
+                  "en": "talk about our lives",
+                  "vi": "trò chuyện về cuộc sống của nhau"
+                }
+              ],
+              "explanation": "Gợi ý hoạt động làm cùng nhau sau buổi biểu diễn bằng cấu trúc đơn giản \"we can + Vo\"."
+            },
+            {
+              "id": 4,
+              "part": "4. Thân thư - Ý 3: Chọn đi thuyền hay xem bóng đá",
+              "vi": "Cuối cùng, tớ thích đi thuyền dạo mát hơn trong chuyến thăm của mình vì nó yên tĩnh và chúng mình có thể ngắm cảnh sông tuyệt đẹp cũng như chụp ảnh.",
+              "en": "Finally, I would prefer taking a boat trip during my visit because it is quiet and we can enjoy the beautiful river views and take photos.",
+              "formula": "Finally, I would prefer + V-ing / Noun + because...",
+              "vocab_hints": [
+                {
+                  "en": "prefer taking a boat trip",
+                  "vi": "thích đi thuyền hơn"
+                },
+                {
+                  "en": "beautiful river views",
+                  "vi": "cảnh sông tuyệt đẹp"
+                }
+              ],
+              "explanation": "Sử dụng cấu trúc \"I would prefer + V-ing\" kèm \"because\" để nêu rõ sự lựa chọn và lý do."
+            },
+            {
+              "id": 5,
+              "part": "5. Kết thư (Closing - Thân mật)",
+              "vi": "Tớ rất mong sớm được gặp cậu vào tuần tới. Hãy cho tớ biết nếu cậu cần thêm thông tin gì nhé. Hồi âm sớm nhé.",
+              "en": "I really look forward to seeing you next week. Let me know if you need more details. Write back soon.",
+              "formula": "I really look forward to seeing you... Write back soon.",
+              "vocab_hints": [
+                {
+                  "en": "look forward to seeing you",
+                  "vi": "rất mong được gặp cậu"
+                }
+              ],
+              "explanation": "Kết thư thân mật, hẹn gặp lại bạn."
+            }
+          ],
+          "sample_b1": {
+            "letter_en": "Dear Harry,\n\nHow are you? I hope you are doing well. In your letter, you invited me to watch your friend’s performance, so I am writing to answer your questions.\n\nFirst, I would love to accept your invitation, and I feel very excited about watching the show because I really enjoy live music and want to support your friend. Second, we can have dinner at a nice restaurant near the theatre after the show because we can enjoy good food and talk about our lives. We can also invite your friend to join us for dinner. Finally, I would prefer taking a boat trip during my visit because it is quiet and we can enjoy the beautiful river views and take photos.\n\nI really look forward to seeing you next week. Let me know if you need more details. Write back soon.\n\nBest wishes,",
+            "letter_vi": "Harry thân mến,\n\nCậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Trong thư, cậu đã mời tớ đi xem buổi biểu diễn của bạn cậu, vì vậy tớ viết thư này để trả lời các câu hỏi của cậu.\n\nĐầu tiên, tớ rất vui được nhận lời mời của cậu, và tớ cảm thấy rất hào hứng khi được xem buổi biểu diễn vì tớ rất thích nhạc sống và muốn ủng hộ bạn của cậu. Thứ hai, chúng mình có thể đi ăn tối tại một nhà hàng ngon gần nhà hát sau buổi diễn vì chúng mình có thể thưởng thức đồ ăn ngon và trò chuyện về cuộc sống của nhau. Chúng mình cũng có thể mời bạn của cậu cùng đi ăn tối. Cuối cùng, tớ thích đi thuyền dạo mát hơn trong chuyến thăm của mình vì nó yên tĩnh và chúng mình có thể ngắm cảnh sông tuyệt đẹp cũng như chụp ảnh.\n\nTớ rất mong sớm được gặp cậu vào tuần tới. Hãy cho tớ biết nếu cậu cần thêm thông tin gì nhé. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "text": "Dear Harry,\n\nHow are you? I hope you are doing well. In your letter, you invited me to watch your friend’s performance, so I am writing to answer your questions.\n\nFirst, I would love to accept your invitation, and I feel very excited about watching the show because I really enjoy live music and want to support your friend. Second, we can have dinner at a nice restaurant near the theatre after the show because we can enjoy good food and talk about our lives. We can also invite your friend to join us for dinner. Finally, I would prefer taking a boat trip during my visit because it is quiet and we can enjoy the beautiful river views and take photos.\n\nI really look forward to seeing you next week. Let me know if you need more details. Write back soon.\n\nBest wishes,",
+            "translation": "Harry thân mến,\n\nCậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Trong thư, cậu đã mời tớ đi xem buổi biểu diễn của bạn cậu, vì vậy tớ viết thư này để trả lời các câu hỏi của cậu.\n\nĐầu tiên, tớ rất vui được nhận lời mời của cậu, và tớ cảm thấy rất hào hứng khi được xem buổi biểu diễn vì tớ rất thích nhạc sống và muốn ủng hộ bạn của cậu. Thứ hai, chúng mình có thể đi ăn tối tại một nhà hàng ngon gần nhà hát sau buổi diễn vì chúng mình có thể thưởng thức đồ ăn ngon và trò chuyện về cuộc sống của nhau. Chúng mình cũng có thể mời bạn của cậu cùng đi ăn tối. Cuối cùng, tớ thích đi thuyền dạo mát hơn trong chuyến thăm của mình vì nó yên tĩnh và chúng mình có thể ngắm cảnh sông tuyệt đẹp cũng như chụp ảnh.\n\nTớ rất mong sớm được gặp cậu vào tuần tới. Hãy cho tớ biết nếu cậu cần thêm thông tin gì nhé. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "word_count": 144,
+            "key_structures": []
+          },
+          "sample_b2": {
+            "letter_en": "Dear Harry,\n\nHow are you? I hope you are doing well. In your letter, you invited me to watch your friend’s performance, so I am writing to answer your questions.\n\nFirst, I would love to accept your invitation, and I feel very excited about watching the show because I really enjoy live music and want to support your friend. Second, we can have dinner at a nice restaurant near the theatre after the show because we can enjoy good food and talk about our lives. We can also invite your friend to join us for dinner. Finally, I would prefer taking a boat trip during my visit because it is quiet and we can enjoy the beautiful river views and take photos.\n\nI really look forward to seeing you next week. Let me know if you need more details. Write back soon.\n\nBest wishes,",
+            "letter_vi": "Harry thân mến,\n\nCậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Trong thư, cậu đã mời tớ đi xem buổi biểu diễn của bạn cậu, vì vậy tớ viết thư này để trả lời các câu hỏi của cậu.\n\nĐầu tiên, tớ rất vui được nhận lời mời của cậu, và tớ cảm thấy rất hào hứng khi được xem buổi biểu diễn vì tớ rất thích nhạc sống và muốn ủng hộ bạn của cậu. Thứ hai, chúng mình có thể đi ăn tối tại một nhà hàng ngon gần nhà hát sau buổi diễn vì chúng mình có thể thưởng thức đồ ăn ngon và trò chuyện về cuộc sống của nhau. Chúng mình cũng có thể mời bạn của cậu cùng đi ăn tối. Cuối cùng, tớ thích đi thuyền dạo mát hơn trong chuyến thăm của mình vì nó yên tĩnh và chúng mình có thể ngắm cảnh sông tuyệt đẹp cũng như chụp ảnh.\n\nTớ rất mong sớm được gặp cậu vào tuần tới. Hãy cho tớ biết nếu cậu cần thêm thông tin gì nhé. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "text": "Dear Harry,\n\nHow are you? I hope you are doing well. In your letter, you invited me to watch your friend’s performance, so I am writing to answer your questions.\n\nFirst, I would love to accept your invitation, and I feel very excited about watching the show because I really enjoy live music and want to support your friend. Second, we can have dinner at a nice restaurant near the theatre after the show because we can enjoy good food and talk about our lives. We can also invite your friend to join us for dinner. Finally, I would prefer taking a boat trip during my visit because it is quiet and we can enjoy the beautiful river views and take photos.\n\nI really look forward to seeing you next week. Let me know if you need more details. Write back soon.\n\nBest wishes,",
+            "translation": "Harry thân mến,\n\nCậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Trong thư, cậu đã mời tớ đi xem buổi biểu diễn của bạn cậu, vì vậy tớ viết thư này để trả lời các câu hỏi của cậu.\n\nĐầu tiên, tớ rất vui được nhận lời mời của cậu, và tớ cảm thấy rất hào hứng khi được xem buổi biểu diễn vì tớ rất thích nhạc sống và muốn ủng hộ bạn của cậu. Thứ hai, chúng mình có thể đi ăn tối tại một nhà hàng ngon gần nhà hát sau buổi diễn vì chúng mình có thể thưởng thức đồ ăn ngon và trò chuyện về cuộc sống của nhau. Chúng mình cũng có thể mời bạn của cậu cùng đi ăn tối. Cuối cùng, tớ thích đi thuyền dạo mát hơn trong chuyến thăm của mình vì nó yên tĩnh và chúng mình có thể ngắm cảnh sông tuyệt đẹp cũng như chụp ảnh.\n\nTớ rất mong sớm được gặp cậu vào tuần tới. Hãy cho tớ biết nếu cậu cần thêm thông tin gì nhé. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "word_count": 144,
+            "key_structures": []
+          }
+        }
+      },
+      {
+        "id": "de-44",
+        "title_en": "Reply to Anna about a hobby you have taken up recently",
+        "title_vi": "Đề 09: Kể cho bạn Anna nghe về một sở thích mới bắt đầu gần đây, lý do bắt đầu và lời khuyên cho bạn",
+        "recipient_type": "Informal (Bạn bè - Anna)",
+        "target_words": 120,
+        "tags": [
+          "Sở thích mới",
+          "Giải trí",
+          "Lời khuyên",
+          "Chuẩn B1"
+        ],
+        "context": "Your friend Anna has emailed to ask about a hobby you have taken up recently. She is also interested in trying something new. Write an informal reply.",
+        "prompt": "Your friend Anna has emailed to ask about a hobby you have taken up recently. She is also interested in trying something new. Write an informal reply.\n\nIn your email:\n1. Say what your recent hobby is\n2. Explain how you started it\n3. Give advice to your friend if she wants to try it\n\nWrite at least 120 words. You do not need to include your name or addresses. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt_vi": "Người bạn Anna của bạn vừa gửi email hỏi về một sở thích mà bạn mới bắt đầu gần đây. Bạn ấy cũng đang muốn thử một hoạt động mới mẻ. Hãy viết một bức thư thân mật hồi âm.\n\nTrong email của bạn:\n1. Nói rõ sở thích mới gần đây của bạn là gì (Say what your recent hobby is)\n2. Giải thích bạn đã bắt đầu sở thích đó như thế nào (Explain how you started it)\n3. Đưa ra lời khuyên cho bạn của mình nếu cô ấy cũng muốn thử sở thích đó (Give advice to your friend if she wants to try it)",
+        "has_full_details": true,
+        "details": {
+          "analysis": {
+            "recipient": "Anna (Người bạn muốn tìm hiểu về sở thích mới của bạn)",
+            "letter_type": "Informal (Thư thân mật)",
+            "purpose": "Giới thiệu sở thích mới của bạn, kể lại cách bạn bắt đầu và đưa ra lời khuyên cho Anna nếu cô ấy muốn thử",
+            "key_requirements": [
+              "1. Say what your recent hobby is (Nói rõ sở thích mới gần đây của bạn là gì)",
+              "2. Explain how you started it (Giải thích bạn đã bắt đầu sở thích đó như thế nào)",
+              "3. Give advice to your friend if she wants to try it (Đưa ra lời khuyên nếu bạn muốn thử)"
+            ]
+          },
+          "task_extractions": [
+            {
+              "id": 1,
+              "icon": "fa-camera-retro",
+              "prompt_requirement": "Say what your recent hobby is",
+              "task_title": "1. Sở thích mới (Your recent hobby)",
+              "task_goal": "Nêu sở thích mới là nấu ăn / làm bánh / chụp ảnh / trồng cây vì nó giúp thư giãn sau giờ học."
+            },
+            {
+              "id": 2,
+              "icon": "fa-seedling",
+              "prompt_requirement": "Explain how you started it",
+              "task_title": "2. Bắt đầu thế nào (How you started it)",
+              "task_goal": "Kể rằng bạn bắt đầu vào tháng trước sau khi xem các video hướng dẫn trên mạng hoặc đi học cùng mẹ."
+            },
+            {
+              "id": 3,
+              "icon": "fa-lightbulb",
+              "prompt_requirement": "Give advice to your friend if she wants to try it",
+              "task_title": "3. Lời khuyên cho bạn (Advice for your friend)",
+              "task_goal": "Khuyên Anna bắt đầu bằng những bước đơn giản và xem các video miễn phí trên YouTube."
+            }
+          ],
+          "suggested_ideas": [
+            {
+              "id": 1,
+              "title_en": "1. What your recent hobby is",
+              "title_vi": "Sở thích mới gần đây của bạn là gì",
+              "icon": "fa-camera-retro",
+              "options": [
+                {
+                  "action_en": "my new hobby is baking cakes and cookies at home on weekends",
+                  "action_vi": "sở thích mới của tớ là nướng bánh ngọt và bánh quy tại nhà vào cuối tuần",
+                  "reason_en": "because it helps me relax after busy school days.",
+                  "reason_vi": "vì nó giúp tớ thư giãn sau những ngày học bận rộn.",
+                  "b1_sentence": "First, my new hobby is baking cakes and cookies at home on weekends because it helps me relax after busy school days.",
+                  "b1_sentence_vi": "Đầu tiên, sở thích mới của tớ là nướng bánh ngọt và bánh quy tại nhà vào cuối tuần vì nó giúp tớ thư giãn sau những ngày học bận rộn."
+                },
+                {
+                  "action_en": "I have recently taken up photography in my free time",
+                  "action_vi": "gần đây tớ đã bắt đầu sở thích chụp ảnh vào thời gian rảnh",
+                  "reason_en": "because I love taking pictures of nature and daily life.",
+                  "reason_vi": "vì tớ rất thích chụp ảnh thiên nhiên và cuộc sống hàng ngày.",
+                  "b1_sentence": "First, I have recently taken up photography in my free time because I love taking pictures of nature and daily life.",
+                  "b1_sentence_vi": "Đầu tiên, gần đây tớ đã bắt đầu sở thích chụp ảnh vào thời gian rảnh vì tớ rất thích chụp ảnh thiên nhiên và cuộc sống hàng ngày."
+                },
+                {
+                  "action_en": "my recent hobby is growing small plants and flowers on my balcony",
+                  "action_vi": "sở thích gần đây của tớ là trồng các chậu cây nhỏ và hoa ngoài ban công",
+                  "reason_en": "because green plants make my room look fresh and peaceful.",
+                  "reason_vi": "vì cây xanh làm cho căn phòng của tớ trông tươi mát và yên bình.",
+                  "b1_sentence": "First, my recent hobby is growing small plants and flowers on my balcony because green plants make my room look fresh and peaceful.",
+                  "b1_sentence_vi": "Đầu tiên, sở thích gần đây của tớ là trồng các chậu cây nhỏ và hoa ngoài ban công vì cây xanh làm cho căn phòng của tớ trông tươi mát và yên bình."
+                },
+                {
+                  "action_en": "I have started practicing yoga every morning at home",
+                  "action_vi": "tớ đã bắt đầu tập yoga mỗi sáng tại nhà",
+                  "reason_en": "because it keeps my body healthy and reduces my stress.",
+                  "reason_vi": "vì nó giúp cơ thể tớ khỏe mạnh và giảm căng thẳng.",
+                  "b1_sentence": "First, I have started practicing yoga every morning at home because it keeps my body healthy and reduces my stress.",
+                  "b1_sentence_vi": "Đầu tiên, tớ đã bắt đầu tập yoga mỗi sáng tại nhà vì nó giúp cơ thể tớ khỏe mạnh và giảm căng thẳng."
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "title_en": "2. How you started it",
+              "title_vi": "Bạn đã bắt đầu sở thích đó như thế nào",
+              "icon": "fa-seedling",
+              "options": [
+                {
+                  "action_en": "I started it two months ago when I made a birthday cake for my mother with my sister",
+                  "action_vi": "tớ bắt đầu sở thích này cách đây hai tháng khi tớ cùng chị gái làm bánh sinh nhật tặng mẹ",
+                  "reason_en": "and I found that making cakes was really fun and easy.",
+                  "reason_vi": "và tớ nhận ra rằng việc làm bánh thực sự rất vui và dễ.",
+                  "b1_sentence": "Second, I started it two months ago when I made a birthday cake for my mother with my sister, and I found that making cakes was really fun and easy.",
+                  "b1_sentence_vi": "Thứ hai, tớ bắt đầu sở thích này cách đây hai tháng khi tớ cùng chị gái làm bánh sinh nhật tặng mẹ, và tớ nhận ra rằng việc làm bánh thực sự rất vui và dễ."
+                },
+                {
+                  "action_en": "I began this hobby last month after watching some interesting videos on YouTube",
+                  "action_vi": "tớ bắt đầu sở thích này vào tháng trước sau khi xem một số video thú vị trên YouTube",
+                  "reason_en": "because the videos explained every step very clearly for beginners.",
+                  "reason_vi": "vì các video đó giải thích từng bước rất rõ ràng cho người mới bắt đầu.",
+                  "b1_sentence": "Second, I began this hobby last month after watching some interesting videos on YouTube because the videos explained every step very clearly for beginners.",
+                  "b1_sentence_vi": "Thứ hai, tớ bắt đầu sở thích này vào tháng trước sau khi xem một số video thú vị trên YouTube vì các video đó giải thích từng bước rất rõ ràng cho người mới bắt đầu."
+                },
+                {
+                  "action_en": "I got into this hobby when my best friend gave me a starter kit for my birthday",
+                  "action_vi": "tớ bén duyên với sở thích này khi người bạn thân tặng tớ một bộ dụng cụ cơ bản nhân dịp sinh nhật",
+                  "reason_en": "so I decided to try it on the weekend and loved it right away.",
+                  "reason_vi": "nên tớ quyết định thử vào cuối tuần và yêu thích nó ngay lập tức.",
+                  "b1_sentence": "Second, I got into this hobby when my best friend gave me a starter kit for my birthday, so I decided to try it on the weekend and loved it right away.",
+                  "b1_sentence_vi": "Thứ hai, tớ bén duyên với sở thích này khi người bạn thân tặng tớ một bộ dụng cụ cơ bản nhân dịp sinh nhật, nên tớ quyết định thử vào cuối tuần và yêu thích nó ngay lập tức."
+                },
+                {
+                  "action_en": "I joined a weekend club at my university last month",
+                  "action_vi": "tớ đã tham gia một câu lạc bộ cuối tuần ở trường đại học vào tháng trước",
+                  "reason_en": "because my classmates invited me to come and learn with them.",
+                  "reason_vi": "vì các bạn cùng lớp đã rủ tớ đến học cùng họ.",
+                  "b1_sentence": "Second, I joined a weekend club at my university last month because my classmates invited me to come and learn with them.",
+                  "b1_sentence_vi": "Thứ hai, tớ đã tham gia một câu lạc bộ cuối tuần ở trường đại học vào tháng trước vì các bạn cùng lớp đã rủ tớ đến học cùng họ."
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "title_en": "3. Advice for your friend",
+              "title_vi": "Lời khuyên cho bạn nếu muốn thử",
+              "icon": "fa-lightbulb",
+              "options": [
+                {
+                  "action_en": "if you want to try baking, you should start with simple recipes like cupcakes and watch free lessons online",
+                  "action_vi": "nếu cậu muốn thử làm bánh, cậu nên bắt đầu với những công thức đơn giản như bánh cupcake và xem các bài học miễn phí trên mạng",
+                  "reason_en": "because you do not need expensive tools at the beginning.",
+                  "reason_vi": "vì cậu không cần những dụng cụ đắt tiền khi mới bắt đầu.",
+                  "b1_sentence": "Finally, if you want to try baking, you should start with simple recipes like cupcakes and watch free lessons online because you do not need expensive tools at the beginning.",
+                  "b1_sentence_vi": "Cuối cùng, nếu cậu muốn thử làm bánh, cậu nên bắt đầu với những công thức đơn giản như bánh cupcake và xem các bài học miễn phí trên mạng vì cậu không cần những dụng cụ đắt tiền khi mới bắt đầu."
+                },
+                {
+                  "action_en": "if you want to try it, you should practice for 20 minutes a day and be patient",
+                  "action_vi": "nếu cậu muốn thử, cậu nên luyện tập 20 phút mỗi ngày và kiên nhẫn",
+                  "reason_en": "because you will get better very quickly after a few weeks.",
+                  "reason_vi": "vì cậu sẽ tiến bộ rất nhanh sau một vài tuần.",
+                  "b1_sentence": "Finally, if you want to try it, you should practice for 20 minutes a day and be patient because you will get better very quickly after a few weeks.",
+                  "b1_sentence_vi": "Cuối cùng, nếu cậu muốn thử, cậu nên luyện tập 20 phút mỗi ngày và kiên nhẫn vì cậu sẽ tiến bộ rất nhanh sau một vài tuần."
+                },
+                {
+                  "action_en": "you should buy basic tools first and ask a friend to practice with you",
+                  "action_vi": "cậu nên mua những dụng cụ cơ bản trước và rủ một người bạn cùng tập với mình",
+                  "reason_en": "because learning a new hobby with a friend is much more fun.",
+                  "reason_vi": "vì học một sở thích mới cùng bạn bè sẽ vui hơn rất nhiều.",
+                  "b1_sentence": "Finally, you should buy basic tools first and ask a friend to practice with you because learning a new hobby with a friend is much more fun.",
+                  "b1_sentence_vi": "Cuối cùng, cậu nên mua những dụng cụ cơ bản trước và rủ một người bạn cùng tập với mình vì học một sở thích mới cùng bạn bè sẽ vui hơn rất nhiều."
+                },
+                {
+                  "action_en": "it would be a good idea to join a beginner class on Sunday mornings",
+                  "action_vi": "sẽ là một ý kiến hay nếu cậu tham gia một lớp học cơ bản vào các buổi sáng Chủ nhật",
+                  "reason_en": "because the teacher can help you fix mistakes easily.",
+                  "reason_vi": "vì giáo viên có thể giúp cậu sửa lỗi một cách dễ dàng.",
+                  "b1_sentence": "Finally, it would be a good idea to join a beginner class on Sunday mornings because the teacher can help you fix mistakes easily.",
+                  "b1_sentence_vi": "Cuối cùng, sẽ là một ý kiến hay nếu cậu tham gia một lớp học cơ bản vào các buổi sáng Chủ nhật vì giáo viên có thể giúp cậu sửa lỗi một cách dễ dàng."
+                }
+              ]
+            }
+          ],
+          "vocab": [
+            {
+              "en": "new hobby",
+              "vi": "sở thích mới",
+              "category": "1. Sở thích mới (Recent hobby)"
+            },
+            {
+              "en": "bake cakes and cookies",
+              "vi": "nướng bánh ngọt và bánh quy",
+              "category": "1. Sở thích mới (Recent hobby)"
+            },
+            {
+              "en": "help me relax",
+              "vi": "giúp tớ thư giãn",
+              "category": "1. Sở thích mới (Recent hobby)"
+            },
+            {
+              "en": "busy school days",
+              "vi": "những ngày học bận rộn",
+              "category": "1. Sở thích mới (Recent hobby)"
+            },
+            {
+              "en": "two months ago",
+              "vi": "cách đây hai tháng",
+              "category": "2. Bắt đầu thế nào (How you started)"
+            },
+            {
+              "en": "make a birthday cake",
+              "vi": "làm một chiếc bánh sinh nhật",
+              "category": "2. Bắt đầu thế nào (How you started)"
+            },
+            {
+              "en": "fun and easy",
+              "vi": "vui và dễ làm",
+              "category": "2. Bắt đầu thế nào (How you started)"
+            },
+            {
+              "en": "watch videos on YouTube",
+              "vi": "xem video trên YouTube",
+              "category": "2. Bắt đầu thế nào (How you started)"
+            },
+            {
+              "en": "start with simple recipes",
+              "vi": "bắt đầu với công thức đơn giản",
+              "category": "3. Lời khuyên (Advice for friend)"
+            },
+            {
+              "en": "watch free lessons online",
+              "vi": "xem các bài học miễn phí trên mạng",
+              "category": "3. Lời khuyên (Advice for friend)"
+            },
+            {
+              "en": "expensive tools",
+              "vi": "dụng cụ đắt tiền",
+              "category": "3. Lời khuyên (Advice for friend)"
+            },
+            {
+              "en": "at the beginning",
+              "vi": "vào lúc mới bắt đầu",
+              "category": "3. Lời khuyên (Advice for friend)"
+            }
+          ],
+          "sentence_practice_b1": [
+            {
+              "id": 1,
+              "part": "1. Mở thư (Opening - Thân mật)",
+              "vi": "Cậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Trong thư, cậu đã hỏi tớ về sở thích mới gần đây của tớ, vì vậy dưới đây là một số thông tin.",
+              "en": "How are you? I hope you are doing well. In your letter, you asked me about my recent hobby, so here is some information.",
+              "formula": "How are you? I hope you are doing well. In your letter, you asked me about..., so here is some information.",
+              "vocab_hints": [
+                {
+                  "en": "asked me about my recent hobby",
+                  "vi": "hỏi tớ về sở thích gần đây của tớ"
+                },
+                {
+                  "en": "here is some information",
+                  "vi": "dưới đây là một số thông tin"
+                }
+              ],
+              "explanation": "Mở thư cung cấp thông tin/mô tả chuẩn B1 của Cô Nguyệt."
+            },
+            {
+              "id": 2,
+              "part": "2. Thân thư - Ý 1: Nêu sở thích mới gần đây",
+              "vi": "Đầu tiên, sở thích mới của tớ là nướng bánh ngọt và bánh quy tại nhà vào cuối tuần vì nó giúp tớ thư giãn sau những ngày học bận rộn.",
+              "en": "First, my new hobby is baking cakes and cookies at home on weekends because it helps me relax after busy school days.",
+              "formula": "First, my new hobby is + V-ing + because...",
+              "vocab_hints": [
+                {
+                  "en": "baking cakes and cookies",
+                  "vi": "nướng bánh ngọt và bánh quy"
+                },
+                {
+                  "en": "helps me relax",
+                  "vi": "giúp tớ thư giãn"
+                }
+              ],
+              "explanation": "Giới thiệu sở thích mới bằng cấu trúc \"my new hobby is + V-ing\"."
+            },
+            {
+              "id": 3,
+              "part": "3. Thân thư - Ý 2: Giải thích cách bắt đầu",
+              "vi": "Thứ hai, tớ bắt đầu sở thích này cách đây hai tháng khi tớ cùng chị gái làm bánh sinh nhật tặng mẹ, và tớ nhận ra rằng việc làm bánh thực sự rất vui và dễ.",
+              "en": "Second, I started it two months ago when I made a birthday cake for my mother with my sister, and I found that making cakes was really fun and easy.",
+              "formula": "Second, I started it + [thời gian] + when + S + V (quá khứ đơn)...",
+              "vocab_hints": [
+                {
+                  "en": "two months ago",
+                  "vi": "cách đây hai tháng"
+                },
+                {
+                  "en": "made a birthday cake",
+                  "vi": "làm một chiếc bánh sinh nhật"
+                },
+                {
+                  "en": "fun and easy",
+                  "vi": "vui và dễ"
+                }
+              ],
+              "explanation": "Dùng thì quá khứ đơn (started, made, found, was) để kể lại hoàn cảnh bắt đầu sở thích."
+            },
+            {
+              "id": 4,
+              "part": "4. Thân thư - Ý 3: Lời khuyên cho bạn nếu muốn thử",
+              "vi": "Cuối cùng, nếu cậu muốn thử làm bánh, cậu nên bắt đầu với những công thức đơn giản như bánh cupcake và xem các bài học miễn phí trên mạng vì cậu không cần những dụng cụ đắt tiền khi mới bắt đầu.",
+              "en": "Finally, if you want to try baking, you should start with simple recipes like cupcakes and watch free lessons online because you do not need expensive tools at the beginning.",
+              "formula": "Finally, if you want to try..., you should + Vo + because...",
+              "vocab_hints": [
+                {
+                  "en": "start with simple recipes",
+                  "vi": "bắt đầu với công thức đơn giản"
+                },
+                {
+                  "en": "watch free lessons online",
+                  "vi": "xem các bài học miễn phí trên mạng"
+                },
+                {
+                  "en": "expensive tools",
+                  "vi": "dụng cụ đắt tiền"
+                }
+              ],
+              "explanation": "Đưa ra lời khuyên thực tế bằng cấu trúc \"if you want to..., you should + Vo\"."
+            },
+            {
+              "id": 5,
+              "part": "5. Kết thư (Closing - Thân mật)",
+              "vi": "Tớ hy vọng cậu sẽ thấy thông tin này hữu ích. Hãy cho tớ biết nếu cậu cần thêm chi tiết nhé. Hồi âm sớm nhé.",
+              "en": "I hope you will find this information useful. Let me know if you need more details. Write back soon.",
+              "formula": "I hope you will find this information useful. Let me know if you need more details. Write back soon.",
+              "vocab_hints": [
+                {
+                  "en": "find this information useful",
+                  "vi": "thấy thông tin này hữu ích"
+                }
+              ],
+              "explanation": "Câu kết thư thân mật chuẩn B1."
+            }
+          ],
+          "sentence_practice_b2": [
+            {
+              "id": 1,
+              "part": "1. Mở thư (Opening - Thân mật)",
+              "vi": "Cậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Trong thư, cậu đã hỏi tớ về sở thích mới gần đây của tớ, vì vậy dưới đây là một số thông tin.",
+              "en": "How are you? I hope you are doing well. In your letter, you asked me about my recent hobby, so here is some information.",
+              "formula": "How are you? I hope you are doing well. In your letter, you asked me about..., so here is some information.",
+              "vocab_hints": [
+                {
+                  "en": "asked me about my recent hobby",
+                  "vi": "hỏi tớ về sở thích gần đây của tớ"
+                },
+                {
+                  "en": "here is some information",
+                  "vi": "dưới đây là một số thông tin"
+                }
+              ],
+              "explanation": "Mở thư cung cấp thông tin/mô tả chuẩn B1 của Cô Nguyệt."
+            },
+            {
+              "id": 2,
+              "part": "2. Thân thư - Ý 1: Nêu sở thích mới gần đây",
+              "vi": "Đầu tiên, sở thích mới của tớ là nướng bánh ngọt và bánh quy tại nhà vào cuối tuần vì nó giúp tớ thư giãn sau những ngày học bận rộn.",
+              "en": "First, my new hobby is baking cakes and cookies at home on weekends because it helps me relax after busy school days.",
+              "formula": "First, my new hobby is + V-ing + because...",
+              "vocab_hints": [
+                {
+                  "en": "baking cakes and cookies",
+                  "vi": "nướng bánh ngọt và bánh quy"
+                },
+                {
+                  "en": "helps me relax",
+                  "vi": "giúp tớ thư giãn"
+                }
+              ],
+              "explanation": "Giới thiệu sở thích mới bằng cấu trúc \"my new hobby is + V-ing\"."
+            },
+            {
+              "id": 3,
+              "part": "3. Thân thư - Ý 2: Giải thích cách bắt đầu",
+              "vi": "Thứ hai, tớ bắt đầu sở thích này cách đây hai tháng khi tớ cùng chị gái làm bánh sinh nhật tặng mẹ, và tớ nhận ra rằng việc làm bánh thực sự rất vui và dễ.",
+              "en": "Second, I started it two months ago when I made a birthday cake for my mother with my sister, and I found that making cakes was really fun and easy.",
+              "formula": "Second, I started it + [thời gian] + when + S + V (quá khứ đơn)...",
+              "vocab_hints": [
+                {
+                  "en": "two months ago",
+                  "vi": "cách đây hai tháng"
+                },
+                {
+                  "en": "made a birthday cake",
+                  "vi": "làm một chiếc bánh sinh nhật"
+                },
+                {
+                  "en": "fun and easy",
+                  "vi": "vui và dễ"
+                }
+              ],
+              "explanation": "Dùng thì quá khứ đơn (started, made, found, was) để kể lại hoàn cảnh bắt đầu sở thích."
+            },
+            {
+              "id": 4,
+              "part": "4. Thân thư - Ý 3: Lời khuyên cho bạn nếu muốn thử",
+              "vi": "Cuối cùng, nếu cậu muốn thử làm bánh, cậu nên bắt đầu với những công thức đơn giản như bánh cupcake và xem các bài học miễn phí trên mạng vì cậu không cần những dụng cụ đắt tiền khi mới bắt đầu.",
+              "en": "Finally, if you want to try baking, you should start with simple recipes like cupcakes and watch free lessons online because you do not need expensive tools at the beginning.",
+              "formula": "Finally, if you want to try..., you should + Vo + because...",
+              "vocab_hints": [
+                {
+                  "en": "start with simple recipes",
+                  "vi": "bắt đầu với công thức đơn giản"
+                },
+                {
+                  "en": "watch free lessons online",
+                  "vi": "xem các bài học miễn phí trên mạng"
+                },
+                {
+                  "en": "expensive tools",
+                  "vi": "dụng cụ đắt tiền"
+                }
+              ],
+              "explanation": "Đưa ra lời khuyên thực tế bằng cấu trúc \"if you want to..., you should + Vo\"."
+            },
+            {
+              "id": 5,
+              "part": "5. Kết thư (Closing - Thân mật)",
+              "vi": "Tớ hy vọng cậu sẽ thấy thông tin này hữu ích. Hãy cho tớ biết nếu cậu cần thêm chi tiết nhé. Hồi âm sớm nhé.",
+              "en": "I hope you will find this information useful. Let me know if you need more details. Write back soon.",
+              "formula": "I hope you will find this information useful. Let me know if you need more details. Write back soon.",
+              "vocab_hints": [
+                {
+                  "en": "find this information useful",
+                  "vi": "thấy thông tin này hữu ích"
+                }
+              ],
+              "explanation": "Câu kết thư thân mật chuẩn B1."
+            }
+          ],
+          "sample_b1": {
+            "letter_en": "Dear Anna,\n\nHow are you? I hope you are doing well. In your letter, you asked me about my recent hobby, so here is some information.\n\nFirst, my new hobby is baking cakes and cookies at home on weekends because it helps me relax after busy school days. Second, I started it two months ago when I made a birthday cake for my mother with my sister, and I found that making cakes was really fun and easy. Finally, if you want to try baking, you should start with simple recipes like cupcakes and watch free lessons online because you do not need expensive tools at the beginning. You can also come to my house next Sunday so we can bake together!\n\nI hope you will find this information useful. Let me know if you need more details. Write back soon.\n\nBest wishes,",
+            "letter_vi": "Anna thân mến,\n\nCậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Trong thư, cậu đã hỏi tớ về sở thích mới gần đây của tớ, vì vậy dưới đây là một số thông tin.\n\nĐầu tiên, sở thích mới của tớ là nướng bánh ngọt và bánh quy tại nhà vào cuối tuần vì nó giúp tớ thư giãn sau những ngày học bận rộn. Thứ hai, tớ bắt đầu sở thích này cách đây hai tháng khi tớ cùng chị gái làm bánh sinh nhật tặng mẹ, và tớ nhận ra rằng việc làm bánh thực sự rất vui và dễ. Cuối cùng, nếu cậu muốn thử làm bánh, cậu nên bắt đầu với những công thức đơn giản như bánh cupcake và xem các bài học miễn phí trên mạng vì cậu không cần những dụng cụ đắt tiền khi mới bắt đầu. Cậu cũng có thể sang nhà tớ vào Chủ nhật tuần sau để chúng mình cùng làm bánh nhé!\n\nTớ hy vọng cậu sẽ thấy thông tin này hữu ích. Hãy cho tớ biết nếu cậu cần thêm chi tiết nhé. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "text": "Dear Anna,\n\nHow are you? I hope you are doing well. In your letter, you asked me about my recent hobby, so here is some information.\n\nFirst, my new hobby is baking cakes and cookies at home on weekends because it helps me relax after busy school days. Second, I started it two months ago when I made a birthday cake for my mother with my sister, and I found that making cakes was really fun and easy. Finally, if you want to try baking, you should start with simple recipes like cupcakes and watch free lessons online because you do not need expensive tools at the beginning. You can also come to my house next Sunday so we can bake together!\n\nI hope you will find this information useful. Let me know if you need more details. Write back soon.\n\nBest wishes,",
+            "translation": "Anna thân mến,\n\nCậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Trong thư, cậu đã hỏi tớ về sở thích mới gần đây của tớ, vì vậy dưới đây là một số thông tin.\n\nĐầu tiên, sở thích mới của tớ là nướng bánh ngọt và bánh quy tại nhà vào cuối tuần vì nó giúp tớ thư giãn sau những ngày học bận rộn. Thứ hai, tớ bắt đầu sở thích này cách đây hai tháng khi tớ cùng chị gái làm bánh sinh nhật tặng mẹ, và tớ nhận ra rằng việc làm bánh thực sự rất vui và dễ. Cuối cùng, nếu cậu muốn thử làm bánh, cậu nên bắt đầu với những công thức đơn giản như bánh cupcake và xem các bài học miễn phí trên mạng vì cậu không cần những dụng cụ đắt tiền khi mới bắt đầu. Cậu cũng có thể sang nhà tớ vào Chủ nhật tuần sau để chúng mình cùng làm bánh nhé!\n\nTớ hy vọng cậu sẽ thấy thông tin này hữu ích. Hãy cho tớ biết nếu cậu cần thêm chi tiết nhé. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "word_count": 143,
+            "key_structures": []
+          },
+          "sample_b2": {
+            "letter_en": "Dear Anna,\n\nHow are you? I hope you are doing well. In your letter, you asked me about my recent hobby, so here is some information.\n\nFirst, my new hobby is baking cakes and cookies at home on weekends because it helps me relax after busy school days. Second, I started it two months ago when I made a birthday cake for my mother with my sister, and I found that making cakes was really fun and easy. Finally, if you want to try baking, you should start with simple recipes like cupcakes and watch free lessons online because you do not need expensive tools at the beginning. You can also come to my house next Sunday so we can bake together!\n\nI hope you will find this information useful. Let me know if you need more details. Write back soon.\n\nBest wishes,",
+            "letter_vi": "Anna thân mến,\n\nCậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Trong thư, cậu đã hỏi tớ về sở thích mới gần đây của tớ, vì vậy dưới đây là một số thông tin.\n\nĐầu tiên, sở thích mới của tớ là nướng bánh ngọt và bánh quy tại nhà vào cuối tuần vì nó giúp tớ thư giãn sau những ngày học bận rộn. Thứ hai, tớ bắt đầu sở thích này cách đây hai tháng khi tớ cùng chị gái làm bánh sinh nhật tặng mẹ, và tớ nhận ra rằng việc làm bánh thực sự rất vui và dễ. Cuối cùng, nếu cậu muốn thử làm bánh, cậu nên bắt đầu với những công thức đơn giản như bánh cupcake và xem các bài học miễn phí trên mạng vì cậu không cần những dụng cụ đắt tiền khi mới bắt đầu. Cậu cũng có thể sang nhà tớ vào Chủ nhật tuần sau để chúng mình cùng làm bánh nhé!\n\nTớ hy vọng cậu sẽ thấy thông tin này hữu ích. Hãy cho tớ biết nếu cậu cần thêm chi tiết nhé. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "text": "Dear Anna,\n\nHow are you? I hope you are doing well. In your letter, you asked me about my recent hobby, so here is some information.\n\nFirst, my new hobby is baking cakes and cookies at home on weekends because it helps me relax after busy school days. Second, I started it two months ago when I made a birthday cake for my mother with my sister, and I found that making cakes was really fun and easy. Finally, if you want to try baking, you should start with simple recipes like cupcakes and watch free lessons online because you do not need expensive tools at the beginning. You can also come to my house next Sunday so we can bake together!\n\nI hope you will find this information useful. Let me know if you need more details. Write back soon.\n\nBest wishes,",
+            "translation": "Anna thân mến,\n\nCậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Trong thư, cậu đã hỏi tớ về sở thích mới gần đây của tớ, vì vậy dưới đây là một số thông tin.\n\nĐầu tiên, sở thích mới của tớ là nướng bánh ngọt và bánh quy tại nhà vào cuối tuần vì nó giúp tớ thư giãn sau những ngày học bận rộn. Thứ hai, tớ bắt đầu sở thích này cách đây hai tháng khi tớ cùng chị gái làm bánh sinh nhật tặng mẹ, và tớ nhận ra rằng việc làm bánh thực sự rất vui và dễ. Cuối cùng, nếu cậu muốn thử làm bánh, cậu nên bắt đầu với những công thức đơn giản như bánh cupcake và xem các bài học miễn phí trên mạng vì cậu không cần những dụng cụ đắt tiền khi mới bắt đầu. Cậu cũng có thể sang nhà tớ vào Chủ nhật tuần sau để chúng mình cùng làm bánh nhé!\n\nTớ hy vọng cậu sẽ thấy thông tin này hữu ích. Hãy cho tớ biết nếu cậu cần thêm chi tiết nhé. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "word_count": 143,
+            "key_structures": []
+          }
+        }
+      },
+      {
+        "id": "de-45",
+        "title_en": "Reply to Sam about summer holiday visit, accommodation, and activities",
+        "title_vi": "Đề 10: Hồi âm lời mời nghỉ hè của Sam, chọn chỗ ở và gợi ý hoạt động chung",
+        "recipient_type": "Informal (Bạn ở nước ngoài - Sam)",
+        "target_words": 120,
+        "tags": [
+          "Nghỉ hè",
+          "Nước ngoài",
+          "Chỗ ở",
+          "Hoạt động",
+          "Chuẩn B1"
+        ],
+        "context": "Your friend Sam, who lives in another country, has invited you to visit during the summer holiday. Sam offers either a spare room at home with a bed and a small desk or help finding a nearby guesthouse. Write an informal reply.",
+        "prompt": "Your friend Sam, who lives in another country, has invited you to visit during the summer holiday. Sam offers either a spare room at home with a bed and a small desk or help finding a nearby guesthouse. Write an informal reply.\n\nIn your email:\n1. Say whether you would like to come and when you hope to visit\n2. Choose accommodation and describe why it would suit you\n3. Suggest activities you could do together\n\nWrite at least 120 words. You do not need to include your name or addresses. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt_vi": "Người bạn Sam sống ở nước ngoài vừa mời bạn sang chơi vào kỳ nghỉ hè. Sam ngỏ ý dành cho bạn một phòng trống ở nhà có giường và bàn nhỏ, hoặc giúp bạn tìm một nhà nghỉ ở gần đó. Hãy viết một bức thư hồi âm thân mật.\n\nTrong email, bạn nên nêu rõ:\n1. Bạn có muốn sang thăm không và dự định đi vào thời gian nào (Say whether you would like to come and when you hope to visit)\n2. Chọn phương án chỗ ở và giải thích vì sao phù hợp với bạn (Choose accommodation and describe why it would suit you)\n3. Gợi ý các hoạt động hai bạn có thể cùng làm (Suggest activities you could do together)",
+        "has_full_details": true,
+        "details": {
+          "analysis": {
+            "recipient": "Sam (Bạn thân đang sống ở nước ngoài)",
+            "letter_type": "Informal (Thư thân mật)",
+            "purpose": "Đồng ý lời mời nghỉ hè và báo thời gian, chọn ở phòng trống tại nhà Sam kèm lý do và gợi ý các hoạt động cùng làm",
+            "key_requirements": [
+              "1. Say whether you would like to come and when you hope to visit",
+              "2. Choose accommodation and describe why it would suit you",
+              "3. Suggest activities you could do together"
+            ]
+          },
+          "task_extractions": [
+            {
+              "id": 1,
+              "icon": "fa-plane-departure",
+              "prompt_requirement": "Say whether you would like to come and when you hope to visit",
+              "task_title": "1. Nhận lời mời & Thời gian thăm (Accepting & visit time)",
+              "task_goal": "Vui vẻ nhận lời mời và cho biết dự định sang chơi khoảng 1-2 tuần vào giữa tháng 7 sau khi thi xong."
+            },
+            {
+              "id": 2,
+              "icon": "fa-bed",
+              "prompt_requirement": "Choose accommodation and describe why it would suit you",
+              "task_title": "2. Chọn chỗ ở & Lý do phù hợp (Choosing accommodation)",
+              "task_goal": "Chọn ở phòng trống tại nhà Sam vì có sẵn bàn nhỏ để dùng máy tính, tiết kiệm chi phí và có nhiều thời gian trò chuyện cùng nhau."
+            },
+            {
+              "id": 3,
+              "icon": "fa-compass",
+              "prompt_requirement": "Suggest activities you could do together",
+              "task_title": "3. Gợi ý hoạt động cùng nhau (Suggested activities)",
+              "task_goal": "Gợi ý cùng đi thăm các địa điểm nổi tiếng trong thành phố, thưởng thức món ăn địa phương và nấu món ăn Việt Nam cho gia đình Sam."
+            }
+          ],
+          "suggested_ideas": [
+            {
+              "id": 1,
+              "title_en": "1. Whether you want to come and when to visit",
+              "title_vi": "Nhận lời mời và thời gian dự định đến thăm",
+              "icon": "fa-plane-departure",
+              "options": [
+                {
+                  "action_en": "I would love to accept your invitation and I hope to visit you for two weeks in mid-July",
+                  "action_vi": "tớ rất thích nhận lời mời của cậu và tớ hy vọng sang thăm cậu trong hai tuần vào giữa tháng Bảy",
+                  "reason_en": "because my university exams will finish at the end of June.",
+                  "reason_vi": "vì kỳ thi đại học của tớ sẽ kết thúc vào cuối tháng Sáu.",
+                  "b1_sentence": "First, I would love to accept your invitation and I hope to visit you for two weeks in mid-July because my university exams will finish at the end of June.",
+                  "b1_sentence_vi": "Đầu tiên, tớ rất thích nhận lời mời của cậu và tớ hy vọng sang thăm cậu trong hai tuần vào giữa tháng Bảy vì kỳ thi đại học của tớ sẽ kết thúc vào cuối tháng Sáu."
+                },
+                {
+                  "action_en": "I am very happy to accept your invitation and plan to fly over during the first week of August",
+                  "action_vi": "tớ rất vui được nhận lời mời của cậu và dự định bay sang vào tuần đầu tiên của tháng Tám",
+                  "reason_en": "because I have ten days of summer vacation then.",
+                  "reason_vi": "vì lúc đó tớ có mười ngày nghỉ hè.",
+                  "b1_sentence": "First, I am very happy to accept your invitation and plan to fly over during the first week of August because I have ten days of summer vacation then.",
+                  "b1_sentence_vi": "Đầu tiên, tớ rất vui được nhận lời mời của cậu và dự định bay sang vào tuần đầu tiên của tháng Tám vì lúc đó tớ có mười ngày nghỉ hè."
+                },
+                {
+                  "action_en": "I am so excited to visit you and hope to come from July 10th to July 20th",
+                  "action_vi": "tớ rất hào hứng sang thăm cậu và hy vọng đến từ ngày 10 đến ngày 20 tháng Bảy",
+                  "reason_en": "because plane tickets are cheaper during that time.",
+                  "reason_vi": "vì vé máy bay rẻ hơn vào khoảng thời gian đó.",
+                  "b1_sentence": "First, I am so excited to visit you and hope to come from July 10th to July 20th because plane tickets are cheaper during that time.",
+                  "b1_sentence_vi": "Đầu tiên, tớ rất hào hứng sang thăm cậu và hy vọng đến từ ngày 10 đến ngày 20 tháng Bảy vì vé máy bay rẻ hơn vào khoảng thời gian đó."
+                },
+                {
+                  "action_en": "I would love to come to your country and stay for about one week in late July",
+                  "action_vi": "tớ rất muốn đến nước của cậu và ở lại khoảng một tuần vào cuối tháng Bảy",
+                  "reason_en": "because I will have free time after my summer course.",
+                  "reason_vi": "vì tớ sẽ rảnh rỗi sau khóa học hè.",
+                  "b1_sentence": "First, I would love to come to your country and stay for about one week in late July because I will have free time after my summer course.",
+                  "b1_sentence_vi": "Đầu tiên, tớ rất muốn đến nước của cậu và ở lại khoảng một tuần vào cuối tháng Bảy vì tớ sẽ rảnh rỗi sau khóa học hè."
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "title_en": "2. Choose accommodation and reason",
+              "title_vi": "Chọn chỗ ở và lý do phù hợp",
+              "icon": "fa-bed",
+              "options": [
+                {
+                  "action_en": "regarding the accommodation, staying in the spare room at your house would suit me best",
+                  "action_vi": "về chỗ ở, việc ở trong phòng trống tại nhà cậu sẽ phù hợp với tớ nhất",
+                  "reason_en": "because the small desk is great for my laptop and we can chat more together.",
+                  "reason_vi": "vì chiếc bàn nhỏ rất tiện để đặt máy tính và chúng mình có thể trò chuyện với nhau nhiều hơn.",
+                  "b1_sentence": "Second, regarding the accommodation, staying in the spare room at your house would suit me best because the small desk is great for my laptop and we can chat more together.",
+                  "b1_sentence_vi": "Thứ hai, về chỗ ở, việc ở trong phòng trống tại nhà cậu sẽ phù hợp với tớ nhất vì chiếc bàn nhỏ rất tiện để đặt máy tính và chúng mình có thể trò chuyện với nhau nhiều hơn."
+                },
+                {
+                  "action_en": "I would prefer the spare room in your home rather than a guesthouse",
+                  "action_vi": "tớ thích căn phòng trống trong nhà cậu hơn là ở nhà nghỉ",
+                  "reason_en": "because it helps me save money and feel like I am at home.",
+                  "reason_vi": "vì nó giúp tớ tiết kiệm tiền và cảm thấy ấm cúng như ở nhà.",
+                  "b1_sentence": "Second, I would prefer the spare room in your home rather than a guesthouse because it helps me save money and feel like I am at home.",
+                  "b1_sentence_vi": "Thứ hai, tớ thích căn phòng trống trong nhà cậu hơn là ở nhà nghỉ vì nó giúp tớ tiết kiệm tiền và cảm thấy ấm cúng như ở nhà."
+                },
+                {
+                  "action_en": "I would be happy to choose the spare room with the bed and small desk",
+                  "action_vi": "tớ rất vui lòng chọn căn phòng trống có giường và bàn nhỏ",
+                  "reason_en": "because it has everything I need for a comfortable stay.",
+                  "reason_vi": "vì nó có đầy đủ mọi thứ tớ cần cho một kỳ nghỉ thoải mái.",
+                  "b1_sentence": "Second, I would be happy to choose the spare room with the bed and small desk because it has everything I need for a comfortable stay.",
+                  "b1_sentence_vi": "Thứ hai, tớ rất vui lòng chọn căn phòng trống có giường và bàn nhỏ vì nó có đầy đủ mọi thứ tớ cần cho một kỳ nghỉ thoải mái."
+                },
+                {
+                  "action_en": "I would appreciate it if you could help me book a nearby guesthouse",
+                  "action_vi": "tớ sẽ rất biết ơn nếu cậu có thể giúp tớ đặt một nhà nghỉ ở gần đó",
+                  "reason_en": "because I do not want to disturb your family’s daily life.",
+                  "reason_vi": "vì tớ không muốn làm phiền sinh hoạt hàng ngày của gia đình cậu.",
+                  "b1_sentence": "Second, I would appreciate it if you could help me book a nearby guesthouse because I do not want to disturb your family’s daily life.",
+                  "b1_sentence_vi": "Thứ hai, tớ sẽ rất biết ơn nếu cậu có thể giúp tớ đặt một nhà nghỉ ở gần đó vì tớ không muốn làm phiền sinh hoạt hàng ngày của gia đình cậu."
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "title_en": "3. Suggested activities together",
+              "title_vi": "Gợi ý các hoạt động cùng làm",
+              "icon": "fa-compass",
+              "options": [
+                {
+                  "action_en": "we could visit famous places in your city, try local food, and cook a Vietnamese dinner together",
+                  "action_vi": "chúng mình có thể đi thăm các địa điểm nổi tiếng trong thành phố của cậu, thử món ăn địa phương và cùng nấu một bữa tối món Việt",
+                  "reason_en": "because I really want to learn about your culture and take nice photos.",
+                  "reason_vi": "vì tớ thực sự muốn tìm hiểu văn hóa của cậu và chụp những bức ảnh đẹp.",
+                  "b1_sentence": "Finally, we could visit famous places in your city, try local food, and cook a Vietnamese dinner together because I really want to learn about your culture and take nice photos.",
+                  "b1_sentence_vi": "Cuối cùng, chúng mình có thể đi thăm các địa điểm nổi tiếng trong thành phố của cậu, thử món ăn địa phương và cùng nấu một bữa tối món Việt vì tớ thực sự muốn tìm hiểu văn hóa của cậu và chụp những bức ảnh đẹp."
+                },
+                {
+                  "action_en": "we can ride bicycles in the city park, visit museums, and go shopping at the night market",
+                  "action_vi": "chúng mình có thể đạp xe trong công viên thành phố, đi thăm các bảo tàng và đi mua sắm ở chợ đêm",
+                  "reason_en": "because the summer weather will be great for outdoor activities.",
+                  "reason_vi": "vì thời tiết mùa hè sẽ rất tuyệt cho các hoạt động ngoài trời.",
+                  "b1_sentence": "Finally, we can ride bicycles in the city park, visit museums, and go shopping at the night market because the summer weather will be great for outdoor activities.",
+                  "b1_sentence_vi": "Cuối cùng, chúng mình có thể đạp xe trong công viên thành phố, đi thăm các bảo tàng và đi mua sắm ở chợ đêm vì thời tiết mùa hè sẽ rất tuyệt cho các hoạt động ngoài trời."
+                },
+                {
+                  "action_en": "I suggest taking a short day trip to the beach and trying popular street food stalls",
+                  "action_vi": "tớ gợi ý làm một chuyến đi chơi trong ngày ra bãi biển và thử các quán ăn đường phố nổi tiếng",
+                  "reason_en": "because it will help us relax and create fun memories.",
+                  "reason_vi": "vì nó sẽ giúp chúng mình thư giãn và tạo nên những kỷ niệm vui vẻ.",
+                  "b1_sentence": "Finally, I suggest taking a short day trip to the beach and trying popular street food stalls because it will help us relax and create fun memories.",
+                  "b1_sentence_vi": "Cuối cùng, tớ gợi ý làm một chuyến đi chơi trong ngày ra bãi biển và thử các quán ăn đường phố nổi tiếng vì nó sẽ giúp chúng mình thư giãn và tạo nên những kỷ niệm vui vẻ."
+                },
+                {
+                  "action_en": "we could explore historical sites during the day and watch movies together at home in the evening",
+                  "action_vi": "chúng mình có thể khám phá các di tích lịch sử vào ban ngày và cùng xem phim ở nhà vào buổi tối",
+                  "reason_en": "because it will give us plenty of time to catch up.",
+                  "reason_vi": "vì nó sẽ cho chúng mình nhiều thời gian để trò chuyện tâm sự.",
+                  "b1_sentence": "Finally, we could explore historical sites during the day and watch movies together at home in the evening because it will give us plenty of time to catch up.",
+                  "b1_sentence_vi": "Cuối cùng, chúng mình có thể khám phá các di tích lịch sử vào ban ngày và cùng xem phim ở nhà vào buổi tối vì nó sẽ cho chúng mình nhiều thời gian để trò chuyện tâm sự."
+                }
+              ]
+            }
+          ],
+          "vocab": [
+            {
+              "en": "accept your invitation",
+              "vi": "nhận lời mời của cậu",
+              "category": "1. Nhận lời & Thời gian"
+            },
+            {
+              "en": "summer vacation",
+              "vi": "kỳ nghỉ hè",
+              "category": "1. Nhận lời & Thời gian"
+            },
+            {
+              "en": "in mid-July",
+              "vi": "vào giữa tháng Bảy",
+              "category": "1. Nhận lời & Thời gian"
+            },
+            {
+              "en": "spare room",
+              "vi": "phòng trống",
+              "category": "2. Chỗ ở"
+            },
+            {
+              "en": "suit me best",
+              "vi": "phù hợp với tớ nhất",
+              "category": "2. Chỗ ở"
+            },
+            {
+              "en": "nearby guesthouse",
+              "vi": "nhà nghỉ ở gần đó",
+              "category": "2. Chỗ ở"
+            },
+            {
+              "en": "save money",
+              "vi": "tiết kiệm tiền",
+              "category": "2. Chỗ ở"
+            },
+            {
+              "en": "visit famous places",
+              "vi": "thăm các địa điểm nổi tiếng",
+              "category": "3. Hoạt động chung"
+            },
+            {
+              "en": "try local food",
+              "vi": "thử món ăn địa phương",
+              "category": "3. Hoạt động chung"
+            },
+            {
+              "en": "cook a Vietnamese dinner",
+              "vi": "nấu một bữa tối món Việt",
+              "category": "3. Hoạt động chung"
+            },
+            {
+              "en": "take nice photos",
+              "vi": "chụp những bức ảnh đẹp",
+              "category": "3. Hoạt động chung"
+            }
+          ],
+          "sentence_practice_b1": [
+            {
+              "id": 1,
+              "part": "1. Mở thư (Opening - Thân mật)",
+              "vi": "Cậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Cảm ơn cậu rất nhiều vì đã mời tớ sang thăm vào kỳ nghỉ hè này.",
+              "en": "How are you? I hope you are doing well. Thank you very much for inviting me to visit you this summer holiday.",
+              "formula": "How are you? I hope you are doing well. Thank you very much for inviting me to visit you this...",
+              "vocab_hints": [
+                {
+                  "en": "inviting me to visit you",
+                  "vi": "mời tớ sang thăm cậu"
+                },
+                {
+                  "en": "summer holiday",
+                  "vi": "kỳ nghỉ hè"
+                }
+              ],
+              "explanation": "Mở thư thân mật cảm ơn lời mời của bạn chuẩn B1."
+            },
+            {
+              "id": 2,
+              "part": "2. Thân thư - Ý 1: Nhận lời & thời gian sang thăm",
+              "vi": "Đầu tiên, tớ rất thích nhận lời mời của cậu và tớ hy vọng sang thăm cậu trong hai tuần vào giữa tháng Bảy vì kỳ thi đại học của tớ sẽ kết thúc vào cuối tháng Sáu.",
+              "en": "First, I would love to accept your invitation and I hope to visit you for two weeks in mid-July because my university exams will finish at the end of June.",
+              "formula": "First, I would love to accept your invitation and I hope to visit you for [thời gian] because...",
+              "vocab_hints": [
+                {
+                  "en": "accept your invitation",
+                  "vi": "nhận lời mời của cậu"
+                },
+                {
+                  "en": "in mid-July",
+                  "vi": "vào giữa tháng Bảy"
+                }
+              ],
+              "explanation": "Nhận lời mời và nêu thời gian cụ thể."
+            },
+            {
+              "id": 3,
+              "part": "3. Thân thư - Ý 2: Chọn chỗ ở & lý do",
+              "vi": "Thứ hai, về chỗ ở, việc ở trong phòng trống tại nhà cậu sẽ phù hợp với tớ nhất vì chiếc bàn nhỏ rất tiện để đặt máy tính và chúng mình có thể trò chuyện với nhau nhiều hơn.",
+              "en": "Second, regarding the accommodation, staying in the spare room at your house would suit me best because the small desk is great for my laptop and we can chat more together.",
+              "formula": "Second, regarding the accommodation, staying in... would suit me best because...",
+              "vocab_hints": [
+                {
+                  "en": "spare room at your house",
+                  "vi": "phòng trống tại nhà cậu"
+                },
+                {
+                  "en": "suit me best",
+                  "vi": "phù hợp với tớ nhất"
+                }
+              ],
+              "explanation": "Chọn phương án phòng trống tại nhà bạn và nêu lý do thực tế."
+            },
+            {
+              "id": 4,
+              "part": "4. Thân thư - Ý 3: Gợi ý hoạt động cùng làm",
+              "vi": "Cuối cùng, chúng mình có thể đi thăm các địa điểm nổi tiếng trong thành phố của cậu, thử món ăn địa phương và cùng nấu một bữa tối món Việt vì tớ thực sự muốn tìm hiểu văn hóa của cậu và chụp những bức ảnh đẹp.",
+              "en": "Finally, we could visit famous places in your city, try local food, and cook a Vietnamese dinner together because I really want to learn about your culture and take nice photos.",
+              "formula": "Finally, we could + Vo + because...",
+              "vocab_hints": [
+                {
+                  "en": "visit famous places",
+                  "vi": "thăm các địa điểm nổi tiếng"
+                },
+                {
+                  "en": "cook a Vietnamese dinner",
+                  "vi": "nấu một bữa tối món Việt"
+                }
+              ],
+              "explanation": "Đề xuất hoạt động gắn kết chuẩn B1."
+            },
+            {
+              "id": 5,
+              "part": "5. Kết thư (Closing - Thân mật)",
+              "vi": "Tớ rất mong sớm được gặp cậu. Hãy cho tớ biết nếu lịch đó thuận tiện với cậu nhé. Hồi âm sớm nhé.",
+              "en": "I am looking forward to seeing you soon. Please let me know if those dates work for you. Write back soon.",
+              "formula": "I am looking forward to seeing you soon. Please let me know if those dates work for you. Write back soon.",
+              "vocab_hints": [
+                {
+                  "en": "looking forward to seeing you",
+                  "vi": "rất mong sớm gặp cậu"
+                },
+                {
+                  "en": "write back soon",
+                  "vi": "hồi âm sớm nhé"
+                }
+              ],
+              "explanation": "Kết thư thân thiện, hẹn gặp lại bạn."
+            }
+          ],
+          "sentence_practice_b2": [
+            {
+              "id": 1,
+              "part": "1. Mở thư (Opening - Thân mật)",
+              "vi": "Cậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Cảm ơn cậu rất nhiều vì đã mời tớ sang thăm vào kỳ nghỉ hè này.",
+              "en": "How are you? I hope you are doing well. Thank you very much for inviting me to visit you this summer holiday.",
+              "formula": "How are you? I hope you are doing well. Thank you very much for inviting me to visit you this...",
+              "vocab_hints": [
+                {
+                  "en": "inviting me to visit you",
+                  "vi": "mời tớ sang thăm cậu"
+                },
+                {
+                  "en": "summer holiday",
+                  "vi": "kỳ nghỉ hè"
+                }
+              ],
+              "explanation": "Mở thư thân mật cảm ơn lời mời của bạn chuẩn B1."
+            },
+            {
+              "id": 2,
+              "part": "2. Thân thư - Ý 1: Nhận lời & thời gian sang thăm",
+              "vi": "Đầu tiên, tớ rất thích nhận lời mời của cậu và tớ hy vọng sang thăm cậu trong hai tuần vào giữa tháng Bảy vì kỳ thi đại học của tớ sẽ kết thúc vào cuối tháng Sáu.",
+              "en": "First, I would love to accept your invitation and I hope to visit you for two weeks in mid-July because my university exams will finish at the end of June.",
+              "formula": "First, I would love to accept your invitation and I hope to visit you for [thời gian] because...",
+              "vocab_hints": [
+                {
+                  "en": "accept your invitation",
+                  "vi": "nhận lời mời của cậu"
+                },
+                {
+                  "en": "in mid-July",
+                  "vi": "vào giữa tháng Bảy"
+                }
+              ],
+              "explanation": "Nhận lời mời và nêu thời gian cụ thể."
+            },
+            {
+              "id": 3,
+              "part": "3. Thân thư - Ý 2: Chọn chỗ ở & lý do",
+              "vi": "Thứ hai, về chỗ ở, việc ở trong phòng trống tại nhà cậu sẽ phù hợp với tớ nhất vì chiếc bàn nhỏ rất tiện để đặt máy tính và chúng mình có thể trò chuyện với nhau nhiều hơn.",
+              "en": "Second, regarding the accommodation, staying in the spare room at your house would suit me best because the small desk is great for my laptop and we can chat more together.",
+              "formula": "Second, regarding the accommodation, staying in... would suit me best because...",
+              "vocab_hints": [
+                {
+                  "en": "spare room at your house",
+                  "vi": "phòng trống tại nhà cậu"
+                },
+                {
+                  "en": "suit me best",
+                  "vi": "phù hợp với tớ nhất"
+                }
+              ],
+              "explanation": "Chọn phương án phòng trống tại nhà bạn và nêu lý do thực tế."
+            },
+            {
+              "id": 4,
+              "part": "4. Thân thư - Ý 3: Gợi ý hoạt động cùng làm",
+              "vi": "Cuối cùng, chúng mình có thể đi thăm các địa điểm nổi tiếng trong thành phố của cậu, thử món ăn địa phương và cùng nấu một bữa tối món Việt vì tớ thực sự muốn tìm hiểu văn hóa của cậu và chụp những bức ảnh đẹp.",
+              "en": "Finally, we could visit famous places in your city, try local food, and cook a Vietnamese dinner together because I really want to learn about your culture and take nice photos.",
+              "formula": "Finally, we could + Vo + because...",
+              "vocab_hints": [
+                {
+                  "en": "visit famous places",
+                  "vi": "thăm các địa điểm nổi tiếng"
+                },
+                {
+                  "en": "cook a Vietnamese dinner",
+                  "vi": "nấu một bữa tối món Việt"
+                }
+              ],
+              "explanation": "Đề xuất hoạt động gắn kết chuẩn B1."
+            },
+            {
+              "id": 5,
+              "part": "5. Kết thư (Closing - Thân mật)",
+              "vi": "Tớ rất mong sớm được gặp cậu. Hãy cho tớ biết nếu lịch đó thuận tiện với cậu nhé. Hồi âm sớm nhé.",
+              "en": "I am looking forward to seeing you soon. Please let me know if those dates work for you. Write back soon.",
+              "formula": "I am looking forward to seeing you soon. Please let me know if those dates work for you. Write back soon.",
+              "vocab_hints": [
+                {
+                  "en": "looking forward to seeing you",
+                  "vi": "rất mong sớm gặp cậu"
+                },
+                {
+                  "en": "write back soon",
+                  "vi": "hồi âm sớm nhé"
+                }
+              ],
+              "explanation": "Kết thư thân thiện, hẹn gặp lại bạn."
+            }
+          ],
+          "sample_b1": {
+            "letter_en": "Dear Sam,\n\nHow are you? I hope you are doing well. Thank you very much for inviting me to visit you this summer holiday.\n\nFirst, I would love to accept your invitation and I hope to visit you for two weeks in mid-July because my university exams will finish at the end of June. Visiting your country has always been my dream, so I am very excited.\n\nSecond, regarding the accommodation, staying in the spare room at your house would suit me best because the small desk is great for my laptop and we can chat more together. Staying with your family will also help me save money.\n\nFinally, we could visit famous places in your city, try local food, and cook a Vietnamese dinner together because I really want to learn about your culture and take nice photos.\n\nI am looking forward to seeing you soon. Please let me know if those dates work for you. Write back soon.\n\nBest wishes,",
+            "letter_vi": "Sam thân mến,\n\nCậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Cảm ơn cậu rất nhiều vì đã mời tớ sang thăm vào kỳ nghỉ hè này.\n\nĐầu tiên, tớ rất thích nhận lời mời của cậu và tớ hy vọng sang thăm cậu trong hai tuần vào giữa tháng Bảy vì kỳ thi đại học của tớ sẽ kết thúc vào cuối tháng Sáu. Đến thăm đất nước của cậu luôn là ước mơ của tớ, nên tớ rất hào hứng.\n\nThứ hai, về chỗ ở, việc ở trong phòng trống tại nhà cậu sẽ phù hợp với tớ nhất vì chiếc bàn nhỏ rất tiện để đặt máy tính và chúng mình có thể trò chuyện với nhau nhiều hơn. Ở cùng gia đình cậu cũng sẽ giúp tớ tiết kiệm tiền.\n\nCuối cùng, chúng mình có thể đi thăm các địa điểm nổi tiếng trong thành phố của cậu, thử món ăn địa phương và cùng nấu một bữa tối món Việt vì tớ thực sự muốn tìm hiểu văn hóa của cậu và chụp những bức ảnh đẹp.\n\nTớ rất mong sớm được gặp cậu. Hãy cho tớ biết nếu lịch đó thuận tiện với cậu nhé. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "text": "Dear Sam,\n\nHow are you? I hope you are doing well. Thank you very much for inviting me to visit you this summer holiday.\n\nFirst, I would love to accept your invitation and I hope to visit you for two weeks in mid-July because my university exams will finish at the end of June. Visiting your country has always been my dream, so I am very excited.\n\nSecond, regarding the accommodation, staying in the spare room at your house would suit me best because the small desk is great for my laptop and we can chat more together. Staying with your family will also help me save money.\n\nFinally, we could visit famous places in your city, try local food, and cook a Vietnamese dinner together because I really want to learn about your culture and take nice photos.\n\nI am looking forward to seeing you soon. Please let me know if those dates work for you. Write back soon.\n\nBest wishes,",
+            "translation": "Sam thân mến,\n\nCậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Cảm ơn cậu rất nhiều vì đã mời tớ sang thăm vào kỳ nghỉ hè này.\n\nĐầu tiên, tớ rất thích nhận lời mời của cậu và tớ hy vọng sang thăm cậu trong hai tuần vào giữa tháng Bảy vì kỳ thi đại học của tớ sẽ kết thúc vào cuối tháng Sáu. Đến thăm đất nước của cậu luôn là ước mơ của tớ, nên tớ rất hào hứng.\n\nThứ hai, về chỗ ở, việc ở trong phòng trống tại nhà cậu sẽ phù hợp với tớ nhất vì chiếc bàn nhỏ rất tiện để đặt máy tính và chúng mình có thể trò chuyện với nhau nhiều hơn. Ở cùng gia đình cậu cũng sẽ giúp tớ tiết kiệm tiền.\n\nCuối cùng, chúng mình có thể đi thăm các địa điểm nổi tiếng trong thành phố của cậu, thử món ăn địa phương và cùng nấu một bữa tối món Việt vì tớ thực sự muốn tìm hiểu văn hóa của cậu và chụp những bức ảnh đẹp.\n\nTớ rất mong sớm được gặp cậu. Hãy cho tớ biết nếu lịch đó thuận tiện với cậu nhé. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "word_count": 162,
+            "key_structures": []
+          },
+          "sample_b2": {
+            "letter_en": "Dear Sam,\n\nHow are you? I hope you are doing well. Thank you very much for inviting me to visit you this summer holiday.\n\nFirst, I would love to accept your invitation and I hope to visit you for two weeks in mid-July because my university exams will finish at the end of June. Visiting your country has always been my dream, so I am very excited.\n\nSecond, regarding the accommodation, staying in the spare room at your house would suit me best because the small desk is great for my laptop and we can chat more together. Staying with your family will also help me save money.\n\nFinally, we could visit famous places in your city, try local food, and cook a Vietnamese dinner together because I really want to learn about your culture and take nice photos.\n\nI am looking forward to seeing you soon. Please let me know if those dates work for you. Write back soon.\n\nBest wishes,",
+            "letter_vi": "Sam thân mến,\n\nCậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Cảm ơn cậu rất nhiều vì đã mời tớ sang thăm vào kỳ nghỉ hè này.\n\nĐầu tiên, tớ rất thích nhận lời mời của cậu và tớ hy vọng sang thăm cậu trong hai tuần vào giữa tháng Bảy vì kỳ thi đại học của tớ sẽ kết thúc vào cuối tháng Sáu. Đến thăm đất nước của cậu luôn là ước mơ của tớ, nên tớ rất hào hứng.\n\nThứ hai, về chỗ ở, việc ở trong phòng trống tại nhà cậu sẽ phù hợp với tớ nhất vì chiếc bàn nhỏ rất tiện để đặt máy tính và chúng mình có thể trò chuyện với nhau nhiều hơn. Ở cùng gia đình cậu cũng sẽ giúp tớ tiết kiệm tiền.\n\nCuối cùng, chúng mình có thể đi thăm các địa điểm nổi tiếng trong thành phố của cậu, thử món ăn địa phương và cùng nấu một bữa tối món Việt vì tớ thực sự muốn tìm hiểu văn hóa của cậu và chụp những bức ảnh đẹp.\n\nTớ rất mong sớm được gặp cậu. Hãy cho tớ biết nếu lịch đó thuận tiện với cậu nhé. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "text": "Dear Sam,\n\nHow are you? I hope you are doing well. Thank you very much for inviting me to visit you this summer holiday.\n\nFirst, I would love to accept your invitation and I hope to visit you for two weeks in mid-July because my university exams will finish at the end of June. Visiting your country has always been my dream, so I am very excited.\n\nSecond, regarding the accommodation, staying in the spare room at your house would suit me best because the small desk is great for my laptop and we can chat more together. Staying with your family will also help me save money.\n\nFinally, we could visit famous places in your city, try local food, and cook a Vietnamese dinner together because I really want to learn about your culture and take nice photos.\n\nI am looking forward to seeing you soon. Please let me know if those dates work for you. Write back soon.\n\nBest wishes,",
+            "translation": "Sam thân mến,\n\nCậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Cảm ơn cậu rất nhiều vì đã mời tớ sang thăm vào kỳ nghỉ hè này.\n\nĐầu tiên, tớ rất thích nhận lời mời của cậu và tớ hy vọng sang thăm cậu trong hai tuần vào giữa tháng Bảy vì kỳ thi đại học của tớ sẽ kết thúc vào cuối tháng Sáu. Đến thăm đất nước của cậu luôn là ước mơ của tớ, nên tớ rất hào hứng.\n\nThứ hai, về chỗ ở, việc ở trong phòng trống tại nhà cậu sẽ phù hợp với tớ nhất vì chiếc bàn nhỏ rất tiện để đặt máy tính và chúng mình có thể trò chuyện với nhau nhiều hơn. Ở cùng gia đình cậu cũng sẽ giúp tớ tiết kiệm tiền.\n\nCuối cùng, chúng mình có thể đi thăm các địa điểm nổi tiếng trong thành phố của cậu, thử món ăn địa phương và cùng nấu một bữa tối món Việt vì tớ thực sự muốn tìm hiểu văn hóa của cậu và chụp những bức ảnh đẹp.\n\nTớ rất mong sớm được gặp cậu. Hãy cho tớ biết nếu lịch đó thuận tiện với cậu nhé. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "word_count": 162,
+            "key_structures": []
+          }
+        }
+      },
+      {
+        "id": "de-46",
+        "title_en": "Reply to Lee about train station pickup, weather, and sightseeing plans",
+        "title_vi": "Đề 11: Hồi âm cho Lee về việc đón ở ga tàu, thời tiết/quần áo và điểm tham quan",
+        "recipient_type": "Informal (Bạn bè - Lee)",
+        "target_words": 120,
+        "tags": [
+          "Đón bạn",
+          "Ga tàu",
+          "Thời tiết",
+          "Tham quan",
+          "Chuẩn B1"
+        ],
+        "context": "Your friend Lee is going to travel to your town and will stay with you. Lee will come by train. Lee has written to you and asked some questions. Write an email to reply to Lee.",
+        "prompt": "Your friend Lee is going to travel to your town and will stay with you. Lee will come by train. Lee has written to you and asked some questions. Write an email to reply to Lee.\n\nIn your email you should say:\n1. whether you can meet Lee at the train station\n2. what the weather is like in your town at the moment and what clothes Lee should bring\n3. where you have planned to take Lee during the visit\n\nWrite at least 120 words. You do not need to include your name or addresses. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt_vi": "Người bạn Lee sắp đi tàu hỏa đến thị trấn của bạn và sẽ ở cùng bạn. Lee đã gửi thư hỏi bạn vài câu hỏi. Hãy viết email hồi âm cho Lee.\n\nTrong email, bạn nên nêu rõ:\n1. Bạn có thể đón Lee ở nhà ga tàu hỏa không (whether you can meet Lee at the train station)\n2. Thời tiết ở thị trấn hiện tại thế nào và Lee nên mang quần áo gì (what the weather is like in your town at the moment and what clothes Lee should bring)\n3. Bạn dự định dẫn Lee đi đâu trong chuyến thăm (where you have planned to take Lee during the visit)",
+        "has_full_details": true,
+        "details": {
+          "analysis": {
+            "recipient": "Lee (Bạn thân sắp đi tàu đến chơi và ở cùng bạn)",
+            "letter_type": "Informal (Thư thân mật)",
+            "purpose": "Xác nhận ra đón ở ga tàu, miêu tả thời tiết hiện tại và dặn mang quần áo phù hợp, nêu các địa điểm định dẫn bạn đi chơi",
+            "key_requirements": [
+              "1. Whether you can meet Lee at the train station",
+              "2. What the weather is like in your town and what clothes Lee should bring",
+              "3. Where you have planned to take Lee during the visit"
+            ]
+          },
+          "task_extractions": [
+            {
+              "id": 1,
+              "icon": "fa-train",
+              "prompt_requirement": "whether you can meet Lee at the train station",
+              "task_title": "1. Đón bạn tại ga tàu (Meeting at train station)",
+              "task_goal": "Khẳng định chắc chắn có thể ra ga đón Lee bằng xe máy/ô tô và giúp bạn xách hành lý về nhà."
+            },
+            {
+              "id": 2,
+              "icon": "fa-cloud-sun",
+              "prompt_requirement": "what the weather is like and what clothes Lee should bring",
+              "task_title": "2. Thời tiết & Quần áo nên mang (Weather & clothes)",
+              "task_goal": "Miêu tả thời tiết hiện tại nắng ấm ban ngày, mát vào buổi tối; khuyên mang áo thun, giày đi bộ êm và áo khoác mỏng."
+            },
+            {
+              "id": 3,
+              "icon": "fa-map-location-dot",
+              "prompt_requirement": "where you have planned to take Lee during the visit",
+              "task_title": "3. Địa điểm dự định đưa bạn đi chơi (Places planned to visit)",
+              "task_goal": "Kể các địa điểm đẹp như phố cổ, hồ trung tâm thành phố và chợ đêm ẩm thực nổi tiếng."
+            }
+          ],
+          "suggested_ideas": [
+            {
+              "id": 1,
+              "title_en": "1. Meeting Lee at the train station",
+              "title_vi": "Đón Lee tại nhà ga tàu hỏa",
+              "icon": "fa-train",
+              "options": [
+                {
+                  "action_en": "I can definitely meet you right at the train station when you arrive",
+                  "action_vi": "tớ chắc chắn có thể đón cậu ngay tại nhà ga tàu khi cậu đến nơi",
+                  "reason_en": "because the station is only ten minutes from my house.",
+                  "reason_vi": "vì nhà ga chỉ cách nhà tớ mười phút.",
+                  "b1_sentence": "First, I can definitely meet you right at the train station when you arrive because the station is only ten minutes from my house.",
+                  "b1_sentence_vi": "Đầu tiên, tớ chắc chắn có thể đón cậu ngay tại nhà ga tàu khi cậu đến nơi vì nhà ga chỉ cách nhà tớ mười phút."
+                },
+                {
+                  "action_en": "I will wait for you at the main gate of the station",
+                  "action_vi": "tớ sẽ đợi cậu ở cổng chính của nhà ga",
+                  "reason_en": "because I want to help you carry your heavy bags home.",
+                  "reason_vi": "vì tớ muốn giúp cậu xách những chiếc túi nặng về nhà.",
+                  "b1_sentence": "First, I will wait for you at the main gate of the station because I want to help you carry your heavy bags home.",
+                  "b1_sentence_vi": "Đầu tiên, tớ sẽ đợi cậu ở cổng chính của nhà ga vì tớ muốn giúp cậu xách những chiếc túi nặng về nhà."
+                },
+                {
+                  "action_en": "I can pick you up at the station with my motorbike or taxi",
+                  "action_vi": "tớ có thể đón cậu ở nhà ga bằng xe máy hoặc taxi",
+                  "reason_en": "because I am completely free all day on Saturday.",
+                  "reason_vi": "vì tớ hoàn toàn rảnh cả ngày thứ Bảy.",
+                  "b1_sentence": "First, I can pick you up at the station with my motorbike or taxi because I am completely free all day on Saturday.",
+                  "b1_sentence_vi": "Đầu tiên, tớ có thể đón cậu ở nhà ga bằng xe máy hoặc taxi vì tớ hoàn toàn rảnh cả ngày thứ Bảy."
+                },
+                {
+                  "action_en": "I will be at the station fifteen minutes before your train arrives",
+                  "action_vi": "tớ sẽ có mặt ở ga mười lăm phút trước khi tàu của cậu đến",
+                  "reason_en": "because I want to welcome you as soon as you step off the train.",
+                  "reason_vi": "vì tớ muốn chào đón cậu ngay khi cậu vừa bước xuống tàu.",
+                  "b1_sentence": "First, I will be at the station fifteen minutes before your train arrives because I want to welcome you as soon as you step off the train.",
+                  "b1_sentence_vi": "Đầu tiên, tớ sẽ có mặt ở ga mười lăm phút trước khi tàu của cậu đến vì tớ muốn chào đón cậu ngay khi cậu vừa bước xuống tàu."
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "title_en": "2. Current weather and clothes to bring",
+              "title_vi": "Thời tiết hiện tại và quần áo nên mang",
+              "icon": "fa-cloud-sun",
+              "options": [
+                {
+                  "action_en": "the weather in my town is sunny during the day but a bit cool at night, so you should bring T-shirts and a light jacket",
+                  "action_vi": "thời tiết ở thị trấn của tớ có nắng vào ban ngày nhưng hơi se lạnh vào ban đêm, nên cậu hãy mang áo phông và một chiếc áo khoác mỏng",
+                  "reason_en": "because the temperature goes down in the evening.",
+                  "reason_vi": "vì nhiệt độ hạ thấp vào buổi tối.",
+                  "b1_sentence": "Second, the weather in my town is sunny during the day but a bit cool at night, so you should bring T-shirts and a light jacket because the temperature goes down in the evening.",
+                  "b1_sentence_vi": "Thứ hai, thời tiết ở thị trấn của tớ có nắng vào ban ngày nhưng hơi se lạnh vào ban đêm, nên cậu hãy mang áo phông và một chiếc áo khoác mỏng vì nhiệt độ hạ thấp vào buổi tối."
+                },
+                {
+                  "action_en": "the weather is quite warm right now, so you should pack light clothes and comfortable shoes",
+                  "action_vi": "thời tiết lúc này khá ấm áp, nên cậu nên mang theo quần áo mỏng nhẹ và giày đi bộ thoải mái",
+                  "reason_en": "because we will do a lot of walking around the town.",
+                  "reason_vi": "vì chúng mình sẽ đi bộ nhiều quanh thị trấn.",
+                  "b1_sentence": "Second, the weather is quite warm right now, so you should pack light clothes and comfortable shoes because we will do a lot of walking around the town.",
+                  "b1_sentence_vi": "Thứ hai, thời tiết lúc này khá ấm áp, nên cậu nên mang theo quần áo mỏng nhẹ và giày đi bộ thoải mái vì chúng mình sẽ đi bộ nhiều quanh thị trấn."
+                },
+                {
+                  "action_en": "it is sunny with occasional rain showers, so I advise you to bring an umbrella and a hat",
+                  "action_vi": "trời nắng nhưng thỉnh thoảng có mưa rào, nên tớ khuyên cậu mang theo một chiếc ô và một chiếc mũ",
+                  "reason_en": "because it will keep you dry and comfortable outdoors.",
+                  "reason_vi": "vì nó sẽ giúp cậu không bị ướt và thoải mái khi ở ngoài trời.",
+                  "b1_sentence": "Second, it is sunny with occasional rain showers, so I advise you to bring an umbrella and a hat because it will keep you dry and comfortable outdoors.",
+                  "b1_sentence_vi": "Thứ hai, trời nắng nhưng thỉnh thoảng có mưa rào, nên tớ khuyên cậu mang theo một chiếc ô và một chiếc mũ vì nó sẽ giúp cậu không bị ướt và thoải mái khi ở ngoài trời."
+                },
+                {
+                  "action_en": "the weather is cool and breezy, so simple jeans and casual shirts are the best choices",
+                  "action_vi": "thời tiết mát mẻ và có gió nhẹ, nên quần jean đơn giản và áo sơ mi mặc thường ngày là lựa chọn tốt nhất",
+                  "reason_en": "because they are easy to wear for all our outdoor trips.",
+                  "reason_vi": "vì chúng rất dễ mặc cho tất cả các chuyến đi ngoài trời của chúng mình.",
+                  "b1_sentence": "Second, the weather is cool and breezy, so simple jeans and casual shirts are the best choices because they are easy to wear for all our outdoor trips.",
+                  "b1_sentence_vi": "Thứ hai, thời tiết mát mẻ và có gió nhẹ, nên quần jean đơn giản và áo sơ mi mặc thường ngày là lựa chọn tốt nhất vì chúng rất dễ mặc cho tất cả các chuyến đi ngoài trời của chúng mình."
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "title_en": "3. Places planned to visit",
+              "title_vi": "Các địa điểm dự định dẫn bạn đi tham quan",
+              "icon": "fa-map-location-dot",
+              "options": [
+                {
+                  "action_en": "I plan to take you to the Old Town, the central lake, and our famous night market",
+                  "action_vi": "tớ dự định dẫn cậu đi thăm khu Phố Cổ, hồ trung tâm và khu chợ đêm nổi tiếng của chúng tớ",
+                  "reason_en": "because these places have beautiful views and delicious street food.",
+                  "reason_vi": "vì những nơi này có cảnh đẹp và nhiều món ăn đường phố ngon.",
+                  "b1_sentence": "Finally, I plan to take you to the Old Town, the central lake, and our famous night market because these places have beautiful views and delicious street food.",
+                  "b1_sentence_vi": "Cuối cùng, tớ dự định dẫn cậu đi thăm khu Phố Cổ, hồ trung tâm và khu chợ đêm nổi tiếng của chúng tớ vì những nơi này có cảnh đẹp và nhiều món ăn đường phố ngon."
+                },
+                {
+                  "action_en": "I want to show you around the local history museum and a traditional craft village nearby",
+                  "action_vi": "tớ muốn dẫn cậu đi tham quan bảo tàng lịch sử địa phương và một làng nghề truyền thống ở gần đó",
+                  "reason_en": "because you can see how local people make handmade products.",
+                  "reason_vi": "vì cậu có thể nhìn thấy cách người dân địa phương làm ra các sản phẩm thủ công.",
+                  "b1_sentence": "Finally, I want to show you around the local history museum and a traditional craft village nearby because you can see how local people make handmade products.",
+                  "b1_sentence_vi": "Cuối cùng, tớ muốn dẫn cậu đi tham quan bảo tàng lịch sử địa phương và một làng nghề truyền thống ở gần đó vì cậu có thể nhìn thấy cách người dân địa phương làm ra các sản phẩm thủ công."
+                },
+                {
+                  "action_en": "we can visit the botanical garden and eat at my favorite noodle shop by the river",
+                  "action_vi": "chúng mình có thể ghé thăm vườn bách thảo và ăn ở quán mì ven sông ruột của tớ",
+                  "reason_en": "because the food is amazing and the river view is very peaceful.",
+                  "reason_vi": "vì đồ ăn rất ngon và cảnh sông nước rất thanh bình.",
+                  "b1_sentence": "Finally, we can visit the botanical garden and eat at my favorite noodle shop by the river because the food is amazing and the river view is very peaceful.",
+                  "b1_sentence_vi": "Cuối cùng, chúng mình có thể ghé thăm vườn bách thảo và ăn ở quán mì ven sông ruột của tớ vì đồ ăn rất ngon và cảnh sông nước rất thanh bình."
+                },
+                {
+                  "action_en": "I will take you up the hill to see the whole town and then we can relax at a nice café",
+                  "action_vi": "tớ sẽ đưa cậu lên ngọn đồi để ngắm toàn cảnh thị trấn và sau đó chúng mình có thể thư giãn tại một quán cà phê đẹp",
+                  "reason_en": "because the sunset view there is wonderful.",
+                  "reason_vi": "vì cảnh hoàng hôn ở đó rất tuyệt vời.",
+                  "b1_sentence": "Finally, I will take you up the hill to see the whole town and then we can relax at a nice café because the sunset view there is wonderful.",
+                  "b1_sentence_vi": "Cuối cùng, tớ sẽ đưa cậu lên ngọn đồi để ngắm toàn cảnh thị trấn và sau đó chúng mình có thể thư giãn tại một quán cà phê đẹp vì cảnh hoàng hôn ở đó rất tuyệt vời."
+                }
+              ]
+            }
+          ],
+          "vocab": [
+            {
+              "en": "train station",
+              "vi": "nhà ga xe lửa",
+              "category": "1. Đón bạn"
+            },
+            {
+              "en": "pick you up",
+              "vi": "đón cậu",
+              "category": "1. Đón bạn"
+            },
+            {
+              "en": "sunny during the day",
+              "vi": "nắng vào ban ngày",
+              "category": "2. Thời tiết & Quần áo"
+            },
+            {
+              "en": "cool at night",
+              "vi": "mát/se lạnh vào ban đêm",
+              "category": "2. Thời tiết & Quần áo"
+            },
+            {
+              "en": "light jacket",
+              "vi": "áo khoác mỏng",
+              "category": "2. Thời tiết & Quần áo"
+            },
+            {
+              "en": "comfortable shoes",
+              "vi": "giày đi bộ êm chân",
+              "category": "2. Thời tiết & Quần áo"
+            },
+            {
+              "en": "Old Town",
+              "vi": "khu Phố Cổ",
+              "category": "3. Điểm tham quan"
+            },
+            {
+              "en": "central lake",
+              "vi": "hồ ở trung tâm",
+              "category": "3. Điểm tham quan"
+            },
+            {
+              "en": "night market",
+              "vi": "chợ đêm",
+              "category": "3. Điểm tham quan"
+            },
+            {
+              "en": "delicious street food",
+              "vi": "món ăn đường phố ngon",
+              "category": "3. Điểm tham quan"
+            }
+          ],
+          "sentence_practice_b1": [
+            {
+              "id": 1,
+              "part": "1. Mở thư (Opening - Thân mật)",
+              "vi": "Cậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Tớ rất vui khi biết cậu sắp đến thăm thị trấn của tớ bằng tàu hỏa.",
+              "en": "How are you? I hope you are doing well. I am so glad to know that you are going to visit my town by train.",
+              "formula": "How are you? I hope you are doing well. I am so glad to know that you are going to visit...",
+              "vocab_hints": [
+                {
+                  "en": "glad to know",
+                  "vi": "vui khi biết"
+                },
+                {
+                  "en": "visit my town by train",
+                  "vi": "thăm thị trấn của tớ bằng tàu hỏa"
+                }
+              ],
+              "explanation": "Mở thư tự nhiên chuẩn B1."
+            },
+            {
+              "id": 2,
+              "part": "2. Thân thư - Ý 1: Đón tại ga tàu",
+              "vi": "Đầu tiên, tớ chắc chắn có thể đón cậu ngay tại nhà ga tàu khi cậu đến nơi vì nhà ga chỉ cách nhà tớ mười phút.",
+              "en": "First, I can definitely meet you right at the train station when you arrive because the station is only ten minutes from my house.",
+              "formula": "First, I can definitely meet you right at... because...",
+              "vocab_hints": [
+                {
+                  "en": "meet you right at the train station",
+                  "vi": "đón cậu ngay tại ga tàu"
+                },
+                {
+                  "en": "ten minutes from my house",
+                  "vi": "cách nhà tớ mười phút"
+                }
+              ],
+              "explanation": "Khẳng định đón bạn dễ dàng bằng câu đơn giản."
+            },
+            {
+              "id": 3,
+              "part": "3. Thân thư - Ý 2: Thời tiết & quần áo mang theo",
+              "vi": "Thứ hai, thời tiết ở thị trấn của tớ có nắng vào ban ngày nhưng hơi se lạnh vào ban đêm, nên cậu hãy mang áo phông và một chiếc áo khoác mỏng vì nhiệt độ hạ thấp vào buổi tối.",
+              "en": "Second, the weather in my town is sunny during the day but a bit cool at night, so you should bring T-shirts and a light jacket because the temperature goes down in the evening.",
+              "formula": "Second, the weather is..., so you should bring... because...",
+              "vocab_hints": [
+                {
+                  "en": "sunny during the day",
+                  "vi": "nắng vào ban ngày"
+                },
+                {
+                  "en": "light jacket",
+                  "vi": "áo khoác mỏng"
+                }
+              ],
+              "explanation": "Miêu tả thời tiết và khuyên mang đồ chuẩn B1."
+            },
+            {
+              "id": 4,
+              "part": "4. Thân thư - Ý 3: Điểm tham quan dự định",
+              "vi": "Cuối cùng, tớ dự định dẫn cậu đi thăm khu Phố Cổ, hồ trung tâm và khu chợ đêm nổi tiếng của chúng tớ vì những nơi này có cảnh đẹp và nhiều món ăn đường phố ngon.",
+              "en": "Finally, I plan to take you to the Old Town, the central lake, and our famous night market because these places have beautiful views and delicious street food.",
+              "formula": "Finally, I plan to take you to... because...",
+              "vocab_hints": [
+                {
+                  "en": "take you to the Old Town",
+                  "vi": "dẫn cậu đến Phố Cổ"
+                },
+                {
+                  "en": "famous night market",
+                  "vi": "chợ đêm nổi tiếng"
+                }
+              ],
+              "explanation": "Kể các điểm tham quan thực tế."
+            },
+            {
+              "id": 5,
+              "part": "5. Kết thư (Closing - Thân mật)",
+              "vi": "Tớ rất nóng lòng chào đón cậu tại nhà tớ. Hãy nhắn cho tớ giờ tàu đến của cậu nhé. Hồi âm sớm nhé.",
+              "en": "I can’t wait to welcome you to my home. Please text me your exact train arrival time. Write back soon.",
+              "formula": "I can’t wait to welcome you to my home. Please text me your exact train arrival time. Write back soon.",
+              "vocab_hints": [
+                {
+                  "en": "train arrival time",
+                  "vi": "giờ tàu đến"
+                },
+                {
+                  "en": "write back soon",
+                  "vi": "hồi âm sớm nhé"
+                }
+              ],
+              "explanation": "Kết thư dặn bạn báo giờ tàu chuẩn."
+            }
+          ],
+          "sentence_practice_b2": [
+            {
+              "id": 1,
+              "part": "1. Mở thư (Opening - Thân mật)",
+              "vi": "Cậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Tớ rất vui khi biết cậu sắp đến thăm thị trấn của tớ bằng tàu hỏa.",
+              "en": "How are you? I hope you are doing well. I am so glad to know that you are going to visit my town by train.",
+              "formula": "How are you? I hope you are doing well. I am so glad to know that you are going to visit...",
+              "vocab_hints": [
+                {
+                  "en": "glad to know",
+                  "vi": "vui khi biết"
+                },
+                {
+                  "en": "visit my town by train",
+                  "vi": "thăm thị trấn của tớ bằng tàu hỏa"
+                }
+              ],
+              "explanation": "Mở thư tự nhiên chuẩn B1."
+            },
+            {
+              "id": 2,
+              "part": "2. Thân thư - Ý 1: Đón tại ga tàu",
+              "vi": "Đầu tiên, tớ chắc chắn có thể đón cậu ngay tại nhà ga tàu khi cậu đến nơi vì nhà ga chỉ cách nhà tớ mười phút.",
+              "en": "First, I can definitely meet you right at the train station when you arrive because the station is only ten minutes from my house.",
+              "formula": "First, I can definitely meet you right at... because...",
+              "vocab_hints": [
+                {
+                  "en": "meet you right at the train station",
+                  "vi": "đón cậu ngay tại ga tàu"
+                },
+                {
+                  "en": "ten minutes from my house",
+                  "vi": "cách nhà tớ mười phút"
+                }
+              ],
+              "explanation": "Khẳng định đón bạn dễ dàng bằng câu đơn giản."
+            },
+            {
+              "id": 3,
+              "part": "3. Thân thư - Ý 2: Thời tiết & quần áo mang theo",
+              "vi": "Thứ hai, thời tiết ở thị trấn của tớ có nắng vào ban ngày nhưng hơi se lạnh vào ban đêm, nên cậu hãy mang áo phông và một chiếc áo khoác mỏng vì nhiệt độ hạ thấp vào buổi tối.",
+              "en": "Second, the weather in my town is sunny during the day but a bit cool at night, so you should bring T-shirts and a light jacket because the temperature goes down in the evening.",
+              "formula": "Second, the weather is..., so you should bring... because...",
+              "vocab_hints": [
+                {
+                  "en": "sunny during the day",
+                  "vi": "nắng vào ban ngày"
+                },
+                {
+                  "en": "light jacket",
+                  "vi": "áo khoác mỏng"
+                }
+              ],
+              "explanation": "Miêu tả thời tiết và khuyên mang đồ chuẩn B1."
+            },
+            {
+              "id": 4,
+              "part": "4. Thân thư - Ý 3: Điểm tham quan dự định",
+              "vi": "Cuối cùng, tớ dự định dẫn cậu đi thăm khu Phố Cổ, hồ trung tâm và khu chợ đêm nổi tiếng của chúng tớ vì những nơi này có cảnh đẹp và nhiều món ăn đường phố ngon.",
+              "en": "Finally, I plan to take you to the Old Town, the central lake, and our famous night market because these places have beautiful views and delicious street food.",
+              "formula": "Finally, I plan to take you to... because...",
+              "vocab_hints": [
+                {
+                  "en": "take you to the Old Town",
+                  "vi": "dẫn cậu đến Phố Cổ"
+                },
+                {
+                  "en": "famous night market",
+                  "vi": "chợ đêm nổi tiếng"
+                }
+              ],
+              "explanation": "Kể các điểm tham quan thực tế."
+            },
+            {
+              "id": 5,
+              "part": "5. Kết thư (Closing - Thân mật)",
+              "vi": "Tớ rất nóng lòng chào đón cậu tại nhà tớ. Hãy nhắn cho tớ giờ tàu đến của cậu nhé. Hồi âm sớm nhé.",
+              "en": "I can’t wait to welcome you to my home. Please text me your exact train arrival time. Write back soon.",
+              "formula": "I can’t wait to welcome you to my home. Please text me your exact train arrival time. Write back soon.",
+              "vocab_hints": [
+                {
+                  "en": "train arrival time",
+                  "vi": "giờ tàu đến"
+                },
+                {
+                  "en": "write back soon",
+                  "vi": "hồi âm sớm nhé"
+                }
+              ],
+              "explanation": "Kết thư dặn bạn báo giờ tàu chuẩn."
+            }
+          ],
+          "sample_b1": {
+            "letter_en": "Dear Lee,\n\nHow are you? I hope you are doing well. I am so glad to know that you are going to visit my town by train.\n\nFirst, I can definitely meet you right at the train station when you arrive because the station is only ten minutes from my house. I will ride my motorbike there to help you carry your bags home.\n\nSecond, the weather in my town is sunny during the day but a bit cool at night, so you should bring T-shirts and a light jacket because the temperature goes down in the evening. Don't forget to pack comfortable walking shoes as well.\n\nFinally, I plan to take you to the Old Town, the central lake, and our famous night market because these places have beautiful views and delicious street food.\n\nI can’t wait to welcome you to my home. Please text me your exact train arrival time. Write back soon.\n\nBest wishes,",
+            "letter_vi": "Lee thân mến,\n\nCậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Tớ rất vui khi biết cậu sắp đến thăm thị trấn của tớ bằng tàu hỏa.\n\nĐầu tiên, tớ chắc chắn có thể đón cậu ngay tại nhà ga tàu khi cậu đến nơi vì nhà ga chỉ cách nhà tớ mười phút. Tớ sẽ đi xe máy ra đón để giúp cậu xách đồ về nhà.\n\nThứ hai, thời tiết ở thị trấn của tớ có nắng vào ban ngày nhưng hơi se lạnh vào ban đêm, nên cậu hãy mang áo phông và một chiếc áo khoác mỏng vì nhiệt độ hạ thấp vào buổi tối. Đừng quên mang theo cả giày đi bộ êm chân nữa nhé.\n\nCuối cùng, tớ dự định dẫn cậu đi thăm khu Phố Cổ, hồ trung tâm và khu chợ đêm nổi tiếng của chúng tớ vì những nơi này có cảnh đẹp và nhiều món ăn đường phố ngon.\n\nTớ rất nóng lòng chào đón cậu tại nhà tớ. Hãy nhắn cho tớ giờ tàu đến của cậu nhé. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "text": "Dear Lee,\n\nHow are you? I hope you are doing well. I am so glad to know that you are going to visit my town by train.\n\nFirst, I can definitely meet you right at the train station when you arrive because the station is only ten minutes from my house. I will ride my motorbike there to help you carry your bags home.\n\nSecond, the weather in my town is sunny during the day but a bit cool at night, so you should bring T-shirts and a light jacket because the temperature goes down in the evening. Don't forget to pack comfortable walking shoes as well.\n\nFinally, I plan to take you to the Old Town, the central lake, and our famous night market because these places have beautiful views and delicious street food.\n\nI can’t wait to welcome you to my home. Please text me your exact train arrival time. Write back soon.\n\nBest wishes,",
+            "translation": "Lee thân mến,\n\nCậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Tớ rất vui khi biết cậu sắp đến thăm thị trấn của tớ bằng tàu hỏa.\n\nĐầu tiên, tớ chắc chắn có thể đón cậu ngay tại nhà ga tàu khi cậu đến nơi vì nhà ga chỉ cách nhà tớ mười phút. Tớ sẽ đi xe máy ra đón để giúp cậu xách đồ về nhà.\n\nThứ hai, thời tiết ở thị trấn của tớ có nắng vào ban ngày nhưng hơi se lạnh vào ban đêm, nên cậu hãy mang áo phông và một chiếc áo khoác mỏng vì nhiệt độ hạ thấp vào buổi tối. Đừng quên mang theo cả giày đi bộ êm chân nữa nhé.\n\nCuối cùng, tớ dự định dẫn cậu đi thăm khu Phố Cổ, hồ trung tâm và khu chợ đêm nổi tiếng của chúng tớ vì những nơi này có cảnh đẹp và nhiều món ăn đường phố ngon.\n\nTớ rất nóng lòng chào đón cậu tại nhà tớ. Hãy nhắn cho tớ giờ tàu đến của cậu nhé. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "word_count": 157,
+            "key_structures": []
+          },
+          "sample_b2": {
+            "letter_en": "Dear Lee,\n\nHow are you? I hope you are doing well. I am so glad to know that you are going to visit my town by train.\n\nFirst, I can definitely meet you right at the train station when you arrive because the station is only ten minutes from my house. I will ride my motorbike there to help you carry your bags home.\n\nSecond, the weather in my town is sunny during the day but a bit cool at night, so you should bring T-shirts and a light jacket because the temperature goes down in the evening. Don't forget to pack comfortable walking shoes as well.\n\nFinally, I plan to take you to the Old Town, the central lake, and our famous night market because these places have beautiful views and delicious street food.\n\nI can’t wait to welcome you to my home. Please text me your exact train arrival time. Write back soon.\n\nBest wishes,",
+            "letter_vi": "Lee thân mến,\n\nCậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Tớ rất vui khi biết cậu sắp đến thăm thị trấn của tớ bằng tàu hỏa.\n\nĐầu tiên, tớ chắc chắn có thể đón cậu ngay tại nhà ga tàu khi cậu đến nơi vì nhà ga chỉ cách nhà tớ mười phút. Tớ sẽ đi xe máy ra đón để giúp cậu xách đồ về nhà.\n\nThứ hai, thời tiết ở thị trấn của tớ có nắng vào ban ngày nhưng hơi se lạnh vào ban đêm, nên cậu hãy mang áo phông và một chiếc áo khoác mỏng vì nhiệt độ hạ thấp vào buổi tối. Đừng quên mang theo cả giày đi bộ êm chân nữa nhé.\n\nCuối cùng, tớ dự định dẫn cậu đi thăm khu Phố Cổ, hồ trung tâm và khu chợ đêm nổi tiếng của chúng tớ vì những nơi này có cảnh đẹp và nhiều món ăn đường phố ngon.\n\nTớ rất nóng lòng chào đón cậu tại nhà tớ. Hãy nhắn cho tớ giờ tàu đến của cậu nhé. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "text": "Dear Lee,\n\nHow are you? I hope you are doing well. I am so glad to know that you are going to visit my town by train.\n\nFirst, I can definitely meet you right at the train station when you arrive because the station is only ten minutes from my house. I will ride my motorbike there to help you carry your bags home.\n\nSecond, the weather in my town is sunny during the day but a bit cool at night, so you should bring T-shirts and a light jacket because the temperature goes down in the evening. Don't forget to pack comfortable walking shoes as well.\n\nFinally, I plan to take you to the Old Town, the central lake, and our famous night market because these places have beautiful views and delicious street food.\n\nI can’t wait to welcome you to my home. Please text me your exact train arrival time. Write back soon.\n\nBest wishes,",
+            "translation": "Lee thân mến,\n\nCậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Tớ rất vui khi biết cậu sắp đến thăm thị trấn của tớ bằng tàu hỏa.\n\nĐầu tiên, tớ chắc chắn có thể đón cậu ngay tại nhà ga tàu khi cậu đến nơi vì nhà ga chỉ cách nhà tớ mười phút. Tớ sẽ đi xe máy ra đón để giúp cậu xách đồ về nhà.\n\nThứ hai, thời tiết ở thị trấn của tớ có nắng vào ban ngày nhưng hơi se lạnh vào ban đêm, nên cậu hãy mang áo phông và một chiếc áo khoác mỏng vì nhiệt độ hạ thấp vào buổi tối. Đừng quên mang theo cả giày đi bộ êm chân nữa nhé.\n\nCuối cùng, tớ dự định dẫn cậu đi thăm khu Phố Cổ, hồ trung tâm và khu chợ đêm nổi tiếng của chúng tớ vì những nơi này có cảnh đẹp và nhiều món ăn đường phố ngon.\n\nTớ rất nóng lòng chào đón cậu tại nhà tớ. Hãy nhắn cho tớ giờ tàu đến của cậu nhé. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "word_count": 157,
+            "key_structures": []
+          }
+        }
+      },
+      {
+        "id": "de-50",
+        "title_en": "Reply to Harry about Lily's dance show, details, and activities",
+        "title_vi": "Đề 12: Hồi âm cho Harry về buổi diễn nhảy của Lily và bàn kế hoạch đi chơi",
+        "recipient_type": "Informal (Bạn bè - Harry)",
+        "target_words": 120,
+        "tags": [
+          "Buổi diễn nhảy",
+          "Lời mời",
+          "Quà tặng",
+          "Cuối tuần",
+          "Chuẩn B1"
+        ],
+        "context": "Your friend Harry has written to invite you to watch a dance show by his friend Lily next weekend. Write an email to Harry.",
+        "prompt": "Your friend Harry has written to invite you to watch a dance show by his friend Lily next weekend. Write an email to Harry.\n\nIn your email you should say:\n1. whether you accept the invitation and how you feel about it\n2. what details you would like to check, such as the time, the meeting place and whether to bring flowers or a gift for Lily\n3. what activities the two of you could do together before or after the show\n\nWrite at least 120 words. You do not need to include your name or addresses. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt_vi": "Bạn Harry vừa gửi thư mời bạn đi xem buổi biểu diễn nhảy của bạn Lily vào cuối tuần tới. Hãy viết email cho Harry.\n\nTrong email, bạn nên nêu rõ:\n1. Bạn có nhận lời mời không và cảm xúc thế nào (whether you accept the invitation and how you feel about it)\n2. Bạn muốn kiểm tra lại chi tiết gì (giờ giấc, điểm hẹn, có nên mua hoa hay quà tặng Lily không)\n3. Hai bạn có thể cùng làm gì trước hoặc sau buổi diễn (what activities the two of you could do together before or after the show)",
+        "has_full_details": true,
+        "details": {
+          "analysis": {
+            "recipient": "Harry (Bạn thân mời đi xem biểu diễn nhảy)",
+            "letter_type": "Informal (Thư thân mật)",
+            "purpose": "Đồng ý lời mời xem nhảy của Lily, hỏi lại thời gian/điểm hẹn/mua hoa, và đề xuất đi ăn tối hoặc uống cà phê cùng nhau",
+            "key_requirements": [
+              "1. Whether you accept the invitation and how you feel about it",
+              "2. What details you would like to check (time, meeting place, flowers or gift for Lily)",
+              "3. What activities the two of you could do together before or after the show"
+            ]
+          },
+          "task_extractions": [
+            {
+              "id": 1,
+              "icon": "fa-heart",
+              "prompt_requirement": "whether you accept the invitation and how you feel about it",
+              "task_title": "1. Nhận lời mời & Cảm xúc (Accepting & feelings)",
+              "task_goal": "Hào hứng nhận lời mời đi xem biểu diễn nhảy và bày tỏ sự thích thú đối với các tiết mục nhảy hiện đại."
+            },
+            {
+              "id": 2,
+              "icon": "fa-circle-question",
+              "prompt_requirement": "what details you would like to check (time, meeting place, flowers/gift)",
+              "task_title": "2. Kiểm tra chi tiết & Quà tặng (Checking details & gift)",
+              "task_goal": "Hỏi rõ giờ bắt đầu, nơi hẹn gặp và đề xuất mua một bó hoa tươi để tặng Lily sau buổi diễn."
+            },
+            {
+              "id": 3,
+              "icon": "fa-mug-hot",
+              "prompt_requirement": "what activities the two of you could do together before or after the show",
+              "task_title": "3. Hoạt động trước hoặc sau buổi diễn (Activities before/after)",
+              "task_goal": "Gợi ý uống cà phê trước buổi diễn hoặc đi ăn tối lẩu/nướng cùng nhau sau buổi diễn để chúc mừng Lily."
+            }
+          ],
+          "suggested_ideas": [
+            {
+              "id": 1,
+              "title_en": "1. Accepting invitation and feelings",
+              "title_vi": "Nhận lời mời và cảm xúc",
+              "icon": "fa-heart",
+              "options": [
+                {
+                  "action_en": "I would love to accept your invitation and I feel very excited about watching Lily’s dance show next weekend",
+                  "action_vi": "tớ rất vui được nhận lời mời của cậu và tớ cảm thấy rất hào hứng xem buổi biểu diễn nhảy của Lily vào cuối tuần tới",
+                  "reason_en": "because I love modern dance and I know Lily is a wonderful dancer.",
+                  "reason_vi": "vì tớ yêu thích nhảy hiện đại và tớ biết Lily là một vũ công tuyệt vời.",
+                  "b1_sentence": "First, I would love to accept your invitation and I feel very excited about watching Lily’s dance show next weekend because I love modern dance and I know Lily is a wonderful dancer.",
+                  "b1_sentence_vi": "Đầu tiên, tớ rất vui được nhận lời mời của cậu và tớ cảm thấy rất hào hứng xem buổi biểu diễn nhảy của Lily vào cuối tuần tới vì tớ yêu thích nhảy hiện đại và tớ biết Lily là một vũ công tuyệt vời."
+                },
+                {
+                  "action_en": "I am happy to come with you and I am sure it will be a fantastic performance",
+                  "action_vi": "tớ rất vui được đi cùng cậu và tớ chắc chắn đó sẽ là một buổi biểu diễn tuyệt vời",
+                  "reason_en": "because she has been practicing very hard for this show.",
+                  "reason_vi": "vì cô ấy đã chăm chỉ luyện tập cho buổi diễn này.",
+                  "b1_sentence": "First, I am happy to come with you and I am sure it will be a fantastic performance because she has been practicing very hard for this show.",
+                  "b1_sentence_vi": "Đầu tiên, tớ rất vui được đi cùng cậu và tớ chắc chắn đó sẽ là một buổi biểu diễn tuyệt vời vì cô ấy đã chăm chỉ luyện tập cho buổi diễn này."
+                },
+                {
+                  "action_en": "I can definitely join you next Saturday and I feel so glad you invited me",
+                  "action_vi": "tớ chắc chắn có thể đi cùng cậu vào thứ Bảy tới và tớ cảm thấy rất vui vì cậu đã mời tớ",
+                  "reason_en": "because I am completely free next weekend.",
+                  "reason_vi": "vì cuối tuần tới tớ hoàn toàn rảnh.",
+                  "b1_sentence": "First, I can definitely join you next Saturday and I feel so glad you invited me because I am completely free next weekend.",
+                  "b1_sentence_vi": "Đầu tiên, tớ chắc chắn có thể đi cùng cậu vào thứ Bảy tới và tớ cảm thấy rất vui vì cậu đã mời tớ vì cuối tuần tới tớ hoàn toàn rảnh."
+                },
+                {
+                  "action_en": "I would love to go to the theater with you to support Lily",
+                  "action_vi": "tớ rất thích đến nhà hát cùng cậu để cổ vũ cho Lily",
+                  "reason_en": "because watching live dance shows is always fun and energetic.",
+                  "reason_vi": "vì xem biểu diễn nhảy trực tiếp luôn vui và tràn đầy năng lượng.",
+                  "b1_sentence": "First, I would love to go to the theater with you to support Lily because watching live dance shows is always fun and energetic.",
+                  "b1_sentence_vi": "Đầu tiên, tớ rất thích đến nhà hát cùng cậu để cổ vũ cho Lily vì xem biểu diễn nhảy trực tiếp luôn vui và tràn đầy năng lượng."
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "title_en": "2. Checking details and flowers or gift",
+              "title_vi": "Hỏi chi tiết giờ giấc, điểm hẹn và hoa/quà",
+              "icon": "fa-circle-question",
+              "options": [
+                {
+                  "action_en": "could you please tell me what time the show starts, where we should meet, and if we should buy a bouquet of flowers for Lily?",
+                  "action_vi": "cậu có thể cho tớ biết buổi diễn bắt đầu lúc mấy giờ, chúng mình nên hẹn nhau ở đâu và liệu chúng mình có nên mua một bó hoa tặng Lily không?",
+                  "reason_en": "because I think giving flowers to her on stage will make her very happy.",
+                  "reason_vi": "vì tớ nghĩ tặng hoa cho cô ấy trên sân khấu sẽ khiến cô ấy rất vui.",
+                  "b1_sentence": "Second, could you please tell me what time the show starts, where we should meet, and if we should buy a bouquet of flowers for Lily because I think giving flowers to her on stage will make her very happy?",
+                  "b1_sentence_vi": "Thứ hai, cậu có thể cho tớ biết buổi diễn bắt đầu lúc mấy giờ, chúng mình nên hẹn nhau ở đâu và liệu chúng mình có nên mua một bó hoa tặng Lily không vì tớ nghĩ tặng hoa cho cô ấy trên sân khấu sẽ khiến cô ấy rất vui?"
+                },
+                {
+                  "action_en": "I would like to check the starting time and the meeting place, and whether we should prepare a small gift",
+                  "action_vi": "tớ muốn kiểm tra lại giờ bắt đầu và điểm hẹn, cùng với việc liệu chúng mình có nên chuẩn bị một món quà nhỏ",
+                  "reason_en": "because I want to arrive early and have everything ready.",
+                  "reason_vi": "vì tớ muốn đến sớm và chuẩn bị mọi thứ sẵn sàng.",
+                  "b1_sentence": "Second, I would like to check the starting time and the meeting place, and whether we should prepare a small gift because I want to arrive early and have everything ready.",
+                  "b1_sentence_vi": "Thứ hai, tớ muốn kiểm tra lại giờ bắt đầu và điểm hẹn, cùng với việc liệu chúng mình có nên chuẩn bị một món quà nhỏ vì tớ muốn đến sớm và chuẩn bị mọi thứ sẵn sàng."
+                },
+                {
+                  "action_en": "please let me know what time and where we are meeting outside the theater",
+                  "action_vi": "hãy cho tớ biết mấy giờ và ở đâu chúng mình sẽ gặp nhau bên ngoài nhà hát",
+                  "reason_en": "because we can buy a nice gift card for Lily together.",
+                  "reason_vi": "vì chúng mình có thể cùng nhau mua một tấm thiệp quà tặng xinh xắn cho Lily.",
+                  "b1_sentence": "Second, please let me know what time and where we are meeting outside the theater because we can buy a nice gift card for Lily together.",
+                  "b1_sentence_vi": "Thứ hai, hãy cho tớ biết mấy giờ và ở đâu chúng mình sẽ gặp nhau bên ngoài nhà hát vì chúng mình có thể cùng nhau mua một tấm thiệp quà tặng xinh xắn cho Lily."
+                },
+                {
+                  "action_en": "could you tell me the ticket price and whether we should bring some fresh sunflowers for Lily?",
+                  "action_vi": "cậu có thể cho tớ biết giá vé và liệu chúng mình có nên mang hoa hướng dương tươi tặng Lily không?",
+                  "reason_en": "because sunflowers look bright and cheerful.",
+                  "reason_vi": "vì hoa hướng dương trông rất tươi sáng và rạng rỡ.",
+                  "b1_sentence": "Second, could you tell me the ticket price and whether we should bring some fresh sunflowers for Lily because sunflowers look bright and cheerful?",
+                  "b1_sentence_vi": "Thứ hai, cậu có thể cho tớ biết giá vé và liệu chúng mình có nên mang hoa hướng dương tươi tặng Lily không vì hoa hướng dương trông rất tươi sáng và rạng rỡ?"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "title_en": "3. Activities before or after the show",
+              "title_vi": "Hoạt động trước hoặc sau buổi biểu diễn",
+              "icon": "fa-mug-hot",
+              "options": [
+                {
+                  "action_en": "after the show, I suggest going to a nearby restaurant to have dinner together",
+                  "action_vi": "sau buổi diễn, tớ gợi ý đến một nhà hàng gần đó để cùng ăn tối",
+                  "reason_en": "because we can chat about the performance and invite Lily to join us.",
+                  "reason_vi": "vì chúng mình có thể trò chuyện về buổi biểu diễn và rủ cả Lily tham gia.",
+                  "b1_sentence": "Finally, after the show, I suggest going to a nearby restaurant to have dinner together because we can chat about the performance and invite Lily to join us.",
+                  "b1_sentence_vi": "Cuối cùng, sau buổi diễn, tớ gợi ý đến một nhà hàng gần đó để cùng ăn tối vì chúng mình có thể trò chuyện về buổi biểu diễn và rủ cả Lily tham gia."
+                },
+                {
+                  "action_en": "we could meet an hour early to grab a cup of coffee near the theater",
+                  "action_vi": "chúng mình có thể gặp nhau sớm một tiếng để uống một tách cà phê gần nhà hát",
+                  "reason_en": "because we can avoid traffic and talk before the show starts.",
+                  "reason_vi": "vì chúng mình có thể tránh tắc đường và nói chuyện trước khi buổi diễn bắt đầu.",
+                  "b1_sentence": "Finally, we could meet an hour early to grab a cup of coffee near the theater because we can avoid traffic and talk before the show starts.",
+                  "b1_sentence_vi": "Cuối cùng, chúng mình có thể gặp nhau sớm một tiếng để uống một tách cà phê gần nhà hát vì chúng mình có thể tránh tắc đường và nói chuyện trước khi buổi diễn bắt đầu."
+                },
+                {
+                  "action_en": "we can go to an ice cream shop after the performance finishes",
+                  "action_vi": "chúng mình có thể đến một quán kem sau khi buổi diễn kết thúc",
+                  "reason_en": "because it will be a sweet and relaxing way to end the evening.",
+                  "reason_vi": "vì đó sẽ là cách ngọt ngào và thư giãn để khép lại buổi tối.",
+                  "b1_sentence": "Finally, we can go to an ice cream shop after the performance finishes because it will be a sweet and relaxing way to end the evening.",
+                  "b1_sentence_vi": "Cuối cùng, chúng mình có thể đến một quán kem sau khi buổi diễn kết thúc vì đó sẽ là cách ngọt ngào và thư giãn để khép lại buổi tối."
+                },
+                {
+                  "action_en": "we could take a walk in the pedestrian street after the show and take some photos",
+                  "action_vi": "chúng mình có thể đi dạo trên phố đi bộ sau buổi diễn và chụp vài bức ảnh",
+                  "reason_en": "because the street is lively and beautiful at night.",
+                  "reason_vi": "vì con phố rất nhộn nhịp và đẹp vào ban đêm.",
+                  "b1_sentence": "Finally, we could take a walk in the pedestrian street after the show and take some photos because the street is lively and beautiful at night.",
+                  "b1_sentence_vi": "Cuối cùng, chúng mình có thể đi dạo trên phố đi bộ sau buổi diễn và chụp vài bức ảnh vì con phố rất nhộn nhịp và đẹp vào ban đêm."
+                }
+              ]
+            }
+          ],
+          "vocab": [
+            {
+              "en": "dance show",
+              "vi": "buổi biểu diễn nhảy",
+              "category": "1. Nhận lời mời"
+            },
+            {
+              "en": "fantastic performance",
+              "vi": "tiết mục tuyệt vời",
+              "category": "1. Nhận lời mời"
+            },
+            {
+              "en": "starting time",
+              "vi": "giờ bắt đầu",
+              "category": "2. Chi tiết"
+            },
+            {
+              "en": "meeting place",
+              "vi": "địa điểm hẹn gặp",
+              "category": "2. Chi tiết"
+            },
+            {
+              "en": "a bouquet of flowers",
+              "vi": "một bó hoa",
+              "category": "2. Chi tiết"
+            },
+            {
+              "en": "grab a cup of coffee",
+              "vi": "uống một tách cà phê",
+              "category": "3. Hoạt động chung"
+            },
+            {
+              "en": "have dinner together",
+              "vi": "cùng nhau ăn tối",
+              "category": "3. Hoạt động chung"
+            }
+          ],
+          "sentence_practice_b1": [
+            {
+              "id": 1,
+              "part": "1. Mở thư (Opening - Thân mật)",
+              "vi": "Cậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Cảm ơn cậu rất nhiều vì đã mời tớ đi xem buổi biểu diễn nhảy của Lily vào cuối tuần tới.",
+              "en": "How are you? I hope you are doing well. Thank you very much for inviting me to watch Lily’s dance show next weekend.",
+              "formula": "How are you? I hope you are doing well. Thank you very much for inviting me to watch...",
+              "vocab_hints": [
+                {
+                  "en": "inviting me to watch",
+                  "vi": "mời tớ đi xem"
+                },
+                {
+                  "en": "dance show",
+                  "vi": "buổi biểu diễn nhảy"
+                }
+              ],
+              "explanation": "Mở thư cảm ơn lời mời chuẩn B1."
+            },
+            {
+              "id": 2,
+              "part": "2. Thân thư - Ý 1: Nhận lời & cảm xúc",
+              "vi": "Đầu tiên, tớ rất vui được nhận lời mời của cậu và tớ cảm thấy rất hào hứng xem buổi biểu diễn nhảy của Lily vào cuối tuần tới vì tớ yêu thích nhảy hiện đại và tớ biết Lily là một vũ công tuyệt vời.",
+              "en": "First, I would love to accept your invitation and I feel very excited about watching Lily’s dance show next weekend because I love modern dance and I know Lily is a wonderful dancer.",
+              "formula": "First, I would love to accept your invitation and I feel... because...",
+              "vocab_hints": [
+                {
+                  "en": "excited about watching",
+                  "vi": "hào hứng được xem"
+                },
+                {
+                  "en": "wonderful dancer",
+                  "vi": "vũ công tuyệt vời"
+                }
+              ],
+              "explanation": "Nhận lời mời và bày tỏ cảm xúc tích cực."
+            },
+            {
+              "id": 3,
+              "part": "3. Thân thư - Ý 2: Kiểm tra chi tiết & quà tặng",
+              "vi": "Thứ hai, cậu có thể cho tớ biết buổi diễn bắt đầu lúc mấy giờ, chúng mình nên hẹn nhau ở đâu và liệu chúng mình có nên mua một bó hoa tặng Lily không vì tớ nghĩ tặng hoa cho cô ấy trên sân khấu sẽ khiến cô ấy rất vui?",
+              "en": "Second, could you please tell me what time the show starts, where we should meet, and if we should buy a bouquet of flowers for Lily because I think giving flowers to her on stage will make her very happy?",
+              "formula": "Second, could you please tell me what time..., where..., and if... because...?",
+              "vocab_hints": [
+                {
+                  "en": "what time the show starts",
+                  "vi": "buổi diễn bắt đầu lúc mấy giờ"
+                },
+                {
+                  "en": "bouquet of flowers",
+                  "vi": "bó hoa tươi"
+                }
+              ],
+              "explanation": "Hỏi thông tin giờ giấc và đề xuất hoa."
+            },
+            {
+              "id": 4,
+              "part": "4. Thân thư - Ý 3: Hoạt động trước hoặc sau buổi diễn",
+              "vi": "Cuối cùng, sau buổi diễn, tớ gợi ý đến một nhà hàng gần đó để cùng ăn tối vì chúng mình có thể trò chuyện về buổi biểu diễn và rủ cả Lily tham gia.",
+              "en": "Finally, after the show, I suggest going to a nearby restaurant to have dinner together because we can chat about the performance and invite Lily to join us.",
+              "formula": "Finally, after the show, I suggest... because...",
+              "vocab_hints": [
+                {
+                  "en": "nearby restaurant",
+                  "vi": "nhà hàng gần đó"
+                },
+                {
+                  "en": "invite Lily to join us",
+                  "vi": "rủ Lily cùng đi"
+                }
+              ],
+              "explanation": "Gợi ý đi ăn tối gắn kết bạn bè."
+            },
+            {
+              "id": 5,
+              "part": "5. Kết thư (Closing - Thân mật)",
+              "vi": "Tớ rất mong chờ đến cuối tuần tới. Hãy nhắn lại cho tớ các thông tin chi tiết sớm nhé. Hồi âm sớm nhé.",
+              "en": "I am really looking forward to next weekend. Please text me the details soon. Write back soon.",
+              "formula": "I am really looking forward to next weekend. Please text me the details soon. Write back soon.",
+              "vocab_hints": [
+                {
+                  "en": "looking forward to next weekend",
+                  "vi": "mong chờ đến cuối tuần tới"
+                },
+                {
+                  "en": "write back soon",
+                  "vi": "hồi âm sớm nhé"
+                }
+              ],
+              "explanation": "Kết thư hẹn gặp lại bạn."
+            }
+          ],
+          "sentence_practice_b2": [
+            {
+              "id": 1,
+              "part": "1. Mở thư (Opening - Thân mật)",
+              "vi": "Cậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Cảm ơn cậu rất nhiều vì đã mời tớ đi xem buổi biểu diễn nhảy của Lily vào cuối tuần tới.",
+              "en": "How are you? I hope you are doing well. Thank you very much for inviting me to watch Lily’s dance show next weekend.",
+              "formula": "How are you? I hope you are doing well. Thank you very much for inviting me to watch...",
+              "vocab_hints": [
+                {
+                  "en": "inviting me to watch",
+                  "vi": "mời tớ đi xem"
+                },
+                {
+                  "en": "dance show",
+                  "vi": "buổi biểu diễn nhảy"
+                }
+              ],
+              "explanation": "Mở thư cảm ơn lời mời chuẩn B1."
+            },
+            {
+              "id": 2,
+              "part": "2. Thân thư - Ý 1: Nhận lời & cảm xúc",
+              "vi": "Đầu tiên, tớ rất vui được nhận lời mời của cậu và tớ cảm thấy rất hào hứng xem buổi biểu diễn nhảy của Lily vào cuối tuần tới vì tớ yêu thích nhảy hiện đại và tớ biết Lily là một vũ công tuyệt vời.",
+              "en": "First, I would love to accept your invitation and I feel very excited about watching Lily’s dance show next weekend because I love modern dance and I know Lily is a wonderful dancer.",
+              "formula": "First, I would love to accept your invitation and I feel... because...",
+              "vocab_hints": [
+                {
+                  "en": "excited about watching",
+                  "vi": "hào hứng được xem"
+                },
+                {
+                  "en": "wonderful dancer",
+                  "vi": "vũ công tuyệt vời"
+                }
+              ],
+              "explanation": "Nhận lời mời và bày tỏ cảm xúc tích cực."
+            },
+            {
+              "id": 3,
+              "part": "3. Thân thư - Ý 2: Kiểm tra chi tiết & quà tặng",
+              "vi": "Thứ hai, cậu có thể cho tớ biết buổi diễn bắt đầu lúc mấy giờ, chúng mình nên hẹn nhau ở đâu và liệu chúng mình có nên mua một bó hoa tặng Lily không vì tớ nghĩ tặng hoa cho cô ấy trên sân khấu sẽ khiến cô ấy rất vui?",
+              "en": "Second, could you please tell me what time the show starts, where we should meet, and if we should buy a bouquet of flowers for Lily because I think giving flowers to her on stage will make her very happy?",
+              "formula": "Second, could you please tell me what time..., where..., and if... because...?",
+              "vocab_hints": [
+                {
+                  "en": "what time the show starts",
+                  "vi": "buổi diễn bắt đầu lúc mấy giờ"
+                },
+                {
+                  "en": "bouquet of flowers",
+                  "vi": "bó hoa tươi"
+                }
+              ],
+              "explanation": "Hỏi thông tin giờ giấc và đề xuất hoa."
+            },
+            {
+              "id": 4,
+              "part": "4. Thân thư - Ý 3: Hoạt động trước hoặc sau buổi diễn",
+              "vi": "Cuối cùng, sau buổi diễn, tớ gợi ý đến một nhà hàng gần đó để cùng ăn tối vì chúng mình có thể trò chuyện về buổi biểu diễn và rủ cả Lily tham gia.",
+              "en": "Finally, after the show, I suggest going to a nearby restaurant to have dinner together because we can chat about the performance and invite Lily to join us.",
+              "formula": "Finally, after the show, I suggest... because...",
+              "vocab_hints": [
+                {
+                  "en": "nearby restaurant",
+                  "vi": "nhà hàng gần đó"
+                },
+                {
+                  "en": "invite Lily to join us",
+                  "vi": "rủ Lily cùng đi"
+                }
+              ],
+              "explanation": "Gợi ý đi ăn tối gắn kết bạn bè."
+            },
+            {
+              "id": 5,
+              "part": "5. Kết thư (Closing - Thân mật)",
+              "vi": "Tớ rất mong chờ đến cuối tuần tới. Hãy nhắn lại cho tớ các thông tin chi tiết sớm nhé. Hồi âm sớm nhé.",
+              "en": "I am really looking forward to next weekend. Please text me the details soon. Write back soon.",
+              "formula": "I am really looking forward to next weekend. Please text me the details soon. Write back soon.",
+              "vocab_hints": [
+                {
+                  "en": "looking forward to next weekend",
+                  "vi": "mong chờ đến cuối tuần tới"
+                },
+                {
+                  "en": "write back soon",
+                  "vi": "hồi âm sớm nhé"
+                }
+              ],
+              "explanation": "Kết thư hẹn gặp lại bạn."
+            }
+          ],
+          "sample_b1": {
+            "letter_en": "Dear Harry,\n\nHow are you? I hope you are doing well. Thank you very much for inviting me to watch Lily’s dance show next weekend.\n\nFirst, I would love to accept your invitation and I feel very excited about watching Lily’s dance show next weekend because I love modern dance and I know Lily is a wonderful dancer. I am sure it will be a fantastic performance.\n\nSecond, could you please tell me what time the show starts, where we should meet, and if we should buy a bouquet of flowers for Lily because I think giving flowers to her on stage will make her very happy?\n\nFinally, after the show, I suggest going to a nearby restaurant to have dinner together because we can chat about the performance and invite Lily to join us.\n\nI am really looking forward to next weekend. Please text me the details soon. Write back soon.\n\nBest wishes,",
+            "letter_vi": "Harry thân mến,\n\nCậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Cảm ơn cậu rất nhiều vì đã mời tớ đi xem buổi biểu diễn nhảy của Lily vào cuối tuần tới.\n\nĐầu tiên, tớ rất vui được nhận lời mời của cậu và tớ cảm thấy rất hào hứng xem buổi biểu diễn nhảy của Lily vào cuối tuần tới vì tớ yêu thích nhảy hiện đại và tớ biết Lily là một vũ công tuyệt vời. Tớ chắc chắn đó sẽ là một tiết mục xuất sắc.\n\nThứ hai, cậu có thể cho tớ biết buổi diễn bắt đầu lúc mấy giờ, chúng mình nên hẹn nhau ở đâu và liệu chúng mình có nên mua một bó hoa tặng Lily không vì tớ nghĩ tặng hoa cho cô ấy trên sân khấu sẽ khiến cô ấy rất vui?\n\nCuối cùng, sau buổi diễn, tớ gợi ý đến một nhà hàng gần đó để cùng ăn tối vì chúng mình có thể trò chuyện về buổi biểu diễn và rủ cả Lily tham gia.\n\nTớ rất mong chờ đến cuối tuần tới. Hãy nhắn lại cho tớ các thông tin chi tiết sớm nhé. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "text": "Dear Harry,\n\nHow are you? I hope you are doing well. Thank you very much for inviting me to watch Lily’s dance show next weekend.\n\nFirst, I would love to accept your invitation and I feel very excited about watching Lily’s dance show next weekend because I love modern dance and I know Lily is a wonderful dancer. I am sure it will be a fantastic performance.\n\nSecond, could you please tell me what time the show starts, where we should meet, and if we should buy a bouquet of flowers for Lily because I think giving flowers to her on stage will make her very happy?\n\nFinally, after the show, I suggest going to a nearby restaurant to have dinner together because we can chat about the performance and invite Lily to join us.\n\nI am really looking forward to next weekend. Please text me the details soon. Write back soon.\n\nBest wishes,",
+            "translation": "Harry thân mến,\n\nCậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Cảm ơn cậu rất nhiều vì đã mời tớ đi xem buổi biểu diễn nhảy của Lily vào cuối tuần tới.\n\nĐầu tiên, tớ rất vui được nhận lời mời của cậu và tớ cảm thấy rất hào hứng xem buổi biểu diễn nhảy của Lily vào cuối tuần tới vì tớ yêu thích nhảy hiện đại và tớ biết Lily là một vũ công tuyệt vời. Tớ chắc chắn đó sẽ là một tiết mục xuất sắc.\n\nThứ hai, cậu có thể cho tớ biết buổi diễn bắt đầu lúc mấy giờ, chúng mình nên hẹn nhau ở đâu và liệu chúng mình có nên mua một bó hoa tặng Lily không vì tớ nghĩ tặng hoa cho cô ấy trên sân khấu sẽ khiến cô ấy rất vui?\n\nCuối cùng, sau buổi diễn, tớ gợi ý đến một nhà hàng gần đó để cùng ăn tối vì chúng mình có thể trò chuyện về buổi biểu diễn và rủ cả Lily tham gia.\n\nTớ rất mong chờ đến cuối tuần tới. Hãy nhắn lại cho tớ các thông tin chi tiết sớm nhé. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "word_count": 154,
+            "key_structures": []
+          },
+          "sample_b2": {
+            "letter_en": "Dear Harry,\n\nHow are you? I hope you are doing well. Thank you very much for inviting me to watch Lily’s dance show next weekend.\n\nFirst, I would love to accept your invitation and I feel very excited about watching Lily’s dance show next weekend because I love modern dance and I know Lily is a wonderful dancer. I am sure it will be a fantastic performance.\n\nSecond, could you please tell me what time the show starts, where we should meet, and if we should buy a bouquet of flowers for Lily because I think giving flowers to her on stage will make her very happy?\n\nFinally, after the show, I suggest going to a nearby restaurant to have dinner together because we can chat about the performance and invite Lily to join us.\n\nI am really looking forward to next weekend. Please text me the details soon. Write back soon.\n\nBest wishes,",
+            "letter_vi": "Harry thân mến,\n\nCậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Cảm ơn cậu rất nhiều vì đã mời tớ đi xem buổi biểu diễn nhảy của Lily vào cuối tuần tới.\n\nĐầu tiên, tớ rất vui được nhận lời mời của cậu và tớ cảm thấy rất hào hứng xem buổi biểu diễn nhảy của Lily vào cuối tuần tới vì tớ yêu thích nhảy hiện đại và tớ biết Lily là một vũ công tuyệt vời. Tớ chắc chắn đó sẽ là một tiết mục xuất sắc.\n\nThứ hai, cậu có thể cho tớ biết buổi diễn bắt đầu lúc mấy giờ, chúng mình nên hẹn nhau ở đâu và liệu chúng mình có nên mua một bó hoa tặng Lily không vì tớ nghĩ tặng hoa cho cô ấy trên sân khấu sẽ khiến cô ấy rất vui?\n\nCuối cùng, sau buổi diễn, tớ gợi ý đến một nhà hàng gần đó để cùng ăn tối vì chúng mình có thể trò chuyện về buổi biểu diễn và rủ cả Lily tham gia.\n\nTớ rất mong chờ đến cuối tuần tới. Hãy nhắn lại cho tớ các thông tin chi tiết sớm nhé. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "text": "Dear Harry,\n\nHow are you? I hope you are doing well. Thank you very much for inviting me to watch Lily’s dance show next weekend.\n\nFirst, I would love to accept your invitation and I feel very excited about watching Lily’s dance show next weekend because I love modern dance and I know Lily is a wonderful dancer. I am sure it will be a fantastic performance.\n\nSecond, could you please tell me what time the show starts, where we should meet, and if we should buy a bouquet of flowers for Lily because I think giving flowers to her on stage will make her very happy?\n\nFinally, after the show, I suggest going to a nearby restaurant to have dinner together because we can chat about the performance and invite Lily to join us.\n\nI am really looking forward to next weekend. Please text me the details soon. Write back soon.\n\nBest wishes,",
+            "translation": "Harry thân mến,\n\nCậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Cảm ơn cậu rất nhiều vì đã mời tớ đi xem buổi biểu diễn nhảy của Lily vào cuối tuần tới.\n\nĐầu tiên, tớ rất vui được nhận lời mời của cậu và tớ cảm thấy rất hào hứng xem buổi biểu diễn nhảy của Lily vào cuối tuần tới vì tớ yêu thích nhảy hiện đại và tớ biết Lily là một vũ công tuyệt vời. Tớ chắc chắn đó sẽ là một tiết mục xuất sắc.\n\nThứ hai, cậu có thể cho tớ biết buổi diễn bắt đầu lúc mấy giờ, chúng mình nên hẹn nhau ở đâu và liệu chúng mình có nên mua một bó hoa tặng Lily không vì tớ nghĩ tặng hoa cho cô ấy trên sân khấu sẽ khiến cô ấy rất vui?\n\nCuối cùng, sau buổi diễn, tớ gợi ý đến một nhà hàng gần đó để cùng ăn tối vì chúng mình có thể trò chuyện về buổi biểu diễn và rủ cả Lily tham gia.\n\nTớ rất mong chờ đến cuối tuần tới. Hãy nhắn lại cho tớ các thông tin chi tiết sớm nhé. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "word_count": 154,
+            "key_structures": []
+          }
+        }
+      },
+      {
+        "id": "de-52",
+        "title_en": "Reply to colleague Mr. Doal with information about the office party",
+        "title_vi": "Đề 13: Hồi âm đồng nghiệp Mr. Doal về bữa tiệc văn phòng cuối tuần",
+        "recipient_type": "Semi-formal (Đồng nghiệp - Mr. Doal)",
+        "target_words": 120,
+        "tags": [
+          "Tiệc văn phòng",
+          "Đồng nghiệp",
+          "Chi phí",
+          "Thanh toán online",
+          "Chuẩn B1"
+        ],
+        "context": "You are organising an office party this weekend. Your colleague, Mr. Doal, has sent you an email asking for some information about it. Write a reply to Mr. Doal.",
+        "prompt": "You are organising an office party this weekend. Your colleague, Mr. Doal, has sent you an email asking for some information about it. Write a reply to Mr. Doal.\n\nIn your email you should say:\n1. What you have prepared for the party\n2. How much it costs to join the party\n3. Whether paying online is difficult and how to pay\n\nWrite at least 120 words. You do not need to include your name or addresses. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt_vi": "Bạn đang tổ chức một bữa tiệc văn phòng vào cuối tuần này. Đồng nghiệp của bạn là ông Doal đã gửi email hỏi thông tin về bữa tiệc. Hãy viết email hồi âm cho ông Doal.\n\nTrong email, bạn nên nêu rõ:\n1. Bạn đã chuẩn bị những gì cho bữa tiệc (What you have prepared for the party)\n2. Chi phí tham gia bữa tiệc là bao nhiêu (How much it costs to join the party)\n3. Thanh toán trực tuyến có khó không và cách thanh toán như thế nào (Whether paying online is difficult and how to pay)",
+        "has_full_details": true,
+        "details": {
+          "analysis": {
+            "recipient": "Mr. Doal (Đồng nghiệp ở cơ quan hỏi về bữa tiệc văn phòng)",
+            "letter_type": "Semi-formal (Thư bán trang trọng gửi đồng nghiệp)",
+            "purpose": "Thông báo về công tác chuẩn bị tiệc văn phòng, chi phí tham gia và hướng dẫn cách chuyển khoản online dễ dàng",
+            "key_requirements": [
+              "1. What you have prepared for the party",
+              "2. How much it costs to join the party",
+              "3. Whether paying online is difficult and how to pay"
+            ]
+          },
+          "task_extractions": [
+            {
+              "id": 1,
+              "icon": "fa-champagne-glasses",
+              "prompt_requirement": "What you have prepared for the party",
+              "task_title": "1. Công tác chuẩn bị bữa tiệc (Party preparations)",
+              "task_goal": "Nêu rõ đã đặt phòng riêng tại nhà hàng, thực đơn buffet ngon miệng và một số trò chơi vui nhộn."
+            },
+            {
+              "id": 2,
+              "icon": "fa-coins",
+              "prompt_requirement": "How much it costs to join the party",
+              "task_title": "2. Chi phí tham gia tiệc (Cost to join)",
+              "task_goal": "Thông báo mức phí hợp lý (ví dụ: 15 USD hoặc 300.000 VNĐ mỗi người) đã bao gồm đồ ăn, nước uống."
+            },
+            {
+              "id": 3,
+              "icon": "fa-qrcode",
+              "prompt_requirement": "Whether paying online is difficult and how to pay",
+              "task_title": "3. Cách thanh toán online (Online payment)",
+              "task_goal": "Khẳng định thanh toán online rất dễ và nhanh qua chuyển khoản ngân hàng hoặc quét mã QR."
+            }
+          ],
+          "suggested_ideas": [
+            {
+              "id": 1,
+              "title_en": "1. Preparations for the party",
+              "title_vi": "Những gì đã chuẩn bị cho bữa tiệc",
+              "icon": "fa-champagne-glasses",
+              "options": [
+                {
+                  "action_en": "we have booked a private room at Lotus Restaurant and prepared a delicious buffet dinner with fun games",
+                  "action_vi": "chúng tôi đã đặt một phòng riêng tại Nhà hàng Hoa Sen và chuẩn bị bữa tối buffet ngon miệng cùng các trò chơi vui",
+                  "reason_en": "because we want all colleagues to relax and enjoy good food together.",
+                  "reason_vi": "vì chúng tôi muốn tất cả đồng nghiệp được thư giãn và cùng nhau thưởng thức đồ ăn ngon.",
+                  "b1_sentence": "First, we have booked a private room at Lotus Restaurant and prepared a delicious buffet dinner with fun games because we want all colleagues to relax and enjoy good food together.",
+                  "b1_sentence_vi": "Đầu tiên, chúng tôi đã đặt một phòng riêng tại Nhà hàng Hoa Sen và chuẩn bị bữa tối buffet ngon miệng cùng các trò chơi vui vì chúng tôi muốn tất cả đồng nghiệp được thư giãn và cùng nhau thưởng thức đồ ăn ngon."
+                },
+                {
+                  "action_en": "our team has ordered a barbecue dinner and arranged music performances by our colleagues",
+                  "action_vi": "nhóm chúng tôi đã đặt tiệc nướng và sắp xếp các tiết mục âm nhạc do chính đồng nghiệp biểu diễn",
+                  "reason_en": "because it will create a warm and lively atmosphere for our department.",
+                  "reason_vi": "vì nó sẽ tạo ra bầu không khí ấm cúng và sôi nổi cho phòng ban của chúng ta.",
+                  "b1_sentence": "First, our team has ordered a barbecue dinner and arranged music performances by our colleagues because it will create a warm and lively atmosphere for our department.",
+                  "b1_sentence_vi": "Đầu tiên, nhóm chúng tôi đã đặt tiệc nướng và sắp xếp các tiết mục âm nhạc do chính đồng nghiệp biểu diễn vì nó sẽ tạo ra bầu không khí ấm cúng và sôi nổi cho phòng ban của chúng ta."
+                },
+                {
+                  "action_en": "we have decorated the office hall and ordered cakes, fresh drinks, and fruit",
+                  "action_vi": "chúng tôi đã trang trí hội trường văn phòng và đặt bánh ngọt, nước uống tươi và hoa quả",
+                  "reason_en": "because holding the party at the office is very convenient for everyone after work.",
+                  "reason_vi": "vì tổ chức tiệc tại văn phòng rất thuận tiện cho mọi người sau giờ làm việc.",
+                  "b1_sentence": "First, we have decorated the office hall and ordered cakes, fresh drinks, and fruit because holding the party at the office is very convenient for everyone after work.",
+                  "b1_sentence_vi": "Đầu tiên, chúng tôi đã trang trí hội trường văn phòng và đặt bánh ngọt, nước uống tươi và hoa quả vì tổ chức tiệc tại văn phòng rất thuận tiện cho mọi người sau giờ làm việc."
+                },
+                {
+                  "action_en": "we have prepared special gift boxes and a lucky draw with prizes for everyone",
+                  "action_vi": "chúng tôi đã chuẩn bị những hộp quà đặc biệt và chương trình bốc thăm may mắn có thưởng cho mọi người",
+                  "reason_en": "because we want to make the party exciting and memorable.",
+                  "reason_vi": "vì chúng tôi muốn bữa tiệc trở nên hào hứng và đáng nhớ.",
+                  "b1_sentence": "First, we have prepared special gift boxes and a lucky draw with prizes for everyone because we want to make the party exciting and memorable.",
+                  "b1_sentence_vi": "Đầu tiên, chúng tôi đã chuẩn bị những hộp quà đặc biệt và chương trình bốc thăm may mắn có thưởng cho mọi người vì chúng tôi muốn bữa tiệc trở nên hào hứng và đáng nhớ."
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "title_en": "2. Cost to join the party",
+              "title_vi": "Chi phí tham gia bữa tiệc",
+              "icon": "fa-coins",
+              "options": [
+                {
+                  "action_en": "the cost to join the party is only fifteen dollars per person",
+                  "action_vi": "chi phí tham gia bữa tiệc chỉ là mười lăm đô la mỗi người",
+                  "reason_en": "because our company has already supported half of the total expense.",
+                  "reason_vi": "vì công ty của chúng ta đã hỗ trợ một nửa tổng chi phí.",
+                  "b1_sentence": "Second, the cost to join the party is only fifteen dollars per person because our company has already supported half of the total expense.",
+                  "b1_sentence_vi": "Thứ hai, chi phí tham gia bữa tiệc chỉ là mười lăm đô la mỗi người vì công ty của chúng ta đã hỗ trợ một nửa tổng chi phí."
+                },
+                {
+                  "action_en": "each person only needs to contribute 300,000 VND for the entire evening",
+                  "action_vi": "mỗi người chỉ cần đóng góp 300.000 đồng cho cả buổi tối",
+                  "reason_en": "because this amount covers all food, drinks, and game gifts.",
+                  "reason_vi": "vì số tiền này đã bao gồm tất cả đồ ăn, nước uống và quà trò chơi.",
+                  "b1_sentence": "Second, each person only needs to contribute 300,000 VND for the entire evening because this amount covers all food, drinks, and game gifts.",
+                  "b1_sentence_vi": "Thứ hai, mỗi người chỉ cần đóng góp 300.000 đồng cho cả buổi tối vì số tiền này đã bao gồm tất cả đồ ăn, nước uống và quà trò chơi."
+                },
+                {
+                  "action_en": "the ticket for the party is twenty dollars for one colleague",
+                  "action_vi": "vé tham gia tiệc là hai mươi đô la cho một đồng nghiệp",
+                  "reason_en": "because we booked a high-quality restaurant with free drinks.",
+                  "reason_vi": "vì chúng tôi đã đặt một nhà hàng chất lượng tốt với đồ uống miễn phí.",
+                  "b1_sentence": "Second, the ticket for the party is twenty dollars for one colleague because we booked a high-quality restaurant with free drinks.",
+                  "b1_sentence_vi": "Thứ hai, vé tham gia tiệc là hai mươi đô la cho một đồng nghiệp vì chúng tôi đã đặt một nhà hàng chất lượng tốt với đồ uống miễn phí."
+                },
+                {
+                  "action_en": "the fee is very cheap at around ten dollars per person",
+                  "action_vi": "mức phí rất rẻ vào khoảng mười đô la mỗi người",
+                  "reason_en": "because our department has a small budget for social events.",
+                  "reason_vi": "vì phòng ban của chúng ta có một quỹ nhỏ dành cho các sự kiện giao lưu.",
+                  "b1_sentence": "Second, the fee is very cheap at around ten dollars per person because our department has a small budget for social events.",
+                  "b1_sentence_vi": "Thứ hai, mức phí rất rẻ vào khoảng mười đô la mỗi người vì phòng ban của chúng ta có một quỹ nhỏ dành cho các sự kiện giao lưu."
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "title_en": "3. Paying online and how to pay",
+              "title_vi": "Thanh toán trực tuyến và cách thanh toán",
+              "icon": "fa-qrcode",
+              "options": [
+                {
+                  "action_en": "paying online is not difficult at all and you can transfer money via mobile banking",
+                  "action_vi": "thanh toán online hoàn toàn không khó và ông có thể chuyển tiền qua ứng dụng ngân hàng trên điện thoại",
+                  "reason_en": "because you only need to scan the QR code attached to this email.",
+                  "reason_vi": "vì ông chỉ cần quét mã QR đính kèm trong email này.",
+                  "b1_sentence": "Finally, paying online is not difficult at all and you can transfer money via mobile banking because you only need to scan the QR code attached to this email.",
+                  "b1_sentence_vi": "Cuối cùng, thanh toán online hoàn toàn không khó và ông có thể chuyển tiền qua ứng dụng ngân hàng trên điện thoại vì ông chỉ cần quét mã QR đính kèm trong email này."
+                },
+                {
+                  "action_en": "the online payment is very simple and takes less than one minute",
+                  "action_vi": "thanh toán trực tuyến rất đơn giản và mất chưa tới một phút",
+                  "reason_en": "because you can transfer directly to my bank account number.",
+                  "reason_vi": "vì ông có thể chuyển thẳng vào số tài khoản ngân hàng của tôi.",
+                  "b1_sentence": "Finally, the online payment is very simple and takes less than one minute because you can transfer directly to my bank account number.",
+                  "b1_sentence_vi": "Cuối cùng, thanh toán trực tuyến rất đơn giản và mất chưa tới một phút vì ông có thể chuyển thẳng vào số tài khoản ngân hàng của tôi."
+                },
+                {
+                  "action_en": "you do not need to worry about online payment because it is very easy to use",
+                  "action_vi": "ông không cần phải lo lắng về thanh toán online vì nó rất dễ sử dụng",
+                  "reason_en": "because I can come to your desk and help you do it.",
+                  "reason_vi": "vì tôi có thể qua bàn làm việc của ông và hướng dẫn ông làm.",
+                  "b1_sentence": "Finally, you do not need to worry about online payment because it is very easy to use because I can come to your desk and help you do it.",
+                  "b1_sentence_vi": "Cuối cùng, ông không cần phải lo lắng về thanh toán online vì nó rất dễ sử dụng do tôi có thể qua bàn làm việc của ông và hướng dẫn ông làm."
+                },
+                {
+                  "action_en": "you can also pay me directly in cash at the office if you prefer",
+                  "action_vi": "ông cũng có thể đưa tiền mặt trực tiếp cho tôi tại văn phòng nếu ông muốn",
+                  "reason_en": "because I am in the office every day before Friday.",
+                  "reason_vi": "vì tôi có mặt ở văn phòng mỗi ngày trước thứ Sáu.",
+                  "b1_sentence": "Finally, you can also pay me directly in cash at the office if you prefer because I am in the office every day before Friday.",
+                  "b1_sentence_vi": "Cuối cùng, ông cũng có thể đưa tiền mặt trực tiếp cho tôi tại văn phòng nếu ông muốn vì tôi có mặt ở văn phòng mỗi ngày trước thứ Sáu."
+                }
+              ]
+            }
+          ],
+          "vocab": [
+            {
+              "en": "office party",
+              "vi": "bữa tiệc văn phòng",
+              "category": "1. Tiệc"
+            },
+            {
+              "en": "buffet dinner",
+              "vi": "bữa tối tự chọn (buffet)",
+              "category": "1. Tiệc"
+            },
+            {
+              "en": "fun games",
+              "vi": "trò chơi vui nhộn",
+              "category": "1. Tiệc"
+            },
+            {
+              "en": "cost to join",
+              "vi": "chi phí tham gia",
+              "category": "2. Chi phí"
+            },
+            {
+              "en": "per person",
+              "vi": "mỗi người",
+              "category": "2. Chi phí"
+            },
+            {
+              "en": "paying online",
+              "vi": "thanh toán trực tuyến",
+              "category": "3. Thanh toán"
+            },
+            {
+              "en": "mobile banking",
+              "vi": "ứng dụng ngân hàng trên điện thoại",
+              "category": "3. Thanh toán"
+            },
+            {
+              "en": "scan the QR code",
+              "vi": "quét mã QR",
+              "category": "3. Thanh toán"
+            }
+          ],
+          "sentence_practice_b1": [
+            {
+              "id": 1,
+              "part": "1. Mở thư (Opening - Bán trang trọng)",
+              "vi": "Kính gửi ông Doal, cảm ơn email của ông về bữa tiệc văn phòng vào cuối tuần này. Tôi viết thư này để cung cấp cho ông những thông tin cần thiết.",
+              "en": "Dear Mr. Doal, thank you for your email about our office party this weekend. I am writing to give you the necessary information.",
+              "formula": "Dear Mr. Doal, thank you for your email about... I am writing to give you the necessary information.",
+              "vocab_hints": [
+                {
+                  "en": "office party this weekend",
+                  "vi": "bữa tiệc văn phòng cuối tuần này"
+                },
+                {
+                  "en": "necessary information",
+                  "vi": "thông tin cần thiết"
+                }
+              ],
+              "explanation": "Mở thư bán trang trọng chuẩn B1 cho đồng nghiệp."
+            },
+            {
+              "id": 2,
+              "part": "2. Thân thư - Ý 1: Chuẩn bị cho bữa tiệc",
+              "vi": "Đầu tiên, chúng tôi đã đặt một phòng riêng tại Nhà hàng Hoa Sen và chuẩn bị bữa tối buffet ngon miệng cùng các trò chơi vui vì chúng tôi muốn tất cả đồng nghiệp được thư giãn và cùng nhau thưởng thức đồ ăn ngon.",
+              "en": "First, we have booked a private room at Lotus Restaurant and prepared a delicious buffet dinner with fun games because we want all colleagues to relax and enjoy good food together.",
+              "formula": "First, we have booked... and prepared... because...",
+              "vocab_hints": [
+                {
+                  "en": "booked a private room",
+                  "vi": "đã đặt một phòng riêng"
+                },
+                {
+                  "en": "delicious buffet dinner",
+                  "vi": "bữa tối buffet ngon"
+                }
+              ],
+              "explanation": "Nêu công tác chuẩn bị tiệc."
+            },
+            {
+              "id": 3,
+              "part": "3. Thân thư - Ý 2: Chi phí tham gia",
+              "vi": "Thứ hai, chi phí tham gia bữa tiệc chỉ là mười lăm đô la mỗi người vì công ty của chúng ta đã hỗ trợ một nửa tổng chi phí.",
+              "en": "Second, the cost to join the party is only fifteen dollars per person because our company has already supported half of the total expense.",
+              "formula": "Second, the cost to join... is only... because...",
+              "vocab_hints": [
+                {
+                  "en": "cost to join the party",
+                  "vi": "chi phí tham gia bữa tiệc"
+                },
+                {
+                  "en": "supported half of the total expense",
+                  "vi": "hỗ trợ một nửa tổng chi phí"
+                }
+              ],
+              "explanation": "Nêu số tiền đóng góp rõ ràng."
+            },
+            {
+              "id": 4,
+              "part": "4. Thân thư - Ý 3: Thanh toán online thế nào",
+              "vi": "Cuối cùng, thanh toán online hoàn toàn không khó và ông có thể chuyển tiền qua ứng dụng ngân hàng trên điện thoại vì ông chỉ cần quét mã QR đính kèm trong email này.",
+              "en": "Finally, paying online is not difficult at all and you can transfer money via mobile banking because you only need to scan the QR code attached to this email.",
+              "formula": "Finally, paying online is not difficult... because...",
+              "vocab_hints": [
+                {
+                  "en": "transfer money via mobile banking",
+                  "vi": "chuyển tiền qua app ngân hàng"
+                },
+                {
+                  "en": "scan the QR code",
+                  "vi": "quét mã QR"
+                }
+              ],
+              "explanation": "Hướng dẫn thanh toán online đơn giản."
+            },
+            {
+              "id": 5,
+              "part": "5. Kết thư (Closing - Bán trang trọng)",
+              "vi": "Tôi hy vọng thông tin này hữu ích đối với ông. Xin vui lòng liên hệ với tôi nếu ông có thêm câu hỏi. Trân trọng,",
+              "en": "I hope this information is helpful to you. Please contact me if you have any further questions. Best regards,",
+              "formula": "I hope this information is helpful to you. Please contact me if you have any further questions. Best regards,",
+              "vocab_hints": [
+                {
+                  "en": "further questions",
+                  "vi": "câu hỏi thêm"
+                },
+                {
+                  "en": "best regards",
+                  "vi": "trân trọng"
+                }
+              ],
+              "explanation": "Kết thư lịch sự gửi đồng nghiệp."
+            }
+          ],
+          "sentence_practice_b2": [
+            {
+              "id": 1,
+              "part": "1. Mở thư (Opening - Bán trang trọng)",
+              "vi": "Kính gửi ông Doal, cảm ơn email của ông về bữa tiệc văn phòng vào cuối tuần này. Tôi viết thư này để cung cấp cho ông những thông tin cần thiết.",
+              "en": "Dear Mr. Doal, thank you for your email about our office party this weekend. I am writing to give you the necessary information.",
+              "formula": "Dear Mr. Doal, thank you for your email about... I am writing to give you the necessary information.",
+              "vocab_hints": [
+                {
+                  "en": "office party this weekend",
+                  "vi": "bữa tiệc văn phòng cuối tuần này"
+                },
+                {
+                  "en": "necessary information",
+                  "vi": "thông tin cần thiết"
+                }
+              ],
+              "explanation": "Mở thư bán trang trọng chuẩn B1 cho đồng nghiệp."
+            },
+            {
+              "id": 2,
+              "part": "2. Thân thư - Ý 1: Chuẩn bị cho bữa tiệc",
+              "vi": "Đầu tiên, chúng tôi đã đặt một phòng riêng tại Nhà hàng Hoa Sen và chuẩn bị bữa tối buffet ngon miệng cùng các trò chơi vui vì chúng tôi muốn tất cả đồng nghiệp được thư giãn và cùng nhau thưởng thức đồ ăn ngon.",
+              "en": "First, we have booked a private room at Lotus Restaurant and prepared a delicious buffet dinner with fun games because we want all colleagues to relax and enjoy good food together.",
+              "formula": "First, we have booked... and prepared... because...",
+              "vocab_hints": [
+                {
+                  "en": "booked a private room",
+                  "vi": "đã đặt một phòng riêng"
+                },
+                {
+                  "en": "delicious buffet dinner",
+                  "vi": "bữa tối buffet ngon"
+                }
+              ],
+              "explanation": "Nêu công tác chuẩn bị tiệc."
+            },
+            {
+              "id": 3,
+              "part": "3. Thân thư - Ý 2: Chi phí tham gia",
+              "vi": "Thứ hai, chi phí tham gia bữa tiệc chỉ là mười lăm đô la mỗi người vì công ty của chúng ta đã hỗ trợ một nửa tổng chi phí.",
+              "en": "Second, the cost to join the party is only fifteen dollars per person because our company has already supported half of the total expense.",
+              "formula": "Second, the cost to join... is only... because...",
+              "vocab_hints": [
+                {
+                  "en": "cost to join the party",
+                  "vi": "chi phí tham gia bữa tiệc"
+                },
+                {
+                  "en": "supported half of the total expense",
+                  "vi": "hỗ trợ một nửa tổng chi phí"
+                }
+              ],
+              "explanation": "Nêu số tiền đóng góp rõ ràng."
+            },
+            {
+              "id": 4,
+              "part": "4. Thân thư - Ý 3: Thanh toán online thế nào",
+              "vi": "Cuối cùng, thanh toán online hoàn toàn không khó và ông có thể chuyển tiền qua ứng dụng ngân hàng trên điện thoại vì ông chỉ cần quét mã QR đính kèm trong email này.",
+              "en": "Finally, paying online is not difficult at all and you can transfer money via mobile banking because you only need to scan the QR code attached to this email.",
+              "formula": "Finally, paying online is not difficult... because...",
+              "vocab_hints": [
+                {
+                  "en": "transfer money via mobile banking",
+                  "vi": "chuyển tiền qua app ngân hàng"
+                },
+                {
+                  "en": "scan the QR code",
+                  "vi": "quét mã QR"
+                }
+              ],
+              "explanation": "Hướng dẫn thanh toán online đơn giản."
+            },
+            {
+              "id": 5,
+              "part": "5. Kết thư (Closing - Bán trang trọng)",
+              "vi": "Tôi hy vọng thông tin này hữu ích đối với ông. Xin vui lòng liên hệ với tôi nếu ông có thêm câu hỏi. Trân trọng,",
+              "en": "I hope this information is helpful to you. Please contact me if you have any further questions. Best regards,",
+              "formula": "I hope this information is helpful to you. Please contact me if you have any further questions. Best regards,",
+              "vocab_hints": [
+                {
+                  "en": "further questions",
+                  "vi": "câu hỏi thêm"
+                },
+                {
+                  "en": "best regards",
+                  "vi": "trân trọng"
+                }
+              ],
+              "explanation": "Kết thư lịch sự gửi đồng nghiệp."
+            }
+          ],
+          "sample_b1": {
+            "letter_en": "Dear Mr. Doal,\n\nThank you for your email about our office party this weekend. I am writing to give you the necessary information.\n\nFirst, we have booked a private room at Lotus Restaurant and prepared a delicious buffet dinner with fun games because we want all colleagues to relax and enjoy good food together. There will also be a lucky draw with prizes.\n\nSecond, the cost to join the party is only fifteen dollars per person because our company has already supported half of the total expense. This amount includes all food and soft drinks.\n\nFinally, paying online is not difficult at all and you can transfer money via mobile banking because you only need to scan the QR code attached to this email. Please write your name in the payment note.\n\nI hope this information is helpful to you. Please contact me if you have any further questions.\n\nBest regards,",
+            "letter_vi": "Kính gửi ông Doal,\n\nCảm ơn email của ông về bữa tiệc văn phòng vào cuối tuần này. Tôi viết thư này để cung cấp cho ông những thông tin cần thiết.\n\nĐầu tiên, chúng tôi đã đặt một phòng riêng tại Nhà hàng Hoa Sen và chuẩn bị bữa tối buffet ngon miệng cùng các trò chơi vui vì chúng tôi muốn tất cả đồng nghiệp được thư giãn và cùng nhau thưởng thức đồ ăn ngon. Ngoài ra còn có phần bốc thăm may mắn có quà.\n\nThứ hai, chi phí tham gia bữa tiệc chỉ là mười lăm đô la mỗi người vì công ty của chúng ta đã hỗ trợ một nửa tổng chi phí. Khoản tiền này đã bao gồm toàn bộ thức ăn và nước ngọt.\n\nCuối cùng, thanh toán online hoàn toàn không khó và ông có thể chuyển tiền qua ứng dụng ngân hàng trên điện thoại vì ông chỉ cần quét mã QR đính kèm trong email này. Xin vui lòng ghi họ tên ông vào phần nội dung chuyển tiền.\n\nTôi hy vọng thông tin này hữu ích đối với ông. Xin vui lòng liên hệ với tôi nếu ông có thêm câu hỏi.\n\nTrân trọng,",
+            "text": "Dear Mr. Doal,\n\nThank you for your email about our office party this weekend. I am writing to give you the necessary information.\n\nFirst, we have booked a private room at Lotus Restaurant and prepared a delicious buffet dinner with fun games because we want all colleagues to relax and enjoy good food together. There will also be a lucky draw with prizes.\n\nSecond, the cost to join the party is only fifteen dollars per person because our company has already supported half of the total expense. This amount includes all food and soft drinks.\n\nFinally, paying online is not difficult at all and you can transfer money via mobile banking because you only need to scan the QR code attached to this email. Please write your name in the payment note.\n\nI hope this information is helpful to you. Please contact me if you have any further questions.\n\nBest regards,",
+            "translation": "Kính gửi ông Doal,\n\nCảm ơn email của ông về bữa tiệc văn phòng vào cuối tuần này. Tôi viết thư này để cung cấp cho ông những thông tin cần thiết.\n\nĐầu tiên, chúng tôi đã đặt một phòng riêng tại Nhà hàng Hoa Sen và chuẩn bị bữa tối buffet ngon miệng cùng các trò chơi vui vì chúng tôi muốn tất cả đồng nghiệp được thư giãn và cùng nhau thưởng thức đồ ăn ngon. Ngoài ra còn có phần bốc thăm may mắn có quà.\n\nThứ hai, chi phí tham gia bữa tiệc chỉ là mười lăm đô la mỗi người vì công ty của chúng ta đã hỗ trợ một nửa tổng chi phí. Khoản tiền này đã bao gồm toàn bộ thức ăn và nước ngọt.\n\nCuối cùng, thanh toán online hoàn toàn không khó và ông có thể chuyển tiền qua ứng dụng ngân hàng trên điện thoại vì ông chỉ cần quét mã QR đính kèm trong email này. Xin vui lòng ghi họ tên ông vào phần nội dung chuyển tiền.\n\nTôi hy vọng thông tin này hữu ích đối với ông. Xin vui lòng liên hệ với tôi nếu ông có thêm câu hỏi.\n\nTrân trọng,",
+            "word_count": 151,
+            "key_structures": []
+          },
+          "sample_b2": {
+            "letter_en": "Dear Mr. Doal,\n\nThank you for your email about our office party this weekend. I am writing to give you the necessary information.\n\nFirst, we have booked a private room at Lotus Restaurant and prepared a delicious buffet dinner with fun games because we want all colleagues to relax and enjoy good food together. There will also be a lucky draw with prizes.\n\nSecond, the cost to join the party is only fifteen dollars per person because our company has already supported half of the total expense. This amount includes all food and soft drinks.\n\nFinally, paying online is not difficult at all and you can transfer money via mobile banking because you only need to scan the QR code attached to this email. Please write your name in the payment note.\n\nI hope this information is helpful to you. Please contact me if you have any further questions.\n\nBest regards,",
+            "letter_vi": "Kính gửi ông Doal,\n\nCảm ơn email của ông về bữa tiệc văn phòng vào cuối tuần này. Tôi viết thư này để cung cấp cho ông những thông tin cần thiết.\n\nĐầu tiên, chúng tôi đã đặt một phòng riêng tại Nhà hàng Hoa Sen và chuẩn bị bữa tối buffet ngon miệng cùng các trò chơi vui vì chúng tôi muốn tất cả đồng nghiệp được thư giãn và cùng nhau thưởng thức đồ ăn ngon. Ngoài ra còn có phần bốc thăm may mắn có quà.\n\nThứ hai, chi phí tham gia bữa tiệc chỉ là mười lăm đô la mỗi người vì công ty của chúng ta đã hỗ trợ một nửa tổng chi phí. Khoản tiền này đã bao gồm toàn bộ thức ăn và nước ngọt.\n\nCuối cùng, thanh toán online hoàn toàn không khó và ông có thể chuyển tiền qua ứng dụng ngân hàng trên điện thoại vì ông chỉ cần quét mã QR đính kèm trong email này. Xin vui lòng ghi họ tên ông vào phần nội dung chuyển tiền.\n\nTôi hy vọng thông tin này hữu ích đối với ông. Xin vui lòng liên hệ với tôi nếu ông có thêm câu hỏi.\n\nTrân trọng,",
+            "text": "Dear Mr. Doal,\n\nThank you for your email about our office party this weekend. I am writing to give you the necessary information.\n\nFirst, we have booked a private room at Lotus Restaurant and prepared a delicious buffet dinner with fun games because we want all colleagues to relax and enjoy good food together. There will also be a lucky draw with prizes.\n\nSecond, the cost to join the party is only fifteen dollars per person because our company has already supported half of the total expense. This amount includes all food and soft drinks.\n\nFinally, paying online is not difficult at all and you can transfer money via mobile banking because you only need to scan the QR code attached to this email. Please write your name in the payment note.\n\nI hope this information is helpful to you. Please contact me if you have any further questions.\n\nBest regards,",
+            "translation": "Kính gửi ông Doal,\n\nCảm ơn email của ông về bữa tiệc văn phòng vào cuối tuần này. Tôi viết thư này để cung cấp cho ông những thông tin cần thiết.\n\nĐầu tiên, chúng tôi đã đặt một phòng riêng tại Nhà hàng Hoa Sen và chuẩn bị bữa tối buffet ngon miệng cùng các trò chơi vui vì chúng tôi muốn tất cả đồng nghiệp được thư giãn và cùng nhau thưởng thức đồ ăn ngon. Ngoài ra còn có phần bốc thăm may mắn có quà.\n\nThứ hai, chi phí tham gia bữa tiệc chỉ là mười lăm đô la mỗi người vì công ty của chúng ta đã hỗ trợ một nửa tổng chi phí. Khoản tiền này đã bao gồm toàn bộ thức ăn và nước ngọt.\n\nCuối cùng, thanh toán online hoàn toàn không khó và ông có thể chuyển tiền qua ứng dụng ngân hàng trên điện thoại vì ông chỉ cần quét mã QR đính kèm trong email này. Xin vui lòng ghi họ tên ông vào phần nội dung chuyển tiền.\n\nTôi hy vọng thông tin này hữu ích đối với ông. Xin vui lòng liên hệ với tôi nếu ông có thêm câu hỏi.\n\nTrân trọng,",
+            "word_count": 151,
+            "key_structures": []
+          }
+        }
+      },
+      {
+        "id": "de-55",
+        "title_en": "Reply to Ronnie accepting lake house invitation, visiting time, and packing advice",
+        "title_vi": "Đề 14: Hồi âm bạn Ronnie nhận lời mời đến ngôi nhà ven hồ, báo ngày đến và hỏi đồ cần mang",
+        "recipient_type": "Informal (Bạn bè - Ronnie)",
+        "target_words": 120,
+        "tags": [
+          "Nhận lời mời",
+          "Nhà ven hồ",
+          "Nghỉ hè",
+          "Hoạt động",
+          "Chuẩn B1"
+        ],
+        "context": "Your friend Ronnie has written to you: \"My family and I are spending the summer at our house near the lake, and we would love you to come and stay with us for a while!\" Write a reply to Ronnie.",
+        "prompt": "Your friend Ronnie has written to you: \"My family and I are spending the summer at our house near the lake, and we would love you to come and stay with us for a while!\" Write a reply to Ronnie.\n\nIn your email you should:\n1. accept the invitation and thank her\n2. say when you can come and how long you can stay\n3. ask what you should bring and what activities you can do with her family\n\nWrite at least 120 words. You do not need to include your name or addresses. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt_vi": "Bạn Ronnie gửi thư cho bạn: \"Gia đình tớ đang nghỉ hè ở ngôi nhà ven hồ, và chúng tớ rất mong cậu đến ở chơi một thời gian!\" Hãy viết email hồi âm cho Ronnie.\n\nTrong email, bạn nên:\n1. Nhận lời mời và cảm ơn bạn ấy (accept the invitation and thank her)\n2. Nói rõ khi nào bạn có thể đến và ở lại trong bao lâu (say when you can come and how long you can stay)\n3. Hỏi bạn nên mang theo những gì và những hoạt động có thể làm cùng gia đình bạn ấy (ask what you should bring and what activities you can do with her family)",
+        "has_full_details": true,
+        "details": {
+          "analysis": {
+            "recipient": "Ronnie (Bạn thân mời đến chơi nhà ven hồ mùa hè)",
+            "letter_type": "Informal (Thư thân mật)",
+            "purpose": "Nhận lời mời và cảm ơn bạn cùng gia đình, báo ngày đến và thời gian ở lại, hỏi đồ đạc cần mang và hoạt động vui chơi",
+            "key_requirements": [
+              "1. Accept the invitation and thank her",
+              "2. Say when you can come and how long you can stay",
+              "3. Ask what you should bring and what activities you can do with her family"
+            ]
+          },
+          "task_extractions": [
+            {
+              "id": 1,
+              "icon": "fa-heart",
+              "prompt_requirement": "accept the invitation and thank her",
+              "task_title": "1. Nhận lời mời & Cảm ơn (Accept and thank her)",
+              "task_goal": "Cảm ơn Ronnie và gia đình rất nhiều, vui vẻ nhận lời mời vì rất thích không khí ven hồ yên bình."
+            },
+            {
+              "id": 2,
+              "icon": "fa-calendar-days",
+              "prompt_requirement": "say when you can come and how long you can stay",
+              "task_title": "2. Thời gian đến & ở lại bao lâu (When and how long)",
+              "task_goal": "Cho biết có thể đến vào giữa tháng 7 và ở lại khoảng 4-5 ngày sau khi thi xong."
+            },
+            {
+              "id": 3,
+              "icon": "fa-person-swimming",
+              "prompt_requirement": "ask what you should bring and what activities you can do with her family",
+              "task_title": "3. Đồ cần mang & Hoạt động cùng gia đình (What to bring & activities)",
+              "task_goal": "Hỏi xem nên mang đồ bơi, kem chống nắng hay đồ gì khác không, và hỏi về bơi lội, câu cá, tiệc nướng."
+            }
+          ],
+          "suggested_ideas": [
+            {
+              "id": 1,
+              "title_en": "1. Accept invitation and thank her",
+              "title_vi": "Nhận lời mời và cảm ơn",
+              "icon": "fa-heart",
+              "options": [
+                {
+                  "action_en": "thank you and your family so much for the kind invitation, and I would love to come and stay at your lake house",
+                  "action_vi": "cảm ơn cậu và gia đình rất nhiều vì lời mời tử tế, và tớ rất thích đến ở chơi tại ngôi nhà ven hồ của cậu",
+                  "reason_en": "because staying near the water sounds like a great way to relax after my exams.",
+                  "reason_vi": "vì được ở gần mặt hồ nghe có vẻ là cách tuyệt vời để thư giãn sau kỳ thi.",
+                  "b1_sentence": "First, thank you and your family so much for the kind invitation, and I would love to come and stay at your lake house because staying near the water sounds like a great way to relax after my exams.",
+                  "b1_sentence_vi": "Đầu tiên, cảm ơn cậu và gia đình rất nhiều vì lời mời tử tế, và tớ rất thích đến ở chơi tại ngôi nhà ven hồ của cậu vì được ở gần mặt hồ nghe có vẻ là cách tuyệt vời để thư giãn sau kỳ thi."
+                },
+                {
+                  "action_en": "I happily accept your wonderful offer to visit your lake house",
+                  "action_vi": "tớ vui vẻ nhận lời mời tuyệt vời của cậu đến thăm ngôi nhà ven hồ",
+                  "reason_en": "because I have missed you and your parents so much.",
+                  "reason_vi": "vì tớ nhớ cậu và bố mẹ cậu rất nhiều.",
+                  "b1_sentence": "First, I happily accept your wonderful offer to visit your lake house because I have missed you and your parents so much.",
+                  "b1_sentence_vi": "Đầu tiên, tớ vui vẻ nhận lời mời tuyệt vời của cậu đến thăm ngôi nhà ven hồ vì tớ nhớ cậu và bố mẹ cậu rất nhiều."
+                },
+                {
+                  "action_en": "I am so excited to accept your invitation to join your family this summer",
+                  "action_vi": "tớ rất hào hứng nhận lời mời tham gia cùng gia đình cậu vào mùa hè này",
+                  "reason_en": "because I love the fresh countryside air by the lake.",
+                  "reason_vi": "vì tớ yêu bầu không khí trong lành của vùng quê bên bờ hồ.",
+                  "b1_sentence": "First, I am so excited to accept your invitation to join your family this summer because I love the fresh countryside air by the lake.",
+                  "b1_sentence_vi": "Đầu tiên, tớ rất hào hứng nhận lời mời tham gia cùng gia đình cậu vào mùa hè này vì tớ yêu bầu không khí trong lành của vùng quê bên bờ hồ."
+                },
+                {
+                  "action_en": "thank you warmly for thinking of me, and I would be delighted to spend part of my vacation with you",
+                  "action_vi": "cảm ơn cậu nồng nhiệt vì đã nhớ đến tớ, và tớ rất vui được dành một phần kỳ nghỉ bên cậu",
+                  "reason_en": "because visiting your lake house has always been my dream.",
+                  "reason_vi": "vì đến thăm ngôi nhà ven hồ của cậu luôn là ước mơ của tớ.",
+                  "b1_sentence": "First, thank you warmly for thinking of me, and I would be delighted to spend part of my vacation with you because visiting your lake house has always been my dream.",
+                  "b1_sentence_vi": "Đầu tiên, cảm ơn cậu nồng nhiệt vì đã nhớ đến tớ, và tớ rất vui được dành một phần kỳ nghỉ bên cậu vì đến thăm ngôi nhà ven hồ của cậu luôn là ước mơ của tớ."
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "title_en": "2. When to come and how long to stay",
+              "title_vi": "Thời gian đến và ở lại bao lâu",
+              "icon": "fa-calendar-days",
+              "options": [
+                {
+                  "action_en": "I can arrive on Saturday morning, July 15th, and stay with your family for five days until Wednesday",
+                  "action_vi": "tớ có thể đến vào sáng thứ Bảy, ngày 15 tháng 7, và ở lại cùng gia đình cậu trong năm ngày cho đến thứ Tư",
+                  "reason_en": "because I will finish all my university tests by July 12th.",
+                  "reason_vi": "vì tớ sẽ hoàn thành tất cả các bài thi đại học trước ngày 12 tháng 7.",
+                  "b1_sentence": "Second, I can arrive on Saturday morning, July 15th, and stay with your family for five days until Wednesday because I will finish all my university tests by July 12th.",
+                  "b1_sentence_vi": "Thứ hai, tớ có thể đến vào sáng thứ Bảy, ngày 15 tháng 7, và ở lại cùng gia đình cậu trong năm ngày cho đến thứ Tư vì tớ sẽ hoàn thành tất cả các bài thi đại học trước ngày 12 tháng 7."
+                },
+                {
+                  "action_en": "I plan to come during the first week of August and stay for about four days",
+                  "action_vi": "tớ dự định đến vào tuần đầu tiên của tháng Tám và ở lại khoảng bốn ngày",
+                  "reason_en": "because my manager approved my summer leave then.",
+                  "reason_vi": "vì quản lý của tớ đã duyệt kỳ nghỉ phép mùa hè của tớ lúc đó.",
+                  "b1_sentence": "Second, I plan to come during the first week of August and stay for about four days because my manager approved my summer leave then.",
+                  "b1_sentence_vi": "Thứ hai, tớ dự định đến vào tuần đầu tiên của tháng Tám và ở lại khoảng bốn ngày vì quản lý của tớ đã duyệt kỳ nghỉ phép mùa hè của tớ lúc đó."
+                },
+                {
+                  "action_en": "I can travel to the lake on Friday afternoon and stay for one week",
+                  "action_vi": "tớ có thể đi đến hồ vào chiều thứ Sáu và ở chơi trong một tuần",
+                  "reason_en": "because I have two full weeks of vacation in July.",
+                  "reason_vi": "vì tớ có trọn vẹn hai tuần nghỉ hè vào tháng Bảy.",
+                  "b1_sentence": "Second, I can travel to the lake on Friday afternoon and stay for one week because I have two full weeks of vacation in July.",
+                  "b1_sentence_vi": "Thứ hai, tớ có thể đi đến hồ vào chiều thứ Sáu và ở chơi trong một tuần vì tớ có trọn vẹn hai tuần nghỉ hè vào tháng Bảy."
+                },
+                {
+                  "action_en": "I am thinking of staying from July 20th to July 24th",
+                  "action_vi": "tớ đang nghĩ đến việc ở lại từ ngày 20 đến ngày 24 tháng 7",
+                  "reason_en": "because there is a cheap bus from my town to the lake station on those dates.",
+                  "reason_vi": "vì có xe buýt giá rẻ từ thị trấn của tớ đến bến xe gần hồ vào những ngày đó.",
+                  "b1_sentence": "Second, I am thinking of staying from July 20th to July 24th because there is a cheap bus from my town to the lake station on those dates.",
+                  "b1_sentence_vi": "Thứ hai, tớ đang nghĩ đến việc ở lại từ ngày 20 đến ngày 24 tháng 7 vì có xe buýt giá rẻ từ thị trấn của tớ đến bến xe gần hồ vào những ngày đó."
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "title_en": "3. What to bring and activities to do",
+              "title_vi": "Đồ cần mang và hoạt động cùng gia đình",
+              "icon": "fa-person-swimming",
+              "options": [
+                {
+                  "action_en": "could you please tell me what I should pack, and what fun activities we can do with your family by the lake?",
+                  "action_vi": "cậu có thể cho tớ biết tớ nên mang theo những gì, và những hoạt động vui nào chúng mình có thể làm cùng gia đình cậu bên hồ không?",
+                  "reason_en": "because I want to prepare things like a swimsuit, sunscreen, and hiking shoes.",
+                  "reason_vi": "vì tớ muốn chuẩn bị những món đồ như đồ bơi, kem chống nắng và giày đi bộ.",
+                  "b1_sentence": "Finally, could you please tell me what I should pack, and what fun activities we can do with your family by the lake because I want to prepare things like a swimsuit, sunscreen, and hiking shoes?",
+                  "b1_sentence_vi": "Cuối cùng, cậu có thể cho tớ biết tớ nên mang theo những gì, và những hoạt động vui nào chúng mình có thể làm cùng gia đình cậu bên hồ không vì tớ muốn chuẩn bị những món đồ như đồ bơi, kem chống nắng và giày đi bộ?"
+                },
+                {
+                  "action_en": "I would like to know if we will go swimming, fishing, or have a barbecue outside",
+                  "action_vi": "tớ muốn biết liệu chúng mình sẽ đi bơi, câu cá hay tổ chức tiệc nướng ngoài trời",
+                  "reason_en": "because I can bring some food and games from my town.",
+                  "reason_vi": "vì tớ có thể mang theo đồ ăn và trò chơi từ thị trấn của tớ.",
+                  "b1_sentence": "Finally, I would like to know if we will go swimming, fishing, or have a barbecue outside because I can bring some food and games from my town.",
+                  "b1_sentence_vi": "Cuối cùng, tớ muốn biết liệu chúng mình sẽ đi bơi, câu cá hay tổ chức tiệc nướng ngoài trời vì tớ có thể mang theo đồ ăn và trò chơi từ thị trấn của tớ."
+                },
+                {
+                  "action_en": "please tell me if I should bring a sleeping bag, insect spray, or warm jackets for the evening",
+                  "action_vi": "hãy cho tớ biết liệu tớ có nên mang túi ngủ, thuốc xịt muỗi hay áo khoác ấm cho buổi tối không",
+                  "reason_en": "because I want to make sure I pack the right clothes.",
+                  "reason_vi": "vì tớ muốn đảm bảo tớ mang đúng đồ cần thiết.",
+                  "b1_sentence": "Finally, please tell me if I should bring a sleeping bag, insect spray, or warm jackets for the evening because I want to make sure I pack the right clothes.",
+                  "b1_sentence_vi": "Cuối cùng, hãy cho tớ biết liệu tớ có nên mang túi ngủ, thuốc xịt muỗi hay áo khoác ấm cho buổi tối không vì tớ muốn đảm bảo tớ mang đúng đồ cần thiết."
+                },
+                {
+                  "action_en": "I want to ask what your parents like so I can bring a small gift for them",
+                  "action_vi": "tớ muốn hỏi bố mẹ cậu thích gì để tớ có thể mang một món quà nhỏ biếu hai bác",
+                  "reason_en": "because I really appreciate their hospitality.",
+                  "reason_vi": "vì tớ rất trân trọng sự hiếu khách của hai bác.",
+                  "b1_sentence": "Finally, I want to ask what your parents like so I can bring a small gift for them because I really appreciate their hospitality.",
+                  "b1_sentence_vi": "Cuối cùng, tớ muốn hỏi bố mẹ cậu thích gì để tớ có thể mang một món quà nhỏ biếu hai bác vì tớ rất trân trọng sự hiếu khách của hai bác."
+                }
+              ]
+            }
+          ],
+          "vocab": [
+            {
+              "en": "house near the lake",
+              "vi": "ngôi nhà gần hồ",
+              "category": "1. Địa điểm"
+            },
+            {
+              "en": "kind invitation",
+              "vi": "lời mời tử tế",
+              "category": "1. Lời mời"
+            },
+            {
+              "en": "arrive on Saturday",
+              "vi": "đến vào thứ Bảy",
+              "category": "2. Thời gian"
+            },
+            {
+              "en": "stay for five days",
+              "vi": "ở lại năm ngày",
+              "category": "2. Thời gian"
+            },
+            {
+              "en": "swimsuit and sunscreen",
+              "vi": "đồ bơi và kem chống nắng",
+              "category": "3. Đồ mang theo"
+            },
+            {
+              "en": "go swimming and fishing",
+              "vi": "đi bơi và câu cá",
+              "category": "3. Hoạt động"
+            },
+            {
+              "en": "have an outdoor barbecue",
+              "vi": "ăn tiệc nướng ngoài trời",
+              "category": "3. Hoạt động"
+            }
+          ],
+          "sentence_practice_b1": [
+            {
+              "id": 1,
+              "part": "1. Mở thư (Opening - Thân mật)",
+              "vi": "Cậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Cảm ơn cậu rất nhiều vì đã mời tớ đến ở tại ngôi nhà ven hồ của gia đình cậu mùa hè này.",
+              "en": "How are you? I hope you are doing well. Thank you very much for inviting me to stay at your family’s lake house this summer.",
+              "formula": "How are you? I hope you are doing well. Thank you very much for inviting me to stay at...",
+              "vocab_hints": [
+                {
+                  "en": "stay at your family’s lake house",
+                  "vi": "ở tại nhà ven hồ của gia đình cậu"
+                }
+              ],
+              "explanation": "Mở thư cảm ơn lời mời chuẩn B1."
+            },
+            {
+              "id": 2,
+              "part": "2. Thân thư - Ý 1: Nhận lời mời & cảm ơn",
+              "vi": "Đầu tiên, cảm ơn cậu và gia đình rất nhiều vì lời mời tử tế, và tớ rất thích đến ở chơi tại ngôi nhà ven hồ của cậu vì được ở gần mặt hồ nghe có vẻ là cách tuyệt vời để thư giãn sau kỳ thi.",
+              "en": "First, thank you and your family so much for the kind invitation, and I would love to come and stay at your lake house because staying near the water sounds like a great way to relax after my exams.",
+              "formula": "First, thank you and your family so much for... and I would love to... because...",
+              "vocab_hints": [
+                {
+                  "en": "kind invitation",
+                  "vi": "lời mời tốt bụng"
+                },
+                {
+                  "en": "relax after my exams",
+                  "vi": "thư giãn sau kỳ thi"
+                }
+              ],
+              "explanation": "Nhận lời mời và cảm ơn bạn."
+            },
+            {
+              "id": 3,
+              "part": "3. Thân thư - Ý 2: Thời gian đến & ở bao lâu",
+              "vi": "Thứ hai, tớ có thể đến vào sáng thứ Bảy, ngày 15 tháng 7, và ở lại cùng gia đình cậu trong năm ngày cho đến thứ Tư vì tớ sẽ hoàn thành tất cả các bài thi đại học trước ngày 12 tháng 7.",
+              "en": "Second, I can arrive on Saturday morning, July 15th, and stay with your family for five days until Wednesday because I will finish all my university tests by July 12th.",
+              "formula": "Second, I can arrive on... and stay with your family for... because...",
+              "vocab_hints": [
+                {
+                  "en": "arrive on Saturday morning",
+                  "vi": "đến vào sáng thứ Bảy"
+                },
+                {
+                  "en": "stay for five days",
+                  "vi": "ở lại năm ngày"
+                }
+              ],
+              "explanation": "Nêu thời gian đến và số ngày ở lại cụ thể."
+            },
+            {
+              "id": 4,
+              "part": "4. Thân thư - Ý 3: Đồ cần mang & hoạt động vui chơi",
+              "vi": "Cuối cùng, cậu có thể cho tớ biết tớ nên mang theo những gì, và những hoạt động vui nào chúng mình có thể làm cùng gia đình cậu bên hồ không vì tớ muốn chuẩn bị những món đồ như đồ bơi, kem chống nắng và giày đi bộ?",
+              "en": "Finally, could you please tell me what I should pack, and what fun activities we can do with your family by the lake because I want to prepare things like a swimsuit, sunscreen, and hiking shoes?",
+              "formula": "Finally, could you please tell me what I should pack, and what fun activities... because...?",
+              "vocab_hints": [
+                {
+                  "en": "what I should pack",
+                  "vi": "tớ nên mang gì"
+                },
+                {
+                  "en": "swimsuit and sunscreen",
+                  "vi": "đồ bơi và kem chống nắng"
+                }
+              ],
+              "explanation": "Hỏi đồ dùng và hoạt động."
+            },
+            {
+              "id": 5,
+              "part": "5. Kết thư (Closing - Thân mật)",
+              "vi": "Cho tớ gửi lời hỏi thăm nồng nhiệt tới bố mẹ cậu nhé. Tớ rất nóng lòng sớm được gặp cậu bên hồ. Hồi âm sớm nhé.",
+              "en": "Please give my best regards to your parents. I can’t wait to see you by the lake soon. Write back soon.",
+              "formula": "Please give my best regards to your parents. I can’t wait to see you by the lake soon. Write back soon.",
+              "vocab_hints": [
+                {
+                  "en": "give my best regards to your parents",
+                  "vi": "gửi lời chào đến bố mẹ cậu"
+                },
+                {
+                  "en": "by the lake soon",
+                  "vi": "bên hồ sớm"
+                }
+              ],
+              "explanation": "Kết thư gửi lời chào gia đình bạn."
+            }
+          ],
+          "sentence_practice_b2": [
+            {
+              "id": 1,
+              "part": "1. Mở thư (Opening - Thân mật)",
+              "vi": "Cậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Cảm ơn cậu rất nhiều vì đã mời tớ đến ở tại ngôi nhà ven hồ của gia đình cậu mùa hè này.",
+              "en": "How are you? I hope you are doing well. Thank you very much for inviting me to stay at your family’s lake house this summer.",
+              "formula": "How are you? I hope you are doing well. Thank you very much for inviting me to stay at...",
+              "vocab_hints": [
+                {
+                  "en": "stay at your family’s lake house",
+                  "vi": "ở tại nhà ven hồ của gia đình cậu"
+                }
+              ],
+              "explanation": "Mở thư cảm ơn lời mời chuẩn B1."
+            },
+            {
+              "id": 2,
+              "part": "2. Thân thư - Ý 1: Nhận lời mời & cảm ơn",
+              "vi": "Đầu tiên, cảm ơn cậu và gia đình rất nhiều vì lời mời tử tế, và tớ rất thích đến ở chơi tại ngôi nhà ven hồ của cậu vì được ở gần mặt hồ nghe có vẻ là cách tuyệt vời để thư giãn sau kỳ thi.",
+              "en": "First, thank you and your family so much for the kind invitation, and I would love to come and stay at your lake house because staying near the water sounds like a great way to relax after my exams.",
+              "formula": "First, thank you and your family so much for... and I would love to... because...",
+              "vocab_hints": [
+                {
+                  "en": "kind invitation",
+                  "vi": "lời mời tốt bụng"
+                },
+                {
+                  "en": "relax after my exams",
+                  "vi": "thư giãn sau kỳ thi"
+                }
+              ],
+              "explanation": "Nhận lời mời và cảm ơn bạn."
+            },
+            {
+              "id": 3,
+              "part": "3. Thân thư - Ý 2: Thời gian đến & ở bao lâu",
+              "vi": "Thứ hai, tớ có thể đến vào sáng thứ Bảy, ngày 15 tháng 7, và ở lại cùng gia đình cậu trong năm ngày cho đến thứ Tư vì tớ sẽ hoàn thành tất cả các bài thi đại học trước ngày 12 tháng 7.",
+              "en": "Second, I can arrive on Saturday morning, July 15th, and stay with your family for five days until Wednesday because I will finish all my university tests by July 12th.",
+              "formula": "Second, I can arrive on... and stay with your family for... because...",
+              "vocab_hints": [
+                {
+                  "en": "arrive on Saturday morning",
+                  "vi": "đến vào sáng thứ Bảy"
+                },
+                {
+                  "en": "stay for five days",
+                  "vi": "ở lại năm ngày"
+                }
+              ],
+              "explanation": "Nêu thời gian đến và số ngày ở lại cụ thể."
+            },
+            {
+              "id": 4,
+              "part": "4. Thân thư - Ý 3: Đồ cần mang & hoạt động vui chơi",
+              "vi": "Cuối cùng, cậu có thể cho tớ biết tớ nên mang theo những gì, và những hoạt động vui nào chúng mình có thể làm cùng gia đình cậu bên hồ không vì tớ muốn chuẩn bị những món đồ như đồ bơi, kem chống nắng và giày đi bộ?",
+              "en": "Finally, could you please tell me what I should pack, and what fun activities we can do with your family by the lake because I want to prepare things like a swimsuit, sunscreen, and hiking shoes?",
+              "formula": "Finally, could you please tell me what I should pack, and what fun activities... because...?",
+              "vocab_hints": [
+                {
+                  "en": "what I should pack",
+                  "vi": "tớ nên mang gì"
+                },
+                {
+                  "en": "swimsuit and sunscreen",
+                  "vi": "đồ bơi và kem chống nắng"
+                }
+              ],
+              "explanation": "Hỏi đồ dùng và hoạt động."
+            },
+            {
+              "id": 5,
+              "part": "5. Kết thư (Closing - Thân mật)",
+              "vi": "Cho tớ gửi lời hỏi thăm nồng nhiệt tới bố mẹ cậu nhé. Tớ rất nóng lòng sớm được gặp cậu bên hồ. Hồi âm sớm nhé.",
+              "en": "Please give my best regards to your parents. I can’t wait to see you by the lake soon. Write back soon.",
+              "formula": "Please give my best regards to your parents. I can’t wait to see you by the lake soon. Write back soon.",
+              "vocab_hints": [
+                {
+                  "en": "give my best regards to your parents",
+                  "vi": "gửi lời chào đến bố mẹ cậu"
+                },
+                {
+                  "en": "by the lake soon",
+                  "vi": "bên hồ sớm"
+                }
+              ],
+              "explanation": "Kết thư gửi lời chào gia đình bạn."
+            }
+          ],
+          "sample_b1": {
+            "letter_en": "Dear Ronnie,\n\nHow are you? I hope you are doing well. Thank you very much for inviting me to stay at your family’s lake house this summer.\n\nFirst, thank you and your family so much for the kind invitation, and I would love to come and stay at your lake house because staying near the water sounds like a great way to relax after my exams.\n\nSecond, I can arrive on Saturday morning, July 15th, and stay with your family for five days until Wednesday because I will finish all my university tests by July 12th. Please let me know if those dates are convenient for you.\n\nFinally, could you please tell me what I should pack, and what fun activities we can do with your family by the lake because I want to prepare things like a swimsuit, sunscreen, and hiking shoes? I would also love to bring some cakes for your parents.\n\nPlease give my best regards to your parents. I can’t wait to see you by the lake soon. Write back soon.\n\nBest wishes,",
+            "letter_vi": "Ronnie thân mến,\n\nCậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Cảm ơn cậu rất nhiều vì đã mời tớ đến ở tại ngôi nhà ven hồ của gia đình cậu mùa hè này.\n\nĐầu tiên, cảm ơn cậu và gia đình rất nhiều vì lời mời tử tế, và tớ rất thích đến ở chơi tại ngôi nhà ven hồ của cậu vì được ở gần mặt hồ nghe có vẻ là cách tuyệt vời để thư giãn sau kỳ thi.\n\nThứ hai, tớ có thể đến vào sáng thứ Bảy, ngày 15 tháng 7, và ở lại cùng gia đình cậu trong năm ngày cho đến thứ Tư vì tớ sẽ hoàn thành tất cả các bài thi đại học trước ngày 12 tháng 7. Hãy cho tớ biết nếu những ngày đó thuận tiện cho cậu nhé.\n\nCuối cùng, cậu có thể cho tớ biết tớ nên mang theo những gì, và những hoạt động vui nào chúng mình có thể làm cùng gia đình cậu bên hồ không vì tớ muốn chuẩn bị những món đồ như đồ bơi, kem chống nắng và giày đi bộ? Tớ cũng rất muốn mang một ít bánh biếu bố mẹ cậu.\n\nCho tớ gửi lời hỏi thăm nồng nhiệt tới bố mẹ cậu nhé. Tớ rất nóng lòng sớm được gặp cậu bên hồ. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "text": "Dear Ronnie,\n\nHow are you? I hope you are doing well. Thank you very much for inviting me to stay at your family’s lake house this summer.\n\nFirst, thank you and your family so much for the kind invitation, and I would love to come and stay at your lake house because staying near the water sounds like a great way to relax after my exams.\n\nSecond, I can arrive on Saturday morning, July 15th, and stay with your family for five days until Wednesday because I will finish all my university tests by July 12th. Please let me know if those dates are convenient for you.\n\nFinally, could you please tell me what I should pack, and what fun activities we can do with your family by the lake because I want to prepare things like a swimsuit, sunscreen, and hiking shoes? I would also love to bring some cakes for your parents.\n\nPlease give my best regards to your parents. I can’t wait to see you by the lake soon. Write back soon.\n\nBest wishes,",
+            "translation": "Ronnie thân mến,\n\nCậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Cảm ơn cậu rất nhiều vì đã mời tớ đến ở tại ngôi nhà ven hồ của gia đình cậu mùa hè này.\n\nĐầu tiên, cảm ơn cậu và gia đình rất nhiều vì lời mời tử tế, và tớ rất thích đến ở chơi tại ngôi nhà ven hồ của cậu vì được ở gần mặt hồ nghe có vẻ là cách tuyệt vời để thư giãn sau kỳ thi.\n\nThứ hai, tớ có thể đến vào sáng thứ Bảy, ngày 15 tháng 7, và ở lại cùng gia đình cậu trong năm ngày cho đến thứ Tư vì tớ sẽ hoàn thành tất cả các bài thi đại học trước ngày 12 tháng 7. Hãy cho tớ biết nếu những ngày đó thuận tiện cho cậu nhé.\n\nCuối cùng, cậu có thể cho tớ biết tớ nên mang theo những gì, và những hoạt động vui nào chúng mình có thể làm cùng gia đình cậu bên hồ không vì tớ muốn chuẩn bị những món đồ như đồ bơi, kem chống nắng và giày đi bộ? Tớ cũng rất muốn mang một ít bánh biếu bố mẹ cậu.\n\nCho tớ gửi lời hỏi thăm nồng nhiệt tới bố mẹ cậu nhé. Tớ rất nóng lòng sớm được gặp cậu bên hồ. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "word_count": 177,
+            "key_structures": []
+          },
+          "sample_b2": {
+            "letter_en": "Dear Ronnie,\n\nHow are you? I hope you are doing well. Thank you very much for inviting me to stay at your family’s lake house this summer.\n\nFirst, thank you and your family so much for the kind invitation, and I would love to come and stay at your lake house because staying near the water sounds like a great way to relax after my exams.\n\nSecond, I can arrive on Saturday morning, July 15th, and stay with your family for five days until Wednesday because I will finish all my university tests by July 12th. Please let me know if those dates are convenient for you.\n\nFinally, could you please tell me what I should pack, and what fun activities we can do with your family by the lake because I want to prepare things like a swimsuit, sunscreen, and hiking shoes? I would also love to bring some cakes for your parents.\n\nPlease give my best regards to your parents. I can’t wait to see you by the lake soon. Write back soon.\n\nBest wishes,",
+            "letter_vi": "Ronnie thân mến,\n\nCậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Cảm ơn cậu rất nhiều vì đã mời tớ đến ở tại ngôi nhà ven hồ của gia đình cậu mùa hè này.\n\nĐầu tiên, cảm ơn cậu và gia đình rất nhiều vì lời mời tử tế, và tớ rất thích đến ở chơi tại ngôi nhà ven hồ của cậu vì được ở gần mặt hồ nghe có vẻ là cách tuyệt vời để thư giãn sau kỳ thi.\n\nThứ hai, tớ có thể đến vào sáng thứ Bảy, ngày 15 tháng 7, và ở lại cùng gia đình cậu trong năm ngày cho đến thứ Tư vì tớ sẽ hoàn thành tất cả các bài thi đại học trước ngày 12 tháng 7. Hãy cho tớ biết nếu những ngày đó thuận tiện cho cậu nhé.\n\nCuối cùng, cậu có thể cho tớ biết tớ nên mang theo những gì, và những hoạt động vui nào chúng mình có thể làm cùng gia đình cậu bên hồ không vì tớ muốn chuẩn bị những món đồ như đồ bơi, kem chống nắng và giày đi bộ? Tớ cũng rất muốn mang một ít bánh biếu bố mẹ cậu.\n\nCho tớ gửi lời hỏi thăm nồng nhiệt tới bố mẹ cậu nhé. Tớ rất nóng lòng sớm được gặp cậu bên hồ. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "text": "Dear Ronnie,\n\nHow are you? I hope you are doing well. Thank you very much for inviting me to stay at your family’s lake house this summer.\n\nFirst, thank you and your family so much for the kind invitation, and I would love to come and stay at your lake house because staying near the water sounds like a great way to relax after my exams.\n\nSecond, I can arrive on Saturday morning, July 15th, and stay with your family for five days until Wednesday because I will finish all my university tests by July 12th. Please let me know if those dates are convenient for you.\n\nFinally, could you please tell me what I should pack, and what fun activities we can do with your family by the lake because I want to prepare things like a swimsuit, sunscreen, and hiking shoes? I would also love to bring some cakes for your parents.\n\nPlease give my best regards to your parents. I can’t wait to see you by the lake soon. Write back soon.\n\nBest wishes,",
+            "translation": "Ronnie thân mến,\n\nCậu khỏe không? Tớ hy vọng cậu vẫn khỏe. Cảm ơn cậu rất nhiều vì đã mời tớ đến ở tại ngôi nhà ven hồ của gia đình cậu mùa hè này.\n\nĐầu tiên, cảm ơn cậu và gia đình rất nhiều vì lời mời tử tế, và tớ rất thích đến ở chơi tại ngôi nhà ven hồ của cậu vì được ở gần mặt hồ nghe có vẻ là cách tuyệt vời để thư giãn sau kỳ thi.\n\nThứ hai, tớ có thể đến vào sáng thứ Bảy, ngày 15 tháng 7, và ở lại cùng gia đình cậu trong năm ngày cho đến thứ Tư vì tớ sẽ hoàn thành tất cả các bài thi đại học trước ngày 12 tháng 7. Hãy cho tớ biết nếu những ngày đó thuận tiện cho cậu nhé.\n\nCuối cùng, cậu có thể cho tớ biết tớ nên mang theo những gì, và những hoạt động vui nào chúng mình có thể làm cùng gia đình cậu bên hồ không vì tớ muốn chuẩn bị những món đồ như đồ bơi, kem chống nắng và giày đi bộ? Tớ cũng rất muốn mang một ít bánh biếu bố mẹ cậu.\n\nCho tớ gửi lời hỏi thăm nồng nhiệt tới bố mẹ cậu nhé. Tớ rất nóng lòng sớm được gặp cậu bên hồ. Hồi âm sớm nhé.\n\nChúc cậu mọi điều tốt đẹp nhất,",
+            "word_count": 177,
+            "key_structures": []
+          }
+        }
+      },
+      {
+        "id": "de-56",
+        "title_en": "Email to Mr. David Clark about conference venue, accommodation, and costs",
+        "title_vi": "Đề 15: Cung cấp thông tin cho ông David Clark về địa điểm hội nghị, khách sạn và chi phí",
+        "recipient_type": "Formal (Đại biểu hội nghị - Mr. David Clark)",
+        "target_words": 120,
+        "tags": [
+          "Hội nghị",
+          "Địa điểm",
+          "Khách sạn",
+          "Chi phí",
+          "Chuẩn B1"
+        ],
+        "context": "Mr. David Clark is going to attend a conference in your city and has written to ask for some information. Write an email to Mr. Clark.",
+        "prompt": "Mr. David Clark is going to attend a conference in your city and has written to ask for some information. Write an email to Mr. Clark.\n\nIn your email you should say:\n1. Where the conference will be held\n2. What accommodation you recommend\n3. How much the accommodation costs\n\nWrite at least 120 words. You do not need to include your name or addresses. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt_vi": "Ông David Clark sắp tham dự một hội nghị tại thành phố của bạn và đã viết thư hỏi thông tin. Hãy viết email hồi âm cho ông Clark.\n\nTrong email, bạn nên nêu rõ:\n1. Hội nghị sẽ được tổ chức ở đâu (Where the conference will be held)\n2. Nơi ở nào bạn gợi ý cho ông ấy (What accommodation you recommend)\n3. Nơi ở đó có chi phí bao nhiêu (How much the accommodation costs)",
+        "has_full_details": true,
+        "details": {
+          "analysis": {
+            "recipient": "Mr. David Clark (Khách dự hội nghị)",
+            "letter_type": "Formal (Thư trang trọng)",
+            "purpose": "Cung cấp địa điểm diễn ra hội nghị, gợi ý khách sạn gần đó và thông báo giá phòng mỗi đêm",
+            "key_requirements": [
+              "1. Where the conference will be held",
+              "2. What accommodation you recommend",
+              "3. How much the accommodation costs"
+            ]
+          },
+          "task_extractions": [
+            {
+              "id": 1,
+              "icon": "fa-building-columns",
+              "prompt_requirement": "Where the conference will be held",
+              "task_title": "1. Địa điểm tổ chức hội nghị (Conference venue)",
+              "task_goal": "Nêu rõ hội nghị tổ chức tại Trung tâm Hội nghị Thành phố ở trung tâm, cách sân bay 20 phút đi taxi."
+            },
+            {
+              "id": 2,
+              "icon": "fa-hotel",
+              "prompt_requirement": "What accommodation you recommend",
+              "task_title": "2. Gợi ý nơi lưu trú (Recommended accommodation)",
+              "task_goal": "Gợi ý Khách sạn Sapphire (khách sạn 4 sao) cách trung tâm hội nghị 5 phút đi bộ, yên tĩnh và tiện nghi."
+            },
+            {
+              "id": 3,
+              "icon": "fa-tags",
+              "prompt_requirement": "How much the accommodation costs",
+              "task_title": "3. Chi phí nơi lưu trú (Accommodation cost)",
+              "task_goal": "Báo giá phòng đơn khoảng 50–55 USD mỗi đêm, đã bao gồm bữa sáng buffet và Wi-Fi."
+            }
+          ],
+          "suggested_ideas": [
+            {
+              "id": 1,
+              "title_en": "1. Where the conference will be held",
+              "title_vi": "Hội nghị tổ chức ở đâu",
+              "icon": "fa-building-columns",
+              "options": [
+                {
+                  "action_en": "the conference will be held at the City Convention Center in the city center",
+                  "action_vi": "hội nghị sẽ được tổ chức tại Trung tâm Hội nghị Thành phố ở khu trung tâm",
+                  "reason_en": "because it has modern meeting rooms and is only twenty minutes by taxi from the airport.",
+                  "reason_vi": "vì nơi đây có các phòng họp hiện đại và chỉ cách sân bay hai mươi phút đi taxi.",
+                  "b1_sentence": "First, the conference will be held at the City Convention Center in the city center because it has modern meeting rooms and is only twenty minutes by taxi from the airport.",
+                  "b1_sentence_vi": "Đầu tiên, hội nghị sẽ được tổ chức tại Trung tâm Hội nghị Thành phố ở khu trung tâm vì nơi đây có các phòng họp hiện đại và chỉ cách sân bay hai mươi phút đi taxi."
+                },
+                {
+                  "action_en": "the event will take place in the Grand Hall of the National Exhibition Center",
+                  "action_vi": "sự kiện sẽ diễn ra tại Hội trường Lớn của Trung tâm Triển lãm Quốc gia",
+                  "reason_en": "because it can welcome over five hundred guests easily.",
+                  "reason_vi": "vì nơi này có thể đón hơn năm trăm khách một cách dễ dàng.",
+                  "b1_sentence": "First, the event will take place in the Grand Hall of the National Exhibition Center because it can welcome over five hundred guests easily.",
+                  "b1_sentence_vi": "Đầu tiên, sự kiện sẽ diễn ra tại Hội trường Lớn của Trung tâm Triển lãm Quốc gia vì nơi này có thể đón hơn năm trăm khách một cách dễ dàng."
+                },
+                {
+                  "action_en": "the conference meetings will be hosted at the Main Auditorium of City University",
+                  "action_vi": "các buổi họp hội nghị sẽ diễn ra tại Hội trường Chính của Trường Đại học Thành phố",
+                  "reason_en": "because it is in a peaceful green area with a big parking lot.",
+                  "reason_vi": "vì nơi này nằm trong khu vực cây xanh yên bình với bãi đỗ xe lớn.",
+                  "b1_sentence": "First, the conference meetings will be hosted at the Main Auditorium of City University because it is in a peaceful green area with a big parking lot.",
+                  "b1_sentence_vi": "Đầu tiên, các buổi họp hội nghị sẽ diễn ra tại Hội trường Chính của Trường Đại học Thành phố vì nơi này nằm trong khu vực cây xanh yên bình với bãi đỗ xe lớn."
+                },
+                {
+                  "action_en": "the conference is arranged at the Central Plaza Hotel meeting hall",
+                  "action_vi": "hội nghị được sắp xếp tại hội trường của Khách sạn Central Plaza",
+                  "reason_en": "because it is right next to the metro station.",
+                  "reason_vi": "vì nó nằm ngay cạnh ga tàu điện ngầm.",
+                  "b1_sentence": "First, the conference is arranged at the Central Plaza Hotel meeting hall because it is right next to the metro station.",
+                  "b1_sentence_vi": "Đầu tiên, hội nghị được sắp xếp tại hội trường của Khách sạn Central Plaza vì nó nằm ngay cạnh ga tàu điện ngầm."
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "title_en": "2. Recommended accommodation",
+              "title_vi": "Nơi lưu trú gợi ý",
+              "icon": "fa-hotel",
+              "options": [
+                {
+                  "action_en": "I highly recommend staying at the Sapphire Hotel",
+                  "action_vi": "tôi rất khuyên ông nên ở tại Khách sạn Sapphire",
+                  "reason_en": "because it is a comfortable hotel located just a five-minute walk from the conference center.",
+                  "reason_vi": "vì đây là một khách sạn tiện nghi nằm chỉ cách trung tâm hội nghị năm phút đi bộ.",
+                  "b1_sentence": "Second, I highly recommend staying at the Sapphire Hotel because it is a comfortable hotel located just a five-minute walk from the conference center.",
+                  "b1_sentence_vi": "Thứ hai, tôi rất khuyên ông nên ở tại Khách sạn Sapphire vì đây là một khách sạn tiện nghi nằm chỉ cách trung tâm hội nghị năm phút đi bộ."
+                },
+                {
+                  "action_en": "I suggest booking a room at the Green Park Hotel across the street",
+                  "action_vi": "tôi gợi ý ông đặt phòng tại Khách sạn Green Park ở bên kia đường",
+                  "reason_en": "because it offers quiet rooms, good Wi-Fi, and friendly English-speaking staff.",
+                  "reason_vi": "vì nơi đây có phòng yên tĩnh, Wi-Fi tốt và nhân viên nói tiếng Anh thân thiện.",
+                  "b1_sentence": "Second, I suggest booking a room at the Green Park Hotel across the street because it offers quiet rooms, good Wi-Fi, and friendly English-speaking staff.",
+                  "b1_sentence_vi": "Thứ hai, tôi gợi ý ông đặt phòng tại Khách sạn Green Park ở bên kia đường vì nơi đây có phòng yên tĩnh, Wi-Fi tốt và nhân viên nói tiếng Anh thân thiện."
+                },
+                {
+                  "action_en": "you could stay at the City View Hotel near the river",
+                  "action_vi": "ông có thể ở tại Khách sạn City View gần bờ sông",
+                  "reason_en": "because it has free shuttle buses to the conference venue every morning.",
+                  "reason_vi": "vì nơi đây có xe buýt đưa đón miễn phí đến địa điểm hội nghị vào mỗi buổi sáng.",
+                  "b1_sentence": "Second, you could stay at the City View Hotel near the river because it has free shuttle buses to the conference venue every morning.",
+                  "b1_sentence_vi": "Thứ hai, ông có thể ở tại Khách sạn City View gần bờ sông vì nơi đây có xe buýt đưa đón miễn phí đến địa điểm hội nghị vào mỗi buổi sáng."
+                },
+                {
+                  "action_en": "I advise you to choose the Lotus small hotel in the downtown area",
+                  "action_vi": "tôi khuyên ông nên chọn Khách sạn Lotus Boutique ở khu trung tâm",
+                  "reason_en": "because many other international delegates will stay there too.",
+                  "reason_vi": "vì nhiều đại biểu quốc tế khác cũng sẽ ở tại đó.",
+                  "b1_sentence": "Second, I advise you to choose the Lotus small hotel in the downtown area because many other international delegates will stay there too.",
+                  "b1_sentence_vi": "Thứ hai, tôi khuyên ông nên chọn Khách sạn Lotus Boutique ở khu trung tâm vì nhiều đại biểu quốc tế khác cũng sẽ ở tại đó."
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "title_en": "3. Cost of accommodation",
+              "title_vi": "Chi phí của nơi lưu trú",
+              "icon": "fa-tags",
+              "options": [
+                {
+                  "action_en": "a standard single room at this hotel costs around fifty dollars per night",
+                  "action_vi": "một phòng đơn tiêu chuẩn tại khách sạn này có giá khoảng năm mươi đô la mỗi đêm",
+                  "reason_en": "because conference participants receive a twenty percent discount including free breakfast.",
+                  "reason_vi": "vì đại biểu tham dự hội nghị được giảm giá hai mươi phần trăm bao gồm cả bữa sáng miễn phí.",
+                  "b1_sentence": "Finally, a standard single room at this hotel costs around fifty dollars per night because conference participants receive a twenty percent discount including free breakfast.",
+                  "b1_sentence_vi": "Cuối cùng, một phòng đơn tiêu chuẩn tại khách sạn này có giá khoảng năm mươi đô la mỗi đêm vì đại biểu tham dự hội nghị được giảm giá hai mươi phần trăm bao gồm cả bữa sáng miễn phí."
+                },
+                {
+                  "action_en": "the room rate is about fifty-five dollars per night",
+                  "action_vi": "giá phòng vào khoảng năm mươi lăm đô la một đêm",
+                  "reason_en": "because this price already covers all taxes and internet service.",
+                  "reason_vi": "vì mức giá này đã bao gồm toàn bộ thuế và dịch vụ internet.",
+                  "b1_sentence": "Finally, the room rate is about fifty-five dollars per night because this price already covers all taxes and internet service.",
+                  "b1_sentence_vi": "Cuối cùng, giá phòng vào khoảng năm mươi lăm đô la một đêm vì mức giá này đã bao gồm toàn bộ thuế và dịch vụ internet."
+                },
+                {
+                  "action_en": "the hotel price is very reasonable at forty-five dollars per night",
+                  "action_vi": "giá khách sạn rất hợp lý ở mức bốn mươi lăm đô la mỗi đêm",
+                  "reason_en": "because you can book through our conference website link.",
+                  "reason_vi": "vì ông có thể đặt qua đường link trang web của hội nghị.",
+                  "b1_sentence": "Finally, the hotel price is very reasonable at forty-five dollars per night because you can book through our conference website link.",
+                  "b1_sentence_vi": "Cuối cùng, giá khách sạn rất hợp lý ở mức bốn mươi lăm đô la mỗi đêm vì ông có thể đặt qua đường link trang web của hội nghị."
+                },
+                {
+                  "action_en": "the accommodation costs sixty dollars a night for a deluxe room",
+                  "action_vi": "chỗ ở có giá sáu mươi đô la một đêm cho một phòng hạng sang",
+                  "reason_en": "because it includes free airport pickup and laundry service.",
+                  "reason_vi": "vì nó bao gồm xe đưa đón sân bay miễn phí và dịch vụ giặt ủi.",
+                  "b1_sentence": "Finally, the accommodation costs sixty dollars a night for a deluxe room because it includes free airport pickup and laundry service.",
+                  "b1_sentence_vi": "Cuối cùng, chỗ ở có giá sáu mươi đô la một đêm cho một phòng hạng sang vì nó bao gồm xe đưa đón sân bay miễn phí và dịch vụ giặt ủi."
+                }
+              ]
+            }
+          ],
+          "vocab": [
+            {
+              "en": "conference venue",
+              "vi": "địa điểm hội nghị",
+              "category": "1. Hội nghị"
+            },
+            {
+              "en": "City Convention Center",
+              "vi": "Trung tâm Hội nghị Thành phố",
+              "category": "1. Hội nghị"
+            },
+            {
+              "en": "recommended hotel",
+              "vi": "khách sạn được gợi ý",
+              "category": "2. Khách sạn"
+            },
+            {
+              "en": "five-minute walk",
+              "vi": "năm phút đi bộ",
+              "category": "2. Khách sạn"
+            },
+            {
+              "en": "quiet rooms",
+              "vi": "phòng yên tĩnh",
+              "category": "2. Khách sạn"
+            },
+            {
+              "en": "room rate",
+              "vi": "giá phòng",
+              "category": "3. Chi phí"
+            },
+            {
+              "en": "fifty dollars per night",
+              "vi": "50 đô la mỗi đêm",
+              "category": "3. Chi phí"
+            },
+            {
+              "en": "includes free breakfast",
+              "vi": "bao gồm bữa sáng miễn phí",
+              "category": "3. Chi phí"
+            }
+          ],
+          "sentence_practice_b1": [
+            {
+              "id": 1,
+              "part": "1. Mở thư (Opening - Trang trọng)",
+              "vi": "Kính gửi ông Clark, cảm ơn email của ông về hội nghị sắp tới tại thành phố của chúng tôi. Tôi viết thư này để cung cấp cho ông những thông tin cần thiết.",
+              "en": "Dear Mr. Clark, thank you for your email about the upcoming conference in our city. I am writing to provide you with the necessary information.",
+              "formula": "Dear Mr. Clark, thank you for your email about... I am writing to provide you with the necessary information.",
+              "vocab_hints": [
+                {
+                  "en": "upcoming conference",
+                  "vi": "hội nghị sắp tới"
+                },
+                {
+                  "en": "necessary information",
+                  "vi": "thông tin cần thiết"
+                }
+              ],
+              "explanation": "Mở thư trang trọng chuẩn B1 cho đại biểu."
+            },
+            {
+              "id": 2,
+              "part": "2. Thân thư - Ý 1: Địa điểm tổ chức hội nghị",
+              "vi": "Đầu tiên, hội nghị sẽ được tổ chức tại Trung tâm Hội nghị Thành phố ở khu trung tâm vì nơi đây có các phòng họp hiện đại và chỉ cách sân bay hai mươi phút đi taxi.",
+              "en": "First, the conference will be held at the City Convention Center in the city center because it has modern meeting rooms and is only twenty minutes by taxi from the airport.",
+              "formula": "First, the conference will be held at... because...",
+              "vocab_hints": [
+                {
+                  "en": "City Convention Center",
+                  "vi": "Trung tâm Hội nghị Thành phố"
+                },
+                {
+                  "en": "twenty minutes by taxi",
+                  "vi": "hai mươi phút đi taxi"
+                }
+              ],
+              "explanation": "Nêu rõ địa điểm tổ chức hội nghị."
+            },
+            {
+              "id": 3,
+              "part": "3. Thân thư - Ý 2: Nơi ở gợi ý",
+              "vi": "Thứ hai, tôi rất khuyên ông nên ở tại Khách sạn Sapphire vì đây là một khách sạn tiện nghi nằm chỉ cách trung tâm hội nghị năm phút đi bộ.",
+              "en": "Second, I highly recommend staying at the Sapphire Hotel because it is a comfortable hotel located just a five-minute walk from the conference center.",
+              "formula": "Second, I highly recommend staying at... because...",
+              "vocab_hints": [
+                {
+                  "en": "highly recommend staying at",
+                  "vi": "rất khuyên nên ở tại"
+                },
+                {
+                  "en": "a five-minute walk",
+                  "vi": "năm phút đi bộ"
+                }
+              ],
+              "explanation": "Gợi ý khách sạn thuận tiện đi lại."
+            },
+            {
+              "id": 4,
+              "part": "4. Thân thư - Ý 3: Chi phí nơi lưu trú",
+              "vi": "Cuối cùng, một phòng đơn tiêu chuẩn tại khách sạn này có giá khoảng năm mươi đô la mỗi đêm vì đại biểu tham dự hội nghị được giảm giá hai mươi phần trăm bao gồm cả bữa sáng miễn phí.",
+              "en": "Finally, a standard single room at this hotel costs around fifty dollars per night because conference participants receive a twenty percent discount including free breakfast.",
+              "formula": "Finally, a standard room... costs around... because...",
+              "vocab_hints": [
+                {
+                  "en": "standard single room",
+                  "vi": "phòng đơn tiêu chuẩn"
+                },
+                {
+                  "en": "twenty percent discount",
+                  "vi": "giảm giá 20%"
+                }
+              ],
+              "explanation": "Báo giá phòng rõ ràng, dễ hiểu."
+            },
+            {
+              "id": 5,
+              "part": "5. Kết thư (Closing - Trang trọng)",
+              "vi": "Tôi hy vọng thông tin này hữu ích đối với ông. Xin vui lòng liên hệ với tôi nếu ông cần hỗ trợ thêm. Trân trọng,",
+              "en": "I hope this information is useful to you. Please feel free to contact me if you need further help. Yours sincerely,",
+              "formula": "I hope this information is useful to you. Please feel free to contact me if you need further help. Yours sincerely,",
+              "vocab_hints": [
+                {
+                  "en": "feel free to contact me",
+                  "vi": "đừng ngại liên hệ với tôi"
+                },
+                {
+                  "en": "yours sincerely",
+                  "vi": "trân trọng"
+                }
+              ],
+              "explanation": "Kết thư trang trọng chuẩn B1."
+            }
+          ],
+          "sentence_practice_b2": [
+            {
+              "id": 1,
+              "part": "1. Mở thư (Opening - Trang trọng)",
+              "vi": "Kính gửi ông Clark, cảm ơn email của ông về hội nghị sắp tới tại thành phố của chúng tôi. Tôi viết thư này để cung cấp cho ông những thông tin cần thiết.",
+              "en": "Dear Mr. Clark, thank you for your email about the upcoming conference in our city. I am writing to provide you with the necessary information.",
+              "formula": "Dear Mr. Clark, thank you for your email about... I am writing to provide you with the necessary information.",
+              "vocab_hints": [
+                {
+                  "en": "upcoming conference",
+                  "vi": "hội nghị sắp tới"
+                },
+                {
+                  "en": "necessary information",
+                  "vi": "thông tin cần thiết"
+                }
+              ],
+              "explanation": "Mở thư trang trọng chuẩn B1 cho đại biểu."
+            },
+            {
+              "id": 2,
+              "part": "2. Thân thư - Ý 1: Địa điểm tổ chức hội nghị",
+              "vi": "Đầu tiên, hội nghị sẽ được tổ chức tại Trung tâm Hội nghị Thành phố ở khu trung tâm vì nơi đây có các phòng họp hiện đại và chỉ cách sân bay hai mươi phút đi taxi.",
+              "en": "First, the conference will be held at the City Convention Center in the city center because it has modern meeting rooms and is only twenty minutes by taxi from the airport.",
+              "formula": "First, the conference will be held at... because...",
+              "vocab_hints": [
+                {
+                  "en": "City Convention Center",
+                  "vi": "Trung tâm Hội nghị Thành phố"
+                },
+                {
+                  "en": "twenty minutes by taxi",
+                  "vi": "hai mươi phút đi taxi"
+                }
+              ],
+              "explanation": "Nêu rõ địa điểm tổ chức hội nghị."
+            },
+            {
+              "id": 3,
+              "part": "3. Thân thư - Ý 2: Nơi ở gợi ý",
+              "vi": "Thứ hai, tôi rất khuyên ông nên ở tại Khách sạn Sapphire vì đây là một khách sạn tiện nghi nằm chỉ cách trung tâm hội nghị năm phút đi bộ.",
+              "en": "Second, I highly recommend staying at the Sapphire Hotel because it is a comfortable hotel located just a five-minute walk from the conference center.",
+              "formula": "Second, I highly recommend staying at... because...",
+              "vocab_hints": [
+                {
+                  "en": "highly recommend staying at",
+                  "vi": "rất khuyên nên ở tại"
+                },
+                {
+                  "en": "a five-minute walk",
+                  "vi": "năm phút đi bộ"
+                }
+              ],
+              "explanation": "Gợi ý khách sạn thuận tiện đi lại."
+            },
+            {
+              "id": 4,
+              "part": "4. Thân thư - Ý 3: Chi phí nơi lưu trú",
+              "vi": "Cuối cùng, một phòng đơn tiêu chuẩn tại khách sạn này có giá khoảng năm mươi đô la mỗi đêm vì đại biểu tham dự hội nghị được giảm giá hai mươi phần trăm bao gồm cả bữa sáng miễn phí.",
+              "en": "Finally, a standard single room at this hotel costs around fifty dollars per night because conference participants receive a twenty percent discount including free breakfast.",
+              "formula": "Finally, a standard room... costs around... because...",
+              "vocab_hints": [
+                {
+                  "en": "standard single room",
+                  "vi": "phòng đơn tiêu chuẩn"
+                },
+                {
+                  "en": "twenty percent discount",
+                  "vi": "giảm giá 20%"
+                }
+              ],
+              "explanation": "Báo giá phòng rõ ràng, dễ hiểu."
+            },
+            {
+              "id": 5,
+              "part": "5. Kết thư (Closing - Trang trọng)",
+              "vi": "Tôi hy vọng thông tin này hữu ích đối với ông. Xin vui lòng liên hệ với tôi nếu ông cần hỗ trợ thêm. Trân trọng,",
+              "en": "I hope this information is useful to you. Please feel free to contact me if you need further help. Yours sincerely,",
+              "formula": "I hope this information is useful to you. Please feel free to contact me if you need further help. Yours sincerely,",
+              "vocab_hints": [
+                {
+                  "en": "feel free to contact me",
+                  "vi": "đừng ngại liên hệ với tôi"
+                },
+                {
+                  "en": "yours sincerely",
+                  "vi": "trân trọng"
+                }
+              ],
+              "explanation": "Kết thư trang trọng chuẩn B1."
+            }
+          ],
+          "sample_b1": {
+            "letter_en": "Dear Mr. Clark,\n\nThank you for your email about the upcoming conference in our city. I am writing to provide you with the necessary information.\n\nFirst, the conference will be held at the City Convention Center in the city center because it has modern meeting rooms and is only twenty minutes by taxi from the airport. The building is very easy to find.\n\nSecond, I highly recommend staying at the Sapphire Hotel because it is a comfortable hotel located just a five-minute walk from the conference center. Staying there will save you a lot of travel time each morning.\n\nFinally, a standard single room at this hotel costs around fifty dollars per night because conference participants receive a twenty percent discount including free breakfast. High-speed internet is also free for all guests.\n\nI hope this information is useful to you. Please feel free to contact me if you need further help.\n\nYours sincerely,",
+            "letter_vi": "Kính gửi ông Clark,\n\nCảm ơn email của ông về hội nghị sắp tới tại thành phố của chúng tôi. Tôi viết thư này để cung cấp cho ông những thông tin cần thiết.\n\nĐầu tiên, hội nghị sẽ được tổ chức tại Trung tâm Hội nghị Thành phố ở khu trung tâm vì nơi đây có các phòng họp hiện đại và chỉ cách sân bay hai mươi phút đi taxi. Tòa nhà này rất dễ tìm.\n\nThứ hai, tôi rất khuyên ông nên ở tại Khách sạn Sapphire vì đây là một khách sạn tiện nghi nằm chỉ cách trung tâm hội nghị năm phút đi bộ. Lưu trú tại đó sẽ giúp ông tiết kiệm được nhiều thời gian di chuyển mỗi sáng.\n\nCuối cùng, một phòng đơn tiêu chuẩn tại khách sạn này có giá khoảng năm mươi đô la mỗi đêm vì đại biểu tham dự hội nghị được giảm giá hai mươi phần trăm bao gồm cả bữa sáng miễn phí. Internet tốc độ cao cũng hoàn toàn miễn phí cho tất cả khách.\n\nTôi hy vọng thông tin này hữu ích đối với ông. Xin vui lòng liên hệ với tôi nếu ông cần hỗ trợ thêm.\n\nTrân trọng,",
+            "text": "Dear Mr. Clark,\n\nThank you for your email about the upcoming conference in our city. I am writing to provide you with the necessary information.\n\nFirst, the conference will be held at the City Convention Center in the city center because it has modern meeting rooms and is only twenty minutes by taxi from the airport. The building is very easy to find.\n\nSecond, I highly recommend staying at the Sapphire Hotel because it is a comfortable hotel located just a five-minute walk from the conference center. Staying there will save you a lot of travel time each morning.\n\nFinally, a standard single room at this hotel costs around fifty dollars per night because conference participants receive a twenty percent discount including free breakfast. High-speed internet is also free for all guests.\n\nI hope this information is useful to you. Please feel free to contact me if you need further help.\n\nYours sincerely,",
+            "translation": "Kính gửi ông Clark,\n\nCảm ơn email của ông về hội nghị sắp tới tại thành phố của chúng tôi. Tôi viết thư này để cung cấp cho ông những thông tin cần thiết.\n\nĐầu tiên, hội nghị sẽ được tổ chức tại Trung tâm Hội nghị Thành phố ở khu trung tâm vì nơi đây có các phòng họp hiện đại và chỉ cách sân bay hai mươi phút đi taxi. Tòa nhà này rất dễ tìm.\n\nThứ hai, tôi rất khuyên ông nên ở tại Khách sạn Sapphire vì đây là một khách sạn tiện nghi nằm chỉ cách trung tâm hội nghị năm phút đi bộ. Lưu trú tại đó sẽ giúp ông tiết kiệm được nhiều thời gian di chuyển mỗi sáng.\n\nCuối cùng, một phòng đơn tiêu chuẩn tại khách sạn này có giá khoảng năm mươi đô la mỗi đêm vì đại biểu tham dự hội nghị được giảm giá hai mươi phần trăm bao gồm cả bữa sáng miễn phí. Internet tốc độ cao cũng hoàn toàn miễn phí cho tất cả khách.\n\nTôi hy vọng thông tin này hữu ích đối với ông. Xin vui lòng liên hệ với tôi nếu ông cần hỗ trợ thêm.\n\nTrân trọng,",
+            "word_count": 153,
+            "key_structures": []
+          },
+          "sample_b2": {
+            "letter_en": "Dear Mr. Clark,\n\nThank you for your email about the upcoming conference in our city. I am writing to provide you with the necessary information.\n\nFirst, the conference will be held at the City Convention Center in the city center because it has modern meeting rooms and is only twenty minutes by taxi from the airport. The building is very easy to find.\n\nSecond, I highly recommend staying at the Sapphire Hotel because it is a comfortable hotel located just a five-minute walk from the conference center. Staying there will save you a lot of travel time each morning.\n\nFinally, a standard single room at this hotel costs around fifty dollars per night because conference participants receive a twenty percent discount including free breakfast. High-speed internet is also free for all guests.\n\nI hope this information is useful to you. Please feel free to contact me if you need further help.\n\nYours sincerely,",
+            "letter_vi": "Kính gửi ông Clark,\n\nCảm ơn email của ông về hội nghị sắp tới tại thành phố của chúng tôi. Tôi viết thư này để cung cấp cho ông những thông tin cần thiết.\n\nĐầu tiên, hội nghị sẽ được tổ chức tại Trung tâm Hội nghị Thành phố ở khu trung tâm vì nơi đây có các phòng họp hiện đại và chỉ cách sân bay hai mươi phút đi taxi. Tòa nhà này rất dễ tìm.\n\nThứ hai, tôi rất khuyên ông nên ở tại Khách sạn Sapphire vì đây là một khách sạn tiện nghi nằm chỉ cách trung tâm hội nghị năm phút đi bộ. Lưu trú tại đó sẽ giúp ông tiết kiệm được nhiều thời gian di chuyển mỗi sáng.\n\nCuối cùng, một phòng đơn tiêu chuẩn tại khách sạn này có giá khoảng năm mươi đô la mỗi đêm vì đại biểu tham dự hội nghị được giảm giá hai mươi phần trăm bao gồm cả bữa sáng miễn phí. Internet tốc độ cao cũng hoàn toàn miễn phí cho tất cả khách.\n\nTôi hy vọng thông tin này hữu ích đối với ông. Xin vui lòng liên hệ với tôi nếu ông cần hỗ trợ thêm.\n\nTrân trọng,",
+            "text": "Dear Mr. Clark,\n\nThank you for your email about the upcoming conference in our city. I am writing to provide you with the necessary information.\n\nFirst, the conference will be held at the City Convention Center in the city center because it has modern meeting rooms and is only twenty minutes by taxi from the airport. The building is very easy to find.\n\nSecond, I highly recommend staying at the Sapphire Hotel because it is a comfortable hotel located just a five-minute walk from the conference center. Staying there will save you a lot of travel time each morning.\n\nFinally, a standard single room at this hotel costs around fifty dollars per night because conference participants receive a twenty percent discount including free breakfast. High-speed internet is also free for all guests.\n\nI hope this information is useful to you. Please feel free to contact me if you need further help.\n\nYours sincerely,",
+            "translation": "Kính gửi ông Clark,\n\nCảm ơn email của ông về hội nghị sắp tới tại thành phố của chúng tôi. Tôi viết thư này để cung cấp cho ông những thông tin cần thiết.\n\nĐầu tiên, hội nghị sẽ được tổ chức tại Trung tâm Hội nghị Thành phố ở khu trung tâm vì nơi đây có các phòng họp hiện đại và chỉ cách sân bay hai mươi phút đi taxi. Tòa nhà này rất dễ tìm.\n\nThứ hai, tôi rất khuyên ông nên ở tại Khách sạn Sapphire vì đây là một khách sạn tiện nghi nằm chỉ cách trung tâm hội nghị năm phút đi bộ. Lưu trú tại đó sẽ giúp ông tiết kiệm được nhiều thời gian di chuyển mỗi sáng.\n\nCuối cùng, một phòng đơn tiêu chuẩn tại khách sạn này có giá khoảng năm mươi đô la mỗi đêm vì đại biểu tham dự hội nghị được giảm giá hai mươi phần trăm bao gồm cả bữa sáng miễn phí. Internet tốc độ cao cũng hoàn toàn miễn phí cho tất cả khách.\n\nTôi hy vọng thông tin này hữu ích đối với ông. Xin vui lòng liên hệ với tôi nếu ông cần hỗ trợ thêm.\n\nTrân trọng,",
+            "word_count": 153,
+            "key_structures": []
+          }
         }
       }
     ]
@@ -9882,7 +17637,7 @@ const LETTERS_DATA = [
       {
         "id": "de-07",
         "title_en": "Complaint about broken fitness machines at a gym center",
-        "title_vi": "Đề 07: Phàn nàn về nhiều thiết bị phòng tập gym bị hỏng hóc và yêu cầu khắc phục",
+        "title_vi": "Đề 01: Phàn nàn về nhiều thiết bị phòng tập gym bị hỏng hóc và yêu cầu khắc phục",
         "recipient_type": "Formal (Quản lý trung tâm thể hình)",
         "target_words": 120,
         "tags": [
@@ -10223,7 +17978,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "the drinking water dispenser frequently runs out of cold water during sweltering afternoons",
                   "action_vi": "cây nước uống tự động thường xuyên cạn nước lạnh vào những buổi chiều oi ả",
-                  "reason_en": "because members need clean cold water after strenuous exercise.",
+                  "reason_en": "because members need clean cold water after hard exercise.",
                   "reason_vi": "khiến hội viên không thể bù nước kịp thời trong quá trình tập luyện nặng."
                 }
               ]
@@ -10253,13 +18008,13 @@ const LETTERS_DATA = [
                   "reason_vi": "nhằm duy trì môi trường tập luyện hợp vệ sinh, thoáng khí và an toàn cho sức khỏe."
                 },
                 {
-                  "action_en": "implement a rigorous weekly preventive maintenance checklist for all workout machinery",
+                  "action_en": "implement a strict weekly preventive maintenance checklist for all workout machinery",
                   "action_vi": "áp dụng quy trình kiểm tra bảo trì định kỳ hàng tuần cho toàn bộ hệ thống máy tập",
                   "reason_en": "in order to prevent future equipment malfunctions and prolong machine longevity.",
                   "reason_vi": "để ngăn ngừa các sự cố hỏng hóc kỹ thuật tái diễn và kéo dài tuổi thọ thiết bị."
                 },
                 {
-                  "action_en": "provide a fee discount or extend our membership validity to compensate for this disruption",
+                  "action_en": "provide a fee discount or extend our membership validity to refund for this disruption",
                   "action_vi": "giảm trừ phí hoặc gia hạn thêm thời gian gói tập để bù đắp cho những bất tiện này",
                   "reason_en": "because members have not received the quality of services for which they paid in advance.",
                   "reason_vi": "vì hội viên đã không nhận được chất lượng dịch vụ tương xứng với số tiền đã thanh toán trước."
@@ -10278,7 +18033,7 @@ const LETTERS_DATA = [
       {
         "id": "de-08",
         "title_en": "Complaint about disappointing dinner and rude waitstaff at a restaurant",
-        "title_vi": "Đề 08: Khiếu nại về trải nghiệm bữa tối thất vọng và thái độ nhân viên tại nhà hàng",
+        "title_vi": "Đề 02: Khiếu nại về trải nghiệm bữa tối thất vọng và thái độ nhân viên tại nhà hàng",
         "recipient_type": "Formal (Quản lý nhà hàng)",
         "target_words": 120,
         "tags": [
@@ -10468,9 +18223,9 @@ const LETTERS_DATA = [
             ]
           },
           "sample_b2": {
-            "letter_en": "Dear Sir/Madam,\n\nI am writing to express my dissatisfaction with the dining experience and customer service at The Grand Bistro. I recently visited your establishment to celebrate a family milestone, and I was quite disappointed with the experience.\n\nThe main problem was the unacceptable delay in table allocation and course delivery. Despite our confirmed reservation, our party was made to wait over forty-five minutes in the lobby before being seated, and the main courses arrived nearly an hour later. Another concern was the substandard culinary execution. Both the grilled salmon and steak were served lukewarm, tough, and improperly seasoned. A further issue was the unprofessional attitude of the waitstaff, who displayed visible annoyance and unhelpfulness when politely requested to rectify the errors. Therefore, I would appreciate it if you could take immediate action to address these problems. Specifically, I suggest that you implement stricter kitchen workflow supervision and conduct mandatory hospitality training for your dining staff.\n\nI hope that this issue will be addressed promptly. I look forward to receiving your reply soon.\n\nYours faithfully,",
+            "letter_en": "Dear Sir/Madam,\n\nI am writing to express my dissatisfaction with the dining experience and customer service at The Grand Bistro. I recently visited your establishment to celebrate a family milestone, and I was quite disappointed with the experience.\n\nThe main problem was the unacceptable delay in table allocation and course delivery. Despite our confirmed reservation, our party was made to wait over forty-five minutes in the lobby before being seated, and the main courses arrived nearly an hour later. Another concern was the poor food execution. Both the grilled salmon and steak were served lukewarm, tough, and improperly seasoned. A further issue was the unprofessional attitude of the waitstaff, who displayed visible annoyance and unhelpfulness when politely requested to fix the errors. Therefore, I would appreciate it if you could take immediate action to address these problems. Specifically, I suggest that you implement stricter kitchen workflow supervision and conduct mandatory hospitality training for your dining staff.\n\nI hope that this issue will be addressed promptly. I look forward to receiving your reply soon.\n\nYours faithfully,",
             "letter_vi": "Kính gửi Quản lý nhà hàng,\n\nTôi viết thư này để bày tỏ sự không hài lòng sâu sắc về trải nghiệm ẩm thực và dịch vụ khách hàng tại The Grand Bistro. Gần đây tôi có đến nhà hàng để kỷ niệm một sự kiện gia đình, và tôi đã cảm thấy rất thất vọng với trải nghiệm này.\n\nVấn đề lớn nhất là sự chậm trễ không thể chấp nhận được trong việc sắp xếp bàn và lên món. Mặc dù chúng tôi đã đặt bàn từ trước, cả nhóm vẫn phải chờ hơn bốn mươi lăm phút tại sảnh mới được xếp chỗ, và các món chính được dọn ra sau đó gần một tiếng đồng hồ. Một mối quan ngại khác là chất lượng chế biến dưới chuẩn. Cả món cá hồi nướng và bít tết đều được phục vụ trong tình trạng nguội, dai và nêm nếm không đạt yêu cầu. Một vấn đề nữa là thái độ thiếu chuyên nghiệp của nhân viên phục vụ, những người tỏ ra khó chịu và bất hợp tác khi được yêu cầu khắc phục sai sót một cách lịch sự. Do đó, tôi rất mong quý vị sẽ có những hành động kịp thời để xử lý các vấn đề này. Cụ thể, tôi đề xuất quý vị thiết lập quy trình kiểm soát bếp chặt chẽ hơn và tổ chức các buổi đào tạo bắt buộc về nghiệp vụ phục vụ cho nhân viên.\n\nTôi hy vọng vấn đề này sẽ được giải quyết nhanh chóng. Tôi rất mong sớm nhận được phản hồi từ quý vị.\n\nTrân trọng,",
-            "text": "Dear Sir/Madam,\n\nI am writing to express my dissatisfaction with the dining experience and customer service at The Grand Bistro. I recently visited your establishment to celebrate a family milestone, and I was quite disappointed with the experience.\n\nThe main problem was the unacceptable delay in table allocation and course delivery. Despite our confirmed reservation, our party was made to wait over forty-five minutes in the lobby before being seated, and the main courses arrived nearly an hour later. Another concern was the substandard culinary execution. Both the grilled salmon and steak were served lukewarm, tough, and improperly seasoned. A further issue was the unprofessional attitude of the waitstaff, who displayed visible annoyance and unhelpfulness when politely requested to rectify the errors. Therefore, I would appreciate it if you could take immediate action to address these problems. Specifically, I suggest that you implement stricter kitchen workflow supervision and conduct mandatory hospitality training for your dining staff.\n\nI hope that this issue will be addressed promptly. I look forward to receiving your reply soon.\n\nYours faithfully,",
+            "text": "Dear Sir/Madam,\n\nI am writing to express my dissatisfaction with the dining experience and customer service at The Grand Bistro. I recently visited your establishment to celebrate a family milestone, and I was quite disappointed with the experience.\n\nThe main problem was the unacceptable delay in table allocation and course delivery. Despite our confirmed reservation, our party was made to wait over forty-five minutes in the lobby before being seated, and the main courses arrived nearly an hour later. Another concern was the poor food execution. Both the grilled salmon and steak were served lukewarm, tough, and improperly seasoned. A further issue was the unprofessional attitude of the waitstaff, who displayed visible annoyance and unhelpfulness when politely requested to fix the errors. Therefore, I would appreciate it if you could take immediate action to address these problems. Specifically, I suggest that you implement stricter kitchen workflow supervision and conduct mandatory hospitality training for your dining staff.\n\nI hope that this issue will be addressed promptly. I look forward to receiving your reply soon.\n\nYours faithfully,",
             "translation": "Kính gửi Quản lý nhà hàng,\n\nTôi viết thư này để bày tỏ sự không hài lòng sâu sắc về trải nghiệm ẩm thực và dịch vụ khách hàng tại The Grand Bistro. Gần đây tôi có đến nhà hàng để kỷ niệm một sự kiện gia đình, và tôi đã cảm thấy rất thất vọng với trải nghiệm này.\n\nVấn đề lớn nhất là sự chậm trễ không thể chấp nhận được trong việc sắp xếp bàn và lên món. Mặc dù chúng tôi đã đặt bàn từ trước, cả nhóm vẫn phải chờ hơn bốn mươi lăm phút tại sảnh mới được xếp chỗ, và các món chính được dọn ra sau đó gần một tiếng đồng hồ. Một mối quan ngại khác là chất lượng chế biến dưới chuẩn. Cả món cá hồi nướng và bít tết đều được phục vụ trong tình trạng nguội, dai và nêm nếm không đạt yêu cầu. Một vấn đề nữa là thái độ thiếu chuyên nghiệp của nhân viên phục vụ, những người tỏ ra khó chịu và bất hợp tác khi được yêu cầu khắc phục sai sót một cách lịch sự. Do đó, tôi rất mong quý vị sẽ có những hành động kịp thời để xử lý các vấn đề này. Cụ thể, tôi đề xuất quý vị thiết lập quy trình kiểm soát bếp chặt chẽ hơn và tổ chức các buổi đào tạo bắt buộc về nghiệp vụ phục vụ cho nhân viên.\n\nTôi hy vọng vấn đề này sẽ được giải quyết nhanh chóng. Tôi rất mong sớm nhận được phản hồi từ quý vị.\n\nTrân trọng,",
             "word_count": 175,
             "key_structures": [
@@ -10524,7 +18279,7 @@ const LETTERS_DATA = [
                   "reason_vi": "làm dấy lên những lo ngại nghiêm trọng về khâu bảo quản vệ sinh trong bếp của quý vị."
                 },
                 {
-                  "action_en": "the complimentary bread rolls served at the table were dry, rock-hard, and stale",
+                  "action_en": "the free bread rolls served at the table were dry, rock-hard, and stale",
                   "action_vi": "bánh mì ăn kèm dọn đầu giờ thì khô khốc, cứng như đá và mất đi độ giòn thơm",
                   "reason_en": "because the bread was dry and rock-hard instead of warm and soft.",
                   "reason_vi": "cho thấy sự thiếu chăm chút đáng thất vọng đối với tiêu chuẩn phục vụ cơ bản."
@@ -10634,7 +18389,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "issue an immediate refund for the ruined main courses and the 10% service surcharge",
                   "action_vi": "hoàn tiền ngay lập tức cho các món chính bị hỏng cùng 10% phí dịch vụ trên hóa đơn",
-                  "reason_en": "because we did not receive the culinary quality or standard of hospitality billed to us.",
+                  "reason_en": "because we did not receive the food quality or standard of hospitality billed to us.",
                   "reason_vi": "vì chúng tôi không nhận được chất lượng món ăn hay tiêu chuẩn dịch vụ tương xứng số tiền đã trả."
                 },
                 {
@@ -10656,7 +18411,7 @@ const LETTERS_DATA = [
                   "reason_vi": "đảm bảo rằng các món ăn nóng được phục vụ ra bàn một cách nhịp nhàng và đúng thời điểm."
                 },
                 {
-                  "action_en": "offer a complimentary meal voucher for a future dining visit to restore customer trust",
+                  "action_en": "offer a free meal voucher for a future dining visit to restore customer trust",
                   "action_vi": "tặng một voucher bữa ăn miễn phí cho lần ghé thăm sau để khôi phục niềm tin của khách hàng",
                   "reason_en": "because this helps show goodwill and an earnest desire to make amends for this disappointing evening.",
                   "reason_vi": "thể hiện sự cầu thị và mong muốn bù đắp cho buổi tối đầy thất vọng này."
@@ -10664,7 +18419,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "enforce strict daily ingredients inspections to guarantee all meat and seafood are fresh",
                   "action_vi": "siết chặt khâu kiểm tra nguyên liệu mỗi ngày để đảm bảo thịt và hải sản luôn tươi mới",
-                  "reason_en": "because food quality and guest safety must remain the bedrock of any reputable bistro.",
+                  "reason_en": "because food quality and guest safety must remain the bedrock of any well-known bistro.",
                   "reason_vi": "vì chất lượng thực phẩm và an toàn của khách phải luôn là nền tảng của nhà hàng uy tín."
                 }
               ]
@@ -10675,7 +18430,7 @@ const LETTERS_DATA = [
       {
         "id": "de-20",
         "title_en": "Complaint to sports center manager about changing room condition",
-        "title_vi": "Đề 20: Phàn nàn gửi quản lý trung tâm thể thao về tình trạng phòng thay đồ",
+        "title_vi": "Đề 03: Phàn nàn gửi quản lý trung tâm thể thao về tình trạng phòng thay đồ",
         "recipient_type": "Formal (Quản lý trung tâm thể thao)",
         "target_words": 120,
         "tags": [
@@ -11046,10 +18801,10 @@ const LETTERS_DATA = [
               "id": 6,
               "part": "6. Kết thư (Closing - Yêu cầu hành động & Ký tên trang trọng)",
               "vi": "Tôi hy vọng ban quản lý sẽ có những biện pháp khắc phục kịp thời. Tôi rất mong sớm nhận được phản hồi từ quý trung tâm. Kính thư,",
-              "en": "I hope you will take prompt action to rectify these matters. I look forward to receiving your response soon. Yours faithfully,",
+              "en": "I hope you will take prompt action to fix these matters. I look forward to receiving your response soon. Yours faithfully,",
               "vocab_hints": [
                 {
-                  "en": "take prompt action to rectify",
+                  "en": "take prompt action to fix",
                   "vi": "có hành động kịp thời để khắc phục"
                 },
                 {
@@ -11079,7 +18834,7 @@ const LETTERS_DATA = [
               "id": 1,
               "part": "Diễn đạt nâng cao B2 - Khiếu nại tiêu chuẩn vệ sinh và an toàn",
               "vi": "Với tư cách là một hội viên trả phí hàng năm, tôi thực sự thất vọng trước sự xuống cấp trầm trọng của cơ sở vật chất phòng thay đồ, và tôi khẩn thiết yêu cầu ban quản lý tiến hành các biện pháp khắc phục toàn diện nhằm loại bỏ hoàn toàn các mối nguy hiểm tiềm ẩn về an toàn vệ sinh.",
-              "en": "As an annual fee-paying subscriber, I am profoundly appalled by the substandard state of the changing facilities, and I urge management to implement immediate remedial measures to eliminate hazardous hygiene risks.",
+              "en": "As an annual fee-paying subscriber, I am profoundly appalled by the poor state of the changing facilities, and I urge management to implement immediate remedial measures to eliminate hazardous hygiene risks.",
               "vocab_hints": [
                 {
                   "en": "profoundly appalled by",
@@ -11131,9 +18886,9 @@ const LETTERS_DATA = [
             ]
           },
           "sample_b2": {
-            "letter_en": "Dear Sir/Madam,\n\nI am writing to express my dissatisfaction with the condition of the changing room at your sports center. I recently used your facility, and I was quite disappointed with the experience.\n\nThe main problem was the unacceptable level of hygiene. The floor was consistently wet and slippery, and numerous used towels were carelessly discarded on the benches. Another concern was the maintenance of the lockers. Several of them were broken and incapable of being locked securely, causing significant anxiety regarding the safety of personal belongings. A further issue was the overpowering and unpleasant odor permeating the room, indicating a severe lack of proper ventilation.\n\nI was extremely frustrated with these issues, as they negatively affected my overall experience at your establishment. This situation was unacceptable and did not meet my expectations. Therefore, I would appreciate it if you could take immediate action to address these problems. Specifically, I suggest that you implement a more rigorous cleaning schedule, promptly repair the defective lockers, and upgrade the ventilation system.\n\nI hope that this issue will be addressed promptly. I look forward to receiving your reply soon.\n\nYours faithfully,",
+            "letter_en": "Dear Sir/Madam,\n\nI am writing to express my dissatisfaction with the condition of the changing room at your sports center. I recently used your facility, and I was quite disappointed with the experience.\n\nThe main problem was the unacceptable level of hygiene. The floor was consistently wet and slippery, and numerous used towels were carelessly discarded on the benches. Another concern was the maintenance of the lockers. Several of them were broken and incapable of being locked securely, causing significant anxiety regarding the safety of personal belongings. A further issue was the overpowering and unpleasant odor permeating the room, indicating a severe lack of proper ventilation.\n\nI was extremely frustrated with these issues, as they negatively affected my overall experience at your establishment. This situation was unacceptable and did not meet my expectations. Therefore, I would appreciate it if you could take immediate action to address these problems. Specifically, I suggest that you implement a more strict cleaning schedule, promptly repair the defective lockers, and upgrade the ventilation system.\n\nI hope that this issue will be addressed promptly. I look forward to receiving your reply soon.\n\nYours faithfully,",
             "letter_vi": "Kính gửi Ông/Bà,\n\nTôi viết thư này để bày tỏ sự không hài lòng của mình đối với tình trạng phòng thay đồ tại trung tâm thể thao của ông/bà. Gần đây tôi đã sử dụng cơ sở của ông/bà và khá thất vọng với trải nghiệm này.\n\nVấn đề chính là mức độ vệ sinh không thể chấp nhận được. Sàn nhà luôn ẩm ướt và trơn trượt, cùng với vô số khăn tắm đã qua sử dụng bị vứt bừa bãi trên các băng ghế. Một mối bận tâm khác là việc bảo trì các tủ đựng đồ. Một số trong đó đã bị hỏng và không thể khóa chặt, gây ra sự lo lắng đáng kể về sự an toàn của đồ đạc cá nhân. Một vấn đề xa hơn nữa là mùi khó chịu và nồng nặc lan tỏa khắp phòng, cho thấy sự thiếu hụt nghiêm trọng về hệ thống thông gió thích hợp.\n\nTôi đã vô cùng bực bội với những vấn đề này, vì chúng ảnh hưởng tiêu cực đến trải nghiệm tổng thể của tôi tại cơ sở của ông/bà. Tình huống này là không thể chấp nhận được và không đáp ứng mong đợi của tôi. Do đó, tôi sẽ rất cảm kích nếu ông/bà có thể hành động ngay lập tức để giải quyết những vấn đề này. Cụ thể, tôi đề xuất ông/bà thực hiện lịch trình làm sạch nghiêm ngặt hơn, nhanh chóng sửa chữa các tủ đồ bị hỏng và nâng cấp hệ thống thông gió.\n\nTôi hy vọng vấn đề này sẽ được giải quyết nhanh chóng. Tôi rất mong sớm nhận được hồi âm của ông/bà.\n\nTrân trọng,",
-            "text": "Dear Sir/Madam,\n\nI am writing to express my dissatisfaction with the condition of the changing room at your sports center. I recently used your facility, and I was quite disappointed with the experience.\n\nThe main problem was the unacceptable level of hygiene. The floor was consistently wet and slippery, and numerous used towels were carelessly discarded on the benches. Another concern was the maintenance of the lockers. Several of them were broken and incapable of being locked securely, causing significant anxiety regarding the safety of personal belongings. A further issue was the overpowering and unpleasant odor permeating the room, indicating a severe lack of proper ventilation.\n\nI was extremely frustrated with these issues, as they negatively affected my overall experience at your establishment. This situation was unacceptable and did not meet my expectations. Therefore, I would appreciate it if you could take immediate action to address these problems. Specifically, I suggest that you implement a more rigorous cleaning schedule, promptly repair the defective lockers, and upgrade the ventilation system.\n\nI hope that this issue will be addressed promptly. I look forward to receiving your reply soon.\n\nYours faithfully,",
+            "text": "Dear Sir/Madam,\n\nI am writing to express my dissatisfaction with the condition of the changing room at your sports center. I recently used your facility, and I was quite disappointed with the experience.\n\nThe main problem was the unacceptable level of hygiene. The floor was consistently wet and slippery, and numerous used towels were carelessly discarded on the benches. Another concern was the maintenance of the lockers. Several of them were broken and incapable of being locked securely, causing significant anxiety regarding the safety of personal belongings. A further issue was the overpowering and unpleasant odor permeating the room, indicating a severe lack of proper ventilation.\n\nI was extremely frustrated with these issues, as they negatively affected my overall experience at your establishment. This situation was unacceptable and did not meet my expectations. Therefore, I would appreciate it if you could take immediate action to address these problems. Specifically, I suggest that you implement a more strict cleaning schedule, promptly repair the defective lockers, and upgrade the ventilation system.\n\nI hope that this issue will be addressed promptly. I look forward to receiving your reply soon.\n\nYours faithfully,",
             "translation": "Kính gửi Ông/Bà,\n\nTôi viết thư này để bày tỏ sự không hài lòng của mình đối với tình trạng phòng thay đồ tại trung tâm thể thao của ông/bà. Gần đây tôi đã sử dụng cơ sở của ông/bà và khá thất vọng với trải nghiệm này.\n\nVấn đề chính là mức độ vệ sinh không thể chấp nhận được. Sàn nhà luôn ẩm ướt và trơn trượt, cùng với vô số khăn tắm đã qua sử dụng bị vứt bừa bãi trên các băng ghế. Một mối bận tâm khác là việc bảo trì các tủ đựng đồ. Một số trong đó đã bị hỏng và không thể khóa chặt, gây ra sự lo lắng đáng kể về sự an toàn của đồ đạc cá nhân. Một vấn đề xa hơn nữa là mùi khó chịu và nồng nặc lan tỏa khắp phòng, cho thấy sự thiếu hụt nghiêm trọng về hệ thống thông gió thích hợp.\n\nTôi đã vô cùng bực bội với những vấn đề này, vì chúng ảnh hưởng tiêu cực đến trải nghiệm tổng thể của tôi tại cơ sở của ông/bà. Tình huống này là không thể chấp nhận được và không đáp ứng mong đợi của tôi. Do đó, tôi sẽ rất cảm kích nếu ông/bà có thể hành động ngay lập tức để giải quyết những vấn đề này. Cụ thể, tôi đề xuất ông/bà thực hiện lịch trình làm sạch nghiêm ngặt hơn, nhanh chóng sửa chữa các tủ đồ bị hỏng và nâng cấp hệ thống thông gió.\n\nTôi hy vọng vấn đề này sẽ được giải quyết nhanh chóng. Tôi rất mong sớm nhận được hồi âm của ông/bà.\n\nTrân trọng,",
             "word_count": 188,
             "key_structures": [
@@ -11160,7 +18915,7 @@ const LETTERS_DATA = [
       {
         "id": "de-21",
         "title_en": "Complaint to hotel manager about hotel room condition",
-        "title_vi": "Đề 21: Khiếu nại gửi quản lý khách sạn về sự cố phòng nghỉ trong kỳ nghỉ",
+        "title_vi": "Đề 04: Khiếu nại gửi quản lý khách sạn về sự cố phòng nghỉ trong kỳ nghỉ",
         "recipient_type": "Formal (Quản lý khách sạn)",
         "target_words": 120,
         "tags": [
@@ -11261,7 +19016,7 @@ const LETTERS_DATA = [
                   "reason_vi": "biến những kỷ niệm đáng lẽ vui vẻ thành nỗi bực mình."
                 },
                 {
-                  "action_en": "I felt that the high room rate was entirely unjustified by the substandard quality",
+                  "action_en": "I felt that the high room rate was entirely unjustified by the poor quality",
                   "action_vi": "tôi thấy mức giá phòng đắt đỏ hoàn toàn không tương xứng với chất lượng tồi tệ",
                   "reason_en": "because I felt that the service was not worth the price.",
                   "reason_vi": "khiến tôi cảm thấy số tiền vất vả kiếm được bị lãng phí."
@@ -11305,15 +19060,15 @@ const LETTERS_DATA = [
                   "reason_vi": "nhờ đó nỗi bức xúc của khách hàng được xử lý ngay tại chỗ."
                 },
                 {
-                  "action_en": "provide a partial refund or complimentary voucher for future stays",
+                  "action_en": "provide a partial refund or free voucher for future stays",
                   "action_vi": "hoàn lại một phần tiền phòng hoặc tặng phiếu giảm giá cho lần lưu trú sau",
-                  "reason_en": "because a fair gesture of goodwill to compensate for my ruined holiday.",
+                  "reason_en": "because a fair gesture of goodwill to refund for my ruined holiday.",
                   "reason_vi": "như một thiện chí thỏa đáng để bù đắp cho kỳ nghỉ bị hỏng của tôi."
                 },
                 {
                   "action_en": "establish regular room quality inspection by management",
                   "action_vi": "thiết lập cơ chế kiểm tra chất lượng phòng định kỳ từ phía ban quản lý",
-                  "reason_en": "in order to uphold reputable hospitality standards.",
+                  "reason_en": "in order to uphold well-known hospitality standards.",
                   "reason_vi": "để duy trì chuẩn mực uy tín của ngành khách sạn."
                 }
               ]
@@ -11321,7 +19076,7 @@ const LETTERS_DATA = [
           ],
           "vocab": [
             {
-              "en": "substandard room condition",
+              "en": "poor room condition",
               "vi": "tình trạng phòng không đạt tiêu chuẩn",
               "category": "1. Sự cố (Problems)"
             },
@@ -11371,10 +19126,10 @@ const LETTERS_DATA = [
               "id": 1,
               "part": "1. Mở thư (Opening - Mục đích khiếu nại về phòng nghỉ)",
               "vi": "Kính gửi Quản lý Khách sạn, Tôi viết thư này để khiếu nại về tình trạng phòng nghỉ không đạt tiêu chuẩn tại phòng 302 trong kỳ nghỉ ba đêm của tôi vào cuối tuần trước.",
-              "en": "Dear Hotel Manager, I am writing this letter to complain about the substandard condition of room 302 during my three-night stay at your hotel last weekend.",
+              "en": "Dear Hotel Manager, I am writing this letter to complain about the poor condition of room 302 during my three-night stay at your hotel last weekend.",
               "vocab_hints": [
                 {
-                  "en": "complain about the substandard condition",
+                  "en": "complain about the poor condition",
                   "vi": "khiếu nại về tình trạng không đạt chuẩn"
                 },
                 {
@@ -11499,14 +19254,14 @@ const LETTERS_DATA = [
               "id": 5,
               "part": "5. Thân thư - Ý 4: Đề xuất bồi thường thiện chí",
               "vi": "Ngoài ra, tôi cho rằng việc hoàn lại một phần tiền phòng hoặc tặng phiếu giảm giá cho lần lưu trú sau sẽ là một sự đền bù thỏa đáng cho kỳ nghỉ bị hỏng của tôi.",
-              "en": "In addition, I believe a partial refund or discount voucher for future stays would be an appropriate gesture of goodwill to compensate for my ruined holiday.",
+              "en": "In addition, I believe a partial refund or discount voucher for future stays would be an appropriate gesture of goodwill to refund for my ruined holiday.",
               "vocab_hints": [
                 {
                   "en": "partial refund or discount voucher",
                   "vi": "hoàn lại một phần tiền hoặc phiếu giảm giá"
                 },
                 {
-                  "en": "compensate for my ruined holiday",
+                  "en": "refund for my ruined holiday",
                   "vi": "bù đắp cho kỳ nghỉ bị hỏng của tôi"
                 }
               ],
@@ -11563,14 +19318,14 @@ const LETTERS_DATA = [
               "id": 1,
               "part": "Diễn đạt nâng cao B2 - Yêu cầu bồi thường thiệt hại",
               "vi": "Trước những thiếu sót nghiêm trọng về mặt tiện nghi và vệ sinh khiến kỳ nghỉ được mong chờ từ lâu của gia đình tôi bị gián đoạn, tôi tin rằng một khoản bồi hoàn tài chính thích đáng là hoàn toàn tương xứng để khôi phục niềm tin của khách hàng đối với thương hiệu của quý vị.",
-              "en": "In light of the egregious lapses in basic room amenities and hygiene that thoroughly disrupted our long-anticipated holiday, I consider a meaningful financial reimbursement fully warranted to restore consumer confidence in your establishment.",
+              "en": "In light of the egregious lapses in basic room amenities and hygiene that thoroughly disrupted our long-anticipated holiday, I consider a meaningful financial refund fully warranted to restore consumer confidence in your establishment.",
               "vocab_hints": [
                 {
                   "en": "egregious lapses in basic amenities",
                   "vi": "những thiếu sót nghiêm trọng về tiện nghi cơ bản"
                 },
                 {
-                  "en": "meaningful financial reimbursement",
+                  "en": "meaningful financial refund",
                   "vi": "khoản bồi hoàn tài chính thỏa đáng"
                 }
               ],
@@ -11586,7 +19341,7 @@ const LETTERS_DATA = [
               ],
               "grammar_notes": [],
               "alternatives": [],
-              "criteria_tip": "Cụm 'financial reimbursement fully warranted' đạt chuẩn văn phong luật/kinh doanh quốc tế."
+              "criteria_tip": "Cụm 'financial refund fully warranted' đạt chuẩn văn phong luật/kinh doanh quốc tế."
             }
           ],
           "sample_b1": {
@@ -11615,9 +19370,9 @@ const LETTERS_DATA = [
             ]
           },
           "sample_b2": {
-            "letter_en": "Dear Sir/Madam,\n\nI am writing to express my dissatisfaction with the condition of room 302 during my recent vacation stay at your hotel. I recently used your facility, and I was quite disappointed with the experience.\n\nThe main problem was the unacceptable level of noise and malfunction regarding the climate control system. The unit continually emitted a grating mechanical rattle while blowing warm air, making restful sleep virtually impossible throughout our holiday. Another concern was the defective plumbing fixtures in the en-suite bathroom. Stagnant wastewater regularly accumulated across the tiles due to a clogged drain, creating an unhygienic slipping hazard. A further issue was the total apathy exhibited by your front desk personnel, who dismissed our complaints without dispatching engineering assistance. Therefore, I would appreciate it if you could take immediate action to address these problems. Specifically, I suggest that you service the climate control units and process a partial financial reimbursement for our ruined stay.\n\nI hope that this issue will be addressed promptly. I look forward to receiving your reply soon.\n\nYours faithfully,",
+            "letter_en": "Dear Sir/Madam,\n\nI am writing to express my dissatisfaction with the condition of room 302 during my recent vacation stay at your hotel. I recently used your facility, and I was quite disappointed with the experience.\n\nThe main problem was the unacceptable level of noise and malfunction regarding the climate control system. The unit continually emitted a grating mechanical rattle while blowing warm air, making restful sleep virtually impossible throughout our holiday. Another concern was the defective plumbing fixtures in the en-suite bathroom. Stagnant wastewater regularly accumulated across the tiles due to a clogged drain, creating an unhygienic slipping hazard. A further issue was the total apathy exhibited by your front desk personnel, who dismissed our complaints without dispatching engineering assistance. Therefore, I would appreciate it if you could take immediate action to address these problems. Specifically, I suggest that you service the climate control units and process a partial financial refund for our ruined stay.\n\nI hope that this issue will be addressed promptly. I look forward to receiving your reply soon.\n\nYours faithfully,",
             "letter_vi": "Kính gửi Ban Quản lý khách sạn,\n\nTôi viết thư này để bày tỏ sự không hài lòng về tình trạng phòng 302 trong kỳ nghỉ dưỡng gần đây của tôi tại khách sạn của quý vị. Gần đây tôi đã sử dụng dịch vụ lưu trú của quý khách sạn và cảm thấy rất thất vọng với trải nghiệm này.\n\nVấn đề lớn nhất là tiếng ồn không thể chịu đựng nổi và sự cố của hệ thống điều hòa nhiệt độ. Chiếc máy liên tục phát ra tiếng kêu cơ khí chói tai trong khi chỉ thổi ra luồng khí nóng, khiến việc nghỉ ngơi vào ban đêm của chúng tôi trở nên bất khả thi trong suốt kỳ nghỉ. Một mối quan ngại khác là các thiết bị vệ sinh bị hỏng trong phòng tắm. Nước thải thường xuyên ứ đọng trên nền gạch do đường ống thoát nước bị tắc, gây mất vệ sinh và nguy cơ trơn trượt nguy hiểm. Một vấn đề nữa là thái độ thờ ơ từ nhân viên lễ tân, những người đã gạt phắt khiếu nại của chúng tôi mà không hề cử nhân viên kỹ thuật lên hỗ trợ. Do đó, tôi rất mong quý vị có hành động giải quyết ngay các vấn đề này. Cụ thể, tôi đề nghị quý vị bảo dưỡng toàn diện hệ thống điều hòa và hoàn trả một phần chi phí lưu trú cho kỳ nghỉ bị ảnh hưởng của chúng tôi.\n\nTôi hy vọng vấn đề này sẽ được giải quyết thỏa đáng. Tôi rất mong sớm nhận được phản hồi từ quý vị.\n\nTrân trọng,",
-            "text": "Dear Sir/Madam,\n\nI am writing to express my dissatisfaction with the condition of room 302 during my recent vacation stay at your hotel. I recently used your facility, and I was quite disappointed with the experience.\n\nThe main problem was the unacceptable level of noise and malfunction regarding the climate control system. The unit continually emitted a grating mechanical rattle while blowing warm air, making restful sleep virtually impossible throughout our holiday. Another concern was the defective plumbing fixtures in the en-suite bathroom. Stagnant wastewater regularly accumulated across the tiles due to a clogged drain, creating an unhygienic slipping hazard. A further issue was the total apathy exhibited by your front desk personnel, who dismissed our complaints without dispatching engineering assistance. Therefore, I would appreciate it if you could take immediate action to address these problems. Specifically, I suggest that you service the climate control units and process a partial financial reimbursement for our ruined stay.\n\nI hope that this issue will be addressed promptly. I look forward to receiving your reply soon.\n\nYours faithfully,",
+            "text": "Dear Sir/Madam,\n\nI am writing to express my dissatisfaction with the condition of room 302 during my recent vacation stay at your hotel. I recently used your facility, and I was quite disappointed with the experience.\n\nThe main problem was the unacceptable level of noise and malfunction regarding the climate control system. The unit continually emitted a grating mechanical rattle while blowing warm air, making restful sleep virtually impossible throughout our holiday. Another concern was the defective plumbing fixtures in the en-suite bathroom. Stagnant wastewater regularly accumulated across the tiles due to a clogged drain, creating an unhygienic slipping hazard. A further issue was the total apathy exhibited by your front desk personnel, who dismissed our complaints without dispatching engineering assistance. Therefore, I would appreciate it if you could take immediate action to address these problems. Specifically, I suggest that you service the climate control units and process a partial financial refund for our ruined stay.\n\nI hope that this issue will be addressed promptly. I look forward to receiving your reply soon.\n\nYours faithfully,",
             "translation": "Kính gửi Ban Quản lý khách sạn,\n\nTôi viết thư này để bày tỏ sự không hài lòng về tình trạng phòng 302 trong kỳ nghỉ dưỡng gần đây của tôi tại khách sạn của quý vị. Gần đây tôi đã sử dụng dịch vụ lưu trú của quý khách sạn và cảm thấy rất thất vọng với trải nghiệm này.\n\nVấn đề lớn nhất là tiếng ồn không thể chịu đựng nổi và sự cố của hệ thống điều hòa nhiệt độ. Chiếc máy liên tục phát ra tiếng kêu cơ khí chói tai trong khi chỉ thổi ra luồng khí nóng, khiến việc nghỉ ngơi vào ban đêm của chúng tôi trở nên bất khả thi trong suốt kỳ nghỉ. Một mối quan ngại khác là các thiết bị vệ sinh bị hỏng trong phòng tắm. Nước thải thường xuyên ứ đọng trên nền gạch do đường ống thoát nước bị tắc, gây mất vệ sinh và nguy cơ trơn trượt nguy hiểm. Một vấn đề nữa là thái độ thờ ơ từ nhân viên lễ tân, những người đã gạt phắt khiếu nại của chúng tôi mà không hề cử nhân viên kỹ thuật lên hỗ trợ. Do đó, tôi rất mong quý vị có hành động giải quyết ngay các vấn đề này. Cụ thể, tôi đề nghị quý vị bảo dưỡng toàn diện hệ thống điều hòa và hoàn trả một phần chi phí lưu trú cho kỳ nghỉ bị ảnh hưởng của chúng tôi.\n\nTôi hy vọng vấn đề này sẽ được giải quyết thỏa đáng. Tôi rất mong sớm nhận được phản hồi từ quý vị.\n\nTrân trọng,",
             "word_count": 175,
             "key_structures": [
@@ -11729,7 +19484,7 @@ const LETTERS_DATA = [
       {
         "id": "de-09",
         "title_en": "Feedback on public bus service to Mr. Tailor",
-        "title_vi": "Đề 09: Đánh giá và đóng góp ý kiến cải thiện tuyến xe buýt công cộng gửi ông Tailor",
+        "title_vi": "Đề 01: Đánh giá và đóng góp ý kiến cải thiện tuyến xe buýt công cộng gửi ông Tailor",
         "recipient_type": "Semi-formal (Giám đốc công ty vận tải - Mr. Tailor)",
         "target_words": 120,
         "tags": [
@@ -12108,7 +19863,7 @@ const LETTERS_DATA = [
       {
         "id": "de-10",
         "title_en": "Feedback on a birthday celebration at Golden Spoon restaurant",
-        "title_vi": "Đề 10: Phản hồi trải nghiệm tổ chức tiệc sinh nhật gửi quản lý nhà hàng Golden Spoon",
+        "title_vi": "Đề 02: Phản hồi trải nghiệm tổ chức tiệc sinh nhật gửi quản lý nhà hàng Golden Spoon",
         "recipient_type": "Formal (Quản lý nhà hàng - Golden Spoon)",
         "target_words": 120,
         "tags": [
@@ -12281,9 +20036,9 @@ const LETTERS_DATA = [
             ]
           },
           "sample_b2": {
-            "letter_en": "Dear Sir/Madam,\n\nI am writing to provide feedback on our recent celebratory birthday dinner hosted at Golden Spoon restaurant. I recently used your services and would like to share my experience.\n\nOverall, I found your restaurant quite satisfactory, although there are some aspects that could be improved. One aspect I appreciated was the exquisite culinary presentation and rich flavours of your grilled specialties, which delighted our guests. Furthermore, I was particularly impressed with the prompt and professional greeting offered by the front host upon our arrival.\n\nHowever, there were also several areas that required improvement. One issue that I encountered was the considerable delay in course clearance and dessert delivery, which disrupted the celebratory momentum. Additionally, I was disappointed with the acoustic environment, as high background music volume hindered conversational intimacy throughout the dinner.\n\nTo enhance the quality of your services, I have a few suggestions. I suggest that you refine table management protocols to ensure timely transitions between course servings. Furthermore, it would be better if you could modulate sound levels appropriately within private banquet areas to cultivate a sophisticated dining ambiance.\n\nI hope my feedback will be useful in improving your hospitality standards. Please feel free to contact me if you have any further questions.\n\nYours faithfully,",
+            "letter_en": "Dear Sir/Madam,\n\nI am writing to provide feedback on our recent celebratory birthday dinner hosted at Golden Spoon restaurant. I recently used your services and would like to share my experience.\n\nOverall, I found your restaurant quite satisfactory, although there are some aspects that could be improved. One aspect I appreciated was the delicious food presentation and rich flavours of your grilled specialties, which delighted our guests. Furthermore, I was particularly impressed with the prompt and professional greeting offered by the front host upon our arrival.\n\nHowever, there were also several areas that required improvement. One issue that I encountered was the considerable delay in course clearance and dessert delivery, which disrupted the celebratory momentum. Additionally, I was disappointed with the acoustic environment, as high background music volume hindered conversational intimacy throughout the dinner.\n\nTo enhance the quality of your services, I have a few suggestions. I suggest that you refine table management protocols to ensure timely transitions between course servings. Furthermore, it would be better if you could modulate sound levels appropriately within private banquet areas to cultivate a sophisticated dining ambiance.\n\nI hope my feedback will be useful in improving your hospitality standards. Please feel free to contact me if you have any further questions.\n\nYours faithfully,",
             "letter_vi": "Kính gửi Quản lý nhà hàng Golden Spoon,\n\nTôi viết thư này để cung cấp đánh giá phản hồi về bữa tiệc sinh nhật vừa qua của chúng tôi được tổ chức tại nhà hàng Golden Spoon. Gần đây tôi đã sử dụng dịch vụ của quý nhà hàng và muốn chia sẻ trải nghiệm của mình.\n\nNhìn chung, tôi nhận thấy nhà hàng của quý vị rất đáng khen ngợi, mặc dù vẫn còn một vài khía cạnh có thể được cải thiện. Một điểm tôi đánh giá cao là cách trình bày ẩm thực tinh tế và hương vị đậm đà của các món nướng đặc sắc, khiến toàn bộ khách mời đều hài lòng. Hơn nữa, tôi đặc biệt ấn tượng với sự tiếp đón niềm nở và chuyên nghiệp của nhân viên lễ tân ngay khi chúng tôi bước vào.\n\nTuy nhiên, cũng có một số điểm cần được nâng cao. Một vấn đề mà chúng tôi gặp phải là sự chậm trễ đáng kể trong việc dọn đĩa và lên món tráng miệng, làm gián đoạn nhịp điệu của buổi tiệc sinh nhật. Thêm vào đó, tôi cảm thấy thất vọng với môi trường âm thanh, khi nhạc nền bật quá lớn gây cản trở việc trò chuyện thân mật trong suốt bữa tối.\n\nĐể nâng cao chất lượng dịch vụ, tôi có một vài đề xuất. Tôi gợi ý quý nhà hàng hoàn thiện quy trình phục vụ tại bàn để đảm bảo sự chuyển tiếp nhịp nhàng giữa các món ăn. Hơn nữa, sẽ tốt hơn nếu quý vị điều chỉnh mức âm thanh vừa phải trong các khu vực phòng tiệc riêng để mang lại một không gian ẩm thực sang trọng và ấm cúng.\n\nTôi hy vọng những phản hồi của tôi sẽ hữu ích cho việc nâng cao tiêu chuẩn phục vụ của nhà hàng. Xin vui lòng liên hệ nếu quý vị có thêm bất kỳ thắc mắc nào.\n\nTrân trọng,",
-            "text": "Dear Sir/Madam,\n\nI am writing to provide feedback on our recent celebratory birthday dinner hosted at Golden Spoon restaurant. I recently used your services and would like to share my experience.\n\nOverall, I found your restaurant quite satisfactory, although there are some aspects that could be improved. One aspect I appreciated was the exquisite culinary presentation and rich flavours of your grilled specialties, which delighted our guests. Furthermore, I was particularly impressed with the prompt and professional greeting offered by the front host upon our arrival.\n\nHowever, there were also several areas that required improvement. One issue that I encountered was the considerable delay in course clearance and dessert delivery, which disrupted the celebratory momentum. Additionally, I was disappointed with the acoustic environment, as high background music volume hindered conversational intimacy throughout the dinner.\n\nTo enhance the quality of your services, I have a few suggestions. I suggest that you refine table management protocols to ensure timely transitions between course servings. Furthermore, it would be better if you could modulate sound levels appropriately within private banquet areas to cultivate a sophisticated dining ambiance.\n\nI hope my feedback will be useful in improving your hospitality standards. Please feel free to contact me if you have any further questions.\n\nYours faithfully,",
+            "text": "Dear Sir/Madam,\n\nI am writing to provide feedback on our recent celebratory birthday dinner hosted at Golden Spoon restaurant. I recently used your services and would like to share my experience.\n\nOverall, I found your restaurant quite satisfactory, although there are some aspects that could be improved. One aspect I appreciated was the delicious food presentation and rich flavours of your grilled specialties, which delighted our guests. Furthermore, I was particularly impressed with the prompt and professional greeting offered by the front host upon our arrival.\n\nHowever, there were also several areas that required improvement. One issue that I encountered was the considerable delay in course clearance and dessert delivery, which disrupted the celebratory momentum. Additionally, I was disappointed with the acoustic environment, as high background music volume hindered conversational intimacy throughout the dinner.\n\nTo enhance the quality of your services, I have a few suggestions. I suggest that you refine table management protocols to ensure timely transitions between course servings. Furthermore, it would be better if you could modulate sound levels appropriately within private banquet areas to cultivate a sophisticated dining ambiance.\n\nI hope my feedback will be useful in improving your hospitality standards. Please feel free to contact me if you have any further questions.\n\nYours faithfully,",
             "translation": "Kính gửi Quản lý nhà hàng Golden Spoon,\n\nTôi viết thư này để cung cấp đánh giá phản hồi về bữa tiệc sinh nhật vừa qua của chúng tôi được tổ chức tại nhà hàng Golden Spoon. Gần đây tôi đã sử dụng dịch vụ của quý nhà hàng và muốn chia sẻ trải nghiệm của mình.\n\nNhìn chung, tôi nhận thấy nhà hàng của quý vị rất đáng khen ngợi, mặc dù vẫn còn một vài khía cạnh có thể được cải thiện. Một điểm tôi đánh giá cao là cách trình bày ẩm thực tinh tế và hương vị đậm đà của các món nướng đặc sắc, khiến toàn bộ khách mời đều hài lòng. Hơn nữa, tôi đặc biệt ấn tượng với sự tiếp đón niềm nở và chuyên nghiệp của nhân viên lễ tân ngay khi chúng tôi bước vào.\n\nTuy nhiên, cũng có một số điểm cần được nâng cao. Một vấn đề mà chúng tôi gặp phải là sự chậm trễ đáng kể trong việc dọn đĩa và lên món tráng miệng, làm gián đoạn nhịp điệu của buổi tiệc sinh nhật. Thêm vào đó, tôi cảm thấy thất vọng với môi trường âm thanh, khi nhạc nền bật quá lớn gây cản trở việc trò chuyện thân mật trong suốt bữa tối.\n\nĐể nâng cao chất lượng dịch vụ, tôi có một vài đề xuất. Tôi gợi ý quý nhà hàng hoàn thiện quy trình phục vụ tại bàn để đảm bảo sự chuyển tiếp nhịp nhàng giữa các món ăn. Hơn nữa, sẽ tốt hơn nếu quý vị điều chỉnh mức âm thanh vừa phải trong các khu vực phòng tiệc riêng để mang lại một không gian ẩm thực sang trọng và ấm cúng.\n\nTôi hy vọng những phản hồi của tôi sẽ hữu ích cho việc nâng cao tiêu chuẩn phục vụ của nhà hàng. Xin vui lòng liên hệ nếu quý vị có thêm bất kỳ thắc mắc nào.\n\nTrân trọng,",
             "word_count": 209,
             "key_structures": [
@@ -12308,7 +20063,7 @@ const LETTERS_DATA = [
           "suggested_ideas": [
             {
               "id": 1,
-              "title_en": "1. Exquisite food taste & festive party decor",
+              "title_en": "1. delicious food taste & festive party decor",
               "title_vi": "Chất lượng món ăn ngon & trang trí tiệc đẹp",
               "icon": "fa-cake-candles",
               "options": [
@@ -12325,7 +20080,7 @@ const LETTERS_DATA = [
                   "reason_vi": "tạo nên phông nền ấm cúng, chụp ảnh rất đẹp cho những bức hình kỷ niệm sinh nhật."
                 },
                 {
-                  "action_en": "the complimentary birthday cake prepared by your pastry chef was moist and delightful",
+                  "action_en": "the free birthday cake prepared by your pastry chef was moist and delightful",
                   "action_vi": "chiếc bánh sinh nhật tặng kèm do đầu bếp bánh làm rất mềm xốp và ngọt ngào vừa miệng",
                   "reason_en": "because the cake was delicious and made the birthday moment very special.",
                   "reason_vi": "khiến khoảnh khắc thổi nến thực sự đáng nhớ và ngập tràn niềm vui cho bạn bè tôi."
@@ -12488,7 +20243,7 @@ const LETTERS_DATA = [
       {
         "id": "de-22",
         "title_en": "Feedback to hotel manager about stay experience",
-        "title_vi": "Đề 22: Đóng góp ý kiến phản hồi gửi quản lý khách sạn về trải nghiệm lưu trú",
+        "title_vi": "Đề 03: Đóng góp ý kiến phản hồi gửi quản lý khách sạn về trải nghiệm lưu trú",
         "recipient_type": "Formal (Quản lý khách sạn)",
         "target_words": 120,
         "tags": [
@@ -12577,7 +20332,7 @@ const LETTERS_DATA = [
                   "reason_vi": "mang lại khởi đầu tuyệt vời cho mỗi ngày du lịch."
                 },
                 {
-                  "action_en": "the room was spacious and clean with a scenic balcony view",
+                  "action_en": "the room was spacious and clean with a beautiful balcony view",
                   "action_vi": "căn phòng rộng rãi, sạch sẽ với ban công nhìn ra cảnh quan thoáng đãng",
                   "reason_en": "because the comfortable beds helped us sleep very well.",
                   "reason_vi": "mang lại giấc ngủ êm ái trên đệm giường cao cấp."
@@ -12938,9 +20693,9 @@ const LETTERS_DATA = [
             ]
           },
           "sample_b2": {
-            "letter_en": "Dear Sir/Madam,\n\nI am writing to provide feedback on my recent stay at your accommodation. I recently used your services and would like to share my experience.\n\nOverall, I found your hotel quite satisfactory, although there are some aspects that could be improved. One aspect I appreciated was the spaciousness and cleanliness of the room, which provided a remarkably relaxing atmosphere. Furthermore, I was particularly impressed with the front desk staff because they were exceedingly welcoming and consistently attentive to my needs throughout my visit.\n\nHowever, there were also several areas that required improvement. One issue that I encountered was the limited variety offered at the breakfast buffet, as it lacked sufficient healthy options. Additionally, I was disappointed with the complimentary Wi-Fi connection, as its unstable speed significantly hindered my ability to conduct urgent remote work.\n\nTo enhance the quality of your services, I have a few suggestions. I suggest that you diversify the breakfast menu by incorporating more nutritious choices. Furthermore, it would be better if you could upgrade your internet infrastructure to guarantee seamless connectivity for business travelers.\n\nI hope my feedback will be useful in improving your hotel. Please feel free to contact me if you have any further questions.\n\nYours faithfully,",
+            "letter_en": "Dear Sir/Madam,\n\nI am writing to provide feedback on my recent stay at your accommodation. I recently used your services and would like to share my experience.\n\nOverall, I found your hotel quite satisfactory, although there are some aspects that could be improved. One aspect I appreciated was the spaciousness and cleanliness of the room, which provided a remarkably relaxing atmosphere. Furthermore, I was particularly impressed with the front desk staff because they were exceedingly welcoming and consistently attentive to my needs throughout my visit.\n\nHowever, there were also several areas that required improvement. One issue that I encountered was the limited variety offered at the breakfast buffet, as it lacked sufficient healthy options. Additionally, I was disappointed with the free Wi-Fi connection, as its unstable speed significantly hindered my ability to conduct urgent remote work.\n\nTo enhance the quality of your services, I have a few suggestions. I suggest that you diversify the breakfast menu by incorporating more nutritious choices. Furthermore, it would be better if you could upgrade your internet infrastructure to guarantee seamless connectivity for business travelers.\n\nI hope my feedback will be useful in improving your hotel. Please feel free to contact me if you have any further questions.\n\nYours faithfully,",
             "letter_vi": "Kính gửi Ông/Bà,\n\nTôi viết thư này để cung cấp phản hồi về kỳ nghỉ gần đây của tôi tại chỗ ở của ông/bà. Gần đây tôi đã sử dụng dịch vụ của ông/bà và muốn chia sẻ trải nghiệm của mình.\n\nNhìn chung, tôi thấy khách sạn của ông/bà khá đáng hài lòng, mặc dù có một số khía cạnh có thể được cải thiện. Một điểm tôi đánh giá cao là sự rộng rãi và sạch sẽ của căn phòng, mang lại một bầu không khí thư giãn đáng chú ý. Hơn nữa, tôi đặc biệt ấn tượng với đội ngũ nhân viên lễ tân vì họ vô cùng niềm nở và luôn chú ý đến nhu cầu của tôi trong suốt chuyến thăm.\n\nTuy nhiên, cũng có một vài lĩnh vực cần được cải thiện. Một vấn đề mà tôi gặp phải là sự đa dạng hạn chế được cung cấp tại tiệc buffet bữa sáng, vì nó thiếu các lựa chọn lành mạnh đầy đủ. Ngoài ra, tôi rất thất vọng với kết nối Wi-Fi miễn phí, vì tốc độ không ổn định của nó đã cản trở đáng kể khả năng xử lý công việc từ xa khẩn cấp của tôi.\n\nĐể nâng cao chất lượng dịch vụ của ông/bà, tôi có một vài gợi ý. Tôi đề nghị ông/bà đa dạng hóa thực đơn bữa sáng bằng cách kết hợp nhiều lựa chọn bổ dưỡng hơn. Hơn nữa, sẽ tốt hơn nếu ông/bà có thể nâng cấp cơ sở hạ tầng internet để đảm bảo kết nối liền mạch cho những du khách đi công tác.\n\nTôi hy vọng phản hồi của tôi sẽ hữu ích trong việc cải thiện khách sạn của ông/bà. Vui lòng liên hệ với tôi nếu ông/bà có bất kỳ câu hỏi nào thêm.\n\nTrân trọng,",
-            "text": "Dear Sir/Madam,\n\nI am writing to provide feedback on my recent stay at your accommodation. I recently used your services and would like to share my experience.\n\nOverall, I found your hotel quite satisfactory, although there are some aspects that could be improved. One aspect I appreciated was the spaciousness and cleanliness of the room, which provided a remarkably relaxing atmosphere. Furthermore, I was particularly impressed with the front desk staff because they were exceedingly welcoming and consistently attentive to my needs throughout my visit.\n\nHowever, there were also several areas that required improvement. One issue that I encountered was the limited variety offered at the breakfast buffet, as it lacked sufficient healthy options. Additionally, I was disappointed with the complimentary Wi-Fi connection, as its unstable speed significantly hindered my ability to conduct urgent remote work.\n\nTo enhance the quality of your services, I have a few suggestions. I suggest that you diversify the breakfast menu by incorporating more nutritious choices. Furthermore, it would be better if you could upgrade your internet infrastructure to guarantee seamless connectivity for business travelers.\n\nI hope my feedback will be useful in improving your hotel. Please feel free to contact me if you have any further questions.\n\nYours faithfully,",
+            "text": "Dear Sir/Madam,\n\nI am writing to provide feedback on my recent stay at your accommodation. I recently used your services and would like to share my experience.\n\nOverall, I found your hotel quite satisfactory, although there are some aspects that could be improved. One aspect I appreciated was the spaciousness and cleanliness of the room, which provided a remarkably relaxing atmosphere. Furthermore, I was particularly impressed with the front desk staff because they were exceedingly welcoming and consistently attentive to my needs throughout my visit.\n\nHowever, there were also several areas that required improvement. One issue that I encountered was the limited variety offered at the breakfast buffet, as it lacked sufficient healthy options. Additionally, I was disappointed with the free Wi-Fi connection, as its unstable speed significantly hindered my ability to conduct urgent remote work.\n\nTo enhance the quality of your services, I have a few suggestions. I suggest that you diversify the breakfast menu by incorporating more nutritious choices. Furthermore, it would be better if you could upgrade your internet infrastructure to guarantee seamless connectivity for business travelers.\n\nI hope my feedback will be useful in improving your hotel. Please feel free to contact me if you have any further questions.\n\nYours faithfully,",
             "translation": "Kính gửi Ông/Bà,\n\nTôi viết thư này để cung cấp phản hồi về kỳ nghỉ gần đây của tôi tại chỗ ở của ông/bà. Gần đây tôi đã sử dụng dịch vụ của ông/bà và muốn chia sẻ trải nghiệm của mình.\n\nNhìn chung, tôi thấy khách sạn của ông/bà khá đáng hài lòng, mặc dù có một số khía cạnh có thể được cải thiện. Một điểm tôi đánh giá cao là sự rộng rãi và sạch sẽ của căn phòng, mang lại một bầu không khí thư giãn đáng chú ý. Hơn nữa, tôi đặc biệt ấn tượng với đội ngũ nhân viên lễ tân vì họ vô cùng niềm nở và luôn chú ý đến nhu cầu của tôi trong suốt chuyến thăm.\n\nTuy nhiên, cũng có một vài lĩnh vực cần được cải thiện. Một vấn đề mà tôi gặp phải là sự đa dạng hạn chế được cung cấp tại tiệc buffet bữa sáng, vì nó thiếu các lựa chọn lành mạnh đầy đủ. Ngoài ra, tôi rất thất vọng với kết nối Wi-Fi miễn phí, vì tốc độ không ổn định của nó đã cản trở đáng kể khả năng xử lý công việc từ xa khẩn cấp của tôi.\n\nĐể nâng cao chất lượng dịch vụ của ông/bà, tôi có một vài gợi ý. Tôi đề nghị ông/bà đa dạng hóa thực đơn bữa sáng bằng cách kết hợp nhiều lựa chọn bổ dưỡng hơn. Hơn nữa, sẽ tốt hơn nếu ông/bà có thể nâng cấp cơ sở hạ tầng internet để đảm bảo kết nối liền mạch cho những du khách đi công tác.\n\nTôi hy vọng phản hồi của tôi sẽ hữu ích trong việc cải thiện khách sạn của ông/bà. Vui lòng liên hệ với tôi nếu ông/bà có bất kỳ câu hỏi nào thêm.\n\nTrân trọng,",
             "word_count": 205,
             "key_structures": [
@@ -12967,7 +20722,7 @@ const LETTERS_DATA = [
       {
         "id": "de-23",
         "title_en": "Feedback to restaurant manager on dinner experience at new restaurant",
-        "title_vi": "Đề 23: Phản hồi gửi quản lý nhà hàng mới về trải nghiệm bữa tối",
+        "title_vi": "Đề 04: Phản hồi gửi quản lý nhà hàng mới về trải nghiệm bữa tối",
         "recipient_type": "Formal (Quản lý nhà hàng mới)",
         "target_words": 120,
         "tags": [
@@ -13006,7 +20761,7 @@ const LETTERS_DATA = [
                   "reason_vi": "điều này đã tạo nên một bữa tối đáng nhớ bên gia đình tôi."
                 },
                 {
-                  "action_en": "I was generally pleased with the culinary quality, though service speed needs refinement",
+                  "action_en": "I was generally pleased with the food quality, though service speed needs refinement",
                   "action_vi": "tôi nhìn chung hài lòng với chất lượng món ăn, dù tốc độ phục vụ cần hoàn thiện thêm",
                   "reason_en": "because I want to give you some helpful advice to attract more customers.",
                   "reason_vi": "đưa ra ý kiến xây dựng giúp nhà hàng mới ngày càng phát triển."
@@ -13032,7 +20787,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "I would certainly recommend your restaurant to friends and colleagues",
                   "action_vi": "tôi chắc chắn sẽ giới thiệu nhà hàng của quý vị cho bạn bè và đồng nghiệp",
-                  "reason_en": "because of the authentic tastes and fresh ingredients.",
+                  "reason_en": "because of the traditional tastes and fresh ingredients.",
                   "reason_vi": "bởi hương vị chuẩn ngon và nguyên liệu tươi mới."
                 }
               ]
@@ -13094,9 +20849,9 @@ const LETTERS_DATA = [
                   "reason_vi": "nhằm rút ngắn đáng kể thời gian chế biến và chờ đợi món ăn."
                 },
                 {
-                  "action_en": "offer complimentary bread, crackers, or small appetizers while guests wait",
+                  "action_en": "offer free bread, crackers, or small appetizers while guests wait",
                   "action_vi": "phục vụ bánh mì, bánh quy hoặc món khai vị nhỏ miễn phí trong lúc khách chờ",
-                  "reason_en": "because complimentary bread keeps guests happy while waiting for food.",
+                  "reason_en": "because free bread keeps guests happy while waiting for food.",
                   "reason_vi": "giúp thực khách vui vẻ, hài lòng trong thời gian chờ đợi."
                 },
                 {
@@ -13158,7 +20913,7 @@ const LETTERS_DATA = [
               "category": "3. Đề xuất (Suggestions)"
             },
             {
-              "en": "offer complimentary bread and appetizers",
+              "en": "offer free bread and appetizers",
               "vi": "tặng bánh mì và món khai vị miễn phí",
               "category": "3. Đề xuất (Suggestions)"
             },
@@ -13227,7 +20982,7 @@ const LETTERS_DATA = [
               ],
               "grammar_notes": [],
               "alternatives": [
-                "Firstly, I would like to say that I was largely satisfied with the culinary presentation and the delightful dining environment."
+                "Firstly, I would like to say that I was largely satisfied with the food presentation and the delightful dining environment."
               ],
               "criteria_tip": "Hoàn thành trọn vẹn bullet 1 của đề bài."
             },
@@ -13305,10 +21060,10 @@ const LETTERS_DATA = [
               "id": 5,
               "part": "5. Thân thư - Ý 4: Đề xuất phục vụ bánh mì/đồ ăn nhẹ miễn phí",
               "vi": "Ngoài ra, việc phục vụ bánh mì hoặc đồ ăn nhẹ miễn phí trong khi khách đợi món sẽ giúp trải nghiệm ăn uống của thực khách thêm phần dễ chịu.",
-              "en": "In addition, offering complimentary bread or small snacks while guests wait would make the dining experience much more pleasant.",
+              "en": "In addition, offering free bread or small snacks while guests wait would make the dining experience much more pleasant.",
               "vocab_hints": [
                 {
-                  "en": "offering complimentary bread",
+                  "en": "offering free bread",
                   "vi": "phục vụ bánh mì miễn phí"
                 },
                 {
@@ -13328,7 +21083,7 @@ const LETTERS_DATA = [
               ],
               "grammar_notes": [],
               "alternatives": [
-                "Furthermore, serving complimentary breadsticks and dips would keep diners happy when the kitchen is busy."
+                "Furthermore, serving free breadsticks and dips would keep diners happy when the kitchen is busy."
               ],
               "criteria_tip": "Đề xuất mang tính chuyên môn cao trong ngành F&B."
             },
@@ -13369,10 +21124,10 @@ const LETTERS_DATA = [
               "id": 1,
               "part": "Diễn đạt nâng cao B2 - Đánh giá tinh tế ẩm thực & Tối ưu hóa vận hành",
               "vi": "Mặc dù tài nghệ nấu nướng xuất sắc và hương vị tinh tế của các món ăn rất đáng khen ngợi, việc tối ưu hóa quy trình phối hợp giữa nhà bếp và đội ngũ phục vụ trong những khung giờ cao điểm chắc chắn sẽ nâng tầm trải nghiệm của thực khách lên chuẩn mực cao cấp hoàn hảo.",
-              "en": "While the culinary finesse and exquisite flavors of your dishes are undeniably commendable, streamlining the operational coordination between the kitchen and front-of-house staff during peak rushes would undoubtedly elevate the dining experience to an impeccable standard.",
+              "en": "While the food finesse and delicious flavors of your dishes are undeniably commendable, streamlining the operational coordination between the kitchen and front-of-house staff during peak rushes would undoubtedly elevate the dining experience to an excellent standard.",
               "vocab_hints": [
                 {
-                  "en": "culinary finesse and exquisite flavors",
+                  "en": "food finesse and delicious flavors",
                   "vi": "tài nghệ nấu nướng và hương vị tinh tế"
                 },
                 {
@@ -13392,7 +21147,7 @@ const LETTERS_DATA = [
               ],
               "grammar_notes": [],
               "alternatives": [],
-              "criteria_tip": "Từ vựng 'culinary finesse' và 'impeccable standard' đạt chuẩn C1/B2."
+              "criteria_tip": "Từ vựng 'food finesse' và 'excellent standard' đạt chuẩn C1/B2."
             }
           ],
           "sample_b1": {
@@ -13421,9 +21176,9 @@ const LETTERS_DATA = [
             ]
           },
           "sample_b2": {
-            "letter_en": "Dear Sir/Madam,\n\nI am writing to provide feedback on my recent dining experience at your newly opened establishment. I recently used your services and would like to share my experience.\n\nOverall, I found your restaurant quite satisfactory, although there are some aspects that could be improved. One aspect I appreciated was the exquisite quality and freshness of the pan-seared seafood, which showcased your culinary talent. Furthermore, I was particularly impressed with the welcoming demeanor and attentiveness of the front-of-house greeting staff.\n\nHowever, there were also several areas that required improvement. One issue that I encountered was the prolonged wait time between appetizers and main entrees, which exceeded forty-five minutes during peak dinner hours. Additionally, I was disappointed with the limited dessert repertoire, which lacked dairy-free or fruit-based selections.\n\nTo enhance the quality of your services, I have a few suggestions. I suggest that you optimize kitchen prep lines to accelerate plating times during rush hours. Furthermore, it would be better if you could broaden your dessert menu to accommodate diverse dietary preferences.\n\nI hope my feedback will be useful in improving your restaurant. Please feel free to contact me if you have any further questions.\n\nYours faithfully,",
+            "letter_en": "Dear Sir/Madam,\n\nI am writing to provide feedback on my recent dining experience at your newly opened establishment. I recently used your services and would like to share my experience.\n\nOverall, I found your restaurant quite satisfactory, although there are some aspects that could be improved. One aspect I appreciated was the delicious quality and freshness of the pan-seared seafood, which showcased your food talent. Furthermore, I was particularly impressed with the welcoming demeanor and attentiveness of the front-of-house greeting staff.\n\nHowever, there were also several areas that required improvement. One issue that I encountered was the prolonged wait time between appetizers and main entrees, which exceeded forty-five minutes during peak dinner hours. Additionally, I was disappointed with the limited dessert repertoire, which lacked dairy-free or fruit-based selections.\n\nTo enhance the quality of your services, I have a few suggestions. I suggest that you optimize kitchen prep lines to accelerate plating times during rush hours. Furthermore, it would be better if you could broaden your dessert menu to accommodate diverse dietary preferences.\n\nI hope my feedback will be useful in improving your restaurant. Please feel free to contact me if you have any further questions.\n\nYours faithfully,",
             "letter_vi": "Kính gửi Quản lý nhà hàng,\n\nTôi viết thư này để cung cấp đánh giá phản hồi về trải nghiệm ẩm thực gần đây của tôi tại nhà hàng mới khai trương của quý vị. Gần đây tôi đã dùng bữa tại nhà hàng và muốn chia sẻ những nhận xét khách quan của mình.\n\nNhìn chung, tôi nhận thấy nhà hàng của quý vị rất đáng khen ngợi, mặc dù vẫn còn một vài khía cạnh có thể cải thiện tốt hơn. Một điểm tôi rất trân trọng là chất lượng tuyệt hảo và độ tươi mới của các món hải sản áp chảo, thể hiện rõ tài năng của bếp trưởng. Hơn nữa, tôi đặc biệt ấn tượng với phong thái chào đón niềm nở và sự chu đáo của nhân viên lễ tân.\n\nTuy nhiên, cũng có một số điểm cần được nâng cao. Một vấn đề mà chúng tôi gặp phải là thời gian chờ đợi kéo dài giữa món khai vị và món chính, lên tới hơn bốn mươi lăm phút trong khung giờ cao điểm buổi tối. Thêm vào đó, tôi cảm thấy thất vọng với danh mục món tráng miệng còn đơn điệu, thiếu các lựa chọn không chứa sữa hoặc các món từ trái cây tươi.\n\nĐể nâng cao chất lượng dịch vụ, tôi có một vài góp ý. Tôi đề xuất quý nhà hàng tối ưu hóa dây chuyền chuẩn bị bếp để đẩy nhanh tốc độ ra món trong giờ cao điểm. Hơn nữa, sẽ tốt hơn nếu quý vị mở rộng thực đơn tráng miệng để đáp ứng nhiều sở thích ăn uống khác nhau của thực khách.\n\nTôi hy vọng những phản hồi của tôi sẽ hữu ích cho sự phát triển của nhà hàng. Xin vui lòng liên hệ nếu quý vị cần thêm thông tin.\n\nTrân trọng,",
-            "text": "Dear Sir/Madam,\n\nI am writing to provide feedback on my recent dining experience at your newly opened establishment. I recently used your services and would like to share my experience.\n\nOverall, I found your restaurant quite satisfactory, although there are some aspects that could be improved. One aspect I appreciated was the exquisite quality and freshness of the pan-seared seafood, which showcased your culinary talent. Furthermore, I was particularly impressed with the welcoming demeanor and attentiveness of the front-of-house greeting staff.\n\nHowever, there were also several areas that required improvement. One issue that I encountered was the prolonged wait time between appetizers and main entrees, which exceeded forty-five minutes during peak dinner hours. Additionally, I was disappointed with the limited dessert repertoire, which lacked dairy-free or fruit-based selections.\n\nTo enhance the quality of your services, I have a few suggestions. I suggest that you optimize kitchen prep lines to accelerate plating times during rush hours. Furthermore, it would be better if you could broaden your dessert menu to accommodate diverse dietary preferences.\n\nI hope my feedback will be useful in improving your restaurant. Please feel free to contact me if you have any further questions.\n\nYours faithfully,",
+            "text": "Dear Sir/Madam,\n\nI am writing to provide feedback on my recent dining experience at your newly opened establishment. I recently used your services and would like to share my experience.\n\nOverall, I found your restaurant quite satisfactory, although there are some aspects that could be improved. One aspect I appreciated was the delicious quality and freshness of the pan-seared seafood, which showcased your food talent. Furthermore, I was particularly impressed with the welcoming demeanor and attentiveness of the front-of-house greeting staff.\n\nHowever, there were also several areas that required improvement. One issue that I encountered was the prolonged wait time between appetizers and main entrees, which exceeded forty-five minutes during peak dinner hours. Additionally, I was disappointed with the limited dessert repertoire, which lacked dairy-free or fruit-based selections.\n\nTo enhance the quality of your services, I have a few suggestions. I suggest that you optimize kitchen prep lines to accelerate plating times during rush hours. Furthermore, it would be better if you could broaden your dessert menu to accommodate diverse dietary preferences.\n\nI hope my feedback will be useful in improving your restaurant. Please feel free to contact me if you have any further questions.\n\nYours faithfully,",
             "translation": "Kính gửi Quản lý nhà hàng,\n\nTôi viết thư này để cung cấp đánh giá phản hồi về trải nghiệm ẩm thực gần đây của tôi tại nhà hàng mới khai trương của quý vị. Gần đây tôi đã dùng bữa tại nhà hàng và muốn chia sẻ những nhận xét khách quan của mình.\n\nNhìn chung, tôi nhận thấy nhà hàng của quý vị rất đáng khen ngợi, mặc dù vẫn còn một vài khía cạnh có thể cải thiện tốt hơn. Một điểm tôi rất trân trọng là chất lượng tuyệt hảo và độ tươi mới của các món hải sản áp chảo, thể hiện rõ tài năng của bếp trưởng. Hơn nữa, tôi đặc biệt ấn tượng với phong thái chào đón niềm nở và sự chu đáo của nhân viên lễ tân.\n\nTuy nhiên, cũng có một số điểm cần được nâng cao. Một vấn đề mà chúng tôi gặp phải là thời gian chờ đợi kéo dài giữa món khai vị và món chính, lên tới hơn bốn mươi lăm phút trong khung giờ cao điểm buổi tối. Thêm vào đó, tôi cảm thấy thất vọng với danh mục món tráng miệng còn đơn điệu, thiếu các lựa chọn không chứa sữa hoặc các món từ trái cây tươi.\n\nĐể nâng cao chất lượng dịch vụ, tôi có một vài góp ý. Tôi đề xuất quý nhà hàng tối ưu hóa dây chuyền chuẩn bị bếp để đẩy nhanh tốc độ ra món trong giờ cao điểm. Hơn nữa, sẽ tốt hơn nếu quý vị mở rộng thực đơn tráng miệng để đáp ứng nhiều sở thích ăn uống khác nhau của thực khách.\n\nTôi hy vọng những phản hồi của tôi sẽ hữu ích cho sự phát triển của nhà hàng. Xin vui lòng liên hệ nếu quý vị cần thêm thông tin.\n\nTrân trọng,",
             "word_count": 197,
             "key_structures": [
@@ -13444,6 +21199,423 @@ const LETTERS_DATA = [
                 "vi": "Để nâng cao chất lượng dịch vụ, tôi đề xuất quý vị..."
               }
             ]
+          }
+        }
+      },
+      {
+        "id": "de-48",
+        "title_en": "Feedback to Riverside Hotel manager on a three-night stay",
+        "title_vi": "Đề 05: Đánh giá kỳ nghỉ 3 đêm gửi Quản lý Khách sạn Riverside",
+        "recipient_type": "Formal (Quản lý khách sạn - Hotel Manager)",
+        "target_words": 120,
+        "tags": [
+          "Đánh giá",
+          "Khách sạn",
+          "Riverside Hotel",
+          "Dịch vụ",
+          "Chuẩn B1"
+        ],
+        "context": "You recently stayed at the Riverside Hotel for three nights. The hotel manager has emailed you asking for feedback on your stay. Write an email to the manager.",
+        "prompt": "You recently stayed at the Riverside Hotel for three nights. The hotel manager has emailed you asking for feedback on your stay. Write an email to the manager.\n\nIn your email you should say:\n1. which service at the hotel you liked most\n2. what you were not satisfied with during your stay\n3. whether you would recommend the hotel to other people\n\nWrite at least 120 words. You do not need to include your name or addresses. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt_vi": "Gần đây bạn đã ở Khách sạn Riverside 3 đêm. Người quản lý khách sạn vừa gửi email xin ý kiến phản hồi về kỳ nghỉ. Hãy viết email gửi cho quản lý khách sạn.\n\nTrong email, bạn nên nêu rõ:\n1. Dịch vụ nào tại khách sạn làm bạn hài lòng nhất (which service at the hotel you liked most)\n2. Điều gì làm bạn chưa hài lòng trong thời gian ở đó (what you were not satisfied with during your stay)\n3. Bạn có sẵn sàng giới thiệu khách sạn cho người khác không (whether you would recommend the hotel to other people)",
+        "has_full_details": true,
+        "details": {
+          "analysis": {
+            "recipient": "Hotel Manager (Quản lý Khách sạn Riverside)",
+            "letter_type": "Formal (Thư trang trọng)",
+            "purpose": "Gửi phản hồi về kỳ nghỉ 3 đêm: khen dịch vụ buffet sáng và lễ tân, nêu vấn đề Wi-Fi yếu, và khẳng định vẫn sẵn lòng giới thiệu cho bạn bè",
+            "key_requirements": [
+              "1. Which service at the hotel you liked most",
+              "2. What you were not satisfied with during your stay",
+              "3. Whether you would recommend the hotel to other people"
+            ]
+          },
+          "task_extractions": [
+            {
+              "id": 1,
+              "icon": "fa-thumbs-up",
+              "prompt_requirement": "which service at the hotel you liked most",
+              "task_title": "1. Dịch vụ hài lòng nhất (Service liked most)",
+              "task_goal": "Khen bữa sáng buffet miễn phí ngon miệng và nhân viên lễ tân thân thiện, nhiệt tình hỗ trợ."
+            },
+            {
+              "id": 2,
+              "icon": "fa-triangle-exclamation",
+              "prompt_requirement": "what you were not satisfied with during your stay",
+              "task_title": "2. Điểm chưa hài lòng (Not satisfied with)",
+              "task_goal": "Phản ánh Wi-Fi trong phòng chập chờn và máy điều hòa kêu hơi ồn vào ban đêm."
+            },
+            {
+              "id": 3,
+              "icon": "fa-share-nodes",
+              "prompt_requirement": "whether you would recommend the hotel to other people",
+              "task_title": "3. Giới thiệu cho người khác (Recommendation)",
+              "task_goal": "Khẳng định vẫn sẽ giới thiệu khách sạn cho bạn bè vì vị trí đẹp ven sông và giá cả hợp lý."
+            }
+          ],
+          "suggested_ideas": [
+            {
+              "id": 1,
+              "title_en": "1. Service liked most",
+              "title_vi": "Dịch vụ hài lòng nhất",
+              "icon": "fa-thumbs-up",
+              "options": [
+                {
+                  "action_en": "the service I liked most was the free breakfast and the friendly staff at the front desk",
+                  "action_vi": "dịch vụ tôi thích nhất là bữa sáng miễn phí và nhân viên thân thiện ở quầy lễ tân",
+                  "reason_en": "because the food was fresh and the staff always helped me with a smile.",
+                  "reason_vi": "vì đồ ăn tươi ngon và nhân viên luôn nở nụ cười giúp đỡ tôi.",
+                  "b1_sentence": "First, the service I liked most was the free breakfast and the friendly staff at the front desk because the food was fresh and the staff always helped me with a smile.",
+                  "b1_sentence_vi": "Đầu tiên, dịch vụ tôi thích nhất là bữa sáng miễn phí và nhân viên thân thiện ở quầy lễ tân vì đồ ăn tươi ngon và nhân viên luôn nở nụ cười giúp đỡ tôi."
+                },
+                {
+                  "action_en": "I really enjoyed the daily cleaning service and the swimming pool on the roof",
+                  "action_vi": "tôi thực sự rất thích dịch vụ dọn phòng hàng ngày và hồ bơi trên tầng thượng",
+                  "reason_en": "because my room was always clean and the pool was very quiet.",
+                  "reason_vi": "vì phòng của tôi luôn sạch sẽ và hồ bơi rất yên tĩnh.",
+                  "b1_sentence": "First, I really enjoyed the daily cleaning service and the swimming pool on the roof because my room was always clean and the pool was very quiet.",
+                  "b1_sentence_vi": "Đầu tiên, tôi thực sự rất thích dịch vụ dọn phòng hàng ngày và hồ bơi trên tầng thượng vì phòng của tôi luôn sạch sẽ và hồ bơi rất yên tĩnh."
+                },
+                {
+                  "action_en": "the best service was the airport pickup bus and quick check-in",
+                  "action_vi": "dịch vụ tốt nhất là xe buýt đón sân bay và thủ tục nhận phòng nhanh chóng",
+                  "reason_en": "because the driver arrived on time and I did not have to wait at the lobby.",
+                  "reason_vi": "vì tài xế đến đúng giờ và tôi không phải chờ đợi ở sảnh.",
+                  "b1_sentence": "First, the best service was the airport pickup bus and quick check-in because the driver arrived on time and I did not have to wait at the lobby.",
+                  "b1_sentence_vi": "Đầu tiên, dịch vụ tốt nhất là xe buýt đón sân bay và thủ tục nhận phòng nhanh chóng vì tài xế đến đúng giờ và tôi không phải chờ đợi ở sảnh."
+                },
+                {
+                  "action_en": "I was very happy with the restaurant service and the nice river view from my balcony",
+                  "action_vi": "tôi rất hài lòng với dịch vụ nhà hàng và tầm nhìn ra bờ sông tuyệt đẹp từ ban công",
+                  "reason_en": "because it gave me a relaxing atmosphere every morning.",
+                  "reason_vi": "vì nó mang lại cho tôi không gian thư giãn vào mỗi buổi sáng.",
+                  "b1_sentence": "First, I was very happy with the restaurant service and the nice river view from my balcony because it gave me a relaxing atmosphere every morning.",
+                  "b1_sentence_vi": "Đầu tiên, tôi rất hài lòng với dịch vụ nhà hàng và tầm nhìn ra bờ sông tuyệt đẹp từ ban công vì nó mang lại cho tôi không gian thư giãn vào mỗi buổi sáng."
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "title_en": "2. What you were not satisfied with",
+              "title_vi": "Điểm chưa hài lòng trong kỳ nghỉ",
+              "icon": "fa-triangle-exclamation",
+              "options": [
+                {
+                  "action_en": "however, I was not satisfied with the weak Wi-Fi connection in my room and the noisy air conditioner",
+                  "action_vi": "tuy nhiên, tôi chưa hài lòng với kết nối Wi-Fi yếu trong phòng và chiếc máy điều hòa phát tiếng ồn",
+                  "reason_en": "because the internet kept disconnecting when I tried to work.",
+                  "reason_vi": "vì mạng cứ bị ngắt kết nối khi tôi cố gắng làm việc.",
+                  "b1_sentence": "Second, however, I was not satisfied with the weak Wi-Fi connection in my room and the noisy air conditioner because the internet kept disconnecting when I tried to work.",
+                  "b1_sentence_vi": "Thứ hai, tuy nhiên, tôi chưa hài lòng với kết nối Wi-Fi yếu trong phòng và chiếc máy điều hòa phát tiếng ồn vì mạng cứ bị ngắt kết nối khi tôi cố gắng làm việc."
+                },
+                {
+                  "action_en": "I had an issue because room service was quite slow in the evening",
+                  "action_vi": "tôi gặp một vấn đề vì dịch vụ phòng khá chậm vào buổi tối",
+                  "reason_en": "because I had to wait nearly one hour for my dinner.",
+                  "reason_vi": "vì tôi đã phải đợi gần một tiếng cho bữa tối của mình.",
+                  "b1_sentence": "Second, I had an issue because room service was quite slow in the evening because I had to wait nearly one hour for my dinner.",
+                  "b1_sentence_vi": "Thứ hai, tôi gặp một vấn đề vì dịch vụ phòng khá chậm vào buổi tối vì tôi đã phải đợi gần một tiếng cho bữa tối của mình."
+                },
+                {
+                  "action_en": "I was a bit disappointed because the hot water in the bathroom did not work well on the second night",
+                  "action_vi": "tôi hơi thất vọng vì nước nóng trong phòng tắm không hoạt động tốt vào đêm thứ hai",
+                  "reason_en": "because the water became cold after just five minutes.",
+                  "reason_vi": "vì nước bị nguội chỉ sau năm phút.",
+                  "b1_sentence": "Second, I was a bit disappointed because the hot water in the bathroom did not work well on the second night because the water became cold after just five minutes.",
+                  "b1_sentence_vi": "Thứ hai, tôi hơi thất vọng vì nước nóng trong phòng tắm không hoạt động tốt vào đêm thứ hai vì nước bị nguội chỉ sau năm phút."
+                },
+                {
+                  "action_en": "the elevator was very slow during breakfast hours",
+                  "action_vi": "thang máy chạy rất chậm vào khung giờ ăn sáng",
+                  "reason_en": "because many guests had to wait a long time in the hall.",
+                  "reason_vi": "vì nhiều khách phải đứng đợi rất lâu ở hành lang.",
+                  "b1_sentence": "Second, the elevator was very slow during breakfast hours because many guests had to wait a long time in the hall.",
+                  "b1_sentence_vi": "Thứ hai, thang máy chạy rất chậm vào khung giờ ăn sáng vì nhiều khách phải đứng đợi rất lâu ở hành lang."
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "title_en": "3. Whether you would recommend the hotel",
+              "title_vi": "Có giới thiệu khách sạn cho người khác không",
+              "icon": "fa-share-nodes",
+              "options": [
+                {
+                  "action_en": "I would still recommend the Riverside Hotel to my friends and colleagues",
+                  "action_vi": "tôi vẫn sẵn lòng giới thiệu Khách sạn Riverside cho bạn bè và đồng nghiệp",
+                  "reason_en": "because your hotel has a convenient location near the river and reasonable prices.",
+                  "reason_vi": "vì khách sạn của quý vị có vị trí thuận tiện gần bờ sông và giá cả hợp lý.",
+                  "b1_sentence": "Finally, I would still recommend the Riverside Hotel to my friends and colleagues because your hotel has a convenient location near the river and reasonable prices.",
+                  "b1_sentence_vi": "Cuối cùng, tôi vẫn sẵn lòng giới thiệu Khách sạn Riverside cho bạn bè và đồng nghiệp vì khách sạn của quý vị có vị trí thuận tiện gần bờ sông và giá cả hợp lý."
+                },
+                {
+                  "action_en": "I will definitely recommend your hotel to other visitors once the Wi-Fi is upgraded",
+                  "action_vi": "tôi chắc chắn sẽ giới thiệu khách sạn của quý vị cho du khách khác khi Wi-Fi được nâng cấp",
+                  "reason_en": "because the overall stay was comfortable and peaceful.",
+                  "reason_vi": "vì kỳ nghỉ nhìn chung rất thoải mái và yên tĩnh.",
+                  "b1_sentence": "Finally, I will definitely recommend your hotel to other visitors once the Wi-Fi is upgraded because the overall stay was comfortable and peaceful.",
+                  "b1_sentence_vi": "Cuối cùng, tôi chắc chắn sẽ giới thiệu khách sạn của quý vị cho du khách khác khi Wi-Fi được nâng cấp vì kỳ nghỉ nhìn chung rất thoải mái và yên tĩnh."
+                },
+                {
+                  "action_en": "I would be happy to suggest your hotel to my family members for their holidays",
+                  "action_vi": "tôi rất vui được gợi ý khách sạn của quý vị cho các thành viên trong gia đình vào kỳ nghỉ",
+                  "reason_en": "because the polite staff made me feel welcome throughout my three-night stay.",
+                  "reason_vi": "vì đội ngũ nhân viên lịch sự đã khiến tôi cảm thấy được chào đón trong suốt ba đêm nghỉ.",
+                  "b1_sentence": "Finally, I would be happy to suggest your hotel to my family members for their holidays because the polite staff made me feel welcome throughout my three-night stay.",
+                  "b1_sentence_vi": "Cuối cùng, tôi rất vui được gợi ý khách sạn của quý vị cho các thành viên trong gia đình vào kỳ nghỉ vì đội ngũ nhân viên lịch sự đã khiến tôi cảm thấy được chào đón trong suốt ba đêm nghỉ."
+                },
+                {
+                  "action_en": "I will gladly return to your hotel and recommend it to anyone visiting this city",
+                  "action_vi": "tôi sẽ vui vẻ quay lại khách sạn và giới thiệu cho bất kỳ ai đến thăm thành phố này",
+                  "reason_en": "because you offer good value for money and clean rooms.",
+                  "reason_vi": "vì quý vị mang lại chất lượng xứng đáng với giá tiền và phòng ốc sạch sẽ.",
+                  "b1_sentence": "Finally, I will gladly return to your hotel and recommend it to anyone visiting this city because you offer good value for money and clean rooms.",
+                  "b1_sentence_vi": "Cuối cùng, tôi sẽ vui vẻ quay lại khách sạn và giới thiệu cho bất kỳ ai đến thăm thành phố này vì quý vị mang lại chất lượng xứng đáng với giá tiền và phòng ốc sạch sẽ."
+                }
+              ]
+            }
+          ],
+          "vocab": [
+            {
+              "en": "three-night stay",
+              "vi": "kỳ nghỉ ba đêm",
+              "category": "1. Khách sạn"
+            },
+            {
+              "en": "free breakfast",
+              "vi": "bữa sáng miễn phí",
+              "category": "1. Dịch vụ thích nhất"
+            },
+            {
+              "en": "front desk staff",
+              "vi": "nhân viên quầy lễ tân",
+              "category": "1. Dịch vụ thích nhất"
+            },
+            {
+              "en": "weak Wi-Fi connection",
+              "vi": "kết nối Wi-Fi yếu",
+              "category": "2. Điểm chưa hài lòng"
+            },
+            {
+              "en": "noisy air conditioner",
+              "vi": "máy điều hòa ồn ào",
+              "category": "2. Điểm chưa hài lòng"
+            },
+            {
+              "en": "recommend the hotel",
+              "vi": "giới thiệu khách sạn",
+              "category": "3. Giới thiệu"
+            },
+            {
+              "en": "convenient location",
+              "vi": "vị trí thuận tiện",
+              "category": "3. Giới thiệu"
+            },
+            {
+              "en": "reasonable prices",
+              "vi": "giá cả hợp lý",
+              "category": "3. Giới thiệu"
+            }
+          ],
+          "sentence_practice_b1": [
+            {
+              "id": 1,
+              "part": "1. Mở thư (Opening - Trang trọng)",
+              "vi": "Kính gửi Quý quản lý, tôi viết email này để chia sẻ phản hồi về kỳ nghỉ ba đêm gần đây của tôi tại Khách sạn Riverside.",
+              "en": "Dear Hotel Manager, I am writing this email to give feedback on my recent three-night stay at the Riverside Hotel.",
+              "formula": "Dear Hotel Manager, I am writing this email to give feedback on my recent three-night stay at...",
+              "vocab_hints": [
+                {
+                  "en": "give feedback on",
+                  "vi": "đóng góp phản hồi về"
+                },
+                {
+                  "en": "three-night stay",
+                  "vi": "kỳ nghỉ 3 đêm"
+                }
+              ],
+              "explanation": "Mở thư phản hồi dịch vụ chuẩn B1."
+            },
+            {
+              "id": 2,
+              "part": "2. Thân thư - Ý 1: Dịch vụ thích nhất",
+              "vi": "Đầu tiên, dịch vụ tôi thích nhất là bữa sáng miễn phí và nhân viên thân thiện ở quầy lễ tân vì đồ ăn tươi ngon và nhân viên luôn nở nụ cười giúp đỡ tôi.",
+              "en": "First, the service I liked most was the free breakfast and the friendly staff at the front desk because the food was fresh and the staff always helped me with a smile.",
+              "formula": "First, the service I liked most was... because...",
+              "vocab_hints": [
+                {
+                  "en": "service I liked most",
+                  "vi": "dịch vụ tôi thích nhất"
+                },
+                {
+                  "en": "friendly staff",
+                  "vi": "nhân viên thân thiện"
+                }
+              ],
+              "explanation": "Nêu dịch vụ ưng ý nhất."
+            },
+            {
+              "id": 3,
+              "part": "3. Thân thư - Ý 2: Điểm chưa hài lòng",
+              "vi": "Thứ hai, tuy nhiên, tôi chưa hài lòng với kết nối Wi-Fi yếu trong phòng và chiếc máy điều hòa phát tiếng ồn vì mạng cứ bị ngắt kết nối khi tôi cố gắng làm việc.",
+              "en": "Second, however, I was not satisfied with the weak Wi-Fi connection in my room and the noisy air conditioner because the internet kept disconnecting when I tried to work.",
+              "formula": "Second, however, I was not satisfied with... because...",
+              "vocab_hints": [
+                {
+                  "en": "not satisfied with",
+                  "vi": "không hài lòng với"
+                },
+                {
+                  "en": "weak Wi-Fi connection",
+                  "vi": "kết nối Wi-Fi yếu"
+                }
+              ],
+              "explanation": "Nêu điểm chưa hài lòng lịch sự."
+            },
+            {
+              "id": 4,
+              "part": "4. Thân thư - Ý 3: Giới thiệu cho người khác",
+              "vi": "Cuối cùng, tôi vẫn sẵn lòng giới thiệu Khách sạn Riverside cho bạn bè và đồng nghiệp vì khách sạn của quý vị có vị trí thuận tiện gần bờ sông và giá cả hợp lý.",
+              "en": "Finally, I would still recommend the Riverside Hotel to my friends and colleagues because your hotel has a convenient location near the river and reasonable prices.",
+              "formula": "Finally, I would still recommend... to... because...",
+              "vocab_hints": [
+                {
+                  "en": "recommend to my friends",
+                  "vi": "giới thiệu cho bạn bè của tôi"
+                },
+                {
+                  "en": "convenient location",
+                  "vi": "vị trí thuận tiện"
+                }
+              ],
+              "explanation": "Khẳng định giới thiệu cho người khác."
+            },
+            {
+              "id": 5,
+              "part": "5. Kết thư (Closing - Trang trọng)",
+              "vi": "Tôi hy vọng phản hồi của tôi sẽ hữu ích cho khách sạn. Tôi mong nhận được hồi âm từ quý vị. Trân trọng,",
+              "en": "I hope my feedback will be useful for your hotel. I look forward to hearing from you. Yours sincerely,",
+              "formula": "I hope my feedback will be useful for your hotel. I look forward to hearing from you. Yours sincerely,",
+              "vocab_hints": [
+                {
+                  "en": "useful for your hotel",
+                  "vi": "hữu ích cho khách sạn của quý vị"
+                },
+                {
+                  "en": "look forward to hearing from you",
+                  "vi": "mong nhận được hồi âm từ quý vị"
+                }
+              ],
+              "explanation": "Kết thư trang trọng chuẩn B1."
+            }
+          ],
+          "sentence_practice_b2": [
+            {
+              "id": 1,
+              "part": "1. Mở thư (Opening - Trang trọng)",
+              "vi": "Kính gửi Quý quản lý, tôi viết email này để chia sẻ phản hồi về kỳ nghỉ ba đêm gần đây của tôi tại Khách sạn Riverside.",
+              "en": "Dear Hotel Manager, I am writing this email to give feedback on my recent three-night stay at the Riverside Hotel.",
+              "formula": "Dear Hotel Manager, I am writing this email to give feedback on my recent three-night stay at...",
+              "vocab_hints": [
+                {
+                  "en": "give feedback on",
+                  "vi": "đóng góp phản hồi về"
+                },
+                {
+                  "en": "three-night stay",
+                  "vi": "kỳ nghỉ 3 đêm"
+                }
+              ],
+              "explanation": "Mở thư phản hồi dịch vụ chuẩn B1."
+            },
+            {
+              "id": 2,
+              "part": "2. Thân thư - Ý 1: Dịch vụ thích nhất",
+              "vi": "Đầu tiên, dịch vụ tôi thích nhất là bữa sáng miễn phí và nhân viên thân thiện ở quầy lễ tân vì đồ ăn tươi ngon và nhân viên luôn nở nụ cười giúp đỡ tôi.",
+              "en": "First, the service I liked most was the free breakfast and the friendly staff at the front desk because the food was fresh and the staff always helped me with a smile.",
+              "formula": "First, the service I liked most was... because...",
+              "vocab_hints": [
+                {
+                  "en": "service I liked most",
+                  "vi": "dịch vụ tôi thích nhất"
+                },
+                {
+                  "en": "friendly staff",
+                  "vi": "nhân viên thân thiện"
+                }
+              ],
+              "explanation": "Nêu dịch vụ ưng ý nhất."
+            },
+            {
+              "id": 3,
+              "part": "3. Thân thư - Ý 2: Điểm chưa hài lòng",
+              "vi": "Thứ hai, tuy nhiên, tôi chưa hài lòng với kết nối Wi-Fi yếu trong phòng và chiếc máy điều hòa phát tiếng ồn vì mạng cứ bị ngắt kết nối khi tôi cố gắng làm việc.",
+              "en": "Second, however, I was not satisfied with the weak Wi-Fi connection in my room and the noisy air conditioner because the internet kept disconnecting when I tried to work.",
+              "formula": "Second, however, I was not satisfied with... because...",
+              "vocab_hints": [
+                {
+                  "en": "not satisfied with",
+                  "vi": "không hài lòng với"
+                },
+                {
+                  "en": "weak Wi-Fi connection",
+                  "vi": "kết nối Wi-Fi yếu"
+                }
+              ],
+              "explanation": "Nêu điểm chưa hài lòng lịch sự."
+            },
+            {
+              "id": 4,
+              "part": "4. Thân thư - Ý 3: Giới thiệu cho người khác",
+              "vi": "Cuối cùng, tôi vẫn sẵn lòng giới thiệu Khách sạn Riverside cho bạn bè và đồng nghiệp vì khách sạn của quý vị có vị trí thuận tiện gần bờ sông và giá cả hợp lý.",
+              "en": "Finally, I would still recommend the Riverside Hotel to my friends and colleagues because your hotel has a convenient location near the river and reasonable prices.",
+              "formula": "Finally, I would still recommend... to... because...",
+              "vocab_hints": [
+                {
+                  "en": "recommend to my friends",
+                  "vi": "giới thiệu cho bạn bè của tôi"
+                },
+                {
+                  "en": "convenient location",
+                  "vi": "vị trí thuận tiện"
+                }
+              ],
+              "explanation": "Khẳng định giới thiệu cho người khác."
+            },
+            {
+              "id": 5,
+              "part": "5. Kết thư (Closing - Trang trọng)",
+              "vi": "Tôi hy vọng phản hồi của tôi sẽ hữu ích cho khách sạn. Tôi mong nhận được hồi âm từ quý vị. Trân trọng,",
+              "en": "I hope my feedback will be useful for your hotel. I look forward to hearing from you. Yours sincerely,",
+              "formula": "I hope my feedback will be useful for your hotel. I look forward to hearing from you. Yours sincerely,",
+              "vocab_hints": [
+                {
+                  "en": "useful for your hotel",
+                  "vi": "hữu ích cho khách sạn của quý vị"
+                },
+                {
+                  "en": "look forward to hearing from you",
+                  "vi": "mong nhận được hồi âm từ quý vị"
+                }
+              ],
+              "explanation": "Kết thư trang trọng chuẩn B1."
+            }
+          ],
+          "sample_b1": {
+            "letter_en": "Dear Hotel Manager,\n\nI am writing this email to give feedback on my recent three-night stay at the Riverside Hotel.\n\nFirst, the service I liked most was the free breakfast and the friendly staff at the front desk because the food was fresh and the staff always helped me with a smile. My room also had a nice view of the river.\n\nSecond, however, I was not satisfied with the weak Wi-Fi connection in my room and the noisy air conditioner because the internet kept disconnecting when I tried to work. The air conditioner was also a bit loud at night.\n\nFinally, I would still recommend the Riverside Hotel to my friends and colleagues because your hotel has a convenient location near the river and reasonable prices. If you can fix the Wi-Fi, it will be even better.\n\nI hope my feedback will be useful for your hotel. I look forward to hearing from you.\n\nYours sincerely,",
+            "letter_vi": "Kính gửi Quản lý Khách sạn,\n\nTôi viết email này để chia sẻ phản hồi về kỳ nghỉ ba đêm gần đây của tôi tại Khách sạn Riverside.\n\nĐầu tiên, dịch vụ tôi thích nhất là bữa sáng miễn phí và nhân viên thân thiện ở quầy lễ tân vì đồ ăn tươi ngon và nhân viên luôn nở nụ cười giúp đỡ tôi. Phòng của tôi cũng có tầm nhìn ra bờ sông rất đẹp.\n\nThứ hai, tuy nhiên, tôi chưa hài lòng với kết nối Wi-Fi yếu trong phòng và chiếc máy điều hòa phát tiếng ồn vì mạng cứ bị ngắt kết nối khi tôi cố gắng làm việc. Máy điều hòa cũng hơi ồn vào ban đêm.\n\nCuối cùng, tôi vẫn sẵn lòng giới thiệu Khách sạn Riverside cho bạn bè và đồng nghiệp vì khách sạn của quý vị có vị trí thuận tiện gần bờ sông và giá cả hợp lý. Nếu quý vị sửa được Wi-Fi thì sẽ càng tuyệt vời hơn.\n\nTôi hy vọng phản hồi của tôi sẽ hữu ích cho khách sạn. Tôi mong nhận được hồi âm từ quý vị.\n\nTrân trọng,",
+            "text": "Dear Hotel Manager,\n\nI am writing this email to give feedback on my recent three-night stay at the Riverside Hotel.\n\nFirst, the service I liked most was the free breakfast and the friendly staff at the front desk because the food was fresh and the staff always helped me with a smile. My room also had a nice view of the river.\n\nSecond, however, I was not satisfied with the weak Wi-Fi connection in my room and the noisy air conditioner because the internet kept disconnecting when I tried to work. The air conditioner was also a bit loud at night.\n\nFinally, I would still recommend the Riverside Hotel to my friends and colleagues because your hotel has a convenient location near the river and reasonable prices. If you can fix the Wi-Fi, it will be even better.\n\nI hope my feedback will be useful for your hotel. I look forward to hearing from you.\n\nYours sincerely,",
+            "translation": "Kính gửi Quản lý Khách sạn,\n\nTôi viết email này để chia sẻ phản hồi về kỳ nghỉ ba đêm gần đây của tôi tại Khách sạn Riverside.\n\nĐầu tiên, dịch vụ tôi thích nhất là bữa sáng miễn phí và nhân viên thân thiện ở quầy lễ tân vì đồ ăn tươi ngon và nhân viên luôn nở nụ cười giúp đỡ tôi. Phòng của tôi cũng có tầm nhìn ra bờ sông rất đẹp.\n\nThứ hai, tuy nhiên, tôi chưa hài lòng với kết nối Wi-Fi yếu trong phòng và chiếc máy điều hòa phát tiếng ồn vì mạng cứ bị ngắt kết nối khi tôi cố gắng làm việc. Máy điều hòa cũng hơi ồn vào ban đêm.\n\nCuối cùng, tôi vẫn sẵn lòng giới thiệu Khách sạn Riverside cho bạn bè và đồng nghiệp vì khách sạn của quý vị có vị trí thuận tiện gần bờ sông và giá cả hợp lý. Nếu quý vị sửa được Wi-Fi thì sẽ càng tuyệt vời hơn.\n\nTôi hy vọng phản hồi của tôi sẽ hữu ích cho khách sạn. Tôi mong nhận được hồi âm từ quý vị.\n\nTrân trọng,",
+            "word_count": 157,
+            "key_structures": []
+          },
+          "sample_b2": {
+            "letter_en": "Dear Hotel Manager,\n\nI am writing this email to give feedback on my recent three-night stay at the Riverside Hotel.\n\nFirst, the service I liked most was the free breakfast and the friendly staff at the front desk because the food was fresh and the staff always helped me with a smile. My room also had a nice view of the river.\n\nSecond, however, I was not satisfied with the weak Wi-Fi connection in my room and the noisy air conditioner because the internet kept disconnecting when I tried to work. The air conditioner was also a bit loud at night.\n\nFinally, I would still recommend the Riverside Hotel to my friends and colleagues because your hotel has a convenient location near the river and reasonable prices. If you can fix the Wi-Fi, it will be even better.\n\nI hope my feedback will be useful for your hotel. I look forward to hearing from you.\n\nYours sincerely,",
+            "letter_vi": "Kính gửi Quản lý Khách sạn,\n\nTôi viết email này để chia sẻ phản hồi về kỳ nghỉ ba đêm gần đây của tôi tại Khách sạn Riverside.\n\nĐầu tiên, dịch vụ tôi thích nhất là bữa sáng miễn phí và nhân viên thân thiện ở quầy lễ tân vì đồ ăn tươi ngon và nhân viên luôn nở nụ cười giúp đỡ tôi. Phòng của tôi cũng có tầm nhìn ra bờ sông rất đẹp.\n\nThứ hai, tuy nhiên, tôi chưa hài lòng với kết nối Wi-Fi yếu trong phòng và chiếc máy điều hòa phát tiếng ồn vì mạng cứ bị ngắt kết nối khi tôi cố gắng làm việc. Máy điều hòa cũng hơi ồn vào ban đêm.\n\nCuối cùng, tôi vẫn sẵn lòng giới thiệu Khách sạn Riverside cho bạn bè và đồng nghiệp vì khách sạn của quý vị có vị trí thuận tiện gần bờ sông và giá cả hợp lý. Nếu quý vị sửa được Wi-Fi thì sẽ càng tuyệt vời hơn.\n\nTôi hy vọng phản hồi của tôi sẽ hữu ích cho khách sạn. Tôi mong nhận được hồi âm từ quý vị.\n\nTrân trọng,",
+            "text": "Dear Hotel Manager,\n\nI am writing this email to give feedback on my recent three-night stay at the Riverside Hotel.\n\nFirst, the service I liked most was the free breakfast and the friendly staff at the front desk because the food was fresh and the staff always helped me with a smile. My room also had a nice view of the river.\n\nSecond, however, I was not satisfied with the weak Wi-Fi connection in my room and the noisy air conditioner because the internet kept disconnecting when I tried to work. The air conditioner was also a bit loud at night.\n\nFinally, I would still recommend the Riverside Hotel to my friends and colleagues because your hotel has a convenient location near the river and reasonable prices. If you can fix the Wi-Fi, it will be even better.\n\nI hope my feedback will be useful for your hotel. I look forward to hearing from you.\n\nYours sincerely,",
+            "translation": "Kính gửi Quản lý Khách sạn,\n\nTôi viết email này để chia sẻ phản hồi về kỳ nghỉ ba đêm gần đây của tôi tại Khách sạn Riverside.\n\nĐầu tiên, dịch vụ tôi thích nhất là bữa sáng miễn phí và nhân viên thân thiện ở quầy lễ tân vì đồ ăn tươi ngon và nhân viên luôn nở nụ cười giúp đỡ tôi. Phòng của tôi cũng có tầm nhìn ra bờ sông rất đẹp.\n\nThứ hai, tuy nhiên, tôi chưa hài lòng với kết nối Wi-Fi yếu trong phòng và chiếc máy điều hòa phát tiếng ồn vì mạng cứ bị ngắt kết nối khi tôi cố gắng làm việc. Máy điều hòa cũng hơi ồn vào ban đêm.\n\nCuối cùng, tôi vẫn sẵn lòng giới thiệu Khách sạn Riverside cho bạn bè và đồng nghiệp vì khách sạn của quý vị có vị trí thuận tiện gần bờ sông và giá cả hợp lý. Nếu quý vị sửa được Wi-Fi thì sẽ càng tuyệt vời hơn.\n\nTôi hy vọng phản hồi của tôi sẽ hữu ích cho khách sạn. Tôi mong nhận được hồi âm từ quý vị.\n\nTrân trọng,",
+            "word_count": 157,
+            "key_structures": []
           }
         }
       }
@@ -13537,7 +21709,7 @@ const LETTERS_DATA = [
       {
         "id": "de-11",
         "title_en": "Apology to a professor for late research paper submission",
-        "title_vi": "Đề 11: Thư xin lỗi giáo sư vì nộp bài nghiên cứu muộn do sự cố máy tính",
+        "title_vi": "Đề 01: Thư xin lỗi giáo sư vì nộp bài nghiên cứu muộn do sự cố máy tính",
         "recipient_type": "Formal (Giáo sư - Professor Johnson)",
         "target_words": 120,
         "tags": [
@@ -13709,9 +21881,9 @@ const LETTERS_DATA = [
             ]
           },
           "sample_b2": {
-            "letter_en": "Dear Professor Johnson,\n\nPlease accept this letter as my sincere apology for failing to submit the term research paper for Advanced Linguistics prior to Friday's scheduled deadline. I deeply regret any inconvenience this may have caused, and I would like to provide an explanation.\n\nFirst of all, here is the reason for this unexpected delay. I couldn’t manage to submit the manuscript on time because my computer suffered a critical operating system crash, which corrupted my finalized statistical analyses and citations. Fortunately, technical support technicians have successfully retrieved the raw data files, enabling me to reconstruct the lost chapters meticulously. Next, let me make it up to you by submitting the fully revised manuscript alongside my analytical appendices by noon this coming Wednesday. I’ll make sure this does not happen again and would love to complete supplementary methodology readings to prove my dedication to the course.\n\nI’m really sorry once again. I truly appreciate your patience and kind understanding. I look forward to hearing from you soon.\n\nYours sincerely,",
+            "letter_en": "Dear Professor Johnson,\n\nPlease accept this letter as my sincere apology for failing to submit the term research paper for Advanced Linguistics prior to Friday's scheduled deadline. I deeply regret any inconvenience this may have caused, and I would like to provide an explanation.\n\nFirst of all, here is the reason for this unexpected delay. I couldn’t manage to submit the manuscript on time because my computer suffered a critical operating system crash, which corrupted my finalized statistical analyses and citations. Fortunately, technical support technicians have successfully retrieved the raw data files, enabling me to reconstruct the lost chapters carefully. Next, let me make it up to you by submitting the fully revised manuscript alongside my analytical appendices by noon this coming Wednesday. I’ll make sure this does not happen again and would love to complete supplementary methodology readings to prove my dedication to the course.\n\nI’m really sorry once again. I truly appreciate your patience and kind understanding. I look forward to hearing from you soon.\n\nYours sincerely,",
             "letter_vi": "Kính gửi Giáo sư Johnson,\n\nEm xin gửi lời xin lỗi chân thành nhất tới thầy vì đã không thể nộp bài tiểu luận nghiên cứu môn Ngôn ngữ học Nâng cao trước hạn chót thứ Sáu vừa qua. Em vô cùng ân hận vì bất kỳ sự bất tiện nào đã gây ra cho thầy, và em xin phép được giải trình rõ ràng tình hình.\n\nTrước hết, đây là nguyên nhân dẫn đến sự chậm trễ không mong muốn này. Em đã không thể nộp bài đúng hạn do máy tính của em gặp sự cố sập hệ thống nghiêm trọng, làm hỏng toàn bộ phần phân tích số liệu thống kê và trích dẫn hoàn thiện. May mắn thay, các kỹ thuật viên đã khôi phục thành công các tệp dữ liệu gốc, giúp em có thể cẩn thận xây dựng lại các chương bị mất. Tiếp theo, em xin phép được nộp lại toàn bộ bản thảo hoàn chỉnh cùng các phụ lục phân tích trước 12 giờ trưa thứ Tư tới. Em xin cam đoan sự việc tương tự sẽ không bao giờ tái diễn và rất sẵn lòng hoàn thành thêm các bài đọc phương pháp nghiên cứu bổ trợ để thể hiện tinh thần học tập nghiêm túc của mình.\n\nMột lần nữa em xin chân thành xin lỗi thầy. Em vô cùng cảm kích sự kiên nhẫn và lượng thứ của thầy. Em rất mong sớm nhận được hồi âm từ thầy.\n\nKính thư,",
-            "text": "Dear Professor Johnson,\n\nPlease accept this letter as my sincere apology for failing to submit the term research paper for Advanced Linguistics prior to Friday's scheduled deadline. I deeply regret any inconvenience this may have caused, and I would like to provide an explanation.\n\nFirst of all, here is the reason for this unexpected delay. I couldn’t manage to submit the manuscript on time because my computer suffered a critical operating system crash, which corrupted my finalized statistical analyses and citations. Fortunately, technical support technicians have successfully retrieved the raw data files, enabling me to reconstruct the lost chapters meticulously. Next, let me make it up to you by submitting the fully revised manuscript alongside my analytical appendices by noon this coming Wednesday. I’ll make sure this does not happen again and would love to complete supplementary methodology readings to prove my dedication to the course.\n\nI’m really sorry once again. I truly appreciate your patience and kind understanding. I look forward to hearing from you soon.\n\nYours sincerely,",
+            "text": "Dear Professor Johnson,\n\nPlease accept this letter as my sincere apology for failing to submit the term research paper for Advanced Linguistics prior to Friday's scheduled deadline. I deeply regret any inconvenience this may have caused, and I would like to provide an explanation.\n\nFirst of all, here is the reason for this unexpected delay. I couldn’t manage to submit the manuscript on time because my computer suffered a critical operating system crash, which corrupted my finalized statistical analyses and citations. Fortunately, technical support technicians have successfully retrieved the raw data files, enabling me to reconstruct the lost chapters carefully. Next, let me make it up to you by submitting the fully revised manuscript alongside my analytical appendices by noon this coming Wednesday. I’ll make sure this does not happen again and would love to complete supplementary methodology readings to prove my dedication to the course.\n\nI’m really sorry once again. I truly appreciate your patience and kind understanding. I look forward to hearing from you soon.\n\nYours sincerely,",
             "translation": "Kính gửi Giáo sư Johnson,\n\nEm xin gửi lời xin lỗi chân thành nhất tới thầy vì đã không thể nộp bài tiểu luận nghiên cứu môn Ngôn ngữ học Nâng cao trước hạn chót thứ Sáu vừa qua. Em vô cùng ân hận vì bất kỳ sự bất tiện nào đã gây ra cho thầy, và em xin phép được giải trình rõ ràng tình hình.\n\nTrước hết, đây là nguyên nhân dẫn đến sự chậm trễ không mong muốn này. Em đã không thể nộp bài đúng hạn do máy tính của em gặp sự cố sập hệ thống nghiêm trọng, làm hỏng toàn bộ phần phân tích số liệu thống kê và trích dẫn hoàn thiện. May mắn thay, các kỹ thuật viên đã khôi phục thành công các tệp dữ liệu gốc, giúp em có thể cẩn thận xây dựng lại các chương bị mất. Tiếp theo, em xin phép được nộp lại toàn bộ bản thảo hoàn chỉnh cùng các phụ lục phân tích trước 12 giờ trưa thứ Tư tới. Em xin cam đoan sự việc tương tự sẽ không bao giờ tái diễn và rất sẵn lòng hoàn thành thêm các bài đọc phương pháp nghiên cứu bổ trợ để thể hiện tinh thần học tập nghiêm túc của mình.\n\nMột lần nữa em xin chân thành xin lỗi thầy. Em vô cùng cảm kích sự kiên nhẫn và lượng thứ của thầy. Em rất mong sớm nhận được hồi âm từ thầy.\n\nKính thư,",
             "word_count": 169,
             "key_structures": [
@@ -13916,7 +22088,7 @@ const LETTERS_DATA = [
       {
         "id": "de-12",
         "title_en": "Hotel manager's apology to a guest for slow room service",
-        "title_vi": "Đề 12: Quản lý khách sạn gửi thư xin lỗi khách hàng vì sự cố phòng ốc và dịch vụ phục vụ chậm",
+        "title_vi": "Đề 02: Quản lý khách sạn gửi thư xin lỗi khách hàng vì sự cố phòng ốc và dịch vụ phục vụ chậm",
         "recipient_type": "Formal (Khách hàng - Mr. Smith)",
         "target_words": 120,
         "tags": [
@@ -13953,7 +22125,7 @@ const LETTERS_DATA = [
               {
                 "point": "Hành động đền bù",
                 "formula": "To make up for my mistake, I would like to [Vo]...",
-                "detail": "To make up for my mistake and demonstrate our goodwill, I would like to offer you a 30% discount on your next reservation along with a complimentary voucher for breakfast at our luxury restaurant."
+                "detail": "To make up for my mistake and demonstrate our goodwill, I would like to offer you a 30% discount on your next reservation along with a free voucher for breakfast at our luxury restaurant."
               }
             ],
             "closing": "I would like to apologize once again for the inconvenience. Thank you for taking the time to read my letter. I look forward to receiving your reply soon.",
@@ -13981,7 +22153,7 @@ const LETTERS_DATA = [
               "vi": "thể hiện thiện chí của chúng tôi"
             },
             {
-              "en": "complimentary voucher",
+              "en": "free voucher",
               "vi": "phiếu quà tặng miễn phí"
             }
           ],
@@ -14026,12 +22198,12 @@ const LETTERS_DATA = [
               "id": 4,
               "part": "4. Thân thư - Hành động bù đắp (Cấu trúc: To make up for my mistake, I would like to...)",
               "vi": "Để bù đắp cho lỗi của chúng tôi và thể hiện thiện chí, tôi muốn gửi tặng ông mức giảm giá 30% cho lần đặt phòng tiếp theo cùng với một phiếu ăn sáng miễn phí tại nhà hàng của chúng tôi.",
-              "en": "To make up for my mistake and show our goodwill, I would like to offer you a 30% discount on your next reservation along with a complimentary voucher for breakfast at our restaurant.",
+              "en": "To make up for my mistake and show our goodwill, I would like to offer you a 30% discount on your next reservation along with a free voucher for breakfast at our restaurant.",
               "hints": [
                 "To make up for my mistake",
                 "show our goodwill",
                 "30% discount on your next reservation",
-                "complimentary voucher"
+                "free voucher"
               ],
               "explanation": "Áp dụng cấu trúc nêu hành động đền bù trang trọng của Cô Nguyệt."
             },
@@ -14053,19 +22225,19 @@ const LETTERS_DATA = [
               "id": 1,
               "part": "Cam kết dịch vụ B2",
               "vi": "Chúng tôi đã nâng cấp hệ thống máy phát điện phụ trợ và điều chỉnh lại quy trình giao món ban đêm nhằm đảm bảo thời gian phục vụ chuẩn xác cho mọi quý khách.",
-              "en": "We have instituted auxiliary backup power generators and restructured night-shift culinary workflows to safeguard seamless delivery across all suites.",
+              "en": "We have instituted auxiliary backup power generators and restructured night-shift food workflows to safeguard seamless delivery across all suites.",
               "hints": [
                 "instituted auxiliary backup power generators",
-                "restructured night-shift culinary workflows",
+                "restructured night-shift food workflows",
                 "safeguard seamless delivery"
               ],
               "explanation": "Từ vựng B2 quản trị khách sạn: 'auxiliary backup generators', 'safeguard seamless delivery'."
             }
           ],
           "sample_b1": {
-            "letter_en": "Dear Mr. Smith,\n\nI am writing to apologize for the unpleasant experience you had during your recent stay at Pearl Palace Hotel. I understand that our service did not meet your expectations, and I would like to explain the situation.\n\nFirst of all, let me explain why this happened. We could not serve your room dinner promptly because our kitchen was experiencing an unexpected shortage of staff due to severe weather that evening. In addition, our room service hotline was overwhelmed with orders. Next, we have already upgraded our kitchen order system to prevent such delays in the future. Finally, let me make it up to you by offering you a full refund for that meal and a complimentary dinner voucher for your next visit.\n\nOnce again, I sincerely apologize for the inconvenience. Thanks for your patience and understanding. I look forward to welcoming you back soon.\n\nYours sincerely,",
+            "letter_en": "Dear Mr. Smith,\n\nI am writing to apologize for the unpleasant experience you had during your recent stay at Pearl Palace Hotel. I understand that our service did not meet your expectations, and I would like to explain the situation.\n\nFirst of all, let me explain why this happened. We could not serve your room dinner promptly because our kitchen was experiencing an unexpected shortage of staff due to severe weather that evening. In addition, our room service hotline was overwhelmed with orders. Next, we have already upgraded our kitchen order system to prevent such delays in the future. Finally, let me make it up to you by offering you a full refund for that meal and a free dinner voucher for your next visit.\n\nOnce again, I sincerely apologize for the inconvenience. Thanks for your patience and understanding. I look forward to welcoming you back soon.\n\nYours sincerely,",
             "letter_vi": "Kính gửi ông Smith,\n\nTôi viết thư này để xin lỗi ông về trải nghiệm không hài lòng mà ông đã gặp phải trong kỳ lưu trú gần đây tại khách sạn Pearl Palace. Tôi hiểu rằng dịch vụ của chúng tôi chưa đáp ứng được kỳ vọng của ông, và tôi muốn được giải thích về sự cố này.\n\nTrước hết, xin phép được giải thích lý do xảy ra tình trạng này. Chúng tôi không thể phục vụ bữa tối tại phòng cho ông đúng giờ vì bộ phận bếp bị thiếu hụt nhân viên đột xuất do thời tiết xấu vào tối hôm đó. Thêm vào đó, đường dây nóng phục vụ phòng bị quá tải các đơn hàng. Tiếp theo, chúng tôi đã nâng cấp hệ thống nhận đơn tại bếp để ngăn chặn những sự chậm trễ tương tự trong tương lai. Cuối cùng, để tạ lỗi với ông, chúng tôi xin phép được hoàn lại toàn bộ tiền bữa ăn đó và gửi tặng ông một phiếu dùng bữa tối miễn phí cho lần lưu trú tiếp theo.\n\nMột lần nữa, tôi xin chân thành xin lỗi ông vì những bất tiện vừa qua. Cảm ơn ông đã kiên nhẫn và thấu hiểu. Chúng tôi rất mong sớm được đón tiếp ông trở lại.\n\nTrân trọng,",
-            "text": "Dear Mr. Smith,\n\nI am writing to apologize for the unpleasant experience you had during your recent stay at Pearl Palace Hotel. I understand that our service did not meet your expectations, and I would like to explain the situation.\n\nFirst of all, let me explain why this happened. We could not serve your room dinner promptly because our kitchen was experiencing an unexpected shortage of staff due to severe weather that evening. In addition, our room service hotline was overwhelmed with orders. Next, we have already upgraded our kitchen order system to prevent such delays in the future. Finally, let me make it up to you by offering you a full refund for that meal and a complimentary dinner voucher for your next visit.\n\nOnce again, I sincerely apologize for the inconvenience. Thanks for your patience and understanding. I look forward to welcoming you back soon.\n\nYours sincerely,",
+            "text": "Dear Mr. Smith,\n\nI am writing to apologize for the unpleasant experience you had during your recent stay at Pearl Palace Hotel. I understand that our service did not meet your expectations, and I would like to explain the situation.\n\nFirst of all, let me explain why this happened. We could not serve your room dinner promptly because our kitchen was experiencing an unexpected shortage of staff due to severe weather that evening. In addition, our room service hotline was overwhelmed with orders. Next, we have already upgraded our kitchen order system to prevent such delays in the future. Finally, let me make it up to you by offering you a full refund for that meal and a free dinner voucher for your next visit.\n\nOnce again, I sincerely apologize for the inconvenience. Thanks for your patience and understanding. I look forward to welcoming you back soon.\n\nYours sincerely,",
             "translation": "Kính gửi ông Smith,\n\nTôi viết thư này để xin lỗi ông về trải nghiệm không hài lòng mà ông đã gặp phải trong kỳ lưu trú gần đây tại khách sạn Pearl Palace. Tôi hiểu rằng dịch vụ của chúng tôi chưa đáp ứng được kỳ vọng của ông, và tôi muốn được giải thích về sự cố này.\n\nTrước hết, xin phép được giải thích lý do xảy ra tình trạng này. Chúng tôi không thể phục vụ bữa tối tại phòng cho ông đúng giờ vì bộ phận bếp bị thiếu hụt nhân viên đột xuất do thời tiết xấu vào tối hôm đó. Thêm vào đó, đường dây nóng phục vụ phòng bị quá tải các đơn hàng. Tiếp theo, chúng tôi đã nâng cấp hệ thống nhận đơn tại bếp để ngăn chặn những sự chậm trễ tương tự trong tương lai. Cuối cùng, để tạ lỗi với ông, chúng tôi xin phép được hoàn lại toàn bộ tiền bữa ăn đó và gửi tặng ông một phiếu dùng bữa tối miễn phí cho lần lưu trú tiếp theo.\n\nMột lần nữa, tôi xin chân thành xin lỗi ông vì những bất tiện vừa qua. Cảm ơn ông đã kiên nhẫn và thấu hiểu. Chúng tôi rất mong sớm được đón tiếp ông trở lại.\n\nTrân trọng,",
             "word_count": 149,
             "key_structures": [
@@ -14088,9 +22260,9 @@ const LETTERS_DATA = [
             ]
           },
           "sample_b2": {
-            "letter_en": "Dear Mr. Smith,\n\nPlease accept this letter as my sincere apology regarding the substandard service and delays you experienced with our in-room dining during your recent stay at Pearl Palace Hotel. I deeply regret any frustration this caused, and I would like to provide an explanation.\n\nFirst of all, here is the reason for this breakdown in service. We couldn’t manage to fulfill your dining order on time because our evening culinary department suffered an unforeseen technical failure with the food elevators, combined with exceptional weekend occupancy. Fortunately, our engineering team has fully resolved the elevator malfunction and reinforced our room service dispatch protocols. Next, let me make it up to you by immediately processing a total reimbursement for the affected dinner to your payment card. I’ll make sure this does not happen again and would love to provide you with a complimentary luxury suite upgrade along with executive lounge access during your next visit.\n\nI’m really sorry once again. I truly appreciate your understanding and continued patronage. I look forward to welcoming you back to our hotel.\n\nYours sincerely,",
+            "letter_en": "Dear Mr. Smith,\n\nPlease accept this letter as my sincere apology regarding the poor service and delays you experienced with our in-room dining during your recent stay at Pearl Palace Hotel. I deeply regret any frustration this caused, and I would like to provide an explanation.\n\nFirst of all, here is the reason for this breakdown in service. We couldn’t manage to fulfill your dining order on time because our evening food department suffered an unforeseen technical failure with the food elevators, combined with exceptional weekend occupancy. Fortunately, our engineering team has fully resolved the elevator malfunction and reinforced our room service dispatch protocols. Next, let me make it up to you by immediately processing a total refund for the affected dinner to your payment card. I’ll make sure this does not happen again and would love to provide you with a free luxury suite upgrade along with executive lounge access during your next visit.\n\nI’m really sorry once again. I truly appreciate your understanding and continued patronage. I look forward to welcoming you back to our hotel.\n\nYours sincerely,",
             "letter_vi": "Kính gửi ông Smith,\n\nXin ông nhận lời xin lỗi chân thành nhất của tôi về chất lượng dịch vụ dưới chuẩn và sự chậm trễ trong việc phục vụ bữa ăn tại phòng mà ông đã gặp phải trong kỳ nghỉ vừa qua tại khách sạn Pearl Palace. Tôi vô cùng lấy làm tiếc về những phiền toái đã gây ra cho ông, và tôi xin phép được giải trình nguyên nhân sự việc.\n\nTrước hết, đây là lý do của sự gián đoạn dịch vụ này. Chúng tôi đã không thể hoàn thành đơn gọi món của ông đúng giờ do bộ phận ẩm thực ca tối gặp phải sự cố kỹ thuật bất ngờ ở thang máy vận chuyển thức ăn, cùng với lượng khách lưu trú cuối tuần đông đột biến. Rất may mắn, đội ngũ kỹ thuật của chúng tôi đã xử lý triệt để sự cố thang máy và củng cố lại quy trình điều phối dịch vụ phòng. Tiếp theo, để tạ lỗi, tôi xin phép được hoàn trả ngay lập tức toàn bộ số tiền bữa tối bị ảnh hưởng vào thẻ thanh toán của ông. Tôi cam kết điều này sẽ không bao giờ lặp lại và rất mong được gửi tặng ông một kỳ nâng hạng phòng suite sang trọng miễn phí kèm quyền sử dụng phòng chờ thương gia trong chuyến lưu trú tiếp theo của ông.\n\nMột lần nữa tôi xin chân thành xin lỗi ông. Tôi vô cùng biết ơn sự cảm thông và sự đồng hành của ông. Rất mong sớm được đón tiếp ông trở lại khách sạn.\n\nTrân trọng,",
-            "text": "Dear Mr. Smith,\n\nPlease accept this letter as my sincere apology regarding the substandard service and delays you experienced with our in-room dining during your recent stay at Pearl Palace Hotel. I deeply regret any frustration this caused, and I would like to provide an explanation.\n\nFirst of all, here is the reason for this breakdown in service. We couldn’t manage to fulfill your dining order on time because our evening culinary department suffered an unforeseen technical failure with the food elevators, combined with exceptional weekend occupancy. Fortunately, our engineering team has fully resolved the elevator malfunction and reinforced our room service dispatch protocols. Next, let me make it up to you by immediately processing a total reimbursement for the affected dinner to your payment card. I’ll make sure this does not happen again and would love to provide you with a complimentary luxury suite upgrade along with executive lounge access during your next visit.\n\nI’m really sorry once again. I truly appreciate your understanding and continued patronage. I look forward to welcoming you back to our hotel.\n\nYours sincerely,",
+            "text": "Dear Mr. Smith,\n\nPlease accept this letter as my sincere apology regarding the poor service and delays you experienced with our in-room dining during your recent stay at Pearl Palace Hotel. I deeply regret any frustration this caused, and I would like to provide an explanation.\n\nFirst of all, here is the reason for this breakdown in service. We couldn’t manage to fulfill your dining order on time because our evening food department suffered an unforeseen technical failure with the food elevators, combined with exceptional weekend occupancy. Fortunately, our engineering team has fully resolved the elevator malfunction and reinforced our room service dispatch protocols. Next, let me make it up to you by immediately processing a total refund for the affected dinner to your payment card. I’ll make sure this does not happen again and would love to provide you with a free luxury suite upgrade along with executive lounge access during your next visit.\n\nI’m really sorry once again. I truly appreciate your understanding and continued patronage. I look forward to welcoming you back to our hotel.\n\nYours sincerely,",
             "translation": "Kính gửi ông Smith,\n\nXin ông nhận lời xin lỗi chân thành nhất của tôi về chất lượng dịch vụ dưới chuẩn và sự chậm trễ trong việc phục vụ bữa ăn tại phòng mà ông đã gặp phải trong kỳ nghỉ vừa qua tại khách sạn Pearl Palace. Tôi vô cùng lấy làm tiếc về những phiền toái đã gây ra cho ông, và tôi xin phép được giải trình nguyên nhân sự việc.\n\nTrước hết, đây là lý do của sự gián đoạn dịch vụ này. Chúng tôi đã không thể hoàn thành đơn gọi món của ông đúng giờ do bộ phận ẩm thực ca tối gặp phải sự cố kỹ thuật bất ngờ ở thang máy vận chuyển thức ăn, cùng với lượng khách lưu trú cuối tuần đông đột biến. Rất may mắn, đội ngũ kỹ thuật của chúng tôi đã xử lý triệt để sự cố thang máy và củng cố lại quy trình điều phối dịch vụ phòng. Tiếp theo, để tạ lỗi, tôi xin phép được hoàn trả ngay lập tức toàn bộ số tiền bữa tối bị ảnh hưởng vào thẻ thanh toán của ông. Tôi cam kết điều này sẽ không bao giờ lặp lại và rất mong được gửi tặng ông một kỳ nâng hạng phòng suite sang trọng miễn phí kèm quyền sử dụng phòng chờ thương gia trong chuyến lưu trú tiếp theo của ông.\n\nMột lần nữa tôi xin chân thành xin lỗi ông. Tôi vô cùng biết ơn sự cảm thông và sự đồng hành của ông. Rất mong sớm được đón tiếp ông trở lại khách sạn.\n\nTrân trọng,",
             "word_count": 180,
             "key_structures": [
@@ -14134,7 +22306,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "we are profoundly sorry that your ordered dinner arrived lukewarm and unsatisfactory",
                   "action_vi": "chúng tôi vô cùng lấy làm tiếc khi bữa tối giao đến phòng bị nguội và không ngon miệng",
-                  "reason_en": "because our guests always deserve steaming, freshly prepared culinary perfection.",
+                  "reason_en": "because our guests always deserve steaming, freshly prepared food perfection.",
                   "reason_vi": "vì quý khách luôn xứng đáng được thưởng thức những món ăn nóng hổi và thơm ngon chuẩn vị."
                 },
                 {
@@ -14176,7 +22348,7 @@ const LETTERS_DATA = [
                   "reason_vi": "buộc nhân viên phải dùng thang bộ thoát hiểm và làm kéo dài thời gian vận chuyển lên phòng."
                 },
                 {
-                  "action_en": "two key senior culinary supervisors were unexpectedly absent due to sudden medical emergencies",
+                  "action_en": "two key senior food supervisors were unexpectedly absent due to sudden medical emergencies",
                   "action_vi": "hai bếp trưởng giám sát ca trực bất ngờ vắng mặt do các trường hợp cấp cứu y tế gia đình",
                   "reason_en": "because this helps lead to communication lapses between the order desk and cooking stations.",
                   "reason_vi": "dẫn đến sự phối hợp thiếu nhịp nhàng giữa bộ phận nhận đơn và các bàn nấu ăn."
@@ -14196,7 +22368,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "we recognize that these internal challenges offer no justification for sub-par guest service",
                   "action_vi": "chúng tôi hiểu rằng những trục trặc nội bộ này không thể biện minh cho chất lượng phục vụ kém",
-                  "reason_en": "because our patrons rightfully expect impeccable standards regardless of operational pressures.",
+                  "reason_en": "because our patrons rightfully expect excellent standards regardless of operational pressures.",
                   "reason_vi": "vì quý khách luôn có quyền kỳ vọng vào tiêu chuẩn phục vụ hoàn hảo nhất dù khách sạn có bận rộn."
                 }
               ]
@@ -14214,7 +22386,7 @@ const LETTERS_DATA = [
                   "reason_vi": "để tái cơ cấu lại quy trình ra đơn và thiết lập giới hạn thời gian giao món nghiêm ngặt trong 25 phút."
                 },
                 {
-                  "action_en": "mandatory retraining on food temperature testing and courteous communication has begun",
+                  "action_en": "mandatory retraining on food temperature testing and polite communication has begun",
                   "action_vi": "khóa tập huấn bắt buộc về kiểm soát nhiệt độ món ăn và giao tiếp lịch thiệp đã được triển khai",
                   "reason_en": "because all staff must learn how to serve food hot and speak politely.",
                   "reason_vi": "đảm bảo rằng mỗi nhân viên đều tuân thủ các chuẩn mực phục vụ khách hàng cao nhất."
@@ -14247,7 +22419,7 @@ const LETTERS_DATA = [
             },
             {
               "id": 4,
-              "title_en": "4. Complimentary compensation & welcome-back offer",
+              "title_en": "4. free compensation & welcome-back offer",
               "title_vi": "Bồi thường voucher & lời mời quay lại",
               "icon": "fa-gift",
               "options": [
@@ -14258,13 +22430,13 @@ const LETTERS_DATA = [
                   "reason_vi": "như một hành động thiết thực ngay lập tức để bù đắp cho những phiền toái đã xảy ra."
                 },
                 {
-                  "action_en": "please accept our complimentary dining voucher for two at our Michelin-selected rooftop restaurant",
+                  "action_en": "please accept our free dining voucher for two at our Michelin-selected rooftop restaurant",
                   "action_vi": "xin quý khách vui lòng nhận voucher bữa tối miễn phí cho hai người tại nhà hàng tầng thượng sang trọng",
-                  "reason_en": "because so we may have the privilege of treating you to a truly exceptional culinary experience.",
+                  "reason_en": "because so we may have the privilege of treating you to a truly exceptional food experience.",
                   "reason_vi": "để chúng tôi có cơ hội được đón tiếp quý khách với một trải nghiệm ẩm thực thực sự hoàn hảo."
                 },
                 {
-                  "action_en": "we would be honored to grant you a complimentary room upgrade to our Executive Suite on your next visit",
+                  "action_en": "we would be honored to grant you a free room upgrade to our Executive Suite on your next visit",
                   "action_vi": "chúng tôi rất vinh dự được nâng hạng phòng miễn phí lên phòng Suite cao cấp trong lần lưu trú tới",
                   "reason_en": "because we want to offer you a better room on your next vacation.",
                   "reason_vi": "mang lại cho quý khách một kỳ nghỉ sang trọng, trọn vẹn đúng như những gì quý khách xứng đáng có được."
@@ -14295,7 +22467,7 @@ const LETTERS_DATA = [
       {
         "id": "de-24",
         "title_en": "Apology to friend Helen for forgetting to return a borrowed book",
-        "title_vi": "Đề 24: Hồi âm xin lỗi bạn (Helen) vì quên trả cuốn sách đã mượn",
+        "title_vi": "Đề 03: Hồi âm xin lỗi bạn (Helen) vì quên trả cuốn sách đã mượn",
         "recipient_type": "Informal (Bạn bè - Helen)",
         "target_words": 120,
         "tags": [
@@ -14709,7 +22881,7 @@ const LETTERS_DATA = [
               ],
               "alternatives": [
                 "Regarding your question, I finished reading the whole book last week and really enjoyed the story.",
-                "As for whether I've finished, I read the last chapter a few days ago and found it truly fascinating."
+                "As for whether I've finished, I read the last chapter a few days ago and found it truly interesting."
               ],
               "scoring_weights": {
                 "checkpoints": 60,
@@ -14885,7 +23057,7 @@ const LETTERS_DATA = [
       {
         "id": "de-25",
         "title_en": "Apology to a professor for late assignment submission",
-        "title_vi": "Đề 25: Hồi âm email xin lỗi giáo sư vì nộp bài tập muộn hạn",
+        "title_vi": "Đề 04: Hồi âm email xin lỗi giáo sư vì nộp bài tập muộn hạn",
         "recipient_type": "Formal (Giáo sư - Professor)",
         "target_words": 120,
         "tags": [
@@ -15447,9 +23619,9 @@ const LETTERS_DATA = [
             ]
           },
           "sample_b2": {
-            "letter_en": "Dear Professor,\n\nPlease accept this letter as my sincere apology for failing to submit the required course assignment before Friday's deadline. I deeply regret any inconvenience this may have caused, and I would like to provide an explanation.\n\nFirst of all, here is the reason for this regrettable delay. I couldn’t manage to complete the assigned problem sets on time because I contracted a severe viral infection that required emergency medical attention and strict bed rest over the weekend. Fortunately, I have now fully recovered my health, enabling me to finalize every problem set meticulously according to the syllabus guidelines. Next, let me make it up to you by submitting the complete assignment solutions attached along with my medical certification for your review. I’ll make sure this does not happen again and would love to prepare a comprehensive case summary to demonstrate my commitment to academic excellence.\n\nI’m really sorry once again. I truly appreciate your understanding. I look forward to hearing from you soon.\n\nYours sincerely,",
+            "letter_en": "Dear Professor,\n\nPlease accept this letter as my sincere apology for failing to submit the required course assignment before Friday's deadline. I deeply regret any inconvenience this may have caused, and I would like to provide an explanation.\n\nFirst of all, here is the reason for this regrettable delay. I couldn’t manage to complete the assigned problem sets on time because I contracted a severe viral infection that required emergency medical attention and strict bed rest over the weekend. Fortunately, I have now fully recovered my health, enabling me to finalize every problem set carefully according to the syllabus guidelines. Next, let me make it up to you by submitting the complete assignment solutions attached along with my medical certification for your review. I’ll make sure this does not happen again and would love to prepare a comprehensive case summary to demonstrate my commitment to academic excellence.\n\nI’m really sorry once again. I truly appreciate your understanding. I look forward to hearing from you soon.\n\nYours sincerely,",
             "letter_vi": "Kính gửi Giáo sư,\n\nEm xin gửi lời xin lỗi chân thành nhất tới thầy/cô vì đã không thể nộp bài tập môn học trước hạn chót thứ Sáu vừa qua. Em vô cùng ân hận về bất kỳ sự bất tiện nào đã gây ra, và em xin phép được giải trình lý do cụ thể.\n\nTrước hết, đây là nguyên nhân dẫn đến sự chậm trễ đáng tiếc này. Em đã không thể hoàn thành các bài tập đúng hạn do bị nhiễm virus nặng, phải nhập viện cấp cứu và được chỉ định nghỉ ngơi nghiêm ngặt trong suốt những ngày cuối tuần. May mắn thay, hiện tại sức khỏe của em đã hồi phục hoàn toàn, giúp em có thể hoàn thiện tỉ mỉ từng bài tập theo đúng yêu cầu của đề cương. Tiếp theo, em xin phép được gửi toàn bộ bài giải hoàn chỉnh đính kèm cùng giấy chứng nhận y tế để thầy/cô xem xét. Em cam đoan sẽ không để sự việc tương tự lặp lại và rất mong muốn được chuẩn bị thêm một bản tóm tắt tình huống chuyên sâu để chứng minh tinh thần học tập nghiêm túc của mình.\n\nMột lần nữa em xin chân thành xin lỗi thầy/cô. Em vô cùng cảm kích sự thấu hiểu của thầy/cô. Em rất mong sớm nhận được phản hồi.\n\nKính thư,",
-            "text": "Dear Professor,\n\nPlease accept this letter as my sincere apology for failing to submit the required course assignment before Friday's deadline. I deeply regret any inconvenience this may have caused, and I would like to provide an explanation.\n\nFirst of all, here is the reason for this regrettable delay. I couldn’t manage to complete the assigned problem sets on time because I contracted a severe viral infection that required emergency medical attention and strict bed rest over the weekend. Fortunately, I have now fully recovered my health, enabling me to finalize every problem set meticulously according to the syllabus guidelines. Next, let me make it up to you by submitting the complete assignment solutions attached along with my medical certification for your review. I’ll make sure this does not happen again and would love to prepare a comprehensive case summary to demonstrate my commitment to academic excellence.\n\nI’m really sorry once again. I truly appreciate your understanding. I look forward to hearing from you soon.\n\nYours sincerely,",
+            "text": "Dear Professor,\n\nPlease accept this letter as my sincere apology for failing to submit the required course assignment before Friday's deadline. I deeply regret any inconvenience this may have caused, and I would like to provide an explanation.\n\nFirst of all, here is the reason for this regrettable delay. I couldn’t manage to complete the assigned problem sets on time because I contracted a severe viral infection that required emergency medical attention and strict bed rest over the weekend. Fortunately, I have now fully recovered my health, enabling me to finalize every problem set carefully according to the syllabus guidelines. Next, let me make it up to you by submitting the complete assignment solutions attached along with my medical certification for your review. I’ll make sure this does not happen again and would love to prepare a comprehensive case summary to demonstrate my commitment to academic excellence.\n\nI’m really sorry once again. I truly appreciate your understanding. I look forward to hearing from you soon.\n\nYours sincerely,",
             "translation": "Kính gửi Giáo sư,\n\nEm xin gửi lời xin lỗi chân thành nhất tới thầy/cô vì đã không thể nộp bài tập môn học trước hạn chót thứ Sáu vừa qua. Em vô cùng ân hận về bất kỳ sự bất tiện nào đã gây ra, và em xin phép được giải trình lý do cụ thể.\n\nTrước hết, đây là nguyên nhân dẫn đến sự chậm trễ đáng tiếc này. Em đã không thể hoàn thành các bài tập đúng hạn do bị nhiễm virus nặng, phải nhập viện cấp cứu và được chỉ định nghỉ ngơi nghiêm ngặt trong suốt những ngày cuối tuần. May mắn thay, hiện tại sức khỏe của em đã hồi phục hoàn toàn, giúp em có thể hoàn thiện tỉ mỉ từng bài tập theo đúng yêu cầu của đề cương. Tiếp theo, em xin phép được gửi toàn bộ bài giải hoàn chỉnh đính kèm cùng giấy chứng nhận y tế để thầy/cô xem xét. Em cam đoan sẽ không để sự việc tương tự lặp lại và rất mong muốn được chuẩn bị thêm một bản tóm tắt tình huống chuyên sâu để chứng minh tinh thần học tập nghiêm túc của mình.\n\nMột lần nữa em xin chân thành xin lỗi thầy/cô. Em vô cùng cảm kích sự thấu hiểu của thầy/cô. Em rất mong sớm nhận được phản hồi.\n\nKính thư,",
             "word_count": 167,
             "key_structures": [
@@ -15476,7 +23648,7 @@ const LETTERS_DATA = [
       {
         "id": "de-33",
         "title_en": "Formal apology and full refund process letter to Ms. Smith regarding hotel service",
-        "title_vi": "Đề 33: Quản lý khách sạn gửi thư xin lỗi và bồi hoàn cho cô Smith",
+        "title_vi": "Đề 05: Quản lý khách sạn gửi thư xin lỗi và bồi hoàn cho cô Smith",
         "recipient_type": "Formal (Khách hàng - Ms. Smith)",
         "target_words": 120,
         "tags": [
@@ -15563,7 +23735,7 @@ const LETTERS_DATA = [
               "vi": "sự hài lòng của khách hàng"
             },
             {
-              "en": "substandard experience",
+              "en": "poor experience",
               "vi": "trải nghiệm dưới mức tiêu chuẩn"
             },
             {
@@ -15634,10 +23806,10 @@ const LETTERS_DATA = [
               "id": 1,
               "part": "1. Mở thư B2 (Formal & Sincere Apology)",
               "vi": "Tôi viết thư này để gửi lời xin lỗi chân thành nhất tới bà về những bất tiện và dịch vụ thiếu sót trong kỳ nghỉ vừa qua.",
-              "en": "I am writing to extend our sincerest apologies regarding the substandard service and inconveniences you encountered during your recent stay.",
+              "en": "I am writing to extend our sincerest apologies regarding the poor service and inconveniences you encountered during your recent stay.",
               "hints": [
                 "extend our sincerest apologies regarding",
-                "substandard service and inconveniences you encountered"
+                "poor service and inconveniences you encountered"
               ],
               "explanation": "Dùng cụm từ trang trọng 'extend our sincerest apologies regarding'."
             },
@@ -15656,9 +23828,9 @@ const LETTERS_DATA = [
               "id": 3,
               "part": "3. Thân bài B2 - Ý 2 (Automated Refund Execution)",
               "vi": "Khoản hoàn tiền toàn phần đã được bộ phận kế toán xử lý và sẽ ghi có trực tiếp vào tài khoản ngân hàng của bà trong vòng 3 đến 5 ngày.",
-              "en": "A full reimbursement has already been processed by our finance department and will be credited directly to your bank account within five business days.",
+              "en": "A full refund has already been processed by our finance department and will be credited directly to your bank account within five business days.",
               "hints": [
-                "full reimbursement has already been processed",
+                "full refund has already been processed",
                 "credited directly to your bank account"
               ],
               "explanation": "Cấu trúc bị động trang trọng 'has already been processed... will be credited'."
@@ -15678,7 +23850,7 @@ const LETTERS_DATA = [
               "id": 5,
               "part": "5. Thân bài B2 - Ý 4 (Goodwill gesture & Invitation)",
               "vi": "Chúng tôi rất trân trọng cơ hội được đón tiếp bà trong tương lai với một kỳ nâng hạng phòng miễn phí để chứng minh sự cam kết đổi mới.",
-              "en": "We would genuinely value the opportunity to welcome you back with a complimentary room upgrade to demonstrate our renewed commitment to excellence.",
+              "en": "We would genuinely value the opportunity to welcome you back with a free room upgrade to demonstrate our renewed commitment to excellence.",
               "hints": [
                 "genuinely value the opportunity to welcome you back",
                 "renewed commitment to excellence"
@@ -15724,7 +23896,7 @@ const LETTERS_DATA = [
             "structure_analysis": [
               {
                 "label": "Formal Salutation & Opening",
-                "desc": "Expressing sincere regret for substandard service and taking full managerial responsibility"
+                "desc": "Expressing sincere regret for poor service and taking full managerial responsibility"
               },
               {
                 "label": "Investigation & Root Cause",
@@ -15740,7 +23912,7 @@ const LETTERS_DATA = [
               },
               {
                 "label": "Customer Goodwill & Closing",
-                "desc": "Offering complimentary upgrades for future stays, expressing gratitude, and professional sign-off"
+                "desc": "Offering free upgrades for future stays, expressing gratitude, and professional sign-off"
               }
             ]
           },
@@ -15796,7 +23968,7 @@ const LETTERS_DATA = [
                   "reason_vi": "bởi vì chúng tôi muốn chứng minh cam kết chân thành về dịch vụ khách hàng công bằng."
                 },
                 {
-                  "action_en": "the reimbursement will be credited within five business days",
+                  "action_en": "the refund will be credited within five business days",
                   "action_vi": "khoản tiền bồi hoàn sẽ được ghi có vào tài khoản trong vòng năm ngày làm việc",
                   "reason_en": "because domestic inter-bank wire transfers require standard clearance time.",
                   "reason_vi": "bởi vì các giao dịch chuyển khoản liên ngân hàng trong nước cần thời gian đối soát thông thường."
@@ -15814,7 +23986,7 @@ const LETTERS_DATA = [
                   "reason_vi": "bởi vì chúng tôi muốn giải tỏa mọi sự không hài lòng còn đọng lại sau chuyến đi."
                 },
                 {
-                  "action_en": "you can choose to receive cash reimbursement at our reception desk",
+                  "action_en": "you can choose to receive cash refund at our reception desk",
                   "action_vi": "bà có thể chọn nhận lại tiền mặt trực tiếp tại quầy lễ tân của chúng tôi",
                   "reason_en": "because this option provides immediate settlement whenever you are nearby.",
                   "reason_vi": "bởi vì lựa chọn này giúp quyết toán ngay lập tức bất cứ khi nào bà thuận tiện ghé qua."
@@ -15866,7 +24038,7 @@ const LETTERS_DATA = [
               "icon": "fa-gift",
               "options": [
                 {
-                  "action_en": "I would like to offer you a complimentary weekend stay in our Executive Suite",
+                  "action_en": "I would like to offer you a free weekend stay in our Executive Suite",
                   "action_vi": "tôi xin được gửi tặng bà một kỳ nghỉ cuối tuần miễn phí tại phòng Executive Suite",
                   "reason_en": "because we hope to demonstrate our genuine service improvements in person.",
                   "reason_vi": "bởi vì chúng tôi hy vọng được trực tiếp chứng minh những đổi mới dịch vụ thực sự của mình."
@@ -15874,11 +24046,11 @@ const LETTERS_DATA = [
                 {
                   "action_en": "we have enclosed a free dinner voucher for two at our rooftop restaurant",
                   "action_vi": "chúng tôi xin gửi kèm một phiếu ăn tối miễn phí cho hai người tại nhà hàng tầng thượng",
-                  "reason_en": "because we wish to treat you to an unforgettable culinary experience.",
+                  "reason_en": "because we wish to treat you to an unforgettable food experience.",
                   "reason_vi": "bởi vì chúng tôi mong muốn được thết đãi bà một trải nghiệm ẩm thực khó quên."
                 },
                 {
-                  "action_en": "you will receive complimentary airport transfer on your next trip",
+                  "action_en": "you will receive free airport transfer on your next trip",
                   "action_vi": "bà sẽ được đưa đón sân bay miễn phí trong chuyến đi tiếp theo",
                   "reason_en": "because our private chauffeur can provide smooth and relaxing transportation.",
                   "reason_vi": "bởi vì tài xế riêng của chúng tôi sẽ mang lại sự di chuyển êm ái và thư giãn."
@@ -15965,7 +24137,7 @@ const LETTERS_DATA = [
       {
         "id": "de-13",
         "title_en": "Application for a part-time waiter position at a restaurant",
-        "title_vi": "Đề 13: Ứng tuyển vị trí nhân viên phục vụ bán thời gian tại nhà hàng",
+        "title_vi": "Đề 01: Ứng tuyển vị trí nhân viên phục vụ bán thời gian tại nhà hàng",
         "recipient_type": "Formal (Nhà tuyển dụng / Quản lý nhà hàng)",
         "target_words": 120,
         "tags": [
@@ -16155,9 +24327,9 @@ const LETTERS_DATA = [
             ]
           },
           "sample_b2": {
-            "letter_en": "Dear Sir/Madam,\n\nI am writing to apply for the position of Part-time Waiter at Sunflower Restaurant, which was advertised on your official employment portal. Currently, I am a third-year university student majoring in Hospitality Management, seeking a dynamic working environment to enhance my professional abilities.\n\nI am particularly interested in this position because it closely matches my career aspirations in culinary hospitality. In addition, I take great pride in delivering thoughtful table service and ensuring that each guest enjoys an exceptional dining experience. Therefore, I believe this role provides a valuable opportunity to apply my academic foundation and gain hands-on service expertise.\n\nPreviously, I worked part-time as a food runner and barista at an upscale bistro for eight months. In this role, I was responsible for serving multi-course meals, coordinating with the kitchen line, and handling customer inquiries with composure during peak hours. This experience allowed me to develop essential competencies such as proactive communication, active listening, and problem-solving under pressure.\n\nI believe I would be an ideal candidate for this position because I am highly reliable, energetic, and adaptable. I am confident that I can make an immediate positive contribution to your team.\n\nI would be grateful if you could consider my application. I am available for an interview at your convenience and look forward to hearing from you soon.\n\nYours faithfully,",
+            "letter_en": "Dear Sir/Madam,\n\nI am writing to apply for the position of Part-time Waiter at Sunflower Restaurant, which was advertised on your official employment portal. Currently, I am a third-year university student majoring in Hospitality Management, seeking a dynamic working environment to enhance my professional abilities.\n\nI am particularly interested in this position because it closely matches my career aspirations in food hospitality. In addition, I take great pride in delivering thoughtful table service and ensuring that each guest enjoys an exceptional dining experience. Therefore, I believe this role provides a valuable opportunity to apply my academic foundation and gain hands-on service expertise.\n\nPreviously, I worked part-time as a food runner and barista at an upscale bistro for eight months. In this role, I was responsible for serving multi-course meals, coordinating with the kitchen line, and handling customer inquiries with composure during peak hours. This experience allowed me to develop essential competencies such as proactive communication, active listening, and problem-solving under pressure.\n\nI believe I would be an ideal candidate for this position because I am highly reliable, energetic, and adaptable. I am confident that I can make an immediate positive contribution to your team.\n\nI would be grateful if you could consider my application. I am available for an interview at your convenience and look forward to hearing from you soon.\n\nYours faithfully,",
             "letter_vi": "Kính gửi Ban Tuyển dụng,\n\nTôi viết thư này để ứng tuyển vào vị trí Nhân viên phục vụ bán thời gian tại Nhà hàng Sunflower, vị trí được đăng tuyển trên cổng thông tin việc làm chính thức của quý nhà hàng. Hiện tại, tôi là sinh viên năm thứ ba chuyên ngành Quản trị Khách sạn, đang tìm kiếm một môi trường làm việc năng động để nâng cao năng lực chuyên môn của mình.\n\nTôi đặc biệt quan tâm đến vị trí này vì nó phù hợp chặt chẽ với nguyện vọng nghề nghiệp lâu dài của tôi trong ngành dịch vụ ẩm thực. Thêm vào đó, tôi luôn cảm thấy tự hào khi mang đến phong cách phục vụ chu đáo tại bàn và đảm bảo rằng mỗi thực khách đều có được một trải nghiệm ẩm thực trọn vẹn. Do đó, tôi tin rằng vị trí này sẽ mang lại cơ hội quý báu để tôi vận dụng kiến thức học thuật và rèn luyện kỹ năng thực tế.\n\nTrước đây, tôi từng làm việc bán thời gian với vai trò nhân viên phục vụ và pha chế tại một nhà hàng cao cấp trong tám tháng. Trong công việc này, tôi chịu trách nhiệm bưng bê các món ăn nhiều phần, phối hợp nhịp nhàng với khu vực bếp và xử lý các yêu cầu của khách hàng một cách điềm tĩnh trong các khung giờ cao điểm. Kinh nghiệm này đã giúp tôi phát triển các năng lực quan trọng như giao tiếp chủ động, lắng nghe thấu hiểu và giải quyết vấn đề dưới áp lực cao.\n\nTôi tin rằng mình sẽ là một ứng viên lý tưởng cho vị trí này vì tôi rất đáng tin cậy, tràn đầy năng lượng và có khả năng thích ứng linh hoạt. Tôi tin tưởng mình có thể đóng góp tích cực ngay lập tức cho đội ngũ của quý nhà hàng.\n\nTôi sẽ rất biết ơn nếu quý vị xem xét hồ sơ của tôi. Tôi sẵn sàng tham gia phỏng vấn vào thời gian thuận tiện của quý vị và mong sớm nhận được hồi âm.\n\nTrân trọng,",
-            "text": "Dear Sir/Madam,\n\nI am writing to apply for the position of Part-time Waiter at Sunflower Restaurant, which was advertised on your official employment portal. Currently, I am a third-year university student majoring in Hospitality Management, seeking a dynamic working environment to enhance my professional abilities.\n\nI am particularly interested in this position because it closely matches my career aspirations in culinary hospitality. In addition, I take great pride in delivering thoughtful table service and ensuring that each guest enjoys an exceptional dining experience. Therefore, I believe this role provides a valuable opportunity to apply my academic foundation and gain hands-on service expertise.\n\nPreviously, I worked part-time as a food runner and barista at an upscale bistro for eight months. In this role, I was responsible for serving multi-course meals, coordinating with the kitchen line, and handling customer inquiries with composure during peak hours. This experience allowed me to develop essential competencies such as proactive communication, active listening, and problem-solving under pressure.\n\nI believe I would be an ideal candidate for this position because I am highly reliable, energetic, and adaptable. I am confident that I can make an immediate positive contribution to your team.\n\nI would be grateful if you could consider my application. I am available for an interview at your convenience and look forward to hearing from you soon.\n\nYours faithfully,",
+            "text": "Dear Sir/Madam,\n\nI am writing to apply for the position of Part-time Waiter at Sunflower Restaurant, which was advertised on your official employment portal. Currently, I am a third-year university student majoring in Hospitality Management, seeking a dynamic working environment to enhance my professional abilities.\n\nI am particularly interested in this position because it closely matches my career aspirations in food hospitality. In addition, I take great pride in delivering thoughtful table service and ensuring that each guest enjoys an exceptional dining experience. Therefore, I believe this role provides a valuable opportunity to apply my academic foundation and gain hands-on service expertise.\n\nPreviously, I worked part-time as a food runner and barista at an upscale bistro for eight months. In this role, I was responsible for serving multi-course meals, coordinating with the kitchen line, and handling customer inquiries with composure during peak hours. This experience allowed me to develop essential competencies such as proactive communication, active listening, and problem-solving under pressure.\n\nI believe I would be an ideal candidate for this position because I am highly reliable, energetic, and adaptable. I am confident that I can make an immediate positive contribution to your team.\n\nI would be grateful if you could consider my application. I am available for an interview at your convenience and look forward to hearing from you soon.\n\nYours faithfully,",
             "translation": "Kính gửi Ban Tuyển dụng,\n\nTôi viết thư này để ứng tuyển vào vị trí Nhân viên phục vụ bán thời gian tại Nhà hàng Sunflower, vị trí được đăng tuyển trên cổng thông tin việc làm chính thức của quý nhà hàng. Hiện tại, tôi là sinh viên năm thứ ba chuyên ngành Quản trị Khách sạn, đang tìm kiếm một môi trường làm việc năng động để nâng cao năng lực chuyên môn của mình.\n\nTôi đặc biệt quan tâm đến vị trí này vì nó phù hợp chặt chẽ với nguyện vọng nghề nghiệp lâu dài của tôi trong ngành dịch vụ ẩm thực. Thêm vào đó, tôi luôn cảm thấy tự hào khi mang đến phong cách phục vụ chu đáo tại bàn và đảm bảo rằng mỗi thực khách đều có được một trải nghiệm ẩm thực trọn vẹn. Do đó, tôi tin rằng vị trí này sẽ mang lại cơ hội quý báu để tôi vận dụng kiến thức học thuật và rèn luyện kỹ năng thực tế.\n\nTrước đây, tôi từng làm việc bán thời gian với vai trò nhân viên phục vụ và pha chế tại một nhà hàng cao cấp trong tám tháng. Trong công việc này, tôi chịu trách nhiệm bưng bê các món ăn nhiều phần, phối hợp nhịp nhàng với khu vực bếp và xử lý các yêu cầu của khách hàng một cách điềm tĩnh trong các khung giờ cao điểm. Kinh nghiệm này đã giúp tôi phát triển các năng lực quan trọng như giao tiếp chủ động, lắng nghe thấu hiểu và giải quyết vấn đề dưới áp lực cao.\n\nTôi tin rằng mình sẽ là một ứng viên lý tưởng cho vị trí này vì tôi rất đáng tin cậy, tràn đầy năng lượng và có khả năng thích ứng linh hoạt. Tôi tin tưởng mình có thể đóng góp tích cực ngay lập tức cho đội ngũ của quý nhà hàng.\n\nTôi sẽ rất biết ơn nếu quý vị xem xét hồ sơ của tôi. Tôi sẵn sàng tham gia phỏng vấn vào thời gian thuận tiện của quý vị và mong sớm nhận được hồi âm.\n\nTrân trọng,",
             "word_count": 223,
             "key_structures": [
@@ -16283,7 +24455,7 @@ const LETTERS_DATA = [
                 {
                   "action_en": "I have robust physical stamina and can stay comfortably active on my feet throughout long shifts",
                   "action_vi": "tôi có sức khỏe dẻo dai và có thể di chuyển nhanh nhẹn liên tục suốt các ca làm việc dài",
-                  "reason_en": "because this helps maintain energetic posture and high service speed without fatigue.",
+                  "reason_en": "because this helps maintain energetic posture and high service speed without tiredness.",
                   "reason_vi": "duy trì tác phong nhanh nhẹn và tốc độ phục vụ cao mà không bị uể oải, mệt mỏi."
                 },
                 {
@@ -16334,7 +24506,7 @@ const LETTERS_DATA = [
                   "reason_vi": "vì tôi không có lịch học vào các buổi tối và cuối tuần."
                 },
                 {
-                  "action_en": "I am prepared to commence work immediately upon completion of the interview process",
+                  "action_en": "I am prepared to start work immediately upon completion of the interview process",
                   "action_vi": "tôi sẵn sàng bắt tay vào làm việc ngay sau khi hoàn thành buổi phỏng vấn tuyển dụng",
                   "reason_en": "because this helps hav already finalized my study timetable and personal commitments.",
                   "reason_vi": "vì tôi đã sắp xếp ổn định lịch học tập và các kế hoạch cá nhân."
@@ -16366,7 +24538,7 @@ const LETTERS_DATA = [
       {
         "id": "de-14",
         "title_en": "Application for an Event Assistant position at Student Cultural Festival",
-        "title_vi": "Đề 14: Đơn ứng tuyển vị trí Trợ lý Sự kiện (Event Assistant) cho Lễ hội Văn hóa Sinh viên",
+        "title_vi": "Đề 02: Đơn ứng tuyển vị trí Trợ lý Sự kiện (Event Assistant) cho Lễ hội Văn hóa Sinh viên",
         "recipient_type": "Formal (Ban tổ chức lễ hội)",
         "target_words": 120,
         "tags": [
@@ -16787,7 +24959,7 @@ const LETTERS_DATA = [
       {
         "id": "de-26",
         "title_en": "Job application email for a sales assistant at a clothing store",
-        "title_vi": "Đề 26: Ứng tuyển vị trí nhân viên bán hàng tại cửa hàng quần áo",
+        "title_vi": "Đề 03: Ứng tuyển vị trí nhân viên bán hàng tại cửa hàng quần áo",
         "recipient_type": "Formal (Nhà tuyển dụng / Quản lý cửa hàng thời trang)",
         "target_words": 120,
         "tags": [
@@ -17231,7 +25403,7 @@ const LETTERS_DATA = [
                 }
               ],
               "alternatives": [
-                "Regarding my experience, I have six months of experience working in retail customer service at a clothing boutique.",
+                "Regarding my experience, I have six months of experience working in retail customer service at a clothing store.",
                 "I spent half a year working part-time in sales at a downtown apparel shop, which gave me valuable customer skills."
               ],
               "scoring_weights": {
@@ -17402,7 +25574,7 @@ const LETTERS_DATA = [
       {
         "id": "de-27",
         "title_en": "Job application email for a hotel receptionist position",
-        "title_vi": "Đề 27: Ứng tuyển vị trí lễ tân tại khách sạn nhỏ trong thành phố",
+        "title_vi": "Đề 04: Ứng tuyển vị trí lễ tân tại khách sạn nhỏ trong thành phố",
         "recipient_type": "Formal (Nhà tuyển dụng / Quản lý khách sạn - Hotel Manager)",
         "target_words": 120,
         "tags": [
@@ -17458,11 +25630,11 @@ const LETTERS_DATA = [
               "icon": "fa-hotel",
               "options": [
                 {
-                  "action_en": "I really want to work at your boutique hotel",
+                  "action_en": "I really want to work at your small hotel",
                   "action_vi": "tôi rất muốn làm việc tại khách sạn ấm cúng của quý vị",
                   "reason_en": "because I love giving personal and friendly service to every guest.",
                   "reason_vi": "vì tôi thích mang lại sự phục vụ tận tình và thân thiện cho từng vị khách.",
-                  "b1_sentence": "I really want to work at your boutique hotel because I love giving personal and friendly service to every guest."
+                  "b1_sentence": "I really want to work at your small hotel because I love giving personal and friendly service to every guest."
                 },
                 {
                   "action_en": "I want to become a receptionist at your hotel",
@@ -17793,7 +25965,7 @@ const LETTERS_DATA = [
                 }
               ],
               "alternatives": [
-                "I have gained valuable practical experience through working as a front-desk intern at a small boutique hotel.",
+                "I have gained valuable practical experience through working as a front-desk intern at a small small hotel.",
                 "In terms of relevant experience, I previously worked as a receptionist trainee at a nearby tourist hotel."
               ],
               "scoring_weights": {
@@ -17909,9 +26081,9 @@ const LETTERS_DATA = [
             }
           ],
           "sample_b1": {
-            "letter_en": "Dear Sir/Madam,\n\nI am writing to apply for the position of receptionist which was advertised on your hotel website.\n\nI recently graduated from Can Tho University with a bachelor’s degree in English Language and Tourism. During my studies, I developed a strong understanding of front desk operations and hospitality communication. I also gained useful skills such as customer service and computer literacy. I am very interested in this position because it matches my career goals. In addition, I enjoy welcoming international guests and assisting visitors with travel inquiries. Therefore, I believe this job will give me a good opportunity to apply what I have learned and gain practical hotel experience. I worked part-time as a receptionist at a boutique homestay for six months. In this job, I was responsible for check-in procedures and booking city tours. I believe I would be a suitable candidate because I am polite, enthusiastic, and dependable.\n\nI would be grateful if you could consider my application. I look forward to receiving your reply soon.\n\nYours faithfully,",
+            "letter_en": "Dear Sir/Madam,\n\nI am writing to apply for the position of receptionist which was advertised on your hotel website.\n\nI recently graduated from Can Tho University with a bachelor’s degree in English Language and Tourism. During my studies, I developed a strong understanding of front desk operations and hospitality communication. I also gained useful skills such as customer service and computer literacy. I am very interested in this position because it matches my career goals. In addition, I enjoy welcoming international guests and assisting visitors with travel inquiries. Therefore, I believe this job will give me a good opportunity to apply what I have learned and gain practical hotel experience. I worked part-time as a receptionist at a friendly homestay for six months. In this job, I was responsible for check-in procedures and booking city tours. I believe I would be a suitable candidate because I am polite, enthusiastic, and dependable.\n\nI would be grateful if you could consider my application. I look forward to receiving your reply soon.\n\nYours faithfully,",
             "letter_vi": "Kính gửi Ban Tuyển dụng,\n\nTôi viết thư này để ứng tuyển vào vị trí nhân viên lễ tân được đăng tuyển trên trang web của khách sạn.\n\nTôi vừa tốt nghiệp Đại học Cần Thơ chuyên ngành Ngôn ngữ Anh và Du lịch. Trong quá trình học tập, tôi đã tích lũy được hiểu biết vững chắc về nghiệp vụ lễ tân và giao tiếp trong ngành khách sạn. Tôi cũng rèn luyện được các kỹ năng hữu ích như chăm sóc khách hàng và tin học văn phòng. Tôi rất quan tâm đến vị trí này vì nó phù hợp với định hướng nghề nghiệp của tôi. Thêm vào đó, tôi rất thích đón tiếp các du khách quốc tế và hỗ trợ khách lưu trú giải đáp các thắc mắc về du lịch. Do đó, tôi tin rằng công việc này sẽ đem lại cơ hội tốt để tôi áp dụng những gì đã học và tích lũy kinh nghiệm khách sạn thực tế. Tôi từng làm nhân viên lễ tân bán thời gian tại một homestay xinh xắn trong sáu tháng, nơi tôi chịu trách nhiệm làm thủ tục nhận phòng và hỗ trợ đặt các tour tham quan thành phố. Tôi tin rằng mình là một ứng viên phù hợp vì tôi luôn lịch sự, nhiệt tình và đáng tin cậy.\n\nTôi rất biết ơn nếu quý vị xem xét hồ sơ ứng tuyển của tôi. Tôi rất mong sớm nhận được phản hồi.\n\nTrân trọng,",
-            "text": "Dear Sir/Madam,\n\nI am writing to apply for the position of receptionist which was advertised on your hotel website.\n\nI recently graduated from Can Tho University with a bachelor’s degree in English Language and Tourism. During my studies, I developed a strong understanding of front desk operations and hospitality communication. I also gained useful skills such as customer service and computer literacy. I am very interested in this position because it matches my career goals. In addition, I enjoy welcoming international guests and assisting visitors with travel inquiries. Therefore, I believe this job will give me a good opportunity to apply what I have learned and gain practical hotel experience. I worked part-time as a receptionist at a boutique homestay for six months. In this job, I was responsible for check-in procedures and booking city tours. I believe I would be a suitable candidate because I am polite, enthusiastic, and dependable.\n\nI would be grateful if you could consider my application. I look forward to receiving your reply soon.\n\nYours faithfully,",
+            "text": "Dear Sir/Madam,\n\nI am writing to apply for the position of receptionist which was advertised on your hotel website.\n\nI recently graduated from Can Tho University with a bachelor’s degree in English Language and Tourism. During my studies, I developed a strong understanding of front desk operations and hospitality communication. I also gained useful skills such as customer service and computer literacy. I am very interested in this position because it matches my career goals. In addition, I enjoy welcoming international guests and assisting visitors with travel inquiries. Therefore, I believe this job will give me a good opportunity to apply what I have learned and gain practical hotel experience. I worked part-time as a receptionist at a friendly homestay for six months. In this job, I was responsible for check-in procedures and booking city tours. I believe I would be a suitable candidate because I am polite, enthusiastic, and dependable.\n\nI would be grateful if you could consider my application. I look forward to receiving your reply soon.\n\nYours faithfully,",
             "translation": "Kính gửi Ban Tuyển dụng,\n\nTôi viết thư này để ứng tuyển vào vị trí nhân viên lễ tân được đăng tuyển trên trang web của khách sạn.\n\nTôi vừa tốt nghiệp Đại học Cần Thơ chuyên ngành Ngôn ngữ Anh và Du lịch. Trong quá trình học tập, tôi đã tích lũy được hiểu biết vững chắc về nghiệp vụ lễ tân và giao tiếp trong ngành khách sạn. Tôi cũng rèn luyện được các kỹ năng hữu ích như chăm sóc khách hàng và tin học văn phòng. Tôi rất quan tâm đến vị trí này vì nó phù hợp với định hướng nghề nghiệp của tôi. Thêm vào đó, tôi rất thích đón tiếp các du khách quốc tế và hỗ trợ khách lưu trú giải đáp các thắc mắc về du lịch. Do đó, tôi tin rằng công việc này sẽ đem lại cơ hội tốt để tôi áp dụng những gì đã học và tích lũy kinh nghiệm khách sạn thực tế. Tôi từng làm nhân viên lễ tân bán thời gian tại một homestay xinh xắn trong sáu tháng, nơi tôi chịu trách nhiệm làm thủ tục nhận phòng và hỗ trợ đặt các tour tham quan thành phố. Tôi tin rằng mình là một ứng viên phù hợp vì tôi luôn lịch sự, nhiệt tình và đáng tin cậy.\n\nTôi rất biết ơn nếu quý vị xem xét hồ sơ ứng tuyển của tôi. Tôi rất mong sớm nhận được phản hồi.\n\nTrân trọng,",
             "word_count": 171,
             "key_structures": [
@@ -17934,9 +26106,9 @@ const LETTERS_DATA = [
             ]
           },
           "sample_b2": {
-            "letter_en": "Dear Sir/Madam,\n\nI am writing to apply for the position of Hotel Receptionist, which was advertised on your official recruitment portal. Currently, I am a recent university graduate with honors in Hospitality and International Tourism, seeking a dynamic working environment to enhance my professional abilities.\n\nI am particularly interested in this position because it closely matches my career aspirations in luxury hospitality management. In addition, I have a genuine passion for guest relations and intercultural communication, which strongly motivates me to deliver exceptional service at your front desk. Therefore, I believe this position will afford me a valuable opportunity to apply my academic knowledge and gain frontline hospitality experience.\n\nPreviously, I worked part-time as a guest service agent at a four-star city hotel for nine months. In this role, I was responsible for managing front-desk check-in protocols, handling foreign currency exchanges, and promptly resolving customer inquiries in both English and Vietnamese. This experience allowed me to develop essential competencies such as conflict de-escalation, professional composure, and effective multitasking during peak check-in intervals.\n\nI believe I would be an ideal candidate for this position because I am highly articulate, courteous, and conscientious. I am confident that I can make a meaningful contribution to your establishment's reputation for hospitality excellence.\n\nI would be grateful if you could consider my application. I am available for an interview at your convenience and look forward to hearing from you soon.\n\nYours faithfully,",
+            "letter_en": "Dear Sir/Madam,\n\nI am writing to apply for the position of Hotel Receptionist, which was advertised on your official recruitment portal. Currently, I am a recent university graduate with honors in Hospitality and International Tourism, seeking a dynamic working environment to enhance my professional abilities.\n\nI am particularly interested in this position because it closely matches my career aspirations in luxury hospitality management. In addition, I have a genuine passion for guest relations and intercultural communication, which strongly motivates me to deliver exceptional service at your front desk. Therefore, I believe this position will afford me a valuable opportunity to apply my academic knowledge and gain frontline hospitality experience.\n\nPreviously, I worked part-time as a guest service agent at a four-star city hotel for nine months. In this role, I was responsible for managing front-desk check-in protocols, handling foreign currency exchanges, and promptly resolving customer inquiries in both English and Vietnamese. This experience allowed me to develop essential competencies such as conflict de-escalation, professional composure, and effective multitasking during peak check-in intervals.\n\nI believe I would be an ideal candidate for this position because I am highly articulate, polite, and conscientious. I am confident that I can make a meaningful contribution to your establishment's reputation for hospitality excellence.\n\nI would be grateful if you could consider my application. I am available for an interview at your convenience and look forward to hearing from you soon.\n\nYours faithfully,",
             "letter_vi": "Kính gửi Ban Tuyển dụng Khách sạn,\n\nTôi viết thư này để ứng tuyển vào vị trí Nhân viên Lễ tân Khách sạn, vị trí được đăng tuyển trên cổng thông tin tuyển dụng chính thức của quý khách sạn. Hiện tại, tôi vừa tốt nghiệp đại học loại giỏi chuyên ngành Quản trị Du lịch và Khách sạn Quốc tế, đang tìm kiếm một môi trường làm việc năng động để phát triển năng lực chuyên môn của mình.\n\nTôi đặc biệt quan tâm đến vị trí này vì nó hoàn toàn phù hợp với nguyện vọng nghề nghiệp lâu dài của tôi trong lĩnh vực quản trị khách sạn cao cấp. Thêm vào đó, tôi có niềm đam mê chân thành với công tác chăm sóc khách hàng và giao lưu văn hóa quốc tế, điều này thúc đẩy tôi nỗ lực mang lại dịch vụ đón tiếp xuất sắc nhất tại quầy lễ tân của quý vị. Do đó, tôi tin rằng công việc này sẽ đem đến cơ hội quý giá để tôi áp dụng kiến thức chuyên ngành và tích lũy kinh nghiệm thực tiễn tuyến đầu.\n\nTrước đây, tôi từng làm nhân viên chăm sóc khách hàng tại một khách sạn bốn sao trong thành phố trong chín tháng. Trong vai trò này, tôi chịu trách nhiệm thực hiện các thủ tục nhận phòng, xử lý các giao dịch đổi ngoại tệ và giải quyết nhanh chóng các thắc mắc của khách bằng cả tiếng Anh và tiếng Việt. Kinh nghiệm này đã giúp tôi rèn luyện các kỹ năng thiết yếu như xử lý tình huống khéo léo, giữ vững phong thái chuyên nghiệp và làm việc đa nhiệm hiệu quả trong những khung giờ nhận phòng cao điểm.\n\nTôi tin rằng mình sẽ là một ứng viên lý tưởng cho vị trí này vì tôi ăn nói lưu loát, luôn nhã nhặn và có tinh thần trách nhiệm cao. Tôi tự tin rằng mình có thể đóng góp tích cực vào uy tín phục vụ hoàn hảo của khách sạn.\n\nTôi sẽ rất biết ơn nếu quý vị xem xét hồ sơ của tôi. Tôi sẵn sàng tham gia phỏng vấn vào bất kỳ thời gian thuận tiện nào và mong sớm nhận được phản hồi từ quý vị.\n\nTrân trọng,",
-            "text": "Dear Sir/Madam,\n\nI am writing to apply for the position of Hotel Receptionist, which was advertised on your official recruitment portal. Currently, I am a recent university graduate with honors in Hospitality and International Tourism, seeking a dynamic working environment to enhance my professional abilities.\n\nI am particularly interested in this position because it closely matches my career aspirations in luxury hospitality management. In addition, I have a genuine passion for guest relations and intercultural communication, which strongly motivates me to deliver exceptional service at your front desk. Therefore, I believe this position will afford me a valuable opportunity to apply my academic knowledge and gain frontline hospitality experience.\n\nPreviously, I worked part-time as a guest service agent at a four-star city hotel for nine months. In this role, I was responsible for managing front-desk check-in protocols, handling foreign currency exchanges, and promptly resolving customer inquiries in both English and Vietnamese. This experience allowed me to develop essential competencies such as conflict de-escalation, professional composure, and effective multitasking during peak check-in intervals.\n\nI believe I would be an ideal candidate for this position because I am highly articulate, courteous, and conscientious. I am confident that I can make a meaningful contribution to your establishment's reputation for hospitality excellence.\n\nI would be grateful if you could consider my application. I am available for an interview at your convenience and look forward to hearing from you soon.\n\nYours faithfully,",
+            "text": "Dear Sir/Madam,\n\nI am writing to apply for the position of Hotel Receptionist, which was advertised on your official recruitment portal. Currently, I am a recent university graduate with honors in Hospitality and International Tourism, seeking a dynamic working environment to enhance my professional abilities.\n\nI am particularly interested in this position because it closely matches my career aspirations in luxury hospitality management. In addition, I have a genuine passion for guest relations and intercultural communication, which strongly motivates me to deliver exceptional service at your front desk. Therefore, I believe this position will afford me a valuable opportunity to apply my academic knowledge and gain frontline hospitality experience.\n\nPreviously, I worked part-time as a guest service agent at a four-star city hotel for nine months. In this role, I was responsible for managing front-desk check-in protocols, handling foreign currency exchanges, and promptly resolving customer inquiries in both English and Vietnamese. This experience allowed me to develop essential competencies such as conflict de-escalation, professional composure, and effective multitasking during peak check-in intervals.\n\nI believe I would be an ideal candidate for this position because I am highly articulate, polite, and conscientious. I am confident that I can make a meaningful contribution to your establishment's reputation for hospitality excellence.\n\nI would be grateful if you could consider my application. I am available for an interview at your convenience and look forward to hearing from you soon.\n\nYours faithfully,",
             "translation": "Kính gửi Ban Tuyển dụng Khách sạn,\n\nTôi viết thư này để ứng tuyển vào vị trí Nhân viên Lễ tân Khách sạn, vị trí được đăng tuyển trên cổng thông tin tuyển dụng chính thức của quý khách sạn. Hiện tại, tôi vừa tốt nghiệp đại học loại giỏi chuyên ngành Quản trị Du lịch và Khách sạn Quốc tế, đang tìm kiếm một môi trường làm việc năng động để phát triển năng lực chuyên môn của mình.\n\nTôi đặc biệt quan tâm đến vị trí này vì nó hoàn toàn phù hợp với nguyện vọng nghề nghiệp lâu dài của tôi trong lĩnh vực quản trị khách sạn cao cấp. Thêm vào đó, tôi có niềm đam mê chân thành với công tác chăm sóc khách hàng và giao lưu văn hóa quốc tế, điều này thúc đẩy tôi nỗ lực mang lại dịch vụ đón tiếp xuất sắc nhất tại quầy lễ tân của quý vị. Do đó, tôi tin rằng công việc này sẽ đem đến cơ hội quý giá để tôi áp dụng kiến thức chuyên ngành và tích lũy kinh nghiệm thực tiễn tuyến đầu.\n\nTrước đây, tôi từng làm nhân viên chăm sóc khách hàng tại một khách sạn bốn sao trong thành phố trong chín tháng. Trong vai trò này, tôi chịu trách nhiệm thực hiện các thủ tục nhận phòng, xử lý các giao dịch đổi ngoại tệ và giải quyết nhanh chóng các thắc mắc của khách bằng cả tiếng Anh và tiếng Việt. Kinh nghiệm này đã giúp tôi rèn luyện các kỹ năng thiết yếu như xử lý tình huống khéo léo, giữ vững phong thái chuyên nghiệp và làm việc đa nhiệm hiệu quả trong những khung giờ nhận phòng cao điểm.\n\nTôi tin rằng mình sẽ là một ứng viên lý tưởng cho vị trí này vì tôi ăn nói lưu loát, luôn nhã nhặn và có tinh thần trách nhiệm cao. Tôi tự tin rằng mình có thể đóng góp tích cực vào uy tín phục vụ hoàn hảo của khách sạn.\n\nTôi sẽ rất biết ơn nếu quý vị xem xét hồ sơ của tôi. Tôi sẵn sàng tham gia phỏng vấn vào bất kỳ thời gian thuận tiện nào và mong sớm nhận được phản hồi từ quý vị.\n\nTrân trọng,",
             "word_count": 237,
             "key_structures": [
@@ -17957,6 +26129,451 @@ const LETTERS_DATA = [
                 "vi": "Tôi tin rằng mình sẽ là ứng viên lý tưởng vì..."
               }
             ]
+          }
+        }
+      },
+      {
+        "id": "de-38",
+        "title_en": "Email to the hiring manager about a face-to-face interview",
+        "title_vi": "Đề 05: Phản hồi nhà tuyển dụng về mức lương mong muốn, lịch phỏng vấn và ngày bắt đầu đi làm",
+        "recipient_type": "Formal (Nhà tuyển dụng - Hiring Manager)",
+        "target_words": 120,
+        "tags": [
+          "Phỏng vấn",
+          "Xin việc",
+          "Mức lương",
+          "Lịch hẹn",
+          "Chuẩn B1"
+        ],
+        "context": "A company has reviewed your application and CV and is considering you for a position. The hiring manager would like to arrange a face-to-face interview. Write an email to the hiring manager.",
+        "prompt": "A company has reviewed your application and CV and is considering you for a position. The hiring manager would like to arrange a face-to-face interview. Write an email to the hiring manager.\n\nIn your email you should say:\n1. what salary you would expect\n2. when you would be available for the interview\n3. when you could start work if you were offered the job\n\nWrite at least 120 words. You do not need to include your name or addresses. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt_vi": "Một công ty đã xem xét đơn xin việc và CV của bạn và đang cân nhắc tuyển dụng bạn vào một vị trí. Quản lý tuyển dụng muốn sắp xếp một buổi phỏng vấn trực tiếp. Hãy viết một email gửi cho quản lý tuyển dụng.\n\nTrong email, bạn nên nêu rõ:\n1. Mức lương bạn mong muốn là bao nhiêu (what salary you would expect)\n2. Thời gian nào bạn có thể tham gia phỏng vấn (when you would be available for the interview)\n3. Khi nào bạn có thể bắt đầu đi làm nếu nhận được lời mời làm việc (when you could start work if you were offered the job)",
+        "has_full_details": true,
+        "details": {
+          "analysis": {
+            "recipient": "Hiring Manager (Quản lý tuyển dụng của công ty)",
+            "letter_type": "Formal (Thư trang trọng)",
+            "purpose": "Phản hồi lời mời phỏng vấn trực tiếp: nêu mức lương mong muốn, thời gian rảnh để phỏng vấn và ngày có thể bắt đầu làm việc",
+            "key_requirements": [
+              "1. What salary you would expect (Nêu mức lương mong muốn)",
+              "2. When you would be available for the interview (Nêu thời gian có thể tham gia phỏng vấn)",
+              "3. When you could start work if offered the job (Nêu thời gian có thể bắt đầu đi làm)"
+            ]
+          },
+          "task_extractions": [
+            {
+              "id": 1,
+              "icon": "fa-money-bill-wave",
+              "prompt_requirement": "what salary you would expect",
+              "task_title": "1. Mức lương mong muốn (Expected salary)",
+              "task_goal": "Nêu mức lương mong muốn theo tháng một cách lịch sự và rõ ràng (ví dụ: 10–12 triệu đồng/tháng hoặc khoảng 500 USD/tháng)."
+            },
+            {
+              "id": 2,
+              "icon": "fa-calendar-check",
+              "prompt_requirement": "when you would be available for the interview",
+              "task_title": "2. Thời gian phỏng vấn (Availability for interview)",
+              "task_goal": "Đề xuất ngày và buổi cụ thể trong tuần tới mà bạn rảnh để đến phỏng vấn trực tiếp."
+            },
+            {
+              "id": 3,
+              "icon": "fa-briefcase",
+              "prompt_requirement": "when you could start work if you were offered the job",
+              "task_title": "3. Ngày bắt đầu đi làm (Starting date)",
+              "task_goal": "Cho biết bạn có thể bắt đầu công việc vào khi nào nếu trúng tuyển (ngay tuần sau hoặc đầu tháng tới)."
+            }
+          ],
+          "suggested_ideas": [
+            {
+              "id": 1,
+              "title_en": "1. Expected salary",
+              "title_vi": "Mức lương mong muốn",
+              "icon": "fa-money-bill-wave",
+              "options": [
+                {
+                  "action_en": "I would expect a monthly salary of around 10 million VND",
+                  "action_vi": "tôi mong muốn mức lương hàng tháng khoảng 10 triệu đồng",
+                  "reason_en": "because it matches my skills and work experience.",
+                  "reason_vi": "vì nó phù hợp với kỹ năng và kinh nghiệm làm việc của tôi.",
+                  "b1_sentence": "First, regarding the salary, I would expect a monthly salary of around 10 million VND because it matches my skills and work experience.",
+                  "b1_sentence_vi": "Đầu tiên, về mức lương, tôi mong muốn mức lương hàng tháng khoảng 10 triệu đồng vì nó phù hợp với kỹ năng và kinh nghiệm làm việc của tôi."
+                },
+                {
+                  "action_en": "I hope to receive a salary between 10 and 12 million VND per month",
+                  "action_vi": "tôi hy vọng nhận được mức lương từ 10 đến 12 triệu đồng mỗi tháng",
+                  "reason_en": "because I have two years of experience in this job.",
+                  "reason_vi": "vì tôi đã có hai năm kinh nghiệm trong công việc này.",
+                  "b1_sentence": "First, regarding the salary, I hope to receive a salary between 10 and 12 million VND per month because I have two years of experience in this job.",
+                  "b1_sentence_vi": "Đầu tiên, về mức lương, tôi hy vọng nhận được mức lương từ 10 đến 12 triệu đồng mỗi tháng vì tôi đã có hai năm kinh nghiệm trong công việc này."
+                },
+                {
+                  "action_en": "I would like a starting salary of about 500 USD a month",
+                  "action_vi": "tôi mong muốn mức lương khởi điểm khoảng 500 đô la một tháng",
+                  "reason_en": "because this amount is suitable for my living costs in the city.",
+                  "reason_vi": "vì khoản tiền này phù hợp với chi phí sinh hoạt của tôi trong thành phố.",
+                  "b1_sentence": "First, regarding the salary, I would like a starting salary of about 500 USD a month because this amount is suitable for my living costs in the city.",
+                  "b1_sentence_vi": "Đầu tiên, về mức lương, tôi mong muốn mức lương khởi điểm khoảng 500 đô la một tháng vì khoản tiền này phù hợp với chi phí sinh hoạt của tôi trong thành phố."
+                },
+                {
+                  "action_en": "I am happy to accept the standard salary of your company",
+                  "action_vi": "tôi rất vui vẻ nhận mức lương theo quy định chung của công ty",
+                  "reason_en": "because my main goal is to learn and gain real work experience.",
+                  "reason_vi": "vì mục tiêu chính của tôi là học hỏi và tích lũy kinh nghiệm làm việc thực tế.",
+                  "b1_sentence": "First, regarding the salary, I am happy to accept the standard salary of your company because my main goal is to learn and gain real work experience.",
+                  "b1_sentence_vi": "Đầu tiên, về mức lương, tôi rất vui vẻ nhận mức lương theo quy định chung của công ty vì mục tiêu chính của tôi là học hỏi và tích lũy kinh nghiệm làm việc thực tế."
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "title_en": "2. Availability for the interview",
+              "title_vi": "Thời gian tham gia phỏng vấn",
+              "icon": "fa-calendar-check",
+              "options": [
+                {
+                  "action_en": "I am available for the interview on Tuesday or Thursday morning next week",
+                  "action_vi": "tôi có thể tham gia phỏng vấn vào sáng thứ Ba hoặc thứ Năm tuần tới",
+                  "reason_en": "because I am free on those mornings.",
+                  "reason_vi": "vì tôi rảnh vào những buổi sáng đó.",
+                  "b1_sentence": "Second, I am available for the interview on Tuesday or Thursday morning next week because I am free on those mornings.",
+                  "b1_sentence_vi": "Thứ hai, tôi có thể tham gia phỏng vấn vào sáng thứ Ba hoặc thứ Năm tuần tới vì tôi rảnh vào những buổi sáng đó."
+                },
+                {
+                  "action_en": "I can attend the interview any afternoon from Monday to Friday next week",
+                  "action_vi": "tôi có thể đến phỏng vấn vào bất kỳ buổi chiều nào từ thứ Hai đến thứ Sáu tuần sau",
+                  "reason_en": "because I only have classes in the morning.",
+                  "reason_vi": "vì tôi chỉ có tiết học vào buổi sáng.",
+                  "b1_sentence": "Second, I can attend the interview any afternoon from Monday to Friday next week because I only have classes in the morning.",
+                  "b1_sentence_vi": "Thứ hai, tôi có thể đến phỏng vấn vào bất kỳ buổi chiều nào từ thứ Hai đến thứ Sáu tuần sau vì tôi chỉ có tiết học vào buổi sáng."
+                },
+                {
+                  "action_en": "I am free all day next Wednesday and Friday for the interview",
+                  "action_vi": "tôi rảnh cả ngày thứ Tư và thứ Sáu tuần tới để tham gia phỏng vấn",
+                  "reason_en": "because I do not have any work on those two days.",
+                  "reason_vi": "vì tôi không có lịch làm việc nào vào hai ngày đó.",
+                  "b1_sentence": "Second, I am free all day next Wednesday and Friday for the interview because I do not have any work on those two days.",
+                  "b1_sentence_vi": "Thứ hai, tôi rảnh cả ngày thứ Tư và thứ Sáu tuần tới để tham gia phỏng vấn vì tôi không có lịch làm việc nào vào hai ngày đó."
+                },
+                {
+                  "action_en": "I can come to your office for the interview at any time next week",
+                  "action_vi": "tôi có thể đến văn phòng của quý vị để phỏng vấn vào bất cứ lúc nào trong tuần tới",
+                  "reason_en": "because my schedule is very flexible right now.",
+                  "reason_vi": "vì lịch trình của tôi hiện tại rất linh hoạt.",
+                  "b1_sentence": "Second, I can come to your office for the interview at any time next week because my schedule is very flexible right now.",
+                  "b1_sentence_vi": "Thứ hai, tôi có thể đến văn phòng của quý vị để phỏng vấn vào bất cứ lúc nào trong tuần tới vì lịch trình của tôi hiện tại rất linh hoạt."
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "title_en": "3. When you could start work",
+              "title_vi": "Khi nào có thể bắt đầu đi làm",
+              "icon": "fa-briefcase",
+              "options": [
+                {
+                  "action_en": "I can start work on the first day of next month if I am offered the job",
+                  "action_vi": "tôi có thể bắt đầu đi làm vào ngày đầu tiên của tháng sau nếu được nhận",
+                  "reason_en": "because I need two weeks to finish my current work.",
+                  "reason_vi": "vì tôi cần hai tuần để hoàn thành công việc hiện tại.",
+                  "b1_sentence": "Finally, I can start work on the first day of next month if I am offered the job because I need two weeks to finish my current work.",
+                  "b1_sentence_vi": "Cuối cùng, tôi có thể bắt đầu đi làm vào ngày đầu tiên của tháng sau nếu được nhận vì tôi cần hai tuần để hoàn thành công việc hiện tại."
+                },
+                {
+                  "action_en": "I can start working right away next Monday if I get the job",
+                  "action_vi": "tôi có thể bắt đầu làm việc ngay vào thứ Hai tuần sau nếu trúng tuyển",
+                  "reason_en": "because I have already finished my university studies.",
+                  "reason_vi": "vì tôi đã hoàn thành việc học ở trường đại học.",
+                  "b1_sentence": "Finally, I can start working right away next Monday if I get the job because I have already finished my university studies.",
+                  "b1_sentence_vi": "Cuối cùng, tôi có thể bắt đầu làm việc ngay vào thứ Hai tuần sau nếu trúng tuyển vì tôi đã hoàn thành việc học ở trường đại học."
+                },
+                {
+                  "action_en": "I will be ready to start work one week after receiving your job offer",
+                  "action_vi": "tôi sẽ sẵn sàng bắt đầu công việc một tuần sau khi nhận được lời mời làm việc",
+                  "reason_en": "because I want to prepare well for the new job.",
+                  "reason_vi": "vì tôi muốn chuẩn bị thật tốt cho công việc mới.",
+                  "b1_sentence": "Finally, I will be ready to start work one week after receiving your job offer because I want to prepare well for the new job.",
+                  "b1_sentence_vi": "Cuối cùng, tôi sẽ sẵn sàng bắt đầu công việc một tuần sau khi nhận được lời mời làm việc vì tôi muốn chuẩn bị thật tốt cho công việc mới."
+                },
+                {
+                  "action_en": "I can begin working two weeks after the interview",
+                  "action_vi": "tôi có thể bắt đầu đi làm hai tuần sau buổi phỏng vấn",
+                  "reason_en": "because I need to hand over my tasks at my current company.",
+                  "reason_vi": "vì tôi cần bàn giao lại công việc tại công ty hiện tại.",
+                  "b1_sentence": "Finally, I can begin working two weeks after the interview because I need to hand over my tasks at my current company.",
+                  "b1_sentence_vi": "Cuối cùng, tôi có thể bắt đầu đi làm hai tuần sau buổi phỏng vấn vì tôi cần bàn giao lại công việc tại công ty hiện tại."
+                }
+              ]
+            }
+          ],
+          "vocab": [
+            {
+              "en": "monthly salary",
+              "vi": "mức lương hàng tháng",
+              "category": "1. Mức lương (Expected salary)"
+            },
+            {
+              "en": "around 10 million VND",
+              "vi": "khoảng 10 triệu đồng",
+              "category": "1. Mức lương (Expected salary)"
+            },
+            {
+              "en": "match my skills",
+              "vi": "phù hợp với kỹ năng của tôi",
+              "category": "1. Mức lương (Expected salary)"
+            },
+            {
+              "en": "work experience",
+              "vi": "kinh nghiệm làm việc",
+              "category": "1. Mức lương (Expected salary)"
+            },
+            {
+              "en": "available for the interview",
+              "vi": "có thể tham gia phỏng vấn",
+              "category": "2. Lịch phỏng vấn (Interview time)"
+            },
+            {
+              "en": "Tuesday or Thursday morning",
+              "vi": "sáng thứ Ba hoặc thứ Năm",
+              "category": "2. Lịch phỏng vấn (Interview time)"
+            },
+            {
+              "en": "attend the interview",
+              "vi": "tham dự buổi phỏng vấn",
+              "category": "2. Lịch phỏng vấn (Interview time)"
+            },
+            {
+              "en": "flexible schedule",
+              "vi": "lịch trình linh hoạt",
+              "category": "2. Lịch phỏng vấn (Interview time)"
+            },
+            {
+              "en": "start work",
+              "vi": "bắt đầu đi làm",
+              "category": "3. Ngày đi làm (Starting date)"
+            },
+            {
+              "en": "if I am offered the job",
+              "vi": "nếu tôi được nhận vào làm",
+              "category": "3. Ngày đi làm (Starting date)"
+            },
+            {
+              "en": "the first day of next month",
+              "vi": "ngày đầu tiên của tháng sau",
+              "category": "3. Ngày đi làm (Starting date)"
+            },
+            {
+              "en": "finish my current work",
+              "vi": "hoàn thành công việc hiện tại",
+              "category": "3. Ngày đi làm (Starting date)"
+            }
+          ],
+          "sentence_practice_b1": [
+            {
+              "id": 1,
+              "part": "1. Mở thư (Opening - Trang trọng)",
+              "vi": "Cảm ơn quý vị đã xem xét đơn xin việc của tôi và mời tôi tham gia buổi phỏng vấn trực tiếp. Tôi viết thư này để cung cấp thông tin mà quý vị yêu cầu.",
+              "en": "Thank you for reviewing my application and inviting me to a face-to-face interview. I am writing to give you the information you asked for.",
+              "formula": "Thank you for + V-ing... I am writing to give you...",
+              "vocab_hints": [
+                {
+                  "en": "reviewing my application",
+                  "vi": "xem xét đơn xin việc của tôi"
+                },
+                {
+                  "en": "face-to-face interview",
+                  "vi": "buổi phỏng vấn trực tiếp"
+                }
+              ],
+              "explanation": "Mở thư trang trọng, lịch sự cảm ơn nhà tuyển dụng và nêu rõ mục đích viết thư."
+            },
+            {
+              "id": 2,
+              "part": "2. Thân thư - Ý 1: Mức lương mong muốn (Expected salary)",
+              "vi": "Đầu tiên, về mức lương, tôi mong muốn mức lương hàng tháng khoảng 10 triệu đồng vì nó phù hợp với kỹ năng và kinh nghiệm làm việc của tôi.",
+              "en": "First, regarding the salary, I would expect a monthly salary of around 10 million VND because it matches my skills and work experience.",
+              "formula": "First, regarding the salary, I would expect + [mức lương] + because...",
+              "vocab_hints": [
+                {
+                  "en": "monthly salary",
+                  "vi": "mức lương hàng tháng"
+                },
+                {
+                  "en": "matches my skills and work experience",
+                  "vi": "phù hợp với kỹ năng và kinh nghiệm của tôi"
+                }
+              ],
+              "explanation": "Sử dụng cấu trúc lịch sự \"I would expect...\" kèm \"because\" để giải thích lý do."
+            },
+            {
+              "id": 3,
+              "part": "3. Thân thư - Ý 2: Thời gian phỏng vấn (Availability)",
+              "vi": "Thứ hai, tôi có thể tham gia phỏng vấn vào sáng thứ Ba hoặc thứ Năm tuần tới vì tôi rảnh vào những buổi sáng đó.",
+              "en": "Second, I am available for the interview on Tuesday or Thursday morning next week because I am free on those mornings.",
+              "formula": "Second, I am available for the interview on + [thời gian] + because...",
+              "vocab_hints": [
+                {
+                  "en": "available for the interview",
+                  "vi": "có thể tham gia phỏng vấn"
+                },
+                {
+                  "en": "Tuesday or Thursday morning",
+                  "vi": "sáng thứ Ba hoặc thứ Năm"
+                }
+              ],
+              "explanation": "Nêu rõ ngày và buổi có thể tham gia phỏng vấn bằng cụm từ B1 \"be available for\"."
+            },
+            {
+              "id": 4,
+              "part": "4. Thân thư - Ý 3: Ngày bắt đầu đi làm (Start date)",
+              "vi": "Cuối cùng, tôi có thể bắt đầu đi làm vào ngày đầu tiên của tháng sau nếu được nhận vì tôi cần hai tuần để hoàn thành công việc hiện tại.",
+              "en": "Finally, I can start work on the first day of next month if I am offered the job because I need two weeks to finish my current work.",
+              "formula": "Finally, I can start work on + [thời gian] + if I am offered the job because...",
+              "vocab_hints": [
+                {
+                  "en": "start work",
+                  "vi": "bắt đầu đi làm"
+                },
+                {
+                  "en": "if I am offered the job",
+                  "vi": "nếu tôi được nhận vào làm"
+                },
+                {
+                  "en": "finish my current work",
+                  "vi": "hoàn thành công việc hiện tại"
+                }
+              ],
+              "explanation": "Trả lời rõ ràng thời điểm có thể bắt đầu làm việc kèm lý do hợp lý."
+            },
+            {
+              "id": 5,
+              "part": "5. Kết thư (Closing - Trang trọng)",
+              "vi": "Cảm ơn thời gian của quý vị. Tôi rất mong sớm nhận được phản hồi và được gặp trực tiếp quý vị.",
+              "en": "Thank you for your time. I look forward to your reply and meeting you in person soon.",
+              "formula": "Thank you for your time. I look forward to + V-ing / Noun.",
+              "vocab_hints": [
+                {
+                  "en": "look forward to your reply",
+                  "vi": "mong nhận được phản hồi của quý vị"
+                },
+                {
+                  "en": "meeting you in person",
+                  "vi": "gặp trực tiếp quý vị"
+                }
+              ],
+              "explanation": "Câu kết thư trang trọng chuẩn B1."
+            }
+          ],
+          "sentence_practice_b2": [
+            {
+              "id": 1,
+              "part": "1. Mở thư (Opening - Trang trọng)",
+              "vi": "Cảm ơn quý vị đã xem xét đơn xin việc của tôi và mời tôi tham gia buổi phỏng vấn trực tiếp. Tôi viết thư này để cung cấp thông tin mà quý vị yêu cầu.",
+              "en": "Thank you for reviewing my application and inviting me to a face-to-face interview. I am writing to give you the information you asked for.",
+              "formula": "Thank you for + V-ing... I am writing to give you...",
+              "vocab_hints": [
+                {
+                  "en": "reviewing my application",
+                  "vi": "xem xét đơn xin việc của tôi"
+                },
+                {
+                  "en": "face-to-face interview",
+                  "vi": "buổi phỏng vấn trực tiếp"
+                }
+              ],
+              "explanation": "Mở thư trang trọng, lịch sự cảm ơn nhà tuyển dụng và nêu rõ mục đích viết thư."
+            },
+            {
+              "id": 2,
+              "part": "2. Thân thư - Ý 1: Mức lương mong muốn (Expected salary)",
+              "vi": "Đầu tiên, về mức lương, tôi mong muốn mức lương hàng tháng khoảng 10 triệu đồng vì nó phù hợp với kỹ năng và kinh nghiệm làm việc của tôi.",
+              "en": "First, regarding the salary, I would expect a monthly salary of around 10 million VND because it matches my skills and work experience.",
+              "formula": "First, regarding the salary, I would expect + [mức lương] + because...",
+              "vocab_hints": [
+                {
+                  "en": "monthly salary",
+                  "vi": "mức lương hàng tháng"
+                },
+                {
+                  "en": "matches my skills and work experience",
+                  "vi": "phù hợp với kỹ năng và kinh nghiệm của tôi"
+                }
+              ],
+              "explanation": "Sử dụng cấu trúc lịch sự \"I would expect...\" kèm \"because\" để giải thích lý do."
+            },
+            {
+              "id": 3,
+              "part": "3. Thân thư - Ý 2: Thời gian phỏng vấn (Availability)",
+              "vi": "Thứ hai, tôi có thể tham gia phỏng vấn vào sáng thứ Ba hoặc thứ Năm tuần tới vì tôi rảnh vào những buổi sáng đó.",
+              "en": "Second, I am available for the interview on Tuesday or Thursday morning next week because I am free on those mornings.",
+              "formula": "Second, I am available for the interview on + [thời gian] + because...",
+              "vocab_hints": [
+                {
+                  "en": "available for the interview",
+                  "vi": "có thể tham gia phỏng vấn"
+                },
+                {
+                  "en": "Tuesday or Thursday morning",
+                  "vi": "sáng thứ Ba hoặc thứ Năm"
+                }
+              ],
+              "explanation": "Nêu rõ ngày và buổi có thể tham gia phỏng vấn bằng cụm từ B1 \"be available for\"."
+            },
+            {
+              "id": 4,
+              "part": "4. Thân thư - Ý 3: Ngày bắt đầu đi làm (Start date)",
+              "vi": "Cuối cùng, tôi có thể bắt đầu đi làm vào ngày đầu tiên của tháng sau nếu được nhận vì tôi cần hai tuần để hoàn thành công việc hiện tại.",
+              "en": "Finally, I can start work on the first day of next month if I am offered the job because I need two weeks to finish my current work.",
+              "formula": "Finally, I can start work on + [thời gian] + if I am offered the job because...",
+              "vocab_hints": [
+                {
+                  "en": "start work",
+                  "vi": "bắt đầu đi làm"
+                },
+                {
+                  "en": "if I am offered the job",
+                  "vi": "nếu tôi được nhận vào làm"
+                },
+                {
+                  "en": "finish my current work",
+                  "vi": "hoàn thành công việc hiện tại"
+                }
+              ],
+              "explanation": "Trả lời rõ ràng thời điểm có thể bắt đầu làm việc kèm lý do hợp lý."
+            },
+            {
+              "id": 5,
+              "part": "5. Kết thư (Closing - Trang trọng)",
+              "vi": "Cảm ơn thời gian của quý vị. Tôi rất mong sớm nhận được phản hồi và được gặp trực tiếp quý vị.",
+              "en": "Thank you for your time. I look forward to your reply and meeting you in person soon.",
+              "formula": "Thank you for your time. I look forward to + V-ing / Noun.",
+              "vocab_hints": [
+                {
+                  "en": "look forward to your reply",
+                  "vi": "mong nhận được phản hồi của quý vị"
+                },
+                {
+                  "en": "meeting you in person",
+                  "vi": "gặp trực tiếp quý vị"
+                }
+              ],
+              "explanation": "Câu kết thư trang trọng chuẩn B1."
+            }
+          ],
+          "sample_b1": {
+            "letter_en": "Dear Sir/Madam,\n\nThank you for reviewing my application and inviting me to a face-to-face interview. I am very happy to hear this news, and I am writing to give you the information you asked for.\n\nFirst, regarding the salary, I would expect a monthly salary of around 10 million VND because it matches my skills and work experience. However, I am happy to discuss this more during the interview. Second, I am available for the interview on Tuesday or Thursday morning next week because I am free on those mornings. Please let me know which time works best for you. Finally, I can start work on the first day of next month if I am offered the job because I need two weeks to finish my current work.\n\nThank you for your time. I look forward to your reply and meeting you in person soon.\n\nYours faithfully,",
+            "letter_vi": "Kính gửi Ông/Bà,\n\nCảm ơn quý vị đã xem xét đơn xin việc của tôi và mời tôi tham gia buổi phỏng vấn trực tiếp. Tôi rất vui khi nhận được tin này, và tôi viết thư này để cung cấp những thông tin mà quý vị đã yêu cầu.\n\nĐầu tiên, về mức lương, tôi mong muốn mức lương hàng tháng khoảng 10 triệu đồng vì nó phù hợp với kỹ năng và kinh nghiệm làm việc của tôi. Tuy nhiên, tôi rất sẵn lòng trao đổi thêm về vấn đề này trong buổi phỏng vấn. Thứ hai, tôi có thể tham gia phỏng vấn vào sáng thứ Ba hoặc thứ Năm tuần tới vì tôi rảnh vào những buổi sáng đó. Xin hãy cho tôi biết thời gian nào thuận tiện nhất cho quý vị. Cuối cùng, tôi có thể bắt đầu đi làm vào ngày đầu tiên của tháng sau nếu được nhận vì tôi cần hai tuần để hoàn thành công việc hiện tại.\n\nCảm ơn thời gian của quý vị. Tôi rất mong sớm nhận được phản hồi và được gặp trực tiếp quý vị.\n\nTrân trọng,",
+            "text": "Dear Sir/Madam,\n\nThank you for reviewing my application and inviting me to a face-to-face interview. I am very happy to hear this news, and I am writing to give you the information you asked for.\n\nFirst, regarding the salary, I would expect a monthly salary of around 10 million VND because it matches my skills and work experience. However, I am happy to discuss this more during the interview. Second, I am available for the interview on Tuesday or Thursday morning next week because I am free on those mornings. Please let me know which time works best for you. Finally, I can start work on the first day of next month if I am offered the job because I need two weeks to finish my current work.\n\nThank you for your time. I look forward to your reply and meeting you in person soon.\n\nYours faithfully,",
+            "translation": "Kính gửi Ông/Bà,\n\nCảm ơn quý vị đã xem xét đơn xin việc của tôi và mời tôi tham gia buổi phỏng vấn trực tiếp. Tôi rất vui khi nhận được tin này, và tôi viết thư này để cung cấp những thông tin mà quý vị đã yêu cầu.\n\nĐầu tiên, về mức lương, tôi mong muốn mức lương hàng tháng khoảng 10 triệu đồng vì nó phù hợp với kỹ năng và kinh nghiệm làm việc của tôi. Tuy nhiên, tôi rất sẵn lòng trao đổi thêm về vấn đề này trong buổi phỏng vấn. Thứ hai, tôi có thể tham gia phỏng vấn vào sáng thứ Ba hoặc thứ Năm tuần tới vì tôi rảnh vào những buổi sáng đó. Xin hãy cho tôi biết thời gian nào thuận tiện nhất cho quý vị. Cuối cùng, tôi có thể bắt đầu đi làm vào ngày đầu tiên của tháng sau nếu được nhận vì tôi cần hai tuần để hoàn thành công việc hiện tại.\n\nCảm ơn thời gian của quý vị. Tôi rất mong sớm nhận được phản hồi và được gặp trực tiếp quý vị.\n\nTrân trọng,",
+            "word_count": 147,
+            "key_structures": []
+          },
+          "sample_b2": {
+            "letter_en": "Dear Sir/Madam,\n\nThank you for reviewing my application and inviting me to a face-to-face interview. I am very happy to hear this news, and I am writing to give you the information you asked for.\n\nFirst, regarding the salary, I would expect a monthly salary of around 10 million VND because it matches my skills and work experience. However, I am happy to discuss this more during the interview. Second, I am available for the interview on Tuesday or Thursday morning next week because I am free on those mornings. Please let me know which time works best for you. Finally, I can start work on the first day of next month if I am offered the job because I need two weeks to finish my current work.\n\nThank you for your time. I look forward to your reply and meeting you in person soon.\n\nYours faithfully,",
+            "letter_vi": "Kính gửi Ông/Bà,\n\nCảm ơn quý vị đã xem xét đơn xin việc của tôi và mời tôi tham gia buổi phỏng vấn trực tiếp. Tôi rất vui khi nhận được tin này, và tôi viết thư này để cung cấp những thông tin mà quý vị đã yêu cầu.\n\nĐầu tiên, về mức lương, tôi mong muốn mức lương hàng tháng khoảng 10 triệu đồng vì nó phù hợp với kỹ năng và kinh nghiệm làm việc của tôi. Tuy nhiên, tôi rất sẵn lòng trao đổi thêm về vấn đề này trong buổi phỏng vấn. Thứ hai, tôi có thể tham gia phỏng vấn vào sáng thứ Ba hoặc thứ Năm tuần tới vì tôi rảnh vào những buổi sáng đó. Xin hãy cho tôi biết thời gian nào thuận tiện nhất cho quý vị. Cuối cùng, tôi có thể bắt đầu đi làm vào ngày đầu tiên của tháng sau nếu được nhận vì tôi cần hai tuần để hoàn thành công việc hiện tại.\n\nCảm ơn thời gian của quý vị. Tôi rất mong sớm nhận được phản hồi và được gặp trực tiếp quý vị.\n\nTrân trọng,",
+            "text": "Dear Sir/Madam,\n\nThank you for reviewing my application and inviting me to a face-to-face interview. I am very happy to hear this news, and I am writing to give you the information you asked for.\n\nFirst, regarding the salary, I would expect a monthly salary of around 10 million VND because it matches my skills and work experience. However, I am happy to discuss this more during the interview. Second, I am available for the interview on Tuesday or Thursday morning next week because I am free on those mornings. Please let me know which time works best for you. Finally, I can start work on the first day of next month if I am offered the job because I need two weeks to finish my current work.\n\nThank you for your time. I look forward to your reply and meeting you in person soon.\n\nYours faithfully,",
+            "translation": "Kính gửi Ông/Bà,\n\nCảm ơn quý vị đã xem xét đơn xin việc của tôi và mời tôi tham gia buổi phỏng vấn trực tiếp. Tôi rất vui khi nhận được tin này, và tôi viết thư này để cung cấp những thông tin mà quý vị đã yêu cầu.\n\nĐầu tiên, về mức lương, tôi mong muốn mức lương hàng tháng khoảng 10 triệu đồng vì nó phù hợp với kỹ năng và kinh nghiệm làm việc của tôi. Tuy nhiên, tôi rất sẵn lòng trao đổi thêm về vấn đề này trong buổi phỏng vấn. Thứ hai, tôi có thể tham gia phỏng vấn vào sáng thứ Ba hoặc thứ Năm tuần tới vì tôi rảnh vào những buổi sáng đó. Xin hãy cho tôi biết thời gian nào thuận tiện nhất cho quý vị. Cuối cùng, tôi có thể bắt đầu đi làm vào ngày đầu tiên của tháng sau nếu được nhận vì tôi cần hai tuần để hoàn thành công việc hiện tại.\n\nCảm ơn thời gian của quý vị. Tôi rất mong sớm nhận được phản hồi và được gặp trực tiếp quý vị.\n\nTrân trọng,",
+            "word_count": 147,
+            "key_structures": []
           }
         }
       }

@@ -4,6 +4,479 @@
 // ==========================================================================
 
 // Global Application State
+const RUBRIC_VI_FOOTER = 'Bạn nên viết ít nhất 120 từ. **Không ghi tên hoặc địa chỉ của bạn.** Bài viết của bạn sẽ được đánh giá dựa trên các tiêu chí: **Hoàn thành nhiệm vụ (Task Fulfillment)**, **Bố cục (Organization)**, **Từ vựng (Vocabulary)** và **Ngữ pháp (Grammar)**.';
+const PROMPT_TRANSLATIONS_VI = {
+  'de-01': `Bạn vừa nhận được một bức thư từ người bạn người Anh, Helen. Bạn ấy sắp đến thăm Hà Nội vào tháng Sáu. Hãy viết một bức thư để đưa ra cho bạn ấy một vài gợi ý. Trong thư, bạn nên nói cho bạn ấy biết:
+• Nơi ở (Where to stay)
+• Món ăn nên thử (What dishes to try)
+• Những địa điểm nên tham quan (Which places to visit)
+• Trang phục nên mặc khi đến thăm Hà Nội (What to wear when visiting Hanoi)
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-02': `Bạn vừa nhận được một email từ người bạn người Anh đang dự định học tiếng Việt trong sáu tháng tại Đại học Hà Nội. Bạn ấy xin lời khuyên của bạn về các lựa chọn chỗ ở, chi phí sinh hoạt hàng tháng, những cách thực tế để luyện nói tiếng Việt với người dân bản địa và các mẹo thích nghi văn hóa.
+
+Hãy viết một bức thư để đưa ra cho bạn ấy một vài gợi ý.
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-03': `Bạn nhìn thấy một mẩu quảng cáo về khóa học nấu ăn mùa hè tại trung tâm Delight Kitchen và rất quan tâm đến việc tham gia khóa học. Hãy viết một email gửi người quản lý tuyển sinh để hỏi thông tin về:
+• Học phí khóa học (course fees)
+• Lịch học (class schedules)
+• Trình độ chuyên môn của giảng viên (instructor qualifications)
+• Liệu nguyên liệu nấu ăn có được trung tâm chuẩn bị sẵn hay không (whether ingredients are provided)
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-04': `Người bạn Linda của bạn gần đây vừa hoàn thành một khóa học tiếng Trung sơ cấp tại Trung tâm Ngoại ngữ New Horizon. Bạn muốn học tiếng Trung vào mùa hè này. Hãy viết một email gửi Linda để hỏi về:
+• Địa điểm trung tâm (center location)
+• Học phí (tuition fees)
+• Chất lượng giáo viên (teacher quality)
+• Hoạt động luyện nói thực tế trên lớp (practical speaking practice)
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-05': `Bạn vừa nhận được một email từ người bạn của bạn, John. Hãy đọc trích đoạn bức thư của bạn ấy dưới đây:
+"... Tớ nghe nói gần đây cậu đã tham gia một cuộc thi đua xe đạp địa hình trên núi. Trải nghiệm đó thế nào? Đường đua ra sao? Cậu có giành được giải thưởng nào không? Tớ cũng đang tính thử sức với bộ môn xe đạp leo núi. Sắp tới cậu có dự định chuyến đi đạp xe nào không? ..."
+
+Hãy viết một email hồi âm cho John miêu tả trải nghiệm cuộc đua của bạn và mời bạn ấy cùng tham gia một chuyến đi sắp tới.
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-06': `Bạn vừa nhận được một email từ người bạn Helen muốn biết về ngôi nhà mới chuyển của bạn ở gần khuôn viên trường đại học. Hãy viết một email gửi Helen để:
+• Miêu tả vị trí của ngôi nhà (house location)
+• Miêu tả cách bố trí các phòng (room layout)
+• Kể về khu dân cư xung quanh (surrounding neighborhood)
+• Mời bạn ấy sang chơi thăm nhà mới (invite her to visit)
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-07': `Bạn là hội viên tại Câu lạc bộ Thể hình Elite Fitness Club. Gần đây, một số máy tập gym đã bị hỏng và vẫn chưa được sửa chữa. Hãy viết một email gửi người quản lý phòng tập để phàn nàn về sự việc này. Trong email, bạn nên:
+• Miêu tả các thiết bị bị hỏng và những bất tiện phát sinh
+• Giải thích vấn đề này ảnh hưởng thế nào đến việc tập luyện của bạn
+• Đề xuất ban quản lý nên thực hiện biện pháp gì để khắc phục
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-08': `Tối qua bạn đã dùng bữa tối tại nhà hàng The Grand Bistro để kỷ niệm một sự kiện gia đình. Chất lượng món ăn rất kém, thời gian chờ đợi quá lâu và nhân viên phục vụ thiếu nhiệt tình. Hãy viết một bức thư khiếu nại gửi quản lý nhà hàng:
+• Miêu tả cụ thể các vấn đề bạn gặp phải
+• Giải thích sự thất vọng của bạn và gia đình
+• Yêu cầu phương án giải quyết thỏa đáng
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-09': `Bạn là hành khách thường xuyên đi tuyến xe buýt công cộng số 08. Hãy viết một email gửi ông Tailor, giám đốc quản lý dịch vụ vận tải, để đóng góp ý kiến phản hồi về dịch vụ xe buýt. Trong email, bạn nên:
+• Đề cập những mặt tích cực mà bạn đánh giá cao
+• Chỉ ra các vấn đề còn tồn tại (tình trạng quá tải/trễ giờ và thái độ phục vụ)
+• Đề xuất những giải pháp cải thiện thiết thực
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-10': `Bạn đã tổ chức bữa tiệc sinh nhật cùng bạn bè tại nhà hàng Golden Spoon vào thứ Bảy tuần trước. Hãy viết một email gửi người quản lý nhà hàng để đưa ra phản hồi. Trong email, bạn nên:
+• Khen ngợi những điểm nhà hàng làm tốt (hương vị món ăn và trang trí bàn tiệc)
+• Chỉ ra những điểm cần khắc phục (lên món chậm và âm thanh/nhạc nền quá ồn)
+• Đưa ra các gợi ý cải thiện cho những sự kiện sau này
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-11': `Bạn là sinh viên đại học đã không kịp nộp bài tiểu luận nghiên cứu học phần đúng hạn. Hãy viết một email gửi giảng viên phụ trách môn học, Giáo sư Johnson, để xin lỗi vì nộp bài muộn. Trong email, bạn nên:
+• Chân thành xin lỗi thầy
+• Giải thích lý do cụ thể (sự cố hỏng hóc kỹ thuật máy tính ở thì quá khứ đơn)
+• Gửi kèm bài làm đã hoàn thành và xin phép nộp bổ sung
+• Cam kết tuân thủ nghiêm túc các thời hạn nộp bài trong tương lai
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-12': `Bạn là Trưởng bộ phận Quan hệ Khách hàng tại Khách sạn Pearl Palace. Một vị khách, ông Smith, đã có kỳ lưu trú không hài lòng do dịch vụ phòng chậm trễ và đồ ăn bị nguội. Hãy viết email xin lỗi gửi ông Smith. Trong thư, bạn nên:
+• Chân thành xin lỗi về trải nghiệm không tốt của khách
+• Giải thích sự cố ngoài ý muốn ở bộ phận bếp (dùng thì quá khứ đơn)
+• Đề xuất hình thức đền bù thiện chí (giảm trừ hóa đơn hoặc tặng phiếu ưu đãi miễn phí)
+• Khẳng định cam kết nâng cao chất lượng phục vụ của khách sạn
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-13': `Bạn nhìn thấy một mẩu quảng cáo tuyển dụng vị trí nhân viên phục vụ bàn bán thời gian (part-time waiter) tại Nhà hàng Sunflower. Hãy viết thư ứng tuyển gửi người quản lý tuyển dụng. Trong thư, bạn nên:
+• Giới thiệu trình độ học vấn hiện tại của bạn
+• Giải thích lý do tại sao bạn muốn ứng tuyển công việc này
+• Miêu tả kinh nghiệm làm việc thực tế có liên quan
+• Khẳng định lý do bạn là ứng viên phù hợp và thời gian có thể đi làm
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-14': `Bạn nhìn thấy thông báo tuyển dụng vị trí Trợ lý Sự kiện (Event Assistant) cho Lễ hội Văn hóa Thanh niên sắp tới. Hãy viết thư ứng tuyển gửi Ban Tổ chức. Trong thư, bạn nên:
+• Giới thiệu bản thân và ngành học đại học hiện tại
+• Nêu rõ động lực ứng tuyển vị trí này
+• Trình bày kinh nghiệm tham gia tổ chức sự kiện hoặc hoạt động tình nguyện trước đây
+• Giải thích tại sao kỹ năng của bạn giúp bạn trở thành một ứng viên sáng giá
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-15': `Bạn vừa nhận được một bức thư từ người bạn Emily. Bạn ấy sắp đến thăm Cần Thơ vào tháng Mười Hai. Hãy viết một bức thư để đưa ra cho bạn ấy một vài gợi ý. Bạn nên nói cho bạn ấy biết:
+• Nơi ở (Where to stay)
+• Món ăn nên thử (What dishes to try)
+• Những địa điểm du lịch nên tham quan (Which tourist attractions to visit)
+• Trang phục nên mặc (What to wear)
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-16': `Người bạn của bạn vừa hoàn thành một khóa học tiếng Anh tại Trung tâm Ngoại ngữ Rainbow và có trải nghiệm rất tuyệt vời. Bạn cũng đang dự định học tiếng Anh và muốn tìm hiểu thêm về khóa học đó. Hãy viết một bức thư gửi bạn mình để hỏi thêm thông tin về:
+• Địa chỉ của trung tâm (The address of the center)
+• Học phí (The tuition fee)
+• Đội ngũ giáo viên (The teachers)
+• Chương trình đào tạo (The training program)
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-17': `Bạn vừa nhận được thư từ người bạn Linda. Bạn ấy vừa hoàn thành một khóa học tiếng Trung tại Trung tâm Ngoại ngữ Happy Chinese và rất yêu thích khóa học đó. Bạn cũng đang lên kế hoạch học tiếng Trung và muốn biết thêm thông tin về khóa học.
+Hãy viết một bức thư gửi Linda. Trong thư, bạn nên hỏi về:
+• Học phí khóa học (the tuition fee)
+• Thời lượng khóa học (the course duration)
+• Đội ngũ giáo viên (the teachers)
+• Lịch học hàng tuần (the class schedule)
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-18': `Bạn vừa nhận được một bức thư từ người bạn của mình, Nam. Hãy đọc trích đoạn bức thư dưới đây:
+"... Tháng tới mình dự định học tiếng Anh tại Trung tâm Ngoại ngữ Rainbow. Vì cậu vừa hoàn thành một khóa học ở đó, cậu có thể chia sẻ thêm cho mình biết về khóa học được không? Mình muốn biết về địa chỉ của trung tâm, mức học phí, đội ngũ giáo viên và chương trình đào tạo trước khi quyết định đăng ký..."
+Hãy viết một bức thư hồi âm cho Nam. Trong thư, bạn nên cung cấp thông tin về:
+• Địa chỉ của trung tâm (the address of the center)
+• Học phí (the tuition fee)
+• Đội ngũ giáo viên (the teachers)
+• Chương trình đào tạo (the training program)
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-19': `Bạn vừa nhận được một bức thư từ người bạn người Anh, Emily. Hãy đọc trích đoạn bức thư của cô ấy dưới đây:
+"... Tớ vừa nhận được thư từ bạn của cậu là Hoa. Bạn ấy sắp sang học một khóa học tại London, nên có hỏi tớ liệu bạn ấy có thể ở cùng với tớ và gia đình tớ cho đến khi tìm được căn hộ riêng hay không. Cậu có thể cho tớ biết một vài thông tin về Hoa được không? (những điều như tính cách, sở thích, công việc hoặc việc học hiện tại của bạn ấy). Tớ cần biết liệu bạn ấy có hòa hợp với gia đình tớ hay không ..."
+
+Hãy viết một bức thư hồi âm cho Emily.
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-20': `Bạn là hội viên của một trung tâm thể thao tại địa phương. Gần đây bạn đã sử dụng phòng thay đồ và không hài lòng với tình trạng của phòng. Hãy viết một email gửi người quản lý trung tâm thể thao. Trong email, bạn nên:
+• Miêu tả các vấn đề bạn phát hiện trong phòng thay đồ
+• Giải thích tình trạng đó khiến bạn cảm thấy như thế nào
+• Đề xuất những biện pháp cần thực hiện để cải thiện cơ sở vật chất
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-21': `Gần đây bạn đã lưu trú tại một khách sạn trong kỳ nghỉ. Đáng tiếc là bạn không hài lòng với căn phòng của mình. Hãy viết một bức thư gửi người quản lý khách sạn để phàn nàn về kỳ nghỉ đó. Trong thư, bạn nên:
+• Miêu tả các sự cố của căn phòng
+• Giải thích cảm nhận của bạn về trải nghiệm này
+• Đề xuất một số biện pháp khắc phục, cải thiện
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-22': `Gần đây bạn đã ở tại một khách sạn và nhận được email từ người quản lý khách sạn xin ý kiến phản hồi về kỳ lưu trú của bạn.
+Hãy viết một email để đưa ra ý kiến đóng góp. Trong email, bạn nên:
+• Nêu rõ bạn hài lòng hay không hài lòng với dịch vụ
+• Miêu tả trải nghiệm thực tế của bạn
+• Gợi ý những cách khách sạn có thể áp dụng để cải thiện dịch vụ
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-23': `Gần đây bạn đã dùng bữa tối tại một nhà hàng mới mở. Vài ngày sau, người quản lý nhà hàng đã gửi email xin ý kiến đánh giá của bạn.
+Hãy viết một email để đưa ra nhận xét của bạn. Trong email, bạn nên:
+• Nêu rõ bạn hài lòng hay không hài lòng với nhà hàng
+• Miêu tả chi tiết trải nghiệm bữa tối của bạn
+• Gợi ý các cách giúp nhà hàng nâng cao chất lượng phục vụ
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-24': `Bạn đã mượn một cuốn sách từ người bạn Helen nhưng lại quên trả. Hãy đọc trích đoạn bức thư của bạn ấy dưới đây:
+"... Này cậu! Dạo này cậu thế nào rồi? Nhân tiện cho tớ hỏi, cậu đã đọc xong cuốn sách mượn của tớ chưa? Tớ đang thắc mắc sao cậu vẫn chưa trả lại sách cho tớ. Khi nào cậu định trả lại và cậu sẽ gửi trả bằng cách nào thế? ..."
+Hãy viết một bức thư hồi âm cho Helen. Trong thư, bạn nên:
+• Xin lỗi vì đã chưa trả lại cuốn sách đúng hẹn
+• Giải thích hoàn cảnh vừa qua của bạn và cho biết bạn đã đọc xong cuốn sách hay chưa
+• Nói rõ khi nào và bằng cách nào bạn sẽ trả lại sách cho bạn ấy
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-25': `Bạn vừa nhận được một email từ giáo sư của mình:
+"... Thầy nhận thấy em vẫn chưa nộp bài tập. Hạn chót là thứ Sáu tuần trước, nhưng đến nay thầy vẫn chưa nhận được bài làm của em. Em có thể giải thích lý do tại sao bài tập lại bị trễ hạn không? Ngoài ra, khi nào em sẽ nộp bài? Thầy mong sớm nhận được phản hồi từ em. ..."
+Hãy viết một bức thư hồi âm cho giáo sư. Trong thư, bạn nên:
+• Xin lỗi vì đã nộp bài tập muộn
+• Giải thích lý do tại sao bạn không thể nộp bài đúng thời hạn
+• Nói rõ khi nào và bằng hình thức nào bạn sẽ nộp bài tập
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-26': `Bạn nhìn thấy thông báo tuyển dụng vị trí nhân viên bán hàng (sales assistant) tại một cửa hàng quần áo trong thành phố. Hãy viết một email để ứng tuyển công việc này. Trong email, bạn nên:
+• Giới thiệu bản thân và hoàn cảnh/công việc học tập hiện tại của bạn
+• Nêu rõ lý do tại sao bạn quan tâm đến vị trí này
+• Đề cập bất kỳ kinh nghiệm nào bạn từng có khi làm việc, tiếp xúc với khách hàng
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-27': `Bạn nhìn thấy quảng cáo tuyển dụng vị trí nhân viên lễ tân (receptionist) tại một khách sạn nhỏ trong thành phố. Bạn rất quan tâm đến vị trí này và muốn nộp đơn ứng tuyển. Hãy viết một email ứng tuyển vị trí trên. Trong email, bạn nên:
+• Giới thiệu bản thân và tình hình hiện tại của bạn
+• Nêu rõ lý do bạn yêu thích vị trí lễ tân này
+• Đề cập kinh nghiệm làm việc với khách hàng hoặc du khách trước đây
+• Giải thích tại sao bạn là một ứng viên phù hợp cho công việc
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-28': `Bạn vừa nhận được thư từ một người bạn muốn hỏi thêm về dự án mỹ thuật chủ đề "Ở Nhà" ("At Home") mà bạn vừa thực hiện gần đây. Hãy đọc trích đoạn bức thư của bạn ấy dưới đây:
+"... Cậu đã hoàn thành dự án vẽ tranh của mình chưa? Cậu chọn vẽ khung cảnh bên trong ngôi nhà hay ngoài sân vườn? Cậu có thể miêu tả bức vẽ đó cho tớ nghe được không? Trong bức tranh của cậu có đồ vật nào đặc biệt quan trọng và ý nghĩa đối với cậu không? ..."
+
+Hãy viết một bức thư hồi âm cho người bạn của mình.
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-29': `Bạn vừa nhận được một email từ người bạn Ann, người đang dự định tham gia một khóa học tiếng Việt khi sang Việt Nam. Hãy đọc trích đoạn email của bạn ấy dưới đây:
+"... Tớ thực sự rất hào hứng về việc tham gia một khóa học tiếng Việt trong thời gian ở Việt Nam. Tuy nhiên, tớ vẫn chưa chắc mình nên chọn loại khóa học nào. Cậu có thể cho tớ biết về mức học phí và khóa học thường kéo dài bao lâu được không? Ngoài ra, tớ nên chuẩn bị những gì trước khi bắt đầu lớp học? ..."
+
+Hãy viết một email hồi âm cho Ann.
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-30': `Bạn vừa nhận được một email từ người bạn của mình, Jane. Bạn ấy hỏi bạn về hai nội dung. Hãy đọc trích đoạn email của bạn ấy dưới đây:
+"... Công việc mới của cậu dạo này thế nào rồi? Đồng nghiệp của cậu có thân thiện không, và cậu có hòa đồng tốt với mọi người không? Hàng ngày cậu đi làm đến công ty có thuận tiện không? Nhân tiện, tuần tới tớ có một buổi phỏng vấn xin việc. Cậu có thể cho tớ một vài lời khuyên về cách chuẩn bị thật tốt cho buổi phỏng vấn được không? ..."
+
+Hãy viết một email hồi âm cho Jane.
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-31': `Bạn vừa nhận được một email từ người bạn Jane. Bạn ấy đang lên kế hoạch đến thăm Việt Nam vào mùa hè này và muốn xin một vài gợi ý. Hãy đọc trích đoạn email của bạn ấy dưới đây:
+"... Tớ thực sự rất háo hức về chuyến du lịch Việt Nam vào mùa hè này. Tuy nhiên, tớ chưa rõ nên sang vào thời điểm nào và nên ghé thăm những địa điểm nào. Cậu có thể gợi ý cho tớ một điểm đến và chỉ cách di chuyển tới đó được không? Ngoài ra, vào mùa hè ở Việt Nam có lễ hội hay sự kiện đặc sắc nào không? Tớ rất muốn biết điều gì làm nên nét đặc biệt của các lễ hội đó. ..."
+
+Hãy viết một email gửi cho Jane.
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-32': `Bạn vừa nhận được một email từ người bạn Alex, người đang thực hiện một bài tập nhóm về thiết kế áp phích (poster). Hãy đọc trích đoạn email của bạn ấy dưới đây:
+"... Giáo viên của bọn tớ yêu cầu mỗi nhóm thiết kế một tấm áp phích, nhưng nhóm tớ vẫn chưa chọn được chủ đề. Cậu có thể gợi ý giúp tớ vài ý tưởng về chủ đề nên chọn được không? Ngoài ra, bọn tớ có thể tìm các nguồn thông tin đáng tin cậy ở đâu để nội dung áp phích thú vị hơn? Nhân tiện, cậu có mẹo nào giúp thiết kế áp phích trông thu hút và bắt mắt không? ..."
+
+Hãy viết một email hồi âm cho Alex.
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-33': `Gần đây bà Smith (Ms. Smith) đã viết thư phàn nàn về chất lượng dịch vụ kém mà bà gặp phải trong thời gian lưu trú tại khách sạn của bạn. Trong thư, bà yêu cầu một lời xin lỗi và được hoàn tiền. Bạn là người quản lý khách sạn. Hãy viết một bức thư phản hồi lại khiếu nại của bà ấy. Trong thư, bạn nên:
+• Xin lỗi về chất lượng dịch vụ chưa tốt mà bà ấy đã trải qua
+• Giải thích cụ thể quy trình bà ấy sẽ nhận lại khoản tiền hoàn trả như thế nào
+• Cho bà ấy biết các biện pháp mà khách sạn sẽ thực hiện để chấn chỉnh và nâng cao dịch vụ
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-34': `Bạn vừa nhận được một bức thư từ người bạn hỏi thăm về chú cún con mới nuôi của bạn. Hãy viết một bức thư hồi âm cho bạn mình. Trong thư, bạn nên:
+• Cho biết bạn đã đặt tên cho chú cún con chưa và tên của nó là gì
+• Kể rõ ai đã tặng chú cún con cho bạn
+• Miêu tả việc chăm sóc chú cún con hằng ngày có vất vả hay khó khăn không
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-35': `Gần đây bạn vừa nhận được thư từ một người bạn mới bắt đầu làm việc tại một hiệu sách địa phương. Bạn ấy đang mong nhận được lời khuyên để làm tốt công việc của mình hơn.
+Hãy viết một bức thư gửi cho người bạn của bạn. Trong thư, bạn nên:
+• Đưa ra lời khuyên về cách tìm và tư vấn đúng cuốn sách phù hợp cho khách hàng
+• Gợi ý một vài ý tưởng trang trí không gian hiệu sách
+• Đề xuất các chiến lược khuyến mãi, quảng bá hiệu quả để thu hút thêm khách đọc
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-36': `Bạn là giáo viên tại Trường Tiểu học Sunshine. Lớp của bạn sắp tổ chức một buổi hoạt động dã ngoại ngoài trời cho học sinh khối Lớp 4 vào cuối tuần tới. Bạn vừa nhận được thư từ bà Jane (Mrs. Jane), một phụ huynh học sinh, hỏi về:
+• Những hoạt động nào sẽ diễn ra trong suốt buổi dã ngoại
+• Lý do tại sao các thầy cô giáo không chuẩn bị bữa trưa tập thể cho học sinh
+• Học sinh có thể mang theo những loại đồ ăn nào cho bữa trưa, và vì sao
+• Con gái của bà ấy nên chuẩn bị mang theo những vật dụng gì để có một ngày vui chơi trọn vẹn
+
+Hãy viết một bức thư gửi bà Jane để giải đáp đầy đủ các câu hỏi của bà.
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-37': `Bạn vừa nhận được một bức thư từ bà Lan (Mrs. Lan), nhân viên phụ trách tại sân bay nơi bạn đã trình báo về chiếc vali bị thất lạc của mình. Hãy đọc trích đoạn bức thư của bà ấy dưới đây:
+"... Xin quý khách vui lòng gửi thêm cho tôi một số thông tin chi tiết về chiếc vali bị thất lạc? Tôi cần biết số hiệu chuyến bay và giờ bay của quý khách, mô tả ngắn gọn bên ngoài cũng như bên trong chiếc vali, và thông tin liên hệ để tôi có thể báo ngay cho quý khách khi tìm thấy hành lý. ..."
+
+Hãy viết một bức thư phản hồi cho bà Lan. Trong thư, bạn nên:
+• Cung cấp thông tin chi tiết về chuyến bay của bạn
+• Miêu tả rõ ràng đặc điểm nhận dạng chiếc vali
+• Cung cấp đầy đủ thông tin liên lạc của bạn
+
+${RUBRIC_VI_FOOTER}`,
+
+      'de-38': `Một công ty đã xem xét đơn ứng tuyển cùng CV của bạn và đang cân nhắc tuyển dụng bạn vào một vị trí. Người quản lý tuyển dụng muốn sắp xếp một buổi phỏng vấn trực tiếp. Hãy viết một email gửi cho người quản lý tuyển dụng.
+
+Trong email, bạn nên nêu rõ:
+• Mức lương bạn kỳ vọng (what salary you would expect)
+• Thời gian bạn có thể tham gia buổi phỏng vấn (when you would be available for the interview)
+• Thời điểm bạn có thể bắt đầu đi làm nếu được nhận vào làm việc (when you could start work if you were offered the job)
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-39': `Người bạn John của bạn đang có ý định tham gia một trại hè và đã viết thư xin lời khuyên của bạn. Hãy viết một email gửi cho John.
+
+Trong email, bạn nên nói rõ:
+• Trải nghiệm tham gia trại hè trước đây của bạn như thế nào (what your experience of a summer camp was like)
+• Những yêu cầu đặc biệt nào bạn ấy nên kiểm tra trước khi đăng ký tham gia (what special requirements he should check before joining)
+• Bạn ấy có thể chuẩn bị như thế nào để đáp ứng các yêu cầu đó (how he can prepare to meet those requirements)
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-40': `Người bạn Harry của bạn đã mời bạn đi xem một buổi biểu diễn của một người bạn của cậu ấy. Hãy viết một email gửi cho Harry.
+
+Trong email, bạn nên nói rõ:
+• Bạn có muốn nhận lời mời không và cảm thấy thế nào về lời mời đó (whether you would like to accept the invitation and how you feel about it)
+• Bạn muốn hai người cùng làm gì sau buổi biểu diễn (what you would like to do together after the performance)
+• Trong chuyến thăm này, bạn thích đi dạo bằng thuyền (boat trip) hay đi xem một trận bóng đá (football match) hơn, và tại sao (whether you would prefer a boat trip or watching a football match during your visit, and why)
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-41': `Trưởng đoàn của một đoàn khách tham quan đã đặt một khách sạn tại khu vực của bạn và viết thư xin lời khuyên địa phương từ bạn. Hãy viết một email gửi cho vị trưởng đoàn.
+
+Trong email, bạn nên nêu rõ:
+• Một hoặc hai địa điểm mua sắm mà bạn gợi ý cho đoàn (which one or two places you recommend for shopping)
+• Trung tâm thể thao địa phương có thể cung cấp những dịch vụ/tiện ích gì cho đoàn (what a local sports centre can offer the group)
+• Nhận xét của bạn về khách sạn mà đoàn đã đặt và những thông tin chi tiết nào họ nên xác nhận lại (what you think about the hotel they have booked and what details they should confirm)
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-42': `Người bạn Alex của bạn muốn thử chơi môn khúc côn cầu trên băng (ice hockey) nhưng lại lo lắng về việc có ít kinh nghiệm và thể lực chưa đủ tốt. Hãy viết một email gửi cho Alex.
+
+Trong email, bạn nên nói rõ:
+• Lời khuyên chung bạn dành cho Alex khi mới bắt đầu làm quen với môn này (what general advice you would give about getting started)
+• Alex có thể chuẩn bị như thế nào để đáp ứng các yêu cầu về thể lực (how Alex could prepare for the physical demands)
+• Những thói quen ăn uống hợp lý nào có thể hỗ trợ tốt cho quá trình chuẩn bị đó (what sensible eating habits could support the preparation)
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-43': `Bạn vừa nhận được một email từ người bạn Anna, người sắp chuyển đến một ngôi nhà ở gần trường đại học của bạn. Cô ấy xin lời khuyên của bạn về việc chuyển nhà và khu dân cư xung quanh. Hãy viết một bức thư hồi âm thân mật.
+
+Trong email, bạn nên:
+• Giới thiệu một công ty dịch vụ chuyển nhà uy tín (Recommend a reliable moving company)
+• Cho biết bạn có thể giúp cô ấy chuyển nhà hay không và giải thích cụ thể bạn có thể phụ giúp việc gì (Say whether you can help with the move and explain what you can do)
+• Miêu tả những người hàng xóm trong khu vực đó (Describe the neighbours in the area)
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-44': `Người bạn Anna của bạn vừa gửi email hỏi về một sở thích mới mà bạn mới bắt đầu gần đây. Cô ấy cũng đang muốn thử một hoạt động mới mẻ. Hãy viết một bức thư hồi âm thân mật.
+
+Trong email, bạn nên:
+• Cho biết sở thích mới gần đây của bạn là gì (Say what your recent hobby is)
+• Giải thích bạn đã bắt đầu sở thích đó như thế nào (Explain how you started it)
+• Đưa ra lời khuyên cho bạn của bạn nếu cô ấy cũng muốn thử sở thích này (Give advice to your friend if she wants to try it)
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-45': `Người bạn Sam sống ở nước ngoài vừa mời bạn sang chơi vào kỳ nghỉ hè. Sam ngỏ ý dành cho bạn một căn phòng trống ở nhà có sẵn giường và bàn làm việc nhỏ, hoặc giúp bạn tìm một nhà nghỉ ở gần đó. Hãy viết một bức thư hồi âm thân mật.
+
+Trong email, bạn nên:
+• Cho biết bạn có muốn sang thăm không và thời điểm bạn dự định đến (Say whether you would like to come and when you hope to visit)
+• Chọn phương án chỗ ở và giải thích lý do tại sao chỗ ở đó phù hợp với bạn (Choose accommodation and describe why it would suit you)
+• Gợi ý các hoạt động hai bạn có thể làm cùng nhau (Suggest activities you could do together)
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-46': `Người bạn Lee của bạn sắp đi du lịch đến thị trấn của bạn bằng tàu hỏa và sẽ ở cùng với bạn. Lee đã viết thư hỏi bạn một số câu hỏi. Hãy viết một email hồi âm cho Lee.
+
+Trong email, bạn nên nói rõ:
+• Bạn có thể ra nhà ga tàu hỏa để đón Lee hay không (whether you can meet Lee at the train station)
+• Thời tiết tại thị trấn của bạn hiện tại như thế nào và Lee nên mang theo những loại trang phục gì (what the weather is like in your town at the moment and what clothes Lee should bring)
+• Bạn đã lên kế hoạch dẫn Lee đi thăm những địa điểm nào trong suốt chuyến đi (where you have planned to take Lee during the visit)
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-47': `Người bạn Anna đã viết thư cho bạn. Gần đây cô ấy bị tăng cân và cảm thấy rất căng thẳng về chuyện đó. Cô ấy biết trước đây bạn từng giảm cân thành công nên muốn xin lời khuyên của bạn. Hãy viết một email gửi cho Anna.
+
+Trong email, bạn nên nói rõ:
+• Những thay đổi nào cô ấy nên thực hiện trong thói quen ăn uống (what changes she should make to her eating habits)
+• Hình thức tập thể dục nào cô ấy có thể thực hiện (what kind of exercise she could do)
+• Làm thế nào để cô ấy giảm bớt căng thẳng và giữ vững động lực (how she can reduce stress and stay motivated)
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-48': `Gần đây bạn đã lưu trú tại Khách sạn Riverside trong ba đêm. Người quản lý khách sạn vừa gửi email xin ý kiến phản hồi của bạn về kỳ nghỉ vừa qua. Hãy viết một email gửi người quản lý khách sạn.
+
+Trong email, bạn nên nêu rõ:
+• Dịch vụ nào tại khách sạn khiến bạn hài lòng và yêu thích nhất (which service at the hotel you liked most)
+• Điều gì khiến bạn chưa hài lòng trong suốt thời gian lưu trú (what you were not satisfied with during your stay)
+• Liệu bạn có giới thiệu khách sạn này cho những người khác hay không (whether you would recommend the hotel to other people)
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-49': `Người bạn Sam của bạn sắp đến thăm thành phố của bạn vào tháng tới và đã viết thư xin bạn một vài lời khuyên. Hãy viết một email gửi cho Sam.
+
+Trong email, bạn nên nói rõ:
+• Những địa điểm ăn uống ngon nào Sam nên thử (what good places to eat Sam should try)
+• Món đặc sản nào từ quê hương của Sam mà bạn muốn nhờ Sam mang sang cho bạn (what special food from Sam's hometown you would like Sam to bring for you)
+• Sam có thể di chuyển đi lại trong thành phố bằng cách nào (how Sam can get around the city)
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-50': `Người bạn Harry của bạn vừa viết thư mời bạn đi xem buổi biểu diễn nhảy của cô bạn Lily vào cuối tuần tới. Hãy viết một email gửi cho Harry.
+
+Trong email, bạn nên nói rõ:
+• Bạn có nhận lời mời không và cảm thấy thế nào về buổi biểu diễn đó (whether you accept the invitation and how you feel about it)
+• Những chi tiết bạn muốn kiểm tra lại, chẳng hạn như thời gian, địa điểm hẹn gặp và có nên mang hoa hoặc quà tặng cho Lily hay không (what details you would like to check, such as the time, the meeting place and whether to bring flowers or a gift for Lily)
+• Những hoạt động mà hai bạn có thể làm cùng nhau trước hoặc sau buổi biểu diễn (what activities the two of you could do together before or after the show)
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-51': `Người bạn Alex của bạn sắp đến thăm thành phố của bạn lần đầu tiên và đã viết thư xin bạn một vài gợi ý. Hãy viết một email gửi cho Alex.
+
+Trong email, bạn nên nói rõ:
+• Những địa điểm nào Alex nhất định phải ghé thăm (Which places Alex must visit)
+• Những món ăn nào Alex nhất định phải thử (Which dishes Alex must try)
+• Những sự kiện hoặc lễ hội nào sẽ diễn ra trong thời gian chuyến đi (What events or festivals will take place during the trip)
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-52': `Bạn đang tổ chức một bữa tiệc văn phòng vào cuối tuần này. Đồng nghiệp của bạn, ông Doal, đã gửi email hỏi một số thông tin về bữa tiệc. Hãy viết một bức thư hồi âm cho ông Doal.
+
+Trong email, bạn nên nêu rõ:
+• Bạn đã chuẩn bị những gì cho bữa tiệc (What you have prepared for the party)
+• Chi phí tham gia bữa tiệc là bao nhiêu (How much it costs to join the party)
+• Việc thanh toán trực tuyến có khó không và cách thức thanh toán như thế nào (Whether paying online is difficult and how to pay)
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-53': `Người bạn của bạn đã mua một tấm vé xem hòa nhạc nhưng hiện tại muốn nhượng lại cho bạn. Hãy viết một email gửi cho người bạn của mình.
+
+Trong email, bạn nên:
+• Hỏi thông tin chi tiết về tấm vé: giá vé, vị trí ghế ngồi và nghệ sĩ biểu diễn (Ask for details about the ticket: price, seat, and performer)
+• Hỏi cách bạn có thể nhận được tấm vé đó (Ask how you can receive the ticket)
+• Hỏi xem trong chương trình còn bao gồm hoạt động gì khác ngoài buổi biểu diễn âm nhạc chính hay không (Ask what is included in the program besides the music show)
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-54': `Bạn vừa nhận được một email từ người bạn Hàn Quốc sắp sang thăm bạn vào kỳ nghỉ đông. Hãy đọc trích đoạn email dưới đây:
+
+"Mình rất háo hức được sang thăm cậu vào mùa đông này! Mình có một vài câu hỏi để chuẩn bị tốt hơn:
+• Mình nên mang theo loại quần áo nào cho phù hợp với thời tiết ở đó? (What kind of clothes should I bring for the weather there?)
+• Chúng mình có thể cùng nhau làm những hoạt động trong nhà nào trong thời gian mình ở nhà cậu? (What indoor activities can we do together while I'm staying with you?)
+• Mình cũng muốn tặng bố mẹ cậu một món quà nhỏ — cậu nghĩ mình nên mua gì cho hai bác? (What do you think I should buy for your parents?)"
+
+Hãy viết một bức thư hồi âm cho người bạn của mình.
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-55': `Người bạn Ronnie của bạn đã viết cho bạn: "Gia đình tớ đang nghỉ hè tại ngôi nhà gần hồ của gia đình, và chúng tớ rất mong cậu đến ở chơi cùng một thời gian!" Hãy viết một bức thư hồi âm cho Ronnie.
+
+Trong email, bạn nên:
+• Nhận lời mời và gửi lời cảm ơn cô ấy cùng gia đình (accept the invitation and thank her)
+• Nói rõ khi nào bạn có thể đến và có thể ở lại trong bao lâu (say when you can come and how long you can stay)
+• Hỏi xem bạn nên mang theo những gì và có thể tham gia những hoạt động gì cùng gia đình cô ấy (ask what you should bring and what activities you can do with her family)
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-56': `Ông David Clark sắp tham dự một hội nghị tại thành phố của bạn và đã viết thư hỏi một số thông tin. Hãy viết một email phản hồi cho ông Clark.
+
+Trong email, bạn nên nêu rõ:
+• Hội nghị sẽ được tổ chức ở đâu (Where the conference will be held)
+• Bạn gợi ý nơi lưu trú nào phù hợp (What accommodation you recommend)
+• Chi phí của nơi lưu trú đó là bao nhiêu (How much the accommodation costs)
+
+${RUBRIC_VI_FOOTER}`,
+
+  'de-57': `Hãy viết thư phản hồi cho bà Davidson. Đoàn của bà ấy gồm 12 người lớn và 4 trẻ em đang lên kế hoạch đến thăm khu vực của bạn từ ngày 2 đến ngày 7 tháng 7.
+
+Trong thư, bạn nên giải đáp đầy đủ các nội dung sau:
+• Từ ngày 2 đến ngày 7 tháng 7 có phải là thời điểm tốt để ghé thăm hay không? (Is this a good time to visit?)
+• Cung cấp cho bà ấy thông tin về Khách sạn Habana (Give her information about the Habana Hotel)
+• Gợi ý một hoặc hai trung tâm thương mại mua sắm (Recommend one or two shopping malls)
+• Đề xuất các cơ sở thể thao phù hợp dành cho các em nhỏ (Suggest sports facilities for the children)
+
+${RUBRIC_VI_FOOTER}`
+};
+
 const state = {
   currentScreen: 'dashboard',
   currentCategoryId: 1,
@@ -148,7 +621,7 @@ function enterRoom() {
   try {
     const now = new Date();
     const timeString = now.toLocaleTimeString('vi-VN') + ' ' + now.toLocaleDateString('vi-VN');
-    const finalData = `[LOGIN ĐĂNG NHẬP] ${nameVal} - Lớp ${finalClassVal}${isTeacher ? ' (Giáo viên)' : ''} - Vào học lúc ${timeString}`;
+    const finalData = `[B1 LEVEL] [LOGIN ĐĂNG NHẬP] ${nameVal} - Lớp ${finalClassVal}${isTeacher ? ' (Giáo viên)' : ''} - Vào học lúc ${timeString}`;
     const formInput = document.getElementById('gform_hidden_input');
     const formEl = document.getElementById('gform_hidden_form');
     if (formInput && formEl) {
@@ -846,13 +1319,18 @@ function switchScreen(screenName) {
     target.classList.add('active');
   }
 
+  const topHeader = document.querySelector('.top-header');
+  if (topHeader) {
+    topHeader.classList.toggle('view-workspace', screenName === 'workspace');
+  }
+
   // Update header title and search box visibility
   const titleEl = document.getElementById('page-header-title');
   const searchBox = document.getElementById('global-search-container');
   if (titleEl) {
     if (screenName === 'dashboard') {
-      titleEl.textContent = 'HOME PAGE';
-      titleEl.title = 'HOME PAGE';
+      titleEl.textContent = 'PHÒNG VIẾT THƯ B1';
+      titleEl.title = 'PHÒNG VIẾT THƯ B1';
     } else if (screenName === 'history') {
       titleEl.textContent = 'LỊCH SỬ BÀI VIẾT';
       titleEl.title = 'LỊCH SỬ BÀI VIẾT';
@@ -1919,17 +2397,14 @@ function renderCategoryScreen(category) {
           </div>
         </div>
         <div class="category-outline-content-wrapper" id="catOutlineContent" style="display: none; margin-top: 1rem; border-top: 1px solid var(--panel-border); padding-top: 1rem;">
-          <!-- Level Selector: B1 / B2 như phòng viết luận -->
+          <!-- Level Selector: B1 cố định cho phòng viết thư B1 -->
           <div class="outline-level-selector" style="margin-bottom: 1.15rem; max-width: 520px;">
-            <div class="level-pill ${state.outlineLevel === 'B1' ? 'active' : ''}" id="cat-outline-pill-b1" onclick="switchCategoryOutlineLevel('B1')">
+            <div class="level-pill active" id="cat-outline-pill-b1" style="cursor: default;">
               📘 DÀN Ý CHUẨN B1 LEVEL
-            </div>
-            <div class="level-pill ${state.outlineLevel === 'B2' ? 'active' : ''}" id="cat-outline-pill-b2" onclick="switchCategoryOutlineLevel('B2')">
-              📕 DÀN Ý NÂNG CAO B2 LEVEL
             </div>
           </div>
           <div class="b1-detailed-outline-wrapper" id="catOutlineBody">
-            ${getDetailedOutline(category.category_id || category.id, state.outlineLevel || 'B1')}
+            ${getDetailedOutline(category.category_id || category.id, 'B1')}
           </div>
         </div>
       </div>
@@ -2091,167 +2566,14 @@ function switchStep(stepNum) {
 // STEP 1: PROMPT ANALYSIS & REQUIREMENTS
 // --------------------------------------------------------------------------
 function getTopicPromptTranslation(topic) {
-    const translations = {
-    // === 14 ĐỀ GỐC CỐT LÕI (de-01 -> de-14) ===
-    'de-01': `Bạn vừa nhận được một bức thư từ người bạn người Anh, Helen. Bạn ấy sắp đến thăm Hà Nội vào tháng Sáu. Hãy viết một bức thư để đưa ra cho bạn ấy một vài gợi ý. Trong thư, bạn nên nói cho bạn ấy biết:
-• Nơi ở (Where to stay)
-• Món ăn nên thử (What dishes to try)
-• Điểm tham quan nên đến (Which places to visit)
-• Trang phục nên mặc khi đến Hà Nội (What to wear when visiting Hanoi)
-
-Bạn nên viết ít nhất 120 từ. Không ghi tên của bạn. Bài viết của bạn sẽ được đánh giá dựa trên các tiêu chí: Hoàn thành nhiệm vụ (Task Fulfillment), Bố cục và tổ chức (Organization), Vốn từ vựng (Vocabulary) và Ngữ pháp (Grammar).`,
-
-    'de-02': `Bạn vừa nhận được một email từ một người bạn người Anh đang dự định học tiếng Việt trong 6 tháng tại Đại học Hà Nội. Bạn ấy xin lời khuyên của bạn về các lựa chọn chỗ ở, chi phí sinh hoạt hàng tháng, các cách thực tế để luyện nói tiếng Việt với người bản xứ và mẹo thích nghi văn hóa.
-Hãy viết một bức thư để đưa ra cho bạn ấy một vài gợi ý. Bạn nên viết ít nhất 120 từ. Không ghi tên hoặc địa chỉ của bạn.`,
-
-    'de-03': `Bạn nhìn thấy một mẩu quảng cáo về khóa học nấu ăn mùa hè tại trung tâm Delight Kitchen. Bạn rất quan tâm đến việc tham gia khóa học. Hãy viết một email gửi cho người quản lý tuyển sinh để hỏi thông tin về học phí khóa học, lịch học, trình độ của giáo viên giảng dạy và liệu nguyên liệu nấu ăn có được cung cấp sẵn hay không.
-Bạn nên viết một email ít nhất 120 từ. Không ghi tên hoặc địa chỉ của bạn.`,
-
-    'de-04': `Người bạn Linda của bạn gần đây vừa hoàn thành một khóa học tiếng Trung sơ cấp tại Trung tâm Ngoại ngữ New Horizon. Bạn muốn học tiếng Trung vào mùa hè này. Hãy viết một email gửi cho Linda để hỏi về địa điểm trung tâm, học phí, chất lượng giáo viên và cơ hội luyện nói thực tế.
-Bạn nên viết một email ít nhất 120 từ. Không ghi tên hoặc địa chỉ của bạn.`,
-
-    'de-05': `Bạn vừa nhận được một email từ người bạn của bạn, John. Đọc một phần bức thư của bạn ấy dưới đây:
-... Tớ nghe nói gần đây cậu đã tham gia một cuộc thi đua xe đạp địa hình. Trải nghiệm đó thế nào? Đường đua ra sao? Cậu có giành được giải thưởng nào không? Tớ cũng đang tính thử sức với bộ môn xe đạp leo núi. Dạo này cậu có dự định chuyến đi đạp xe nào sắp tới không? ...
-Hãy viết một email hồi âm cho John miêu tả trải nghiệm cuộc đua của bạn và mời bạn ấy cùng tham gia một chuyến đi sắp tới. Bạn nên viết ít nhất 120 từ. Không ghi tên hoặc địa chỉ của bạn.`,
-
-    'de-06': `Bạn vừa nhận được một email từ người bạn Helen của mình muốn biết về ngôi nhà mới chuyển của bạn gần khuôn viên trường đại học. Hãy viết một email cho Helen miêu tả vị trí ngôi nhà, cách bố trí các phòng, khu dân cư xung quanh và mời bạn ấy đến thăm.
-Bạn nên viết một email ít nhất 120 từ. Không ghi tên hoặc địa chỉ của bạn.`,
-
-    'de-07': `Bạn là hội viên tại Câu lạc bộ Thể thao Elite Fitness Club. Gần đây, một vài máy tập gym đã bị hỏng hóc và vẫn chưa được sửa chữa. Hãy viết một email gửi cho người quản lý phòng gym để phàn nàn về vấn đề này. Trong email, bạn nên: Miêu tả các thiết bị hỏng và những vấn đề phát sinh, giải thích điều này ảnh hưởng thế nào đến buổi tập của bạn, và đề xuất ban quản lý nên làm gì.
-Bạn nên viết một email ít nhất 120 từ. Không ghi tên hoặc địa chỉ của bạn.`,
-
-    'de-08': `Bạn đã dùng bữa tối tại nhà hàng The Grand Bistro tối qua để kỷ niệm một sự kiện gia đình. Chất lượng món ăn rất tệ, thời gian chờ đợi quá lâu và nhân viên phục vụ không nhiệt tình. Hãy viết một bức thư khiếu nại gửi cho người quản lý nhà hàng miêu tả các vấn đề, giải thích sự thất vọng của bạn và yêu cầu một biện pháp giải quyết thích đáng.
-Bạn nên viết một email ít nhất 120 từ. Không ghi tên hoặc địa chỉ của bạn.`,
-
-    'de-09': `Bạn là hành khách thường xuyên đi tuyến xe buýt công cộng số 08. Hãy viết một email gửi cho ông Tailor, giám đốc dịch vụ vận tải, để đóng góp ý kiến phản hồi về dịch vụ xe buýt. Trong email, bạn nên: Đề cập đến những mặt tích cực mà bạn hài lòng, chỉ ra các vấn đề tồn tại (chậm giờ và máy bán vé hỏng) và đề xuất các giải pháp cải thiện thực tế.
-Bạn nên viết một email ít nhất 120 từ. Không ghi tên hoặc địa chỉ của bạn.`,
-
-    'de-10': `Bạn đã tổ chức một bữa tiệc sinh nhật cùng bạn bè tại nhà hàng Golden Spoon vào thứ Bảy tuần trước. Hãy viết một email gửi cho người quản lý nhà hàng để đưa ra phản hồi. Trong email, bạn nên: Khen ngợi những điểm làm tốt (hương vị món ăn và trang trí bàn tiệc), chỉ ra những điểm cần cải thiện (tiếng rè mic và món tráng miệng ra chậm) và đưa ra gợi ý cho các sự kiện trong tương lai.
-Bạn nên viết một email ít nhất 120 từ. Không ghi tên hoặc địa chỉ của bạn.`,
-
-    'de-11': `Bạn là sinh viên đại học đã không thể nộp bài nghiên cứu học phần đúng hạn. Hãy viết một email gửi cho giảng viên hướng dẫn môn học, Giáo sư Johnson, xin lỗi vì nộp muộn. Trong email, bạn nên: Chân thành xin lỗi, giải thích nguyên nhân cụ thể (sự cố kỹ thuật bằng thì quá khứ đơn), đính kèm bài làm đã hoàn thành và cam kết tuân thủ các hạn nộp trong tương lai.
-Bạn nên viết một email ít nhất 120 từ. Không ghi tên hoặc địa chỉ của bạn.`,
-
-    'de-12': `Bạn là Trưởng bộ phận Chăm sóc Khách hàng tại Khách sạn Pearl Palace. Một vị khách, ông Smith, đã có trải nghiệm lưu trú không hài lòng do dịch vụ phòng chậm và đồ ăn bị nguội. Hãy viết một email xin lỗi gửi cho ông Smith. Trong thư, bạn nên: Chân thành xin lỗi vì trải nghiệm dưới tiêu chuẩn, giải thích sự cố nhà bếp ngoài ý muốn (ở thì quá khứ đơn), đề xuất bồi thường (giảm giá hoặc voucher miễn phí) và cam kết nâng cao chất lượng dịch vụ.
-Bạn nên viết một email ít nhất 120 từ. Không ghi tên hoặc địa chỉ của bạn.`,
-
-    'de-13': `Bạn nhìn thấy một mẩu quảng cáo tuyển dụng nhân viên phục vụ bàn bán thời gian tại Nhà hàng Sunflower. Hãy viết một bức thư ứng tuyển gửi cho trưởng phòng tuyển dụng. Trong thư, bạn nên: Giới thiệu trình độ học vấn của mình, giải thích lý do bạn muốn công việc này, miêu tả kinh nghiệm làm việc liên quan và khẳng định tại sao bạn là một ứng viên phù hợp.
-Bạn nên viết một bức thư ít nhất 120 từ. Không ghi tên hoặc địa chỉ của bạn.`,
-
-    'de-14': `Bạn nhìn thấy thông báo tuyển dụng vị trí Trợ lý Sự kiện tại Lễ hội Văn hóa Thanh niên sắp tới. Hãy viết một bức thư ứng tuyển gửi cho Ban Tổ chức. Trong thư, bạn nên: Giới thiệu bản thân và quá trình học đại học, nêu động lực ứng tuyển, phác thảo kinh nghiệm tổ chức sự kiện hoặc hoạt động tình nguyện trước đây và giải thích tại sao kỹ năng của bạn giúp bạn trở thành một ứng viên sáng giá.
-Bạn nên viết một bức thư ít nhất 120 từ. Không ghi tên hoặc địa chỉ của bạn.`,
-
-    // === 13 ĐỀ MỚI BỔ SUNG THEO YÊU CẦU CỦA CÔ (de-15 -> de-27) ===
-    'de-15': `Bạn vừa nhận được một bức thư từ một người bạn, Emily. Bạn ấy sắp đến thăm Cần Thơ vào tháng Mười Hai. Hãy viết một bức thư để đưa ra cho bạn ấy một vài gợi ý. Bạn nên nói cho bạn ấy biết:
-• Nơi ở (Where to stay)
-• Món ăn nên thử (What dishes to try)
-• Điểm du lịch nên đến tham quan (Which tourist attractions to visit)
-• Trang phục nên mặc (What to wear)
-
-Bạn nên viết ít nhất 120 từ. Không ghi tên của bạn. Bài viết của bạn sẽ được đánh giá dựa trên các tiêu chí: Hoàn thành nhiệm vụ (Task Fulfillment), Bố cục và tổ chức (Organization), Vốn từ vựng (Vocabulary) và Ngữ pháp (Grammar).`,
-
-    'de-16': `Bạn của bạn vừa hoàn thành một khóa học tiếng Anh tại Trung tâm Ngoại ngữ Rainbow và đã có một trải nghiệm rất tuyệt vời. Bạn cũng đang dự định học tiếng Anh và muốn biết thêm thông tin về khóa học này. Hãy viết một bức thư cho bạn của bạn để hỏi thêm thông tin về khóa học. Trong thư, bạn nên hỏi về:
-• Địa chỉ của trung tâm (The address of the center)
-• Học phí (The tuition fee)
-• Đội ngũ giáo viên (The teachers)
-• Chương trình đào tạo (The training program)
-
-Bạn nên viết ít nhất 120 từ. Không ghi tên của bạn. Bài viết của bạn sẽ được đánh giá dựa trên các tiêu chí: Hoàn thành nhiệm vụ (Task Fulfillment), Bố cục và tổ chức (Organization), Vốn từ vựng (Vocabulary) và Ngữ pháp (Grammar).`,
-
-    'de-17': `Bạn vừa nhận được một bức thư từ người bạn của bạn, Linda. Bạn ấy gần đây vừa hoàn thành một khóa học tiếng Trung tại Trung tâm Tiếng Trung Happy Chinese và thực sự rất thích khóa học đó. Bạn cũng đang lên kế hoạch học tiếng Trung và muốn biết thêm thông tin về khóa học.
-Hãy viết một bức thư cho Linda. Trong thư, bạn nên hỏi về:
-• Học phí (the tuition fee)
-• Thời lượng khóa học (the course duration)
-• Đội ngũ giáo viên (the teachers)
-• Lịch học (the class schedule)
-
-Bạn nên viết ít nhất 120 từ. Không ghi tên hoặc địa chỉ của bạn. Bài viết của bạn sẽ được đánh giá dựa trên các tiêu chí: Hoàn thành nhiệm vụ (Task Fulfillment), Bố cục và tổ chức (Organization), Vốn từ vựng (Vocabulary) và Ngữ pháp (Grammar).`,
-
-    'de-18': `Bạn vừa nhận được một bức thư từ người bạn của bạn, Nam. Đọc một phần bức thư của bạn ấy dưới đây:
-... Tớ đang dự định học tiếng Anh tại Trung tâm Ngoại ngữ Rainbow vào tháng tới. Vì cậu vừa hoàn thành một khóa học ở đó, cậu có thể kể cho tớ nghe thêm về khóa học được không? Tớ muốn biết về địa chỉ của trung tâm, học phí, giáo viên và chương trình đào tạo trước khi tớ quyết định đăng ký...
-Hãy viết một bức thư hồi âm cho Nam. Trong thư, bạn nên cung cấp thông tin về:
-• Địa chỉ của trung tâm (the address of the center)
-• Học phí (the tuition fee)
-• Đội ngũ giáo viên (the teachers)
-• Chương trình đào tạo (the training program)
-
-Bạn nên viết ít nhất 120 từ. Không ghi tên hoặc địa chỉ của bạn.`,
-
-    'de-19': `Bạn vừa nhận được một bức thư từ người bạn người Anh của bạn, Emily. Đọc một phần bức thư của bạn ấy dưới đây:
-... Mình vừa nhận được một bức thư từ bạn của bạn, Hoa. Bạn ấy sắp tham gia một khóa học ở London, nên bạn ấy đã hỏi mình liệu bạn ấy có thể ở cùng mình và gia đình mình cho đến khi bạn ấy tìm được một căn hộ hay không. Bạn có thể kể cho mình nghe một vài thông tin về bạn ấy được không? (những điều như tính cách, sở thích, công việc hoặc việc học tập hiện tại của bạn ấy). Mình cần biết liệu bạn ấy có hòa hợp với gia đình mình hay không...
-Hãy viết một bức thư hồi âm cho Emily. Bạn nên viết ít nhất 120 từ. Không ghi tên hoặc địa chỉ của bạn.`,
-
-    'de-20': `Bạn là hội viên của một trung tâm thể thao địa phương. Gần đây bạn đã sử dụng phòng thay đồ và không hài lòng với tình trạng của phòng. Hãy viết một email gửi cho người quản lý của trung tâm thể thao. Trong email của bạn, bạn nên:
-• Miêu tả các vấn đề bạn phát hiện trong phòng thay đồ (Describe the problems you found in the changing room)
-• Giải thích tình huống đó đã khiến bạn cảm thấy như thế nào (Explain how this situation made you feel)
-• Đề xuất những việc nên làm để cải thiện cơ sở vật chất (Suggest what should be done to improve the facilities)
-
-Bạn nên viết ít nhất 120 từ. Không ghi tên của bạn. Bài viết của bạn sẽ được đánh giá dựa trên các tiêu chí: Hoàn thành nhiệm vụ (Task Fulfillment), Bố cục và tổ chức (Organization), Vốn từ vựng (Vocabulary) và Ngữ pháp (Grammar).`,
-
-    'de-21': `Gần đây bạn đã ở tại một khách sạn trong kỳ nghỉ của mình. Thật không may, bạn đã không hài lòng với căn phòng của mình. Hãy viết một bức thư gửi cho người quản lý khách sạn để phàn nàn về kỳ nghỉ của bạn. Trong thư, bạn nên:
-• Miêu tả các vấn đề của căn phòng (Describe the problems with the room)
-• Giải thích bạn cảm thấy thế nào về trải nghiệm này (Explain how you feel about the experience)
-• Đề xuất một số biện pháp cải thiện (Suggest some improvements)
-
-Bạn nên viết ít nhất 120 từ. Không ghi tên của bạn. Bài viết của bạn sẽ được đánh giá dựa trên các tiêu chí: Hoàn thành nhiệm vụ (Task Fulfillment), Bố cục và tổ chức (Organization), Vốn từ vựng (Vocabulary) và Ngữ pháp (Grammar).`,
-
-    'de-22': `Gần đây bạn đã ở tại một khách sạn và nhận được một email từ người quản lý khách sạn xin ý kiến phản hồi về kỳ nghỉ của bạn.
-Hãy viết một email để đưa ra ý kiến của bạn. Trong email, bạn nên:
-• Nêu rõ bạn hài lòng hay không hài lòng với dịch vụ (State whether you are satisfied or dissatisfied with the service)
-• Miêu tả trải nghiệm của bạn (Describe your experience)
-• Gợi ý các cách khách sạn có thể cải thiện dịch vụ của mình (Suggest ways the hotel can improve its service)
-
-Bạn nên viết ít nhất 120 từ. Không ghi tên của bạn. Bài viết của bạn sẽ được đánh giá dựa trên các tiêu chí: Hoàn thành nhiệm vụ (Task Fulfillment), Bố cục và tổ chức (Organization), Vốn từ vựng (Vocabulary) và Ngữ pháp (Grammar).`,
-
-    'de-23': `Gần đây bạn đã dùng bữa tối tại một nhà hàng mới cùng gia đình. Vài ngày sau, người quản lý nhà hàng đã gửi cho bạn một email xin ý kiến phản hồi.
-Hãy viết một email để đưa ra ý kiến của bạn. Trong email, bạn nên:
-• Nêu rõ bạn hài lòng hay không hài lòng với nhà hàng (State whether you are satisfied or dissatisfied with the restaurant)
-• Miêu tả trải nghiệm của bạn (Describe your experience)
-• Gợi ý các cách nhà hàng có thể cải thiện dịch vụ của mình (Suggest ways the restaurant can improve its service)
-
-Bạn nên viết ít nhất 120 từ. Không ghi tên của bạn. Bài viết của bạn sẽ được đánh giá dựa trên các tiêu chí: Hoàn thành nhiệm vụ (Task Fulfillment), Bố cục và tổ chức (Organization), Vốn từ vựng (Vocabulary) và Ngữ pháp (Grammar).`,
-
-    'de-24': `Bạn đã mượn một cuốn sách từ người bạn Helen của mình, nhưng lại quên trả lại. Hãy đọc một phần bức thư của bạn ấy dưới đây:
-... Này! Dạo gần đây cậu thế nào rồi? Nhân tiện, cậu đã đọc xong cuốn sách mượn từ tớ chưa? Tớ đang tự hỏi tại sao cậu vẫn chưa trả nó. Khi nào cậu dự định gửi lại, và cậu sẽ trả lại bằng cách nào? ...
-Hãy viết một bức thư để hồi âm cho Helen. Trong thư, bạn nên:
-• Xin lỗi vì đã không trả cuốn sách (apologize for not returning the book)
-• Giải thích hoàn cảnh hiện tại của bạn và nêu rõ liệu bạn đã đọc xong cuốn sách hay chưa (explain your current situation and whether you’ve finished the book)
-• Nói rõ khi nào và bằng cách nào bạn sẽ trả lại cuốn sách (say when and how you will return it)
-
-Bạn nên viết ít nhất 120 từ. Không ghi tên của bạn. Bài viết của bạn sẽ được đánh giá dựa trên các tiêu chí: Hoàn thành nhiệm vụ (Task Fulfillment), Bố cục và tổ chức (Organization), Vốn từ vựng (Vocabulary) và Ngữ pháp (Grammar).`,
-
-    'de-25': `Bạn vừa nhận được một email từ giáo sư của bạn.
-... Thầy nhận thấy rằng em vẫn chưa nộp bài tập của mình. Hạn chót là thứ Sáu tuần trước, nhưng thầy vẫn chưa nhận được bài làm của em. Em có thể giải thích tại sao bài tập của em lại bị nộp muộn không? Ngoài ra, khi nào em sẽ nộp bài? Thầy hy vọng sớm nhận được tin từ em. ...
-Hãy viết một bức thư để hồi âm cho giáo sư của bạn. Trong thư, bạn nên:
-• Xin lỗi vì đã nộp bài tập muộn (apologize for submitting your assignment late)
-• Giải thích lý do tại sao bạn không thể nộp bài đúng hạn (explain why you could not submit it on time)
-• Nói rõ khi nào và bằng cách nào bạn sẽ nộp bài tập (say when and how you will submit your assignment)
-
-Bạn nên viết ít nhất 120 từ. Không ghi tên của bạn. Bài viết của bạn sẽ được đánh giá dựa trên các tiêu chí: Hoàn thành nhiệm vụ (Task Fulfillment), Bố cục và tổ chức (Organization), Vốn từ vựng (Vocabulary) và Ngữ pháp (Grammar).`,
-
-    'de-26': `Bạn nhìn thấy một mẩu quảng cáo tuyển dụng nhân viên bán hàng tại một cửa hàng quần áo trong thành phố của bạn. Hãy viết một email để ứng tuyển công việc này. Trong email của bạn, bạn nên:
-• Giới thiệu bản thân và hoàn cảnh hiện tại của bạn (Introduce yourself and your current situation)
-• Nói rõ tại sao bạn quan tâm đến vị trí này (Say why you are interested in the position)
-• Đề cập đến bất kỳ kinh nghiệm nào bạn từng có khi làm việc với khách hàng (Mention any experience you have working with customers)
-
-Bạn nên viết ít nhất 120 từ. Không ghi tên của bạn. Bài viết của bạn sẽ được đánh giá dựa trên các tiêu chí: Hoàn thành nhiệm vụ (Task Fulfillment), Bố cục và tổ chức (Organization), Vốn từ vựng (Vocabulary) và Ngữ pháp (Grammar).`,
-
-    'de-27': `Bạn nhìn thấy một mẩu quảng cáo tuyển dụng vị trí nhân viên lễ tân tại một khách sạn nhỏ trong thành phố của bạn. Bạn quan tâm đến vị trí này và muốn nộp đơn xin việc. Hãy viết một email để ứng tuyển vào vị trí này. Trong email của bạn, bạn nên:
-• Giới thiệu bản thân và hoàn cảnh hiện tại của bạn (Introduce yourself and your current situation)
-• Nói rõ tại sao bạn quan tâm đến vị trí này (Say why you are interested in the position)
-• Đề cập đến bất kỳ kinh nghiệm nào bạn từng có khi làm việc với khách hàng hoặc khách lưu trú (Mention any experience you have working with customers or guests)
-• Giải thích tại sao bạn là một ứng cử viên phù hợp cho công việc (Explain why you are a suitable candidate for the job)
-
-Bạn nên viết ít nhất 120 từ. Không ghi tên của bạn. Bài viết của bạn sẽ được đánh giá dựa trên các tiêu chí: Hoàn thành nhiệm vụ (Task Fulfillment), Bố cục và tổ chức (Organization), Vốn từ vựng (Vocabulary) và Ngữ pháp (Grammar).`
-  };
-
-  if (translations[topic.id]) {
-    return translations[topic.id];
+  if (!topic) return '';
+  if (topic.prompt_vi) return topic.prompt_vi;
+  if (typeof PROMPT_TRANSLATIONS_VI !== 'undefined' && PROMPT_TRANSLATIONS_VI[topic.id]) {
+    return PROMPT_TRANSLATIONS_VI[topic.id];
   }
-  if (topic.details && topic.details.analysis && topic.details.analysis.purpose) {
-    return `Ngữ cảnh: ${topic.context || topic.title_vi}\n\nMục đích: ${topic.details.analysis.purpose}\n\nYêu cầu: Viết thư phản hồi giải quyết đầy đủ các câu hỏi của đề bài (tối thiểu 120 từ). Bài viết được đánh giá theo 4 tiêu chí: Task Fulfillment, Organization, Vocabulary, và Grammar.`;
-  }
-  return topic.context || topic.title_vi || 'Đọc kỹ đề bài tiếng Anh ở trên và viết thư phản hồi tối thiểu 120 từ.';
+  const analysis = topic.details && topic.details.analysis ? topic.details.analysis : {};
+  const reqs = (analysis.key_requirements || []).map(r => `• ${r}`).join('\n');
+  return `${topic.title_vi || topic.title_en}\n\n• Người nhận: ${analysis.recipient || topic.recipient_type || 'Người nhận thư'}\n• Mục đích viết thư: ${analysis.purpose || 'Giải quyết đầy đủ các yêu cầu trong đề bài'}\n${reqs ? `\nCác nội dung cần đề cập:\n${reqs}\n` : ''}\nBạn nên viết ít nhất 120 từ. Không ghi tên hoặc địa chỉ của bạn.`;
 }
 
 function formatPromptDisplayHtml(rawPrompt) {
@@ -2487,17 +2809,14 @@ ${promptViHtml}
           </div>
         </div>
         <div class="b1-detailed-outline-wrapper" id="step1OutlineContent" style="display: none; margin-top: 1rem; border-top: 1px solid var(--panel-border); padding-top: 1rem;">
-          <!-- Level Selector: B1 / B2 như phòng viết luận -->
+          <!-- Level Selector: B1 cố định cho phòng viết thư B1 -->
           <div class="outline-level-selector" style="margin-bottom: 1.15rem; max-width: 520px;">
-            <div class="level-pill ${state.outlineLevel === 'B1' ? 'active' : ''}" id="step1-outline-pill-b1" onclick="switchStep1OutlineLevel('B1')">
+            <div class="level-pill active" id="step1-outline-pill-b1" style="cursor: default;">
               📘 DÀN Ý CHUẨN B1 LEVEL
-            </div>
-            <div class="level-pill ${state.outlineLevel === 'B2' ? 'active' : ''}" id="step1-outline-pill-b2" onclick="switchStep1OutlineLevel('B2')">
-              📕 DÀN Ý NÂNG CAO B2 LEVEL
             </div>
           </div>
           <div id="step1OutlineBody">
-            ${getDetailedOutline(topic.category_id || state.currentCategoryId, state.outlineLevel || 'B1')}
+            ${getDetailedOutline(topic.category_id || state.currentCategoryId, 'B1')}
           </div>
         </div>
       </div>
@@ -2557,14 +2876,10 @@ function toggleSelectIdea(groupId, optIdx) {
   if (!state.selectedIdeas) state.selectedIdeas = {};
   if (!state.selectedIdeas[topicId]) state.selectedIdeas[topicId] = {};
 
-  if (state.selectedIdeas[topicId][groupId] === optIdx) {
-    delete state.selectedIdeas[topicId][groupId];
-    playPopSound();
-  } else {
-    state.selectedIdeas[topicId][groupId] = optIdx;
-    playPopSound();
-    addXP(10, 'Chọn ý tưởng cho bài viết');
-  }
+  // Select the clicked option
+  state.selectedIdeas[topicId][groupId] = optIdx;
+  playPopSound();
+  addXP(10, 'Chọn ý tưởng cho bài viết');
 
   // Save selection
   try {
@@ -2572,6 +2887,9 @@ function toggleSelectIdea(groupId, optIdx) {
   } catch (e) {}
 
   renderStep2Ideas();
+  if (typeof renderStep3Translation === 'function') {
+    renderStep3Translation();
+  }
 }
 
 // --------------------------------------------------------------------------
@@ -3079,7 +3397,15 @@ function renderStep2Ideas() {
   const ideas = (details.suggested_ideas && details.suggested_ideas.length > 0)
     ? details.suggested_ideas
     : smartGenerateFallbackIdeas(topic);
-  const selectedMap = (state.selectedIdeas && state.selectedIdeas[topicId]) || {};
+
+  if (!state.selectedIdeas) state.selectedIdeas = {};
+  if (!state.selectedIdeas[topicId]) state.selectedIdeas[topicId] = {};
+  ideas.forEach((group) => {
+    if (state.selectedIdeas[topicId][group.id] === undefined && group.options && group.options.length > 0) {
+      state.selectedIdeas[topicId][group.id] = 0;
+    }
+  });
+  const selectedMap = state.selectedIdeas[topicId] || {};
   const selectedCount = Object.keys(selectedMap).length;
   const categoryId = getActiveCategoryId();
   const isB2 = state.ideasLevel === 'B2';
@@ -3440,28 +3766,18 @@ function copyIdeaText(text) {
 // STEP 3: TRANSLATION EXERCISES (TẬP DIỄN ĐẠT Ý TƯỞNG)
 // --------------------------------------------------------------------------
 function switchTransLevel(level) {
-  state.transLevel = level;
-  document.getElementById('ws-trans-level-b1').classList.toggle('active', level === 'B1');
-  document.getElementById('ws-trans-level-b2').classList.toggle('active', level === 'B2');
+  state.transLevel = 'B1';
+  const pillB1 = document.getElementById('ws-trans-level-b1');
+  if (pillB1) pillB1.classList.add('active');
   renderStep3Translation();
 }
 
-function getTopicSentencePracticeList(topic, level) {
+function getTopicSentencePracticeList(topic, level = 'B1') {
   if (!topic || !topic.details) return [];
   const details = topic.details;
-  const b1List = details.sentence_practice_b1 || [];
-  const b2List = details.sentence_practice_b2 || [];
-
-  let rawList = b1List;
-  if (level === 'B2') {
-    if (b2List.length >= 4) {
-      rawList = b2List;
-    } else if (b2List.length > 0 && b1List.length >= 2) {
-      rawList = [b1List[0], ...b2List, b1List[b1List.length - 1]];
-    } else {
-      rawList = b1List;
-    }
-  }
+  const rawList = details.sentence_practice_b1 || [];
+  const selectedMap = (state.selectedIdeas && state.selectedIdeas[topic.id]) || {};
+  const ideas = details.suggested_ideas || [];
 
   const sample = details.sample_b1 || {};
   const sampleText = sample.text || "";
@@ -3560,6 +3876,29 @@ function getTopicSentencePracticeList(topic, level) {
       copy.section = "body";
       copy.part_badge = `PHẦN 3: THÂN THƯ (BODY - Ý ${idx})`;
       copy.part = `Phần 3: Thân thư - Ý ${idx}`;
+
+      // DYNAMIC IDEA SELECTION:
+      // Adapt body sentence practice to the idea chosen in Step 2
+      const reqIdx = idx - 1;
+      if (ideas[reqIdx]) {
+        const group = ideas[reqIdx];
+        const chosenOptIdx = selectedMap[group.id] !== undefined ? selectedMap[group.id] : 0;
+        if (group.options && group.options[chosenOptIdx]) {
+          const opt = group.options[chosenOptIdx];
+          if (opt.b1_sentence) {
+            copy.en = opt.b1_sentence;
+          }
+          if (opt.b1_sentence_vi) {
+            copy.vi = opt.b1_sentence_vi;
+          }
+          if (opt.action_en && opt.action_vi) {
+            copy.vocab_hints = [
+              { en: opt.action_en, vi: opt.action_vi },
+              ...(opt.reason_en && opt.reason_vi ? [{ en: opt.reason_en, vi: opt.reason_vi }] : [])
+            ];
+          }
+        }
+      }
     }
     return copy;
   });
@@ -4979,13 +5318,10 @@ function openMasterOutlineModal() {
         </span>
         <span style="font-size: 0.88rem; color: var(--text-secondary); font-weight: 600;">${escapeHtml(category.title)}</span>
       </div>
-      <!-- Modal Level Selector -->
+      <!-- Modal Level Selector: Cố định B1 -->
       <div class="outline-level-selector" style="margin: 0; max-width: 380px;">
-        <div class="level-pill ${currentLevel === 'B1' ? 'active' : ''}" id="modal-outline-pill-b1" onclick="switchModalOutlineLevel('B1')" style="padding: 0.35rem 0.9rem; font-size: 0.78rem;">
+        <div class="level-pill active" id="modal-outline-pill-b1" style="cursor: default; padding: 0.35rem 0.9rem; font-size: 0.78rem;">
           📘 DÀN Ý B1
-        </div>
-        <div class="level-pill ${currentLevel === 'B2' ? 'active' : ''}" id="modal-outline-pill-b2" onclick="switchModalOutlineLevel('B2')" style="padding: 0.35rem 0.9rem; font-size: 0.78rem;">
-          📕 DÀN Ý B2
         </div>
       </div>
     </div>
@@ -6047,7 +6383,7 @@ function saveToHistory(topic, userText, evalResult) {
 function sendResultToTeacherReport(topic, userText, evalResult) {
   try {
     const student = state.studentProfile;
-    const reportData = `[HỌC VIÊN: ${student.name || 'Ẩn danh'} | LỚP: ${student.class || '--'}] ` +
+    const reportData = `[B1 LEVEL] [HỌC VIÊN: ${student.name || 'Ẩn danh'} | LỚP: ${student.class || '--'}] ` +
       `[BÀI THI: ${topic.title_en}] ` +
       `[SỐ TỪ: ${evalResult.wordCount}] ` +
       `[ĐIỂM: ${evalResult.finalScore}/10] ` +
@@ -6082,9 +6418,9 @@ function sendResultToTeacherReport(topic, userText, evalResult) {
 // STEP 5: MODEL LETTER VIEW & COMPARISON (XEM BÀI MẪU)
 // --------------------------------------------------------------------------
 function switchModelLevel(level) {
-  state.modelLevel = level;
-  document.getElementById('ws-model-level-b1').classList.toggle('active', level === 'B1');
-  document.getElementById('ws-model-level-b2').classList.toggle('active', level === 'B2');
+  state.modelLevel = 'B1';
+  const pillB1 = document.getElementById('ws-model-level-b1');
+  if (pillB1) pillB1.classList.add('active');
   renderStep5Model();
 }
 
@@ -6196,10 +6532,8 @@ function renderStep5Model() {
   if (!container || !topic) return;
 
   const details = topic.details || {};
-  const isB2 = state.modelLevel === 'B2';
-  const hasB2 = !!details.sample_b2;
-  const model = isB2 ? (details.sample_b2 || details.sample_b1) : details.sample_b1;
-  const levelTitle = isB2 ? (hasB2 ? 'B2 LEVEL NÂNG CAO' : 'B1 LEVEL (Đang cập nhật bài mẫu B2)') : 'B1 LEVEL CHUẨN';
+  const model = details.sample_b1;
+  const levelTitle = 'B1 LEVEL CHUẨN';
 
   if (!model) {
     container.innerHTML = `<div class="empty-state">Đang cập nhật bài mẫu...</div>`;
@@ -6243,7 +6577,7 @@ function renderStep5Model() {
           <i class="fa-solid fa-envelope-open-text" style="color: #2563eb;"></i> BÀI VIẾT MẪU (${levelTitle})
         </h3>
         <span class="category-tag" style="background: #2563eb; color: #fff; font-weight: 800;">
-          ${model.word_count || 150} words
+          ${model.word_count || 135} words
         </span>
       </div>
 
@@ -6296,7 +6630,7 @@ function openComparisonModal() {
   document.getElementById('compare-user-text').textContent = userText || '(Bạn chưa viết bài nào trong trình soạn thảo)';
   document.getElementById('compare-user-words').textContent = userWords;
 
-  switchCompareModel(state.compareModelLevel);
+  switchCompareModel('B1');
 
   const modal = document.getElementById('comparisonModalOverlay');
   if (modal) modal.classList.add('active');
@@ -6307,19 +6641,16 @@ function closeComparisonModal() {
   if (modal) modal.classList.remove('active');
 }
 
-function switchCompareModel(level) {
-  state.compareModelLevel = level;
-  document.getElementById('compare-pill-b1').classList.toggle('active', level === 'B1');
-  document.getElementById('compare-pill-b2').classList.toggle('active', level === 'B2');
-
+function switchCompareModel(level = 'B1') {
+  state.compareModelLevel = 'B1';
   const topic = state.currentTopic;
   if (!topic) return;
   const details = topic.details || {};
-  const model = level === 'B2' ? (details.sample_b2 || details.sample_b1) : details.sample_b1;
+  const model = details.sample_b1;
 
   if (model) {
     document.getElementById('compare-model-text').innerHTML = formatAndHighlightModelText(model.letter_en || model.text || '');
-    document.getElementById('compare-model-words').textContent = model.word_count || 150;
+    document.getElementById('compare-model-words').textContent = model.word_count || 135;
   }
 }
 
