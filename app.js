@@ -6836,56 +6836,153 @@ function formatAndHighlightModelText(rawText) {
   if (!rawText) return '';
   const paragraphs = rawText.split(/\n\s*\n/).map(p => p.trim()).filter(Boolean);
 
-  // Common connectors
-  const connectors = "(?:To begin with|Firstly|First of all|Secondly|Next|Furthermore|In addition|Moreover|Besides|Finally|Overall|Therefore|Specifically|However|On the one hand|On the other hand)";
-  const issueConnectors = "(?:The main problem was that|The main problem was|Another issue was that|Another concern was|A further issue was)";
+  const connectors = "(?:To begin with|First of all|Firstly|First|Secondly|Second|Thirdly|Third|Next|Furthermore|In addition|Moreover|Besides that|Besides|On top of that|Finally|Last but not least|Overall|Therefore|Specifically|However|On the positive side|On the one hand|On the other hand|Fortunately|Unfortunately|As a result|Once again)";
+  const issueConnectors = "(?:The main problem was that|The main problem was|The main issue was that|Another issue was that|Another concern was that|Another concern was|A further issue was|To improve your service|To prevent this from happening again|To make up for my mistake|To make up for this)";
 
-  // Advice & functional phrases
-  const advicePatterns = "(?:you should|it would be a good idea to|if I were you, I would|you could consider|it might be worth|remember to|don't forget to|could you please|could you tell me|can you let me know|I was wondering if|I would appreciate it if|I suggest that you|I would like to complain about|I am writing to complain about|I was very satisfied with|I was disappointed with|I am writing to apologize for|let me explain why|I am writing to apply for|I believe I am well suited for|my main duties included|I would be very grateful if|I am writing to ask for|I would like to ask for|I would like to know|let me tell you about|let me give you some information about|in her free time, she likes|she is currently|she is|I am currently|I have experience in|I would like to mention)";
+  const advicePatterns = [
+    "Thank you very much for reviewing my application and inviting me to",
+    "Thank you very much for offering to",
+    "Thank you for reviewing my application and inviting me to",
+    "Thank you so much for inviting me to",
+    "Thank you for your email",
+    "Thank you for your letter",
+    "Thanks for your letter",
+    "Thanks for your email",
+    "I hope you are doing well",
+    "I’m writing to give you some advice",
+    "I'm writing to give you some advice",
+    "I am writing to give you some advice",
+    "I am writing to give you the information you asked for",
+    "I am writing to give you the details you asked for",
+    "I am writing to provide you with some information",
+    "I am writing to provide feedback on",
+    "I am writing to express my dissatisfaction with",
+    "I am writing to complain about",
+    "I would like to complain about",
+    "I am writing to apologize for",
+    "I am writing to apply for the position of",
+    "I am writing to apply for",
+    "I am writing to ask for some information about",
+    "I am writing to ask for",
+    "I would like to ask for",
+    "In your letter, you asked me about [^,]+, so here is some information",
+    "In your letter, you asked me about [^,]+, so here are some details",
+    "In your email, you asked me about [^,]+, so here are some details",
+    "it would be a good idea to",
+    "It would also be a good idea to",
+    "if I were you, I would",
+    "you could consider",
+    "it might be worth",
+    "don't forget to",
+    "don’t forget to",
+    "remember to",
+    "you should",
+    "you can",
+    "could you please tell me",
+    "could you please",
+    "could you tell me",
+    "can you tell me more about",
+    "can you let me know",
+    "I was wondering if you could give me some details about",
+    "I was wondering if",
+    "I would appreciate it if you could",
+    "I would appreciate it if",
+    "I would like to know about",
+    "I would like to know",
+    "I want to know if",
+    "I suggest that you",
+    "I suggest",
+    "I recommend",
+    "I think",
+    "I was very satisfied with",
+    "I was really happy with",
+    "I was disappointed with",
+    "I was not satisfied with",
+    "let me explain why",
+    "we were unable to",
+    "I was unable to",
+    "I could not",
+    "we would like to offer you",
+    "I would like to offer",
+    "I believe I would be a suitable candidate",
+    "I believe I am well suited for",
+    "I am very interested in this position",
+    "my main duties included",
+    "I was responsible for",
+    "I worked part-time as",
+    "I would expect",
+    "I am available for",
+    "I can start work",
+    "I would love to accept your invitation",
+    "I would love to invite you to",
+    "I would love to",
+    "I would be very grateful if you could consider my application",
+    "I would be grateful if you could consider my application",
+    "I would be very grateful if",
+    "I hope my advice will be helpful to you",
+    "I hope you will find this information useful",
+    "I hope my information and advice will be helpful to you",
+    "I look forward to receiving your reply soon",
+    "I look forward to hearing from you soon",
+    "I look forward to your reply",
+    "let me tell you about",
+    "let me give you some information about",
+    "in her free time, she likes",
+    "she is currently",
+    "I am currently",
+    "I have experience in",
+    "I would like to mention"
+  ].sort((a, b) => b.length - a.length).join('|');
 
-  return paragraphs.map((para, idx) => {
-    let p = escapeHtml(para.trim());
+  return paragraphs.map((para) => {
+    let p = escapeHtml(para.trim()).replace(/\*\*\*|\*\*_|_\*\*/g, '');
 
-    // Opening greeting
     if (/^Dear\s+[^,]+,/i.test(p)) {
-      return `<strong class="hl-opening-closing" style="font-size: 1.05rem;">${p}</strong>`;
+      return `<p style="margin-bottom: 0.85rem; line-height: 1.95;"><strong class="hl-opening-closing" style="font-size: 1.05rem;">${p}</strong></p>`;
     }
-    // Closing greeting
     if (/^(Best wishes|Warm regards|Yours sincerely|Yours faithfully|Love|All the best),/i.test(p)) {
-      return `<strong class="hl-opening-closing" style="font-size: 1.05rem;">${p}</strong>`;
+      return `<p style="margin-bottom: 0.85rem; line-height: 1.95;"><strong class="hl-opening-closing" style="font-size: 1.05rem;">${p}</strong></p>`;
     }
 
-    // Connectors
-    p = p.replace(new RegExp(`\\b(${connectors}),`, 'gi'), '<span class="hl-connector">$1,</span>');
-    p = p.replace(new RegExp(`\\b(${issueConnectors})\\b`, 'gi'), '<span class="hl-connector">$1</span>');
+    // Use tokens to prevent nested regex replacements
+    const tokens = [];
+    const saveTk = (s) => {
+      const id = `__B1_TK_${tokens.length}__`;
+      tokens.push(s);
+      return id;
+    };
 
-    // Advice / lead-ins
-    p = p.replace(new RegExp(`\\b(${advicePatterns})\\b`, 'gi'), '<span class="hl-advice">$1</span>');
+    p = p.replace(new RegExp(`\\b(${connectors}),`, 'gi'), m => saveTk(`<span class="hl-connector">${m}</span>`));
+    p = p.replace(new RegExp(`\\b(${issueConnectors})\\b`, 'gi'), m => saveTk(`<span class="hl-connector">${m}</span>`));
+    p = p.replace(new RegExp(`\\b(${advicePatterns})\\b`, 'gi'), m => saveTk(`<span class="hl-advice">${m}</span>`));
+    p = p.replace(/(?<!such\s)\b(because|since|so that)\b/gi, m => saveTk(`<span class="hl-advice">${m}</span>`));
 
-    // Causal links (exclude "such as")
-    p = p.replace(/(?<!such\s)\b(because|since|so that)\b/gi, '<span class="hl-advice">$1</span>');
+    tokens.forEach((tk, idx) => {
+      p = p.replace(`__B1_TK_${idx}__`, tk);
+    });
 
-    // IN ĐẬM & MÀU SẮC CHO CÁC Ý TƯỞNG TỪNG YÊU CẦU (Core Ideas for each prompt requirement)
-    p = p.replace(/(<\/span>\s*)([a-zA-Z][^<.]+?)(\s*(?:<span class="hl-advice">(?:because|since|so that)<\/span>|\.))/gi, (match, prefix, idea, suffix) => {
+    // Highlight Core Ideas after a connector or advice span up to because/since/so that or period/question mark
+    p = p.replace(/(<\/span>\s*)([a-zA-Z0-9][^<.?]+?)(\s*(?:<span class="hl-advice">(?:because|since|so that)<\/span>|[.?]))/gi, (match, prefix, idea, suffix) => {
       if (idea.trim().length < 4) return match;
       return `${prefix}<strong class="hl-idea">${idea}</strong>${suffix}`;
     });
 
-    // IN ĐẬM LÝ DO SAU LIÊN TỪ NGUYÊN NHÂN (Reason clause after because/since/so that)
-    p = p.replace(/(<span class="hl-advice">(?:because|since|so that)<\/span>\s*)([a-zA-Z][^<.]+?)(\.)/gi, (match, prefix, reason, suffix) => {
+    // Highlight Reason clause after because/since/so that
+    p = p.replace(/(<span class="hl-advice">(?:because|since|so that)<\/span>\s*)([a-zA-Z0-9][^<.?]+?)([.?])/gi, (match, prefix, reason, suffix) => {
       if (reason.trim().length < 4) return match;
       return `${prefix}<strong class="hl-reason">${reason}</strong>${suffix}`;
     });
 
-    // IN ĐẬM CÂU MỞ RỘNG / GIẢI THÍCH CHI TIẾT TRONG THÂN BÀI (Extension / supporting sentences)
+    // Highlight extension sentences in body paragraphs
     if (p.includes('hl-connector')) {
-      p = p.replace(/(\.\s+)(?!(?:<span|Dear|Best|I hope|Please|Write|Yours|Love|All the best))([A-Z][^<.]+?\.)/g, (match, dot, extSentence) => {
+      p = p.replace(/([.?]\s+)(?!(?:<span|<strong|Dear|Best|I hope|Please|Write|Yours|Love|All the best|Thank you))([A-Z][^<.?]+?[.?])/g, (match, dot, extSentence) => {
         if (extSentence.trim().length < 10) return match;
-        return `${dot}<strong class="hl-reason">${extSentence.slice(0, -1)}</strong>.`;
+        const punc = extSentence.slice(-1);
+        return `${dot}<strong class="hl-reason">${extSentence.slice(0, -1)}</strong>${punc}`;
       });
     }
 
-    return `<p style="margin-bottom: 0.85rem; line-height: 1.95;">${p}</p>`;
+    return `<p style="margin-bottom: 0.85rem; line-height: 2.0;">${p}</p>`;
   }).join('');
 }
 
@@ -6893,44 +6990,121 @@ function formatAndHighlightTranslationText(rawVi) {
   if (!rawVi) return '';
   const paragraphs = rawVi.split(/\n\s*\n/).map(p => p.trim()).filter(Boolean);
 
-  const viConnectors = "(?:Đầu tiên|Thứ nhất|Thứ hai|Tiếp theo|Hơn nữa|Ngoài ra|Bên cạnh đó|Cuối cùng|Trước hết|Nhìn chung|Vì vậy|Tuy nhiên)";
-  const viAdvice = "(?:cậu nên|bạn nên|sẽ là một ý kiến hay nếu|nếu tớ là cậu, tớ sẽ|hãy nhớ|đừng quên|tớ khuyên cậu nên|bạn có thể cân nhắc|tôi muốn bày tỏ sự không hài lòng|tôi rất hài lòng với|tôi xin lỗi vì|cho phép tôi giải thích|tôi muốn ứng tuyển)";
-  const viCause = "(?:vì|bởi vì|do đó|nhờ vậy)";
+  const viConnectors = "(?:Đầu tiên|Trước hết|Thứ nhất|Thứ hai|Thứ ba|Tiếp theo|Hơn nữa|Ngoài ra|Bên cạnh đó|Thêm vào đó|Cuối cùng|Nhìn chung|Vì vậy|Tuy nhiên|Về mặt tích cực|May mắn thay|Thật không may|Một lần nữa|Do đó)";
+  const viIssueConnectors = "(?:Vấn đề chính là|Vấn đề đầu tiên là|Một vấn đề khác là|Để cải thiện dịch vụ|Để khắc phục điều này|Để bù đắp cho)";
+  const viAdvice = [
+    "Cảm ơn quý vị đã xem xét đơn xin việc của tôi và mời tôi",
+    "Cảm ơn cậu rất nhiều vì đã mời tớ",
+    "Cảm ơn cậu rất nhiều vì đã muốn",
+    "Cảm ơn email của",
+    "Cảm ơn thư của",
+    "Tớ viết thư này để đưa ra một vài lời khuyên",
+    "Tớ viết thư này để đưa ra một vài gợi ý",
+    "Mình viết thư này để cho bạn một vài lời khuyên",
+    "Tôi viết thư này để cung cấp những thông tin mà quý vị đã yêu cầu",
+    "Tôi viết thư này để cung cấp cho",
+    "Tôi viết thư này để xin thông tin về",
+    "Tôi viết thư này để bày tỏ sự không hài lòng",
+    "Tôi viết thư này để đóng góp ý kiến",
+    "Tôi viết thư này để ứng tuyển vào vị trí",
+    "Tôi viết thư này để xin lỗi",
+    "Em viết thư này để xin lỗi",
+    "sẽ là một ý kiến hay nếu cậu",
+    "sẽ là một ý kiến hay nếu",
+    "sẽ là một ý tưởng hay nếu",
+    "nếu tớ là cậu, tớ sẽ",
+    "nếu mình là bạn, mình sẽ",
+    "cậu nên",
+    "bạn nên",
+    "bà nên",
+    "ông nên",
+    "cậu có thể cân nhắc",
+    "bạn có thể cân nhắc",
+    "hãy nhớ",
+    "đừng quên",
+    "tớ khuyên cậu nên",
+    "tôi khuyên",
+    "tôi gợi ý",
+    "tớ gợi ý",
+    "mình nghĩ",
+    "tôi nghĩ",
+    "cậu có thể cho tớ biết",
+    "xin trung tâm vui lòng cho tôi biết",
+    "xin vui lòng cho tôi biết thêm thông tin về",
+    "tôi muốn tìm hiểu về",
+    "tôi muốn biết chi tiết về",
+    "tôi muốn biết",
+    "tôi muốn bày tỏ sự không hài lòng",
+    "tôi rất hài lòng với",
+    "tôi rất thích",
+    "tôi rất ấn tượng với",
+    "tôi chưa hài lòng với",
+    "tôi đề xuất",
+    "tôi đề nghị",
+    "tôi xin lỗi vì",
+    "cho phép tôi giải thích",
+    "chúng tôi đã không thể",
+    "em đã không thể",
+    "chúng tôi xin phép được",
+    "tôi muốn ứng tuyển",
+    "tôi mong muốn",
+    "tôi có thể tham gia phỏng vấn",
+    "tôi có thể bắt đầu đi làm",
+    "tôi từng làm",
+    "tôi chịu trách nhiệm",
+    "Tôi tin rằng mình là một ứng viên phù hợp",
+    "Tôi rất biết ơn nếu quý vị xem xét hồ sơ ứng tuyển của tôi",
+    "Tôi rất mong sớm nhận được phản hồi",
+    "Tớ hy vọng những lời khuyên của tớ sẽ giúp ích cho cậu",
+    "Tớ hy vọng lời khuyên của tớ sẽ hữu ích cho cậu",
+    "Mình hy vọng lời khuyên của mình sẽ hữu ích cho bạn"
+  ].sort((a, b) => b.length - a.length).join('|');
+  const viCause = "(?:bởi vì|vì|do đó|nhờ vậy|để)";
 
   return paragraphs.map(para => {
-    let p = escapeHtml(para.trim());
-    if (/( thân mến,| kính mến,| kính gửi)/i.test(p)) {
-      return `<strong class="hl-opening-closing" style="font-size: 1.02rem;">${p}</strong>`;
+    let p = escapeHtml(para.trim()).replace(/\*\*\*|\*\*_|_\*\*/g, '');
+    if (/^(Kính gửi\s+[^,]+,|Thân gửi\s+[^,]+,|Thưa\s+[^,]+,|Chào\s+[^,]+,|[^,]+ thân mến,|[^,]+ kính mến,)/i.test(p)) {
+      return `<p style="margin-bottom: 0.75rem; line-height: 1.9;"><strong class="hl-opening-closing" style="font-size: 1.02rem;">${p}</strong></p>`;
     }
-    if (/(Chúc cậu|Thân ái|Trân trọng|Kính thư|Yêu thương)/i.test(p)) {
-      return `<strong class="hl-opening-closing" style="font-size: 1.02rem;">${p}</strong>`;
+    if (/^(Chúc cậu|Chúc bạn|Thân ái|Trân trọng|Kính thư|Yêu thương)/i.test(p)) {
+      return `<p style="margin-bottom: 0.75rem; line-height: 1.9;"><strong class="hl-opening-closing" style="font-size: 1.02rem;">${p}</strong></p>`;
     }
 
-    p = p.replace(new RegExp(`(${viConnectors}),`, 'gi'), '<span class="hl-connector">$1,</span>');
-    p = p.replace(new RegExp(`(${viAdvice})`, 'gi'), '<span class="hl-advice">$1</span>');
-    p = p.replace(new RegExp(`\\b(${viCause})\\b`, 'gi'), '<span class="hl-advice">$1</span>');
+    const tokens = [];
+    const saveTk = (s) => {
+      const id = `__B1_VTK_${tokens.length}__`;
+      tokens.push(s);
+      return id;
+    };
 
-    // In đậm ý tưởng tiếng Việt
-    p = p.replace(/(<\/span>\s*)([^<.]+?)(\s*(?:<span class="hl-advice">(?:vì|bởi vì)<\/span>|\.))/gi, (match, prefix, idea, suffix) => {
+    p = p.replace(new RegExp(`(${viConnectors}),`, 'gi'), m => saveTk(`<span class="hl-connector">${m}</span>`));
+    p = p.replace(new RegExp(`(${viIssueConnectors})`, 'gi'), m => saveTk(`<span class="hl-connector">${m}</span>`));
+    p = p.replace(new RegExp(`(${viAdvice})`, 'gi'), m => saveTk(`<span class="hl-advice">${m}</span>`));
+    p = p.replace(new RegExp(`(\\s)(${viCause})(\\s)`, 'gi'), (_, s1, c, s2) => `${s1}${saveTk(`<span class="hl-advice">${c}</span>`)}${s2}`);
+
+    tokens.forEach((tk, idx) => {
+      p = p.replace(`__B1_VTK_${idx}__`, tk);
+    });
+
+    p = p.replace(/(<\/span>\s*)([^<.?]+?)(\s*(?:<span class="hl-advice">(?:vì|bởi vì|để)<\/span>|[.?]))/gi, (match, prefix, idea, suffix) => {
       if (idea.trim().length < 4) return match;
       return `${prefix}<strong class="hl-idea">${idea}</strong>${suffix}`;
     });
 
-    // In đậm lý do tiếng Việt
-    p = p.replace(/(<span class="hl-advice">(?:vì|bởi vì)<\/span>\s*)([^<.]+?)(\.)/gi, (match, prefix, reason, suffix) => {
+    p = p.replace(/(<span class="hl-advice">(?:vì|bởi vì|để)<\/span>\s*)([^<.?]+?)([.?])/gi, (match, prefix, reason, suffix) => {
       if (reason.trim().length < 4) return match;
       return `${prefix}<strong class="hl-reason">${reason}</strong>${suffix}`;
     });
 
-    // In đậm câu mở rộng tiếng Việt trong thân bài
     if (p.includes('hl-connector')) {
-      p = p.replace(/(\.\s+)(?!(?:<span|Helen|Tôi|Chúc|Hãy|Trân trọng|Thân ái))([^<.]+?\.)/g, (match, dot, extSentence) => {
+      p = p.replace(/([.?]\s+)(?!(?:<span|<strong|Helen|Tôi|Tớ|Mình|Em|Chúc|Hãy|Xin|Cảm ơn|Trân trọng|Thân ái))([^<.?]+?[.?])/g, (match, dot, extSentence) => {
         if (extSentence.trim().length < 8) return match;
-        return `${dot}<strong class="hl-reason">${extSentence.slice(0, -1)}</strong>.`;
+        const punc = extSentence.slice(-1);
+        return `${dot}<strong class="hl-reason">${extSentence.slice(0, -1)}</strong>${punc}`;
       });
     }
 
-    return `<p style="margin-bottom: 0.75rem; line-height: 1.85;">${p}</p>`;
+    return `<p style="margin-bottom: 0.85rem; line-height: 2.0;">${p}</p>`;
   }).join('');
 }
 
