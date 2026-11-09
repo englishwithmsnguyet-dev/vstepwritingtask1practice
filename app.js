@@ -5801,37 +5801,380 @@ function detectComprehensiveLetterErrors(text) {
   return errors;
 }
 
+// ==========================================================================
+// SENTENCE-BY-SENTENCE TOKENIZER & DETAILED ERROR DIAGNOSTIC ENGINE
+// Bám sát chuẩn thang điểm VSTEP Task 1 (Rating Scale for VSTEP Writing Task 1)
+// ==========================================================================
+function splitLetterIntoSentencesWithMeta(text) {
+  const paragraphs = text.split(/\n+/).map(p => p.trim()).filter(Boolean);
+  const result = [];
+  let sentenceCounter = 1;
+
+  paragraphs.forEach((para, pIdx) => {
+    let protectedPara = para
+      .replace(/\b(Mr|Mrs|Ms|Dr|Prof|St|No|Vol|Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\./gi, '$1__DOT__')
+      .replace(/\b(e\.g|i\.e|etc)\./gi, '$1__DOT__')
+      .replace(/\b(\d+)\.(\d+)\b/g, '$1__DECIMAL__$2');
+
+    const rawSentences = protectedPara.split(/(?<=[.!?])\s+(?=[A-Z0-9"']|$)/).map(s => s.trim()).filter(Boolean);
+
+    rawSentences.forEach((rawSent) => {
+      let sent = rawSent
+        .replace(/__DOT__/g, '.')
+        .replace(/__DECIMAL__/g, '.')
+        .trim();
+      if (!sent) return;
+
+      let role = 'Thân thư (Body)';
+      const lower = sent.toLowerCase();
+      if (pIdx === 0 && sentenceCounter === 1 && /^dear\b|^hello\b|^hi\b/i.test(sent)) {
+        role = 'Lời chào mở đầu (Salutation)';
+      } else if (pIdx === 0 || (pIdx === 1 && sentenceCounter <= 4 && /(thank|write|writing to|hear from|hope you|pleased to|glad to)/i.test(lower))) {
+        role = 'Mở thư - Mục đích viết (Opening)';
+      } else if (pIdx === paragraphs.length - 1 && /^(best wishes|warm regards|all the best|yours sincerely|yours faithfully|sincerely|warmly|regards|love|take care)/i.test(sent)) {
+        role = 'Lời chào kết thúc (Sign-off)';
+      } else if (pIdx >= paragraphs.length - 2 && /(look forward to|hope to|hear from you|let me know|see you soon|write back|please let me)/i.test(lower)) {
+        role = 'Kết thư (Closing)';
+      } else {
+        role = `Thân thư - Đoạn ${pIdx + 1}`;
+      }
+
+      result.push({
+        num: sentenceCounter++,
+        paraIndex: pIdx,
+        role: role,
+        text: sent
+      });
+    });
+  });
+
+  return result;
+}
+
+const COMMON_TYPO_MAP = {
+  'recieved': 'received',
+  'definately': 'definitely',
+  'untill': 'until',
+  'seperate': 'separate',
+  'alot': 'a lot',
+  'writting': 'writing',
+  'begining': 'beginning',
+  'beleive': 'believe',
+  'oppinion': 'opinion',
+  'resturant': 'restaurant',
+  'diffrent': 'different',
+  'beautifull': 'beautiful',
+  'confortable': 'comfortable',
+  'sucessful': 'successful',
+  'tommorrow': 'tomorrow',
+  'wich': 'which'
+};
+
+function analyzeSentenceDetails(sentObj, isFormal, topic) {
+  const text = sentObj.text;
+  let correctedText = text;
+  const errors = [];
+
+  function addError(cat, title, quote, fix, explanation) {
+    if (!errors.some(e => e.quote.toLowerCase() === quote.toLowerCase())) {
+      errors.push({
+        category: cat, // 'grammar' | 'vocab' | 'spelling' | 'punctuation' | 'register'
+        title,
+        quote,
+        fix,
+        explanation
+      });
+      const escaped = quote.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      correctedText = correctedText.replace(new RegExp(escaped, 'i'), fix);
+    }
+  }
+
+  // 1. Modal verbs + to V: should to stay, can to go
+  const modalTo = /\b(should|can|could|must|will|would|may|might)\s+to\s+([a-z]+)\b/gi;
+  let m;
+  while ((m = modalTo.exec(text)) !== null) {
+    addError(
+      'grammar',
+      'Động từ khuyết thiếu đi với "to V"',
+      m[0],
+      `${m[1]} ${m[2]}`,
+      `Sau động từ khuyết thiếu <code>${m[1]}</code>, động từ chính luôn ở dạng nguyên mẫu không 'to' (V-bare). Cần bỏ 'to'.`
+    );
+  }
+
+  // 2. Modal verbs + V-ing: should trying, can taking
+  const modalIng = /\b(should|can|could|must|will|would|may|might)\s+([a-z]+ing)\b/gi;
+  while ((m = modalIng.exec(text)) !== null) {
+    const modal = m[1];
+    const ing = m[2].toLowerCase();
+    let base = ing.replace(/ing$/, '');
+    if (ing === 'trying') base = 'try';
+    else if (ing === 'taking') base = 'take';
+    else if (ing === 'going') base = 'go';
+    else if (ing === 'coming') base = 'come';
+    else if (ing === 'having') base = 'have';
+    else if (ing === 'doing') base = 'do';
+    else if (ing === 'seeing') base = 'see';
+    else if (ing === 'staying') base = 'stay';
+    else if (ing === 'visiting') base = 'visit';
+    else if (ing === 'eating') base = 'eat';
+    else if (ing === 'buying') base = 'buy';
+    addError(
+      'grammar',
+      'Động từ khuyết thiếu đi với V-ing',
+      m[0],
+      `${modal} ${base}`,
+      `Sau động từ khuyết thiếu <code>${modal}</code> phải dùng động từ nguyên mẫu không 'to' (V0), không dùng dạng V-ing.`
+    );
+  }
+
+  // 3. Missing to-be before adjectives: it convenient, they friendly
+  const adjList = ['convenient', 'easy', 'difficult', 'hard', 'important', 'necessary', 'hot', 'cold', 'expensive', 'cheap', 'famous', 'popular', 'delicious'];
+  const missingBe = new RegExp(`(?<!\\b(?:makes|finds|make|find|found)\\s+)\\b(it|this|that|they)\\s+(${adjList.join('|')})\\b`, 'gi');
+  while ((m = missingBe.exec(text)) !== null) {
+    const subj = m[1];
+    const adj = m[2];
+    const be = subj.toLowerCase() === 'they' ? 'are' : 'is';
+    addError(
+      'grammar',
+      'Thiếu động từ "to be" trước tính từ',
+      m[0],
+      `${subj} ${be} ${adj}`,
+      `Sau chủ ngữ <code>${subj}</code> đi với tính từ <code>${adj}</code> bắt buộc phải có động từ 'to be' làm vị ngữ chính.`
+    );
+  }
+
+  // 4. There is + plural: There is many restaurants
+  const thereIsPlural = /\bthere\s+is\s+(many|several|a\s+lot\s+of|some|two|three|four)\s+([a-z]+s)\b/gi;
+  while ((m = thereIsPlural.exec(text)) !== null) {
+    addError(
+      'grammar',
+      'Hòa hợp chủ vị với "There is / There are"',
+      m[0],
+      `there are ${m[1]} ${m[2]}`,
+      `Danh từ theo sau <code>${m[2]}</code> là số nhiều nên cần dùng <code>there are</code> thay vì <code>there is</code>.`
+    );
+  }
+
+  // 5. Suggest to V: suggest to visit -> suggest visiting
+  const suggestTo = /\bsuggest\s+to\s+([a-z]+)\b/gi;
+  while ((m = suggestTo.exec(text)) !== null) {
+    const v = m[1].toLowerCase();
+    let ving = v + 'ing';
+    if (v.endsWith('e') && !v.endsWith('ee')) ving = v.slice(0, -1) + 'ing';
+    addError(
+      'grammar',
+      'Cấu trúc sau "suggest"',
+      m[0],
+      `suggest ${ving}`,
+      `Sau động từ <code>suggest</code> ta dùng danh động từ (V-ing): <code>suggest ${ving}</code> hoặc mệnh đề <code>suggest that you ${v}</code>.`
+    );
+  }
+
+  // 6. Look forward to + V-bare: look forward to hear -> hearing
+  const lookFwd = /\blook\s+forward\s+to\s+(hear|see|meet|visit|receive|catch)\b/gi;
+  while ((m = lookFwd.exec(text)) !== null) {
+    addError(
+      'grammar',
+      'Cấu trúc "look forward to + V-ing"',
+      m[0],
+      `look forward to ${m[1]}ing`,
+      `Sau cụm <code>look forward to</code> bắt buộc là V-ing: hãy viết <code>look forward to ${m[1]}ing</code>.`
+    );
+  }
+
+  // 7. Uncountable nouns: an advice, advices, an information, informations
+  const uncountPossessive = /\b(my|your|his|her|our|their)\s+(advices|informations|furnitures|equipments)\b/gi;
+  while ((m = uncountPossessive.exec(text)) !== null) {
+    const pos = m[1];
+    const n = m[2].toLowerCase();
+    const fixN = n.replace(/s$/, '');
+    addError(
+      'vocab',
+      'Danh từ không đếm được dùng số nhiều',
+      m[0],
+      `${pos} ${fixN}`,
+      `Từ <code>${n}</code> là danh từ không đếm được, không có dạng số nhiều: hãy viết <code>${pos} ${fixN}</code>.`
+    );
+  }
+
+  const uncountGeneral = /\b(an\s+advice|advices|an\s+information|informations|furnitures|equipments|luggages)\b/gi;
+  while ((m = uncountGeneral.exec(text)) !== null) {
+    const w = m[0].toLowerCase();
+    let fix = 'some advice';
+    if (w.includes('information')) fix = 'some information';
+    else if (w.includes('equipment')) fix = 'equipment';
+    else if (w.includes('furniture')) fix = 'furniture';
+    addError(
+      'vocab',
+      'Danh từ không đếm được dùng sai dạng',
+      m[0],
+      fix,
+      `Từ <code>${m[0]}</code> là danh từ không đếm được trong tiếng Anh: hãy viết <code>${fix}</code>.`
+    );
+  }
+
+  // 8. Missing article before weather
+  const weatherArticle = /\bbecause\s+weather\b/gi;
+  while ((m = weatherArticle.exec(text)) !== null) {
+    addError(
+      'grammar',
+      'Thiếu mạo từ xác định "the" trước "weather"',
+      m[0],
+      'because the weather',
+      `Từ <code>weather</code> (thời tiết) là danh từ cụ thể cần có mạo từ xác định <code>the</code>: hãy viết <code>the weather</code>.`
+    );
+  }
+
+  // 9. Subject - Verb Agreement: he go, she want, people is, children is
+  const subjVerbMismatch = /\b(he|she|it)\s+(go|want|like|need|have|make|take|see|stay|come)\b/gi;
+  while ((m = subjVerbMismatch.exec(text)) !== null) {
+    const s = m[1];
+    const v = m[2].toLowerCase();
+    let vFix = v + 's';
+    if (v === 'go') vFix = 'goes';
+    else if (v === 'have') vFix = 'has';
+    addError(
+      'grammar',
+      'Hòa hợp chủ vị (Ngôi thứ 3 số ít)',
+      m[0],
+      `${s} ${vFix}`,
+      `Chủ ngữ số ít <code>${s}</code> ở thì hiện tại đơn cần chia động từ thêm -s/-es: hãy viết <code>${s} ${vFix}</code>.`
+    );
+  }
+
+  const peopleIs = /\b(people|children)\s+is\b/gi;
+  while ((m = peopleIs.exec(text)) !== null) {
+    addError(
+      'grammar',
+      'Hòa hợp chủ vị với danh từ số nhiều đặc biệt',
+      m[0],
+      `${m[1]} are`,
+      `Danh từ <code>${m[1]}</code> là danh từ số nhiều, động từ 'to be' đi kèm phải là <code>are</code>, không dùng <code>is</code>.`
+    );
+  }
+
+  // 10. One of the + singular noun
+  const oneOfRegex = /\bone\s+of\s+(?:the|my|our|these|those)\s+(?:(?:most|best|biggest|greatest|oldest|popular|famous|main|important|interesting)\s+)*([a-z]+)\b/gi;
+  while ((m = oneOfRegex.exec(text)) !== null) {
+    const full = m[0];
+    const noun = m[1];
+    const lowerNoun = noun.toLowerCase();
+    if (!['us', 'them', 'you', 'it', 'the', 'my', 'our', 'these', 'those', 'most', 'best', 'more', 'all'].includes(lowerNoun)) {
+      if (!lowerNoun.endsWith('s') && !['people', 'children', 'men', 'women'].includes(lowerNoun)) {
+        let pluralNoun = noun + 's';
+        if (noun.endsWith('sh') || noun.endsWith('ch') || noun.endsWith('x')) pluralNoun = noun + 'es';
+        else if (noun.endsWith('y') && !/[aeiou]y$/i.test(noun)) pluralNoun = noun.replace(/y$/, 'ies');
+        const fixed = full.replace(new RegExp(noun + '$', 'i'), pluralNoun);
+        addError(
+          'grammar',
+          'Danh từ số ít sau "one of the..."',
+          full,
+          fixed,
+          `Sau <code>one of the...</code>, danh từ theo sau bắt buộc ở dạng số nhiều: sửa <code>${noun}</code> thành <code>${pluralNoun}</code>.`
+        );
+      }
+    }
+  }
+
+  // 11. Contractions in Formal letter
+  if (isFormal) {
+    const cont = /\b(I'm|I’m|don't|don’t|can't|can’t|won't|won’t|didn't|didn’t|it's|it’s)\b/gi;
+    while ((m = cont.exec(text)) !== null) {
+      const expanded = m[0].replace(/'m|’m/i, ' am').replace(/n't|n’t/i, ' not').replace(/'s|’s/i, ' is');
+      addError(
+        'register',
+        'Dùng từ viết tắt trong thư trang trọng (Formal)',
+        m[0],
+        expanded,
+        `Trong thư trang trọng gửi người quản lý/công ty, tuyệt đối không dùng dạng viết tắt (<code>${m[0]}</code>), hãy viết đầy đủ là <code>${expanded}</code>.`
+      );
+    }
+  }
+
+  // 12. Common typos
+  const words = text.split(/\s+/);
+  words.forEach(w => {
+    const cleanWord = w.toLowerCase().replace(/[^a-z]/g, '');
+    if (COMMON_TYPO_MAP[cleanWord]) {
+      addError(
+        'spelling',
+        'Lỗi chính tả từ vựng',
+        w,
+        COMMON_TYPO_MAP[cleanWord],
+        `Từ <code>${w}</code> viết sai chính tả. Cách viết đúng là <code>${COMMON_TYPO_MAP[cleanWord]}</code>.`
+      );
+    }
+  });
+
+  // Highlight original text
+  let highlightedHtml = text;
+  errors.forEach(e => {
+    const escaped = e.quote.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    highlightedHtml = highlightedHtml.replace(new RegExp(escaped, 'gi'), `<span class="err-strike" title="${escapeHtml(e.title)}">$&</span>`);
+  });
+
+  return {
+    ...sentObj,
+    status: errors.length === 0 ? 'clean' : (errors.length === 1 && errors[0].category === 'spelling' ? 'minor' : 'error'),
+    errors,
+    correctedText,
+    highlightedHtml
+  };
+}
+
+// --------------------------------------------------------------------------
+// VSTEP SCORING ENGINE (BÁM SÁT 4 TIÊU CHÍ CHÍNH THỨC BANDS 0 - 10)
+// Tiêu chí từ Bộ GD&ĐT: Task Fulfilment (25%), Organization (25%), Vocabulary (25%), Grammar (25%)
+// --------------------------------------------------------------------------
 function evaluateVstepLetter(text, topic) {
   const words = text.split(/\s+/).filter(w => w.length > 0);
   const wordCount = words.length;
   const rawParagraphs = text.split(/\n\s*\n/).map(p => p.trim()).filter(p => p.length > 0);
   const paragraphCount = rawParagraphs.length;
   const lowerText = text.toLowerCase();
+  const isFormal = /formal/i.test(topic?.recipient_type || topic?.details?.analysis?.letter_type || '') && !/informal/i.test(topic?.recipient_type || topic?.details?.analysis?.letter_type || '');
 
-  // Run comprehensive grammar, vocabulary, spelling & mechanics error detection
-  const detectedErrors = detectComprehensiveLetterErrors(text);
-  const grErrors = detectedErrors.filter(e => e.category === 'grammar');
-  const voErrors = detectedErrors.filter(e => e.category === 'vocab');
-  const spErrors = detectedErrors.filter(e => e.category === 'spelling');
-  const totalErrors = detectedErrors.length;
+  // 1. Phân tích chi tiết từng câu 1
+  const rawSentenceList = splitLetterIntoSentencesWithMeta(text);
+  const analyzedSentences = rawSentenceList.map(s => analyzeSentenceDetails(s, isFormal, topic));
+
+  const cleanSentences = analyzedSentences.filter(s => s.status === 'clean');
+  const errorSentences = analyzedSentences.filter(s => s.status === 'error');
+  const totalSentences = analyzedSentences.length || 1;
+  const cleanRatio = cleanSentences.length / totalSentences;
+
+  const allErrors = [];
+  analyzedSentences.forEach(s => {
+    s.errors.forEach(e => {
+      if (!allErrors.some(x => x.quote.toLowerCase() === e.quote.toLowerCase())) {
+        allErrors.push({ ...e, sentenceNum: s.num });
+      }
+    });
+  });
+
+  const grErrors = allErrors.filter(e => e.category === 'grammar');
+  const voErrors = allErrors.filter(e => e.category === 'vocab');
+  const spErrors = allErrors.filter(e => e.category === 'spelling');
+  const regErrors = allErrors.filter(e => e.category === 'register');
 
   // -------------------------------------------------------------------------
-  // 1. TASK FULFILMENT (TF) - Khớp chuẩn từng dòng Bảng Tiêu chí VSTEP (Bands 0 - 10)
+  // 1. TASK FULFILMENT (TF - 25%): Covers requirements, purpose, tone, details
   // -------------------------------------------------------------------------
   const ideas = (topic && topic.details && topic.details.suggested_ideas) || [];
   let coveredCount = 0;
   if (ideas.length > 0) {
     ideas.forEach(g => {
-      const optWords = (g.options || []).map(o => (o.action_en || "").toLowerCase().split(/\s+/)).flat().filter(w => w.length > 4);
+      const optWords = (g.options || []).map(o => (o.action_en || '').toLowerCase().split(/\s+/)).flat().filter(w => w.length > 4);
       const matched = optWords.some(w => lowerText.includes(w));
       if (matched) coveredCount++;
     });
   } else {
-    coveredCount = 4;
+    coveredCount = 3;
   }
 
   const hasSalutation = /^(dear|hello|hi)\b/i.test(text.trim());
-  const hasSignOff = /(best wishes|yours sincerely|yours faithfully|best regards|warm regards|warmly|all the best)/i.test(text);
+  const hasSignOff = /(best wishes|yours sincerely|yours faithfully|best regards|warm regards|warmly|all the best|take care|love)/i.test(text);
 
   let tfBand = 5;
   let tfStrengths = [];
@@ -5839,51 +6182,54 @@ function evaluateVstepLetter(text, topic) {
 
   if (wordCount < 40) {
     tfBand = 1;
-    tfImprovements.push("Bài viết quá ngắn (<40 từ), chưa đủ dung lượng để tính điểm hoàn thành yêu cầu.");
+    tfImprovements.push('Bài viết quá ngắn (<40 từ), chưa đủ dung lượng để tính điểm hoàn thành yêu cầu.');
   } else if (wordCount < 70) {
     tfBand = 3;
-    tfImprovements.push("Dung lượng bài quá ngắn (<70/120 từ), ý tưởng hạn chế, chưa giải quyết được phần lớn yêu cầu.");
-  } else if (wordCount < 100 || coveredCount <= 2) {
+    tfImprovements.push('Dung lượng bài quá ngắn (<70/120 từ), ý tưởng hạn chế, chưa giải quyết được phần lớn yêu cầu.');
+  } else if (wordCount < 100 || coveredCount <= 1) {
     tfBand = 4;
-    tfImprovements.push("Chỉ giải quyết được 1-2 ý hoặc dung lượng chưa đạt 100 từ; các ý chính bị nhầm lẫn hoặc lặp lại.");
-  } else if (wordCount < 120 || coveredCount === 3) {
+    tfImprovements.push('Chỉ giải quyết được 1-2 ý hoặc dung lượng chưa đạt 100 từ; các ý chính bị nhầm lẫn hoặc lặp lại.');
+  } else if (wordCount < 120 || coveredCount <= 2) {
     tfBand = 5;
-    tfStrengths.push("Đã giải quyết được phần lớn yêu cầu đề bài.");
-    tfImprovements.push("Chưa đạt đủ 120 từ hoặc thiếu 1 ý; cần mở rộng chi tiết các ý chính để đạt Band 6+.");
+    tfStrengths.push('Đã giải quyết được một phần yêu cầu đề bài.');
+    tfImprovements.push('Chưa đạt đủ 120 từ hoặc thiếu ý trọng tâm; cần mở rộng chi tiết các ý chính để đạt Band 6+.');
   } else {
-    // wordCount >= 120 and covers 4/4 requirements
-    if (coveredCount >= 4 && hasSalutation && hasSignOff) {
-      if (totalErrors <= 1 && wordCount >= 160) {
+    // wordCount >= 120
+    if (coveredCount >= 3 && hasSalutation && hasSignOff && regErrors.length === 0) {
+      if (allErrors.length <= 1 && wordCount >= 140) {
         tfBand = 8;
-        tfStrengths.push("Đáp ứng trọn vẹn 100% yêu cầu đề bài; phát triển các ý chính sâu sắc với chi tiết liên quan chặt chẽ.");
-      } else if (totalErrors <= 3) {
+        tfStrengths.push('Đáp ứng trọn vẹn 100% yêu cầu đề bài; văn phong hoàn toàn phù hợp; phát triển các ý chính sâu sắc với chi tiết liên quan chặt chẽ.');
+      } else if (allErrors.length <= 4) {
         tfBand = 7;
-        tfStrengths.push(`Đáp ứng đầy đủ 4/4 yêu cầu của đề bài; độ dài tốt (${wordCount}/120 từ); mục đích giao tiếp rõ ràng.`);
+        tfStrengths.push(`Đáp ứng đầy đủ các yêu cầu đề bài; độ dài tốt (${wordCount}/120 từ); mục đích giao tiếp rõ ràng; văn phong phù hợp.`);
       } else {
-        // >= 4 errors affecting message precision
         tfBand = 6;
-        tfStrengths.push(`Bao quát đủ các yêu cầu đề bài, đạt độ dài tiêu chuẩn (${wordCount}/120 từ); có lời chào và kết thư.`);
-        tfImprovements.push("Một số lỗi ngữ pháp và dùng từ làm giảm độ chính xác của nội dung truyền đạt.");
+        tfStrengths.push(`Bao quát được các yêu cầu đề bài; đạt độ dài tiêu chuẩn (${wordCount}/120 từ); có mở đầu và kết thư.`);
+        tfImprovements.push('Một số lỗi dùng từ và ngữ pháp làm giảm độ chính xác của nội dung truyền đạt.');
       }
     } else {
       tfBand = 6;
       tfStrengths.push(`Đạt độ dài bài viết (${wordCount}/120 từ).`);
       if (!hasSalutation || !hasSignOff) {
-        tfImprovements.push("Cần bổ sung đầy đủ lời chào mở đầu (Dear...) và lời kết thư (Best wishes...).");
+        tfImprovements.push('Cần bổ sung đầy đủ lời chào mở đầu (Dear...) và lời kết thư (Best wishes / Yours sincerely...).');
+      }
+      if (regErrors.length > 0) {
+        tfImprovements.push('Lưu ý không dùng từ viết tắt trong thư trang trọng (Formal Letter).');
       }
     }
   }
 
   // -------------------------------------------------------------------------
-  // 2. ORGANIZATION (OR) - Khớp chuẩn từng dòng Bảng Tiêu chí VSTEP (Bands 0 - 10)
+  // 2. ORGANIZATION (OR - 25%): Coherence, paragraphing, cohesive devices
   // -------------------------------------------------------------------------
-  const seqLinks = ['firstly', 'first of all', 'to begin with', 'secondly', 'second', 'next', 'finally', 'lastly'];
+  const seqLinks = ['firstly', 'first of all', 'to begin with', 'secondly', 'second,', 'next,', 'finally', 'lastly'];
   const advLinks = ['in addition', 'furthermore', 'moreover', 'besides', 'on the other hand', 'therefore', 'as a result', 'consequently'];
   const causeLinks = ['because', 'since', 'as', 'so that', 'although', 'though', 'however'];
 
   const matchedSeq = seqLinks.filter(l => lowerText.includes(l));
   const matchedAdv = advLinks.filter(l => lowerText.includes(l));
   const matchedCause = causeLinks.filter(l => lowerText.includes(l));
+  const totalConnectors = matchedSeq.length + matchedAdv.length + matchedCause.length;
 
   let orBand = 5;
   let orStrengths = [];
@@ -5891,37 +6237,37 @@ function evaluateVstepLetter(text, topic) {
 
   if (paragraphCount <= 1 && wordCount < 60) {
     orBand = 2;
-    orImprovements.push("Rất ít kiểm soát về mặt bố cục và liên kết đoạn văn.");
+    orImprovements.push('Rất ít kiểm soát về mặt bố cục và liên kết đoạn văn.');
   } else if (paragraphCount <= 1) {
     orBand = 3;
-    orImprovements.push("Bài viết viết liền một khối, chưa phân chia đoạn văn theo thể thức thư.");
+    orImprovements.push('Bài viết viết liền một khối, chưa phân chia đoạn văn theo thể thức thư.');
   } else if (paragraphCount === 2) {
     orBand = 4;
-    orImprovements.push("Chỉ chia 2 đoạn; cần phân tách thành 4 đoạn (Mở thư, 2 đoạn Thân bài, Kết thư).");
+    orImprovements.push('Chỉ chia 2 đoạn; cần phân tách thành 4 đoạn (Mở thư, 2 đoạn Thân bài, Kết thư).');
   } else {
     // 3 or 4+ paragraphs
-    if (matchedAdv.length >= 2 && matchedCause.length >= 2 && totalErrors <= 1) {
+    if (matchedAdv.length >= 2 && matchedCause.length >= 2 && allErrors.length <= 2) {
       orBand = 8;
-      orStrengths.push("Tổ chức thông tin mạch lạc; sử dụng phong phú và linh hoạt các liên từ nối chuyển ý.");
+      orStrengths.push('Tổ chức thông tin mạch lạc; sử dụng phong phú và linh hoạt các liên từ nối chuyển ý trong và giữa các câu.');
     } else if (matchedAdv.length >= 1 && (matchedSeq.length >= 2 || matchedCause.length >= 1)) {
       orBand = 7;
-      orStrengths.push("Sắp xếp ý tưởng mạch lạc; sử dụng từ nối đa dạng và chính xác trong câu và giữa các câu.");
+      orStrengths.push('Sắp xếp ý tưởng mạch lạc; sử dụng từ nối đa dạng và chính xác trong câu và giữa các câu.');
     } else if (matchedSeq.length >= 2 || matchedCause.length >= 2) {
       orBand = 6;
-      orStrengths.push(`Bố cục ${paragraphCount} đoạn rõ ràng; sử dụng từ nối và chuỗi liên kết quen thuộc (${[...matchedSeq, ...matchedCause].slice(0, 3).join(', ')}).`);
-      orImprovements.push("Các từ nối First, Second, Next, Finally còn mang tính liệt kê cơ bản; nên dùng thêm In addition, Besides, Therefore để nâng Band Organization.");
+      orStrengths.push(`Bố cục ${paragraphCount} đoạn rõ ràng; sử dụng từ nối quen thuộc (${[...matchedSeq, ...matchedCause].slice(0, 3).join(', ')}).`);
+      orImprovements.push('Các từ nối First, Second, Next còn mang tính liệt kê cơ bản; nên dùng thêm In addition, Besides, Therefore để nâng Band Organization.');
     } else {
       orBand = 5;
       orStrengths.push(`Tổ chức thông tin tương đối mạch lạc, có chia đoạn (${paragraphCount} đoạn).`);
-      orImprovements.push("Ít sử dụng liên từ nối câu, các câu còn rời rạc.");
+      orImprovements.push('Ít sử dụng liên từ nối câu, các câu còn rời rạc.');
     }
   }
 
   // -------------------------------------------------------------------------
-  // 3. VOCABULARY (VO) - Khớp chuẩn từng dòng Bảng Tiêu chí VSTEP (Bands 0 - 10)
+  // 3. VOCABULARY (VO - 25%): Lexical range, control of style, collocation, errors
   // -------------------------------------------------------------------------
-  const b2VocabMarkers = ['accommodation', 'specialty', 'specialties', 'delicacy', 'delicacies', 'heritage', 'fascinating', 'picturesque', 'breathtaking', 'lightweight', 'breathable', 'vibrant', 'recommend', 'attraction', 'attractions', 'cuisine'];
-  const matchedB2Vocab = b2VocabMarkers.filter(w => lowerText.includes(w));
+  const b1VocabMarkers = ['recommend', 'suggestion', 'convenient', 'delicious', 'traditional', 'famous', 'popular', 'experience', 'friendly', 'comfortable', 'suitable', 'reasonable', 'activities', 'attraction', 'prepare', 'information'];
+  const matchedB1Vocab = b1VocabMarkers.filter(w => lowerText.includes(w));
 
   let voBand = 5;
   let voStrengths = [];
@@ -5929,35 +6275,35 @@ function evaluateVstepLetter(text, topic) {
 
   if (wordCount < 40) {
     voBand = 1;
-    voImprovements.push("Chỉ dùng được một vài từ đơn lẻ, rời rạc.");
+    voImprovements.push('Chỉ dùng được một vài từ đơn lẻ, rời rạc.');
   } else if (voErrors.length >= 4) {
     voBand = 3;
-    voImprovements.push("Vốn từ rất hạn chế; lỗi từ vựng xuất hiện dày đặc và làm sai lệch ý nghĩa câu.");
+    voImprovements.push('Vốn từ rất hạn chế; lỗi từ vựng xuất hiện dày đặc và làm sai lệch ý nghĩa câu.');
   } else if (voErrors.length >= 2) {
     voBand = 4;
-    voImprovements.push("Chỉ dùng từ vựng cơ bản; lỗi sai lộ rõ và đôi chỗ gây cản trở đọc hiểu.");
-  } else if (matchedB2Vocab.length >= 3 && voErrors.length === 0) {
+    voImprovements.push('Chỉ dùng từ vựng cơ bản; lỗi dùng từ lộ rõ và đôi chỗ gây cản trở đọc hiểu.');
+  } else if (matchedB1Vocab.length >= 3 && voErrors.length === 0 && spErrors.length <= 1) {
     voBand = 8;
-    voStrengths.push("Vốn từ khá tốt, sử dụng được một số từ vựng nâng cao phù hợp ngữ cảnh; kiểm soát tốt văn phong.");
-  } else if (matchedB2Vocab.length >= 1 && voErrors.length <= 1) {
+    voStrengths.push('Vốn từ vựng tốt, sử dụng nhiều cụm từ tự nhiên và chính xác theo chủ đề; kiểm soát tốt văn phong.');
+  } else if (matchedB1Vocab.length >= 1 && voErrors.length <= 1) {
     voBand = 7;
-    voStrengths.push("Vốn từ vựng đủ dùng, có nỗ lực sử dụng từ ngữ chuyên đề nâng cao; lỗi không cản trở giao tiếp.");
-  } else if (voErrors.length <= 1) {
-    voBand = 6;
-    voStrengths.push("Vốn từ vựng đủ diễn đạt trọn vẹn các ý chính; lỗi không cản trở việc hiểu nội dung.");
+    voStrengths.push('Vốn từ vựng đủ dùng cho đề bài, có nỗ lực sử dụng từ ngữ chủ đề; lỗi từ vựng không cản trở giao tiếp.');
     if (voErrors.length === 1) {
-      voImprovements.push(`Có 1 lỗi dùng từ / mạo từ ("${voErrors[0].quote}" → "${voErrors[0].fix}"), cần sửa lại cho chuẩn xác.`);
-    } else {
-      voImprovements.push("Nên bổ sung thêm các từ vựng và cụm từ chuyên đề nâng cao ở Bước 1 để nâng Band.");
+      voImprovements.push(`Có 1 lỗi dùng từ ("${voErrors[0].quote}" → "${voErrors[0].fix}"), cần sửa lại cho chuẩn xác.`);
     }
+  } else if (voErrors.length <= 2) {
+    voBand = 6;
+    voStrengths.push('Vốn từ vựng đủ diễn đạt trọn vẹn các ý chính; lỗi không cản trở việc hiểu nội dung.');
+    voImprovements.push('Nên bổ sung thêm các từ vựng và cụm từ theo chủ đề ở Bước 1 & Bước 2 để nâng Band.');
   } else {
     voBand = 5;
-    voStrengths.push("Vốn từ ở mức vừa đủ nhưng bị lặp lại một số từ nhất định.");
-    voImprovements.push("Có lỗi từ vựng / dạng từ đôi khi làm khó hiểu nội dung.");
+    voStrengths.push('Vốn từ ở mức vừa đủ nhưng bị lặp lại một số từ nhất định.');
+    voImprovements.push('Có lỗi từ vựng / dạng từ đôi khi làm khó hiểu nội dung.');
   }
 
   // -------------------------------------------------------------------------
-  // 4. GRAMMAR (GR) - Khớp chuẩn từng dòng Bảng Tiêu chí VSTEP (Bands 0 - 10)
+  // 4. GRAMMAR (GR - 25%): TÍNH TOÁN TRỰC TIẾP TỪ TỶ LỆ CÂU ĐÚNG CHUẨN
+  // Bám sát chuẩn: "the majority of the sentences are error-free", "errors do not impede"
   // -------------------------------------------------------------------------
   let grBand = 5;
   let grStrengths = [];
@@ -5965,37 +6311,28 @@ function evaluateVstepLetter(text, topic) {
 
   if (wordCount < 40) {
     grBand = 1;
-    grImprovements.push("Không thể viết thành câu hoàn chỉnh.");
-  } else if (grErrors.length >= 7) {
-    grBand = 3;
-    grImprovements.push("Thường xuyên mắc lỗi ngữ pháp cơ bản làm sai lệch ý nghĩa câu.");
-  } else if (grErrors.length >= 5) {
-    grBand = 4;
-    grStrengths.push("Kiểm soát được các câu đơn cơ bản.");
-    grImprovements.push("Viết câu phức không thành công; lỗi ngữ pháp xảy ra thường xuyên và đôi khi gây khó hiểu.");
-  } else if (grErrors.length >= 3) {
-    // 3 to 4 errors in complex structures: EXACT BAND 5 IN RUBRIC
-    grBand = 5;
-    grStrengths.push("Kiểm soát tốt các câu đơn giản trong bài.");
-    grImprovements.push("Có cố gắng viết câu phức nhưng đa số bị sai cấu trúc (xem danh sách sửa lỗi bên dưới). Lỗi xảy ra nhưng nhìn chung chưa cản trở việc hiểu nghĩa.");
-  } else if (grErrors.length >= 2) {
-    grBand = 6;
-    grStrengths.push("Sử dụng tốt các câu đơn và có cố gắng dùng câu phức.");
-    grImprovements.push("Có lỗi ngữ pháp xuất hiện trong câu phức nhưng hiếm khi gây hiểu nhầm nghĩa.");
-  } else if (grErrors.length === 1) {
+    grImprovements.push('Không thể viết thành câu hoàn chỉnh.');
+  } else if (cleanRatio >= 0.85 && grErrors.length <= 1) {
+    grBand = 8;
+    grStrengths.push(`Đa số các câu hoàn toàn không có lỗi (${cleanSentences.length}/${totalSentences} câu đúng, đạt ${(cleanRatio * 100).toFixed(0)}%); kiểm soát tốt cấu trúc câu.`);
+  } else if (cleanRatio >= 0.70 && grErrors.length <= 2) {
     grBand = 7;
-    grStrengths.push("Sử dụng tương đối hiệu quả cả câu đơn và câu phức.");
-    grImprovements.push("Chỉ có 1 sơ suất ngữ pháp nhỏ, không cản trở việc hiểu nội dung.");
-  } else {
-    // 0 errors
-    const hasComplex = /(because|although|since|if |so that|when |while |which |who )/i.test(text);
-    if (hasComplex) {
-      grBand = 8;
-      grStrengths.push("Sử dụng đa dạng câu đơn và câu phức với sự kiểm soát tốt; phần lớn các câu hoàn toàn không có lỗi.");
-    } else {
-      grBand = 7;
-      grStrengths.push("Viết chuẩn ngữ pháp không có lỗi, nên kết hợp thêm câu phức để nâng Band lên 8+.");
+    grStrengths.push(`Sử dụng tương đối hiệu quả cả câu đơn và câu phức (${cleanSentences.length}/${totalSentences} câu đúng chuẩn); lỗi ngữ pháp hiếm khi gây hiểu nhầm nghĩa.`);
+    if (grErrors.length > 0) {
+      grImprovements.push(`Cần lưu ý ${grErrors.length} sơ suất ngữ pháp nhỏ để nâng lên Band 8+.`);
     }
+  } else if (cleanRatio >= 0.50 || grErrors.length <= 4) {
+    grBand = 6;
+    grStrengths.push(`Sử dụng tốt các câu đơn và có cố gắng viết câu phức (${cleanSentences.length}/${totalSentences} câu đúng chuẩn); lỗi không gây hiểu lầm nghiêm trọng.`);
+    grImprovements.push(`Có ${grErrors.length} lỗi ngữ pháp trong các câu phức (xem chi tiết mục Sửa lỗi từng câu bên dưới) cần khắc phục.`);
+  } else if (cleanRatio >= 0.30 || grErrors.length <= 6) {
+    grBand = 5;
+    grStrengths.push('Kiểm soát được các câu đơn giản trong bài.');
+    grImprovements.push(`Có cố gắng viết câu phức nhưng đa số bị sai cấu trúc (${grErrors.length} lỗi phát hiện). Lỗi xảy ra nhưng nhìn chung chưa cản trở việc hiểu nghĩa.`);
+  } else {
+    grBand = 4;
+    grStrengths.push('Viết được một số câu đơn cơ bản.');
+    grImprovements.push('Lỗi ngữ pháp xảy ra thường xuyên và đôi khi gây cản trở đọc hiểu nội dung.');
   }
 
   // -------------------------------------------------------------------------
@@ -6005,19 +6342,19 @@ function evaluateVstepLetter(text, topic) {
   const finalScore = Math.round(avg * 2) / 2;
   const writingContribution = (finalScore * 0.3).toFixed(2);
 
-  let level = "Bậc 3 (B1)";
+  let level = 'Bậc 3 (B1)';
   let levelTitle = `Band ${finalScore.toFixed(1)} - Đạt chuẩn B1 (Bậc 3 VSTEP)`;
   if (finalScore >= 8.5) {
-    level = "Bậc 5 (C1)";
+    level = 'Bậc 5 (C1)';
     levelTitle = `Band ${finalScore.toFixed(1)} - Xuất sắc! Đạt chuẩn C1 (Bậc 5 VSTEP)`;
   } else if (finalScore >= 6.0) {
-    level = "Bậc 4 (B2)";
+    level = 'Bậc 4 (B2)';
     levelTitle = `Band ${finalScore.toFixed(1)} - Rất tốt! Đạt chuẩn B2 (Bậc 4 VSTEP)`;
   } else if (finalScore >= 4.0) {
-    level = "Bậc 3 (B1)";
+    level = 'Bậc 3 (B1)';
     levelTitle = `Band ${finalScore.toFixed(1)} - Đạt chuẩn B1 (Bậc 3 VSTEP)`;
   } else {
-    level = "Dưới B1 (A2)";
+    level = 'Dưới B1 (A2)';
     levelTitle = `Band ${finalScore.toFixed(1)} - Chưa đạt chuẩn B1 (Dưới 4.0)`;
   }
 
@@ -6028,10 +6365,14 @@ function evaluateVstepLetter(text, topic) {
     paragraphCount: paragraphCount,
     level: level,
     levelTitle: levelTitle,
-    errors: detectedErrors,
+    analyzedSentences: analyzedSentences,
+    cleanSentencesCount: cleanSentences.length,
+    errorSentencesCount: errorSentences.length,
+    totalErrorsCount: allErrors.length,
+    errors: allErrors,
     criteria: [
       {
-        id: "tf",
+        id: 'tf',
         name: VSTEP_TASK1_RUBRIC.tf.name,
         name_vi: VSTEP_TASK1_RUBRIC.tf.name_vi,
         icon: VSTEP_TASK1_RUBRIC.tf.icon,
@@ -6045,7 +6386,7 @@ function evaluateVstepLetter(text, topic) {
         status: tfBand >= 7 ? 'good' : (tfBand >= 5 ? 'fair' : 'need_work')
       },
       {
-        id: "or",
+        id: 'or',
         name: VSTEP_TASK1_RUBRIC.or.name,
         name_vi: VSTEP_TASK1_RUBRIC.or.name_vi,
         icon: VSTEP_TASK1_RUBRIC.or.icon,
@@ -6059,7 +6400,7 @@ function evaluateVstepLetter(text, topic) {
         status: orBand >= 7 ? 'good' : (orBand >= 5 ? 'fair' : 'need_work')
       },
       {
-        id: "vo",
+        id: 'vo',
         name: VSTEP_TASK1_RUBRIC.vo.name,
         name_vi: VSTEP_TASK1_RUBRIC.vo.name_vi,
         icon: VSTEP_TASK1_RUBRIC.vo.icon,
@@ -6074,7 +6415,7 @@ function evaluateVstepLetter(text, topic) {
         status: voBand >= 7 ? 'good' : (voBand >= 5 ? 'fair' : 'need_work')
       },
       {
-        id: "gr",
+        id: 'gr',
         name: VSTEP_TASK1_RUBRIC.gr.name,
         name_vi: VSTEP_TASK1_RUBRIC.gr.name_vi,
         icon: VSTEP_TASK1_RUBRIC.gr.icon,
@@ -6090,6 +6431,26 @@ function evaluateVstepLetter(text, topic) {
       }
     ]
   };
+}
+
+let activeEvaluationTab = 'sentences';
+
+function switchEvalViewTab(tabKey) {
+  activeEvaluationTab = tabKey;
+  const sTab = document.getElementById('tab-btn-eval-sentences');
+  const rTab = document.getElementById('tab-btn-eval-rubric');
+  const mTab = document.getElementById('tab-btn-eval-model');
+  const sBox = document.getElementById('eval-content-sentences');
+  const rBox = document.getElementById('eval-content-rubric');
+  const mBox = document.getElementById('eval-content-model');
+
+  if (sTab) sTab.classList.toggle('active', tabKey === 'sentences');
+  if (rTab) rTab.classList.toggle('active', tabKey === 'rubric');
+  if (mTab) mTab.classList.toggle('active', tabKey === 'model');
+
+  if (sBox) sBox.style.display = tabKey === 'sentences' ? 'block' : 'none';
+  if (rBox) rBox.style.display = tabKey === 'rubric' ? 'block' : 'none';
+  if (mBox) mBox.style.display = tabKey === 'model' ? 'block' : 'none';
 }
 
 function renderEvaluationView(evalResult, userText) {
@@ -6112,123 +6473,170 @@ function renderEvaluationView(evalResult, userText) {
     weightProgressEl.style.width = `${pct.toFixed(1)}%`;
   }
 
-  // Update criteria cards in right pane with full official rubric descriptors & error report
+  // Render into right analysis pane
   const listEl = document.getElementById('feedback-details-list');
   if (listEl) {
-    let errorsHtml = '';
-    if (evalResult.errors && evalResult.errors.length > 0) {
-      errorsHtml = `
-        <div class="vstep-error-report-card">
-          <div class="vstep-error-report-header">
-            <div class="vstep-error-report-title">
-              <i class="fa-solid fa-triangle-exclamation"></i>
-              <span>CÁC LỖI CẦN KHẮC PHỤC (${evalResult.errors.length} lỗi phát hiện)</span>
-            </div>
-            <span class="vstep-error-badge">${evalResult.errors.length} lỗi</span>
-          </div>
-          <div class="vstep-error-note">
-            Bài viết có một số lỗi ngữ pháp & từ vựng bên dưới cần lưu ý sửa chữa để nâng Band điểm:
-          </div>
-          <div class="vstep-error-items-list">
-            ${evalResult.errors.map((err, idx) => `
-              <div class="vstep-error-item">
-                <div class="vstep-error-item-head">
-                  <span class="vstep-error-cat-tag ${err.category}">${escapeHtml(err.category.toUpperCase())}</span>
-                  <strong class="vstep-error-item-title">${idx + 1}. ${escapeHtml(err.title)}</strong>
-                </div>
-                <div class="vstep-error-comparison">
-                  <div class="vstep-error-wrong">
-                    <span class="vstep-err-label">Chỗ viết sai:</span>
-                    <span class="vstep-err-strike">"${escapeHtml(err.quote)}"</span>
+    const sents = evalResult.analyzedSentences || [];
+    const cleanCount = evalResult.cleanSentencesCount || 0;
+    const errorCount = evalResult.errorSentencesCount || 0;
+
+    // 1. Tab Nav Buttons
+    const tabNavHtml = `
+      <div class="eval-nav-tabs">
+        <button type="button" class="eval-nav-tab ${activeEvaluationTab === 'sentences' ? 'active' : ''}" id="tab-btn-eval-sentences" onclick="switchEvalViewTab('sentences')">
+          <i class="fa-solid fa-list-check"></i> Sửa lỗi từng câu (${sents.length})
+        </button>
+        <button type="button" class="eval-nav-tab ${activeEvaluationTab === 'rubric' ? 'active' : ''}" id="tab-btn-eval-rubric" onclick="switchEvalViewTab('rubric')">
+          <i class="fa-solid fa-scale-balanced"></i> 4 Tiêu chí VSTEP
+        </button>
+        <button type="button" class="eval-nav-tab ${activeEvaluationTab === 'model' ? 'active' : ''}" id="tab-btn-eval-model" onclick="switchEvalViewTab('model')">
+          <i class="fa-solid fa-award"></i> Bài mẫu đối chiếu
+        </button>
+      </div>
+    `;
+
+    // 2. Sentences Tab Content
+    const sentencesContentHtml = `
+      <div id="eval-content-sentences" style="display: ${activeEvaluationTab === 'sentences' ? 'block' : 'none'};">
+        <div class="sent-eval-summary">
+          <span class="sent-summary-chip total"><i class="fa-solid fa-file-lines"></i> Tổng: ${sents.length} câu</span>
+          <span class="sent-summary-chip clean"><i class="fa-solid fa-circle-check"></i> Đạt chuẩn: ${cleanCount} câu</span>
+          <span class="sent-summary-chip error"><i class="fa-solid fa-circle-exclamation"></i> Cần sửa: ${errorCount} câu</span>
+        </div>
+
+        <div class="sent-eval-list">
+          ${sents.map(s => {
+            const isClean = s.status === 'clean';
+            const isMinor = s.status === 'minor';
+            const badgeClass = isClean ? 'badge-clean' : (isMinor ? 'badge-minor' : 'badge-error');
+            const badgeText = isClean ? '✓ Đúng chuẩn' : (isMinor ? '⚠️ Sơ suất nhỏ' : `❌ ${s.errors.length} lỗi cần sửa`);
+
+            return `
+              <div class="sent-eval-card ${s.status}">
+                <div class="sent-eval-head">
+                  <div class="sent-eval-num">
+                    <i class="fa-solid fa-quote-left"></i> Câu ${s.num}
                   </div>
-                  <div class="vstep-error-fix">
-                    <span class="vstep-err-label">Sửa đúng:</span>
-                    <span class="vstep-err-correct"><i class="fa-solid fa-check"></i> "${escapeHtml(err.fix)}"</span>
+                  <span class="sent-eval-role">${escapeHtml(s.role)}</span>
+                  <span class="sent-eval-badge ${badgeClass}">${badgeText}</span>
+                </div>
+
+                <div class="sent-eval-original">
+                  "${s.highlightedHtml}"
+                </div>
+
+                ${s.errors.length > 0 ? `
+                  <div class="sent-eval-errors">
+                    ${s.errors.map(err => `
+                      <div class="sent-err-row">
+                        <div style="display: flex; align-items: center; justify-content: space-between; gap: 0.5rem; margin-bottom: 0.2rem;">
+                          <span class="sent-err-tag">${escapeHtml(err.category.toUpperCase())}</span>
+                          <strong style="color: var(--text-primary); font-size: 0.85rem;">${escapeHtml(err.title)}</strong>
+                        </div>
+                        <div class="sent-err-diff">
+                          <span class="sent-err-wrong">"${escapeHtml(err.quote)}"</span>
+                          <i class="fa-solid fa-arrow-right" style="color: #6366f1; font-size: 0.8rem;"></i>
+                          <span class="sent-err-fix"><i class="fa-solid fa-check"></i> "${escapeHtml(err.fix)}"</span>
+                        </div>
+                        <div class="sent-err-desc">
+                          <i class="fa-solid fa-circle-info"></i> ${err.explanation}
+                        </div>
+                      </div>
+                    `).join('')}
+
+                    <div class="sent-corrected-box">
+                      <span class="sent-corrected-label"><i class="fa-solid fa-circle-check"></i> Câu viết lại chuẩn xác:</span>
+                      <div class="sent-corrected-text">"${escapeHtml(s.correctedText)}"</div>
+                    </div>
                   </div>
-                </div>
-                <div class="vstep-error-desc">
-                  <i class="fa-solid fa-circle-info"></i> ${err.explanation}
-                </div>
+                ` : `
+                  <div class="sent-clean-note">
+                    <i class="fa-solid fa-circle-check"></i> Câu này diễn đạt tốt, đúng ngữ pháp và từ vựng chuẩn mực.
+                  </div>
+                `}
               </div>
-            `).join('')}
-          </div>
-        </div>
-      `;
-    } else {
-      errorsHtml = `
-        <div class="vstep-error-report-card clean">
-          <div style="display: flex; align-items: center; gap: 0.6rem; color: #10b981; font-weight: 700; font-size: 0.88rem;">
-            <i class="fa-solid fa-circle-check" style="font-size: 1.15rem;"></i>
-            <span>Tuyệt vời! Không phát hiện lỗi ngữ pháp hay từ vựng cơ bản nào. Bài viết kiểm soát câu rất tốt.</span>
-          </div>
-        </div>
-      `;
-    }
-
-    const criteriaCardsHtml = evalResult.criteria.map(c => `
-      <div class="rubric-criterion-card ${c.status}">
-        <div class="rubric-criterion-head">
-          <div class="rubric-criterion-title">
-            <i class="fa-solid ${c.icon}" style="color: #6366f1;"></i>
-            <span>${escapeHtml(c.name)}</span>
-          </div>
-          <span class="rubric-band-badge">Band ${c.band}/10 • ${c.score}đ</span>
-        </div>
-
-        <div style="font-size: 0.78rem; color: var(--text-secondary); margin-bottom: 0.5rem; display: flex; justify-content: space-between;">
-          <span>${escapeHtml(c.name_vi)}</span>
-          <span style="color: #6366f1; font-weight: 600;">${escapeHtml(c.weight)}</span>
-        </div>
-
-        <div class="rubric-desc-box">
-          <div class="rubric-desc-title">
-            <i class="fa-solid fa-scale-balanced"></i> Tiêu chuẩn chính thức VSTEP (Band ${c.band}):
-          </div>
-          <div class="rubric-en">"${escapeHtml(c.descriptor_en)}"</div>
-          <div class="rubric-vi">${escapeHtml(c.descriptor_vi)}</div>
-        </div>
-
-        <div class="rubric-bullets">
-          ${c.strengths.length > 0 ? `
-            <div style="margin-bottom: 0.4rem;">
-              <strong style="color: #10b981; font-size: 0.76rem; text-transform: uppercase;"><i class="fa-solid fa-circle-check"></i> Điểm sáng:</strong>
-              ${c.strengths.map(s => `
-                <div class="rubric-bullet-item" style="color: var(--text-primary); margin-top: 0.2rem;">
-                  <i class="fa-solid fa-check" style="color: #10b981; font-size: 0.7rem;"></i>
-                  <span>${escapeHtml(s)}</span>
-                </div>
-              `).join('')}
-            </div>
-          ` : ''}
-
-          ${c.improvements.length > 0 ? `
-            <div>
-              <strong style="color: #f59e0b; font-size: 0.76rem; text-transform: uppercase;"><i class="fa-solid fa-lightbulb"></i> Gợi ý nâng Band:</strong>
-              ${c.improvements.map(imp => `
-                <div class="rubric-bullet-item" style="color: var(--text-secondary); margin-top: 0.2rem;">
-                  <i class="fa-solid fa-arrow-up-right-dots" style="color: #f59e0b; font-size: 0.7rem;"></i>
-                  <span>${escapeHtml(imp)}</span>
-                </div>
-              `).join('')}
-            </div>
-          ` : ''}
-
-          ${c.errors && c.errors.length > 0 ? `
-            <div style="margin-top: 0.45rem; padding-top: 0.35rem; border-top: 1px dashed rgba(239, 68, 68, 0.25);">
-              <strong style="color: #ef4444; font-size: 0.76rem; text-transform: uppercase;"><i class="fa-solid fa-circle-xmark"></i> Các lỗi bị trừ điểm (${c.errors.length} lỗi):</strong>
-              ${c.errors.map(err => `
-                <div class="rubric-bullet-item" style="color: #ef4444; margin-top: 0.2rem;">
-                  <i class="fa-solid fa-xmark" style="color: #ef4444; font-size: 0.7rem;"></i>
-                  <span><strong>"${escapeHtml(err.quote)}"</strong> → <em>"${escapeHtml(err.fix)}"</em>: ${escapeHtml(err.title)}</span>
-                </div>
-              `).join('')}
-            </div>
-          ` : ''}
+            `;
+          }).join('')}
         </div>
       </div>
-    `).join('');
+    `;
 
-    listEl.innerHTML = errorsHtml + criteriaCardsHtml;
+    // 3. Rubric Tab Content (Official VSTEP Criteria)
+    const rubricContentHtml = `
+      <div id="eval-content-rubric" style="display: ${activeEvaluationTab === 'rubric' ? 'block' : 'none'};">
+        ${evalResult.criteria.map(c => `
+          <div class="rubric-criterion-card ${c.status}">
+            <div class="rubric-criterion-head">
+              <div class="rubric-criterion-title">
+                <i class="fa-solid ${c.icon}" style="color: #6366f1;"></i>
+                <span>${escapeHtml(c.name)}</span>
+              </div>
+              <span class="rubric-band-badge">Band ${c.band}/10 • ${c.score}đ</span>
+            </div>
+
+            <div style="font-size: 0.78rem; color: var(--text-secondary); margin-bottom: 0.5rem; display: flex; justify-content: space-between;">
+              <span>${escapeHtml(c.name_vi)}</span>
+              <span style="color: #6366f1; font-weight: 600;">${escapeHtml(c.weight)}</span>
+            </div>
+
+            <div class="rubric-desc-box">
+              <div class="rubric-desc-title">
+                <i class="fa-solid fa-scale-balanced"></i> Tiêu chuẩn chính thức VSTEP (Band ${c.band}):
+              </div>
+              <div class="rubric-en">"${escapeHtml(c.descriptor_en)}"</div>
+              <div class="rubric-vi">${escapeHtml(c.descriptor_vi)}</div>
+            </div>
+
+            <div class="rubric-bullets">
+              ${c.strengths.length > 0 ? `
+                <div style="margin-bottom: 0.4rem;">
+                  <strong style="color: #10b981; font-size: 0.76rem; text-transform: uppercase;"><i class="fa-solid fa-circle-check"></i> Điểm sáng:</strong>
+                  ${c.strengths.map(s => `
+                    <div class="rubric-bullet-item" style="color: var(--text-primary); margin-top: 0.2rem;">
+                      <i class="fa-solid fa-check" style="color: #10b981; font-size: 0.7rem;"></i>
+                      <span>${escapeHtml(s)}</span>
+                    </div>
+                  `).join('')}
+                </div>
+              ` : ''}
+
+              ${c.improvements.length > 0 ? `
+                <div>
+                  <strong style="color: #f59e0b; font-size: 0.76rem; text-transform: uppercase;"><i class="fa-solid fa-lightbulb"></i> Gợi ý nâng Band:</strong>
+                  ${c.improvements.map(imp => `
+                    <div class="rubric-bullet-item" style="color: var(--text-secondary); margin-top: 0.2rem;">
+                      <i class="fa-solid fa-arrow-up-right-dots" style="color: #f59e0b; font-size: 0.7rem;"></i>
+                      <span>${escapeHtml(imp)}</span>
+                    </div>
+                  `).join('')}
+                </div>
+              ` : ''}
+            </div>
+          </div>
+        `).join('')}
+      </div>
+    `;
+
+    // 4. Model Tab Content
+    const topic = state.currentTopic;
+    const modelLetterText = topic?.details?.sample_b1?.text || topic?.details?.sample_b1?.letter_en || 'Đang cập nhật bài mẫu chuẩn...';
+    const modelContentHtml = `
+      <div id="eval-content-model" style="display: ${activeEvaluationTab === 'model' ? 'block' : 'none'};">
+        <div class="reading-section-card" style="padding: 1rem 1.15rem; background: var(--bg-primary); border: 1px solid var(--panel-border);">
+          <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.75rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--panel-border);">
+            <strong style="color: var(--accent-primary);"><i class="fa-solid fa-award"></i> BÀI VIẾT THƯ MẪU B1 CHUẨN</strong>
+            <button class="btn btn-secondary" onclick="copyIdeaText('${escapeHtml(modelLetterText).replace(/\n/g, '\\n')}')" style="font-size: 0.75rem; padding: 0.25rem 0.6rem;">
+              <i class="fa-solid fa-copy"></i> Sao chép
+            </button>
+          </div>
+          <div style="font-size: 0.92rem; line-height: 1.7; color: var(--text-primary); white-space: pre-wrap;">
+            ${escapeHtml(modelLetterText)}
+          </div>
+        </div>
+      </div>
+    `;
+
+    listEl.innerHTML = tabNavHtml + sentencesContentHtml + rubricContentHtml + modelContentHtml;
   }
 }
 
