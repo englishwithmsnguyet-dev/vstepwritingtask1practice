@@ -505,6 +505,26 @@ const state = {
 // ==========================================================================
 const ACCESS_PASSWORDS = ['STUDYHARD', 'PRACTICEWRITING'];
 const ALLOWED_CLASSES = ['CB206', 'CB210'];
+const VALID_STUDENTS = {
+  'CB206': [
+    'Văn Như Anh', 'Nguyễn Thị Vân Anh', 'Nguyễn Thị Hồng Duyên', 'Nguyễn Thị Thúy Hồng',
+    'Trương Ngọc Nhi', 'Nguyễn Phạm Như Quỳnh', 'Trần Lê Quỳnh', 'Thị Mỹ Tâm', 'Ông Lê Thành',
+    'Trần Nguyễn Thanh Thảo', 'Phan Nhật Thiện', 'Nguyễn Mỹ Tiên', 'Trần Thị Cẩm Tiên',
+    'Võ Trần Bảo Tính', 'Trương Thanh Toàn', 'Phạm Ngọc Trâm', 'Nguyễn Võ Bảo Trân'
+  ],
+  'CB210': [
+    'Nguyễn Võ Thành Đạt', 'Lê Huỳnh Thanh Duy', 'Nguyễn Cao Kỳ Duyên', 'Đào Ngọc Hân', 
+    'Trần Văn Hữu', 'Trần Văn Kim Khoa', 'Nguyễn Thanh Nâng', 'Huỳnh Kỳ Nguyên', 
+    'Võ Thị Kim Nguyên', 'Võ Hùng Sanh', 'Tiền Thị Thanh Thảo', 'Trần Thị Thanh Thảo', 'Đặng Thị Kim Thoa', 
+    'Trần Thị Tiên Tiên', 'Lê Kim Tuyền'
+  ]
+};
+
+function normalizeVietnameseName(str) {
+  if (!str) return '';
+  return str.trim().toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[đĐ]/g, 'd').replace(/\s+/g, ' ');
+}
+
 
 function togglePasswordVisibility() {
   const pwdInput = document.getElementById('student-password');
@@ -612,6 +632,19 @@ function enterRoom() {
         studentPasswordInput.focus();
         studentPasswordInput.select();
       }
+      return;
+    }
+
+    // Kiểm tra Họ và tên học viên trong danh sách lớp
+    const roster = VALID_STUDENTS[finalClassVal] || [];
+    const normInp = normalizeVietnameseName(nameVal);
+    const foundStudent = roster.find(st => normalizeVietnameseName(st) === normInp);
+    if (!foundStudent) {
+      if (loginError) {
+        loginError.textContent = `Họ và tên "${nameVal}" không có trong danh sách lớp ${finalClassVal}! Vui lòng kiểm tra lại họ và tên có dấu.`;
+        loginError.style.display = 'block';
+      }
+      if (studentInput) studentInput.focus();
       return;
     }
   }
