@@ -3854,13 +3854,13 @@ body.zen-active .writing-textarea {
 }
 
 .login-title-custom {
-  font-size: 1.85rem !important;
-  font-weight: 700 !important;
-  color: #8b5cf6 !important;
+  font-size: 1.65rem !important;
+  font-weight: 800 !important;
+  color: #0f172a !important;
   margin-top: 0 !important;
-  margin-bottom: 1.75rem !important;
+  margin-bottom: 1.5rem !important;
   line-height: 1.35 !important;
-  letter-spacing: 0.5px !important;
+  letter-spacing: -0.01em !important;
   text-align: center !important;
 }
 
@@ -3906,21 +3906,22 @@ body.zen-active .writing-textarea {
 
 .btn-login-custom {
   width: 100% !important;
-  padding: 1.05rem !important;
+  padding: 0.95rem 1.25rem !important;
   border-radius: 14px !important;
-  background: #8b5cf6 !important;
+  background: linear-gradient(135deg, #6366f1 0%, #7c3aed 100%) !important;
   color: #ffffff !important;
-  font-size: 1.15rem !important;
-  font-weight: 700 !important;
-  letter-spacing: 0.5px !important;
+  font-size: 1.05rem !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.6px !important;
   border: none !important;
   cursor: pointer !important;
   transition: all 0.25s ease !important;
-  box-shadow: 0 6px 20px rgba(139, 92, 246, 0.35) !important;
+  box-shadow: 0 8px 20px rgba(99, 102, 241, 0.35) !important;
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
-  gap: 0.5rem !important;
+  gap: 0.6rem !important;
+  margin-top: 0.6rem !important;
 }
 
 .btn-login-custom:hover {
