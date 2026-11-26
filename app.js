@@ -532,9 +532,19 @@ function enterRoom() {
   
   const nameVal = (studentInput?.value || '').trim();
   const rawClassVal = (studentClassInput?.value || '').trim();
-  // Chuẩn hóa mã lớp: loại bỏ dấu cách và gạch nối, chuyển chữ hoa (ví dụ: cb206, cb 206, cb-206 -> CB206)
   const classVal = rawClassVal.toUpperCase().replace(/[\s\-_]+/g, '');
   const passwordVal = (studentPasswordInput?.value || '').trim();
+
+  const normNoTone = nameVal.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/đ/g, "d");
+  const isLockedStudent = normNoTone.includes('gia tue') || normNoTone.replace(/\s+/g, '').includes('giatue');
+  if (isLockedStudent || classVal === 'B2') {
+    if (loginError) {
+      loginError.textContent = 'Tài khoản học viên "Gia Tuệ" hiện đã bị KHÓA! Vui lòng liên hệ Giáo viên (Cô Nguyệt).';
+      loginError.style.display = 'block';
+    }
+    if (studentInput) studentInput.focus();
+    return;
+  }
   
   if (!nameVal) {
     if (loginError) {
